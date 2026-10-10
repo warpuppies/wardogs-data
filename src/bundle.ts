@@ -115,7 +115,7 @@ export function bundleNotes(root: string, build: string): string {
     `| \`${zipName(build, "small")}\` | ${mb(sizeOf(small))} unpacked | JSON, JSON Schema and CSV data, the data dictionary, the README and the license. |`,
     `| \`${zipName(build, "full")}\` | ${mb(sizeOf(small) + images)} unpacked | Everything above, plus the item icons (PNG) and the map tiles (WebP) and heightmaps of every world. |`,
     "",
-    "Each archive has a `.sha256` file next to it. The archives are reproducible: the same files give the same bytes.",
+    "The icons and map tiles are already compressed, so the full zip downloads at about its unpacked size. Each archive has a `.sha256` file next to it. The archives are reproducible: the same files give the same bytes.",
     "",
     "Unofficial project, not affiliated with the game's developer or publisher. The repository is released under the Unlicense; the game's names, numbers and imagery remain the property of the developer and publisher.",
     "",
