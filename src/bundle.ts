@@ -80,14 +80,29 @@ const sizeOf = (entries: readonly ZipEntry[]): number => entries.reduce((sum, e)
 
 const mb = (bytes: number): string => `${Math.max(1, Math.round(bytes / 1024 / 1024))} MB`;
 
+/**
+ * Bytes of the icons, map tiles and heightmaps, from their manifests. The images themselves are not in git, so this
+ * must not look at the disk: CI builds the notes without them.
+ */
+export function imageBytes(root: string): number {
+  const read = (name: string): unknown => {
+    const file = join(root, "assets", name);
+    return existsSync(file) ? JSON.parse(readFileSync(file, "utf8")) : {};
+  };
+  const sum = (files: unknown): number => (Array.isArray(files) ? files.reduce((s: number, f: { bytes?: number }) => s + (f.bytes ?? 0), 0) : 0);
+  const icons = read("icons.manifest.json") as { files?: unknown };
+  const maps = read("maps.manifest.json") as { worlds?: Record<string, { files?: unknown; heightmap?: { bytes?: number } }> };
+  return sum(icons.files) + Object.values(maps.worlds ?? {}).reduce((s, w) => s + sum(w.files) + (w.heightmap?.bytes ?? 0), 0);
+}
+
 /** Release notes, derived from the data files and the folders, so they cannot disagree with the archives. */
 export function bundleNotes(root: string, build: string): string {
   const small = bundleEntries(root, build, "small");
-  const assetBytes = existsSync(join(root, "assets")) ? [...walk(join(root, "assets"), root)].reduce((sum, rel) => sum + statSync(join(root, rel)).size, 0) : 0;
+  const images = imageBytes(root);
   return [
     `# Wardogs data, game build ${build}`,
     "",
-    "Structured data extracted from the game at this build. `data/README.md` inside either archive describes every file and field, and says what is complete and what is missing.",
+    "Structured data for the game at this build. `data/README.md` inside either archive describes every file and field, and says what is complete and what is missing.",
     "",
     "## Contents",
     "",
@@ -98,7 +113,7 @@ export function bundleNotes(root: string, build: string): string {
     "| File | About | Contents |",
     "| --- | --- | --- |",
     `| \`${zipName(build, "small")}\` | ${mb(sizeOf(small))} unpacked | JSON, JSON Schema and CSV data, the data dictionary, the README and the license. |`,
-    `| \`${zipName(build, "full")}\` | ${mb(sizeOf(small) + assetBytes)} unpacked | Everything above, plus the item icons (PNG) and the map tiles (WebP) and heightmaps of every world. |`,
+    `| \`${zipName(build, "full")}\` | ${mb(sizeOf(small) + images)} unpacked | Everything above, plus the item icons (PNG) and the map tiles (WebP) and heightmaps of every world. |`,
     "",
     "Each archive has a `.sha256` file next to it. The archives are reproducible: the same files give the same bytes.",
     "",

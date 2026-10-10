@@ -2,7 +2,7 @@ import { mkdirSync, mkdtempSync, readFileSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { dirname, join } from "node:path";
 import { describe, expect, it } from "vitest";
-import { buildZipBundles, bundleEntries, bundleNotes, readBuild, zipName } from "../src/bundle.js";
+import { buildZipBundles, bundleEntries, bundleNotes, imageBytes, readBuild, zipName } from "../src/bundle.js";
 import { API_VERSION, buildSite, landingPage, siteMatchesIndex } from "../src/site.js";
 
 function put(path: string, content: string): void {
@@ -62,6 +62,19 @@ describe("bundles", () => {
     const built = buildZipBundles(noAssets, join(noAssets, "out"), ["small"]);
     expect(built.files.map((f) => f.kind)).toEqual(["small"]);
     expect(() => bundleEntries(noAssets, "9", "full")).toThrow(/assets/);
+  });
+
+  it("sizes the full zip from the manifests, so notes built where the images are absent still say how big it is", () => {
+    const root = mkdtempSync(join(tmpdir(), "wardogs-bundle-"));
+    const MB = 1024 * 1024;
+    put(join(root, "data/MANIFEST.json"), JSON.stringify({ provenance: { gameBuild: "5" } }));
+    put(join(root, "data/items.json"), "{}");
+    put(join(root, "assets/icons.manifest.json"), JSON.stringify({ files: [{ path: "a.png", bytes: 20 * MB }] }));
+    put(join(root, "assets/maps.manifest.json"), JSON.stringify({ worlds: { w: { files: [{ path: "t.webp", bytes: 300 * MB }], heightmap: { path: "h.png", bytes: 80 * MB } } } }));
+    expect(imageBytes(root)).toBe(400 * MB);
+    const notes = bundleNotes(root, "5");
+    expect(notes).toMatch(/-full\.zip` \| 400 MB unpacked/);
+    expect(notes).not.toMatch(/\b[0-9] MB unpacked \| Everything/);
   });
 
   it("describes both archives in the notes, and says what the project is", () => {
