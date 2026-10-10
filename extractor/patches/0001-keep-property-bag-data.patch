@@ -1,0 +1,21 @@
+diff --git a/CUE4Parse/UE4/Objects/StructUtils/FInstancedPropertyBag.cs b/CUE4Parse/UE4/Objects/StructUtils/FInstancedPropertyBag.cs
+index 3643a35..c1eb8cf 100644
+--- a/CUE4Parse/UE4/Objects/StructUtils/FInstancedPropertyBag.cs
++++ b/CUE4Parse/UE4/Objects/StructUtils/FInstancedPropertyBag.cs
+@@ -43,6 +43,7 @@ public class FInstancedPropertyBag : IUStruct
+ {
+     public FPropertyBagPropertyDesc[] PropertyDescs = [];
+     public int SerialSize;
++    public byte[] Data = [];
+ 
+     public FInstancedPropertyBag(FAssetArchive Ar)
+     {
+@@ -71,7 +72,7 @@ public FInstancedPropertyBag(FAssetArchive Ar)
+         // BagStruct = const_cast<UPropertyBag*>(UPropertyBag::GetOrCreateFromDescs(PropertyDescs));
+         // and then read as FStructFallback
+ 
+-        Ar.Position += SerialSize;
++        Data = Ar.ReadBytes(SerialSize);
+     }
+ 
+     public enum EVersion : byte

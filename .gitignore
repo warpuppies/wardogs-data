@@ -1,0 +1,19 @@
+node_modules/
+.cache/
+.env
+*.usmap
+*.key
+extractor/bin/
+extractor/obj/
+extractor/CUE4Parse/
+
+# Private working spec (decision log); never commit
+SPEC*.md
+
+# Built release assets (tiles, overview images); published through the release step, never committed
+dist/
+
+# Item icons, map tiles and heightmaps: built locally (`pnpm icons`, `pnpm maps`) and shipped in the full zip, never committed.
+# Their manifests (assets/*.manifest.json) are tracked.
+assets/icons/
+assets/maps/

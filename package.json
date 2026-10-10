@@ -1,0 +1,45 @@
+{
+  "name": "wardogs-data",
+  "version": "0.1.0",
+  "private": true,
+  "license": "Unlicense",
+  "type": "module",
+  "description": "Extraction pipeline and structured game data for Wardogs, with tests that catch format changes after game updates.",
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@11.5.1",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "cli": "tsx --env-file-if-exists=.env src/cli.ts",
+    "doctor": "tsx --env-file-if-exists=.env src/cli.ts doctor",
+    "setup:extractor": "bash scripts/setup-extractor.sh",
+    "extract": "tsx --env-file-if-exists=.env src/cli.ts extract",
+    "diff": "tsx --env-file-if-exists=.env src/cli.ts diff",
+    "update-data": "tsx --env-file-if-exists=.env src/cli.ts update",
+    "check": "pnpm typecheck && pnpm test && pnpm verify",
+    "plan": "tsx --env-file-if-exists=.env src/cli.ts plan",
+    "apply": "tsx --env-file-if-exists=.env src/cli.ts apply",
+    "verify": "tsx --env-file-if-exists=.env src/cli.ts verify",
+    "icons": "tsx --env-file-if-exists=.env src/cli.ts icons",
+    "maps": "tsx --env-file-if-exists=.env src/cli.ts maps",
+    "assets": "tsx --env-file-if-exists=.env src/cli.ts assets",
+    "verify:assets": "tsx --env-file-if-exists=.env src/cli.ts verify-assets",
+    "readme": "tsx --env-file-if-exists=.env src/cli.ts readme",
+    "bundle": "tsx --env-file-if-exists=.env src/cli.ts bundle",
+    "site": "tsx --env-file-if-exists=.env src/cli.ts site"
+  },
+  "dependencies": {
+    "sharp": "0.35.5",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "ajv": "^8.20.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0"
+  }
+}

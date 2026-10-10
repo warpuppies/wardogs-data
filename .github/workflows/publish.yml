@@ -1,0 +1,63 @@
+name: publish
+
+# Runs when a build tag is pushed (git tag build-<id> && git push origin build-<id>), on the dev branch so the tag
+# holds the tooling. Nothing is published any other way. See DEVELOPING.md, "Publishing a build".
+on:
+  push:
+    tags: ["build-*"]
+
+permissions:
+  contents: read
+
+jobs:
+  # The small zip is built here from data/. The full zip (icons and map tiles, which are not in git) is built on your
+  # machine with `pnpm bundle` and added to this release with `gh release upload`.
+  small:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm bundle --small
+      - name: Create the release with the small zip
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" dist/bundles/*.zip dist/bundles/*.sha256 \
+            --title "Game build ${GITHUB_REF_NAME#build-}" \
+            --notes-file dist/bundles/RELEASE-NOTES.md
+
+  # The static API: every file under data/ at /v1/, no images.
+  pages:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm site
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/site
+      - id: deployment
+        uses: actions/deploy-pages@v4

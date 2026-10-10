@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <NoWarn>$(NoWarn);CS8618;CS8600;CS8601;CS8602;CS8604;CS8625</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- The pinned CUE4Parse checkout lives inside this folder; it is built through the project reference only. -->
+    <Compile Remove="CUE4Parse/**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="CUE4Parse/CUE4Parse/CUE4Parse.csproj" />
+    <ProjectReference Include="CUE4Parse/CUE4Parse-Conversion/CUE4Parse-Conversion.csproj" />
+  </ItemGroup>
+
+</Project>
