@@ -32,6 +32,7 @@ Id.Item.AK74M,AK74,Sight,Id.Item.SGHT_029,3x Tactical Prism Scope,false
 Id.Item.AK74M,AK74,Sight,Id.Item.SGHT_030,4x Combat Prism Scope with Reflex,false
 Id.Item.AK74M,AK74,Sight,Id.Item.SGHT_033,CGM4 Scope,false
 Id.Item.AK74M,AK74,Sight,Id.Item.SGHT_037,MMGL Sight,false
+Id.Item.AK74M,AK74,Sight,Id.Item.SGHT_038,Compact P-1 Red Dot,false
 Id.Item.AK74M,AK74,Magazine,Id.Item.AK74MExtendedMagazine,AK74 60 RND Magazine,false
 Id.Item.AK74M,AK74,Magazine,Id.Item.AK74MMagazine,AK74 30 RND Magazine,true
 Id.Item.AK74M,AK74,Magazine,Id.Item.AK74MMagazine75rnd,AK74 75 RND Drum Magazine,false
@@ -72,6 +73,7 @@ Id.Item.ArtilleryBarrelTest,Artillery Barrel Test,Sight,Id.Item.SGHT_032,Frontie
 Id.Item.ArtilleryBarrelTest,Artillery Barrel Test,Sight,Id.Item.SGHT_033,CGM4 Scope,false
 Id.Item.ArtilleryBarrelTest,Artillery Barrel Test,Sight,Id.Item.SGHT_036,6x Marksman Scope + Reflex,false
 Id.Item.ArtilleryBarrelTest,Artillery Barrel Test,Sight,Id.Item.SGHT_037,MMGL Sight,false
+Id.Item.ArtilleryBarrelTest,Artillery Barrel Test,Sight,Id.Item.SGHT_038,Compact P-1 Red Dot,false
 Id.Item.CGM4,MAAWS,Chamber,Id.Item.84mm,84mm,true
 Id.Item.CGM4,MAAWS,Sight,Id.Item.SGHT_033,CGM4 Scope,false
 Id.Item.CombatBow,Compound Bow,Chamber,Id.Item.Arrow,Arrow,false
@@ -125,6 +127,7 @@ Id.Item.LeapordBarrel,Tank Barrel Test,Sight,Id.Item.SGHT_032,Frontier 2.5x-10x 
 Id.Item.LeapordBarrel,Tank Barrel Test,Sight,Id.Item.SGHT_033,CGM4 Scope,false
 Id.Item.LeapordBarrel,Tank Barrel Test,Sight,Id.Item.SGHT_036,6x Marksman Scope + Reflex,false
 Id.Item.LeapordBarrel,Tank Barrel Test,Sight,Id.Item.SGHT_037,MMGL Sight,false
+Id.Item.LeapordBarrel,Tank Barrel Test,Sight,Id.Item.SGHT_038,Compact P-1 Red Dot,false
 Id.Item.LMG_02,PKM,Chamber,Id.Item.762x54mm,7.62x54mm,false
 Id.Item.LMG_02,PKM,Chamber,Id.Item.762x54mm.ArmorPiercing,7.62x54mm AP,false
 Id.Item.LMG_02,PKM,Chamber,Id.Item.762x54mm.ArmorPiercing.Tracer,7.62x54mm AP (T),false
@@ -146,6 +149,7 @@ Id.Item.LMG_02,PKM,Sight,Id.Item.SGHT_029,3x Tactical Prism Scope,false
 Id.Item.LMG_02,PKM,Sight,Id.Item.SGHT_030,4x Combat Prism Scope with Reflex,false
 Id.Item.LMG_02,PKM,Sight,Id.Item.SGHT_033,CGM4 Scope,false
 Id.Item.LMG_02,PKM,Sight,Id.Item.SGHT_037,MMGL Sight,false
+Id.Item.LMG_02,PKM,Sight,Id.Item.SGHT_038,Compact P-1 Red Dot,false
 Id.Item.LMG_02,PKM,Magazine,Id.Item.LMG_02Magazine,PKM 100 RND Box,true
 Id.Item.LMG_02,PKM,Grip,Id.Item.LMG_02PistolGrip,Id.Item.LMG_02PistolGrip,false
 Id.Item.LMG_02,PKM,Stock,Id.Item.LMG_02Stock,Id.Item.LMG_02Stock,false
@@ -198,6 +202,7 @@ Id.Item.M4,M4,Sight,Id.Item.SGHT_029,3x Tactical Prism Scope,false
 Id.Item.M4,M4,Sight,Id.Item.SGHT_030,4x Combat Prism Scope with Reflex,false
 Id.Item.M4,M4,Sight,Id.Item.SGHT_033,CGM4 Scope,false
 Id.Item.M4,M4,Sight,Id.Item.SGHT_037,MMGL Sight,false
+Id.Item.M4,M4,Sight,Id.Item.SGHT_038,Compact P-1 Red Dot,false
 Id.Item.M4,M4,Magazine,Id.Item.ARExtendedMagazine545mm,AR Extended Mag,false
 Id.Item.M4,M4,Magazine,Id.Item.M4Magazine,M4 Standard Mag,false
 Id.Item.M4,M4,Magazine,Id.Item.STANAGExtendedMagazine,STANAG 60 RND Magazine,false
@@ -241,6 +246,7 @@ Id.Item.M500,M500,Sight,Id.Item.SGHT_029,3x Tactical Prism Scope,false
 Id.Item.M500,M500,Sight,Id.Item.SGHT_030,4x Combat Prism Scope with Reflex,false
 Id.Item.M500,M500,Sight,Id.Item.SGHT_033,CGM4 Scope,false
 Id.Item.M500,M500,Sight,Id.Item.SGHT_037,MMGL Sight,false
+Id.Item.M500,M500,Sight,Id.Item.SGHT_038,Compact P-1 Red Dot,false
 Id.Item.M500,M500,Underbarrel,Id.Item.FGP_02,TDG Vertical Foregrip,false
 Id.Item.M500,M500,Underbarrel,Id.Item.FGP_03,AFG Angled Foregrip,false
 Id.Item.M500,M500,Underbarrel,Id.Item.FGRP_006,RVG Vertical Foregrip,false
@@ -279,6 +285,7 @@ Id.Item.MK22,MK22,Sight,Id.Item.SGHT_032,Frontier 2.5x-10x Precision Scope,false
 Id.Item.MK22,MK22,Sight,Id.Item.SGHT_033,CGM4 Scope,false
 Id.Item.MK22,MK22,Sight,Id.Item.SGHT_036,6x Marksman Scope + Reflex,false
 Id.Item.MK22,MK22,Sight,Id.Item.SGHT_037,MMGL Sight,false
+Id.Item.MK22,MK22,Sight,Id.Item.SGHT_038,Compact P-1 Red Dot,false
 Id.Item.MK22,MK22,Sight,Id.Item.SniperScope10x,6-10x Scope MRAD,false
 Id.Item.MK22,MK22,Underbarrel,Id.Item.FGRP_013,Pro Tilt Bipod,false
 Id.Item.MK22,MK22,Magazine,Id.Item.MAGZ_034,MK22 5 RND Magazine,false
@@ -299,24 +306,7 @@ Id.Item.Mosin,Mosin Nagant,Chamber,Id.Item.762x54mm.ArmorPiercing.Tracer,7.62x54
 Id.Item.Mosin,Mosin Nagant,Chamber,Id.Item.762x54mm.HollowPoint,7.62x54mm HP,false
 Id.Item.Mosin,Mosin Nagant,Chamber,Id.Item.762x54mm.HollowPoint.Tracer,7.62x54mm HP (T),false
 Id.Item.Mosin,Mosin Nagant,Chamber,Id.Item.762x54mm.Tracer,7.62x54mm (T),false
-Id.Item.Mosin,Mosin Nagant,Sight,Id.Item.3xScope,Spitfire 3X,false
-Id.Item.Mosin,Mosin Nagant,Sight,Id.Item.6xScope,3-6x Scope,false
-Id.Item.Mosin,Mosin Nagant,Sight,Id.Item.HybridScope4x,4x Hybrid,false
-Id.Item.Mosin,Mosin Nagant,Sight,Id.Item.OPT_08,2.5x Combat Optic,false
-Id.Item.Mosin,Mosin Nagant,Sight,Id.Item.SGHT_009,Kobra Reflex,false
-Id.Item.Mosin,Mosin Nagant,Sight,Id.Item.SGHT_011,1x-6x LPVO Short Dot,false
-Id.Item.Mosin,Mosin Nagant,Sight,Id.Item.SGHT_016,Four Reticle Reflex,false
-Id.Item.Mosin,Mosin Nagant,Sight,Id.Item.SGHT_023,OKP 7 Reflex,false
-Id.Item.Mosin,Mosin Nagant,Sight,Id.Item.SGHT_026,Tricon 1.5x Compact Prism Scope,false
-Id.Item.Mosin,Mosin Nagant,Sight,Id.Item.SGHT_027,Vektor Frenix-X Micro Reflex Sight,false
-Id.Item.Mosin,Mosin Nagant,Sight,Id.Item.SGHT_028,CQ-2x Prism Combat Scope,false
-Id.Item.Mosin,Mosin Nagant,Sight,Id.Item.SGHT_029,3x Tactical Prism Scope,false
-Id.Item.Mosin,Mosin Nagant,Sight,Id.Item.SGHT_030,4x Combat Prism Scope with Reflex,false
-Id.Item.Mosin,Mosin Nagant,Sight,Id.Item.SGHT_031,6x Precision Rifle Scope,false
-Id.Item.Mosin,Mosin Nagant,Sight,Id.Item.SGHT_032,Frontier 2.5x-10x Precision Scope,false
-Id.Item.Mosin,Mosin Nagant,Sight,Id.Item.SGHT_033,CGM4 Scope,false
-Id.Item.Mosin,Mosin Nagant,Sight,Id.Item.SGHT_036,6x Marksman Scope + Reflex,false
-Id.Item.Mosin,Mosin Nagant,Sight,Id.Item.SGHT_037,MMGL Sight,false
+Id.Item.Mosin,Mosin Nagant,Sight,Id.Item.SGHT_040,PU 91/30 Scope,false
 Id.Item.Mosin,Mosin Nagant,Magazine,Id.Item.MosinMagazine,Mosin Standard Mag,true
 Id.Item.Mosin,Mosin Nagant,Barrel,Id.Item.MosinBarrel,Id.Item.MosinBarrel,false
 Id.Item.Mosin,Mosin Nagant,Stock,Id.Item.MosinStock,Id.Item.MosinStock,false
@@ -359,6 +349,7 @@ Id.Item.MP9,AMP-9,Sight,Id.Item.SGHT_027,Vektor Frenix-X Micro Reflex Sight,fals
 Id.Item.MP9,AMP-9,Sight,Id.Item.SGHT_028,CQ-2x Prism Combat Scope,false
 Id.Item.MP9,AMP-9,Sight,Id.Item.SGHT_033,CGM4 Scope,false
 Id.Item.MP9,AMP-9,Sight,Id.Item.SGHT_037,MMGL Sight,false
+Id.Item.MP9,AMP-9,Sight,Id.Item.SGHT_038,Compact P-1 Red Dot,false
 Id.Item.MP9,AMP-9,Stock,Id.Item.MP9Stock,Id.Item.MP9Stock,false
 Id.Item.RFB,BMR-308,Chamber,Id.Item.308Win,.308,false
 Id.Item.RFB,BMR-308,Chamber,Id.Item.308Win.ArmorPiercing,.308 AP,false
@@ -382,6 +373,7 @@ Id.Item.RFB,BMR-308,Sight,Id.Item.SGHT_029,3x Tactical Prism Scope,false
 Id.Item.RFB,BMR-308,Sight,Id.Item.SGHT_030,4x Combat Prism Scope with Reflex,false
 Id.Item.RFB,BMR-308,Sight,Id.Item.SGHT_033,CGM4 Scope,false
 Id.Item.RFB,BMR-308,Sight,Id.Item.SGHT_037,MMGL Sight,false
+Id.Item.RFB,BMR-308,Sight,Id.Item.SGHT_038,Compact P-1 Red Dot,false
 Id.Item.RFB,BMR-308,Magazine,Id.Item.MAGZ_006,FAL 20 RND Magazine,false
 Id.Item.RFB,BMR-308,Magazine,Id.Item.MAGZ_024,FAL 30 RND Magazine,false
 Id.Item.RFB,BMR-308,Magazine,Id.Item.RFBMagazine,FAL 10 RND Magazine,true
@@ -426,6 +418,7 @@ Id.Item.SKS,SKS,Sight,Id.Item.SGHT_032,Frontier 2.5x-10x Precision Scope,false
 Id.Item.SKS,SKS,Sight,Id.Item.SGHT_033,CGM4 Scope,false
 Id.Item.SKS,SKS,Sight,Id.Item.SGHT_036,6x Marksman Scope + Reflex,false
 Id.Item.SKS,SKS,Sight,Id.Item.SGHT_037,MMGL Sight,false
+Id.Item.SKS,SKS,Sight,Id.Item.SGHT_038,Compact P-1 Red Dot,false
 Id.Item.SKS,SKS,Sight,Id.Item.SniperScope10x,6-10x Scope MRAD,false
 Id.Item.SKS,SKS,Magazine,Id.Item.SKSExtendedMag,SKS Extended Mag,false
 Id.Item.SKS,SKS,Magazine,Id.Item.SKSMagazine,SKS Internal Mag,true
@@ -449,6 +442,7 @@ Id.Item.SMG_03,PP-19 Vityaz,Sight,Id.Item.SGHT_027,Vektor Frenix-X Micro Reflex 
 Id.Item.SMG_03,PP-19 Vityaz,Sight,Id.Item.SGHT_028,CQ-2x Prism Combat Scope,false
 Id.Item.SMG_03,PP-19 Vityaz,Sight,Id.Item.SGHT_033,CGM4 Scope,false
 Id.Item.SMG_03,PP-19 Vityaz,Sight,Id.Item.SGHT_037,MMGL Sight,false
+Id.Item.SMG_03,PP-19 Vityaz,Sight,Id.Item.SGHT_038,Compact P-1 Red Dot,false
 Id.Item.SMG_03,PP-19 Vityaz,Underbarrel,Id.Item.FGP_02,TDG Vertical Foregrip,false
 Id.Item.SMG_03,PP-19 Vityaz,Underbarrel,Id.Item.FGP_03,AFG Angled Foregrip,false
 Id.Item.SMG_03,PP-19 Vityaz,Underbarrel,Id.Item.FGP_04,Grip Pod,false
@@ -493,6 +487,7 @@ Id.Item.SR_04,AMR 50,Sight,Id.Item.SGHT_032,Frontier 2.5x-10x Precision Scope,fa
 Id.Item.SR_04,AMR 50,Sight,Id.Item.SGHT_033,CGM4 Scope,false
 Id.Item.SR_04,AMR 50,Sight,Id.Item.SGHT_036,6x Marksman Scope + Reflex,false
 Id.Item.SR_04,AMR 50,Sight,Id.Item.SGHT_037,MMGL Sight,false
+Id.Item.SR_04,AMR 50,Sight,Id.Item.SGHT_038,Compact P-1 Red Dot,false
 Id.Item.SR_04,AMR 50,Sight,Id.Item.SniperScope10x,6-10x Scope MRAD,false
 Id.Item.SR_04,AMR 50,Underbarrel,Id.Item.FGRP_013,Pro Tilt Bipod,false
 Id.Item.SR_04,AMR 50,Magazine,Id.Item.MAGZ_026,AMR 50 10 RND Magazine,false
@@ -528,6 +523,7 @@ Id.Item.SV98,SV98,Sight,Id.Item.SGHT_032,Frontier 2.5x-10x Precision Scope,false
 Id.Item.SV98,SV98,Sight,Id.Item.SGHT_033,CGM4 Scope,false
 Id.Item.SV98,SV98,Sight,Id.Item.SGHT_036,6x Marksman Scope + Reflex,false
 Id.Item.SV98,SV98,Sight,Id.Item.SGHT_037,MMGL Sight,false
+Id.Item.SV98,SV98,Sight,Id.Item.SGHT_038,Compact P-1 Red Dot,false
 Id.Item.SV98,SV98,Sight,Id.Item.SniperScope10x,6-10x Scope MRAD,false
 Id.Item.SV98,SV98,Magazine,Id.Item.SV98ExtendedMagazine,SV98 Extended Mag,false
 Id.Item.SV98,SV98,Magazine,Id.Item.SV98Magazine,SV98 10 RND Magazine,true
@@ -561,6 +557,7 @@ Id.Item.SVDM,SVD,Sight,Id.Item.SGHT_032,Frontier 2.5x-10x Precision Scope,false
 Id.Item.SVDM,SVD,Sight,Id.Item.SGHT_033,CGM4 Scope,false
 Id.Item.SVDM,SVD,Sight,Id.Item.SGHT_036,6x Marksman Scope + Reflex,false
 Id.Item.SVDM,SVD,Sight,Id.Item.SGHT_037,MMGL Sight,false
+Id.Item.SVDM,SVD,Sight,Id.Item.SGHT_038,Compact P-1 Red Dot,false
 Id.Item.SVDM,SVD,Magazine,Id.Item.MAGZ_065,SVD 5 RND Magazine,false
 Id.Item.SVDM,SVD,Magazine,Id.Item.SVDMMagazine,SVDM Standard Magazine,true
 Id.Item.SVDM,SVD,Handguard,Id.Item.SVDMHandguard,SVDM Handguard,false
@@ -588,6 +585,7 @@ Id.Item.TAR21,T-21,Sight,Id.Item.SGHT_029,3x Tactical Prism Scope,false
 Id.Item.TAR21,T-21,Sight,Id.Item.SGHT_030,4x Combat Prism Scope with Reflex,false
 Id.Item.TAR21,T-21,Sight,Id.Item.SGHT_033,CGM4 Scope,false
 Id.Item.TAR21,T-21,Sight,Id.Item.SGHT_037,MMGL Sight,false
+Id.Item.TAR21,T-21,Sight,Id.Item.SGHT_038,Compact P-1 Red Dot,false
 Id.Item.TAR21,T-21,Underbarrel,Id.Item.FGP_02,TDG Vertical Foregrip,false
 Id.Item.TAR21,T-21,Underbarrel,Id.Item.FGP_03,AFG Angled Foregrip,false
 Id.Item.TAR21,T-21,Underbarrel,Id.Item.FGP_04,Grip Pod,false
@@ -621,6 +619,7 @@ Id.Item.Vector,Super-45,Sight,Id.Item.SGHT_027,Vektor Frenix-X Micro Reflex Sigh
 Id.Item.Vector,Super-45,Sight,Id.Item.SGHT_028,CQ-2x Prism Combat Scope,false
 Id.Item.Vector,Super-45,Sight,Id.Item.SGHT_033,CGM4 Scope,false
 Id.Item.Vector,Super-45,Sight,Id.Item.SGHT_037,MMGL Sight,false
+Id.Item.Vector,Super-45,Sight,Id.Item.SGHT_038,Compact P-1 Red Dot,false
 Id.Item.Vector,Super-45,Underbarrel,Id.Item.FGP_02,TDG Vertical Foregrip,false
 Id.Item.Vector,Super-45,Underbarrel,Id.Item.FGP_03,AFG Angled Foregrip,false
 Id.Item.Vector,Super-45,Underbarrel,Id.Item.FGP_04,Grip Pod,false
@@ -672,6 +671,7 @@ Id.Item.WEPN_028,MP5,Sight,Id.Item.SGHT_027,Vektor Frenix-X Micro Reflex Sight,f
 Id.Item.WEPN_028,MP5,Sight,Id.Item.SGHT_028,CQ-2x Prism Combat Scope,false
 Id.Item.WEPN_028,MP5,Sight,Id.Item.SGHT_033,CGM4 Scope,false
 Id.Item.WEPN_028,MP5,Sight,Id.Item.SGHT_037,MMGL Sight,false
+Id.Item.WEPN_028,MP5,Sight,Id.Item.SGHT_038,Compact P-1 Red Dot,false
 Id.Item.WEPN_028,MP5,Underbarrel,Id.Item.FGP_02,TDG Vertical Foregrip,false
 Id.Item.WEPN_028,MP5,Underbarrel,Id.Item.FGP_03,AFG Angled Foregrip,false
 Id.Item.WEPN_028,MP5,Underbarrel,Id.Item.FGP_04,Grip Pod,false
@@ -702,6 +702,7 @@ Id.Item.WEPN_029,Galil,Sight,Id.Item.SGHT_029,3x Tactical Prism Scope,false
 Id.Item.WEPN_029,Galil,Sight,Id.Item.SGHT_030,4x Combat Prism Scope with Reflex,false
 Id.Item.WEPN_029,Galil,Sight,Id.Item.SGHT_033,CGM4 Scope,false
 Id.Item.WEPN_029,Galil,Sight,Id.Item.SGHT_037,MMGL Sight,false
+Id.Item.WEPN_029,Galil,Sight,Id.Item.SGHT_038,Compact P-1 Red Dot,false
 Id.Item.WEPN_029,Galil,Magazine,Id.Item.MAGZ_005,Galil 35 RND Magazine,false
 Id.Item.WEPN_029,Galil,Magazine,Id.Item.MAGZ_060,Galil 50 RND Magazine,false
 Id.Item.WEPN_029,Galil,Stock,Id.Item.STOK_013,Galil Stock,false
@@ -744,6 +745,7 @@ Id.Item.WEPN_030,FAL,Sight,Id.Item.SGHT_029,3x Tactical Prism Scope,false
 Id.Item.WEPN_030,FAL,Sight,Id.Item.SGHT_030,4x Combat Prism Scope with Reflex,false
 Id.Item.WEPN_030,FAL,Sight,Id.Item.SGHT_033,CGM4 Scope,false
 Id.Item.WEPN_030,FAL,Sight,Id.Item.SGHT_037,MMGL Sight,false
+Id.Item.WEPN_030,FAL,Sight,Id.Item.SGHT_038,Compact P-1 Red Dot,false
 Id.Item.WEPN_030,FAL,Stock,Id.Item.STOK_005,FAL Stock,false
 Id.Item.WEPN_030,FAL,Underbarrel,Id.Item.FGP_02,TDG Vertical Foregrip,false
 Id.Item.WEPN_030,FAL,Underbarrel,Id.Item.FGP_03,AFG Angled Foregrip,false
@@ -756,6 +758,29 @@ Id.Item.WEPN_030,FAL,Underbarrel,Id.Item.FGRP_016,45° Angled Foregrip,false
 Id.Item.WEPN_030,FAL,Underbarrel,Id.Item.FGRP_017,Angled Tactical Foregrip,false
 Id.Item.WEPN_030,FAL,Underbarrel,Id.Item.FGRP_018,Mini Angled Foregrip,false
 Id.Item.WEPN_030,FAL,Underbarrel,Id.Item.RK6ForeGrip,RK6 Tactical Foregrip,false
+Id.Item.WEPN_031,PP-19 Bizon,Chamber,Id.Item.9mm,9mm,false
+Id.Item.WEPN_031,PP-19 Bizon,Chamber,Id.Item.9mm.ArmorPiercing,9mm AP,false
+Id.Item.WEPN_031,PP-19 Bizon,Chamber,Id.Item.9mm.ArmorPiercing.Tracer,9mm AP (T),false
+Id.Item.WEPN_031,PP-19 Bizon,Chamber,Id.Item.9mm.HollowPoint,9mm HP,false
+Id.Item.WEPN_031,PP-19 Bizon,Chamber,Id.Item.9mm.HollowPoint.Tracer,9mm HP (T),false
+Id.Item.WEPN_031,PP-19 Bizon,Chamber,Id.Item.9mm.Tracer,9mm (T),false
+Id.Item.WEPN_031,PP-19 Bizon,Sight,Id.Item.BasicRedDot,Compact T-2 Red Dot,false
+Id.Item.WEPN_031,PP-19 Bizon,Sight,Id.Item.EotechHoloSight,Holographic Sight,false
+Id.Item.WEPN_031,PP-19 Bizon,Sight,Id.Item.OPT_08,2.5x Combat Optic,false
+Id.Item.WEPN_031,PP-19 Bizon,Sight,Id.Item.SGHT_009,Kobra Reflex,false
+Id.Item.WEPN_031,PP-19 Bizon,Sight,Id.Item.SGHT_016,Four Reticle Reflex,false
+Id.Item.WEPN_031,PP-19 Bizon,Sight,Id.Item.SGHT_023,OKP 7 Reflex,false
+Id.Item.WEPN_031,PP-19 Bizon,Sight,Id.Item.SGHT_026,Tricon 1.5x Compact Prism Scope,false
+Id.Item.WEPN_031,PP-19 Bizon,Sight,Id.Item.SGHT_027,Vektor Frenix-X Micro Reflex Sight,false
+Id.Item.WEPN_031,PP-19 Bizon,Sight,Id.Item.SGHT_028,CQ-2x Prism Combat Scope,false
+Id.Item.WEPN_031,PP-19 Bizon,Sight,Id.Item.SGHT_033,CGM4 Scope,false
+Id.Item.WEPN_031,PP-19 Bizon,Sight,Id.Item.SGHT_037,MMGL Sight,false
+Id.Item.WEPN_031,PP-19 Bizon,Sight,Id.Item.SGHT_038,Compact P-1 Red Dot,false
+Id.Item.WEPN_031,PP-19 Bizon,Handguard,Id.Item.HNDG_055,Id.Item.HNDG_055,false
+Id.Item.WEPN_031,PP-19 Bizon,Magazine,Id.Item.MAGZ_051,PP-19 Bizon 53 RND Magazine,false
+Id.Item.WEPN_031,PP-19 Bizon,Grip,Id.Item.SMG_03PistolGrip,Id.Item.SMG_03PistolGrip,false
+Id.Item.WEPN_031,PP-19 Bizon,Stock,Id.Item.SMG_03Stock,Id.Item.SMG_03Stock,false
+Id.Item.WEPN_031,PP-19 Bizon,Barrel,Id.Item.BARL_049,WEPN_031 Bizon Standard Barrel,false
 Id.Item.WEPN_032,GGX 18,Chamber,Id.Item.9mm,9mm,false
 Id.Item.WEPN_032,GGX 18,Chamber,Id.Item.9mm.ArmorPiercing,9mm AP,false
 Id.Item.WEPN_032,GGX 18,Chamber,Id.Item.9mm.ArmorPiercing.Tracer,9mm AP (T),false
@@ -783,6 +808,44 @@ Id.Item.WEPN_033,Bushmaster M17S,Magazine,Id.Item.STANAGExtendedMagazine,STANAG 
 Id.Item.WEPN_033,Bushmaster M17S,Magazine,Id.Item.STANAGMagazine,STANAG 30 RND Magazine,false
 Id.Item.WEPN_033,Bushmaster M17S,Magazine,Id.Item.STANAGMagazine20rd,STANAG 20 RND Magazine,false
 Id.Item.WEPN_033,Bushmaster M17S,Barrel,Id.Item.BARL_044,Id.Item.BARL_044,false
+Id.Item.WEPN_034,M14,Chamber,Id.Item.308Win,.308,false
+Id.Item.WEPN_034,M14,Chamber,Id.Item.308Win.ArmorPiercing,.308 AP,false
+Id.Item.WEPN_034,M14,Chamber,Id.Item.308Win.ArmorPiercing.Tracer,.308 AP (T),false
+Id.Item.WEPN_034,M14,Chamber,Id.Item.308Win.HollowPoint,.308 HollowPoint,false
+Id.Item.WEPN_034,M14,Chamber,Id.Item.308Win.HollowPoint.Tracer,.308 HollowPoint (T),false
+Id.Item.WEPN_034,M14,Chamber,Id.Item.308Win.Tracer,.308 (T),false
+Id.Item.WEPN_034,M14,Sight,Id.Item.10xScopeMoa,6-10x Scope MOA,false
+Id.Item.WEPN_034,M14,Sight,Id.Item.3xScope,Spitfire 3X,false
+Id.Item.WEPN_034,M14,Sight,Id.Item.4xElcanSpectr,4x Elcan Spectr,false
+Id.Item.WEPN_034,M14,Sight,Id.Item.6xScope,3-6x Scope,false
+Id.Item.WEPN_034,M14,Sight,Id.Item.BasicRedDot,Compact T-2 Red Dot,false
+Id.Item.WEPN_034,M14,Sight,Id.Item.EotechHoloSight,Holographic Sight,false
+Id.Item.WEPN_034,M14,Sight,Id.Item.HybridScope4x,4x Hybrid,false
+Id.Item.WEPN_034,M14,Sight,Id.Item.OPT_08,2.5x Combat Optic,false
+Id.Item.WEPN_034,M14,Sight,Id.Item.SGHT_009,Kobra Reflex,false
+Id.Item.WEPN_034,M14,Sight,Id.Item.SGHT_011,1x-6x LPVO Short Dot,false
+Id.Item.WEPN_034,M14,Sight,Id.Item.SGHT_016,Four Reticle Reflex,false
+Id.Item.WEPN_034,M14,Sight,Id.Item.SGHT_023,OKP 7 Reflex,false
+Id.Item.WEPN_034,M14,Sight,Id.Item.SGHT_026,Tricon 1.5x Compact Prism Scope,false
+Id.Item.WEPN_034,M14,Sight,Id.Item.SGHT_027,Vektor Frenix-X Micro Reflex Sight,false
+Id.Item.WEPN_034,M14,Sight,Id.Item.SGHT_028,CQ-2x Prism Combat Scope,false
+Id.Item.WEPN_034,M14,Sight,Id.Item.SGHT_029,3x Tactical Prism Scope,false
+Id.Item.WEPN_034,M14,Sight,Id.Item.SGHT_030,4x Combat Prism Scope with Reflex,false
+Id.Item.WEPN_034,M14,Sight,Id.Item.SGHT_031,6x Precision Rifle Scope,false
+Id.Item.WEPN_034,M14,Sight,Id.Item.SGHT_032,Frontier 2.5x-10x Precision Scope,false
+Id.Item.WEPN_034,M14,Sight,Id.Item.SGHT_033,CGM4 Scope,false
+Id.Item.WEPN_034,M14,Sight,Id.Item.SGHT_036,6x Marksman Scope + Reflex,false
+Id.Item.WEPN_034,M14,Sight,Id.Item.SGHT_037,MMGL Sight,false
+Id.Item.WEPN_034,M14,Sight,Id.Item.SGHT_038,Compact P-1 Red Dot,false
+Id.Item.WEPN_034,M14,Sight,Id.Item.SGHT_039,Leatherwood ART II,false
+Id.Item.WEPN_034,M14,Sight,Id.Item.SniperScope10x,6-10x Scope MRAD,false
+Id.Item.WEPN_034,M14,Magazine,Id.Item.MAGZ_068,M14 10 RND Magazine,false
+Id.Item.WEPN_034,M14,Magazine,Id.Item.MAGZ_070,M14 30 RND Magazine,false
+Id.Item.WEPN_034,M14,Magazine,Id.Item.MAGZ_071,M14 20 RND Magazine,false
+Id.Item.WEPN_034,M14,Stock,Id.Item.HNDG_053,Id.Item.HNDG_053,false
+Id.Item.WEPN_034,M14,Stock,Id.Item.STOK_059,M14 Stock,false
+Id.Item.WEPN_034,M14,Barrel,Id.Item.BARL_047,WEPN_034 M14 Standard Barrel,false
+Id.Item.WEPN_034,M14,Underbarrel,Id.Item.FGRP_020,M14 Bipod,false
 Id.Item.WEPN_035,Scout Rifle TD,Sight,Id.Item.10xScopeMoa,6-10x Scope MOA,false
 Id.Item.WEPN_035,Scout Rifle TD,Sight,Id.Item.3xScope,Spitfire 3X,false
 Id.Item.WEPN_035,Scout Rifle TD,Sight,Id.Item.4xElcanSpectr,4x Elcan Spectr,false
@@ -805,7 +868,84 @@ Id.Item.WEPN_035,Scout Rifle TD,Sight,Id.Item.SGHT_032,Frontier 2.5x-10x Precisi
 Id.Item.WEPN_035,Scout Rifle TD,Sight,Id.Item.SGHT_033,CGM4 Scope,false
 Id.Item.WEPN_035,Scout Rifle TD,Sight,Id.Item.SGHT_036,6x Marksman Scope + Reflex,false
 Id.Item.WEPN_035,Scout Rifle TD,Sight,Id.Item.SGHT_037,MMGL Sight,false
+Id.Item.WEPN_035,Scout Rifle TD,Sight,Id.Item.SGHT_038,Compact P-1 Red Dot,false
 Id.Item.WEPN_035,Scout Rifle TD,Sight,Id.Item.SniperScope10x,6-10x Scope MRAD,false
 Id.Item.WEPN_035,Scout Rifle TD,Grip,Id.Item.PGRP_041,Id.Item.PGRP_041,false
 Id.Item.WEPN_035,Scout Rifle TD,Stock,Id.Item.STOK_057,Scout Rifle Stock,false
 Id.Item.WEPN_035,Scout Rifle TD,Barrel,Id.Item.BARL_045,Scout Rifle Standard Barrel,false
+Id.Item.WEPN_036,Evo-3 Ultra,Chamber,Id.Item.308Win,.308,false
+Id.Item.WEPN_036,Evo-3 Ultra,Chamber,Id.Item.308Win.ArmorPiercing,.308 AP,false
+Id.Item.WEPN_036,Evo-3 Ultra,Chamber,Id.Item.308Win.ArmorPiercing.Tracer,.308 AP (T),false
+Id.Item.WEPN_036,Evo-3 Ultra,Chamber,Id.Item.308Win.HollowPoint,.308 HollowPoint,false
+Id.Item.WEPN_036,Evo-3 Ultra,Chamber,Id.Item.308Win.HollowPoint.Tracer,.308 HollowPoint (T),false
+Id.Item.WEPN_036,Evo-3 Ultra,Chamber,Id.Item.308Win.Tracer,.308 (T),false
+Id.Item.WEPN_036,Evo-3 Ultra,Sight,Id.Item.3xScope,Spitfire 3X,false
+Id.Item.WEPN_036,Evo-3 Ultra,Sight,Id.Item.4xElcanSpectr,4x Elcan Spectr,false
+Id.Item.WEPN_036,Evo-3 Ultra,Sight,Id.Item.BasicRedDot,Compact T-2 Red Dot,false
+Id.Item.WEPN_036,Evo-3 Ultra,Sight,Id.Item.EotechHoloSight,Holographic Sight,false
+Id.Item.WEPN_036,Evo-3 Ultra,Sight,Id.Item.OPT_08,2.5x Combat Optic,false
+Id.Item.WEPN_036,Evo-3 Ultra,Sight,Id.Item.SGHT_009,Kobra Reflex,false
+Id.Item.WEPN_036,Evo-3 Ultra,Sight,Id.Item.SGHT_016,Four Reticle Reflex,false
+Id.Item.WEPN_036,Evo-3 Ultra,Sight,Id.Item.SGHT_023,OKP 7 Reflex,false
+Id.Item.WEPN_036,Evo-3 Ultra,Sight,Id.Item.SGHT_026,Tricon 1.5x Compact Prism Scope,false
+Id.Item.WEPN_036,Evo-3 Ultra,Sight,Id.Item.SGHT_027,Vektor Frenix-X Micro Reflex Sight,false
+Id.Item.WEPN_036,Evo-3 Ultra,Sight,Id.Item.SGHT_028,CQ-2x Prism Combat Scope,false
+Id.Item.WEPN_036,Evo-3 Ultra,Sight,Id.Item.SGHT_029,3x Tactical Prism Scope,false
+Id.Item.WEPN_036,Evo-3 Ultra,Sight,Id.Item.SGHT_030,4x Combat Prism Scope with Reflex,false
+Id.Item.WEPN_036,Evo-3 Ultra,Sight,Id.Item.SGHT_033,CGM4 Scope,false
+Id.Item.WEPN_036,Evo-3 Ultra,Sight,Id.Item.SGHT_037,MMGL Sight,false
+Id.Item.WEPN_036,Evo-3 Ultra,Sight,Id.Item.SGHT_038,Compact P-1 Red Dot,false
+Id.Item.WEPN_036,Evo-3 Ultra,Magazine,Id.Item.MAGZ_067,Evo-3 Ultra 50 RND Box,false
+Id.Item.WEPN_036,Evo-3 Ultra,Grip,Id.Item.PGRP_042,WEPN_36 Evoly Grip,false
+Id.Item.WEPN_036,Evo-3 Ultra,Stock,Id.Item.STOK_058,Evoly stock,false
+Id.Item.WEPN_036,Evo-3 Ultra,Barrel,Id.Item.BARL_046,WEPN_036 Evoly Standard Barrel,false
+Id.Item.WEPN_036,Evo-3 Ultra,Underbarrel,Id.Item.FGP_02,TDG Vertical Foregrip,false
+Id.Item.WEPN_036,Evo-3 Ultra,Underbarrel,Id.Item.FGP_03,AFG Angled Foregrip,false
+Id.Item.WEPN_036,Evo-3 Ultra,Underbarrel,Id.Item.FGP_04,Grip Pod,false
+Id.Item.WEPN_036,Evo-3 Ultra,Underbarrel,Id.Item.FGRP_006,RVG Vertical Foregrip,false
+Id.Item.WEPN_036,Evo-3 Ultra,Underbarrel,Id.Item.FGRP_007,Shift Foregrip,false
+Id.Item.WEPN_036,Evo-3 Ultra,Underbarrel,Id.Item.FGRP_014,CQR Tactical Front Rail Grip,false
+Id.Item.WEPN_036,Evo-3 Ultra,Underbarrel,Id.Item.FGRP_015,Rubberized Ergonomic Foregrip,false
+Id.Item.WEPN_036,Evo-3 Ultra,Underbarrel,Id.Item.FGRP_016,45° Angled Foregrip,false
+Id.Item.WEPN_036,Evo-3 Ultra,Underbarrel,Id.Item.FGRP_017,Angled Tactical Foregrip,false
+Id.Item.WEPN_036,Evo-3 Ultra,Underbarrel,Id.Item.FGRP_018,Mini Angled Foregrip,false
+Id.Item.WEPN_036,Evo-3 Ultra,Underbarrel,Id.Item.FGRP_019,Evo-3 Ultra Bipod,false
+Id.Item.WEPN_036,Evo-3 Ultra,Underbarrel,Id.Item.RK6ForeGrip,RK6 Tactical Foregrip,false
+Id.Item.WEPN_037,TCX-SPR,Chamber,Id.Item.762mm,7.62mm,false
+Id.Item.WEPN_037,TCX-SPR,Chamber,Id.Item.762mm.ArmorPiercing,7.62mm AP,false
+Id.Item.WEPN_037,TCX-SPR,Chamber,Id.Item.762mm.ArmorPiercing.Tracer,7.62mm AP (T),false
+Id.Item.WEPN_037,TCX-SPR,Chamber,Id.Item.762mm.HollowPoint,7.62mm HP,false
+Id.Item.WEPN_037,TCX-SPR,Chamber,Id.Item.762mm.HollowPoint.Tracer,7.62mm HP (T),false
+Id.Item.WEPN_037,TCX-SPR,Chamber,Id.Item.762mm.Tracer,7.62mm (T),false
+Id.Item.WEPN_037,TCX-SPR,Sight,Id.Item.3xScope,Spitfire 3X,false
+Id.Item.WEPN_037,TCX-SPR,Sight,Id.Item.4xElcanSpectr,4x Elcan Spectr,false
+Id.Item.WEPN_037,TCX-SPR,Sight,Id.Item.BasicRedDot,Compact T-2 Red Dot,false
+Id.Item.WEPN_037,TCX-SPR,Sight,Id.Item.EotechHoloSight,Holographic Sight,false
+Id.Item.WEPN_037,TCX-SPR,Sight,Id.Item.OPT_08,2.5x Combat Optic,false
+Id.Item.WEPN_037,TCX-SPR,Sight,Id.Item.SGHT_009,Kobra Reflex,false
+Id.Item.WEPN_037,TCX-SPR,Sight,Id.Item.SGHT_016,Four Reticle Reflex,false
+Id.Item.WEPN_037,TCX-SPR,Sight,Id.Item.SGHT_023,OKP 7 Reflex,false
+Id.Item.WEPN_037,TCX-SPR,Sight,Id.Item.SGHT_026,Tricon 1.5x Compact Prism Scope,false
+Id.Item.WEPN_037,TCX-SPR,Sight,Id.Item.SGHT_027,Vektor Frenix-X Micro Reflex Sight,false
+Id.Item.WEPN_037,TCX-SPR,Sight,Id.Item.SGHT_028,CQ-2x Prism Combat Scope,false
+Id.Item.WEPN_037,TCX-SPR,Sight,Id.Item.SGHT_029,3x Tactical Prism Scope,false
+Id.Item.WEPN_037,TCX-SPR,Sight,Id.Item.SGHT_030,4x Combat Prism Scope with Reflex,false
+Id.Item.WEPN_037,TCX-SPR,Sight,Id.Item.SGHT_033,CGM4 Scope,false
+Id.Item.WEPN_037,TCX-SPR,Sight,Id.Item.SGHT_037,MMGL Sight,false
+Id.Item.WEPN_037,TCX-SPR,Sight,Id.Item.SGHT_038,Compact P-1 Red Dot,false
+Id.Item.WEPN_037,TCX-SPR,Magazine,Id.Item.MAGZ_069,SIG Spear (WEPN_037) Standard Mag,false
+Id.Item.WEPN_037,TCX-SPR,Handguard,Id.Item.HNDG_054,Id.Item.HNDG_054,false
+Id.Item.WEPN_037,TCX-SPR,Grip,Id.Item.PGRP_043,Sig Spear (WEPN_037) Standard Pistol Grip,false
+Id.Item.WEPN_037,TCX-SPR,Grip,Id.Item.PGRP_044,Kungfu,false
+Id.Item.WEPN_037,TCX-SPR,Stock,Id.Item.STOK_060,Sig Spear Standard Stock,false
+Id.Item.WEPN_037,TCX-SPR,Barrel,Id.Item.BARL_048,Sig Spear (WEPN_037) Standard Barrel,false
+Id.Item.WEPN_037,TCX-SPR,Underbarrel,Id.Item.FGP_02,TDG Vertical Foregrip,false
+Id.Item.WEPN_037,TCX-SPR,Underbarrel,Id.Item.FGP_03,AFG Angled Foregrip,false
+Id.Item.WEPN_037,TCX-SPR,Underbarrel,Id.Item.FGP_04,Grip Pod,false
+Id.Item.WEPN_037,TCX-SPR,Underbarrel,Id.Item.FGRP_006,RVG Vertical Foregrip,false
+Id.Item.WEPN_037,TCX-SPR,Underbarrel,Id.Item.FGRP_007,Shift Foregrip,false
+Id.Item.WEPN_037,TCX-SPR,Underbarrel,Id.Item.FGRP_015,Rubberized Ergonomic Foregrip,false
+Id.Item.WEPN_037,TCX-SPR,Underbarrel,Id.Item.FGRP_016,45° Angled Foregrip,false
+Id.Item.WEPN_037,TCX-SPR,Underbarrel,Id.Item.FGRP_017,Angled Tactical Foregrip,false
+Id.Item.WEPN_037,TCX-SPR,Underbarrel,Id.Item.FGRP_018,Mini Angled Foregrip,false
+Id.Item.WEPN_037,TCX-SPR,Underbarrel,Id.Item.RK6ForeGrip,RK6 Tactical Foregrip,false

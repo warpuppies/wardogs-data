@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "gameBuild": "25677108",
+  "gameBuild": "25937608",
   "tags": [
     {
       "tag": "Attribute.Meta.XP.Role.Driver",
@@ -138,6 +138,21 @@
       "source": "Categories"
     },
     {
+      "tag": "Id.Vehicle.WeaponExtension.TNK_04.Default",
+      "text": "Heavy",
+      "source": "Categories"
+    },
+    {
+      "tag": "Id.Vehicle.WeaponExtension.TNK_04.MachineGun",
+      "text": "Coaxial Gun",
+      "source": "Categories"
+    },
+    {
+      "tag": "Id.Vehicle.WeaponExtension.TNK_04.MountedMachineGun",
+      "text": "Machine Gun",
+      "source": "Categories"
+    },
+    {
       "tag": "Id.Vehicle.WeaponExtension.WHL_02.SUV.RingTurret",
       "text": "Machine Gun",
       "source": "Categories"
@@ -154,6 +169,11 @@
     },
     {
       "tag": "Id.Vehicle.WeaponExtension.WHL_07.MachineGun",
+      "text": "Machine Gun",
+      "source": "Categories"
+    },
+    {
+      "tag": "Id.Vehicle.WeaponExtension.WHL_08.RingTurret",
       "text": "Machine Gun",
       "source": "Categories"
     },
@@ -503,6 +523,21 @@
       "source": "Calibers"
     },
     {
+      "tag": "Item.Caliber.122mm",
+      "text": "122mm",
+      "source": "Calibers"
+    },
+    {
+      "tag": "Item.Caliber.122mm.Havoc",
+      "text": "122mm",
+      "source": "Calibers"
+    },
+    {
+      "tag": "Item.Caliber.125x570mm",
+      "text": "125mm HEAT-MP Shell",
+      "source": "Calibers"
+    },
+    {
       "tag": "Item.Caliber.12g",
       "text": "12g",
       "source": "Calibers"
@@ -800,6 +835,11 @@
     {
       "tag": "Server.Descriptor.InfantryOnly",
       "text": "Infantry Only",
+      "source": "ServerTags"
+    },
+    {
+      "tag": "Server.Descriptor.MaxAllowedPing",
+      "text": "Max Allowed Ping {Value} ms",
       "source": "ServerTags"
     },
     {
@@ -1128,6 +1168,16 @@
       "source": "SceneNames"
     },
     {
+      "tag": "UI.Scene.Match.Vendor.Wagers",
+      "text": "Wager Vendor",
+      "source": "SceneNames"
+    },
+    {
+      "tag": "UI.Scene.Match.WagerStatus",
+      "text": "Wager",
+      "source": "SceneNames"
+    },
+    {
       "tag": "UI.Scene.Shared.Settings",
       "text": "Settings",
       "source": "SceneNames"
@@ -1353,6 +1403,11 @@
       "source": "Categories"
     },
     {
+      "tag": "Vendor.Category.Gear.VehicleUse",
+      "text": "Vehicle Use",
+      "source": "Categories"
+    },
+    {
       "tag": "Vendor.Category.Gear.Vest",
       "text": "Vest",
       "source": "Categories"
@@ -1485,6 +1540,11 @@
     {
       "tag": "Vendor.Category.Vehicle.CounterMeasures.Flares",
       "text": "Flares",
+      "source": "Categories"
+    },
+    {
+      "tag": "Vendor.Category.Vehicle.CounterMeasures.Smoke",
+      "text": "Smokes",
       "source": "Categories"
     },
     {

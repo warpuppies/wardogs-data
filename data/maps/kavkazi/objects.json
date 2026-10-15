@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "world": "Kavkazi",
-  "gameBuild": "25677108",
+  "gameBuild": "25937608",
   "units": "meters",
-  "count": 50,
+  "count": 89,
   "objects": [
     {
       "id": "1bf6af5910a1",
@@ -30,6 +30,30 @@
       "faction": "Charlie"
     },
     {
+      "id": "eb260fea6cf3",
+      "kind": "equipment-vendor",
+      "class": "B_EquipmentVendor_C",
+      "position": [
+        -10881.62,
+        -13998.326,
+        -546.117
+      ],
+      "yaw": 183.3,
+      "faction": "Charlie"
+    },
+    {
+      "id": "7845911f3b6b",
+      "kind": "equipment-vendor",
+      "class": "B_EquipmentVendor_C",
+      "position": [
+        -9676.383,
+        -7571.034,
+        -865.091
+      ],
+      "yaw": 74.67,
+      "faction": "Alpha"
+    },
+    {
       "id": "bda3a3ada5a7",
       "kind": "equipment-vendor",
       "class": "B_EquipmentVendor_C",
@@ -51,6 +75,18 @@
         -854.1194
       ],
       "yaw": 278.01,
+      "faction": "Bravo"
+    },
+    {
+      "id": "866373bf2d88",
+      "kind": "equipment-vendor",
+      "class": "B_EquipmentVendor_C",
+      "position": [
+        -4522.6325,
+        -11774.21,
+        -642.6443
+      ],
+      "yaw": -52.7,
       "faction": "Bravo"
     },
     {
@@ -78,6 +114,30 @@
       "faction": "Charlie"
     },
     {
+      "id": "9f4b0bfa58fe",
+      "kind": "vehicle-vendor",
+      "class": "B_VehicleVendor_C",
+      "position": [
+        -10851.102,
+        -13997.3,
+        -546.0728
+      ],
+      "yaw": -232.01,
+      "faction": "Charlie"
+    },
+    {
+      "id": "18365a4d465e",
+      "kind": "vehicle-vendor",
+      "class": "B_VehicleVendor_C",
+      "position": [
+        -9689.599,
+        -7604.9856,
+        -865.1398
+      ],
+      "yaw": 23.79,
+      "faction": "Alpha"
+    },
+    {
       "id": "ebc33b2fa042",
       "kind": "vehicle-vendor",
       "class": "B_VehicleVendor_C",
@@ -99,6 +159,18 @@
         -855.7944
       ],
       "yaw": 229.14,
+      "faction": "Bravo"
+    },
+    {
+      "id": "38a142fd9ff8",
+      "kind": "vehicle-vendor",
+      "class": "B_VehicleVendor_C",
+      "position": [
+        -4537.6012,
+        -11750.415,
+        -642.4565
+      ],
+      "yaw": -110.61,
       "faction": "Bravo"
     },
     {
@@ -136,17 +208,51 @@
       "faction": "Bravo"
     },
     {
+      "id": "bdd45c0738e6",
+      "kind": "garage-vendor",
+      "class": "B_GarageVendor_C",
+      "position": [
+        -10846.259,
+        -13992.022,
+        -547.9553
+      ],
+      "yaw": 125.35,
+      "scale": [
+        87.7929,
+        61.5853,
+        21.6365
+      ],
+      "faction": "Charlie"
+    },
+    {
+      "id": "a50a43b85cfa",
+      "kind": "garage-vendor",
+      "class": "B_GarageVendor_C",
+      "position": [
+        -9667.224,
+        -7627.596,
+        -861.947
+      ],
+      "yaw": -59.44,
+      "scale": [
+        60,
+        70.4125,
+        5
+      ],
+      "faction": "Alpha"
+    },
+    {
       "id": "504ed791f54e",
       "kind": "garage-vendor",
       "class": "B_GarageVendor_C",
       "position": [
-        -7703.0725,
-        -7339.4225,
-        -841.6534
+        -7692.425,
+        -7328.564,
+        -841.7034
       ],
       "yaw": -134.44,
       "scale": [
-        60,
+        76.2315,
         70.4125,
         5
       ],
@@ -166,6 +272,22 @@
         69.25,
         59.25,
         5.5
+      ],
+      "faction": "Bravo"
+    },
+    {
+      "id": "170ae90885e9",
+      "kind": "garage-vendor",
+      "class": "B_GarageVendor_C",
+      "position": [
+        12.5162,
+        5.494,
+        3.9323
+      ],
+      "scale": [
+        69.25,
+        59.25,
+        11.9779
       ],
       "faction": "Bravo"
     },
@@ -210,6 +332,43 @@
       ]
     },
     {
+      "id": "b4764d6ab6b6",
+      "kind": "safe-zone",
+      "class": "B_SafeZone_C",
+      "position": [
+        -10881.591,
+        -14097.406,
+        -416.8639
+      ],
+      "yaw": -225.88,
+      "scale": [
+        1000,
+        1000,
+        750
+      ],
+      "faction": "Charlie",
+      "tags": [
+        "State.Location.SafeZone.Charlie"
+      ]
+    },
+    {
+      "id": "a8cba1bb1cab",
+      "kind": "safe-zone",
+      "class": "B_SafeZone_C",
+      "position": [
+        -9681.648,
+        -7598.823,
+        -699.8722
+      ],
+      "yaw": 21.2,
+      "scale": [
+        1000,
+        1000,
+        750
+      ],
+      "faction": "Alpha"
+    },
+    {
       "id": "b1db12442104",
       "kind": "safe-zone",
       "class": "B_SafeZone_C",
@@ -235,10 +394,30 @@
         -11090.212,
         -711.5702
       ],
-      "yaw": 309.33,
+      "yaw": 342.15,
       "scale": [
         750,
         750,
+        750
+      ],
+      "faction": "Bravo",
+      "tags": [
+        "State.Location.SafeZone.Bravo"
+      ]
+    },
+    {
+      "id": "ab8b4cb95b77",
+      "kind": "safe-zone",
+      "class": "B_SafeZone_C",
+      "position": [
+        -4554.7178,
+        -11769.868,
+        -642.6265
+      ],
+      "yaw": -19.93,
+      "scale": [
+        1000,
+        1000,
         750
       ],
       "faction": "Bravo",
@@ -269,6 +448,28 @@
       "yaw": 5
     },
     {
+      "id": "a7b62d3ff0f7",
+      "kind": "safe-zone-camera",
+      "class": "B_SafeZoneCam_C",
+      "position": [
+        -10880.729,
+        -14062.114,
+        -357.486
+      ],
+      "yaw": -320
+    },
+    {
+      "id": "0528f3e59f31",
+      "kind": "safe-zone-camera",
+      "class": "B_SafeZoneCam_C",
+      "position": [
+        -9659.472,
+        -7594.827,
+        -703.7095
+      ],
+      "yaw": 84.59
+    },
+    {
       "id": "c5e2be31322a",
       "kind": "safe-zone-camera",
       "class": "B_SafeZoneCam_C",
@@ -278,6 +479,17 @@
         -682.23
       ],
       "yaw": 9.59
+    },
+    {
+      "id": "24cbf3a12b97",
+      "kind": "safe-zone-camera",
+      "class": "B_SafeZoneCam_C",
+      "position": [
+        -4570.355,
+        -11760.592,
+        -516.4523
+      ],
+      "yaw": -17.43
     },
     {
       "id": "2cf8ccd142e1",
@@ -315,6 +527,30 @@
       "faction": "Charlie"
     },
     {
+      "id": "4d8b9609fde7",
+      "kind": "spawn-manager",
+      "class": "B_SpawnManager_C",
+      "position": [
+        -10872.819,
+        -14028.75,
+        -545.6731
+      ],
+      "yaw": 103.88,
+      "faction": "Charlie"
+    },
+    {
+      "id": "e3692e28d10e",
+      "kind": "spawn-manager",
+      "class": "B_SpawnManager_C",
+      "position": [
+        -9705.8225,
+        -7567.722,
+        -862.7762
+      ],
+      "yaw": -11.82,
+      "faction": "Alpha"
+    },
+    {
       "id": "f2fe3c58fa82",
       "kind": "spawn-manager",
       "class": "B_SpawnManager_C",
@@ -336,6 +572,18 @@
         -850.8689
       ],
       "yaw": 147.13,
+      "faction": "Bravo"
+    },
+    {
+      "id": "2f2ae7d958b3",
+      "kind": "spawn-manager",
+      "class": "B_SpawnManager_C",
+      "position": [
+        -4490.489,
+        -11760.195,
+        -639.4408
+      ],
+      "yaw": -174.14,
       "faction": "Bravo"
     },
     {
@@ -385,8 +633,13 @@
       ],
       "faction": "Charlie",
       "allowedVehicles": [
-        "Vehicle.Variant.Land.Wheeled.Azar",
-        "Vehicle.Variant.Land.Wheeled.Kodiak"
+        "Vehicle.Variant.Land.Tracked.TNK_01",
+        "Vehicle.Variant.Land.Tracked.TNK_04",
+        "Vehicle.Variant.Land.Wheeled.DuneBuggy",
+        "Vehicle.Variant.Land.Wheeled.Humvee",
+        "Vehicle.Variant.Land.Wheeled.Kodiak",
+        "Vehicle.Variant.Land.Wheeled.WHL_08",
+        "Vehicle.Variant.Land.Wheeled.Ural"
       ],
       "disallowedVehicles": [
         "Vehicle.Variant.Land.Tracked.SpawnVehicle.Lonestar",
@@ -412,8 +665,13 @@
       ],
       "faction": "Charlie",
       "allowedVehicles": [
-        "Vehicle.Variant.Land.Wheeled.Azar",
-        "Vehicle.Variant.Land.Wheeled.Kodiak"
+        "Vehicle.Variant.Land.Tracked.TNK_01",
+        "Vehicle.Variant.Land.Tracked.TNK_04",
+        "Vehicle.Variant.Land.Wheeled.DuneBuggy",
+        "Vehicle.Variant.Land.Wheeled.Humvee",
+        "Vehicle.Variant.Land.Wheeled.Kodiak",
+        "Vehicle.Variant.Land.Wheeled.WHL_08",
+        "Vehicle.Variant.Land.Wheeled.Ural"
       ],
       "disallowedVehicles": [
         "Vehicle.Variant.Land.Tracked.SpawnVehicle.Lonestar",
@@ -439,7 +697,13 @@
       ],
       "faction": "Charlie",
       "allowedVehicles": [
-        "Vehicle.Variant.Land"
+        "Vehicle.Variant.Land.Tracked.TNK_01",
+        "Vehicle.Variant.Land.Tracked.TNK_04",
+        "Vehicle.Variant.Land.Wheeled.DuneBuggy",
+        "Vehicle.Variant.Land.Wheeled.Humvee",
+        "Vehicle.Variant.Land.Wheeled.Kodiak",
+        "Vehicle.Variant.Land.Wheeled.WHL_08",
+        "Vehicle.Variant.Land.Wheeled.Ural"
       ],
       "disallowedVehicles": [
         "Vehicle.Variant.Land.Tracked.SpawnVehicle.Lonestar",
@@ -606,6 +870,295 @@
       ]
     },
     {
+      "id": "dd33a14392cb",
+      "kind": "spawn-volume",
+      "class": "WDSpawnVolume",
+      "position": [
+        -10858.558,
+        -13940.212,
+        -543.668
+      ],
+      "yaw": 35.9,
+      "scale": [
+        1.4483,
+        0.8432,
+        1
+      ],
+      "faction": "Charlie",
+      "allowedVehicles": [
+        "Vehicle.Variant.Air"
+      ],
+      "disallowedVehicles": [
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Lonestar",
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Manticore",
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Valkyra"
+      ]
+    },
+    {
+      "id": "993900956ae2",
+      "kind": "spawn-volume",
+      "class": "WDSpawnVolume",
+      "position": [
+        -10834.811,
+        -14015.372,
+        -543.668
+      ],
+      "yaw": 395,
+      "scale": [
+        0.2809,
+        0.1561,
+        1
+      ],
+      "faction": "Charlie",
+      "allowedVehicles": [
+        "Vehicle.Variant.Land.Wheeled.Bobcat"
+      ],
+      "disallowedVehicles": [
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Lonestar",
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Manticore",
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Valkyra",
+        "Vehicle.Variant.Land.Wheeled.Azar",
+        "Vehicle.Variant.Land.Wheeled.Kodiak",
+        "Vehicle.Variant.Land.Tracked.TNK_01",
+        "Vehicle.Variant.Air.Airplane",
+        "Vehicle.Variant.Air.Rotary"
+      ]
+    },
+    {
+      "id": "0677678a37ae",
+      "kind": "spawn-volume",
+      "class": "WDSpawnVolume",
+      "position": [
+        -10833.43,
+        -13970.738,
+        -543.668
+      ],
+      "yaw": 125.66,
+      "scale": [
+        0.259,
+        0.607,
+        1
+      ],
+      "faction": "Charlie",
+      "allowedVehicles": [
+        "Vehicle.Variant.Land.Tracked.TNK_01",
+        "Vehicle.Variant.Land.Tracked.TNK_04",
+        "Vehicle.Variant.Land.Wheeled.DuneBuggy",
+        "Vehicle.Variant.Land.Wheeled.Humvee",
+        "Vehicle.Variant.Land.Wheeled.Kodiak",
+        "Vehicle.Variant.Land.Wheeled.WHL_08",
+        "Vehicle.Variant.Land.Wheeled.Ural"
+      ],
+      "disallowedVehicles": [
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Lonestar",
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Manticore",
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Valkyra",
+        "Vehicle.Variant.Land.Wheeled.Bobcat"
+      ]
+    },
+    {
+      "id": "8b6a6f34f559",
+      "kind": "spawn-volume",
+      "class": "WDSpawnVolume",
+      "position": [
+        -10820.251,
+        -14022.509,
+        -543.7314
+      ],
+      "yaw": -234.71,
+      "scale": [
+        0.2437,
+        0.0766,
+        1
+      ],
+      "faction": "Charlie",
+      "allowedVehicles": [
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Manticore"
+      ],
+      "disallowedVehicles": [
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Lonestar",
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Valkyra"
+      ]
+    },
+    {
+      "id": "5652c747e92a",
+      "kind": "spawn-volume",
+      "class": "WDSpawnVolume",
+      "position": [
+        -10818.732,
+        -13992.061,
+        -543.668
+      ],
+      "yaw": -54.67,
+      "scale": [
+        0.4189,
+        0.486,
+        1
+      ],
+      "faction": "Charlie",
+      "allowedVehicles": [
+        "Vehicle.Variant.Land.Tracked.TNK_01",
+        "Vehicle.Variant.Land.Tracked.TNK_04",
+        "Vehicle.Variant.Land.Wheeled.DuneBuggy",
+        "Vehicle.Variant.Land.Wheeled.Humvee",
+        "Vehicle.Variant.Land.Wheeled.Kodiak",
+        "Vehicle.Variant.Land.Wheeled.WHL_08",
+        "Vehicle.Variant.Land.Wheeled.Ural"
+      ],
+      "disallowedVehicles": [
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Lonestar",
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Manticore",
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Valkyra",
+        "Vehicle.Variant.Land.Wheeled.Bobcat"
+      ]
+    },
+    {
+      "id": "787ae77b53ce",
+      "kind": "spawn-volume",
+      "class": "WDSpawnVolume",
+      "position": [
+        -9677.665,
+        -7658.487,
+        -862.5973
+      ],
+      "yaw": -60,
+      "scale": [
+        5.9973,
+        4.4881,
+        1
+      ],
+      "faction": "Alpha",
+      "allowedVehicles": [
+        "Vehicle.Variant.Air"
+      ],
+      "disallowedVehicles": [
+        "Vehicle.Variant.Land"
+      ]
+    },
+    {
+      "id": "f5692c19f514",
+      "kind": "spawn-volume",
+      "class": "WDSpawnVolume",
+      "position": [
+        -9669.029,
+        -7610.071,
+        -863.2062
+      ],
+      "yaw": -326.96,
+      "scale": [
+        0.1744,
+        0.1444,
+        1
+      ],
+      "faction": "Alpha",
+      "allowedVehicles": [
+        "Vehicle.Variant.Land.Wheeled.Bobcat"
+      ],
+      "disallowedVehicles": [
+        "Vehicle.Variant.Land.Tracked.TNK_01",
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Manticore",
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Valkyra",
+        "Vehicle.Variant.Air.Airplane",
+        "Vehicle.Variant.Air.Rotary",
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Lonestar",
+        "Vehicle.Variant.Land.Wheeled.Kodiak",
+        "Vehicle.Variant.Land.Wheeled.Azar"
+      ]
+    },
+    {
+      "id": "ea8b5eb39c71",
+      "kind": "spawn-volume",
+      "class": "WDSpawnVolume",
+      "position": [
+        -9653.102,
+        -7598.6775,
+        -863.2062
+      ],
+      "yaw": -151.96,
+      "scale": [
+        0.2091,
+        0.1363,
+        1
+      ],
+      "faction": "Alpha",
+      "allowedVehicles": [
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Lonestar"
+      ],
+      "disallowedVehicles": [
+        "Vehicle.Variant.Land.Tracked.TNK_01",
+        "Vehicle.Variant.Land.Wheeled",
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Manticore",
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Valkyra",
+        "Vehicle.Variant.Air.Airplane",
+        "Vehicle.Variant.Air.Rotary"
+      ]
+    },
+    {
+      "id": "74a19eb2d109",
+      "kind": "spawn-volume",
+      "class": "WDSpawnVolume",
+      "position": [
+        -9650.674,
+        -7638.2025,
+        -863.2062
+      ],
+      "yaw": -331.04,
+      "scale": [
+        0.3166,
+        0.7508,
+        1
+      ],
+      "faction": "Alpha",
+      "allowedVehicles": [
+        "Vehicle.Variant.Land.Tracked.TNK_01",
+        "Vehicle.Variant.Land.Tracked.TNK_04",
+        "Vehicle.Variant.Land.Wheeled.DuneBuggy",
+        "Vehicle.Variant.Land.Wheeled.Humvee",
+        "Vehicle.Variant.Land.Wheeled.WHL_08",
+        "Vehicle.Variant.Land.Wheeled.Ural",
+        "Vehicle.Variant.Land.Wheeled.Kodiak"
+      ],
+      "disallowedVehicles": [
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Lonestar",
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Manticore",
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Valkyra",
+        "Vehicle.Variant.Land.Wheeled.Bobcat"
+      ]
+    },
+    {
+      "id": "e1b11bbd9781",
+      "kind": "spawn-volume",
+      "class": "WDSpawnVolume",
+      "position": [
+        -9634.516,
+        -7633.573,
+        -863.2062
+      ],
+      "yaw": -151.96,
+      "scale": [
+        0.2091,
+        0.607,
+        1
+      ],
+      "faction": "Alpha",
+      "allowedVehicles": [
+        "Vehicle.Variant.Land.Tracked.TNK_01",
+        "Vehicle.Variant.Land.Tracked.TNK_04",
+        "Vehicle.Variant.Land.Wheeled.DuneBuggy",
+        "Vehicle.Variant.Land.Wheeled.Humvee",
+        "Vehicle.Variant.Land.Wheeled.WHL_08",
+        "Vehicle.Variant.Land.Wheeled.Ural",
+        "Vehicle.Variant.Land.Wheeled.Kodiak"
+      ],
+      "disallowedVehicles": [
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Lonestar",
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Manticore",
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Valkyra",
+        "Vehicle.Variant.Land.Wheeled.Bobcat",
+        "Vehicle.Variant.Air"
+      ]
+    },
+    {
       "id": "d921ee519e4d",
       "kind": "spawn-volume",
       "class": "WDSpawnVolume",
@@ -702,8 +1255,13 @@
       ],
       "faction": "Alpha",
       "allowedVehicles": [
-        "Vehicle.Variant.Land.Tracked",
-        "Vehicle.Variant.Land.Wheeled"
+        "Vehicle.Variant.Land.Tracked.TNK_01",
+        "Vehicle.Variant.Land.Tracked.TNK_04",
+        "Vehicle.Variant.Land.Wheeled.DuneBuggy",
+        "Vehicle.Variant.Land.Wheeled.Humvee",
+        "Vehicle.Variant.Land.Wheeled.Kodiak",
+        "Vehicle.Variant.Land.Wheeled.WHL_08",
+        "Vehicle.Variant.Land.Wheeled.Ural"
       ],
       "disallowedVehicles": [
         "Vehicle.Variant.Land.Tracked.SpawnVehicle.Lonestar",
@@ -769,6 +1327,90 @@
       ]
     },
     {
+      "id": "792c286ab40b",
+      "kind": "spawn-volume",
+      "class": "WDSpawnVolume",
+      "position": [
+        -4596.6803,
+        -11791.97,
+        -639.7609
+      ],
+      "yaw": -256.98,
+      "scale": [
+        0.3158,
+        1.5798,
+        0.5191
+      ],
+      "faction": "Bravo",
+      "allowedVehicles": [
+        "Vehicle.Variant.Land.Tracked.TNK_01",
+        "Vehicle.Variant.Land.Tracked.TNK_04",
+        "Vehicle.Variant.Land.Wheeled.DuneBuggy",
+        "Vehicle.Variant.Land.Wheeled.Humvee",
+        "Vehicle.Variant.Land.Wheeled.Kodiak",
+        "Vehicle.Variant.Land.Wheeled.WHL_08",
+        "Vehicle.Variant.Land.Wheeled.Ural"
+      ],
+      "disallowedVehicles": [
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Lonestar",
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Manticore"
+      ]
+    },
+    {
+      "id": "2268a717fc12",
+      "kind": "spawn-volume",
+      "class": "WDSpawnVolume",
+      "position": [
+        -4590.8756,
+        -11743.351,
+        -637.7288
+      ],
+      "yaw": -166.63,
+      "scale": [
+        2.5636,
+        1.4054,
+        0.653
+      ],
+      "faction": "Bravo",
+      "allowedVehicles": [
+        "Vehicle.Variant.Air"
+      ],
+      "disallowedVehicles": [
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Lonestar",
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Manticore"
+      ]
+    },
+    {
+      "id": "235500d82e4c",
+      "kind": "spawn-volume",
+      "class": "WDSpawnVolume",
+      "position": [
+        -4580.0744,
+        -11771.124,
+        -639.8082
+      ],
+      "yaw": -166.98,
+      "scale": [
+        2.8309,
+        0.5271,
+        0.5191
+      ],
+      "faction": "Bravo",
+      "allowedVehicles": [
+        "Vehicle.Variant.Land.Tracked.TNK_01",
+        "Vehicle.Variant.Land.Tracked.TNK_04",
+        "Vehicle.Variant.Land.Wheeled.DuneBuggy",
+        "Vehicle.Variant.Land.Wheeled.Humvee",
+        "Vehicle.Variant.Land.Wheeled.Kodiak",
+        "Vehicle.Variant.Land.Wheeled.WHL_08",
+        "Vehicle.Variant.Land.Wheeled.Ural"
+      ],
+      "disallowedVehicles": [
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Lonestar",
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Manticore"
+      ]
+    },
+    {
       "id": "2b6f1b73f35a",
       "kind": "spawn-volume",
       "class": "WDSpawnVolume",
@@ -792,6 +1434,55 @@
       ]
     },
     {
+      "id": "95c9c118eaff",
+      "kind": "spawn-volume",
+      "class": "WDSpawnVolume",
+      "position": [
+        -4561.8775,
+        -11786.404,
+        -640.3234
+      ],
+      "yaw": -240.96,
+      "scale": [
+        0.559,
+        0.3202,
+        0.3104
+      ],
+      "faction": "Bravo",
+      "allowedVehicles": [
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Valkyra"
+      ],
+      "disallowedVehicles": [
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Lonestar",
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Manticore"
+      ]
+    },
+    {
+      "id": "06a294c186dc",
+      "kind": "spawn-volume",
+      "class": "WDSpawnVolume",
+      "position": [
+        -4545.0397,
+        -11775.809,
+        -640.1265
+      ],
+      "yaw": 160.14,
+      "scale": [
+        0.2731,
+        0.1849,
+        1
+      ],
+      "faction": "Bravo",
+      "allowedVehicles": [
+        "Vehicle.Variant.Land.Wheeled.Bobcat"
+      ],
+      "disallowedVehicles": [
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Manticore",
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Lonestar",
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Valkyra"
+      ]
+    },
+    {
       "id": "af4fa372a5ce",
       "kind": "spawn-volume",
       "class": "WDSpawnVolume",
@@ -808,7 +1499,13 @@
       ],
       "faction": "Bravo",
       "allowedVehicles": [
-        "Vehicle.Variant.Land"
+        "Vehicle.Variant.Land.Tracked.TNK_01",
+        "Vehicle.Variant.Land.Tracked.TNK_04",
+        "Vehicle.Variant.Land.Wheeled.DuneBuggy",
+        "Vehicle.Variant.Land.Wheeled.Humvee",
+        "Vehicle.Variant.Land.Wheeled.Kodiak",
+        "Vehicle.Variant.Land.Wheeled.WHL_08",
+        "Vehicle.Variant.Land.Wheeled.Ural"
       ],
       "disallowedVehicles": [
         "Vehicle.Variant.Land.Tracked.SpawnVehicle.Manticore",
@@ -865,6 +1562,28 @@
       "yaw": 105.35
     },
     {
+      "id": "53a54dadd776",
+      "kind": "vehicle-deployment-board",
+      "class": "B_VehicleDeploymentBoard_Manticore_C",
+      "position": [
+        -10847.469,
+        -14013.531,
+        -546.2529
+      ],
+      "yaw": -195.57
+    },
+    {
+      "id": "3df54ff94134",
+      "kind": "vehicle-deployment-board",
+      "class": "B_VehicleDeploymentBoard_Lonestar_C",
+      "position": [
+        -9664.5825,
+        -7590.698,
+        -865.2587
+      ],
+      "yaw": 140
+    },
+    {
       "id": "b72d0247ea65",
       "kind": "vehicle-deployment-board",
       "class": "B_VehicleDeploymentBoard_Lonestar_C",
@@ -874,6 +1593,17 @@
         -843.8684
       ],
       "yaw": 58.29
+    },
+    {
+      "id": "5b4306dacb15",
+      "kind": "vehicle-deployment-board",
+      "class": "B_VehicleDeploymentBoard_Valkrya_C",
+      "position": [
+        -4552.7262,
+        -11780.758,
+        -642.7891
+      ],
+      "yaw": 42.45
     },
     {
       "id": "825d052bfdc5",
@@ -898,6 +1628,28 @@
       "yaw": -146.56
     },
     {
+      "id": "9af215b033a3",
+      "kind": "fuel-refill",
+      "class": "B_SpawnFuelItemRefill_C",
+      "position": [
+        -10842.54,
+        -13999.979,
+        -546.2231
+      ],
+      "yaw": -144.77
+    },
+    {
+      "id": "52d020d27f08",
+      "kind": "fuel-refill",
+      "class": "B_SpawnFuelItemRefill_C",
+      "position": [
+        -9694.373,
+        -7609.136,
+        -865.2587
+      ],
+      "yaw": 114.21
+    },
+    {
       "id": "02bd93923e01",
       "kind": "fuel-refill",
       "class": "B_SpawnFuelItemRefill_C",
@@ -918,6 +1670,17 @@
         -856.2573
       ],
       "yaw": -40.59
+    },
+    {
+      "id": "f4b9ba73d679",
+      "kind": "fuel-refill",
+      "class": "B_SpawnFuelItemRefill_C",
+      "position": [
+        -4537.2312,
+        -11744.544,
+        -642.795
+      ],
+      "yaw": -14.9
     }
   ]
 }

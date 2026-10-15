@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "world": "NorthAmerica",
-  "gameBuild": "25677108",
+  "gameBuild": "25937608",
   "units": "meters",
   "count": 37,
   "objects": [
@@ -273,17 +273,19 @@
       ],
       "faction": "Bravo",
       "allowedVehicles": [
+        "Vehicle.Variant.Land.Tracked.TNK_01",
+        "Vehicle.Variant.Land.Tracked.TNK_04",
         "Vehicle.Variant.Land.Wheeled.DuneBuggy",
         "Vehicle.Variant.Land.Wheeled.Humvee",
         "Vehicle.Variant.Land.Wheeled.Kodiak",
-        "Vehicle.Variant.Land.Wheeled.Ural",
-        "Vehicle.Variant.Land.Wheeled.Azar",
-        "Vehicle.Variant.Land.Tracked"
+        "Vehicle.Variant.Land.Wheeled.WHL_08",
+        "Vehicle.Variant.Land.Wheeled.Ural"
       ],
       "disallowedVehicles": [
         "Vehicle.Variant.Land.Tracked.SpawnVehicle.Manticore",
         "Vehicle.Variant.Land.Tracked.SpawnVehicle.Lonestar",
-        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Valkyra"
+        "Vehicle.Variant.Land.Tracked.SpawnVehicle.Valkyra",
+        "Vehicle.Variant.Land.Wheeled.Bobcat"
       ]
     },
     {
@@ -303,11 +305,13 @@
       ],
       "faction": "Bravo",
       "allowedVehicles": [
-        "Vehicle.Variant.Land.Tracked",
-        "Vehicle.Variant.Land.Wheeled.Ural",
+        "Vehicle.Variant.Land.Tracked.TNK_01",
+        "Vehicle.Variant.Land.Tracked.TNK_04",
         "Vehicle.Variant.Land.Wheeled.DuneBuggy",
         "Vehicle.Variant.Land.Wheeled.Humvee",
-        "Vehicle.Variant.Land.Wheeled.Kodiak"
+        "Vehicle.Variant.Land.Wheeled.Kodiak",
+        "Vehicle.Variant.Land.Wheeled.WHL_08",
+        "Vehicle.Variant.Land.Wheeled.Ural"
       ],
       "disallowedVehicles": [
         "Vehicle.Variant.Land.Tracked.SpawnVehicle.Manticore",
@@ -383,8 +387,6 @@
         "Vehicle.Variant.Land.Tracked.TNK_01",
         "Vehicle.Variant.Land.Tracked.SpawnVehicle.Manticore",
         "Vehicle.Variant.Land.Tracked.SpawnVehicle.Valkyra",
-        "Vehicle.Variant.Air.Airplane",
-        "Vehicle.Variant.Air.Rotary",
         "Vehicle.Variant.Land.Tracked.SpawnVehicle.Lonestar",
         "Vehicle.Variant.Land.Wheeled.Kodiak",
         "Vehicle.Variant.Land.Wheeled.Azar"
@@ -407,20 +409,19 @@
       ],
       "faction": "Alpha",
       "allowedVehicles": [
+        "Vehicle.Variant.Land.Tracked.TNK_01",
+        "Vehicle.Variant.Land.Tracked.TNK_04",
         "Vehicle.Variant.Land.Wheeled.DuneBuggy",
         "Vehicle.Variant.Land.Wheeled.Humvee",
-        "Vehicle.Variant.Land.Wheeled.Ural",
-        "Vehicle.Variant.Land.Tracked",
-        "Vehicle.Variant.Land.Wheeled.Kodiak.Default",
-        "Vehicle.Variant.Land.Wheeled.Kodiak.MachineGun",
-        "Vehicle.Variant.Land.Wheeled.Kodiak.Pickup"
+        "Vehicle.Variant.Land.Wheeled.Kodiak",
+        "Vehicle.Variant.Land.Wheeled.WHL_08",
+        "Vehicle.Variant.Land.Wheeled.Ural"
       ],
       "disallowedVehicles": [
         "Vehicle.Variant.Land.Tracked.SpawnVehicle.Lonestar",
         "Vehicle.Variant.Land.Tracked.SpawnVehicle.Manticore",
         "Vehicle.Variant.Land.Tracked.SpawnVehicle.Valkyra",
-        "Vehicle.Variant.Land.Wheeled.Bobcat",
-        "Vehicle.Variant.Air"
+        "Vehicle.Variant.Land.Wheeled.Bobcat"
       ]
     },
     {
@@ -440,20 +441,19 @@
       ],
       "faction": "Alpha",
       "allowedVehicles": [
+        "Vehicle.Variant.Land.Tracked.TNK_01",
+        "Vehicle.Variant.Land.Tracked.TNK_04",
         "Vehicle.Variant.Land.Wheeled.DuneBuggy",
         "Vehicle.Variant.Land.Wheeled.Humvee",
-        "Vehicle.Variant.Land.Wheeled.Ural",
-        "Vehicle.Variant.Land.Tracked",
-        "Vehicle.Variant.Land.Wheeled.Kodiak.Default",
-        "Vehicle.Variant.Land.Wheeled.Kodiak.MachineGun",
-        "Vehicle.Variant.Land.Wheeled.Kodiak.Pickup"
+        "Vehicle.Variant.Land.Wheeled.Kodiak",
+        "Vehicle.Variant.Land.Wheeled.WHL_08",
+        "Vehicle.Variant.Land.Wheeled.Ural"
       ],
       "disallowedVehicles": [
         "Vehicle.Variant.Land.Tracked.SpawnVehicle.Lonestar",
         "Vehicle.Variant.Land.Tracked.SpawnVehicle.Manticore",
         "Vehicle.Variant.Land.Tracked.SpawnVehicle.Valkyra",
-        "Vehicle.Variant.Land.Wheeled.Bobcat",
-        "Vehicle.Variant.Air"
+        "Vehicle.Variant.Land.Wheeled.Bobcat"
       ]
     },
     {
@@ -501,15 +501,13 @@
       ],
       "faction": "Charlie",
       "allowedVehicles": [
-        "Vehicle.Variant.Land.Wheeled.Azar",
+        "Vehicle.Variant.Land.Tracked.TNK_01",
+        "Vehicle.Variant.Land.Tracked.TNK_04",
         "Vehicle.Variant.Land.Wheeled.DuneBuggy",
-        "Vehicle.Variant.Land.Wheeled.Kodiak.Default",
-        "Vehicle.Variant.Land.Wheeled.Kodiak.MachineGun",
-        "Vehicle.Variant.Land.Wheeled.Kodiak.Pickup",
-        "Vehicle.Variant.Land.Wheeled.Humvee.Default",
-        "Vehicle.Variant.Land.Wheeled.Humvee.MachineGun",
-        "Vehicle.Variant.Land.Wheeled.Humvee.Minigun",
-        "Vehicle.Variant.Land.Tracked.TNK_01"
+        "Vehicle.Variant.Land.Wheeled.Humvee",
+        "Vehicle.Variant.Land.Wheeled.Kodiak",
+        "Vehicle.Variant.Land.Wheeled.WHL_08",
+        "Vehicle.Variant.Land.Wheeled.Ural"
       ],
       "disallowedVehicles": [
         "Vehicle.Variant.Land.Tracked.SpawnVehicle.Lonestar",
@@ -560,15 +558,13 @@
       ],
       "faction": "Charlie",
       "allowedVehicles": [
-        "Vehicle.Variant.Land.Wheeled.Azar",
+        "Vehicle.Variant.Land.Tracked.TNK_01",
+        "Vehicle.Variant.Land.Tracked.TNK_04",
         "Vehicle.Variant.Land.Wheeled.DuneBuggy",
-        "Vehicle.Variant.Land.Wheeled.Kodiak.Default",
-        "Vehicle.Variant.Land.Wheeled.Kodiak.MachineGun",
-        "Vehicle.Variant.Land.Wheeled.Kodiak.Pickup",
-        "Vehicle.Variant.Land.Wheeled.Humvee.Default",
-        "Vehicle.Variant.Land.Wheeled.Humvee.MachineGun",
-        "Vehicle.Variant.Land.Wheeled.Humvee.Minigun",
-        "Vehicle.Variant.Land.Tracked.TNK_01"
+        "Vehicle.Variant.Land.Wheeled.Humvee",
+        "Vehicle.Variant.Land.Wheeled.Kodiak",
+        "Vehicle.Variant.Land.Wheeled.WHL_08",
+        "Vehicle.Variant.Land.Wheeled.Ural"
       ],
       "disallowedVehicles": [
         "Vehicle.Variant.Land.Tracked.SpawnVehicle.Lonestar",
@@ -594,11 +590,13 @@
       ],
       "faction": "Charlie",
       "allowedVehicles": [
-        "Vehicle.Variant.Land.Tracked",
-        "Vehicle.Variant.Land.Wheeled.Ural",
+        "Vehicle.Variant.Land.Tracked.TNK_01",
+        "Vehicle.Variant.Land.Tracked.TNK_04",
         "Vehicle.Variant.Land.Wheeled.DuneBuggy",
+        "Vehicle.Variant.Land.Wheeled.Humvee",
         "Vehicle.Variant.Land.Wheeled.Kodiak",
-        "Vehicle.Variant.Land.Wheeled.Humvee"
+        "Vehicle.Variant.Land.Wheeled.WHL_08",
+        "Vehicle.Variant.Land.Wheeled.Ural"
       ],
       "disallowedVehicles": [
         "Vehicle.Variant.Land.Tracked.SpawnVehicle.Lonestar",

@@ -338,7 +338,8 @@ export const VEHICLE_ENTITY_OVERRIDES: Readonly<Record<string, string>> = {
 /**
  * The damage entity (without `Meta.Damage.`) of the gameplay systems asset a variant uses: the variant id without
  * `Variant.`, shortened a segment at a time until a systems asset with that entity exists. Variants of one platform
- * (the three Ural variants, say) share one. Case does not matter. Returns undefined when nothing matches.
+ * (the three Ural variants, say) share one. Failing that, the `Default` variant of a shorter id. Case does not matter.
+ * Returns undefined when nothing matches.
  */
 export function resolveSystemsEntity(variantId: string, known: ReadonlySet<string>): string | undefined {
   const lower = new Map([...known].map((k) => [k.toLowerCase(), k]));
@@ -347,6 +348,11 @@ export function resolveSystemsEntity(variantId: string, known: ReadonlySet<strin
     const candidate = `Vehicle.${parts.slice(0, n).join(".")}`;
     const wanted = VEHICLE_ENTITY_OVERRIDES[candidate] ?? candidate;
     const hit = lower.get(wanted.toLowerCase());
+    if (hit) return hit;
+  }
+  // A platform whose only systems asset is for its `Default` variant (the Wolf-110's ring turret shares the Wolf-110's).
+  for (let n = parts.length - 1; n >= 2; n--) {
+    const hit = lower.get(`Vehicle.${parts.slice(0, n).join(".")}.Default`.toLowerCase());
     if (hit) return hit;
   }
   return undefined;

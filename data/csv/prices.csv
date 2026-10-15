@@ -1,10 +1,12 @@
 item_id,item_name,variation,price,amount,unit_price,categories
+Id.Item,Fuel Can,Id.Item.WEPN_017,0,1,0,Vendor.Category.Weapon
 Id.Item.10xScopeMoa,6-10x Scope MOA,Id.Item.10xScopeMoa,1050,1,1050,Vendor.Category.Attachment
 ID.Item.120x570mm,120x570mm,ID.Item.120x570mm,210,1,210,Vendor.Category.Vehicle.Ammo;Vendor.Category.Ammo
 Id.Item.120x800mm,120x800mm,Id.Item.120x800mm,600,10,60,Vendor.Category.Utility
 Id.Item.120x800mm,120x800mm,Id.Item.120x800mm.Expensive,600,10,60,Vendor.Category.Utility
 Id.Item.120x800mm,120x800mm,Id.Item.120x800mm.Standard,600,10,60,Vendor.Category.Utility
 Id.Item.122mm,122mm,Id.Item.122mm,450,3,150,Vendor.Category.Vehicle.Ammo
+ID.Item.125x570mm,125x570mm,ID.Item.125x570mm,210,1,210,Vendor.Category.Vehicle.Ammo;Vendor.Category.Ammo
 Id.Item.12g.7mmBuck,7mm Buckshot,Id.Item.12g.7mmBuck,60,6,10,Vendor.Category.Ammo;Vendor.Category.AmmoLoose
 Id.Item.12g.RifledSlug,Rifled Slug,Id.Item.12g.RifledSlug,200,6,33.333333,Vendor.Category.Ammo;Vendor.Category.AmmoLoose
 ID.Item.155mm,155mm,ID.Item.155mm,200,2,100,Vendor.Category.Ammo;Vendor.Category.Vehicle.Ammo
@@ -47,7 +49,7 @@ Id.Item.50Cal,.50 Cal,Id.Item.50Cal.ArmorPiercing,500,5,100,Vendor.Category.Ammo
 Id.Item.50Cal,.50 Cal,Id.Item.50Cal.ArmorPiercing.Tracer,500,5,100,Vendor.Category.Ammo.Type;Vendor.Category.AmmoLoose
 Id.Item.50Cal,.50 Cal,Id.Item.50Cal.HollowPoint,375,5,75,Vendor.Category.Ammo.Type;Vendor.Category.AmmoLoose
 Id.Item.50Cal,.50 Cal,Id.Item.50Cal.HollowPoint.Tracer,375,5,75,Vendor.Category.Ammo.Type;Vendor.Category.AmmoLoose
-Id.Item.50Cal,.50 Cal,Id.Item.50Cal.Tracer,250,5,50,Vendor.Category.Ammo;Vendor.Category.AmmoLoose
+Id.Item.50Cal,.50 Cal,Id.Item.50Cal.Tracer,250,5,50,Vendor.Category.Ammo;Vendor.Category.AmmoLoose;Vendor.Category.Vehicle.Ammo
 Id.Item.545mm,5.45mm,Id.Item.545mm,15,10,1.5,Vendor.Category.Ammo.Type;Vendor.Category.AmmoLoose
 Id.Item.545mm,5.45mm,Id.Item.545mm.ArmorPiercing,40,10,4,Vendor.Category.Ammo.Type;Vendor.Category.AmmoLoose
 Id.Item.545mm,5.45mm,Id.Item.545mm.ArmorPiercing.Tracer,40,10,4,Vendor.Category.Ammo.Type;Vendor.Category.AmmoLoose
@@ -75,7 +77,7 @@ Id.Item.762x54mm,7.62x54mm,Id.Item.762x54mm.ArmorPiercing,90,5,18,Vendor.Categor
 Id.Item.762x54mm,7.62x54mm,Id.Item.762x54mm.ArmorPiercing.Tracer,90,5,18,Vendor.Category.Ammo.Type;Vendor.Category.AmmoLoose
 Id.Item.762x54mm,7.62x54mm,Id.Item.762x54mm.HollowPoint,55,5,11,Vendor.Category.Ammo.Type;Vendor.Category.AmmoLoose
 Id.Item.762x54mm,7.62x54mm,Id.Item.762x54mm.HollowPoint.Tracer,55,5,11,Vendor.Category.Ammo.Type;Vendor.Category.AmmoLoose
-Id.Item.762x54mm,7.62x54mm,Id.Item.762x54mm.Tracer,30,5,6,Vendor.Category.Ammo.Type;Vendor.Category.AmmoLoose
+Id.Item.762x54mm,7.62x54mm,Id.Item.762x54mm.Tracer,30,5,6,Vendor.Category.Ammo.Type;Vendor.Category.Vehicle.Ammo;Vendor.Category.AmmoLoose
 Id.Item.84mm,84mm,Id.Item.84mm,200,1,200,Vendor.Category.Ammo;Vendor.Category.AmmoLoose
 Id.Item.93mm,93mm,Id.Item.93mm,200,1,200,Vendor.Category.Ammo;Vendor.Category.AmmoLoose
 Id.Item.9mm,9mm,Id.Item.9mm,10,10,1,Vendor.Category.Ammo.Type;Vendor.Category.AmmoLoose
@@ -117,7 +119,7 @@ Id.Item.Arrow.Explosive,Combat Arrow,Id.Item.Arrow.Explosive,150,1,150,Vendor.Ca
 ID.Item.ATMine,AT Mine,ID.Item.ATMine,650,1,650,Vendor.Category.Utility
 Id.Item.Bandage,Bandage,Id.Item.Bandage,200,1,200,Vendor.Category.Utility
 Id.Item.Battery,Battery,Id.Item.Battery,150,1,150,Vendor.Category.Ammo;Vendor.Category.AmmoLoose
-ID.Item.Binoculars,Binoculars,ID.Item.Binoculars,75,1,75,Vendor.Category.Weapon.Specialist;Vendor.Category.Utility
+ID.Item.Binoculars,Binoculars,ID.Item.Binoculars,180,1,180,Vendor.Category.Weapon.Specialist;Vendor.Category.Utility
 Id.Item.BPAK_005,Field Backpack,Id.Item.BPAK_005,650,1,650,Vendor.Category.Gear.Backpack
 Id.Item.BPAK_006,Assault Backpack,Id.Item.BPAK_006,1200,1,1200,Vendor.Category.Gear.Backpack
 Id.Item.BPAK_007,Halftrack Backpack,Id.Item.BPAK_007,15000,1,15000,Vendor.Category.Gear.Backpack
@@ -126,30 +128,32 @@ ID.Item.BuildTool.Hammer.Medium,Medium Hammer,ID.Item.BuildTool.Hammer.Medium,80
 ID.Item.BuildTool.Hammer.Small,Small Hammer,ID.Item.BuildTool.Hammer.Small,100,1,100,Vendor.Category.Utility;Vendor.Category.Weapon.Specialist
 Id.Item.BuildToolSupply,Build Supplies,Id.Item.BuildToolSupply,10,50,0.2,Vendor.Category.Utility
 Id.Item.C4Explosive,C4 Charge,Id.Item.C4Explosive,250,1,250,Vendor.Category.Utility;Vendor.Category.Ammo
-Id.Item.C4Trigger,Remote Detonator,Id.Item.C4Trigger,550,1,550,Vendor.Category.Utility;Vendor.Category.Weapon.Specialist
+Id.Item.C4Trigger,Remote Detonator,Id.Item.C4Trigger,650,1,650,Vendor.Category.Utility;Vendor.Category.Weapon.Specialist
 Id.Item.Claymore,Claymore,Id.Item.Claymore,900,1,900,Vendor.Category.Utility
-Id.Item.CombatBow,Compound Bow,Id.Item.CombatBow,800,1,800,Vendor.Category.Weapon.Primary
-Id.Item.Crowbar,Halligan Bar,Id.Item.Crowbar,1100,1,1100,Vendor.Category.Utility;Vendor.Category.Weapon.Specialist
+Id.Item.CombatBow,Compound Bow,Id.Item.CombatBow,1350,1,1350,Vendor.Category.Weapon.Primary
+Id.Item.Crowbar,Halligan Bar,Id.Item.Crowbar,885,1,885,Vendor.Category.Utility;Vendor.Category.Weapon.Specialist
 Id.Item.Defibrillator.Standard,Defibrillator,Id.Item.Defibrillator.Standard,1600,1,1600,Vendor.Category.Utility;Vendor.Category.Weapon.Specialist
 ID.Item.Enox.Standard,Enox,ID.Item.Enox.Standard,450,1,450,Vendor.Category.Utility
 Id.Item.EotechHoloSight,Holographic Sight,Id.Item.EotechHoloSight,620,1,620,Vendor.Category.Attachment
-Id.Item.ExtraLargeSlingBackpack,Large Backpack + 2 Slings,Id.Item.ExtraLargeSlingBackpack,5000,1,5000,Vendor.Category.Gear.Backpack
-Id.Item.FGP_02,TDG Vertical Foregrip,Id.Item.FGP_02,1000,1,1000,Vendor.Category.Attachment
-Id.Item.FGP_03,AFG Angled Foregrip,Id.Item.FGP_03,820,1,820,Vendor.Category.Attachment
+Id.Item.ExtraLargeSlingBackpack,Large Backpack + 2 Slings,Id.Item.ExtraLargeSlingBackpack,4000,1,4000,Vendor.Category.Gear.Backpack
+Id.Item.FGP_02,TDG Vertical Foregrip,Id.Item.FGP_02,820,1,820,Vendor.Category.Attachment
+Id.Item.FGP_03,AFG Angled Foregrip,Id.Item.FGP_03,800,1,800,Vendor.Category.Attachment
 Id.Item.FGP_04,Grip Pod,Id.Item.FGP_04,1500,1,1500,Vendor.Category.Attachment
-Id.Item.FGRP_006,RVG Vertical Foregrip,Id.Item.FGRP_006,770,1,770,Vendor.Category.Attachment
-Id.Item.FGRP_007,Shift Foregrip,Id.Item.FGRP_007,1150,1,1150,Vendor.Category.Attachment
+Id.Item.FGRP_006,RVG Vertical Foregrip,Id.Item.FGRP_006,720,1,720,Vendor.Category.Attachment
+Id.Item.FGRP_007,Shift Foregrip,Id.Item.FGRP_007,840,1,840,Vendor.Category.Attachment
 Id.Item.FGRP_008,PKM Bipod,Id.Item.FGRP_008,1350,1,1350,Vendor.Category.Attachment
 Id.Item.FGRP_009,SV98 Bipod,Id.Item.FGRP_009,1250,1,1250,Vendor.Category.Attachment
-Id.Item.FGRP_010,SKS Bipod,Id.Item.FGRP_010,800,1,800,Vendor.Category.Attachment
+Id.Item.FGRP_010,SKS Bipod,Id.Item.FGRP_010,810,1,810,Vendor.Category.Attachment
 Id.Item.FGRP_011,SVD Bipod,Id.Item.FGRP_011,1120,1,1120,Vendor.Category.Attachment
 Id.Item.FGRP_012,M249 Bipod,Id.Item.FGRP_012,1050,1,1050,Vendor.Category.Attachment
 Id.Item.FGRP_013,Pro Tilt Bipod,Id.Item.FGRP_013,1400,1,1400,Vendor.Category.Attachment
-Id.Item.FGRP_014,CQR Tactical Front Rail Grip,Id.Item.FGRP_014,1100,1,1100,Vendor.Category.Attachment
+Id.Item.FGRP_014,CQR Tactical Front Rail Grip,Id.Item.FGRP_014,950,1,950,Vendor.Category.Attachment
 Id.Item.FGRP_015,Rubberized Ergonomic Foregrip,Id.Item.FGRP_015,540,1,540,Vendor.Category.Attachment
-Id.Item.FGRP_016,45° Angled Foregrip,Id.Item.FGRP_016,680,1,680,Vendor.Category.Attachment
+Id.Item.FGRP_016,45° Angled Foregrip,Id.Item.FGRP_016,640,1,640,Vendor.Category.Attachment
 Id.Item.FGRP_017,Angled Tactical Foregrip,Id.Item.FGRP_017,650,1,650,Vendor.Category.Attachment
-Id.Item.FGRP_018,Mini Angled Foregrip,Id.Item.FGRP_018,720,1,720,Vendor.Category.Attachment
+Id.Item.FGRP_018,Mini Angled Foregrip,Id.Item.FGRP_018,680,1,680,Vendor.Category.Attachment
+Id.Item.FGRP_019,Evo-3 Ultra Bipod,Id.Item.FGRP_019,1450,1,1450,Vendor.Category.Attachment
+Id.Item.FGRP_020,M14 Bipod,Id.Item.FGRP_020,1480,1,1480,Vendor.Category.Attachment
 Id.Item.Flares,Flares,Id.Item.Flares,750,1,750,Vendor.Category.Vehicle.CounterMeasures
 Id.Item.FOB,Forward Operating Base,Id.Item.FOB,7500,1,7500,Vendor.Category.Utility
 Id.Item.FuelCan,Fuel Can,Id.Item.FuelCan,150,1,150,Vendor.Category.Utility;Vendor.Category.Weapon.Specialist
@@ -165,20 +169,20 @@ Id.Item.Glock17Magazine,GGX 17 RND Magazine,Id.Item.Glock17Magazine.FMJ,47,1,47,
 Id.Item.Glock17Magazine,GGX 17 RND Magazine,Id.Item.Glock17Magazine.FMJTracer,47,1,47,Vendor.Category.Magazine
 Id.Item.Glock17Magazine,GGX 17 RND Magazine,Id.Item.Glock17Magazine.HollowPoint,55.5,1,55.5,Vendor.Category.Magazine
 Id.Item.Glock17Magazine,GGX 17 RND Magazine,Id.Item.Glock17Magazine.HollowPointTracer,55.5,1,55.5,Vendor.Category.Magazine
-Id.Item.HeavyArmor,Level 3 Armor,Id.Item.HeavyArmor,2000,1,2000,Vendor.Category.Gear.Armor
-Id.Item.HeavyHelmet,Level 3 Helmet,Id.Item.HeavyHelmet,1500,1,1500,Vendor.Category.Gear.Helmet
+Id.Item.HeavyArmor,Level 3 Armor,Id.Item.HeavyArmor,2500,1,2500,Vendor.Category.Gear.Armor
+Id.Item.HeavyHelmet,Level 3 Helmet,Id.Item.HeavyHelmet,2000,1,2000,Vendor.Category.Gear.Helmet
 Id.Item.IED.Trigger,Improvised Explosive Device,Id.Item.IED.Trigger,300,1,300,Vendor.Category.Utility;Vendor.Category.Weapon.Specialist
-ID.Item.InfraredRangeFinder,Infrared Range Finder,ID.Item.InfraredRangeFinder,1200,1,1200,Vendor.Category.Weapon.Specialist;Vendor.Category.Utility
+ID.Item.InfraredRangeFinder,Infrared Range Finder,ID.Item.InfraredRangeFinder,3200,1,3200,Vendor.Category.Weapon.Specialist;Vendor.Category.Utility
 Id.Item.Judge,Judge,Id.Item.Judge,250,1,250,Vendor.Category.Weapon.Sidearm
-Id.Item.LargeBackpack,Large Backpack,Id.Item.LargeBackpack,2400,1,2400,Vendor.Category.Gear.Backpack
+Id.Item.LargeBackpack,Large Backpack,Id.Item.LargeBackpack,1600,1,1600,Vendor.Category.Gear.Backpack
 Id.Item.LargeBattery,High Capacity Battery,Id.Item.LargeBattery,300,1,300,Vendor.Category.Ammo;Vendor.Category.AmmoLoose
-Id.Item.LargeSlingBackpack,Large Backpack + Sling,Id.Item.LargeSlingBackpack,3500,1,3500,Vendor.Category.Gear.Backpack
+Id.Item.LargeSlingBackpack,Large Backpack + Sling,Id.Item.LargeSlingBackpack,2400,1,2400,Vendor.Category.Gear.Backpack
 Id.Item.LargeTacVest,Large Tac Vest,Id.Item.LargeTacVest,400,1,400,Vendor.Category.Gear.Vest
 Id.Item.Launcher_04,9K333 Verba,Id.Item.Launcher_04,800,1,800,Vendor.Category.Weapon.Specialist
 Id.Item.LeapordBarrel,Tank Barrel Test,Id.Item.LeapordBarrel,0,1,0,Vendor.Category.Utility
 Id.Item.LightArmor,Level 1 Armor,Id.Item.LightArmor,400,1,400,Vendor.Category.Gear.Armor
 Id.Item.LightHelmet,Level 1 Helmet,Id.Item.LightHelmet,200,1,200,Vendor.Category.Gear.Helmet
-Id.Item.LMG_02,PKM,Id.Item.LMG_02,4500,1,4500,Vendor.Category.Weapon.Primary
+Id.Item.LMG_02,PKM,Id.Item.LMG_02,4100,1,4100,Vendor.Category.Weapon.Primary
 Id.Item.LMG_02Magazine,PKM 100 RND Box,Id.Item.LMG_02Magazine,100,1,100,Vendor.Category.Magazine.Size
 Id.Item.LMG_02Magazine,PKM 100 RND Box,Id.Item.LMG_02Magazine.ArmorPiercing,1900,1,1900,Vendor.Category.Magazine
 Id.Item.LMG_02Magazine,PKM 100 RND Box,Id.Item.LMG_02Magazine.ArmorPiercingTracer,1900,1,1900,Vendor.Category.Magazine
@@ -277,6 +281,13 @@ Id.Item.MAGZ_046,PP-19 50 RND Vityaz Drum Magazine,Id.Item.MAGZ_046.FMJ,250,1,25
 Id.Item.MAGZ_046,PP-19 50 RND Vityaz Drum Magazine,Id.Item.MAGZ_046.FMJTracer,250,1,250,Vendor.Category.Magazine
 Id.Item.MAGZ_046,PP-19 50 RND Vityaz Drum Magazine,Id.Item.MAGZ_046.HollowPoint,275,1,275,Vendor.Category.Magazine
 Id.Item.MAGZ_046,PP-19 50 RND Vityaz Drum Magazine,Id.Item.MAGZ_046.HollowPointTracer,275,1,275,Vendor.Category.Magazine
+Id.Item.MAGZ_051,PP-19 Bizon 53 RND Magazine,Id.Item.MAGZ_051,200,1,200,Vendor.Category.Magazine.Size
+Id.Item.MAGZ_051,PP-19 Bizon 53 RND Magazine,Id.Item.MAGZ_051.ArmorPiercing,306,1,306,Vendor.Category.Magazine
+Id.Item.MAGZ_051,PP-19 Bizon 53 RND Magazine,Id.Item.MAGZ_051.ArmorPiercingTracer,306,1,306,Vendor.Category.Magazine
+Id.Item.MAGZ_051,PP-19 Bizon 53 RND Magazine,Id.Item.MAGZ_051.FMJ,253,1,253,Vendor.Category.Magazine
+Id.Item.MAGZ_051,PP-19 Bizon 53 RND Magazine,Id.Item.MAGZ_051.FMJTracer,253,1,253,Vendor.Category.Magazine
+Id.Item.MAGZ_051,PP-19 Bizon 53 RND Magazine,Id.Item.MAGZ_051.HollowPoint,280,1,280,Vendor.Category.Magazine
+Id.Item.MAGZ_051,PP-19 Bizon 53 RND Magazine,Id.Item.MAGZ_051.HollowPointTracer,280,1,280,Vendor.Category.Magazine
 Id.Item.MAGZ_052,AMP-9 20 RND Magazine,Id.Item.MAGZ_052,70,1,70,Vendor.Category.Magazine.Size
 Id.Item.MAGZ_052,AMP-9 20 RND Magazine,Id.Item.MAGZ_052.ArmorPiercing,110,1,110,Vendor.Category.Magazine
 Id.Item.MAGZ_052,AMP-9 20 RND Magazine,Id.Item.MAGZ_052.ArmorPiercingTracer,110,1,110,Vendor.Category.Magazine
@@ -361,12 +372,47 @@ Id.Item.MAGZ_066,AMP-9 50 RND Drum Magazine,Id.Item.MAGZ_066.FMJ,230,1,230,Vendo
 Id.Item.MAGZ_066,AMP-9 50 RND Drum Magazine,Id.Item.MAGZ_066.FMJTracer,230,1,230,Vendor.Category.Magazine
 Id.Item.MAGZ_066,AMP-9 50 RND Drum Magazine,Id.Item.MAGZ_066.HollowPoint,255,1,255,Vendor.Category.Magazine
 Id.Item.MAGZ_066,AMP-9 50 RND Drum Magazine,Id.Item.MAGZ_066.HollowPointTracer,255,1,255,Vendor.Category.Magazine
+Id.Item.MAGZ_067,Evo-3 Ultra 50 RND Box,Id.Item.MAGZ_067,110,1,110,Vendor.Category.Magazine.Size
+Id.Item.MAGZ_067,Evo-3 Ultra 50 RND Box,Id.Item.MAGZ_067.ArmorPiercing,1010,1,1010,Vendor.Category.Magazine
+Id.Item.MAGZ_067,Evo-3 Ultra 50 RND Box,Id.Item.MAGZ_067.ArmorPiercingTracer,1010,1,1010,Vendor.Category.Magazine
+Id.Item.MAGZ_067,Evo-3 Ultra 50 RND Box,Id.Item.MAGZ_067.FMJ,310,1,310,Vendor.Category.Magazine
+Id.Item.MAGZ_067,Evo-3 Ultra 50 RND Box,Id.Item.MAGZ_067.FMJTracer,310,1,310,Vendor.Category.Magazine
+Id.Item.MAGZ_067,Evo-3 Ultra 50 RND Box,Id.Item.MAGZ_067.HollowPoint,460,1,460,Vendor.Category.Magazine
+Id.Item.MAGZ_067,Evo-3 Ultra 50 RND Box,Id.Item.MAGZ_067.HollowPointTracer,460,1,460,Vendor.Category.Magazine
+Id.Item.MAGZ_068,M14 10 RND Magazine,Id.Item.MAGZ_068,60,1,60,Vendor.Category.Magazine.Size
+Id.Item.MAGZ_068,M14 10 RND Magazine,Id.Item.MAGZ_068.ArmorPiercing,240,1,240,Vendor.Category.Magazine
+Id.Item.MAGZ_068,M14 10 RND Magazine,Id.Item.MAGZ_068.ArmorPiercingTracer,240,1,240,Vendor.Category.Magazine
+Id.Item.MAGZ_068,M14 10 RND Magazine,Id.Item.MAGZ_068.FMJ,100,1,100,Vendor.Category.Magazine
+Id.Item.MAGZ_068,M14 10 RND Magazine,Id.Item.MAGZ_068.FMJTracer,100,1,100,Vendor.Category.Magazine
+Id.Item.MAGZ_068,M14 10 RND Magazine,Id.Item.MAGZ_068.HollowPoint,130,1,130,Vendor.Category.Magazine
+Id.Item.MAGZ_068,M14 10 RND Magazine,Id.Item.MAGZ_068.HollowPointTracer,130,1,130,Vendor.Category.Magazine
+Id.Item.MAGZ_069,SIG Spear (WEPN_037) Standard Mag,Id.Item.MAGZ_069,50,1,50,Vendor.Category.Magazine.Size
+Id.Item.MAGZ_069,SIG Spear (WEPN_037) Standard Mag,Id.Item.MAGZ_069.ArmorPiercing,470,1,470,Vendor.Category.Magazine
+Id.Item.MAGZ_069,SIG Spear (WEPN_037) Standard Mag,Id.Item.MAGZ_069.ArmorPiercingTracer,470,1,470,Vendor.Category.Magazine
+Id.Item.MAGZ_069,SIG Spear (WEPN_037) Standard Mag,Id.Item.MAGZ_069.FMJ,162,1,162,Vendor.Category.Magazine
+Id.Item.MAGZ_069,SIG Spear (WEPN_037) Standard Mag,Id.Item.MAGZ_069.FMJTracer,162,1,162,Vendor.Category.Magazine
+Id.Item.MAGZ_069,SIG Spear (WEPN_037) Standard Mag,Id.Item.MAGZ_069.HollowPoint,302,1,302,Vendor.Category.Magazine
+Id.Item.MAGZ_069,SIG Spear (WEPN_037) Standard Mag,Id.Item.MAGZ_069.HollowPointTracer,302,1,302,Vendor.Category.Magazine
+Id.Item.MAGZ_070,M14 30 RND Magazine,Id.Item.MAGZ_070,180,1,180,Vendor.Category.Magazine.Size
+Id.Item.MAGZ_070,M14 30 RND Magazine,Id.Item.MAGZ_070.ArmorPiercing,720,1,720,Vendor.Category.Magazine
+Id.Item.MAGZ_070,M14 30 RND Magazine,Id.Item.MAGZ_070.ArmorPiercingTracer,720,1,720,Vendor.Category.Magazine
+Id.Item.MAGZ_070,M14 30 RND Magazine,Id.Item.MAGZ_070.FMJ,300,1,300,Vendor.Category.Magazine
+Id.Item.MAGZ_070,M14 30 RND Magazine,Id.Item.MAGZ_070.FMJTracer,300,1,300,Vendor.Category.Magazine
+Id.Item.MAGZ_070,M14 30 RND Magazine,Id.Item.MAGZ_070.HollowPoint,390,1,390,Vendor.Category.Magazine
+Id.Item.MAGZ_070,M14 30 RND Magazine,Id.Item.MAGZ_070.HollowPointTracer,390,1,390,Vendor.Category.Magazine
+Id.Item.MAGZ_071,M14 20 RND Magazine,Id.Item.MAGZ_071,110,1,110,Vendor.Category.Magazine.Size
+Id.Item.MAGZ_071,M14 20 RND Magazine,Id.Item.MAGZ_071.ArmorPiercing,240,1,240,Vendor.Category.Magazine
+Id.Item.MAGZ_071,M14 20 RND Magazine,Id.Item.MAGZ_071.ArmorPiercingTracer,240,1,240,Vendor.Category.Magazine
+Id.Item.MAGZ_071,M14 20 RND Magazine,Id.Item.MAGZ_071.FMJ,190,1,190,Vendor.Category.Magazine
+Id.Item.MAGZ_071,M14 20 RND Magazine,Id.Item.MAGZ_071.FMJTracer,100,1,100,Vendor.Category.Magazine
+Id.Item.MAGZ_071,M14 20 RND Magazine,Id.Item.MAGZ_071.HollowPoint,130,1,130,Vendor.Category.Magazine
+Id.Item.MAGZ_071,M14 20 RND Magazine,Id.Item.MAGZ_071.HollowPointTracer,130,1,130,Vendor.Category.Magazine
 Id.Item.MediumArmor,Level 2 Armor,Id.Item.MediumArmor,1000,1,1000,Vendor.Category.Gear.Armor
 Id.Item.MediumBackpack,Medium Backpack,Id.Item.MediumBackpack,800,1,800,Vendor.Category.Gear.Backpack
 Id.Item.MediumHelmet,Level 2 Helmet,Id.Item.MediumHelmet,500,1,500,Vendor.Category.Gear.Helmet
 Id.Item.MediumSlingBackpack,Medium Backpack + Sling,Id.Item.MediumSlingBackpack,1400,1,1400,Vendor.Category.Gear.Backpack
 Id.Item.MediumTacVest,Medium Tac Vest,Id.Item.MediumTacVest,250,1,250,Vendor.Category.Gear.Vest
-ID.Item.MedKit.Standard,Medical Bag,ID.Item.MedKit.Standard,2000,1,2000,Vendor.Category.Weapon.Specialist;Vendor.Category.Utility
+ID.Item.MedKit.Standard,Medical Bag,ID.Item.MedKit.Standard,1800,1,1800,Vendor.Category.Weapon.Specialist;Vendor.Category.Utility
 Id.Item.MK22,MK22,Id.Item.MK22,6400,1,6400,Vendor.Category.Weapon.Primary
 Id.Item.MK22Mag,MK22 Standard Mag,Id.Item.MK22Mag,60,1,60,Vendor.Category.Magazine.Size
 Id.Item.MK22Mag,MK22 Standard Mag,Id.Item.MK22Mag.ArmorPiercing,240,1,240,Vendor.Category.Magazine
@@ -375,10 +421,11 @@ Id.Item.MK22Mag,MK22 Standard Mag,Id.Item.MK22Mag.FMJ,100,1,100,Vendor.Category.
 Id.Item.MK22Mag,MK22 Standard Mag,Id.Item.MK22Mag.FMJTracer,100,1,100,Vendor.Category.Magazine
 Id.Item.MK22Mag,MK22 Standard Mag,Id.Item.MK22Mag.HollowPoint,130,1,130,Vendor.Category.Magazine
 Id.Item.MK22Mag,MK22 Standard Mag,Id.Item.MK22Mag.HollowPointTracer,130,1,130,Vendor.Category.Magazine
-ID.Item.Monocular,Monocular,ID.Item.Monocular,150,1,150,Vendor.Category.Weapon.Specialist;Vendor.Category.Utility
+Id.Item.Molotov,Id.Item.Molotov,Id.Item.Molotov,340,1,340,Vendor.Category.Utility
+ID.Item.Monocular,Monocular,ID.Item.Monocular,350,1,350,Vendor.Category.Weapon.Specialist;Vendor.Category.Utility
 Id.Item.Mosin,Mosin Nagant,Id.Item.Mosin,4500,1,4500,Vendor.Category.Weapon.Primary
 Id.Item.MP43,MP43,Id.Item.MP43,400,1,400,Vendor.Category.Weapon.Primary
-Id.Item.MP9,AMP-9,Id.Item.MP9,900,1,900,Vendor.Category.Weapon.Primary
+Id.Item.MP9,AMP-9,Id.Item.MP9,1375,1,1375,Vendor.Category.Weapon.Primary
 Id.Item.MP9Magazine,AMP-9 30 RND Magazine,Id.Item.MP9Magazine,100,1,100,Vendor.Category.Magazine.Size
 Id.Item.MP9Magazine,AMP-9 30 RND Magazine,Id.Item.MP9Magazine.ArmorPiercing,160,1,160,Vendor.Category.Magazine
 Id.Item.MP9Magazine,AMP-9 30 RND Magazine,Id.Item.MP9Magazine.ArmorPiercingTracer,160,1,160,Vendor.Category.Magazine
@@ -387,7 +434,7 @@ Id.Item.MP9Magazine,AMP-9 30 RND Magazine,Id.Item.MP9Magazine.FMJTracer,130,1,13
 Id.Item.MP9Magazine,AMP-9 30 RND Magazine,Id.Item.MP9Magazine.HollowPoint,145,1,145,Vendor.Category.Magazine
 Id.Item.MP9Magazine,AMP-9 30 RND Magazine,Id.Item.MP9Magazine.HollowPointTracer,145,1,145,Vendor.Category.Magazine
 Id.Item.MunitionsSupplies,Ammo Supplies,Id.Item.MunitionsSupplies,10,50,0.2,Vendor.Category.Utility
-Id.Item.MUZL_013,3 Prong Flash Hider,Id.Item.MUZL_013,1000,1,1000,Vendor.Category.Attachment
+Id.Item.MUZL_013,3 Prong Flash Hider,Id.Item.MUZL_013,820,1,820,Vendor.Category.Attachment
 Id.Item.MUZL_014,TopComp Brake,Id.Item.MUZL_014,770,1,770,Vendor.Category.Attachment
 Id.Item.MUZL_019,Dual Port Brake,Id.Item.MUZL_019,720,1,720,Vendor.Category.Attachment
 Id.Item.MUZL_020,Ballista Brake,Id.Item.MUZL_020,380,1,380,Vendor.Category.Attachment
@@ -395,56 +442,63 @@ Id.Item.MUZL_022,Constrictor Brake,Id.Item.MUZL_022,760,1,760,Vendor.Category.At
 Id.Item.MUZL_023,Tread Brake,Id.Item.MUZL_023,620,1,620,Vendor.Category.Attachment
 Id.Item.MUZL_024,Hexagon Brake,Id.Item.MUZL_024,350,1,350,Vendor.Category.Attachment
 Id.Item.MUZL_025,Slicktap Brake,Id.Item.MUZL_025,940,1,940,Vendor.Category.Attachment
-Id.Item.MUZL_027,3-Chamber Brake,Id.Item.MUZL_027,1080,1,1080,Vendor.Category.Attachment
-Id.Item.MUZL_028,DTK-1 Brake,Id.Item.MUZL_028,820,1,820,Vendor.Category.Attachment
-Id.Item.MUZL_029,Orpheus Max Brake,Id.Item.MUZL_029,1020,1,1020,Vendor.Category.Attachment
-Id.Item.MUZL_030,Three Port Brake,Id.Item.MUZL_030,1180,1,1180,Vendor.Category.Attachment
+Id.Item.MUZL_027,3-Chamber Brake,Id.Item.MUZL_027,1000,1,1000,Vendor.Category.Attachment
+Id.Item.MUZL_028,DTK-1 Brake,Id.Item.MUZL_028,810,1,810,Vendor.Category.Attachment
+Id.Item.MUZL_029,Orpheus Max Brake,Id.Item.MUZL_029,980,1,980,Vendor.Category.Attachment
+Id.Item.MUZL_030,Three Port Brake,Id.Item.MUZL_030,1040,1,1040,Vendor.Category.Attachment
 Id.Item.MUZL_031,M500 Sabre Brake,Id.Item.MUZL_031,740,1,740,Vendor.Category.Attachment
-Id.Item.MUZL_032,RC-556 Suppressor,Id.Item.MUZL_032,1550,1,1550,Vendor.Category.Attachment
-Id.Item.MUZL_037,Eclipse Flash Hider,Id.Item.MUZL_037,700,1,700,Vendor.Category.Attachment
-Id.Item.MUZL_038,Slotted Flash Hider,Id.Item.MUZL_038,960,1,960,Vendor.Category.Attachment
-Id.Item.MUZL_039,Birdcage Flash Hider,Id.Item.MUZL_039,900,1,900,Vendor.Category.Attachment
+Id.Item.MUZL_032,RC-556 Suppressor,Id.Item.MUZL_032,1310,1,1310,Vendor.Category.Attachment
+Id.Item.MUZL_037,Eclipse Flash Hider,Id.Item.MUZL_037,580,1,580,Vendor.Category.Attachment
+Id.Item.MUZL_038,Slotted Flash Hider,Id.Item.MUZL_038,840,1,840,Vendor.Category.Attachment
+Id.Item.MUZL_039,Birdcage Flash Hider,Id.Item.MUZL_039,600,1,600,Vendor.Category.Attachment
 Id.Item.MUZL_040,SVD 7.62x54R Brake,Id.Item.MUZL_040,650,1,650,Vendor.Category.Attachment
-Id.Item.MUZL_041,SRVV Brake,Id.Item.MUZL_041,1470,1,1470,Vendor.Category.Attachment
+Id.Item.MUZL_041,SRVV Brake,Id.Item.MUZL_041,1330,1,1330,Vendor.Category.Attachment
 Id.Item.MUZL_042,Deadeye Flash Hider,Id.Item.MUZL_042,400,1,400,Vendor.Category.Attachment
 Id.Item.MUZL_044,Improved Cylinder Choke,Id.Item.MUZL_044,540,1,540,Vendor.Category.Attachment
-Id.Item.MUZL_045,Full Choke,Id.Item.MUZL_045,1400,1,1400,Vendor.Category.Attachment
-Id.Item.MUZL_046,Super-45 Flash Hider,Id.Item.MUZL_046,1050,1,1050,Vendor.Category.Attachment
+Id.Item.MUZL_045,Full Choke,Id.Item.MUZL_045,1150,1,1150,Vendor.Category.Attachment
+Id.Item.MUZL_046,Super-45 Flash Hider,Id.Item.MUZL_046,860,1,860,Vendor.Category.Attachment
 Id.Item.MUZL_047,Ghost LITE Muzzle Brake,Id.Item.MUZL_047,970,1,970,Vendor.Category.Attachment
-Id.Item.MUZL_048,AMR 50 Cal Muzzle Brake,Id.Item.MUZL_048,1600,1,1600,Vendor.Category.Attachment
-Id.Item.MUZL_049,.50 Cal Heavy Suppressor,Id.Item.MUZL_049,1420,1,1420,Vendor.Category.Attachment
-Id.Item.MUZL_050,.45 ACP Pistol Compensator,Id.Item.MUZL_050,1030,1,1030,Vendor.Category.Attachment
-Id.Item.MUZL_051,AMP-9 9x19 Suppressor,Id.Item.MUZL_051,1130,1,1130,Vendor.Category.Attachment
+Id.Item.MUZL_048,AMR 50 Cal Muzzle Brake,Id.Item.MUZL_048,1380,1,1380,Vendor.Category.Attachment
+Id.Item.MUZL_049,.50 Cal Heavy Suppressor,Id.Item.MUZL_049,1250,1,1250,Vendor.Category.Attachment
+Id.Item.MUZL_050,.45 ACP Pistol Compensator,Id.Item.MUZL_050,990,1,990,Vendor.Category.Attachment
+Id.Item.MUZL_051,AMP-9 9x19 Suppressor,Id.Item.MUZL_051,1110,1,1110,Vendor.Category.Attachment
 Id.Item.MUZL_052,AMP-9 Tactical Flash Hider,Id.Item.MUZL_052,550,1,550,Vendor.Category.Attachment
-Id.Item.MUZL_053,PP-19-01 Vityaz 9x19 Suppressor,Id.Item.MUZL_053,1450,1,1450,Vendor.Category.Attachment
-Id.Item.MUZL_054,PP-19 Vityaz Flash Hider,Id.Item.MUZL_054,800,1,800,Vendor.Category.Attachment
-Id.Item.MUZL_055,BMR-308 Flash Hider,Id.Item.MUZL_055,1280,1,1280,Vendor.Category.Attachment
-Id.Item.MUZL_056,BMR-308 Suppressor,Id.Item.MUZL_056,1200,1,1200,Vendor.Category.Attachment
-Id.Item.MUZL_057,Flow-Through .308 Suppressor,Id.Item.MUZL_057,1120,1,1120,Vendor.Category.Attachment
-Id.Item.MUZL_058,QD-5 Suppressor,Id.Item.MUZL_058,1170,1,1170,Vendor.Category.Attachment
+Id.Item.MUZL_053,PP-19-01 Vityaz 9x19 Suppressor,Id.Item.MUZL_053,1290,1,1290,Vendor.Category.Attachment
+Id.Item.MUZL_054,PP-19 Vityaz Flash Hider,Id.Item.MUZL_054,750,1,750,Vendor.Category.Attachment
+Id.Item.MUZL_055,BMR-308 Flash Hider,Id.Item.MUZL_055,930,1,930,Vendor.Category.Attachment
+Id.Item.MUZL_056,BMR-308 Suppressor,Id.Item.MUZL_056,1080,1,1080,Vendor.Category.Attachment
+Id.Item.MUZL_057,Flow-Through .308 Suppressor,Id.Item.MUZL_057,1020,1,1020,Vendor.Category.Attachment
+Id.Item.MUZL_058,QD-5 Suppressor,Id.Item.MUZL_058,1130,1,1130,Vendor.Category.Attachment
 Id.Item.MUZL_059,MP5 Flash Hider,Id.Item.MUZL_059,1150,1,1150,Vendor.Category.Attachment
 Id.Item.MUZL_060,Suppressor T8L1 Scout,Id.Item.MUZL_060,1000,1,1000,Vendor.Category.Attachment
 Id.Item.MUZL_061,FAL Flash Hider,Id.Item.MUZL_061,1250,1,1250,Vendor.Category.Attachment
 Id.Item.MUZL_062,STRELIX Suppressor,Id.Item.MUZL_062,1000,1,1000,Vendor.Category.Attachment
-Id.Item.MZL_04,GOL Multi-Caliber Suppressor,Id.Item.MZL_04,1800,1,1800,Vendor.Category.Attachment
-Id.Item.MZL_05,SG Multi-Caliber Suppressor,Id.Item.MZL_05,1220,1,1220,Vendor.Category.Attachment
-Id.Item.MZL_06,12 Gauge Suppressor,Id.Item.MZL_06,1040,1,1040,Vendor.Category.Attachment
-Id.Item.MZL_07,AR Multi-Caliber Suppressor,Id.Item.MZL_07,1350,1,1350,Vendor.Category.Attachment
-Id.Item.MZL_08,Hexagon 762 Suppressor,Id.Item.MZL_08,1210,1,1210,Vendor.Category.Attachment
-Id.Item.MZL_09,PBS-4 Suppressor,Id.Item.MZL_09,1300,1,1300,Vendor.Category.Attachment
-Id.Item.MZL_10,TGP-A Suppressor 5.45,Id.Item.MZL_10,1190,1,1190,Vendor.Category.Attachment
+Id.Item.MUZL_067,Cross Rifle Muzzle Brake,Id.Item.MUZL_067,780,1,780,Vendor.Category.Attachment
+Id.Item.MUZL_068,Clutch Lok Muzzle Brake,Id.Item.MUZL_068,1100,1,1100,Vendor.Category.Attachment
+Id.Item.MUZL_069,SRD762TI-QD,Id.Item.MUZL_069,1350,1,1350,Vendor.Category.Attachment
+Id.Item.MUZL_070,SL7i-BL Suppressor,Id.Item.MUZL_070,1400,1,1400,Vendor.Category.Attachment
+Id.Item.MUZL_071,.30 Cal SS Phosphate Muzzle Brake,Id.Item.MUZL_071,950,1,950,Vendor.Category.Attachment
+Id.Item.MUZL_072,.30 Cal Steel Black Flash Hider,Id.Item.MUZL_072,730,1,730,Vendor.Category.Attachment
+Id.Item.MZL_04,GOL Multi-Caliber Suppressor,Id.Item.MZL_04,1450,1,1450,Vendor.Category.Attachment
+Id.Item.MZL_05,SG Multi-Caliber Suppressor,Id.Item.MZL_05,1090,1,1090,Vendor.Category.Attachment
+Id.Item.MZL_06,12 Gauge Suppressor,Id.Item.MZL_06,1170,1,1170,Vendor.Category.Attachment
+Id.Item.MZL_07,AR Multi-Caliber Suppressor,Id.Item.MZL_07,1200,1,1200,Vendor.Category.Attachment
+Id.Item.MZL_08,Hexagon 762 Suppressor,Id.Item.MZL_08,1180,1,1180,Vendor.Category.Attachment
+Id.Item.MZL_09,PBS-4 Suppressor,Id.Item.MZL_09,1260,1,1260,Vendor.Category.Attachment
+Id.Item.MZL_10,TGP-A Suppressor 5.45,Id.Item.MZL_10,1160,1,1160,Vendor.Category.Attachment
 Id.Item.OPT_08,2.5x Combat Optic,Id.Item.OPT_08,690,1,690,Vendor.Category.Attachment
-Id.Item.Parachute.Basic,Parachute,Id.Item.Parachute.Basic,100,1,100,Vendor.Category.Gear.Traversal
-Id.Item.Parachute.Sport,Parachute,Id.Item.Parachute.Sport,1000,1,1000,Vendor.Category.Gear.Traversal
+Id.Item.Parachute.Basic,Parachute,Id.Item.Parachute.Basic,500,1,500,Vendor.Category.Gear.Traversal
+Id.Item.Parachute.Sport,Parachute,Id.Item.Parachute.Sport,700,1,700,Vendor.Category.Gear.Traversal
+Id.Item.PilotHelmet,Pilot Helmet,Id.Item.PilotHelmet,6400,1,6400,Vendor.Category.Gear.Helmet
 Id.Item.Pouch,Pouch,Id.Item.Pouch,0,1,0,Vendor.Category.Gear.Backpack
 ID.Item.PWSCQB74Muzzle,CQB 74 Brake,ID.Item.PWSCQB74Muzzle,680,1,680,Vendor.Category.Attachment
-ID.Item.RangeFinder,Range Finder,ID.Item.RangeFinder,400,1,400,Vendor.Category.Weapon.Specialist;Vendor.Category.Utility
+ID.Item.RangeFinder,Range Finder,ID.Item.RangeFinder,1450,1,1450,Vendor.Category.Weapon.Specialist;Vendor.Category.Utility
 ID.Item.RepairTool.Drill.Heavy,Heavy Drill,ID.Item.RepairTool.Drill.Heavy,1300,1,1300,Vendor.Category.Weapon.Specialist;Vendor.Category.Utility
 ID.Item.RepairTool.Drill.Light,Light Drill,ID.Item.RepairTool.Drill.Light,600,1,600,Vendor.Category.Weapon.Specialist;Vendor.Category.Utility
-ID.Item.RepairTool.Wrench.Standard,Wrench,ID.Item.RepairTool.Wrench.Standard,150,1,150,Vendor.Category.Utility;Vendor.Category.Weapon.Specialist
+ID.Item.RepairTool.Wrench.Standard,Wrench,ID.Item.RepairTool.Wrench.Standard,180,1,180,Vendor.Category.Utility;Vendor.Category.Weapon.Specialist
 Id.Item.Resuscitator.Cheap,Emergency Resuscitator,Id.Item.Resuscitator.Cheap,0,1,0,Vendor.Category.Utility
-Id.Item.Resuscitator.Standard,Field Resuscitator,Id.Item.Resuscitator.Standard,500,1,500,Vendor.Category.Utility
-Id.Item.RFB,BMR-308,Id.Item.RFB,6000,1,6000,Vendor.Category.Weapon.Primary
+Id.Item.Resuscitator.Standard,Field Resuscitator,Id.Item.Resuscitator.Standard,425,1,425,Vendor.Category.Utility
+Id.Item.RFB,BMR-308,Id.Item.RFB,6250,1,6250,Vendor.Category.Weapon.Primary
 Id.Item.RFBMagazine,FAL 10 RND Magazine,Id.Item.RFBMagazine,60,1,60,Vendor.Category.Magazine.Size
 Id.Item.RFBMagazine,FAL 10 RND Magazine,Id.Item.RFBMagazine.ArmorPiercing,240,1,240,Vendor.Category.Magazine
 Id.Item.RFBMagazine,FAL 10 RND Magazine,Id.Item.RFBMagazine.ArmorPiercingTracer,240,1,240,Vendor.Category.Magazine
@@ -453,7 +507,7 @@ Id.Item.RFBMagazine,FAL 10 RND Magazine,Id.Item.RFBMagazine.FMJTracer,100,1,100,
 Id.Item.RFBMagazine,FAL 10 RND Magazine,Id.Item.RFBMagazine.HollowPoint,130,1,130,Vendor.Category.Magazine
 Id.Item.RFBMagazine,FAL 10 RND Magazine,Id.Item.RFBMagazine.HollowPointTracer,130,1,130,Vendor.Category.Magazine
 Id.Item.RK6ForeGrip,RK6 Tactical Foregrip,Id.Item.RK6ForeGrip,380,1,380,Vendor.Category.Attachment
-Id.Item.RPG7,RPG-7,Id.Item.RPG7,2000,1,2000,Vendor.Category.Weapon.Specialist
+Id.Item.RPG7,RPG-7,Id.Item.RPG7,1800,1,1800,Vendor.Category.Weapon.Specialist
 Id.Item.SGHT_009,Kobra Reflex,Id.Item.SGHT_009,520,1,520,Vendor.Category.Attachment
 Id.Item.SGHT_023,OKP 7 Reflex,Id.Item.SGHT_023,840,1,840,Vendor.Category.Attachment
 Id.Item.SKS,SKS,Id.Item.SKS,2400,1,2400,Vendor.Category.Weapon.Primary
@@ -477,7 +531,7 @@ ID.Item.SmokeGrenade.White,M18 Smoke Grenade: White,ID.Item.SmokeGrenade.White,1
 ID.Item.SmokeGrenade.Yellow,M18  Signal Grenade: Alert,ID.Item.SmokeGrenade.Yellow,50,1,50,Vendor.Category.Utility
 Id.Item.SniperScope10x,6-10x Scope MRAD,Id.Item.SniperScope10x,1200,1,1200,Vendor.Category.Attachment
 Id.Item.SparePartsSupplies,Spare Parts,Id.Item.SparePartsSupplies,10,50,0.2,Vendor.Category.Utility
-Id.Item.SR_04,AMR 50,Id.Item.SR_04,8800,1,8800,Vendor.Category.Weapon.Primary
+Id.Item.SR_04,AMR 50,Id.Item.SR_04,14800,1,14800,Vendor.Category.Weapon.Primary
 Id.Item.SR_04Magazine,AMR 50 5 RND Magazine,Id.Item.SR_04Magazine,15,1,15,Vendor.Category.Magazine.Size
 Id.Item.SR_04Magazine,AMR 50 5 RND Magazine,Id.Item.SR_04Magazine.ArmorPiercing,515,1,515,Vendor.Category.Magazine
 Id.Item.SR_04Magazine,AMR 50 5 RND Magazine,Id.Item.SR_04Magazine.FMJ,265,1,265,Vendor.Category.Magazine
@@ -500,8 +554,8 @@ Id.Item.STANAGMagazine20rd,STANAG 20 RND Magazine,Id.Item.STANAGMagazine20rd.FMJ
 Id.Item.STANAGMagazine20rd,STANAG 20 RND Magazine,Id.Item.STANAGMagazine20rd.HollowPointTracer,60,1,60,Vendor.Category.Magazine
 Id.Item.StimPen,Stim Pen,Id.Item.StimPen,250,1,250,Vendor.Category.Utility
 Id.Item.SuperBandage,Individual First Aid Kit,Id.Item.SuperBandage,800,1,800,Vendor.Category.Utility
-Id.Item.SuperHeavyArmor,Level 4 Armor,Id.Item.SuperHeavyArmor,4000,1,4000,Vendor.Category.Gear.Armor
-Id.Item.SuperHeavyHelmet,Level 4 Helmet,Id.Item.SuperHeavyHelmet,3000,1,3000,Vendor.Category.Gear.Helmet
+Id.Item.SuperHeavyArmor,Level 4 Armor,Id.Item.SuperHeavyArmor,5000,1,5000,Vendor.Category.Gear.Armor
+Id.Item.SuperHeavyHelmet,Level 4 Helmet,Id.Item.SuperHeavyHelmet,4500,1,4500,Vendor.Category.Gear.Helmet
 Id.Item.SV98,SV98,Id.Item.SV98,5200,1,5200,Vendor.Category.Weapon.Primary
 Id.Item.SV98Magazine,SV98 10 RND Magazine,Id.Item.SV98Magazine,40,1,40,Vendor.Category.Magazine.Size
 Id.Item.SV98Magazine,SV98 10 RND Magazine,Id.Item.SV98Magazine.ArmorPiercing,220,1,220,Vendor.Category.Magazine
@@ -518,6 +572,7 @@ Id.Item.SVDMMagazine,SVDM Standard Magazine,Id.Item.SVDMMagazine.FMJ,100,1,100,V
 Id.Item.SVDMMagazine,SVDM Standard Magazine,Id.Item.SVDMMagazine.FMJTracer,100,1,100,Vendor.Category.Magazine
 Id.Item.SVDMMagazine,SVDM Standard Magazine,Id.Item.SVDMMagazine.HollowPoint,150,1,150,Vendor.Category.Magazine
 Id.Item.SVDMMagazine,SVDM Standard Magazine,Id.Item.SVDMMagazine.HollowPointTracer,150,1,150,Vendor.Category.Magazine
+Id.Item.TankHelmet,Tank Helmet,Id.Item.TankHelmet,5000,1,5000,Vendor.Category.Gear.Helmet
 ID.Item.TAR21Mag,TAR21 Standard Mag,ID.Item.TAR21Mag,10,1,10,Vendor.Category.Magazine
 ID.Item.TAR21Mag,TAR21 Standard Mag,ID.Item.TAR21Mag.ArmorPiercing,130,1,130,Vendor.Category.Magazine
 ID.Item.TAR21Mag,TAR21 Standard Mag,ID.Item.TAR21Mag.ArmorPiercingTracer,130,1,130,Vendor.Category.Magazine
@@ -532,6 +587,7 @@ ID.Item.VectorMagazine,Super-45 30 RND Magazine,ID.Item.VectorMagazine.FMJ,110,1
 ID.Item.VectorMagazine,Super-45 30 RND Magazine,ID.Item.VectorMagazine.FMJTracer,110,1,110,Vendor.Category.Magazine
 ID.Item.VectorMagazine,Super-45 30 RND Magazine,ID.Item.VectorMagazine.HollowPoint,125,1,125,Vendor.Category.Magazine
 ID.Item.VectorMagazine,Super-45 30 RND Magazine,ID.Item.VectorMagazine.HollowPointTracer,125,1,125,Vendor.Category.Magazine
+Id.Item.VehicleSmoke,VehicleSmoke,Id.Item.VehicleSmoke,750,1,750,Vendor.Category.Vehicle.CounterMeasures
 ID.Item.VehicleSupplyCrate.Large,Large Supply Crate,ID.Item.VehicleSupplyCrate.Large,300,1,300,Vendor.Category.Vehicle.SupplyCrate
 ID.Item.VehicleSupplyCrate.Large.Armoured,Large Armoured Supply Crate,ID.Item.VehicleSupplyCrate.Large.Armoured,800,1,800,Vendor.Category.Vehicle.SupplyCrate
 ID.Item.VehicleSupplyCrate.Pallet.BuildSupply,Build Supply Pallet,ID.Item.VehicleSupplyCrate.Pallet.BuildSupply,400,1,400,Vendor.Category.Vehicle.Logistics
@@ -541,28 +597,35 @@ ID.Item.VehicleSupplyCrate.Pallet.SparePartsSupply,Mechanical Supply Pallet,ID.I
 ID.Item.VehicleSupplyCrate.Small,Small Supply Crate,ID.Item.VehicleSupplyCrate.Small,150,1,150,Vendor.Category.Vehicle.SupplyCrate
 ID.Item.VehicleSupplyCrate.Small.Armoured,Small Armoured Supply Crate,ID.Item.VehicleSupplyCrate.Small.Armoured,500,1,500,Vendor.Category.Vehicle.SupplyCrate
 Id.Item.WEPN_026,M1911,Id.Item.WEPN_026,300,1,300,Vendor.Category.Weapon.Sidearm
-Id.Item.WEPN_027,Deagle,Id.Item.WEPN_027,900,1,900,Vendor.Category.Weapon.Sidearm
-Id.Item.WEPN_028,MP5,Id.Item.WEPN_028,1500,1,1500,Vendor.Category.Weapon.Primary
-Id.Item.WEPN_029,Galil,Id.Item.WEPN_029,2200,1,2200,Vendor.Category.Weapon.Primary
-Id.Item.WEPN_030,FAL,Id.Item.WEPN_030,6500,1,6500,Vendor.Category.Weapon.Primary
-Id.Item.WEPN_035,Scout Rifle TD,Id.Item.WEPN_035,1100,1,1100,Vendor.Category.Weapon.Primary
-Vehicle.Variant.Air.Rotary.Havoc.Default,Havoc,Vehicle.Variant.Air.Rotary.Havoc.Default,18000,1,18000,Vendor.Category.Vehicle.Air;Vendor.Category.Vehicle.Blueprints
+Id.Item.WEPN_027,Deagle,Id.Item.WEPN_027,750,1,750,Vendor.Category.Weapon.Sidearm
+Id.Item.WEPN_028,MP5,Id.Item.WEPN_028,1800,1,1800,Vendor.Category.Weapon.Primary
+Id.Item.WEPN_029,Galil,Id.Item.WEPN_029,2000,1,2000,Vendor.Category.Weapon.Primary
+Id.Item.WEPN_030,FAL,Id.Item.WEPN_030,6000,1,6000,Vendor.Category.Weapon.Primary
+Id.Item.WEPN_031,PP-19 Bizon,Id.Item.WEPN_031,1000,1,1000,Vendor.Category.Weapon.Primary
+Id.Item.WEPN_034,M14,Id.Item.WEPN_034,7400,1,7400,Vendor.Category.Weapon.Primary
+Id.Item.WEPN_035,Scout Rifle TD,Id.Item.WEPN_035,1200,1,1200,Vendor.Category.Weapon.Primary
+Id.Item.WEPN_036,Evo-3 Ultra,Id.Item.WEPN_036,7250,1,7250,Vendor.Category.Weapon.Primary
+Id.Item.WEPN_037,TCX-SPR,Id.Item.WEPN_037,3200,1,3200,Vendor.Category.Weapon.Primary
+Vehicle.Variant.Air.Rotary.Havoc.Default,Havoc,Vehicle.Variant.Air.Rotary.Havoc.Default,28000,1,28000,Vendor.Category.Vehicle.Air;Vendor.Category.Vehicle.Blueprints
 Vehicle.Variant.Air.Rotary.Littlebird.Default,MH-6,Vehicle.Variant.Air.Rotary.Littlebird.Default,6250,1,6250,Vendor.Category.Vehicle.Air;Vendor.Category.Vehicle.Blueprints
-Vehicle.Variant.Air.Rotary.Littlebird.MountedMachineGuns,AH-6M [Miniguns],Vehicle.Variant.Air.Rotary.Littlebird.MountedMachineGuns,7000,1,7000,Vendor.Category.Vehicle.Air;Vendor.Category.Vehicle.Blueprints
-Vehicle.Variant.Air.Rotary.Littlebird.RocketPods,AH-6R [Rockets],Vehicle.Variant.Air.Rotary.Littlebird.RocketPods,12500,1,12500,Vendor.Category.Vehicle.Air;Vendor.Category.Vehicle.Blueprints
+Vehicle.Variant.Air.Rotary.Littlebird.MountedMachineGuns,AH-6M [Miniguns],Vehicle.Variant.Air.Rotary.Littlebird.MountedMachineGuns,12000,1,12000,Vendor.Category.Vehicle.Air;Vendor.Category.Vehicle.Blueprints
+Vehicle.Variant.Air.Rotary.Littlebird.RocketPods,AH-6R [Rockets],Vehicle.Variant.Air.Rotary.Littlebird.RocketPods,18800,1,18800,Vendor.Category.Vehicle.Air;Vendor.Category.Vehicle.Blueprints
 Vehicle.Variant.Air.Rotary.ROT_04.Default,Z20 Lakota,Vehicle.Variant.Air.Rotary.ROT_04.Default,7400,1,7400,Vendor.Category.Vehicle.Air;Vendor.Category.Vehicle.Blueprints
-Vehicle.Variant.Air.Rotary.ROT_04.MountedMachineGuns,Z20 Lakota [Miniguns],Vehicle.Variant.Air.Rotary.ROT_04.MountedMachineGuns,8000,1,8000,Vendor.Category.Vehicle.Air;Vendor.Category.Vehicle.Blueprints
-Vehicle.Variant.Land.Tracked.TNK_01.AntiAir,Flakpanzer Gepard,Vehicle.Variant.Land.Tracked.TNK_01.AntiAir,10000,1,10000,Vendor.Category.Vehicle.Land;Vendor.Category.Vehicle.Blueprints
+Vehicle.Variant.Air.Rotary.ROT_04.MountedMachineGuns,Z20 Lakota [Miniguns],Vehicle.Variant.Air.Rotary.ROT_04.MountedMachineGuns,15000,1,15000,Vendor.Category.Vehicle.Air;Vendor.Category.Vehicle.Blueprints
+Vehicle.Variant.Land.Tracked.TNK_01.AntiAir,Flakpanzer Gepard,Vehicle.Variant.Land.Tracked.TNK_01.AntiAir,14000,1,14000,Vendor.Category.Vehicle.Land;Vendor.Category.Vehicle.Blueprints
 Vehicle.Variant.Land.Tracked.TNK_01.Artillery,SPH-2,Vehicle.Variant.Land.Tracked.TNK_01.Artillery,8000,1,8000,Vendor.Category.Vehicle.Land;Vendor.Category.Vehicle.Blueprints
-Vehicle.Variant.Land.Tracked.TNK_01.Heavy,L2A6,Vehicle.Variant.Land.Tracked.TNK_01.Heavy,14000,1,14000,Vendor.Category.Vehicle.Land;Vendor.Category.Vehicle.Blueprints
+Vehicle.Variant.Land.Tracked.TNK_01.Heavy,L2A6,Vehicle.Variant.Land.Tracked.TNK_01.Heavy,22000,1,22000,Vendor.Category.Vehicle.Land;Vendor.Category.Vehicle.Blueprints
+Vehicle.Variant.Land.Tracked.TNK_04.Default,T-72B3,Vehicle.Variant.Land.Tracked.TNK_04.Default,16000,1,16000,Vendor.Category.Vehicle.Land;Vendor.Category.Vehicle.Blueprints
 Vehicle.Variant.Land.Wheeled.Bobcat.Default,Bobcat,Vehicle.Variant.Land.Wheeled.Bobcat.Default,500,1,500,Vendor.Category.Vehicle.Land;Vendor.Category.Vehicle.Blueprints
 Vehicle.Variant.Land.Wheeled.DuneBuggy.Default,Dune Buggy,Vehicle.Variant.Land.Wheeled.DuneBuggy.Default,1500,1,1500,Vendor.Category.Vehicle.Land;Vendor.Category.Vehicle.Blueprints
 Vehicle.Variant.Land.Wheeled.Humvee.Default,Humvee,Vehicle.Variant.Land.Wheeled.Humvee.Default,3000,1,3000,Vendor.Category.Vehicle.Land;Vendor.Category.Vehicle.Blueprints
-Vehicle.Variant.Land.Wheeled.Humvee.MachineGun,Humvee [M249],Vehicle.Variant.Land.Wheeled.Humvee.MachineGun,3750,1,3750,Vendor.Category.Vehicle.Land;Vendor.Category.Vehicle.Blueprints
-Vehicle.Variant.Land.Wheeled.Humvee.Minigun,Humvee [Minigun],Vehicle.Variant.Land.Wheeled.Humvee.Minigun,4500,1,4500,Vendor.Category.Vehicle.Land;Vendor.Category.Vehicle.Blueprints
+Vehicle.Variant.Land.Wheeled.Humvee.MachineGun,Humvee [M249],Vehicle.Variant.Land.Wheeled.Humvee.MachineGun,8500,1,8500,Vendor.Category.Vehicle.Land;Vendor.Category.Vehicle.Blueprints
+Vehicle.Variant.Land.Wheeled.Humvee.Minigun,Humvee [Minigun],Vehicle.Variant.Land.Wheeled.Humvee.Minigun,10000,1,10000,Vendor.Category.Vehicle.Land;Vendor.Category.Vehicle.Blueprints
 Vehicle.Variant.Land.Wheeled.Kodiak.Default,Kodiak,Vehicle.Variant.Land.Wheeled.Kodiak.Default,2500,1,2500,Vendor.Category.Vehicle.Land;Vendor.Category.Vehicle.Blueprints
-Vehicle.Variant.Land.Wheeled.Kodiak.MachineGun,Kodiak [M249],Vehicle.Variant.Land.Wheeled.Kodiak.MachineGun,3750,1,3750,Vendor.Category.Vehicle.Land;Vendor.Category.Vehicle.Blueprints
+Vehicle.Variant.Land.Wheeled.Kodiak.MachineGun,Kodiak [M249],Vehicle.Variant.Land.Wheeled.Kodiak.MachineGun,6750,1,6750,Vendor.Category.Vehicle.Land;Vendor.Category.Vehicle.Blueprints
 Vehicle.Variant.Land.Wheeled.Kodiak.Pickup,Kodiak [Pickup],Vehicle.Variant.Land.Wheeled.Kodiak.Pickup,3000,1,3000,Vendor.Category.Vehicle.Land;Vendor.Category.Vehicle.Blueprints
-Vehicle.Variant.Land.Wheeled.Ural.Attack,Ural Defender [M249],Vehicle.Variant.Land.Wheeled.Ural.Attack,6750,1,6750,Vendor.Category.Vehicle.Land;Vendor.Category.Vehicle.Blueprints
-Vehicle.Variant.Land.Wheeled.Ural.Battle,Ural Defender,Vehicle.Variant.Land.Wheeled.Ural.Battle,6000,1,6000,Vendor.Category.Vehicle.Land;Vendor.Category.Vehicle.Blueprints
+Vehicle.Variant.Land.Wheeled.Ural.Attack,Ural Defender [M249],Vehicle.Variant.Land.Wheeled.Ural.Attack,9500,1,9500,Vendor.Category.Vehicle.Land;Vendor.Category.Vehicle.Blueprints
+Vehicle.Variant.Land.Wheeled.Ural.Battle,Ural Defender,Vehicle.Variant.Land.Wheeled.Ural.Battle,7200,1,7200,Vendor.Category.Vehicle.Land;Vendor.Category.Vehicle.Blueprints
 Vehicle.Variant.Land.Wheeled.Ural.Default,Ural,Vehicle.Variant.Land.Wheeled.Ural.Default,5000,1,5000,Vendor.Category.Vehicle.Land;Vendor.Category.Vehicle.Blueprints
+Vehicle.Variant.Land.Wheeled.WHL_08.Default,Wolf-110,Vehicle.Variant.Land.Wheeled.WHL_08.Default,2200,1,2200,Vendor.Category.Vehicle.Land;Vendor.Category.Vehicle.Blueprints
+Vehicle.Variant.Land.Wheeled.WHL_08.MachineGun,Wolf-110 [M2 Browning],Vehicle.Variant.Land.Wheeled.WHL_08.MachineGun,7800,1,7800,Vendor.Category.Vehicle.Land;Vendor.Category.Vehicle.Blueprints

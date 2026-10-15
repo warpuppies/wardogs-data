@@ -23,6 +23,9 @@ Id.Item.GhillieHelmet.Dead,Movement.LeanTimeMultiplier,multiplyCompound,1.15
 Id.Item.GhillieHelmet.Dead,Movement.UnleanTimeMultiplier,multiplyCompound,1.15
 Id.Item.GhillieHelmet.Dead,Movement.MaxSpeedMultiplier,multiplyCompound,0.95
 Id.Item.GhillieHelmet.Dead,Movement.JumpVelocityMultiplier,multiplyCompound,0.95
+Id.Item.HeavyHelmet,Character.SuppressionReductionMultiplier,multiply,0.32
+Id.Item.SuperHeavyHelmet,Character.SuppressionReductionMultiplier,multiply,0.2
+Id.Item.TankHelmet,Character.SuppressionReductionMultiplier,override,0
 weight:Light,Movement.MaxSpeedMultiplier,multiplyCompound,0.95
 weight:Light,Movement.JumpVelocityMultiplier,multiplyCompound,0.95
 weight:Light,Character.Weight,add,1

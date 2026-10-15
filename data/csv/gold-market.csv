@@ -1,7 +1,11 @@
 id,category,entity,gold_bars,grid_index,tile,expiration,expiration_time
-BlackAndGold.AK74,BlackAndGold,Id.Item.AK74M,30,0,HERO_TILE,EXPIRATION_NO_END_TIME,2026-12-31T00:00:00.000Z
+BlackAndGold.Littlebird,BlackAndGold,Vehicle.Variant.Air.Rotary.Littlebird.Default,30,1,HERO_TILE,EXPIRATION_NO_END_TIME,2026-12-31T00:00:00.000Z
+ChocolateChip.Evolys,ChocolateChip,Id.Item.WEPN_036,10,1,SMALL_RECTANGLE,NO_EXPIRATION,
+ChocolateChip.M14,ChocolateChip,Id.Item.WEPN_034,10,2,SMALL_RECTANGLE,NO_EXPIRATION,
+ChocolateChip.TCXSPR,ChocolateChip,Id.Item.WEPN_037,10,0,LARGE_RECTANGLE,NO_EXPIRATION,
 DigitalWood.GGX17,DigitalWood,Id.Item.Glock17,5,0,LARGE_SQUARE,NO_EXPIRATION,
 DigitalWood.M4,DigitalWood,Id.Item.M4,10,3,SMALL_RECTANGLE,NO_EXPIRATION,
+DigitalWood.M500,DigitalWood,Id.Item.M500,10,4,SMALL_SQUARE,NO_EXPIRATION,
 DigitalWood.SportsParachute,DigitalWood,Id.Item.Parachute.Sport,15,1,SMALL_SQUARE,NO_EXPIRATION,
 DigitalWood.SV98,DigitalWood,Id.Item.SV98,10,2,SMALL_RECTANGLE,NO_EXPIRATION,
 Emote.Middle_Finger,Emote,Id.Emote.Middle_Finger,5,0,LARGE_SQUARE,NO_EXPIRATION,
@@ -12,10 +16,13 @@ TwoToneDesert.AX50,TwoToneDesert,Id.Item.SR_04,15,10,SMALL_RECTANGLE,NO_EXPIRATI
 TwoToneDesert.Bobcat,TwoToneDesert,Vehicle.Variant.Land.Wheeled.Bobcat.Default,5,0,SMALL_SQUARE,NO_EXPIRATION,
 TwoToneDesert.Bushmaster,TwoToneDesert,Id.Item.WEPN_033,5,11,SMALL_SQUARE,NO_EXPIRATION,
 TwoToneDesert.DuneBuggy,TwoToneDesert,Vehicle.Variant.Land.Wheeled.DuneBuggy.Default,10,1,SMALL_RECTANGLE,NO_EXPIRATION,
+TwoToneDesert.Galil,TwoToneDesert,Id.Item.WEPN_029,10,14,SMALL_RECTANGLE,NO_EXPIRATION,
+TwoToneDesert.Havoc,TwoToneDesert,Vehicle.Variant.Air.Rotary.Havoc.Default,15,15,SMALL_RECTANGLE,NO_EXPIRATION,
 TwoToneDesert.Humvee,TwoToneDesert,Vehicle.Variant.Land.Wheeled.Humvee.Default,10,2,LARGE_SQUARE,NO_EXPIRATION,
 TwoToneDesert.KH2002,TwoToneDesert,Id.Item.KH2002,5,6,SMALL_SQUARE,NO_EXPIRATION,
 TwoToneDesert.Littlebird,TwoToneDesert,Vehicle.Variant.Air.Rotary.Littlebird.Default,15,3,LARGE_SQUARE,NO_EXPIRATION,
 TwoToneDesert.M249,TwoToneDesert,Id.Item.M249,15,9,SMALL_RECTANGLE,NO_EXPIRATION,
 TwoToneDesert.M4,TwoToneDesert,Id.Item.M4,10,8,LARGE_SQUARE,NO_EXPIRATION,
 TwoToneDesert.M500,TwoToneDesert,Id.Item.M500,10,12,SMALL_SQUARE,NO_EXPIRATION,
+TwoToneDesert.Mosin,TwoToneDesert,Id.Item.Mosin,10,13,SMALL_SQUARE,NO_EXPIRATION,
 TwoToneDesert.MP9,TwoToneDesert,Id.Item.MP9,10,7,SMALL_RECTANGLE,NO_EXPIRATION,

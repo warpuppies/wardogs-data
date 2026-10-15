@@ -431,6 +431,13 @@ describe("resolveSystemsEntity", () => {
     expect(resolveSystemsEntity("Vehicle.Variant.Land.Tracked.Unknown.Default", known)).toBeUndefined();
   });
 
+  it("falls back to the Default variant of the platform, after every shorter id has failed", () => {
+    const wolf = new Set(["Vehicle.Land.Wheeled.WHL_08.Default"]);
+    expect(resolveSystemsEntity("Vehicle.Variant.Land.Wheeled.WHL_08.MachineGun", wolf)).toBe("Vehicle.Land.Wheeled.WHL_08.Default");
+    // An id that already matches a shorter entity keeps it.
+    expect(resolveSystemsEntity("Vehicle.Variant.Land.Wheeled.WHL_08.MachineGun", new Set([...wolf, "Vehicle.Land.Wheeled.WHL_08"]))).toBe("Vehicle.Land.Wheeled.WHL_08");
+  });
+
   it("does not shorten past the vehicle class", () => {
     expect(resolveSystemsEntity("Vehicle.Variant.Land.Wheeled.Nothing", new Set(["Vehicle.Land"]))).toBeUndefined();
   });

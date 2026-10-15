@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "europe",
   "world": "Europe",
-  "gameBuild": "25677108",
+  "gameBuild": "25937608",
   "units": "meters",
   "bounds": {
     "min": [
@@ -33,7 +33,7 @@
     "buildings": 331,
     "medianOffset": -1.05,
     "p5Offset": -1.85,
-    "p95Offset": -0.26,
+    "p95Offset": -0.29,
     "fractionWithin5m": 1
   }
 }

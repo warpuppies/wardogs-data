@@ -6,38 +6,42 @@ Id.Item.ArtilleryBarrelTest,Artillery Barrel Test,Item.Caliber.155mm.Expensive.S
 Id.Item.ArtilleryBarrelTest,Artillery Barrel Test,Item.Caliber.155mm.Standard,ID.Item.155mm;ID.Item.155mm.Standard,450,150,1125,464,10000,
 Id.Item.ArtilleryBarrelTest,Artillery Barrel Test,Item.Caliber.155mm.Standard.Sandbox,ID.Item.155mm.Sandbox;ID.Item.155mm.Standard.Sandbox,450,150,1125,464,10000,
 Id.Item.CGM4,MAAWS,Item.Caliber.84mm,Id.Item.84mm,100,100,166.67,230,400,
-Id.Item.CombatBow,Compound Bow,Item.Caliber.Arrow,Id.Item.Arrow,77,90,115.5,650,,100
-Id.Item.CombatBow,Compound Bow,Item.Caliber.Arrow.Explosive,Id.Item.Arrow.Explosive,150,90,225,650,,100
+Id.Item.CombatBow,Compound Bow,Item.Caliber.Arrow,Id.Item.Arrow,77,90,115.5,160,60,100
+Id.Item.CombatBow,Compound Bow,Item.Caliber.Arrow.Explosive,Id.Item.Arrow.Explosive,150,90,225,160,60,100
 Id.Item.Glock17,GGX 17,Item.Caliber.9mm,Id.Item.9mm;Id.Item.9mm.ArmorPiercing;Id.Item.9mm.ArmorPiercing.Tracer;Id.Item.9mm.HollowPoint;Id.Item.9mm.HollowPoint.Tracer;Id.Item.9mm.Tracer,22,,,375,50,50
 Id.Item.Judge,Judge,Item.Caliber.45Colt,Id.Item.45Colt;Id.Item.45Colt.ArmorPiercing;Id.Item.45Colt.ArmorPiercing.Tracer;Id.Item.45Colt.HollowPoint;Id.Item.45Colt.HollowPoint.Tracer;Id.Item.45Colt.Tracer,45,200,150,335,50,
 Id.Item.KH2002,KH-2002,Item.Caliber.556mm,Id.Item.556mm;Id.Item.556mm.ArmorPiercing;Id.Item.556mm.ArmorPiercing.Tracer;Id.Item.556mm.HollowPoint;Id.Item.556mm.HollowPoint.Tracer;Id.Item.556mm.Tracer,28,700,326.67,715,300,300
 Id.Item.Launcher_04,9K333 Verba,Item.Caliber.72mm,Id.Item.72mm,200,100,333.33,20,1000,
 Id.Item.LeapordBarrel,Tank Barrel Test,Item.Caliber.120x570mm,ID.Item.120x570mm,150,100,250,550,3500,
-Id.Item.LMG_02,PKM,Item.Caliber.762x54mm,Id.Item.762x54mm;Id.Item.762x54mm.ArmorPiercing;Id.Item.762x54mm.ArmorPiercing.Tracer;Id.Item.762x54mm.HollowPoint;Id.Item.762x54mm.HollowPoint.Tracer;Id.Item.762x54mm.Tracer,55,,,825,1000,1000
+Id.Item.LMG_02,PKM,Item.Caliber.762x54mm,Id.Item.762x54mm;Id.Item.762x54mm.ArmorPiercing;Id.Item.762x54mm.ArmorPiercing.Tracer;Id.Item.762x54mm.HollowPoint;Id.Item.762x54mm.HollowPoint.Tracer;Id.Item.762x54mm.Tracer,44,,,825,1000,1000
 Id.Item.M249,M249 SAW,Item.Caliber.556mm,Id.Item.556mm;Id.Item.556mm.ArmorPiercing;Id.Item.556mm.ArmorPiercing.Tracer;Id.Item.556mm.HollowPoint;Id.Item.556mm.HollowPoint.Tracer;Id.Item.556mm.Tracer,28,850,396.67,915,700,700
 Id.Item.M4,M4,Item.Caliber.556mm,Id.Item.556mm;Id.Item.556mm.ArmorPiercing;Id.Item.556mm.ArmorPiercing.Tracer;Id.Item.556mm.HollowPoint;Id.Item.556mm.HollowPoint.Tracer;Id.Item.556mm.Tracer,28,800,373.33,910,500,500
 Id.Item.M500,M500,Item.Caliber.12g.RifledSlug,Id.Item.12g.RifledSlug,105,120,210,480,70,
 Id.Item.M500,M500,Item.Caliber.7mmBuck,Id.Item.12g;Id.Item.12g.7mmBuck,25,120,50,480,70,
-Id.Item.MK22,MK22,Item.Caliber.308Win,Id.Item.308Win;Id.Item.308Win.ArmorPiercing;Id.Item.308Win.ArmorPiercing.Tracer;Id.Item.308Win.HollowPoint;Id.Item.308Win.HollowPoint.Tracer;Id.Item.308Win.Tracer,60,46,46,894,1000,1000
-Id.Item.MMGL,MGL-40,Item.Caliber.40mm,Id.Item.40mm,100,75,125,100,400,
-Id.Item.Mosin,Mosin Nagant,Item.Caliber.762x54mm,Id.Item.762x54mm;Id.Item.762x54mm.ArmorPiercing;Id.Item.762x54mm.ArmorPiercing.Tracer;Id.Item.762x54mm.HollowPoint;Id.Item.762x54mm.HollowPoint.Tracer;Id.Item.762x54mm.Tracer,55,46,42.17,865,500,500
+Id.Item.MK22,MK22,Item.Caliber.308Win,Id.Item.308Win;Id.Item.308Win.ArmorPiercing;Id.Item.308Win.ArmorPiercing.Tracer;Id.Item.308Win.HollowPoint;Id.Item.308Win.HollowPoint.Tracer;Id.Item.308Win.Tracer,45,46,34.5,894,1000,1000
+Id.Item.MMGL,MGL-40,Item.Caliber.40mm,Id.Item.40mm,100,75,125,75,400,
+Id.Item.Mosin,Mosin Nagant,Item.Caliber.762x54mm,Id.Item.762x54mm;Id.Item.762x54mm.ArmorPiercing;Id.Item.762x54mm.ArmorPiercing.Tracer;Id.Item.762x54mm.HollowPoint;Id.Item.762x54mm.HollowPoint.Tracer;Id.Item.762x54mm.Tracer,44,46,33.73,865,500,500
 Id.Item.MP43,MP43,Item.Caliber.7mmBuck,Id.Item.12g;Id.Item.12g.7mmBuck,25,900,375,391,,
 Id.Item.MP43,MP43,Item.Caliber.12g.RifledSlug,Id.Item.12g.RifledSlug,105,900,1575,391,,
 Id.Item.MP9,AMP-9,Item.Caliber.9mm,Id.Item.9mm;Id.Item.9mm.ArmorPiercing;Id.Item.9mm.ArmorPiercing.Tracer;Id.Item.9mm.HollowPoint;Id.Item.9mm.HollowPoint.Tracer;Id.Item.9mm.Tracer,22,900,330,400,,100
-Id.Item.RFB,BMR-308,Item.Caliber.308Win,Id.Item.308Win;Id.Item.308Win.ArmorPiercing;Id.Item.308Win.ArmorPiercing.Tracer;Id.Item.308Win.HollowPoint;Id.Item.308Win.HollowPoint.Tracer;Id.Item.308Win.Tracer,60,450,450,880,500,500
+Id.Item.RFB,BMR-308,Item.Caliber.308Win,Id.Item.308Win;Id.Item.308Win.ArmorPiercing;Id.Item.308Win.ArmorPiercing.Tracer;Id.Item.308Win.HollowPoint;Id.Item.308Win.HollowPoint.Tracer;Id.Item.308Win.Tracer,45,450,337.5,880,500,500
 Id.Item.RPG7,RPG-7,Item.Caliber.93mm,Id.Item.93mm,110,100,183.33,100,300,
-Id.Item.SKS,SKS,Item.Caliber.762mm,Id.Item.762mm;Id.Item.762mm.ArmorPiercing;Id.Item.762mm.ArmorPiercing.Tracer;Id.Item.762mm.HollowPoint;Id.Item.762mm.HollowPoint.Tracer;Id.Item.762mm.Tracer,42,420,294,735,400,400
+Id.Item.SKS,SKS,Item.Caliber.762mm,Id.Item.762mm;Id.Item.762mm.ArmorPiercing;Id.Item.762mm.ArmorPiercing.Tracer;Id.Item.762mm.HollowPoint;Id.Item.762mm.HollowPoint.Tracer;Id.Item.762mm.Tracer,34,420,238,735,400,400
 Id.Item.SMG_03,PP-19 Vityaz,Item.Caliber.9mm,Id.Item.9mm;Id.Item.9mm.ArmorPiercing;Id.Item.9mm.ArmorPiercing.Tracer;Id.Item.9mm.HollowPoint;Id.Item.9mm.HollowPoint.Tracer;Id.Item.9mm.Tracer,22,800,293.33,380,200,200
-Id.Item.SR_04,AMR 50,Item.Caliber.50Cal,Id.Item.50Cal;Id.Item.50Cal.ArmorPiercing;Id.Item.50Cal.ArmorPiercing.Tracer;Id.Item.50Cal.HollowPoint;Id.Item.50Cal.HollowPoint.Tracer;Id.Item.50Cal.Tracer,107,41.5,74.01,900,2000,2000
-Id.Item.SV98,SV98,Item.Caliber.762x54mm,Id.Item.762x54mm;Id.Item.762x54mm.ArmorPiercing;Id.Item.762x54mm.ArmorPiercing.Tracer;Id.Item.762x54mm.HollowPoint;Id.Item.762x54mm.HollowPoint.Tracer;Id.Item.762x54mm.Tracer,55,46,42.17,830,1000,1000
-Id.Item.SVDM,SVD,Item.Caliber.762x54mm,Id.Item.762x54mm;Id.Item.762x54mm.ArmorPiercing;Id.Item.762x54mm.ArmorPiercing.Tracer;Id.Item.762x54mm.HollowPoint;Id.Item.762x54mm.HollowPoint.Tracer;Id.Item.762x54mm.Tracer,55,480,440,800,800,800
+Id.Item.SR_04,AMR 50,Item.Caliber.50Cal,Id.Item.50Cal;Id.Item.50Cal.ArmorPiercing;Id.Item.50Cal.ArmorPiercing.Tracer;Id.Item.50Cal.HollowPoint;Id.Item.50Cal.HollowPoint.Tracer;Id.Item.50Cal.Tracer,90,41.5,62.25,900,2000,2000
+Id.Item.SV98,SV98,Item.Caliber.762x54mm,Id.Item.762x54mm;Id.Item.762x54mm.ArmorPiercing;Id.Item.762x54mm.ArmorPiercing.Tracer;Id.Item.762x54mm.HollowPoint;Id.Item.762x54mm.HollowPoint.Tracer;Id.Item.762x54mm.Tracer,44,46,33.73,830,1000,1000
+Id.Item.SVDM,SVD,Item.Caliber.762x54mm,Id.Item.762x54mm;Id.Item.762x54mm.ArmorPiercing;Id.Item.762x54mm.ArmorPiercing.Tracer;Id.Item.762x54mm.HollowPoint;Id.Item.762x54mm.HollowPoint.Tracer;Id.Item.762x54mm.Tracer,44,480,352,800,800,800
 Id.Item.TAR21,T-21,Item.Caliber.556mm,Id.Item.556mm;Id.Item.556mm.ArmorPiercing;Id.Item.556mm.ArmorPiercing.Tracer;Id.Item.556mm.HollowPoint;Id.Item.556mm.HollowPoint.Tracer;Id.Item.556mm.Tracer,28,750,350,910,550,300
 Id.Item.Vector,Super-45,Item.Caliber.45ACP,Id.Item.45ACP;Id.Item.45ACP.ArmorPiercing;Id.Item.45ACP.ArmorPiercing.Tracer;Id.Item.45ACP.HollowPoint;Id.Item.45ACP.HollowPoint.Tracer;Id.Item.45ACP.Tracer,30,1200,600,375,50,50
 Id.Item.WEPN_026,M1911,Item.Caliber.45ACP,Id.Item.45ACP;Id.Item.45ACP.ArmorPiercing;Id.Item.45ACP.ArmorPiercing.Tracer;Id.Item.45ACP.HollowPoint;Id.Item.45ACP.HollowPoint.Tracer;Id.Item.45ACP.Tracer,30,430,215,253,50,50
 Id.Item.WEPN_027,Deagle,Item.Caliber.50AE,Id.Item.50AE;Id.Item.50AE.ArmorPiercing;Id.Item.50AE.ArmorPiercing.Tracer;Id.Item.50AE.HollowPoint;Id.Item.50AE.HollowPoint.Tracer;Id.Item.50AE.Tracer,63,267,280.35,470,,100
 Id.Item.WEPN_028,MP5,Item.Caliber.9mm,Id.Item.9mm;Id.Item.9mm.ArmorPiercing;Id.Item.9mm.ArmorPiercing.Tracer;Id.Item.9mm.HollowPoint;Id.Item.9mm.HollowPoint.Tracer;Id.Item.9mm.Tracer,22,800,293.33,400,200,200
 Id.Item.WEPN_029,Galil,Item.Caliber.556mm,Id.Item.556mm;Id.Item.556mm.ArmorPiercing;Id.Item.556mm.ArmorPiercing.Tracer;Id.Item.556mm.HollowPoint;Id.Item.556mm.HollowPoint.Tracer;Id.Item.556mm.Tracer,28,650,303.33,950,400,400
-Id.Item.WEPN_030,FAL,Item.Caliber.308Win,Id.Item.308Win;Id.Item.308Win.ArmorPiercing;Id.Item.308Win.ArmorPiercing.Tracer;Id.Item.308Win.HollowPoint;Id.Item.308Win.HollowPoint.Tracer;Id.Item.308Win.Tracer,60,650,650,840,800,800
+Id.Item.WEPN_030,FAL,Item.Caliber.308Win,Id.Item.308Win;Id.Item.308Win.ArmorPiercing;Id.Item.308Win.ArmorPiercing.Tracer;Id.Item.308Win.HollowPoint;Id.Item.308Win.HollowPoint.Tracer;Id.Item.308Win.Tracer,45,650,487.5,840,800,800
+Id.Item.WEPN_031,PP-19 Bizon,Item.Caliber.9mm,Id.Item.9mm;Id.Item.9mm.ArmorPiercing;Id.Item.9mm.ArmorPiercing.Tracer;Id.Item.9mm.HollowPoint;Id.Item.9mm.HollowPoint.Tracer;Id.Item.9mm.Tracer,22,700,256.67,380,200,200
 Id.Item.WEPN_032,GGX 18,Item.Caliber.9mm,Id.Item.9mm;Id.Item.9mm.ArmorPiercing;Id.Item.9mm.ArmorPiercing.Tracer;Id.Item.9mm.HollowPoint;Id.Item.9mm.HollowPoint.Tracer;Id.Item.9mm.Tracer,22,1200,440,375,50,50
 Id.Item.WEPN_033,Bushmaster M17S,Item.Caliber.556mm,Id.Item.556mm;Id.Item.556mm.ArmorPiercing;Id.Item.556mm.ArmorPiercing.Tracer;Id.Item.556mm.HollowPoint;Id.Item.556mm.HollowPoint.Tracer;Id.Item.556mm.Tracer,28,700,326.67,715,300,300
+Id.Item.WEPN_034,M14,Item.Caliber.308Win,Id.Item.308Win;Id.Item.308Win.ArmorPiercing;Id.Item.308Win.ArmorPiercing.Tracer;Id.Item.308Win.HollowPoint;Id.Item.308Win.HollowPoint.Tracer;Id.Item.308Win.Tracer,45,700,525,853,500,500
 Id.Item.WEPN_035,Scout Rifle TD,Item.Caliber.556mm,Id.Item.556mm;Id.Item.556mm.ArmorPiercing;Id.Item.556mm.ArmorPiercing.Tracer;Id.Item.556mm.HollowPoint;Id.Item.556mm.HollowPoint.Tracer;Id.Item.556mm.Tracer,28,46,21.47,975,300,300
+Id.Item.WEPN_036,Evo-3 Ultra,Item.Caliber.308Win,Id.Item.308Win;Id.Item.308Win.ArmorPiercing;Id.Item.308Win.ArmorPiercing.Tracer;Id.Item.308Win.HollowPoint;Id.Item.308Win.HollowPoint.Tracer;Id.Item.308Win.Tracer,45,700,525,790,1000,1000
+Id.Item.WEPN_037,TCX-SPR,Item.Caliber.762mm,Id.Item.762mm;Id.Item.762mm.ArmorPiercing;Id.Item.762mm.ArmorPiercing.Tracer;Id.Item.762mm.HollowPoint;Id.Item.762mm.HollowPoint.Tracer;Id.Item.762mm.Tracer,34,800,453.33,700,400,400

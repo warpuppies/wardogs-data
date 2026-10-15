@@ -70,7 +70,8 @@ The pnpm scripts and the tests read `.env` automatically (variables already set 
 | Command | What it does |
 | --- | --- |
 | `pnpm doctor` | Checks the install, the key against every encrypted container, the mappings header and the extractor. |
-| `pnpm extract [dataset]` | Decodes game data into the cache (`.cache/raw`). Datasets: `items`, `gameplay`, `damage`, `progression`, `meta`, `features`, `movement`, `maps`, `objectives`, `objects`. Only `items`, `gameplay`, `maps` and `objects` read the game; `damage`, `progression`, `meta`, `features`, `movement` and `objectives` only read what those extracted. Extracting `objects` scans every level of every world and takes about ten minutes. |
+| `pnpm restore-names <new.usmap> <old.usmap> <out.usmap>` | Writes a copy of a mappings file whose property names are scrambled or whose array types are unsaid, with the real names and types taken from an older mappings file (see "Scrambled property names" below). |
+| `pnpm extract [dataset]` | Decodes game data into the cache (`.cache/raw`). Datasets: `items`, `gameplay`, `damage`, `progression`, `meta`, `features`, `movement`, `maps`, `objectives`, `objects`. Only `items`, `gameplay`, `maps` and `objects` read the game; `damage`, `progression`, `meta`, `features`, `movement` and `objectives` only read what those extracted. The extractions run at the same time (see "Speed" below). |
 | `pnpm plan` | Shows what `apply` would change and writes nothing. `--check` exits 1 if anything would change. |
 | `pnpm apply` | Writes every generated file and `data/MANIFEST.json`. Safe to run twice. |
 | `pnpm verify` | Checks `data/` against its manifest, and `assets/icons/` and `assets/maps/` against their manifests when those folders are present (they are not in git, so CI skips them). Needs no game, so CI runs it. |
@@ -86,15 +87,37 @@ The pnpm scripts and the tests read `.env` automatically (variables already set 
 | `pnpm update-data` | `doctor`, `extract`, `apply`, `verify`, then the tests, in one step. |
 | `pnpm check` | Typecheck, tests and verify. Works without the game; live tests skip themselves. |
 
+## Speed
+
+A full `pnpm update-data` (extract, apply, verify and the tests) takes about 45 seconds on 16 cores, when the game files are on a local disk. What makes it fast:
+
+- **A local copy of the game files.** Reading them through `/mnt/c` in WSL runs at about 65 MB/s, which made every scan three times slower. Copy the `Paks` folder (and the Steam manifest, which gives the build number) once, with the same layout, and point `WARDOGS_INSTALL_DIR` at the copy:
+
+  ```bash
+  SRC=/mnt/c/Games/Steam/steamapps; DST=$HOME/wardogs-copy/steamapps
+  mkdir -p $DST/common/Wardogs/Wardogs/Content/Paks
+  rsync -a --delete --info=progress2 $SRC/common/Wardogs/Wardogs/Content/Paks/ $DST/common/Wardogs/Wardogs/Content/Paks/
+  cp $SRC/appmanifest_1867240.acf $DST/
+  ```
+
+  After a game update, run the `rsync` again: it only copies what changed. It also keeps the extraction off the Steam folder while you play.
+- **The datasets extract together.** `pnpm extract` starts every dataset at once, and a dataset that needs another's files waits for it (the linked vehicle packages need the items). The extractor processes run through a pool: `WARDOGS_JOBS` at a time (default 9), and `WARDOGS_HEAVY_JOBS` of the ones that hold a whole map image in memory (default 4). Each prints how long it took, and when it started and ended, so a slow one is easy to see.
+- **The scans decode what they need.** The class of every export of a level is in the package's export table, so the scans of actors, buildings and texture volumes decode only the exports of the classes they want, not the hundred thousand others of a level. Blueprint classes are resolved once per run, and their names are kept in `.cache/raw/class-names.json` for the next one. `WARDOGS_THREADS` sets the threads each scan uses (default one per processor, at most 8; more does not help).
+- **Map images are written by a small PNG writer** (`extractor/FastPng.cs`): the same pixels, in seconds instead of minutes, in files about a third bigger.
+
 ## Updating after a game patch
 
 1. `pnpm update-data`
 2. If `doctor` reports the AES key no longer matches, the update rotated it. Get the new key and update your key file.
-3. If extraction fails to decode packages, the mappings file is out of date for the new build. Replace it.
+3. If extraction fails to decode packages, the mappings file is out of date for the new build. Replace it. If `doctor` says the property names in the new file are scrambled, see "Scrambled property names" below.
 4. Read the plan output and `pnpm diff`. Added, removed and changed records (items, weapons, ammo, damage rules, buildings, objects and the rest) are listed with before and after values.
 5. If a **canary test** fails (`test/data.test.ts`, `test/gameplay-data.test.ts`, `test/damage-data.test.ts`), decide whether the game changed that value (update the expectation) or the extraction broke (fix the transform).
 6. If the **id test** fails, a new id form appeared. Extend `KNOWN_ID_PATTERN` or document it in `KNOWN_ID_QUIRKS` in `src/schema.ts`.
 7. Commit the regenerated `data/` together with any code change.
+
+## Scrambled property names
+
+A game build can ship with the names of its properties scrambled (`_aaabiggnlpebjfhcidicc` instead of `ActivationID`). A mappings file taken from such a build has the scrambled names, and the transforms read properties by name, so they find nothing: `doctor` then reports how many of the file's property names are scrambled, and a map with no building parts or a table with no `Resources` is the other sign. A scrambled name is the same text wherever the property appears, so an older mappings file with the real names tells what most of them stand for: `pnpm restore-names <new.usmap> <old.usmap> <out.usmap>` writes a copy of the new file with those names restored (an uncompressed file, so it also reads where the original is compressed) and prints how many it could not restore. A file made from a live game can also leave the type inside an array unsaid (`Array<Unknown>`), and the arrays cannot then be read: the level files take minutes and gigabytes to decode. The same command takes those types from the property of the same name in the old file. Those are properties that only exist in the new build; nothing here can name them, so data that sits in one of them is missing until a mappings file with real names exists. `name-hints.json` lists the few names that the structure cannot give but that the data confirms (the scrambled key held the same non-trivial value as the old data's property of that name); the command applies them to names that are still scrambled and never over a name the old file settles. Point `WARDOGS_USMAP` at the output.
 
 ## How the tests protect the data
 

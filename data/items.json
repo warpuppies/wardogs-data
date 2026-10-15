@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "gameBuild": "25677108",
+  "gameBuild": "25937608",
   "items": [
     {
       "id": "Id.Item",
@@ -21,7 +21,16 @@
       "weight": 3,
       "durability": 20,
       "unlock": null,
-      "vendor": []
+      "vendor": [
+        {
+          "tag": "Id.Item.WEPN_017",
+          "price": 0,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Weapon"
+          ]
+        }
+      ]
     },
     {
       "id": "Id.Item.10xScopeMoa",
@@ -43,7 +52,7 @@
       "weight": 0.98,
       "unlock": {
         "role": "Recon",
-        "level": 26,
+        "level": 19,
         "cost": 45000
       },
       "vendor": [
@@ -166,6 +175,38 @@
       ]
     },
     {
+      "id": "ID.Item.125x570mm",
+      "kind": "item",
+      "asset": "Content/Items/Resources/Ammo/125x570mm/ID_125x570mm",
+      "name": "125x570mm",
+      "subtitle": "Ammunition",
+      "description": "- Multi-purpose Shell\n- Effective against all targets",
+      "icon": "UI/Shared/Icons/Utility/3D/T_UI_Ammo_125mm.png",
+      "tags": [
+        "Item.Ammo",
+        "Item.Caliber.125x570mm",
+        "Item.Context.ForceToStorage"
+      ],
+      "grid": [
+        3,
+        2
+      ],
+      "maxStack": 5,
+      "weight": 24,
+      "unlock": null,
+      "vendor": [
+        {
+          "tag": "ID.Item.125x570mm",
+          "price": 210,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Vehicle.Ammo",
+            "Vendor.Category.Ammo"
+          ]
+        }
+      ]
+    },
+    {
       "id": "Id.Item.12g",
       "kind": "item",
       "asset": "Content/Items/Resources/Ammo/12Guage/ID_12g",
@@ -240,7 +281,7 @@
       "maxStack": 24,
       "unlock": {
         "role": "Wardog",
-        "level": 41,
+        "level": 36,
         "cost": 5000
       },
       "vendor": [
@@ -631,7 +672,7 @@
       "maxStack": 40,
       "unlock": {
         "role": "Wardog",
-        "level": 65,
+        "level": 63,
         "cost": 5000
       },
       "vendor": []
@@ -673,10 +714,10 @@
         "Item.Context.ForceToStorage"
       ],
       "grid": [
-        1,
-        1
+        2,
+        2
       ],
-      "maxStack": 200,
+      "maxStack": 50,
       "unlock": null,
       "vendor": [
         {
@@ -818,7 +859,7 @@
       "asset": "Content/Items/Resources/Ammo/35x228mm/ID_35x228mm",
       "name": "35x228mm",
       "subtitle": "Ammunition",
-      "description": "- High-velocity ballistic rounds\n- Optimised for aerial target engagement",
+      "description": "- High-velocity ballistic rounds\n- Optimized for aerial target engagement",
       "icon": "UI/Shared/Icons/Utility/3D/T_UI_Ammo_228mm.png",
       "tags": [
         "Item.Ammo",
@@ -864,8 +905,8 @@
       "maxStack": 1,
       "weight": 0.26,
       "unlock": {
-        "role": "Infantry",
-        "level": 26,
+        "role": "Wardog",
+        "level": 31,
         "cost": 25000
       },
       "vendor": []
@@ -1315,8 +1356,8 @@
       "maxStack": 1,
       "weight": 0.66,
       "unlock": {
-        "role": "Support",
-        "level": 21,
+        "role": "Infantry",
+        "level": 43,
         "cost": 15000
       },
       "vendor": [
@@ -1597,7 +1638,8 @@
           "amount": 5,
           "categories": [
             "Vendor.Category.Ammo",
-            "Vendor.Category.AmmoLoose"
+            "Vendor.Category.AmmoLoose",
+            "Vendor.Category.Vehicle.Ammo"
           ]
         }
       ]
@@ -1820,7 +1862,7 @@
       "maxStack": 80,
       "unlock": {
         "role": "Wardog",
-        "level": 93,
+        "level": 90,
         "cost": 75000
       },
       "vendor": []
@@ -1868,7 +1910,7 @@
       "maxStack": 80,
       "unlock": {
         "role": "Wardog",
-        "level": 16,
+        "level": 6,
         "cost": 5000
       },
       "vendor": []
@@ -2016,7 +2058,7 @@
       "maxStack": 80,
       "unlock": {
         "role": "Wardog",
-        "level": 83,
+        "level": 84,
         "cost": 75000
       },
       "vendor": []
@@ -2064,7 +2106,7 @@
       "maxStack": 80,
       "unlock": {
         "role": "Wardog",
-        "level": 10,
+        "level": 13,
         "cost": 5000
       },
       "vendor": []
@@ -2276,7 +2318,7 @@
       "maxStack": 60,
       "unlock": {
         "role": "Wardog",
-        "level": 63,
+        "level": 60,
         "cost": 50000
       },
       "vendor": []
@@ -2580,6 +2622,7 @@
           "amount": 5,
           "categories": [
             "Vendor.Category.Ammo.Type",
+            "Vendor.Category.Vehicle.Ammo",
             "Vendor.Category.AmmoLoose"
           ]
         }
@@ -2713,8 +2756,7 @@
       "icon": "UI/Shared/Icons/Utility/3D/T_UI_Item_84MM_BC.png",
       "tags": [
         "Item.Ammo",
-        "Item.Caliber.84mm",
-        "Item.Context.ForceToStorage"
+        "Item.Caliber.84mm"
       ],
       "grid": [
         2,
@@ -2745,8 +2787,7 @@
       "icon": "UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_93mm_Round_Textured_512x512.png",
       "tags": [
         "Item.Ammo",
-        "Item.Caliber.93mm",
-        "Item.Context.ForceToStorage"
+        "Item.Caliber.93mm"
       ],
       "grid": [
         3,
@@ -2756,7 +2797,7 @@
       "weight": 2.6,
       "unlock": {
         "role": "Support",
-        "level": 5,
+        "level": 6,
         "cost": 0
       },
       "vendor": [
@@ -2939,7 +2980,7 @@
       "maxStack": 100,
       "unlock": {
         "role": "Wardog",
-        "level": 6,
+        "level": 10,
         "cost": 5000
       },
       "vendor": []
@@ -3110,11 +3151,7 @@
       ],
       "maxStack": 1,
       "weight": 3,
-      "unlock": {
-        "role": "Infantry",
-        "level": 3,
-        "cost": 10000
-      },
+      "unlock": null,
       "vendor": []
     },
     {
@@ -3271,11 +3308,7 @@
       ],
       "maxStack": 1,
       "weight": 0.55,
-      "unlock": {
-        "role": "Infantry",
-        "level": 3,
-        "cost": 0
-      },
+      "unlock": null,
       "vendor": [
         {
           "tag": "Id.Item.AK74MMagazine",
@@ -3355,7 +3388,7 @@
       "weight": 2.08,
       "unlock": {
         "role": "Infantry",
-        "level": 40,
+        "level": 36,
         "cost": 75000
       },
       "vendor": [
@@ -3587,7 +3620,7 @@
       "weight": 0.01,
       "unlock": {
         "role": "Recon",
-        "level": 17,
+        "level": 16,
         "cost": 0
       },
       "vendor": [
@@ -3853,6 +3886,70 @@
       "vendor": []
     },
     {
+      "id": "Id.Item.BARL_046",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Components/Barrels/BARL_046/Content/Data/ID_BARL_046",
+      "name": "WEPN_036 Evoly Standard Barrel",
+      "tags": [
+        "Item.Attachment.Barrel.WEPN_036"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "unlock": null,
+      "vendor": []
+    },
+    {
+      "id": "Id.Item.BARL_047",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Components/Barrels/BARL_047/Content/Data/ID_BARL_047",
+      "name": "WEPN_034 M14 Standard Barrel",
+      "tags": [
+        "Item.Attachment.Barrel.WEPN_034"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "unlock": null,
+      "vendor": []
+    },
+    {
+      "id": "Id.Item.BARL_048",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Components/Barrels/BARL_048/Content/Data/ID_BARL_048",
+      "name": "Sig Spear (WEPN_037) Standard Barrel",
+      "tags": [
+        "Item.Attachment.Barrel.WEPN_037"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "unlock": null,
+      "vendor": []
+    },
+    {
+      "id": "Id.Item.BARL_049",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Components/Barrels/BARL_049/Content/Data/ID_BARL_049",
+      "name": "WEPN_031 Bizon Standard Barrel",
+      "tags": [
+        "Item.Attachment.Barrel.WEPN_031"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "unlock": null,
+      "vendor": []
+    },
+    {
       "id": "Id.Item.BasicRedDot",
       "kind": "item",
       "asset": "Plugins/GameFeatures/Weapons/Attachments/Sights/SGHT_013/Content/Data/ID_RedDot",
@@ -3872,7 +3969,7 @@
       "weight": 0.13,
       "unlock": {
         "role": "Wardog",
-        "level": 4,
+        "level": 17,
         "cost": 5000
       },
       "vendor": []
@@ -3953,7 +4050,7 @@
       "vendor": [
         {
           "tag": "ID.Item.Binoculars",
-          "price": 75,
+          "price": 180,
           "amount": 1,
           "categories": [
             "Vendor.Category.Weapon.Specialist",
@@ -4233,8 +4330,8 @@
       "maxStack": 3,
       "weight": 0.57,
       "unlock": {
-        "role": "Support",
-        "level": 2,
+        "role": "Infantry",
+        "level": 4,
         "cost": 0
       },
       "vendor": [
@@ -4275,14 +4372,14 @@
       "maxStack": 1,
       "weight": 0.02,
       "unlock": {
-        "role": "Support",
-        "level": 2,
+        "role": "Infantry",
+        "level": 4,
         "cost": 15000
       },
       "vendor": [
         {
           "tag": "Id.Item.C4Trigger",
-          "price": 550,
+          "price": 650,
           "amount": 1,
           "categories": [
             "Vendor.Category.Utility",
@@ -4322,7 +4419,8 @@
         "Inventory.Slot.Specialist",
         "Item.Context.Equippable",
         "Item.Context.Animation.Type.Rifle",
-        "Item.Context.Animation.Archetype.Launcher"
+        "Item.Context.Animation.Archetype.Launcher",
+        "Item.Context.LooseAmmoReload"
       ],
       "grid": [
         6,
@@ -4332,8 +4430,8 @@
       "weight": 7,
       "unlock": {
         "role": "Support",
-        "level": 20,
-        "cost": 125000
+        "level": 18,
+        "cost": 100000
       },
       "vendor": []
     },
@@ -4359,8 +4457,8 @@
       "weight": 1.6,
       "unlock": {
         "role": "Recon",
-        "level": 22,
-        "cost": 50000
+        "level": 23,
+        "cost": 90000
       },
       "vendor": [
         {
@@ -4397,13 +4495,13 @@
       "weight": 1.3,
       "unlock": {
         "role": "Recon",
-        "level": 17,
-        "cost": 125000
+        "level": 16,
+        "cost": 150000
       },
       "vendor": [
         {
           "tag": "Id.Item.CombatBow",
-          "price": 800,
+          "price": 1350,
           "amount": 1,
           "categories": [
             "Vendor.Category.Weapon.Primary"
@@ -4450,12 +4548,12 @@
       ],
       "maxStack": 1,
       "weight": 2.8,
-      "durability": 5000,
+      "durability": 7000,
       "unlock": null,
       "vendor": [
         {
           "tag": "Id.Item.Crowbar",
-          "price": 1100,
+          "price": 885,
           "amount": 1,
           "categories": [
             "Vendor.Category.Utility",
@@ -4550,7 +4648,8 @@
         "Inventory.Slot.Secondary",
         "Item.Context.Equippable",
         "Item.Context.UtilityItem",
-        "Item.Context.QuickSlot"
+        "Item.Context.QuickSlot",
+        "Item.Weapon"
       ],
       "grid": [
         2,
@@ -4560,8 +4659,8 @@
       "weight": 2.6,
       "unlock": {
         "role": "Medic",
-        "level": 11,
-        "cost": 50000
+        "level": 22,
+        "cost": 110000
       },
       "vendor": [
         {
@@ -4644,8 +4743,8 @@
       "maxStack": 1,
       "weight": 0.25,
       "unlock": {
-        "role": "Infantry",
-        "level": 22,
+        "role": "Medic",
+        "level": 6,
         "cost": 20000
       },
       "vendor": [
@@ -4685,7 +4784,7 @@
       "vendor": [
         {
           "tag": "Id.Item.ExtraLargeSlingBackpack",
-          "price": 5000,
+          "price": 4000,
           "amount": 1,
           "categories": [
             "Vendor.Category.Gear.Backpack"
@@ -4720,7 +4819,7 @@
       "vendor": [
         {
           "tag": "Id.Item.FGP_02",
-          "price": 1000,
+          "price": 820,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -4748,14 +4847,14 @@
       "maxStack": 1,
       "weight": 0.08,
       "unlock": {
-        "role": "Infantry",
-        "level": 14,
+        "role": "Medic",
+        "level": 11,
         "cost": 10000
       },
       "vendor": [
         {
           "tag": "Id.Item.FGP_03",
-          "price": 820,
+          "price": 800,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -4818,14 +4917,14 @@
       "maxStack": 1,
       "weight": 0.12,
       "unlock": {
-        "role": "Medic",
-        "level": 16,
-        "cost": 10000
+        "role": "Infantry",
+        "level": 38,
+        "cost": 25000
       },
       "vendor": [
         {
           "tag": "Id.Item.FGRP_006",
-          "price": 770,
+          "price": 720,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -4860,7 +4959,7 @@
       "vendor": [
         {
           "tag": "Id.Item.FGRP_007",
-          "price": 1150,
+          "price": 840,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -4889,8 +4988,8 @@
       "weight": 0.7,
       "unlock": {
         "role": "Support",
-        "level": 33,
-        "cost": 35000
+        "level": 17,
+        "cost": 25000
       },
       "vendor": [
         {
@@ -4925,7 +5024,7 @@
       "unlock": {
         "role": "Recon",
         "level": 21,
-        "cost": 30000
+        "cost": 17500
       },
       "vendor": [
         {
@@ -4965,7 +5064,7 @@
       "vendor": [
         {
           "tag": "Id.Item.FGRP_010",
-          "price": 800,
+          "price": 810,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -5029,8 +5128,8 @@
       "weight": 0.7,
       "unlock": {
         "role": "Support",
-        "level": 18,
-        "cost": 15000
+        "level": 24,
+        "cost": 50000
       },
       "vendor": [
         {
@@ -5099,13 +5198,13 @@
       "weight": 0.15,
       "unlock": {
         "role": "Infantry",
-        "level": 38,
-        "cost": 25000
+        "level": 14,
+        "cost": 10000
       },
       "vendor": [
         {
           "tag": "Id.Item.FGRP_014",
-          "price": 1100,
+          "price": 950,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -5175,7 +5274,7 @@
       "vendor": [
         {
           "tag": "Id.Item.FGRP_016",
-          "price": 680,
+          "price": 640,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -5241,7 +5340,77 @@
       "vendor": [
         {
           "tag": "Id.Item.FGRP_018",
-          "price": 720,
+          "price": 680,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Attachment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Id.Item.FGRP_019",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Attachments/Foregrips/FGRP_019/Content/Data/ID_FGRP_019",
+      "name": "Evo-3 Ultra Bipod",
+      "subtitle": "Bipod",
+      "description": "Pros:\n- Strong ADS speed increase\n- Strong spread reduction\n- Strong recoil reduction\n- Strong sway reduction\n\nCons:\n- Reduced mobility",
+      "icon": "UI/Shared/Icons/Vendor/Grips/T_UI_Weapons_FGRP_019.png",
+      "tags": [
+        "Item.Attachment.Underbarrel",
+        "Item.Context.Equippable",
+        "Item.Attachment.Bipod.Attached"
+      ],
+      "grid": [
+        1,
+        3
+      ],
+      "maxStack": 1,
+      "weight": 0.7,
+      "unlock": {
+        "role": "Support",
+        "level": 33,
+        "cost": 75000
+      },
+      "vendor": [
+        {
+          "tag": "Id.Item.FGRP_019",
+          "price": 1450,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Attachment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Id.Item.FGRP_020",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Attachments/Foregrips/FGRP_020/Content/Data/ID_FGRP_020",
+      "name": "M14 Bipod",
+      "subtitle": "Bipod",
+      "description": "Pros:\n- Strong ADS speed increase\n- Strong spread reduction\n- Moderate recoil reduction\n- Moderate sway reduction\n\nCons:\n- Reduced mobility",
+      "icon": "UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FRGP_020.png",
+      "tags": [
+        "Item.Attachment.Underbarrel",
+        "Item.Context.Equippable",
+        "Item.Attachment.Bipod.Attached"
+      ],
+      "grid": [
+        1,
+        3
+      ],
+      "maxStack": 1,
+      "weight": 0.794,
+      "unlock": {
+        "role": "Recon",
+        "level": 29,
+        "cost": 25000
+      },
+      "vendor": [
+        {
+          "tag": "Id.Item.FGRP_020",
+          "price": 1480,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -5413,7 +5582,7 @@
       "weight": 1.5,
       "unlock": {
         "role": "Recon",
-        "level": 24,
+        "level": 26,
         "cost": 80000
       },
       "vendor": [
@@ -5447,7 +5616,7 @@
       "weight": 1.5,
       "unlock": {
         "role": "Recon",
-        "level": 27,
+        "level": 41,
         "cost": 100000
       },
       "vendor": [
@@ -5480,7 +5649,7 @@
       "maxStack": 1,
       "unlock": {
         "role": "Recon",
-        "level": 24,
+        "level": 26,
         "cost": 60000
       },
       "vendor": [
@@ -5513,7 +5682,7 @@
       "maxStack": 1,
       "unlock": {
         "role": "Recon",
-        "level": 27,
+        "level": 41,
         "cost": 80000
       },
       "vendor": [
@@ -5551,8 +5720,8 @@
       "weight": 0.63,
       "unlock": {
         "role": "Wardog",
-        "level": 1,
-        "cost": 5000
+        "level": 18,
+        "cost": 15000
       },
       "vendor": []
     },
@@ -5610,7 +5779,7 @@
       "weight": 0.28,
       "unlock": {
         "role": "Wardog",
-        "level": 1,
+        "level": 18,
         "cost": 0
       },
       "vendor": [
@@ -5715,13 +5884,13 @@
       "weight": 10.5,
       "unlock": {
         "role": "Wardog",
-        "level": 60,
+        "level": 70,
         "cost": 100000
       },
       "vendor": [
         {
           "tag": "Id.Item.HeavyArmor",
-          "price": 2000,
+          "price": 2500,
           "amount": 1,
           "categories": [
             "Vendor.Category.Gear.Armor"
@@ -5735,7 +5904,7 @@
       "asset": "Plugins/GameFeatures/Items/Armor/Content/Data/ID_HeavyHelmet",
       "name": "Level 3 Helmet",
       "subtitle": "Armor",
-      "description": "- High Damage Reduction\n- Protects the Head and Neck",
+      "description": "- High Damage Reduction\n- Protects the Head and Neck\n- Low Suppression Reduction",
       "icon": "UI/Shared/Icons/Vendor/Gear/T_UI_Vendor_Helmet_003.png",
       "tags": [
         "Inventory.Slot.Helmet",
@@ -5749,13 +5918,13 @@
       "weight": 3,
       "unlock": {
         "role": "Wardog",
-        "level": 60,
+        "level": 70,
         "cost": 75000
       },
       "vendor": [
         {
           "tag": "Id.Item.HeavyHelmet",
-          "price": 1500,
+          "price": 2000,
           "amount": 1,
           "categories": [
             "Vendor.Category.Gear.Helmet"
@@ -5769,7 +5938,8 @@
       "asset": "Content/Items/Vehicles/Weapons/TNK_01/Heavy/ID_Heavy_MountedMachineGun",
       "name": "Machine Gun",
       "tags": [
-        "Inventory.Slot.Vehicle.Weapon.TNK_01.MountedMachineGun"
+        "Inventory.Slot.Vehicle.Weapon.TNK_01.MountedMachineGun",
+        "Item.Context.MovementBlocked"
       ],
       "grid": [
         1,
@@ -6000,12 +6170,131 @@
       "vendor": []
     },
     {
+      "id": "Id.Item.HNDG_053",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Components/Handguards/HNDG_053/Content/Data/ID_HNDG_053",
+      "name": "Id.Item.HNDG_053",
+      "tags": [
+        "Item.Attachment.Stock.WEPN_034"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "unlock": null,
+      "vendor": []
+    },
+    {
+      "id": "Id.Item.HNDG_054",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Components/Handguards/HNDG_054/Content/Data/ID_HNDG_054",
+      "name": "Id.Item.HNDG_054",
+      "tags": [
+        "Item.Attachment.Handguard.WEPN_037"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "unlock": null,
+      "vendor": []
+    },
+    {
+      "id": "Id.Item.HNDG_055",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Components/Handguards/HNDG_055/Content/Data/ID_HNDG_055",
+      "name": "Id.Item.HNDG_055",
+      "tags": [
+        "Item.Attachment.Handguard.WEPN_031"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "unlock": null,
+      "vendor": []
+    },
+    {
+      "id": "Id.Item.HotPotato.Alpha",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/HotPotato/Content/Data/Items/ID_HotPotato_Alpha",
+      "name": "Id.Item.HotPotato.Alpha",
+      "icon": "UI/Shared/Icons/Utility/3D/t_ui_icon_gold_grenade.png",
+      "tags": [
+        "Item.Context.Animation.Type.Unarmed",
+        "Inventory.Slot.Specialist",
+        "Item.Context.Equippable",
+        "Item.Context.QuickSlot",
+        "Item.Context.UtilityItem",
+        "Item.Archetype.Grenade",
+        "Item.Context.Animation.Archetype.EquipRightHand"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "weight": 1000,
+      "unlock": null,
+      "vendor": []
+    },
+    {
+      "id": "Id.Item.HotPotato.Bravo",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/HotPotato/Content/Data/Items/ID_HotPotato_Bravo",
+      "name": "Id.Item.HotPotato.Bravo",
+      "tags": [
+        "Item.Context.Animation.Type.Unarmed",
+        "Inventory.Slot.Specialist",
+        "Item.Context.Equippable",
+        "Item.Context.QuickSlot",
+        "Item.Context.UtilityItem",
+        "Item.Archetype.Grenade",
+        "Item.Context.Animation.Archetype.EquipRightHand"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "weight": 1000,
+      "unlock": null,
+      "vendor": []
+    },
+    {
+      "id": "Id.Item.HotPotato.Charlie",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/HotPotato/Content/Data/Items/ID_HotPotato_Charlie",
+      "name": "Id.Item.HotPotato.Charlie",
+      "tags": [
+        "Item.Context.Animation.Type.Unarmed",
+        "Inventory.Slot.Specialist",
+        "Item.Context.Equippable",
+        "Item.Context.QuickSlot",
+        "Item.Context.UtilityItem",
+        "Item.Archetype.Grenade",
+        "Item.Context.Animation.Archetype.EquipRightHand"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "weight": 1000,
+      "unlock": null,
+      "vendor": []
+    },
+    {
       "id": "Id.Item.HumveeVehicleRingTurret",
       "kind": "item",
       "asset": "Content/Items/Vehicles/Weapons/WHL_05/ID_Humvee_RingTurret",
       "name": "Machine Gun",
       "tags": [
-        "Inventory.Slot.Vehicle.Weapon.WHL_05.MountedMachineGun"
+        "Inventory.Slot.Vehicle.Weapon.WHL_05.MountedMachineGun",
+        "Item.Context.MovementBlocked"
       ],
       "grid": [
         1,
@@ -6071,10 +6360,12 @@
         "Item.Ammo",
         "Item.Resource.Ammo",
         "Item.Context.UtilityItem",
-        "Item.Context.QuickSlot",
         "Item.Context.Animation.Type.Unarmed",
         "Item.Context.Animation.Archetype.EquipRightHand",
-        "Inventory.Slot.Specialist"
+        "Inventory.Slot.Specialist",
+        "Item.Context.FillOwnedOnPickUp",
+        "Item.Context.Equippable",
+        "Item.Context.QuickSlot"
       ],
       "grid": [
         1,
@@ -6110,7 +6401,8 @@
         "Item.Context.Animation.Type.RangeFinderIR",
         "Item.Context.QuickSlot",
         "Item.Context.UtilityItem",
-        "Item.Context.Animation.Archetype.Binoculars"
+        "Item.Context.Animation.Archetype.Binoculars",
+        "Item.Weapon"
       ],
       "grid": [
         2,
@@ -6126,7 +6418,7 @@
       "vendor": [
         {
           "tag": "ID.Item.InfraredRangeFinder",
-          "price": 1200,
+          "price": 3200,
           "amount": 1,
           "categories": [
             "Vendor.Category.Weapon.Specialist",
@@ -6159,8 +6451,8 @@
       "weight": 0.82,
       "unlock": {
         "role": "Wardog",
-        "level": 18,
-        "cost": 15000
+        "level": 1,
+        "cost": 5000
       },
       "vendor": [
         {
@@ -6440,7 +6732,7 @@
       "vendor": [
         {
           "tag": "Id.Item.LargeBackpack",
-          "price": 2400,
+          "price": 1600,
           "amount": 1,
           "categories": [
             "Vendor.Category.Gear.Backpack"
@@ -6468,7 +6760,7 @@
       "weight": 2,
       "unlock": {
         "role": "Wardog",
-        "level": 45,
+        "level": 46,
         "cost": 50000
       },
       "vendor": [
@@ -6509,7 +6801,7 @@
       "vendor": [
         {
           "tag": "Id.Item.LargeSlingBackpack",
-          "price": 3500,
+          "price": 2400,
           "amount": 1,
           "categories": [
             "Vendor.Category.Gear.Backpack"
@@ -6576,7 +6868,7 @@
       "weight": 17.25,
       "unlock": {
         "role": "Support",
-        "level": 16,
+        "level": 14,
         "cost": 50000
       },
       "vendor": [
@@ -6748,13 +7040,13 @@
       "weight": 7.5,
       "unlock": {
         "role": "Support",
-        "level": 30,
-        "cost": 150000
+        "level": 15,
+        "cost": 100000
       },
       "vendor": [
         {
           "tag": "Id.Item.LMG_02",
-          "price": 4500,
+          "price": 4100,
           "amount": 1,
           "categories": [
             "Vendor.Category.Weapon.Primary"
@@ -6798,7 +7090,7 @@
       "weight": 3.9,
       "unlock": {
         "role": "Support",
-        "level": 30,
+        "level": 15,
         "cost": 0
       },
       "vendor": [
@@ -6917,8 +7209,8 @@
       "weight": 7.5,
       "unlock": {
         "role": "Support",
-        "level": 15,
-        "cost": 100000
+        "level": 20,
+        "cost": 150000
       },
       "vendor": []
     },
@@ -6958,7 +7250,7 @@
       "weight": 3.14,
       "unlock": {
         "role": "Support",
-        "level": 23,
+        "level": 26,
         "cost": 35000
       },
       "vendor": [
@@ -7061,8 +7353,8 @@
       "weight": 2.92,
       "unlock": {
         "role": "Infantry",
-        "level": 20,
-        "cost": 100000
+        "level": 28,
+        "cost": 150000
       },
       "vendor": [
         {
@@ -7372,7 +7664,7 @@
       "weight": 0.22,
       "unlock": {
         "role": "Wardog",
-        "level": 40,
+        "level": 41,
         "cost": 0
       },
       "vendor": [
@@ -7454,7 +7746,7 @@
       "weight": 0.43,
       "unlock": {
         "role": "Wardog",
-        "level": 85,
+        "level": 65,
         "cost": 0
       },
       "vendor": [
@@ -7536,8 +7828,8 @@
       "weight": 0.51,
       "unlock": {
         "role": "Medic",
-        "level": 25,
-        "cost": 25000
+        "level": 8,
+        "cost": 10000
       },
       "vendor": [
         {
@@ -8096,7 +8388,7 @@
       "weight": 0.38,
       "unlock": {
         "role": "Recon",
-        "level": 25,
+        "level": 30,
         "cost": 0
       },
       "vendor": [
@@ -8178,8 +8470,8 @@
       "weight": 1.3,
       "unlock": {
         "role": "Medic",
-        "level": 29,
-        "cost": 50000
+        "level": 21,
+        "cost": 15000
       },
       "vendor": [
         {
@@ -8241,6 +8533,84 @@
       ]
     },
     {
+      "id": "Id.Item.MAGZ_051",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Attachments/Magazines/MAGZ_051/Content/Data/ID_MAGZ_051",
+      "name": "PP-19 Bizon 53 RND Magazine",
+      "subtitle": "Magazine",
+      "description": "- 53 Rounds\n- 9x19mm ammo\n- PP-19 Bizon",
+      "icon": "UI/Shared/Icons/Vendor/Magazines/T_UI_Weapons_MAGZ_051.png",
+      "tags": [
+        "Item.Resource.Magazine.Extended",
+        "Item.Attachment.Magazine"
+      ],
+      "grid": [
+        1,
+        3
+      ],
+      "maxStack": 1,
+      "weight": 1.24,
+      "unlock": null,
+      "vendor": [
+        {
+          "tag": "Id.Item.MAGZ_051",
+          "price": 200,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine.Size"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_051.ArmorPiercing",
+          "price": 306,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_051.ArmorPiercingTracer",
+          "price": 306,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_051.FMJ",
+          "price": 253,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_051.FMJTracer",
+          "price": 253,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_051.HollowPoint",
+          "price": 280,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_051.HollowPointTracer",
+          "price": 280,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        }
+      ]
+    },
+    {
       "id": "Id.Item.MAGZ_052",
       "kind": "item",
       "asset": "Plugins/GameFeatures/Weapons/Attachments/Magazines/MAGZ_052/Content/Data/ID_MAGZ_052",
@@ -8257,7 +8627,11 @@
         1
       ],
       "maxStack": 1,
-      "unlock": null,
+      "unlock": {
+        "role": "Medic",
+        "level": 25,
+        "cost": 12500
+      },
       "vendor": [
         {
           "tag": "Id.Item.MAGZ_052",
@@ -8419,8 +8793,8 @@
       "weight": 1.49,
       "unlock": {
         "role": "Medic",
-        "level": 45,
-        "cost": 75000
+        "level": 29,
+        "cost": 50000
       },
       "vendor": [
         {
@@ -8583,8 +8957,8 @@
       "weight": 0.2,
       "unlock": {
         "role": "Medic",
-        "level": 7,
-        "cost": 7500
+        "level": 17,
+        "cost": 10000
       },
       "vendor": [
         {
@@ -8747,8 +9121,8 @@
       "weight": 0.25,
       "unlock": {
         "role": "Medic",
-        "level": 3,
-        "cost": 7500
+        "level": 20,
+        "cost": 0
       },
       "vendor": [
         {
@@ -8829,7 +9203,7 @@
       "weight": 1.62,
       "unlock": {
         "role": "Support",
-        "level": 15,
+        "level": 20,
         "cost": 0
       },
       "vendor": [
@@ -8993,7 +9367,7 @@
       "weight": 0.35,
       "unlock": {
         "role": "Medic",
-        "level": 15,
+        "level": 4,
         "cost": 0
       },
       "vendor": [
@@ -9156,8 +9530,8 @@
       "weight": 1.46,
       "unlock": {
         "role": "Medic",
-        "level": 20,
-        "cost": 15000
+        "level": 45,
+        "cost": 75000
       },
       "vendor": [
         {
@@ -9211,6 +9585,413 @@
         {
           "tag": "Id.Item.MAGZ_066.HollowPointTracer",
           "price": 255,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Id.Item.MAGZ_067",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Attachments/Magazines/MAGZ_067/Content/Data/ID_MAGZ_067",
+      "name": "Evo-3 Ultra 50 RND Box",
+      "subtitle": "Magazine",
+      "description": "- 50 Rounds\n- .308 Win ammo\n- Evo-3 Ultra Only",
+      "icon": "UI/Shared/Icons/Vendor/Magazines/T_UI_Weapons_MAGZ_067.png",
+      "tags": [
+        "Item.Attachment.Magazine.WEPN_036",
+        "Item.Resource.Magazine.Belt"
+      ],
+      "grid": [
+        2,
+        2
+      ],
+      "maxStack": 1,
+      "weight": 1.65,
+      "unlock": {
+        "role": "Support",
+        "level": 30,
+        "cost": 0
+      },
+      "vendor": [
+        {
+          "tag": "Id.Item.MAGZ_067",
+          "price": 110,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine.Size"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_067.ArmorPiercing",
+          "price": 1010,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_067.ArmorPiercingTracer",
+          "price": 1010,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_067.FMJ",
+          "price": 310,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_067.FMJTracer",
+          "price": 310,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_067.HollowPoint",
+          "price": 460,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_067.HollowPointTracer",
+          "price": 460,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Id.Item.MAGZ_068",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Attachments/Magazines/MAGZ_068/Content/Data/ID_MAGZ_068",
+      "name": "M14 10 RND Magazine",
+      "subtitle": "Magazine",
+      "description": "- 10 Rounds\n- .308 Win\n- M14 only",
+      "icon": "UI/Shared/Icons/Vendor/Magazines/T_UI_Weapons_MAGZ_068.png",
+      "tags": [
+        "Item.Attachment.Magazine.WEPN_034"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "weight": 0.4,
+      "unlock": {
+        "role": "Recon",
+        "level": 25,
+        "cost": 0
+      },
+      "vendor": [
+        {
+          "tag": "Id.Item.MAGZ_068",
+          "price": 60,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine.Size"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_068.ArmorPiercing",
+          "price": 240,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_068.ArmorPiercingTracer",
+          "price": 240,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_068.FMJ",
+          "price": 100,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_068.FMJTracer",
+          "price": 100,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_068.HollowPoint",
+          "price": 130,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_068.HollowPointTracer",
+          "price": 130,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Id.Item.MAGZ_069",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Attachments/Magazines/MAGZ_069/Content/Data/ID_MAGZ_069",
+      "name": "SIG Spear (WEPN_037) Standard Mag",
+      "subtitle": "Magazine",
+      "description": "- 28 Rounds\n- 7.62x39mm\n- TCX-SPR only",
+      "icon": "UI/Shared/Icons/Vendor/Magazines/T_UI_Weapons_MAGZ_069.png",
+      "tags": [
+        "Item.Attachment.Magazine",
+        "Item.Resource.Magazine.Standard"
+      ],
+      "grid": [
+        1,
+        2
+      ],
+      "maxStack": 1,
+      "weight": 0.84,
+      "unlock": {
+        "role": "Infantry",
+        "level": 20,
+        "cost": 0
+      },
+      "vendor": [
+        {
+          "tag": "Id.Item.MAGZ_069",
+          "price": 50,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine.Size"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_069.ArmorPiercing",
+          "price": 470,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_069.ArmorPiercingTracer",
+          "price": 470,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_069.FMJ",
+          "price": 162,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_069.FMJTracer",
+          "price": 162,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_069.HollowPoint",
+          "price": 302,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_069.HollowPointTracer",
+          "price": 302,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Id.Item.MAGZ_070",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Attachments/Magazines/MAGZ_070/Content/Data/ID_MAGZ_070",
+      "name": "M14 30 RND Magazine",
+      "subtitle": "Magazine",
+      "description": "- 30 Rounds\n- .308 Win\n- M14 only",
+      "icon": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_070.png",
+      "tags": [
+        "Item.Attachment.Magazine.WEPN_034"
+      ],
+      "grid": [
+        1,
+        3
+      ],
+      "maxStack": 1,
+      "weight": 1.04,
+      "unlock": {
+        "role": "Recon",
+        "level": 36,
+        "cost": 50000
+      },
+      "vendor": [
+        {
+          "tag": "Id.Item.MAGZ_070",
+          "price": 180,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine.Size"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_070.ArmorPiercing",
+          "price": 720,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_070.ArmorPiercingTracer",
+          "price": 720,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_070.FMJ",
+          "price": 300,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_070.FMJTracer",
+          "price": 300,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_070.HollowPoint",
+          "price": 390,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_070.HollowPointTracer",
+          "price": 390,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Id.Item.MAGZ_071",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Attachments/Magazines/MAGZ_071/Content/Data/ID_MAGZ_071",
+      "name": "M14 20 RND Magazine",
+      "subtitle": "Magazine",
+      "description": "- 20 Rounds\n- .308 Win\n- M14 only",
+      "icon": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_071.png",
+      "tags": [
+        "Item.Attachment.Magazine.WEPN_034"
+      ],
+      "grid": [
+        1,
+        2
+      ],
+      "maxStack": 1,
+      "weight": 0.73,
+      "unlock": {
+        "role": "Recon",
+        "level": 31,
+        "cost": 27500
+      },
+      "vendor": [
+        {
+          "tag": "Id.Item.MAGZ_071",
+          "price": 110,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine.Size"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_071.ArmorPiercing",
+          "price": 240,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_071.ArmorPiercingTracer",
+          "price": 240,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_071.FMJ",
+          "price": 190,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_071.FMJTracer",
+          "price": 100,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_071.HollowPoint",
+          "price": 130,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Magazine"
+          ]
+        },
+        {
+          "tag": "Id.Item.MAGZ_071.HollowPointTracer",
+          "price": 130,
           "amount": 1,
           "categories": [
             "Vendor.Category.Magazine"
@@ -9407,15 +10188,16 @@
       ],
       "maxStack": 1,
       "weight": 3.45,
+      "durability": 150,
       "unlock": {
         "role": "Medic",
-        "level": 24,
-        "cost": 75000
+        "level": 14,
+        "cost": 50000
       },
       "vendor": [
         {
           "tag": "ID.Item.MedKit.Standard",
-          "price": 2000,
+          "price": 1800,
           "amount": 1,
           "categories": [
             "Vendor.Category.Weapon.Specialist",
@@ -9465,7 +10247,7 @@
       "weight": 6.3,
       "unlock": {
         "role": "Recon",
-        "level": 25,
+        "level": 30,
         "cost": 150000
       },
       "vendor": [
@@ -9634,7 +10416,7 @@
       "unlock": {
         "role": "Support",
         "level": 35,
-        "cost": 200000
+        "cost": 250000
       },
       "vendor": []
     },
@@ -9728,6 +10510,41 @@
       "vendor": []
     },
     {
+      "id": "Id.Item.Molotov",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Items/Molotov/Content/Data/ID_Molotov",
+      "name": "Id.Item.Molotov",
+      "subtitle": "Lethal // Quick Slot",
+      "icon": "UI/Shared/Icons/Utility/3D/T_UI_Utility_Molotov.png",
+      "tags": [
+        "Item.Context.UtilityItem",
+        "Item.Context.QuickSlot",
+        "Item.Context.Animation.Type.Unarmed",
+        "Item.Context.Animation.Archetype.EquipRightHand"
+      ],
+      "grid": [
+        1,
+        2
+      ],
+      "maxStack": 2,
+      "weight": 0.99,
+      "unlock": {
+        "role": "Infantry",
+        "level": 13,
+        "cost": 25000
+      },
+      "vendor": [
+        {
+          "tag": "Id.Item.Molotov",
+          "price": 340,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Utility"
+          ]
+        }
+      ]
+    },
+    {
       "id": "ID.Item.Monocular",
       "kind": "item",
       "asset": "Plugins/GameFeatures/Items/RangeFinder/Content/Data/ID_Monocular",
@@ -9758,7 +10575,7 @@
       "vendor": [
         {
           "tag": "ID.Item.Monocular",
-          "price": 150,
+          "price": 350,
           "amount": 1,
           "categories": [
             "Vendor.Category.Weapon.Specialist",
@@ -9770,7 +10587,7 @@
     {
       "id": "Id.Item.Mosin",
       "kind": "item",
-      "asset": "Plugins/GameFeatures/Weapons/Sniper/Mosin/Content/Data/ID_Mosin",
+      "asset": "Plugins/GameFeatures/Weapons/Platforms/WEPN_017/Content/Data/ID_WEPN_017",
       "name": "Mosin Nagant",
       "subtitle": "Sniper Rifle",
       "description": "- Bolt-action\n- 7.62x54mm",
@@ -9809,7 +10626,7 @@
     {
       "id": "Id.Item.MosinBarrel",
       "kind": "item",
-      "asset": "Plugins/GameFeatures/Weapons/Sniper/Mosin/Content/Data/Components/ID_MosinBarrel",
+      "asset": "Plugins/GameFeatures/Weapons/Platforms/WEPN_017/Content/Data/Components/ID_MosinBarrel",
       "name": "Id.Item.MosinBarrel",
       "tags": [
         "Item.Attachment.Barrel"
@@ -9825,7 +10642,7 @@
     {
       "id": "Id.Item.MosinMagazine",
       "kind": "item",
-      "asset": "Plugins/GameFeatures/Weapons/Sniper/Mosin/Content/Data/ID_Mosin_MagInternal",
+      "asset": "Plugins/GameFeatures/Weapons/Platforms/WEPN_017/Content/Data/ID_Mosin_MagInternal",
       "name": "Mosin Standard Mag",
       "icon": "UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_Cheap_Magazine_SV98_Textured_512x512.png",
       "tags": [
@@ -9875,10 +10692,27 @@
     {
       "id": "Id.Item.MosinStock",
       "kind": "item",
-      "asset": "Plugins/GameFeatures/Weapons/Sniper/Mosin/Content/Data/Components/ID_MosinStock",
+      "asset": "Plugins/GameFeatures/Weapons/Platforms/WEPN_017/Content/Data/Components/ID_MosinStock",
       "name": "Id.Item.MosinStock",
       "tags": [
         "Item.Attachment.Stock"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "unlock": null,
+      "vendor": []
+    },
+    {
+      "id": "ID.Item.MountedMachineGun_TNK_04",
+      "kind": "item",
+      "asset": "Content/Items/Vehicles/Weapons/TNK_04/ID_MountedMachineGun_TNK_04",
+      "name": "Machine Gun",
+      "tags": [
+        "Inventory.Slot.Vehicle.Weapon.TNK_04.MountedMachineGun",
+        "Item.Context.MovementBlocked"
       ],
       "grid": [
         1,
@@ -10011,11 +10845,15 @@
       ],
       "maxStack": 1,
       "weight": 1.4,
-      "unlock": null,
+      "unlock": {
+        "role": "Medic",
+        "level": 20,
+        "cost": 75000
+      },
       "vendor": [
         {
           "tag": "Id.Item.MP9",
-          "price": 900,
+          "price": 1375,
           "amount": 1,
           "categories": [
             "Vendor.Category.Weapon.Primary"
@@ -10077,8 +10915,8 @@
       "weight": 0.48,
       "unlock": {
         "role": "Medic",
-        "level": 10,
-        "cost": 10000
+        "level": 30,
+        "cost": 50000
       },
       "vendor": [
         {
@@ -10202,9 +11040,9 @@
       "maxStack": 1,
       "weight": 0.01,
       "unlock": {
-        "role": "Driver",
-        "level": 5,
-        "cost": 750
+        "role": "Pilot",
+        "level": 13,
+        "cost": 2500
       },
       "vendor": []
     },
@@ -10226,9 +11064,9 @@
       "maxStack": 1,
       "weight": 0.01,
       "unlock": {
-        "role": "Pilot",
-        "level": 5,
-        "cost": 750
+        "role": "Driver",
+        "level": 23,
+        "cost": 5000
       },
       "vendor": []
     },
@@ -10236,7 +11074,7 @@
       "id": "Id.Item.MusicTape.03",
       "kind": "item",
       "asset": "Plugins/GameFeatures/Items/MusicTapes/MusicTape_03/Content/Data/ID_MusicTape_03",
-      "name": "Giants (Remix) - The Quemists",
+      "name": "Giants (Remix) - The Qemists",
       "subtitle": "Music Tape",
       "description": "Playable music tape in vehicles.",
       "icon": "UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_03.png",
@@ -10251,8 +11089,8 @@
       "weight": 0.01,
       "unlock": {
         "role": "Driver",
-        "level": 13,
-        "cost": 1500
+        "level": 28,
+        "cost": 10000
       },
       "vendor": []
     },
@@ -10275,8 +11113,8 @@
       "weight": 0.01,
       "unlock": {
         "role": "Pilot",
-        "level": 13,
-        "cost": 1500
+        "level": 30,
+        "cost": 25000
       },
       "vendor": []
     },
@@ -10284,10 +11122,10 @@
       "id": "Id.Item.MusicTape.05",
       "kind": "item",
       "asset": "Plugins/GameFeatures/Items/MusicTapes/MusicTape_05/Content/Data/ID_MusicTape_05",
-      "name": "Ride of the Valkyries - Richard Wagner",
+      "name": "Dyshat' - Baryber",
       "subtitle": "Music Tape",
       "description": "Playable music tape in vehicles.",
-      "icon": "UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_06.png",
+      "icon": "UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_05.png",
       "tags": [
         "Item.Context.VehicleHifiItem"
       ],
@@ -10297,7 +11135,11 @@
       ],
       "maxStack": 1,
       "weight": 0.01,
-      "unlock": null,
+      "unlock": {
+        "role": "Driver",
+        "level": 33,
+        "cost": 25000
+      },
       "vendor": []
     },
     {
@@ -10318,9 +11160,9 @@
       "maxStack": 1,
       "weight": 0.01,
       "unlock": {
-        "role": "Pilot",
-        "level": 23,
-        "cost": 2500
+        "role": "Driver",
+        "level": 5,
+        "cost": 750
       },
       "vendor": []
     },
@@ -10328,7 +11170,7 @@
       "id": "Id.Item.MusicTape.07",
       "kind": "item",
       "asset": "Plugins/GameFeatures/Items/MusicTapes/MusicTape_07/Content/Data/ID_MusicTape_07",
-      "name": "Luili-Luili - Masha Kondratenko",
+      "name": "Liuli-Liuli - Masha Kondratenko",
       "subtitle": "Music Tape",
       "description": "Playable music tape in vehicles.",
       "icon": "UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_07.png",
@@ -10343,8 +11185,8 @@
       "weight": 0.01,
       "unlock": {
         "role": "Driver",
-        "level": 28,
-        "cost": 5000
+        "level": 13,
+        "cost": 2500
       },
       "vendor": []
     },
@@ -10366,9 +11208,9 @@
       "maxStack": 1,
       "weight": 0.01,
       "unlock": {
-        "role": "Driver",
-        "level": 23,
-        "cost": 2500
+        "role": "Pilot",
+        "level": 5,
+        "cost": 750
       },
       "vendor": []
     },
@@ -10391,8 +11233,32 @@
       "weight": 0.01,
       "unlock": {
         "role": "Pilot",
-        "level": 30,
+        "level": 23,
         "cost": 10000
+      },
+      "vendor": []
+    },
+    {
+      "id": "Id.Item.MusicTape.11",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Items/MusicTapes/MusicTape_11/Content/Data/ID_MusicTape_11",
+      "name": "Blue (Da Ba Dee) - Eiffel 65",
+      "subtitle": "Music Tape",
+      "description": "Playable music tape in vehicles.",
+      "icon": "UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_11.png",
+      "tags": [
+        "Item.Context.VehicleHifiItem"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "weight": 0.01,
+      "unlock": {
+        "role": "Wardog",
+        "level": 29,
+        "cost": 25000
       },
       "vendor": []
     },
@@ -10418,13 +11284,13 @@
       "weight": 0.09,
       "unlock": {
         "role": "Infantry",
-        "level": 24,
-        "cost": 20000
+        "level": 8,
+        "cost": 7500
       },
       "vendor": [
         {
           "tag": "Id.Item.MUZL_013",
-          "price": 1000,
+          "price": 820,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -10452,8 +11318,8 @@
       "weight": 0.1,
       "unlock": {
         "role": "Infantry",
-        "level": 5,
-        "cost": 7500
+        "level": 21,
+        "cost": 20000
       },
       "vendor": [
         {
@@ -10486,8 +11352,8 @@
       "weight": 0.1,
       "unlock": {
         "role": "Medic",
-        "level": 1,
-        "cost": 7500
+        "level": 28,
+        "cost": 22500
       },
       "vendor": [
         {
@@ -10522,7 +11388,7 @@
       "weight": 0.09,
       "unlock": {
         "role": "Medic",
-        "level": 13,
+        "level": 12,
         "cost": 15000
       },
       "vendor": [
@@ -10558,7 +11424,7 @@
       "weight": 0.14,
       "unlock": {
         "role": "Recon",
-        "level": 23,
+        "level": 34,
         "cost": 20000
       },
       "vendor": [
@@ -10592,7 +11458,7 @@
       "weight": 0.1,
       "unlock": {
         "role": "Support",
-        "level": 17,
+        "level": 27,
         "cost": 10000
       },
       "vendor": [
@@ -10626,8 +11492,8 @@
       "weight": 0.15,
       "unlock": {
         "role": "Infantry",
-        "level": 2,
-        "cost": 5000
+        "level": 5,
+        "cost": 12500
       },
       "vendor": [
         {
@@ -10661,7 +11527,7 @@
       "weight": 0.14,
       "unlock": {
         "role": "Recon",
-        "level": 28,
+        "level": 44,
         "cost": 22500
       },
       "vendor": [
@@ -10701,7 +11567,7 @@
       "vendor": [
         {
           "tag": "Id.Item.MUZL_027",
-          "price": 1080,
+          "price": 1000,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -10729,13 +11595,13 @@
       "weight": 0.18,
       "unlock": {
         "role": "Recon",
-        "level": 6,
+        "level": 9,
         "cost": 7500
       },
       "vendor": [
         {
           "tag": "Id.Item.MUZL_028",
-          "price": 820,
+          "price": 810,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -10771,7 +11637,7 @@
       "vendor": [
         {
           "tag": "Id.Item.MUZL_029",
-          "price": 1020,
+          "price": 980,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -10799,13 +11665,13 @@
       "weight": 0.12,
       "unlock": {
         "role": "Recon",
-        "level": 36,
+        "level": 49,
         "cost": 25000
       },
       "vendor": [
         {
           "tag": "Id.Item.MUZL_030",
-          "price": 1180,
+          "price": 1040,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -10868,13 +11734,13 @@
       "weight": 0.5,
       "unlock": {
         "role": "Infantry",
-        "level": 29,
+        "level": 24,
         "cost": 30000
       },
       "vendor": [
         {
           "tag": "Id.Item.MUZL_032",
-          "price": 1550,
+          "price": 1310,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -10902,13 +11768,13 @@
       "weight": 0.12,
       "unlock": {
         "role": "Medic",
-        "level": 26,
-        "cost": 22500
+        "level": 1,
+        "cost": 7500
       },
       "vendor": [
         {
           "tag": "Id.Item.MUZL_037",
-          "price": 700,
+          "price": 580,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -10936,13 +11802,13 @@
       "weight": 0.1,
       "unlock": {
         "role": "Support",
-        "level": 26,
+        "level": 19,
         "cost": 20000
       },
       "vendor": [
         {
           "tag": "Id.Item.MUZL_038",
-          "price": 960,
+          "price": 840,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -10970,13 +11836,13 @@
       "weight": 0.09,
       "unlock": {
         "role": "Infantry",
-        "level": 16,
-        "cost": 15000
+        "level": 2,
+        "cost": 5000
       },
       "vendor": [
         {
           "tag": "Id.Item.MUZL_039",
-          "price": 900,
+          "price": 600,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -11038,13 +11904,13 @@
       "weight": 0.49,
       "unlock": {
         "role": "Recon",
-        "level": 20,
+        "level": 22,
         "cost": 17500
       },
       "vendor": [
         {
           "tag": "Id.Item.MUZL_041",
-          "price": 1470,
+          "price": 1330,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -11074,7 +11940,7 @@
       "weight": 0.12,
       "unlock": {
         "role": "Recon",
-        "level": 9,
+        "level": 6,
         "cost": 12500
       },
       "vendor": [
@@ -11107,7 +11973,7 @@
       "maxStack": 1,
       "unlock": {
         "role": "Support",
-        "level": 14,
+        "level": 13,
         "cost": 7500
       },
       "vendor": [
@@ -11140,13 +12006,13 @@
       "maxStack": 1,
       "unlock": {
         "role": "Support",
-        "level": 19,
+        "level": 16,
         "cost": 30000
       },
       "vendor": [
         {
           "tag": "Id.Item.MUZL_045",
-          "price": 1400,
+          "price": 1150,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -11174,13 +12040,13 @@
       "weight": 0.06,
       "unlock": {
         "role": "Medic",
-        "level": 40,
+        "level": 36,
         "cost": 40000
       },
       "vendor": [
         {
           "tag": "Id.Item.MUZL_046",
-          "price": 1050,
+          "price": 860,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -11208,7 +12074,7 @@
       "weight": 0.12,
       "unlock": {
         "role": "Medic",
-        "level": 36,
+        "level": 40,
         "cost": 30000
       },
       "vendor": [
@@ -11242,13 +12108,13 @@
       "weight": 0.45,
       "unlock": {
         "role": "Recon",
-        "level": 48,
+        "level": 38,
         "cost": 35000
       },
       "vendor": [
         {
           "tag": "Id.Item.MUZL_048",
-          "price": 1600,
+          "price": 1380,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -11276,13 +12142,13 @@
       "weight": 1.2,
       "unlock": {
         "role": "Recon",
-        "level": 37,
+        "level": 48,
         "cost": 27500
       },
       "vendor": [
         {
           "tag": "Id.Item.MUZL_049",
-          "price": 1420,
+          "price": 1250,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -11316,7 +12182,7 @@
       "vendor": [
         {
           "tag": "Id.Item.MUZL_050",
-          "price": 1030,
+          "price": 990,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -11344,13 +12210,13 @@
       "weight": 0.4,
       "unlock": {
         "role": "Medic",
-        "level": 30,
+        "level": 27,
         "cost": 25000
       },
       "vendor": [
         {
           "tag": "Id.Item.MUZL_051",
-          "price": 1130,
+          "price": 1110,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -11378,8 +12244,8 @@
       "weight": 0.1,
       "unlock": {
         "role": "Medic",
-        "level": 12,
-        "cost": 10000
+        "level": 26,
+        "cost": 45000
       },
       "vendor": [
         {
@@ -11412,13 +12278,13 @@
       "weight": 0.5,
       "unlock": {
         "role": "Medic",
-        "level": 43,
-        "cost": 45000
+        "level": 24,
+        "cost": 20000
       },
       "vendor": [
         {
           "tag": "Id.Item.MUZL_053",
-          "price": 1450,
+          "price": 1290,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -11446,13 +12312,13 @@
       "weight": 0.08,
       "unlock": {
         "role": "Medic",
-        "level": 22,
-        "cost": 20000
+        "level": 18,
+        "cost": 17500
       },
       "vendor": [
         {
           "tag": "Id.Item.MUZL_054",
-          "price": 800,
+          "price": 750,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -11480,13 +12346,13 @@
       "weight": 0.12,
       "unlock": {
         "role": "Recon",
-        "level": 31,
-        "cost": 25000
+        "level": 24,
+        "cost": 50000
       },
       "vendor": [
         {
           "tag": "Id.Item.MUZL_055",
-          "price": 1280,
+          "price": 930,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -11515,12 +12381,12 @@
       "unlock": {
         "role": "Recon",
         "level": 33,
-        "cost": 27500
+        "cost": 25000
       },
       "vendor": [
         {
           "tag": "Id.Item.MUZL_056",
-          "price": 1200,
+          "price": 1080,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -11554,7 +12420,7 @@
       "vendor": [
         {
           "tag": "Id.Item.MUZL_057",
-          "price": 1120,
+          "price": 1020,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -11582,13 +12448,13 @@
       "weight": 0.38,
       "unlock": {
         "role": "Medic",
-        "level": 18,
-        "cost": 17500
+        "level": 13,
+        "cost": 12500
       },
       "vendor": [
         {
           "tag": "Id.Item.MUZL_058",
-          "price": 1170,
+          "price": 1130,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -11707,7 +12573,7 @@
       "unlock": {
         "role": "Recon",
         "level": 3,
-        "cost": 7500
+        "cost": 5000
       },
       "vendor": [
         {
@@ -11719,6 +12585,280 @@
           ]
         }
       ]
+    },
+    {
+      "id": "Id.Item.MUZL_064",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Attachments/Muzzle/MUZL_064/Content/Data/ID_MUZL_064",
+      "name": "WEPN_033 (M14) standard muzzle",
+      "tags": [
+        "Item.Context.Equippable",
+        "Item.Attachment.Muzzle.WEPN_034"
+      ],
+      "grid": [
+        1,
+        2
+      ],
+      "maxStack": 1,
+      "weight": 0.38,
+      "unlock": null,
+      "vendor": []
+    },
+    {
+      "id": "Id.Item.MUZL_065",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Attachments/Muzzle/MUZL_065/Content/Data/ID_MUZL_065",
+      "name": "QD-5 Suppressor",
+      "tags": [
+        "Item.Context.Equippable",
+        "Item.Attachment.Muzzle.WEPN_036"
+      ],
+      "grid": [
+        1,
+        2
+      ],
+      "maxStack": 1,
+      "weight": 0.38,
+      "unlock": null,
+      "vendor": []
+    },
+    {
+      "id": "Id.Item.MUZL_066",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Attachments/Muzzle/MUZL_066/Content/Data/ID_MUZL_066",
+      "name": "Sig Default",
+      "tags": [
+        "Item.Context.Equippable",
+        "Item.Attachment.Muzzle.WEPN_037"
+      ],
+      "grid": [
+        1,
+        2
+      ],
+      "maxStack": 1,
+      "weight": 0.38,
+      "unlock": null,
+      "vendor": []
+    },
+    {
+      "id": "Id.Item.MUZL_067",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Attachments/Muzzle/MUZL_067/Content/Data/ID_MUZL_067",
+      "name": "Cross Rifle Muzzle Brake",
+      "subtitle": "Muzzle",
+      "description": "Pros:\n- Minor vertical recoil reduction\n- Minor horizontal recoil reduction\n- Minor spread reduction\n\nCons:\n- Minor ADS speed penalty",
+      "icon": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Weapons_MUZL_067.png",
+      "tags": [
+        "Item.Context.Equippable",
+        "Item.Attachment.Muzzle.WEPN_037"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "weight": 0.045,
+      "unlock": {
+        "role": "Infantry",
+        "level": 32,
+        "cost": 35000
+      },
+      "vendor": [
+        {
+          "tag": "Id.Item.MUZL_067",
+          "price": 780,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Attachment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Id.Item.MUZL_068",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Attachments/Muzzle/MUZL_068/Content/Data/ID_MUZL_068",
+      "name": "Clutch Lok Muzzle Brake",
+      "subtitle": "Muzzle",
+      "description": "Pros:\n- Moderate spread reduction\n- Moderate vertical recoil reduction\n\nCons:\n- Minor ADS speed penalty\n- Minor horizontal recoil punishment",
+      "icon": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Weapons_MUZL_068.png",
+      "tags": [
+        "Item.Context.Equippable",
+        "Item.Attachment.Muzzle.WEPN_037"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "weight": 0.094,
+      "unlock": {
+        "role": "Infantry",
+        "level": 37,
+        "cost": 37500
+      },
+      "vendor": [
+        {
+          "tag": "Id.Item.MUZL_068",
+          "price": 1100,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Attachment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Id.Item.MUZL_069",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Attachments/Muzzle/MUZL_069/Content/Data/ID_MUZL_069",
+      "name": "SRD762TI-QD",
+      "subtitle": "Muzzle",
+      "description": "Pros:\n- Reduced sound profile\n- Strong flash reduction\n- Moderate spread reduction\n- Minor vertical recoil reduction\n- Minor horizontal recoil reduction\n\nCons:\n- Moderate ADS speed penalty",
+      "icon": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Weapons_MUZL_069.png",
+      "tags": [
+        "Item.Context.Equippable",
+        "Item.Attachment.Muzzle.WEPN_037"
+      ],
+      "grid": [
+        1,
+        2
+      ],
+      "maxStack": 1,
+      "weight": 0.38,
+      "unlock": {
+        "role": "Infantry",
+        "level": 40,
+        "cost": 40000
+      },
+      "vendor": [
+        {
+          "tag": "Id.Item.MUZL_069",
+          "price": 1350,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Attachment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Id.Item.MUZL_070",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Attachments/Muzzle/MUZL_070/Content/Data/ID_MUZL_070",
+      "name": "SL7i-BL Suppressor",
+      "subtitle": "Suppressor",
+      "description": "Pros:\n- Reduced sound profile\n- Moderate flash reduction\n- Moderate spread reduction\n- Minor vertical recoil reduction\n- Minor horizontal recoil reduction\n\nCons:\n- Minor ADS speed penalty",
+      "icon": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_058.png",
+      "tags": [
+        "Item.Context.Equippable",
+        "Item.Attachment.Muzzle.WEPN_036"
+      ],
+      "grid": [
+        1,
+        2
+      ],
+      "maxStack": 1,
+      "weight": 0.53,
+      "unlock": {
+        "role": "Support",
+        "level": 40,
+        "cost": 35000
+      },
+      "vendor": [
+        {
+          "tag": "Id.Item.MUZL_070",
+          "price": 1400,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Attachment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Id.Item.MUZL_071",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Attachments/Muzzle/MUZL_071/Content/Data/ID_MUZL_071",
+      "name": ".30 Cal SS Phosphate Muzzle Brake",
+      "subtitle": "Muzzle",
+      "description": "Pros:\n- Moderate spread reduction\n- Moderate vertical recoil reduction\n\nCons:\n- Moderate ADS speed penalty\n- Minor horizontal recoil punishment",
+      "icon": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_071.png",
+      "tags": [
+        "Item.Context.Equippable",
+        "Item.Attachment.Muzzle.WEPN_034"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "weight": 0.123,
+      "unlock": {
+        "role": "Recon",
+        "level": 37,
+        "cost": 22500
+      },
+      "vendor": [
+        {
+          "tag": "Id.Item.MUZL_071",
+          "price": 950,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Attachment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Id.Item.MUZL_072",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Attachments/Muzzle/MUZL_072/Content/Data/ID_MUZL_072",
+      "name": ".30 Cal Steel Black Flash Hider",
+      "subtitle": "Muzzle",
+      "description": "Pros:\n- Moderate flash reduction\n- Minor ADS speed improvements",
+      "icon": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_072.png",
+      "tags": [
+        "Item.Context.Equippable",
+        "Item.Attachment.Muzzle.WEPN_034"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "weight": 0.068,
+      "unlock": {
+        "role": "Recon",
+        "level": 42,
+        "cost": 27500
+      },
+      "vendor": [
+        {
+          "tag": "Id.Item.MUZL_072",
+          "price": 730,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Attachment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Id.Item.MWSY_001.MountedMachineGun",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/VehicleWeaponry/MWSY_001/Content/Weapons/ID_MWSY_001_MountedMachineGun",
+      "name": "Machine Gun",
+      "tags": [
+        "Inventory.Slot.Vehicle.Weapon.MWSY_001.MountedMachineGun"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "unlock": null,
+      "vendor": []
     },
     {
       "id": "Id.Item.MZL_04",
@@ -11746,7 +12886,7 @@
       "vendor": [
         {
           "tag": "Id.Item.MZL_04",
-          "price": 1800,
+          "price": 1450,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -11780,7 +12920,7 @@
       "vendor": [
         {
           "tag": "Id.Item.MZL_05",
-          "price": 1220,
+          "price": 1090,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -11808,13 +12948,13 @@
       "weight": 0.8,
       "unlock": {
         "role": "Support",
-        "level": 40,
+        "level": 32,
         "cost": 25000
       },
       "vendor": [
         {
           "tag": "Id.Item.MZL_06",
-          "price": 1040,
+          "price": 1170,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -11842,13 +12982,13 @@
       "weight": 0.72,
       "unlock": {
         "role": "Infantry",
-        "level": 21,
-        "cost": 20000
+        "level": 29,
+        "cost": 22500
       },
       "vendor": [
         {
           "tag": "Id.Item.MZL_07",
-          "price": 1350,
+          "price": 1200,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -11884,7 +13024,7 @@
       "vendor": [
         {
           "tag": "Id.Item.MZL_08",
-          "price": 1210,
+          "price": 1180,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -11913,13 +13053,13 @@
       "weight": 0.8,
       "unlock": {
         "role": "Infantry",
-        "level": 27,
+        "level": 19,
         "cost": 25000
       },
       "vendor": [
         {
           "tag": "Id.Item.MZL_09",
-          "price": 1300,
+          "price": 1260,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -11948,13 +13088,13 @@
       "weight": 0.7,
       "unlock": {
         "role": "Infantry",
-        "level": 19,
+        "level": 27,
         "cost": 17500
       },
       "vendor": [
         {
           "tag": "Id.Item.MZL_10",
-          "price": 1190,
+          "price": 1160,
           "amount": 1,
           "categories": [
             "Vendor.Category.Attachment"
@@ -11981,8 +13121,8 @@
       "maxStack": 1,
       "weight": 0.4,
       "unlock": {
-        "role": "Wardog",
-        "level": 26,
+        "role": "Infantry",
+        "level": 17,
         "cost": 10000
       },
       "vendor": [
@@ -12020,7 +13160,7 @@
       "vendor": [
         {
           "tag": "Id.Item.Parachute.Basic",
-          "price": 100,
+          "price": 500,
           "amount": 1,
           "categories": [
             "Vendor.Category.Gear.Traversal"
@@ -12050,13 +13190,13 @@
       "weight": 9,
       "unlock": {
         "role": "Wardog",
-        "level": 35,
+        "level": 34,
         "cost": 25000
       },
       "vendor": [
         {
           "tag": "Id.Item.Parachute.Sport",
-          "price": 1000,
+          "price": 700,
           "amount": 1,
           "categories": [
             "Vendor.Category.Gear.Traversal"
@@ -12215,6 +13355,83 @@
       "vendor": []
     },
     {
+      "id": "Id.Item.PGRP_042",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Components/Pistol Grips/PGRP_042/Content/Data/ID_PGRP_042",
+      "name": "WEPN_36 Evoly Grip",
+      "tags": [
+        "Item.Attachment.Grip.WEPN_036"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "unlock": null,
+      "vendor": []
+    },
+    {
+      "id": "Id.Item.PGRP_043",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Components/Pistol Grips/PGRP_043/Content/Data/ID_PGRP_043",
+      "name": "Sig Spear (WEPN_037) Standard Pistol Grip",
+      "tags": [
+        "Item.Attachment.Grip.WEPN_037"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "unlock": null,
+      "vendor": []
+    },
+    {
+      "id": "Id.Item.PGRP_044",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Components/Pistol Grips/PGRP_044/Content/Data/ID_PGRP_044",
+      "name": "Kungfu",
+      "tags": [
+        "Item.Attachment.Grip.WEPN_037"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "unlock": null,
+      "vendor": []
+    },
+    {
+      "id": "Id.Item.PilotHelmet",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Items/Armor/Content/Data/ID_PilotHelmet",
+      "name": "Pilot Helmet",
+      "subtitle": "Armor",
+      "description": "- Low Damage Reduction\n- Protects the Head\n- Muffles Vehicle Audio\n- Highlights Target Vehicles",
+      "icon": "UI/Shared/Icons/Vendor/Gear/T_UI_Gear_PilotHelmet.png",
+      "tags": [
+        "Inventory.Slot.Helmet",
+        "Item.Context.Equippable"
+      ],
+      "grid": [
+        2,
+        2
+      ],
+      "maxStack": 1,
+      "unlock": null,
+      "vendor": [
+        {
+          "tag": "Id.Item.PilotHelmet",
+          "price": 6400,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Gear.Helmet"
+          ]
+        }
+      ]
+    },
+    {
       "id": "ID.Item.Pistol_01_BRL_07",
       "kind": "item",
       "asset": "Content/Items/Weapons/Pistol/Glock17/Assets/Components/Barrels/ThreadedBarrel/Meshes/Mutable/ID_Pistol_01_BRL_07",
@@ -12328,8 +13545,8 @@
       "weight": 0.22,
       "unlock": {
         "role": "Infantry",
-        "level": 8,
-        "cost": 12500
+        "level": 16,
+        "cost": 15000
       },
       "vendor": [
         {
@@ -12368,12 +13585,12 @@
       "unlock": {
         "role": "Recon",
         "level": 8,
-        "cost": 15000
+        "cost": 25000
       },
       "vendor": [
         {
           "tag": "ID.Item.RangeFinder",
-          "price": 400,
+          "price": 1450,
           "amount": 1,
           "categories": [
             "Vendor.Category.Weapon.Specialist",
@@ -12407,7 +13624,7 @@
       "unlock": {
         "role": "Support",
         "level": 28,
-        "cost": 25000
+        "cost": 50000
       },
       "vendor": [
         {
@@ -12434,7 +13651,8 @@
         "Inventory.Slot.Specialist",
         "Item.Context.Equippable",
         "Item.Context.Animation.Archetype.EquipRightHand",
-        "Item.Context.Animation.Type.Unarmed"
+        "Item.Context.Animation.Type.Unarmed",
+        "Item.Weapon"
       ],
       "grid": [
         2,
@@ -12486,7 +13704,7 @@
       "vendor": [
         {
           "tag": "ID.Item.RepairTool.Wrench.Standard",
-          "price": 150,
+          "price": 180,
           "amount": 1,
           "categories": [
             "Vendor.Category.Utility",
@@ -12557,7 +13775,7 @@
       "vendor": [
         {
           "tag": "Id.Item.Resuscitator.Standard",
-          "price": 500,
+          "price": 425,
           "amount": 1,
           "categories": [
             "Vendor.Category.Utility"
@@ -12590,13 +13808,13 @@
       "weight": 3.9,
       "unlock": {
         "role": "Recon",
-        "level": 30,
+        "level": 20,
         "cost": 125000
       },
       "vendor": [
         {
           "tag": "Id.Item.RFB",
-          "price": 6000,
+          "price": 6250,
           "amount": 1,
           "categories": [
             "Vendor.Category.Weapon.Primary"
@@ -12640,7 +13858,7 @@
       "weight": 0.53,
       "unlock": {
         "role": "Recon",
-        "level": 30,
+        "level": 20,
         "cost": 0
       },
       "vendor": [
@@ -12762,13 +13980,13 @@
       "weight": 6.3,
       "unlock": {
         "role": "Support",
-        "level": 5,
+        "level": 6,
         "cost": 30000
       },
       "vendor": [
         {
           "tag": "Id.Item.RPG7",
-          "price": 2000,
+          "price": 1800,
           "amount": 1,
           "categories": [
             "Vendor.Category.Weapon.Specialist"
@@ -12796,7 +14014,7 @@
       "weight": 0.41,
       "unlock": {
         "role": "Wardog",
-        "level": 21,
+        "level": 4,
         "cost": 7500
       },
       "vendor": [
@@ -12854,8 +14072,8 @@
       "maxStack": 1,
       "weight": 0.12,
       "unlock": {
-        "role": "Medic",
-        "level": 6,
+        "role": "Infantry",
+        "level": 22,
         "cost": 10000
       },
       "vendor": []
@@ -12880,7 +14098,7 @@
       "weight": 0.48,
       "unlock": {
         "role": "Infantry",
-        "level": 33,
+        "level": 26,
         "cost": 30000
       },
       "vendor": [
@@ -12932,8 +14150,8 @@
       "maxStack": 1,
       "weight": 0.2,
       "unlock": {
-        "role": "Infantry",
-        "level": 12,
+        "role": "Wardog",
+        "level": 26,
         "cost": 10000
       },
       "vendor": []
@@ -12958,7 +14176,7 @@
       "weight": 0.03,
       "unlock": {
         "role": "Medic",
-        "level": 28,
+        "level": 19,
         "cost": 15000
       },
       "vendor": []
@@ -12983,7 +14201,7 @@
       "weight": 0.31,
       "unlock": {
         "role": "Infantry",
-        "level": 17,
+        "level": 12,
         "cost": 15000
       },
       "vendor": []
@@ -13007,8 +14225,8 @@
       "maxStack": 1,
       "weight": 0.43,
       "unlock": {
-        "role": "Wardog",
-        "level": 31,
+        "role": "Infantry",
+        "level": 33,
         "cost": 15000
       },
       "vendor": []
@@ -13032,8 +14250,8 @@
       "maxStack": 1,
       "weight": 0.42,
       "unlock": {
-        "role": "Infantry",
-        "level": 43,
+        "role": "Support",
+        "level": 21,
         "cost": 35000
       },
       "vendor": []
@@ -13079,7 +14297,7 @@
       "weight": 0.66,
       "unlock": {
         "role": "Recon",
-        "level": 43,
+        "level": 47,
         "cost": 95000
       },
       "vendor": []
@@ -13149,8 +14367,8 @@
       "weight": 0.73,
       "unlock": {
         "role": "Recon",
-        "level": 34,
-        "cost": 35000
+        "level": 43,
+        "cost": 75000
       },
       "vendor": []
     },
@@ -13173,6 +14391,79 @@
       "maxStack": 1,
       "weight": 0.13,
       "unlock": null,
+      "vendor": []
+    },
+    {
+      "id": "Id.Item.SGHT_038",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Attachments/Sights/SGHT_038/Content/Data/ID_SGHT_038",
+      "name": "Compact P-1 Red Dot",
+      "subtitle": "Optic",
+      "description": "Specification:\n- 1.2x magnification\n- Close range combat\n- Fixed Zeroing\n\nPros:\n- Moderate ADS speed improvements",
+      "icon": "UI/Shared/Icons/Vendor/Optics/T_UI_Weapons_SGHT_038.png",
+      "tags": [
+        "Item.Context.Equippable",
+        "Item.Attachment.Sight.Short"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "weight": 0.13,
+      "unlock": {
+        "role": "Wardog",
+        "level": 21,
+        "cost": 12500
+      },
+      "vendor": []
+    },
+    {
+      "id": "Id.Item.SGHT_039",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Attachments/Sights/SGHT_039/Content/Data/ID_SGHT_039",
+      "name": "Leatherwood ART II",
+      "subtitle": "Optic",
+      "description": "Specification:\n- 3-9x magnification\n- Long range combat\n- Zeroing range (100m-800m)\n\nCons:\n- Moderate ADS speed penalty",
+      "icon": "UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_039.png",
+      "tags": [
+        "Item.Context.Equippable"
+      ],
+      "grid": [
+        3,
+        1
+      ],
+      "maxStack": 1,
+      "weight": 1.1,
+      "unlock": {
+        "role": "Recon",
+        "level": 27,
+        "cost": 35000
+      },
+      "vendor": []
+    },
+    {
+      "id": "Id.Item.SGHT_040",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Attachments/Sights/SGHT_040/Content/Data/ID_SGHT_040",
+      "name": "PU 91/30 Scope",
+      "subtitle": "Optic",
+      "description": "Specification:\n- 3.5x magnification\n- Long range combat\n- Zeroing range (100m-800m) \n\nCons: \n- Moderate ADS speed penalty",
+      "icon": "UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_040.png",
+      "tags": [
+        "Item.Context.Equippable"
+      ],
+      "grid": [
+        3,
+        1
+      ],
+      "maxStack": 1,
+      "weight": 0.27,
+      "unlock": {
+        "role": "Recon",
+        "level": 10,
+        "cost": 12500
+      },
       "vendor": []
     },
     {
@@ -13417,8 +14708,8 @@
       "weight": 2.9,
       "unlock": {
         "role": "Medic",
-        "level": 4,
-        "cost": 25000
+        "level": 15,
+        "cost": 50000
       },
       "vendor": [
         {
@@ -13466,7 +14757,7 @@
       "maxStack": 1,
       "unlock": {
         "role": "Medic",
-        "level": 4,
+        "level": 15,
         "cost": 0
       },
       "vendor": [
@@ -13582,7 +14873,7 @@
       "weight": 0.54,
       "unlock": {
         "role": "Medic",
-        "level": 21,
+        "level": 23,
         "cost": 15000
       },
       "vendor": [
@@ -13844,7 +15135,7 @@
       "weight": 0.98,
       "unlock": {
         "role": "Recon",
-        "level": 18,
+        "level": 28,
         "cost": 40000
       },
       "vendor": [
@@ -13893,7 +15184,8 @@
       "asset": "Plugins/GameFeatures/Vehicles/SPW_01/Content/Data/ID_SPW_AccessibleInventory",
       "name": "Spawn Vehicle Accessible Vehicle Storage",
       "tags": [
-        "Inventory.Slot.Vehicle.Storage"
+        "Inventory.Slot.Vehicle.Storage",
+        "Item.Context.MovementBlocked"
       ],
       "grid": [
         1,
@@ -13909,7 +15201,8 @@
       "asset": "Plugins/GameFeatures/Vehicles/SPW_01/Content/Data/ID_SPW_Inventory",
       "name": "Spawn Vehicle Vehicle Storage",
       "tags": [
-        "Inventory.Slot.Vehicle.Storage"
+        "Inventory.Slot.Vehicle.Storage",
+        "Item.Context.MovementBlocked"
       ],
       "grid": [
         1,
@@ -13922,7 +15215,7 @@
     {
       "id": "ID.Item.SR_02_BRL_04",
       "kind": "item",
-      "asset": "Plugins/GameFeatures/Weapons/Sniper/Mosin/Content/Data/Attachments/ID_SR_02_BRL_04",
+      "asset": "Plugins/GameFeatures/Weapons/Platforms/WEPN_017/Content/Data/Attachments/ID_SR_02_BRL_04",
       "name": "ID.Item.SR_02_BRL_04",
       "tags": [],
       "grid": [
@@ -13936,7 +15229,7 @@
     {
       "id": "ID.Item.SR_02_GRP_02",
       "kind": "item",
-      "asset": "Plugins/GameFeatures/Weapons/Sniper/Mosin/Content/Data/Attachments/ID_SR_02_GRP_02",
+      "asset": "Plugins/GameFeatures/Weapons/Platforms/WEPN_017/Content/Data/Attachments/ID_SR_02_GRP_02",
       "name": "ID.Item.SR_02_GRP_02",
       "tags": [
         "Item.Attachment.Grip.Mosin"
@@ -13952,7 +15245,7 @@
     {
       "id": "ID.Item.SR_02_STK_01",
       "kind": "item",
-      "asset": "Plugins/GameFeatures/Weapons/Sniper/Mosin/Content/Data/Attachments/ID_SR_02_STK_01",
+      "asset": "Plugins/GameFeatures/Weapons/Platforms/WEPN_017/Content/Data/Attachments/ID_SR_02_STK_01",
       "name": "ID.Item.SR_02_STK_01",
       "tags": [
         "Item.Attachment.Stock.Mosin"
@@ -13996,7 +15289,7 @@
       "vendor": [
         {
           "tag": "Id.Item.SR_04",
-          "price": 8800,
+          "price": 14800,
           "amount": 1,
           "categories": [
             "Vendor.Category.Weapon.Primary"
@@ -14244,8 +15537,8 @@
       "weight": 0.53,
       "unlock": {
         "role": "Infantry",
-        "level": 6,
-        "cost": 10000
+        "level": 3,
+        "cost": 0
       },
       "vendor": [
         {
@@ -14383,7 +15676,7 @@
       "weight": 0.06,
       "unlock": {
         "role": "Medic",
-        "level": 14,
+        "level": 16,
         "cost": 25000
       },
       "vendor": [
@@ -14629,6 +15922,54 @@
       "vendor": []
     },
     {
+      "id": "Id.Item.STOK_058",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Components/Stocks/STOK_058/Content/Data/ID_STOK_058",
+      "name": "Evoly stock",
+      "tags": [
+        "Item.Attachment.Stock.WEPN_036"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "unlock": null,
+      "vendor": []
+    },
+    {
+      "id": "Id.Item.STOK_059",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Components/Stocks/STOK_059/Content/Data/ID_STOK_059",
+      "name": "M14 Stock",
+      "tags": [
+        "Item.Attachment.Stock.WEPN_034"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "unlock": null,
+      "vendor": []
+    },
+    {
+      "id": "Id.Item.STOK_060",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Components/Stocks/STOK_060/Content/Data/ID_STOK_060",
+      "name": "Sig Spear Standard Stock",
+      "tags": [
+        "Item.Attachment.Stock.WEPN_037"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "unlock": null,
+      "vendor": []
+    },
+    {
       "id": "Id.Item.SuperBandage",
       "kind": "item",
       "asset": "Content/Items/Consumables/Bandage/ID_SuperBandage",
@@ -14650,7 +15991,7 @@
       "weight": 0.16,
       "unlock": {
         "role": "Medic",
-        "level": 9,
+        "level": 10,
         "cost": 25000
       },
       "vendor": [
@@ -14690,7 +16031,7 @@
       "vendor": [
         {
           "tag": "Id.Item.SuperHeavyArmor",
-          "price": 4000,
+          "price": 5000,
           "amount": 1,
           "categories": [
             "Vendor.Category.Gear.Armor"
@@ -14704,7 +16045,7 @@
       "asset": "Plugins/GameFeatures/Items/Armor/Content/Data/ID_SuperHeavyHelmet",
       "name": "Level 4 Helmet",
       "subtitle": "Armor",
-      "description": "- Very High Damage Reduction\n- Protects the Head and Neck",
+      "description": "- Very High Damage Reduction\n- Protects the Head and Neck\n- High Suppression Reduction\n- Strongly muffles the sounds around you",
       "icon": "UI/Shared/Icons/Vendor/Gear/T_UI_Vendor_Helmet_004.png",
       "tags": [
         "Inventory.Slot.Helmet",
@@ -14724,7 +16065,7 @@
       "vendor": [
         {
           "tag": "Id.Item.SuperHeavyHelmet",
-          "price": 3000,
+          "price": 4500,
           "amount": 1,
           "categories": [
             "Vendor.Category.Gear.Helmet"
@@ -14757,7 +16098,7 @@
       "weight": 5.8,
       "unlock": {
         "role": "Recon",
-        "level": 19,
+        "level": 18,
         "cost": 100000
       },
       "vendor": [
@@ -14825,7 +16166,7 @@
       "weight": 0.34,
       "unlock": {
         "role": "Recon",
-        "level": 19,
+        "level": 18,
         "cost": 0
       },
       "vendor": [
@@ -15000,7 +16341,7 @@
       "weight": 0.34,
       "unlock": {
         "role": "Recon",
-        "level": 16,
+        "level": 17,
         "cost": 25000
       },
       "vendor": [
@@ -15081,6 +16422,35 @@
       "vendor": []
     },
     {
+      "id": "Id.Item.TankHelmet",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Items/Armor/Content/Data/ID_TankHelmet",
+      "name": "Tank Helmet",
+      "subtitle": "Armor",
+      "description": "- High Damage Reduction\n- Protects the Head and Neck\n- Muffles Vehicle and Infantry Audio\n- Remove Suppression and Tinnitus",
+      "icon": "UI/Shared/Icons/Vendor/Gear/T_UI_Gear_TankHelmet.png",
+      "tags": [
+        "Inventory.Slot.Helmet",
+        "Item.Context.Equippable"
+      ],
+      "grid": [
+        2,
+        2
+      ],
+      "maxStack": 1,
+      "unlock": null,
+      "vendor": [
+        {
+          "tag": "Id.Item.TankHelmet",
+          "price": 5000,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Gear.Helmet"
+          ]
+        }
+      ]
+    },
+    {
       "id": "Id.Item.TAR21",
       "kind": "item",
       "asset": "Plugins/GameFeatures/Weapons/Platforms/WEPN_005/Content/Data/ID_TAR21",
@@ -15103,7 +16473,11 @@
       ],
       "maxStack": 1,
       "weight": 3.27,
-      "unlock": null,
+      "unlock": {
+        "role": "Infantry",
+        "level": 3,
+        "cost": 10000
+      },
       "vendor": []
     },
     {
@@ -15256,7 +16630,8 @@
       "asset": "Content/Items/Vehicles/Weapons/WHL_07/ID_Ural_Turret",
       "name": "Machine Gun",
       "tags": [
-        "Inventory.Slot.Vehicle.Weapon.WHL_07.MountedMachineGun"
+        "Inventory.Slot.Vehicle.Weapon.WHL_07.MountedMachineGun",
+        "Item.Context.MovementBlocked"
       ],
       "grid": [
         1,
@@ -15292,7 +16667,7 @@
       "unlock": {
         "role": "Medic",
         "level": 35,
-        "cost": 150000
+        "cost": 200000
       },
       "vendor": []
     },
@@ -15332,7 +16707,7 @@
       "weight": 0.89,
       "unlock": {
         "role": "Medic",
-        "level": 38,
+        "level": 43,
         "cost": 25000
       },
       "vendor": [
@@ -15416,7 +16791,8 @@
       "asset": "Content/Items/Vehicles/Weapons/ROT_02/ID_VehicleHelicopterCannon",
       "name": "Machine Gun",
       "tags": [
-        "Inventory.Slot.Vehicle.Weapon.ROT_02.Turret"
+        "Inventory.Slot.Vehicle.Weapon.ROT_02.Turret",
+        "Item.Context.MovementBlocked"
       ],
       "grid": [
         1,
@@ -15432,7 +16808,8 @@
       "asset": "Content/Items/Vehicles/Weapons/ROT_02/ID_VehicleHelicopterRockets",
       "name": "Rockets",
       "tags": [
-        "Inventory.Slot.Vehicle.Weapon.ROT_02.MissilePods"
+        "Inventory.Slot.Vehicle.Weapon.ROT_02.MissilePods",
+        "Item.Context.MovementBlocked"
       ],
       "grid": [
         1,
@@ -15448,7 +16825,8 @@
       "asset": "Content/Items/Vehicles/Weapons/ROT_03/ID_VehicleHelicopterRockets_ROT_03",
       "name": "Rockets",
       "tags": [
-        "Inventory.Slot.Vehicle.Weapon.ROT_03.RocketPods"
+        "Inventory.Slot.Vehicle.Weapon.ROT_03.RocketPods",
+        "Item.Context.MovementBlocked"
       ],
       "grid": [
         1,
@@ -15464,7 +16842,8 @@
       "asset": "Content/Items/Vehicles/Weapons/WHL_02/SUV/ID_VehicleRingTurret",
       "name": "Machine Gun",
       "tags": [
-        "Inventory.Slot.Vehicle.Weapon.WHL_02.MountedMachineGun"
+        "Inventory.Slot.Vehicle.Weapon.WHL_02.MountedMachineGun",
+        "Item.Context.MovementBlocked"
       ],
       "grid": [
         1,
@@ -15475,12 +16854,41 @@
       "vendor": []
     },
     {
+      "id": "Id.Item.VehicleSmoke",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Vehicles/VehicleSmoke/Content/Data/ID_VehicleSmoke",
+      "name": "VehicleSmoke",
+      "subtitle": "Countermeasure",
+      "description": "- Sustained discharge trails around the vehicle\n- Settles into a large, lingering screen temporarily providing Infantry cover",
+      "icon": "UI/Features/HUD/Vehicles/Vehicle_HUD_Materials/Textures/T_UI_Icon_DeploySmoke.png",
+      "tags": [
+        "Item.Resource.Ammo"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "unlock": null,
+      "vendor": [
+        {
+          "tag": "Id.Item.VehicleSmoke",
+          "price": 750,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Vehicle.CounterMeasures"
+          ]
+        }
+      ]
+    },
+    {
       "id": "ID.Item.VehicleStorageIntermediate",
       "kind": "item",
       "asset": "Content/Items/Vehicles/Storage/ID_VehicleStorageIntermediate",
       "name": "Intermediate Vehicle Storage",
       "tags": [
-        "Inventory.Slot.Vehicle.Storage"
+        "Inventory.Slot.Vehicle.Storage",
+        "Item.Context.MovementBlocked"
       ],
       "grid": [
         1,
@@ -15496,7 +16904,8 @@
       "asset": "Content/Items/Vehicles/Storage/ID_VehicleStorageLarge",
       "name": "Large Vehicle Storage",
       "tags": [
-        "Inventory.Slot.Vehicle.Storage"
+        "Inventory.Slot.Vehicle.Storage",
+        "Item.Context.MovementBlocked"
       ],
       "grid": [
         1,
@@ -15512,7 +16921,8 @@
       "asset": "Content/Items/Vehicles/Storage/ID_VehicleStorageMedium",
       "name": "Medium Vehicle Storage",
       "tags": [
-        "Inventory.Slot.Vehicle.Storage"
+        "Inventory.Slot.Vehicle.Storage",
+        "Item.Context.MovementBlocked"
       ],
       "grid": [
         1,
@@ -15528,7 +16938,8 @@
       "asset": "Content/Items/Vehicles/Storage/ID_VehicleStorageSmall",
       "name": "Small Vehicle Storage",
       "tags": [
-        "Inventory.Slot.Vehicle.Storage"
+        "Inventory.Slot.Vehicle.Storage",
+        "Item.Context.MovementBlocked"
       ],
       "grid": [
         1,
@@ -15584,7 +16995,7 @@
       "maxStack": 1,
       "unlock": {
         "role": "Driver",
-        "level": 16,
+        "level": 17,
         "cost": 20000
       },
       "vendor": [
@@ -15674,7 +17085,11 @@
         2
       ],
       "maxStack": 1,
-      "unlock": null,
+      "unlock": {
+        "role": "Wardog",
+        "level": 16,
+        "cost": 50000
+      },
       "vendor": [
         {
           "tag": "ID.Item.VehicleSupplyCrate.Pallet.FuelSupply",
@@ -15702,7 +17117,11 @@
         2
       ],
       "maxStack": 1,
-      "unlock": null,
+      "unlock": {
+        "role": "Wardog",
+        "level": 9,
+        "cost": 25000
+      },
       "vendor": [
         {
           "tag": "ID.Item.VehicleSupplyCrate.Pallet.MunitionsSupply",
@@ -15730,7 +17149,11 @@
         2
       ],
       "maxStack": 1,
-      "unlock": null,
+      "unlock": {
+        "role": "Wardog",
+        "level": 5,
+        "cost": 10000
+      },
       "vendor": [
         {
           "tag": "ID.Item.VehicleSupplyCrate.Pallet.SparePartsSupply",
@@ -15803,12 +17226,30 @@
       ]
     },
     {
+      "id": "ID.Item.VehicleTurret_TNK_04",
+      "kind": "item",
+      "asset": "Content/Items/Vehicles/Weapons/TNK_04/ID_VehicleTurret_TNK_04",
+      "name": "Heavy Turret",
+      "tags": [
+        "Inventory.Slot.Vehicle.Weapon.TNK_04.Turret",
+        "Item.Context.MovementBlocked"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "unlock": null,
+      "vendor": []
+    },
+    {
       "id": "ID.Item.VehicleTurretAntiAir",
       "kind": "item",
       "asset": "Content/Items/Vehicles/Weapons/TNK_01/Heavy/ID_VehicleTurretAntiair",
       "name": "Anti-Air Turret",
       "tags": [
-        "Inventory.Slot.Vehicle.Weapon.TNK_03.Turret"
+        "Inventory.Slot.Vehicle.Weapon.TNK_03.Turret",
+        "Item.Context.MovementBlocked"
       ],
       "grid": [
         1,
@@ -15824,7 +17265,8 @@
       "asset": "Content/Items/Vehicles/Weapons/TNK_01/ID_VehicleTurretArtillery",
       "name": "Artillery Turret",
       "tags": [
-        "Inventory.Slot.Vehicle.Weapon.TNK_02.Turret"
+        "Inventory.Slot.Vehicle.Weapon.TNK_02.Turret",
+        "Item.Context.MovementBlocked"
       ],
       "grid": [
         1,
@@ -15840,7 +17282,8 @@
       "asset": "Content/Items/Vehicles/Weapons/TNK_01/ID_VehicleTurretArtillery_SB",
       "name": "Artillery Turret",
       "tags": [
-        "Inventory.Slot.Vehicle.Weapon.TNK_02.Turret"
+        "Inventory.Slot.Vehicle.Weapon.TNK_02.Turret",
+        "Item.Context.MovementBlocked"
       ],
       "grid": [
         1,
@@ -15856,7 +17299,8 @@
       "asset": "Content/Items/Vehicles/Weapons/TNK_01/Heavy/ID_VehicleTurretHeavy",
       "name": "Heavy Turret",
       "tags": [
-        "Inventory.Slot.Vehicle.Weapon.TNK_01.Turret"
+        "Inventory.Slot.Vehicle.Weapon.TNK_01.Turret",
+        "Item.Context.MovementBlocked"
       ],
       "grid": [
         1,
@@ -15872,7 +17316,25 @@
       "asset": "Content/Items/Vehicles/Weapons/TNK_01/ID_VehicleTurretMachineGun",
       "name": "Machine Gun",
       "tags": [
-        "Inventory.Slot.Vehicle.Weapon.TNK_01.TurretMachineGun"
+        "Inventory.Slot.Vehicle.Weapon.TNK_01.TurretMachineGun",
+        "Item.Context.MovementBlocked"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "unlock": null,
+      "vendor": []
+    },
+    {
+      "id": "ID.Item.VehicleTurretMachineGun_TNK_04",
+      "kind": "item",
+      "asset": "Content/Items/Vehicles/Weapons/TNK_04/ID_VehicleTurretMachineGun_TNK_04",
+      "name": "Machine Gun",
+      "tags": [
+        "Inventory.Slot.Vehicle.Weapon.TNK_04.TurretMachineGun",
+        "Item.Context.MovementBlocked"
       ],
       "grid": [
         1,
@@ -15944,13 +17406,13 @@
       "weight": 2,
       "unlock": {
         "role": "Wardog",
-        "level": 85,
+        "level": 65,
         "cost": 75000
       },
       "vendor": [
         {
           "tag": "Id.Item.WEPN_027",
-          "price": 900,
+          "price": 750,
           "amount": 1,
           "categories": [
             "Vendor.Category.Weapon.Sidearm"
@@ -15983,13 +17445,13 @@
       "weight": 2.54,
       "unlock": {
         "role": "Medic",
-        "level": 15,
-        "cost": 75000
+        "level": 4,
+        "cost": 25000
       },
       "vendor": [
         {
           "tag": "Id.Item.WEPN_028",
-          "price": 1500,
+          "price": 1800,
           "amount": 1,
           "categories": [
             "Vendor.Category.Weapon.Primary"
@@ -16028,7 +17490,7 @@
       "vendor": [
         {
           "tag": "Id.Item.WEPN_029",
-          "price": 2200,
+          "price": 2000,
           "amount": 1,
           "categories": [
             "Vendor.Category.Weapon.Primary"
@@ -16062,12 +17524,47 @@
       "unlock": {
         "role": "Infantry",
         "level": 35,
-        "cost": 200000
+        "cost": 250000
       },
       "vendor": [
         {
           "tag": "Id.Item.WEPN_030",
-          "price": 6500,
+          "price": 6000,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Weapon.Primary"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Id.Item.WEPN_031",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Platforms/WEPN_031/Content/Data/ID_WEPN_031",
+      "name": "PP-19 Bizon",
+      "subtitle": "Submachine Gun",
+      "description": "- Semi / Full Auto\n- 9x19mm",
+      "icon": "UI/Shared/Icons/Vendor/Weapons/T_UI_Weapons_WEPN_31.png",
+      "tags": [
+        "Inventory.Slot.Primary",
+        "Inventory.Slot.Secondary",
+        "Item.Archetype.SMG",
+        "Item.Context.Equippable",
+        "Item.Context.Animation.Type.Rifle",
+        "Item.Context.Animation.Archetype.Rifle",
+        "Item.Weapon.WEPN_031"
+      ],
+      "grid": [
+        3,
+        2
+      ],
+      "maxStack": 1,
+      "weight": 2.1,
+      "unlock": null,
+      "vendor": [
+        {
+          "tag": "Id.Item.WEPN_031",
+          "price": 1000,
           "amount": 1,
           "categories": [
             "Vendor.Category.Weapon.Primary"
@@ -16099,8 +17596,8 @@
       "weight": 0.63,
       "unlock": {
         "role": "Wardog",
-        "level": 70,
-        "cost": 50000
+        "level": 85,
+        "cost": 125000
       },
       "vendor": []
     },
@@ -16131,6 +17628,44 @@
       "vendor": []
     },
     {
+      "id": "Id.Item.WEPN_034",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Platforms/WEPN_034/Content/Data/ID_WEPN_034",
+      "name": "M14",
+      "subtitle": "Marksman Rifle",
+      "description": "- Semi / Full Auto\n- .308 Win",
+      "icon": "UI/Shared/Icons/Vendor/Weapons/T_UI_Weapons_WEPN_034.png",
+      "tags": [
+        "Inventory.Slot.Primary",
+        "Item.Archetype.DMR",
+        "Item.Context.Equippable",
+        "Item.Context.Animation.Type.Rifle",
+        "Item.Context.Animation.Archetype.Rifle",
+        "Item.Weapon.WEPN_034"
+      ],
+      "grid": [
+        6,
+        2
+      ],
+      "maxStack": 1,
+      "weight": 4.2,
+      "unlock": {
+        "role": "Recon",
+        "level": 25,
+        "cost": 100000
+      },
+      "vendor": [
+        {
+          "tag": "Id.Item.WEPN_034",
+          "price": 7400,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Weapon.Primary"
+          ]
+        }
+      ]
+    },
+    {
       "id": "Id.Item.WEPN_035",
       "kind": "item",
       "asset": "Plugins/GameFeatures/Weapons/Platforms/WEPN_035/Content/Data/ID_WEPN_035",
@@ -16158,13 +17693,107 @@
       "vendor": [
         {
           "tag": "Id.Item.WEPN_035",
-          "price": 1100,
+          "price": 1200,
           "amount": 1,
           "categories": [
             "Vendor.Category.Weapon.Primary"
           ]
         }
       ]
+    },
+    {
+      "id": "Id.Item.WEPN_036",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Platforms/WEPN_036/Content/Data/ID_WEPN_036",
+      "name": "Evo-3 Ultra",
+      "subtitle": "Light Machine Gun",
+      "description": "- Semi / Full Auto\n- .308 Win",
+      "icon": "UI/Shared/Icons/Vendor/Weapons/T_UI_Weapons_WEPN_036.png",
+      "tags": [
+        "Inventory.Slot.Primary",
+        "Inventory.Slot.Secondary",
+        "Item.Archetype.LMG",
+        "Item.Context.Equippable",
+        "Item.Context.Animation.Type.Rifle",
+        "Item.Context.Animation.Archetype.Rifle",
+        "Item.Weapon.WEPN_036"
+      ],
+      "grid": [
+        6,
+        2
+      ],
+      "maxStack": 1,
+      "weight": 6.3,
+      "unlock": {
+        "role": "Support",
+        "level": 30,
+        "cost": 200000
+      },
+      "vendor": [
+        {
+          "tag": "Id.Item.WEPN_036",
+          "price": 7250,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Weapon.Primary"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Id.Item.WEPN_037",
+      "kind": "item",
+      "asset": "Plugins/GameFeatures/Weapons/Platforms/WEPN_037/Content/Data/ID_WEPN_037",
+      "name": "TCX-SPR",
+      "subtitle": "Assault Rifle",
+      "description": "- Semi / Full Auto\n- 7.62x39mm",
+      "icon": "UI/Shared/Icons/Vendor/Weapons/T_UI_Weapons_WEPN_037.png",
+      "tags": [
+        "Inventory.Slot.Primary",
+        "Item.Archetype.DMR",
+        "Item.Context.Equippable",
+        "Item.Context.Animation.Type.Rifle",
+        "Item.Context.Animation.Archetype.Rifle",
+        "Item.Weapon.WEPN_037"
+      ],
+      "grid": [
+        6,
+        2
+      ],
+      "maxStack": 1,
+      "weight": 3.5,
+      "unlock": {
+        "role": "Infantry",
+        "level": 20,
+        "cost": 100000
+      },
+      "vendor": [
+        {
+          "tag": "Id.Item.WEPN_037",
+          "price": 3200,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Weapon.Primary"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Id.Item.WHL_08_VehicleRingTurret",
+      "kind": "item",
+      "asset": "Content/Items/Vehicles/Weapons/WHL_08/ID_WHL_08_RingTurret",
+      "name": "Machine Gun",
+      "tags": [
+        "Inventory.Slot.Vehicle.Weapon.WHL_08.MountedMachineGun",
+        "Item.Context.MovementBlocked"
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "maxStack": 1,
+      "unlock": null,
+      "vendor": []
     },
     {
       "id": "Id.Item.ZenitHandguard",
@@ -16212,19 +17841,19 @@
       "icon": "UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_Havoc.png",
       "tags": [],
       "grid": [
-        4,
+        5,
         4
       ],
       "maxStack": 1,
       "unlock": {
         "role": "Pilot",
         "level": 35,
-        "cost": 500000
+        "cost": 650000
       },
       "vendor": [
         {
           "tag": "Vehicle.Variant.Air.Rotary.Havoc.Default",
-          "price": 18000,
+          "price": 28000,
           "amount": 1,
           "categories": [
             "Vendor.Category.Vehicle.Air",
@@ -16276,13 +17905,13 @@
       "maxStack": 1,
       "unlock": {
         "role": "Pilot",
-        "level": 4,
-        "cost": 50000
+        "level": 8,
+        "cost": 125000
       },
       "vendor": [
         {
           "tag": "Vehicle.Variant.Air.Rotary.Littlebird.MountedMachineGuns",
-          "price": 7000,
+          "price": 12000,
           "amount": 1,
           "categories": [
             "Vendor.Category.Vehicle.Air",
@@ -16313,7 +17942,7 @@
       "vendor": [
         {
           "tag": "Vehicle.Variant.Air.Rotary.Littlebird.RocketPods",
-          "price": 12500,
+          "price": 18800,
           "amount": 1,
           "categories": [
             "Vendor.Category.Vehicle.Air",
@@ -16332,7 +17961,7 @@
       "icon": "UI/Shared/Icons/Vehicles/T_UI_VendorIcon_ROT_4.png",
       "tags": [],
       "grid": [
-        4,
+        5,
         4
       ],
       "maxStack": 1,
@@ -16363,19 +17992,19 @@
       "icon": "UI/Shared/Icons/Vehicles/T_UI_VendorIcon_ROT_4_MiniGun.png",
       "tags": [],
       "grid": [
-        4,
+        5,
         4
       ],
       "maxStack": 1,
       "unlock": {
         "role": "Pilot",
         "level": 25,
-        "cost": 75000
+        "cost": 85000
       },
       "vendor": [
         {
           "tag": "Vehicle.Variant.Air.Rotary.ROT_04.MountedMachineGuns",
-          "price": 8000,
+          "price": 15000,
           "amount": 1,
           "categories": [
             "Vendor.Category.Vehicle.Air",
@@ -16394,15 +18023,19 @@
       "icon": "UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_Gepard.png",
       "tags": [],
       "grid": [
-        4,
+        6,
         4
       ],
       "maxStack": 1,
-      "unlock": null,
+      "unlock": {
+        "role": "Driver",
+        "level": 25,
+        "cost": 300000
+      },
       "vendor": [
         {
           "tag": "Vehicle.Variant.Land.Tracked.TNK_01.AntiAir",
-          "price": 10000,
+          "price": 14000,
           "amount": 1,
           "categories": [
             "Vendor.Category.Vehicle.Land",
@@ -16421,14 +18054,14 @@
       "icon": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_PVTank_Temp_512x512.png",
       "tags": [],
       "grid": [
-        4,
+        6,
         4
       ],
       "maxStack": 1,
       "unlock": {
-        "role": "Wardog",
-        "level": 90,
-        "cost": 500000
+        "role": "Driver",
+        "level": 31,
+        "cost": 350000
       },
       "vendor": [
         {
@@ -16452,7 +18085,7 @@
       "icon": "UI/Shared/Icons/Vehicles/3D/T_UI_Icon_Vehicle_HVY_Tank_Textured.png",
       "tags": [],
       "grid": [
-        4,
+        6,
         4
       ],
       "maxStack": 1,
@@ -16464,7 +18097,38 @@
       "vendor": [
         {
           "tag": "Vehicle.Variant.Land.Tracked.TNK_01.Heavy",
-          "price": 14000,
+          "price": 22000,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Vehicle.Land",
+            "Vendor.Category.Vehicle.Blueprints"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Vehicle.Variant.Land.Tracked.TNK_04.Default",
+      "kind": "vehicle",
+      "asset": "Plugins/GameFeatures/Vehicles/TNK_04/Content/Variants/ID_TNK_04",
+      "name": "T-72B3",
+      "subtitle": "Heavy Armored Vehicle",
+      "description": "3 Seat. Heavy Armored Vehicle",
+      "icon": "UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_TNK_04.png",
+      "tags": [],
+      "grid": [
+        6,
+        4
+      ],
+      "maxStack": 1,
+      "unlock": {
+        "role": "Driver",
+        "level": 20,
+        "cost": 250000
+      },
+      "vendor": [
+        {
+          "tag": "Vehicle.Variant.Land.Tracked.TNK_04.Default",
+          "price": 16000,
           "amount": 1,
           "categories": [
             "Vendor.Category.Vehicle.Land",
@@ -16483,8 +18147,8 @@
       "icon": "UI/Shared/Icons/Vehicles/3D/T_UI_Icon_Vehicle_WHL_01_Bobcat_Textured_512x512.png",
       "tags": [],
       "grid": [
-        4,
-        4
+        3,
+        2
       ],
       "maxStack": 1,
       "unlock": null,
@@ -16511,12 +18175,12 @@
       "tags": [],
       "grid": [
         4,
-        4
+        3
       ],
       "maxStack": 1,
       "unlock": {
         "role": "Driver",
-        "level": 8,
+        "level": 9,
         "cost": 25000
       },
       "vendor": [
@@ -16542,13 +18206,13 @@
       "tags": [],
       "grid": [
         4,
-        4
+        3
       ],
       "maxStack": 1,
       "unlock": {
         "role": "Driver",
-        "level": 15,
-        "cost": 25000
+        "level": 14,
+        "cost": 75000
       },
       "vendor": [
         {
@@ -16573,18 +18237,18 @@
       "tags": [],
       "grid": [
         4,
-        4
+        3
       ],
       "maxStack": 1,
       "unlock": {
         "role": "Driver",
-        "level": 20,
+        "level": 24,
         "cost": 125000
       },
       "vendor": [
         {
           "tag": "Vehicle.Variant.Land.Wheeled.Humvee.MachineGun",
-          "price": 3750,
+          "price": 8500,
           "amount": 1,
           "categories": [
             "Vendor.Category.Vehicle.Land",
@@ -16604,7 +18268,7 @@
       "tags": [],
       "grid": [
         4,
-        4
+        3
       ],
       "maxStack": 1,
       "unlock": {
@@ -16615,7 +18279,7 @@
       "vendor": [
         {
           "tag": "Vehicle.Variant.Land.Wheeled.Humvee.Minigun",
-          "price": 4500,
+          "price": 10000,
           "amount": 1,
           "categories": [
             "Vendor.Category.Vehicle.Land",
@@ -16635,7 +18299,7 @@
       "tags": [],
       "grid": [
         4,
-        4
+        3
       ],
       "maxStack": 1,
       "unlock": null,
@@ -16662,7 +18326,7 @@
       "tags": [],
       "grid": [
         4,
-        4
+        3
       ],
       "maxStack": 1,
       "unlock": {
@@ -16673,7 +18337,7 @@
       "vendor": [
         {
           "tag": "Vehicle.Variant.Land.Wheeled.Kodiak.MachineGun",
-          "price": 3750,
+          "price": 6750,
           "amount": 1,
           "categories": [
             "Vendor.Category.Vehicle.Land",
@@ -16693,7 +18357,7 @@
       "tags": [],
       "grid": [
         4,
-        4
+        3
       ],
       "maxStack": 1,
       "unlock": {
@@ -16723,19 +18387,19 @@
       "icon": "UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_URAL_3.png",
       "tags": [],
       "grid": [
-        4,
+        5,
         4
       ],
       "maxStack": 1,
       "unlock": {
         "role": "Driver",
-        "level": 25,
-        "cost": 125000
+        "level": 22,
+        "cost": 100000
       },
       "vendor": [
         {
           "tag": "Vehicle.Variant.Land.Wheeled.Ural.Attack",
-          "price": 6750,
+          "price": 9500,
           "amount": 1,
           "categories": [
             "Vendor.Category.Vehicle.Land",
@@ -16754,19 +18418,19 @@
       "icon": "UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_URAL_2.png",
       "tags": [],
       "grid": [
-        4,
+        5,
         4
       ],
       "maxStack": 1,
       "unlock": {
         "role": "Driver",
-        "level": 18,
+        "level": 15,
         "cost": 75000
       },
       "vendor": [
         {
           "tag": "Vehicle.Variant.Land.Wheeled.Ural.Battle",
-          "price": 6000,
+          "price": 7200,
           "amount": 1,
           "categories": [
             "Vendor.Category.Vehicle.Land",
@@ -16785,7 +18449,7 @@
       "icon": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_URAL.png",
       "tags": [],
       "grid": [
-        4,
+        5,
         4
       ],
       "maxStack": 1,
@@ -16798,6 +18462,68 @@
         {
           "tag": "Vehicle.Variant.Land.Wheeled.Ural.Default",
           "price": 5000,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Vehicle.Land",
+            "Vendor.Category.Vehicle.Blueprints"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Vehicle.Variant.Land.Wheeled.WHL_08.Default",
+      "kind": "vehicle",
+      "asset": "Plugins/GameFeatures/Vehicles/WHL_08/Content/Variants/ID_WHL_08_Default",
+      "name": "Wolf-110",
+      "subtitle": "SUV",
+      "description": "4 Seat Wheeled Vehicle",
+      "icon": "UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_WHL_08.png",
+      "tags": [],
+      "grid": [
+        4,
+        3
+      ],
+      "maxStack": 1,
+      "unlock": {
+        "role": "Driver",
+        "level": 8,
+        "cost": 50000
+      },
+      "vendor": [
+        {
+          "tag": "Vehicle.Variant.Land.Wheeled.WHL_08.Default",
+          "price": 2200,
+          "amount": 1,
+          "categories": [
+            "Vendor.Category.Vehicle.Land",
+            "Vendor.Category.Vehicle.Blueprints"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Vehicle.Variant.Land.Wheeled.WHL_08.MachineGun",
+      "kind": "vehicle",
+      "asset": "Plugins/GameFeatures/Vehicles/WHL_08_RingTurret/Content/Variants/ID_WHL_08_MachineGun",
+      "name": "Wolf-110 [M2 Browning]",
+      "subtitle": "SUV",
+      "description": "5 Seat Wheeled Vehicle With A Machine Gun Attachment",
+      "icon": "UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_WHL_08_Gun.png",
+      "tags": [],
+      "grid": [
+        4,
+        3
+      ],
+      "maxStack": 1,
+      "unlock": {
+        "role": "Driver",
+        "level": 16,
+        "cost": 125000
+      },
+      "vendor": [
+        {
+          "tag": "Vehicle.Variant.Land.Wheeled.WHL_08.MachineGun",
+          "price": 7800,
           "amount": 1,
           "categories": [
             "Vendor.Category.Vehicle.Land",

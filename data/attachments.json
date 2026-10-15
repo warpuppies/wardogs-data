@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "gameBuild": "25677108",
+  "gameBuild": "25937608",
   "attachments": [
     {
       "id": "Id.Item.10xScopeMoa",
@@ -473,6 +473,46 @@
       "type": "Barrel",
       "contexts": [
         "Item.Attachment.Barrel.WEPN_035"
+      ],
+      "modifiers": [],
+      "characterModifiers": []
+    },
+    {
+      "id": "Id.Item.BARL_046",
+      "name": "WEPN_036 Evoly Standard Barrel",
+      "type": "Barrel",
+      "contexts": [
+        "Item.Attachment.Barrel.WEPN_036"
+      ],
+      "modifiers": [],
+      "characterModifiers": []
+    },
+    {
+      "id": "Id.Item.BARL_047",
+      "name": "WEPN_034 M14 Standard Barrel",
+      "type": "Barrel",
+      "contexts": [
+        "Item.Attachment.Barrel.WEPN_034"
+      ],
+      "modifiers": [],
+      "characterModifiers": []
+    },
+    {
+      "id": "Id.Item.BARL_048",
+      "name": "Sig Spear (WEPN_037) Standard Barrel",
+      "type": "Barrel",
+      "contexts": [
+        "Item.Attachment.Barrel.WEPN_037"
+      ],
+      "modifiers": [],
+      "characterModifiers": []
+    },
+    {
+      "id": "Id.Item.BARL_049",
+      "name": "WEPN_031 Bizon Standard Barrel",
+      "type": "Barrel",
+      "contexts": [
+        "Item.Attachment.Barrel.WEPN_031"
       ],
       "modifiers": [],
       "characterModifiers": []
@@ -1298,6 +1338,30 @@
       ]
     },
     {
+      "id": "Id.Item.FGRP_019",
+      "name": "Evo-3 Ultra Bipod",
+      "type": "Bipod",
+      "contexts": [
+        "Item.Attachment.Underbarrel",
+        "Item.Context.Equippable",
+        "Item.Attachment.Bipod.Attached"
+      ],
+      "modifiers": [],
+      "characterModifiers": []
+    },
+    {
+      "id": "Id.Item.FGRP_020",
+      "name": "M14 Bipod",
+      "type": "Bipod",
+      "contexts": [
+        "Item.Attachment.Underbarrel",
+        "Item.Context.Equippable",
+        "Item.Attachment.Bipod.Attached"
+      ],
+      "modifiers": [],
+      "characterModifiers": []
+    },
+    {
       "id": "Id.Item.Glock17Barrel",
       "name": "Id.Item.Glock17Barrel",
       "type": "Barrel",
@@ -1466,6 +1530,36 @@
       "type": "Handguard",
       "contexts": [
         "Item.Attachment.Handguard"
+      ],
+      "modifiers": [],
+      "characterModifiers": []
+    },
+    {
+      "id": "Id.Item.HNDG_053",
+      "name": "Id.Item.HNDG_053",
+      "type": "Stock",
+      "contexts": [
+        "Item.Attachment.Stock.WEPN_034"
+      ],
+      "modifiers": [],
+      "characterModifiers": []
+    },
+    {
+      "id": "Id.Item.HNDG_054",
+      "name": "Id.Item.HNDG_054",
+      "type": "Stock",
+      "contexts": [
+        "Item.Attachment.Handguard.WEPN_037"
+      ],
+      "modifiers": [],
+      "characterModifiers": []
+    },
+    {
+      "id": "Id.Item.HNDG_055",
+      "name": "Id.Item.HNDG_055",
+      "type": "Stock",
+      "contexts": [
+        "Item.Attachment.Handguard.WEPN_031"
       ],
       "modifiers": [],
       "characterModifiers": []
@@ -2165,6 +2259,23 @@
       }
     },
     {
+      "id": "Id.Item.MAGZ_051",
+      "name": "PP-19 Bizon 53 RND Magazine",
+      "type": "Magazine",
+      "contexts": [
+        "Item.Resource.Magazine.Extended",
+        "Item.Attachment.Magazine"
+      ],
+      "modifiers": [],
+      "characterModifiers": [],
+      "magazine": {
+        "capacity": 53,
+        "calibers": [
+          "9mm"
+        ]
+      }
+    },
+    {
       "id": "Id.Item.MAGZ_052",
       "name": "AMP-9 20 RND Magazine",
       "type": "Magazine",
@@ -2616,6 +2727,142 @@
         "capacity": 50,
         "calibers": [
           "9mm"
+        ]
+      }
+    },
+    {
+      "id": "Id.Item.MAGZ_067",
+      "name": "Evo-3 Ultra 50 RND Box",
+      "type": "Magazine",
+      "contexts": [
+        "Item.Attachment.Magazine.WEPN_036",
+        "Item.Resource.Magazine.Belt"
+      ],
+      "modifiers": [],
+      "characterModifiers": [],
+      "magazine": {
+        "capacity": 50,
+        "calibers": [
+          "308Win"
+        ]
+      }
+    },
+    {
+      "id": "Id.Item.MAGZ_068",
+      "name": "M14 10 RND Magazine",
+      "type": "Magazine",
+      "contexts": [
+        "Item.Attachment.Magazine.WEPN_034"
+      ],
+      "modifiers": [],
+      "characterModifiers": [],
+      "magazine": {
+        "capacity": 10,
+        "calibers": [
+          "308Win"
+        ]
+      }
+    },
+    {
+      "id": "Id.Item.MAGZ_069",
+      "name": "SIG Spear (WEPN_037) Standard Mag",
+      "type": "Magazine",
+      "contexts": [
+        "Item.Attachment.Magazine",
+        "Item.Resource.Magazine.Standard"
+      ],
+      "modifiers": [],
+      "characterModifiers": [],
+      "magazine": {
+        "capacity": 28,
+        "calibers": [
+          "762mm"
+        ]
+      }
+    },
+    {
+      "id": "Id.Item.MAGZ_070",
+      "name": "M14 30 RND Magazine",
+      "type": "Magazine",
+      "contexts": [
+        "Item.Attachment.Magazine.WEPN_034"
+      ],
+      "modifiers": [
+        {
+          "attribute": "Weapon.AimTime",
+          "op": "multiplyCompound",
+          "value": 1.2
+        },
+        {
+          "attribute": "Weapon.VerticalRecoilMultiplier",
+          "op": "multiplyCompound",
+          "value": 1.22
+        },
+        {
+          "attribute": "Weapon.HorizontalRecoilMultiplier",
+          "op": "multiplyCompound",
+          "value": 1.24
+        },
+        {
+          "attribute": "Weapon.EquipSpeedMultiplier",
+          "op": "multiplyCompound",
+          "value": 0.93
+        }
+      ],
+      "characterModifiers": [
+        {
+          "attribute": "Character.AimSwayScaleMultiplier",
+          "op": "multiplyCompound",
+          "value": 1.24
+        }
+      ],
+      "magazine": {
+        "capacity": 30,
+        "calibers": [
+          "308Win"
+        ]
+      }
+    },
+    {
+      "id": "Id.Item.MAGZ_071",
+      "name": "M14 20 RND Magazine",
+      "type": "Magazine",
+      "contexts": [
+        "Item.Attachment.Magazine.WEPN_034"
+      ],
+      "modifiers": [
+        {
+          "attribute": "Weapon.AimTime",
+          "op": "multiplyCompound",
+          "value": 1.08
+        },
+        {
+          "attribute": "Weapon.VerticalRecoilMultiplier",
+          "op": "multiplyCompound",
+          "value": 1.07
+        },
+        {
+          "attribute": "Weapon.HorizontalRecoilMultiplier",
+          "op": "multiplyCompound",
+          "value": 1.05
+        },
+        {
+          "attribute": "Weapon.EquipSpeedMultiplier",
+          "op": "multiplyCompound",
+          "value": 0.95
+        }
+      ],
+      "characterModifiers": [
+        {
+          "attribute": "Character.AimSwayScaleMultiplier",
+          "op": "multiplyCompound",
+          "value": 1.08
+        }
+      ],
+      "magazine": {
+        "capacity": 20,
+        "calibers": [
+          "308Win"
         ]
       }
     },
@@ -4012,6 +4259,258 @@
       "characterModifiers": []
     },
     {
+      "id": "Id.Item.MUZL_064",
+      "name": "WEPN_033 (M14) standard muzzle",
+      "type": "Muzzle",
+      "contexts": [
+        "Item.Context.Equippable",
+        "Item.Attachment.Muzzle.WEPN_034"
+      ],
+      "modifiers": [],
+      "characterModifiers": []
+    },
+    {
+      "id": "Id.Item.MUZL_065",
+      "name": "QD-5 Suppressor",
+      "type": "Muzzle",
+      "contexts": [
+        "Item.Context.Equippable",
+        "Item.Attachment.Muzzle.WEPN_036"
+      ],
+      "modifiers": [
+        {
+          "attribute": "Weapon.VerticalRecoilMultiplier",
+          "op": "multiplyCompound",
+          "value": 0.94
+        },
+        {
+          "attribute": "Weapon.HorizontalRecoilMultiplier",
+          "op": "multiplyCompound",
+          "value": 0.95
+        },
+        {
+          "attribute": "Weapon.SpreadMultiplier",
+          "op": "multiplyCompound",
+          "value": 0.9
+        },
+        {
+          "attribute": "Weapon.AimTime",
+          "op": "multiplyCompound",
+          "value": 1.08
+        }
+      ],
+      "characterModifiers": []
+    },
+    {
+      "id": "Id.Item.MUZL_066",
+      "name": "Sig Default",
+      "type": "Muzzle",
+      "contexts": [
+        "Item.Context.Equippable",
+        "Item.Attachment.Muzzle.WEPN_037"
+      ],
+      "modifiers": [
+        {
+          "attribute": "Weapon.VerticalRecoilMultiplier",
+          "op": "multiplyCompound",
+          "value": 0.94
+        },
+        {
+          "attribute": "Weapon.HorizontalRecoilMultiplier",
+          "op": "multiplyCompound",
+          "value": 0.95
+        },
+        {
+          "attribute": "Weapon.SpreadMultiplier",
+          "op": "multiplyCompound",
+          "value": 0.9
+        },
+        {
+          "attribute": "Weapon.AimTime",
+          "op": "multiplyCompound",
+          "value": 1.08
+        }
+      ],
+      "characterModifiers": []
+    },
+    {
+      "id": "Id.Item.MUZL_067",
+      "name": "Cross Rifle Muzzle Brake",
+      "type": "Muzzle",
+      "contexts": [
+        "Item.Context.Equippable",
+        "Item.Attachment.Muzzle.WEPN_037"
+      ],
+      "modifiers": [
+        {
+          "attribute": "Weapon.VerticalRecoilMultiplier",
+          "op": "multiplyCompound",
+          "value": 0.92
+        },
+        {
+          "attribute": "Weapon.HorizontalRecoilMultiplier",
+          "op": "multiplyCompound",
+          "value": 0.94
+        },
+        {
+          "attribute": "Weapon.SpreadMultiplier",
+          "op": "multiplyCompound",
+          "value": 0.9
+        },
+        {
+          "attribute": "Weapon.AimTime",
+          "op": "multiplyCompound",
+          "value": 1.08
+        }
+      ],
+      "characterModifiers": []
+    },
+    {
+      "id": "Id.Item.MUZL_068",
+      "name": "Clutch Lok Muzzle Brake",
+      "type": "Muzzle",
+      "contexts": [
+        "Item.Context.Equippable",
+        "Item.Attachment.Muzzle.WEPN_037"
+      ],
+      "modifiers": [
+        {
+          "attribute": "Weapon.VerticalRecoilMultiplier",
+          "op": "multiplyCompound",
+          "value": 0.9
+        },
+        {
+          "attribute": "Weapon.HorizontalRecoilMultiplier",
+          "op": "multiplyCompound",
+          "value": 1.05
+        },
+        {
+          "attribute": "Weapon.SpreadMultiplier",
+          "op": "multiplyCompound",
+          "value": 0.9
+        },
+        {
+          "attribute": "Weapon.AimTime",
+          "op": "multiplyCompound",
+          "value": 1.02
+        }
+      ],
+      "characterModifiers": []
+    },
+    {
+      "id": "Id.Item.MUZL_069",
+      "name": "SRD762TI-QD",
+      "type": "Muzzle",
+      "contexts": [
+        "Item.Context.Equippable",
+        "Item.Attachment.Muzzle.WEPN_037"
+      ],
+      "modifiers": [
+        {
+          "attribute": "Weapon.VerticalRecoilMultiplier",
+          "op": "multiplyCompound",
+          "value": 0.93
+        },
+        {
+          "attribute": "Weapon.HorizontalRecoilMultiplier",
+          "op": "multiplyCompound",
+          "value": 0.94
+        },
+        {
+          "attribute": "Weapon.SpreadMultiplier",
+          "op": "multiplyCompound",
+          "value": 0.9
+        },
+        {
+          "attribute": "Weapon.AimTime",
+          "op": "multiplyCompound",
+          "value": 1.1
+        }
+      ],
+      "characterModifiers": []
+    },
+    {
+      "id": "Id.Item.MUZL_070",
+      "name": "SL7i-BL Suppressor",
+      "type": "Muzzle",
+      "contexts": [
+        "Item.Context.Equippable",
+        "Item.Attachment.Muzzle.WEPN_036"
+      ],
+      "modifiers": [
+        {
+          "attribute": "Weapon.VerticalRecoilMultiplier",
+          "op": "multiplyCompound",
+          "value": 0.95
+        },
+        {
+          "attribute": "Weapon.HorizontalRecoilMultiplier",
+          "op": "multiplyCompound",
+          "value": 0.94
+        },
+        {
+          "attribute": "Weapon.SpreadMultiplier",
+          "op": "multiplyCompound",
+          "value": 0.9
+        },
+        {
+          "attribute": "Weapon.AimTime",
+          "op": "multiplyCompound",
+          "value": 1.1
+        }
+      ],
+      "characterModifiers": []
+    },
+    {
+      "id": "Id.Item.MUZL_071",
+      "name": ".30 Cal SS Phosphate Muzzle Brake",
+      "type": "Muzzle",
+      "contexts": [
+        "Item.Context.Equippable",
+        "Item.Attachment.Muzzle.WEPN_034"
+      ],
+      "modifiers": [
+        {
+          "attribute": "Weapon.VerticalRecoilMultiplier",
+          "op": "multiplyCompound",
+          "value": 0.85
+        },
+        {
+          "attribute": "Weapon.HorizontalRecoilMultiplier",
+          "op": "multiplyCompound",
+          "value": 1.05
+        },
+        {
+          "attribute": "Weapon.SpreadMultiplier",
+          "op": "multiplyCompound",
+          "value": 0.88
+        },
+        {
+          "attribute": "Weapon.AimTime",
+          "op": "multiplyCompound",
+          "value": 1.05
+        }
+      ],
+      "characterModifiers": []
+    },
+    {
+      "id": "Id.Item.MUZL_072",
+      "name": ".30 Cal Steel Black Flash Hider",
+      "type": "Muzzle",
+      "contexts": [
+        "Item.Context.Equippable",
+        "Item.Attachment.Muzzle.WEPN_034"
+      ],
+      "modifiers": [
+        {
+          "attribute": "Weapon.AimTime",
+          "op": "multiplyCompound",
+          "value": 0.97
+        }
+      ],
+      "characterModifiers": []
+    },
+    {
       "id": "Id.Item.MZL_04",
       "name": "GOL Multi-Caliber Suppressor",
       "type": "Muzzle",
@@ -4337,6 +4836,36 @@
       "type": "Grip",
       "contexts": [
         "Item.Attachment.Grip.WEPN_035"
+      ],
+      "modifiers": [],
+      "characterModifiers": []
+    },
+    {
+      "id": "Id.Item.PGRP_042",
+      "name": "WEPN_36 Evoly Grip",
+      "type": "Grip",
+      "contexts": [
+        "Item.Attachment.Grip.WEPN_036"
+      ],
+      "modifiers": [],
+      "characterModifiers": []
+    },
+    {
+      "id": "Id.Item.PGRP_043",
+      "name": "Sig Spear (WEPN_037) Standard Pistol Grip",
+      "type": "Grip",
+      "contexts": [
+        "Item.Attachment.Grip.WEPN_037"
+      ],
+      "modifiers": [],
+      "characterModifiers": []
+    },
+    {
+      "id": "Id.Item.PGRP_044",
+      "name": "Kungfu",
+      "type": "Grip",
+      "contexts": [
+        "Item.Attachment.Grip.WEPN_037"
       ],
       "modifiers": [],
       "characterModifiers": []
@@ -4971,6 +5500,117 @@
       "characterModifiers": []
     },
     {
+      "id": "Id.Item.SGHT_038",
+      "name": "Compact P-1 Red Dot",
+      "type": "Sight",
+      "contexts": [
+        "Item.Context.Equippable",
+        "Item.Attachment.Sight.Short"
+      ],
+      "modifiers": [
+        {
+          "attribute": "Weapon.AdsZoomMultiplier",
+          "op": "override",
+          "value": 1.2
+        }
+      ],
+      "characterModifiers": []
+    },
+    {
+      "id": "Id.Item.SGHT_039",
+      "name": "Leatherwood ART II",
+      "type": "Sight",
+      "contexts": [
+        "Item.Context.Equippable"
+      ],
+      "modifiers": [
+        {
+          "attribute": "Weapon.AdsZoomMultiplier",
+          "op": "override",
+          "value": 3
+        },
+        {
+          "attribute": "Weapon.AimTime",
+          "op": "multiplyCompound",
+          "value": 1.15
+        },
+        {
+          "attribute": "Weapon.MaxZeroingRange",
+          "op": "override",
+          "value": 800
+        },
+        {
+          "attribute": "Weapon.MinZeroingRange",
+          "op": "override",
+          "value": 100
+        }
+      ],
+      "characterModifiers": [
+        {
+          "attribute": "Character.WeaponSway.StabilizationTimeMultiplier",
+          "op": "override",
+          "value": 1.6
+        },
+        {
+          "attribute": "Character.WeaponSway.RotationStabilizationMultiplier",
+          "op": "multiply",
+          "value": 1.8
+        },
+        {
+          "attribute": "Character.WeaponSway.TranslationStabilizationMultiplier",
+          "op": "multiply",
+          "value": 1.4
+        }
+      ]
+    },
+    {
+      "id": "Id.Item.SGHT_040",
+      "name": "PU 91/30 Scope",
+      "type": "Sight",
+      "contexts": [
+        "Item.Context.Equippable"
+      ],
+      "modifiers": [
+        {
+          "attribute": "Weapon.AdsZoomMultiplier",
+          "op": "override",
+          "value": 3.5
+        },
+        {
+          "attribute": "Weapon.AimTime",
+          "op": "multiplyCompound",
+          "value": 1.15
+        },
+        {
+          "attribute": "Weapon.MaxZeroingRange",
+          "op": "override",
+          "value": 800
+        },
+        {
+          "attribute": "Weapon.MinZeroingRange",
+          "op": "override",
+          "value": 100
+        }
+      ],
+      "characterModifiers": [
+        {
+          "attribute": "Character.WeaponSway.StabilizationTimeMultiplier",
+          "op": "override",
+          "value": 1.6
+        },
+        {
+          "attribute": "Character.WeaponSway.RotationStabilizationMultiplier",
+          "op": "multiply",
+          "value": 1.8
+        },
+        {
+          "attribute": "Character.WeaponSway.TranslationStabilizationMultiplier",
+          "op": "multiply",
+          "value": 1.4
+        }
+      ]
+    },
+    {
       "id": "ID.Item.SKSBarrel",
       "name": "ID.Item.SKSBarrel",
       "type": "Barrel",
@@ -5461,6 +6101,36 @@
       "type": "Stock",
       "contexts": [
         "Item.Attachment.Stock.WEPN_035"
+      ],
+      "modifiers": [],
+      "characterModifiers": []
+    },
+    {
+      "id": "Id.Item.STOK_058",
+      "name": "Evoly stock",
+      "type": "Stock",
+      "contexts": [
+        "Item.Attachment.Stock.WEPN_036"
+      ],
+      "modifiers": [],
+      "characterModifiers": []
+    },
+    {
+      "id": "Id.Item.STOK_059",
+      "name": "M14 Stock",
+      "type": "Stock",
+      "contexts": [
+        "Item.Attachment.Stock.WEPN_034"
+      ],
+      "modifiers": [],
+      "characterModifiers": []
+    },
+    {
+      "id": "Id.Item.STOK_060",
+      "name": "Sig Spear Standard Stock",
+      "type": "Stock",
+      "contexts": [
+        "Item.Attachment.Stock.WEPN_037"
       ],
       "modifiers": [],
       "characterModifiers": []

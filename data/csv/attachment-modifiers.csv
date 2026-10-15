@@ -212,6 +212,16 @@ Id.Item.MAGZ_066,AMP-9 50 RND Drum Magazine,character,Weapon.AimTime,multiplyCom
 Id.Item.MAGZ_066,AMP-9 50 RND Drum Magazine,character,Weapon.VerticalRecoilMultiplier,multiplyCompound,1.2
 Id.Item.MAGZ_066,AMP-9 50 RND Drum Magazine,character,Weapon.HorizontalRecoilMultiplier,multiplyCompound,1.18
 Id.Item.MAGZ_066,AMP-9 50 RND Drum Magazine,character,Weapon.EquipSpeedMultiplier,multiplyCompound,0.93
+Id.Item.MAGZ_070,M14 30 RND Magazine,weapon,Weapon.AimTime,multiplyCompound,1.2
+Id.Item.MAGZ_070,M14 30 RND Magazine,weapon,Weapon.VerticalRecoilMultiplier,multiplyCompound,1.22
+Id.Item.MAGZ_070,M14 30 RND Magazine,weapon,Weapon.HorizontalRecoilMultiplier,multiplyCompound,1.24
+Id.Item.MAGZ_070,M14 30 RND Magazine,weapon,Weapon.EquipSpeedMultiplier,multiplyCompound,0.93
+Id.Item.MAGZ_070,M14 30 RND Magazine,character,Character.AimSwayScaleMultiplier,multiplyCompound,1.24
+Id.Item.MAGZ_071,M14 20 RND Magazine,weapon,Weapon.AimTime,multiplyCompound,1.08
+Id.Item.MAGZ_071,M14 20 RND Magazine,weapon,Weapon.VerticalRecoilMultiplier,multiplyCompound,1.07
+Id.Item.MAGZ_071,M14 20 RND Magazine,weapon,Weapon.HorizontalRecoilMultiplier,multiplyCompound,1.05
+Id.Item.MAGZ_071,M14 20 RND Magazine,weapon,Weapon.EquipSpeedMultiplier,multiplyCompound,0.95
+Id.Item.MAGZ_071,M14 20 RND Magazine,character,Character.AimSwayScaleMultiplier,multiplyCompound,1.08
 Id.Item.MK22Mag,MK22 Standard Mag,weapon,Weapon.AimTime,multiplyCompound,1.06
 Id.Item.MK22Mag,MK22 Standard Mag,weapon,Weapon.EquipSpeedMultiplier,multiplyCompound,0.9
 Id.Item.MK22Mag,MK22 Standard Mag,character,Character.AimSwayScaleMultiplier,multiplyCompound,1.12
@@ -346,6 +356,35 @@ Id.Item.MUZL_062,STRELIX Suppressor,weapon,Weapon.VerticalRecoilMultiplier,multi
 Id.Item.MUZL_062,STRELIX Suppressor,weapon,Weapon.HorizontalRecoilMultiplier,multiplyCompound,0.96
 Id.Item.MUZL_062,STRELIX Suppressor,weapon,Weapon.SpreadMultiplier,multiplyCompound,0.93
 Id.Item.MUZL_062,STRELIX Suppressor,weapon,Weapon.AimTime,multiplyCompound,1.04
+Id.Item.MUZL_065,QD-5 Suppressor,weapon,Weapon.VerticalRecoilMultiplier,multiplyCompound,0.94
+Id.Item.MUZL_065,QD-5 Suppressor,weapon,Weapon.HorizontalRecoilMultiplier,multiplyCompound,0.95
+Id.Item.MUZL_065,QD-5 Suppressor,weapon,Weapon.SpreadMultiplier,multiplyCompound,0.9
+Id.Item.MUZL_065,QD-5 Suppressor,weapon,Weapon.AimTime,multiplyCompound,1.08
+Id.Item.MUZL_066,Sig Default,weapon,Weapon.VerticalRecoilMultiplier,multiplyCompound,0.94
+Id.Item.MUZL_066,Sig Default,weapon,Weapon.HorizontalRecoilMultiplier,multiplyCompound,0.95
+Id.Item.MUZL_066,Sig Default,weapon,Weapon.SpreadMultiplier,multiplyCompound,0.9
+Id.Item.MUZL_066,Sig Default,weapon,Weapon.AimTime,multiplyCompound,1.08
+Id.Item.MUZL_067,Cross Rifle Muzzle Brake,weapon,Weapon.VerticalRecoilMultiplier,multiplyCompound,0.92
+Id.Item.MUZL_067,Cross Rifle Muzzle Brake,weapon,Weapon.HorizontalRecoilMultiplier,multiplyCompound,0.94
+Id.Item.MUZL_067,Cross Rifle Muzzle Brake,weapon,Weapon.SpreadMultiplier,multiplyCompound,0.9
+Id.Item.MUZL_067,Cross Rifle Muzzle Brake,weapon,Weapon.AimTime,multiplyCompound,1.08
+Id.Item.MUZL_068,Clutch Lok Muzzle Brake,weapon,Weapon.VerticalRecoilMultiplier,multiplyCompound,0.9
+Id.Item.MUZL_068,Clutch Lok Muzzle Brake,weapon,Weapon.HorizontalRecoilMultiplier,multiplyCompound,1.05
+Id.Item.MUZL_068,Clutch Lok Muzzle Brake,weapon,Weapon.SpreadMultiplier,multiplyCompound,0.9
+Id.Item.MUZL_068,Clutch Lok Muzzle Brake,weapon,Weapon.AimTime,multiplyCompound,1.02
+Id.Item.MUZL_069,SRD762TI-QD,weapon,Weapon.VerticalRecoilMultiplier,multiplyCompound,0.93
+Id.Item.MUZL_069,SRD762TI-QD,weapon,Weapon.HorizontalRecoilMultiplier,multiplyCompound,0.94
+Id.Item.MUZL_069,SRD762TI-QD,weapon,Weapon.SpreadMultiplier,multiplyCompound,0.9
+Id.Item.MUZL_069,SRD762TI-QD,weapon,Weapon.AimTime,multiplyCompound,1.1
+Id.Item.MUZL_070,SL7i-BL Suppressor,weapon,Weapon.VerticalRecoilMultiplier,multiplyCompound,0.95
+Id.Item.MUZL_070,SL7i-BL Suppressor,weapon,Weapon.HorizontalRecoilMultiplier,multiplyCompound,0.94
+Id.Item.MUZL_070,SL7i-BL Suppressor,weapon,Weapon.SpreadMultiplier,multiplyCompound,0.9
+Id.Item.MUZL_070,SL7i-BL Suppressor,weapon,Weapon.AimTime,multiplyCompound,1.1
+Id.Item.MUZL_071,.30 Cal SS Phosphate Muzzle Brake,weapon,Weapon.VerticalRecoilMultiplier,multiplyCompound,0.85
+Id.Item.MUZL_071,.30 Cal SS Phosphate Muzzle Brake,weapon,Weapon.HorizontalRecoilMultiplier,multiplyCompound,1.05
+Id.Item.MUZL_071,.30 Cal SS Phosphate Muzzle Brake,weapon,Weapon.SpreadMultiplier,multiplyCompound,0.88
+Id.Item.MUZL_071,.30 Cal SS Phosphate Muzzle Brake,weapon,Weapon.AimTime,multiplyCompound,1.05
+Id.Item.MUZL_072,.30 Cal Steel Black Flash Hider,weapon,Weapon.AimTime,multiplyCompound,0.97
 Id.Item.MZL_04,GOL Multi-Caliber Suppressor,weapon,Weapon.VerticalRecoilMultiplier,multiplyCompound,0.84
 Id.Item.MZL_04,GOL Multi-Caliber Suppressor,weapon,Weapon.HorizontalRecoilMultiplier,multiplyCompound,0.9
 Id.Item.MZL_04,GOL Multi-Caliber Suppressor,weapon,Weapon.SpreadMultiplier,multiplyCompound,0.88
@@ -446,6 +485,21 @@ Id.Item.SGHT_034,PGO-7,weapon,Weapon.MinZeroingRange,override,10
 Id.Item.SGHT_034,PGO-7,weapon,Weapon.MaxZeroingRange,override,10
 Id.Item.SGHT_036,6x Marksman Scope + Reflex,character,Character.WeaponSway.StabilizationTimeMultiplier,override,1.6
 Id.Item.SGHT_037,MMGL Sight,weapon,Weapon.AdsZoomMultiplier,override,1.2
+Id.Item.SGHT_038,Compact P-1 Red Dot,weapon,Weapon.AdsZoomMultiplier,override,1.2
+Id.Item.SGHT_039,Leatherwood ART II,weapon,Weapon.AdsZoomMultiplier,override,3
+Id.Item.SGHT_039,Leatherwood ART II,weapon,Weapon.AimTime,multiplyCompound,1.15
+Id.Item.SGHT_039,Leatherwood ART II,weapon,Weapon.MaxZeroingRange,override,800
+Id.Item.SGHT_039,Leatherwood ART II,weapon,Weapon.MinZeroingRange,override,100
+Id.Item.SGHT_039,Leatherwood ART II,character,Character.WeaponSway.StabilizationTimeMultiplier,override,1.6
+Id.Item.SGHT_039,Leatherwood ART II,character,Character.WeaponSway.RotationStabilizationMultiplier,multiply,1.8
+Id.Item.SGHT_039,Leatherwood ART II,character,Character.WeaponSway.TranslationStabilizationMultiplier,multiply,1.4
+Id.Item.SGHT_040,PU 91/30 Scope,weapon,Weapon.AdsZoomMultiplier,override,3.5
+Id.Item.SGHT_040,PU 91/30 Scope,weapon,Weapon.AimTime,multiplyCompound,1.15
+Id.Item.SGHT_040,PU 91/30 Scope,weapon,Weapon.MaxZeroingRange,override,800
+Id.Item.SGHT_040,PU 91/30 Scope,weapon,Weapon.MinZeroingRange,override,100
+Id.Item.SGHT_040,PU 91/30 Scope,character,Character.WeaponSway.StabilizationTimeMultiplier,override,1.6
+Id.Item.SGHT_040,PU 91/30 Scope,character,Character.WeaponSway.RotationStabilizationMultiplier,multiply,1.8
+Id.Item.SGHT_040,PU 91/30 Scope,character,Character.WeaponSway.TranslationStabilizationMultiplier,multiply,1.4
 Id.Item.SniperScope10x,6-10x Scope MRAD,weapon,Weapon.AimTime,multiply,1.15
 Id.Item.SniperScope10x,6-10x Scope MRAD,weapon,Weapon.AdsZoomMultiplier,override,6
 Id.Item.SniperScope10x,6-10x Scope MRAD,weapon,Weapon.MaxZeroingRange,override,1000

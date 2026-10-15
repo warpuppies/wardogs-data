@@ -7,14 +7,11 @@ import type { Dataset } from "./types.js";
 
 const file = (rawDir: string, id: string) => join(rawDir, "objects", `${id}.actors.jsonl`);
 
-/** Gameplay objects placed in each world (shops, safe zones, spawns). Extraction reads every level of a world: several minutes each. */
+/** Gameplay objects placed in each world (shops, safe zones, spawns). Extraction reads every level of a world. */
 export const worldObjectsDataset: Dataset = {
   id: "objects",
-  extract(config) {
-    for (const w of WORLDS) {
-      console.log(`scanning ${w.id} (several minutes)`);
-      exportActors(config, `Wardogs/Content/Maps/Worlds/${w.folder}/`, OBJECT_CLASS_PATTERN, file(config.rawDir, w.id));
-    }
+  async extract(config) {
+    await Promise.all(WORLDS.map((w) => exportActors(config, `Wardogs/Content/Maps/Worlds/${w.folder}/`, OBJECT_CLASS_PATTERN, file(config.rawDir, w.id))));
   },
   async build(rawDir, meta) {
     const files = [];

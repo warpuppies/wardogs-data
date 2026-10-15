@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "gameBuild": "25677108",
+  "gameBuild": "25937608",
   "armor": [
     {
       "id": "Id.Item.GhillieArmor",
@@ -175,22 +175,22 @@
       "durability": 250,
       "stages": [
         {
-          "damageReduction": 55,
+          "damageReduction": 50,
           "thickness": 1,
           "density": 100
         },
         {
-          "damageReduction": 55,
+          "damageReduction": 50,
           "thickness": 1,
           "density": 90
         },
         {
-          "damageReduction": 55,
+          "damageReduction": 50,
           "thickness": 1,
           "density": 80
         },
         {
-          "damageReduction": 55,
+          "damageReduction": 50,
           "thickness": 1,
           "density": 60
         }
@@ -209,27 +209,33 @@
       "durability": 180,
       "stages": [
         {
-          "damageReduction": 55,
+          "damageReduction": 50,
           "thickness": 1,
           "density": 100
         },
         {
-          "damageReduction": 55,
+          "damageReduction": 50,
           "thickness": 1,
           "density": 90
         },
         {
-          "damageReduction": 55,
+          "damageReduction": 50,
           "thickness": 1,
           "density": 80
         },
         {
-          "damageReduction": 55,
+          "damageReduction": 50,
           "thickness": 1,
           "density": 60
         }
       ],
-      "modifiers": []
+      "modifiers": [
+        {
+          "attribute": "Character.SuppressionReductionMultiplier",
+          "op": "multiply",
+          "value": 0.32
+        }
+      ]
     },
     {
       "id": "Id.Item.LightArmor",
@@ -368,6 +374,39 @@
       "modifiers": []
     },
     {
+      "id": "Id.Item.PilotHelmet",
+      "name": "Pilot Helmet",
+      "slot": "Helmet",
+      "damageContext": "Helmet.Pilot",
+      "coveredLocations": [
+        "Head"
+      ],
+      "durability": 180,
+      "stages": [
+        {
+          "damageReduction": 30,
+          "thickness": 0.5,
+          "density": 50
+        },
+        {
+          "damageReduction": 30,
+          "thickness": 0.5,
+          "density": 40
+        },
+        {
+          "damageReduction": 30,
+          "thickness": 0.5,
+          "density": 30
+        },
+        {
+          "damageReduction": 30,
+          "thickness": 0.5,
+          "density": 20
+        }
+      ],
+      "modifiers": []
+    },
+    {
       "id": "Id.Item.SuperHeavyArmor",
       "name": "Level 4 Armor",
       "slot": "Armor",
@@ -382,22 +421,22 @@
       "durability": 300,
       "stages": [
         {
-          "damageReduction": 65,
+          "damageReduction": 60,
           "thickness": 1.5,
           "density": 130
         },
         {
-          "damageReduction": 65,
+          "damageReduction": 60,
           "thickness": 1.5,
           "density": 120
         },
         {
-          "damageReduction": 65,
+          "damageReduction": 60,
           "thickness": 1.5,
           "density": 110
         },
         {
-          "damageReduction": 65,
+          "damageReduction": 60,
           "thickness": 1.5,
           "density": 100
         }
@@ -416,27 +455,73 @@
       "durability": 200,
       "stages": [
         {
-          "damageReduction": 65,
+          "damageReduction": 60,
           "thickness": 1.5,
           "density": 130
         },
         {
-          "damageReduction": 65,
+          "damageReduction": 60,
           "thickness": 1.5,
           "density": 120
         },
         {
-          "damageReduction": 65,
+          "damageReduction": 60,
           "thickness": 1.5,
           "density": 110
         },
         {
-          "damageReduction": 65,
+          "damageReduction": 60,
           "thickness": 1.5,
           "density": 100
         }
       ],
-      "modifiers": []
+      "modifiers": [
+        {
+          "attribute": "Character.SuppressionReductionMultiplier",
+          "op": "multiply",
+          "value": 0.2
+        }
+      ]
+    },
+    {
+      "id": "Id.Item.TankHelmet",
+      "name": "Tank Helmet",
+      "slot": "Helmet",
+      "damageContext": "Helmet.Tank",
+      "coveredLocations": [
+        "Head",
+        "Neck"
+      ],
+      "durability": 180,
+      "stages": [
+        {
+          "damageReduction": 55,
+          "thickness": 1,
+          "density": 100
+        },
+        {
+          "damageReduction": 55,
+          "thickness": 1,
+          "density": 90
+        },
+        {
+          "damageReduction": 55,
+          "thickness": 1,
+          "density": 80
+        },
+        {
+          "damageReduction": 55,
+          "thickness": 1,
+          "density": 60
+        }
+      ],
+      "modifiers": [
+        {
+          "attribute": "Character.SuppressionReductionMultiplier",
+          "op": "override",
+          "value": 0
+        }
+      ]
     }
   ],
   "weightClasses": [

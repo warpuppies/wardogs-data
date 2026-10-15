@@ -14,3 +14,4 @@ NorthAmerica,DA_ControlZone_Config_NorthAmerica,Standard,ZoneAlternator.Zestafon
 NorthAmerica,DA_ControlZone_Config_NorthAmerica,Standard,ZoneAlternator.Zestafona.SmallFactory.Circle,0,-1075.6092,-2357.5142,36.4091,Ellipse,500,500,85
 NorthAmerica,DA_ControlZone_Config_NorthAmerica,Standard,ZoneAlternator.Zestafona.WaterTreatment.Circle,1,-1192.8796,-1839.581,36.4091,Ellipse,500,500,85
 NorthAmerica,DA_ControlZone_Config_NorthAmerica,Standard,ZoneAlternator.Zestafona.Houses.Circle,1,-1298.4862,-2210.92,36.4091,Ellipse,500,500,85
+NorthAmerica,DA_ControlZoneConfig_SniperShowdown_NorthAmerica,SniperShowdown,default,,-614.7751,-2458.5694,36.4091,Cylinder,350,170,75

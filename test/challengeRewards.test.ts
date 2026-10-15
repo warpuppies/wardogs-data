@@ -100,6 +100,17 @@ describe("parseChallengeRewards", () => {
     ]);
   });
 
+  it("matches names without regard to case and writes them as the formula spells them", () => {
+    const value = { DefaultExpression: expression("FlatReward", ["FlatReward"]), ConditionalExpressions: [], Selectors: [{ Key: "flatReward", Value: { DefaultOption: "FlatReward", Options: [] } }], Variables: [literal("flatReward", 500)] };
+    const [reward] = parseChallengeRewards(rewardTable({ "Challenges.Rewards.Forgive": { Resources: [{ Key: { TagName: "Attribute.Meta.Currency.Cash" }, Value: value }] } }));
+    expect(reward!.resources[0]).toMatchObject({ formula: "FlatReward", inputs: [{ name: "FlatReward", default: "FlatReward", options: [] }], variables: [{ name: "FlatReward", type: "literal", value: 500 }] });
+
+    // A name the formula does not use keeps the spelling it is declared with.
+    const other = { ...value, Selectors: [{ Key: "flatReward", Value: { DefaultOption: "FLATREWARD", Options: [{ Condition: { QueryTokenStream: [] }, Variable: "explosiveKill" }] } }], Variables: [literal("flatReward", 500), literal("explosiveKill", 2)] };
+    const [again] = parseChallengeRewards(rewardTable({ "Challenges.Rewards.Punish": { Resources: [{ Key: { TagName: "Attribute.Meta.Currency.Cash" }, Value: other }] } }));
+    expect(again!.resources[0]!.inputs[0]).toMatchObject({ default: "FlatReward", options: [{ use: "explosiveKill" }] });
+  });
+
   it("fails when a name resolves to nothing, an input points at a missing variable, or the format is not the supported one", () => {
     const withValue = (patch: (v: ReturnType<typeof row>["Resources"][0]["Value"]) => void) => {
       const r = row();
@@ -187,7 +198,8 @@ describe("data/challenge-rewards.json", () => {
   });
 
   it("pays cash for every event, and role XP for most", () => {
-    for (const r of file.rewards) expect(r.resources.some((p) => p.resource === "Currency.Cash"), r.id).toBe(true);
+    // `TeamOffence.Punish.Kill` pays a "resource" tagged with its own id, which is no currency: the game's table has it so.
+    for (const r of file.rewards.filter((r) => !r.resources.every((p) => p.resource.startsWith("Challenges.Rewards.")))) expect(r.resources.some((p) => p.resource === "Currency.Cash"), r.id).toBe(true);
     expect(file.rewards.filter((r) => r.resources.some((p) => p.resource === "XP.Role")).length).toBeGreaterThanOrEqual(200);
   });
 
@@ -242,7 +254,7 @@ describe.skipIf(!existsSync(".cache/raw/items"))("challenge rewards against the 
     expect(published.rewards.length).toBe(raw.length);
     for (const [key, row] of raw) {
       const out = published.rewards.find((r) => r.id === key.replace("Challenges.Rewards.", ""))!;
-      expect(out.resources.map((r) => `Attribute.Meta.${r.resource}`), key).toEqual(row.Resources.map((r: any) => r.Key.TagName));
+      expect(out.resources.map((r) => (r.resource.startsWith("Challenges.Rewards.") ? r.resource : `Attribute.Meta.${r.resource}`)), key).toEqual(row.Resources.map((r: any) => r.Key.TagName));
       out.resources.forEach((r, i) => {
         const value = row.Resources[i].Value;
         expect(r.formula).toBe(value.DefaultExpression.ExpressionString);
@@ -258,7 +270,8 @@ describe.skipIf(!existsSync(".cache/raw/items"))("challenge rewards against the 
       for (const resource of row.Resources) {
         for (const selector of resource.Value.Selectors) {
           for (const option of selector.Value.Options) {
-            const normalize = (s: string) => s.replace(/\s+/g, " ").trim();
+            // The game's own text for the team-offence conditions still names the tag by its old name (`TeamkillFlagged`).
+            const normalize = (s: string) => s.replace(/\s+/g, " ").replace("Challenges.Context.TeamkillFlagged", "Challenges.Context.TeamOffenceFlagged").trim();
             expect(normalize(render(decodeTagQuery(option.Condition))), `${key} ${selector.Key}`).toBe(normalize(option.Condition.AutoDescription));
             checked++;
           }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "kavkazi",
   "world": "Kavkazi",
-  "gameBuild": "25677108",
+  "gameBuild": "25937608",
   "units": "meters",
   "bounds": {
     "min": [
@@ -30,10 +30,10 @@
     "encoding": "z = zRange.min + value / 65535 * (zRange.max - zRange.min)"
   },
   "check": {
-    "buildings": 399,
-    "medianOffset": -1.27,
+    "buildings": 432,
+    "medianOffset": -1.29,
     "p5Offset": -1.94,
-    "p95Offset": -0.08,
+    "p95Offset": -0.14,
     "fractionWithin5m": 1
   }
 }

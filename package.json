@@ -16,6 +16,7 @@
     "cli": "tsx --env-file-if-exists=.env src/cli.ts",
     "doctor": "tsx --env-file-if-exists=.env src/cli.ts doctor",
     "setup:extractor": "bash scripts/setup-extractor.sh",
+    "restore-names": "tsx --env-file-if-exists=.env src/cli.ts restore-names",
     "extract": "tsx --env-file-if-exists=.env src/cli.ts extract",
     "diff": "tsx --env-file-if-exists=.env src/cli.ts diff",
     "update-data": "tsx --env-file-if-exists=.env src/cli.ts update",

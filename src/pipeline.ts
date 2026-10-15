@@ -3,6 +3,7 @@ import { join } from "node:path";
 import { readCacheMeta, writeCacheMeta } from "./cache.js";
 import type { Config } from "./config.js";
 import { DATASETS } from "./datasets/index.js";
+import type { ExtractContext } from "./datasets/types.js";
 import { deriveFiles } from "./derived/index.js";
 import { applyFiles, planFiles, walk, type GeneratedFile, type PlanEntry } from "./generated.js";
 import { buildManifest, verifyManifest, type VerifyResult } from "./manifest.js";
@@ -22,13 +23,20 @@ export const readCue4ParseRevision = (): string => readFileSync(join("extractor"
 export const listDataFiles = (root: string): string[] => [...walk(join(root, "data"), root)];
 
 /** Extracts raw facts from the install into the cache and records what they came from. */
-export function extractAll(config: Config, only?: string): void {
+export async function extractAll(config: Config, only?: string): Promise<void> {
   const selected = DATASETS.filter((d) => !only || d.id === only);
   if (selected.length === 0) throw new Error(`Unknown dataset "${only}". Known: ${DATASETS.map((d) => d.id).join(", ")}`);
+  // The datasets extract at the same time; one that needs another's files waits for it.
+  const running = new Map<string, Promise<void>>();
+  const ctx: ExtractContext = { after: (id) => running.get(id) ?? Promise.resolve() };
   for (const dataset of selected) {
     console.log(`extracting ${dataset.id}`);
-    dataset.extract(config);
+    running.set(dataset.id, Promise.resolve().then(() => dataset.extract(config, ctx)));
   }
+  // Every extraction is waited for, so none is left running when one fails.
+  const results = await Promise.allSettled(running.values());
+  const failed = results.find((r): r is PromiseRejectedResult => r.status === "rejected");
+  if (failed) throw failed.reason;
   writeCacheMeta(config.rawDir, { gameBuild: readGameBuild(config.installDir), cue4parse: readCue4ParseRevision() });
 }
 
@@ -42,8 +50,9 @@ export async function buildAll(rawDir: string): Promise<Built> {
   const meta = readCacheMeta(rawDir);
   const files: GeneratedFile[] = [];
   const notes: string[] = [];
-  for (const dataset of DATASETS) {
-    const out = await dataset.build(rawDir, meta);
+  // The builds read the cache and nothing else, so they run together (the ones that wait on image decoding overlap the rest);
+  // their files and notes are joined in the order of the datasets.
+  for (const out of await Promise.all(DATASETS.map((dataset) => dataset.build(rawDir, meta)))) {
     files.push(...out.files);
     notes.push(...out.notes);
   }

@@ -1,0 +1,8 @@
+{
+  "note": "Property names that the structure of the mappings files cannot give, but that the data confirms: in the vehicle config assets the scrambled key held the same non-trivial value as the old data's property of that name, in every asset where both exist. Used by `pnpm restore-names`; a hint for a name that is not scrambled is ignored.",
+  "names": {
+    "_aaaakhmlfhmanallebdao": "bIsGamepad",
+    "_aaaajcaiiagjhghlfkbhf": "RingCount",
+    "_aaaamondcpjmfjdpfighj": "BoundsOffset"
+  }
+}

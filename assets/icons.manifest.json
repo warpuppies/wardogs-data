@@ -5,178 +5,183 @@
   "files": [
     {
       "path": "Buildables/Data/Buildables/AirRaidShelter/T_UI_Buildable_AirRaidShelter_BC.png",
-      "sha256": "30863bd9f586c3bf5ee0614da54b94377fab53db4d7e53cc66c06864098ea7bc",
-      "bytes": 53819
+      "sha256": "ac74f661a9565467acd2883bf54f3ed3de8663a4ea6caa54eed2a2e39adf54b0",
+      "bytes": 76178
     },
     {
       "path": "Buildables/Data/Buildables/BarbedWire/T_UI_Buildable_BarbedWire.png",
-      "sha256": "cf928caffd512542adf7064f1ead1faf3daaed0f9e23f419cfe47f2d2b43ab5b",
-      "bytes": 32200
+      "sha256": "3e0aa6a46e422802504ffe0c31905eb03b50bb593251dc6e98e15cbfe90fadab",
+      "bytes": 35505
     },
     {
       "path": "Buildables/Data/Buildables/BarrierDoor/T_UI_Buidable_Door_512x512.png",
-      "sha256": "01a71550ae802484ce318c7f7748f48cb921376e3104249741ec08245c2c506c",
-      "bytes": 47187
+      "sha256": "35134b65e8e775bd77dbc78288bb2d756b4fb03c8b6495bab5212c524ce699da",
+      "bytes": 80247
     },
     {
       "path": "Buildables/Data/Buildables/CamoNetTent/T_UI_Buidable_camonettent_512x512_BC.png",
-      "sha256": "434ad67ef26b8013f00e530f60477522a7af5ca59d40894326fb7852e4d5dd1d",
-      "bytes": 45474
+      "sha256": "695cbec00e41a8c07d1bc5c0cc220d1cc59ec00638f0b5d6334dfe366a3d9341",
+      "bytes": 51024
     },
     {
       "path": "Buildables/Data/Buildables/CrowsNest/T_UI_Buidable_Crowsnest_BC.png",
-      "sha256": "5144875133ffa305d117da6816385d0fe063369538ef66fbf53545e059e70cc1",
-      "bytes": 91344
+      "sha256": "840b6e757e10feda450bb932b3273b6a42086056a95fde4cf6c50160240e02cd",
+      "bytes": 130388
     },
     {
       "path": "Buildables/Data/Buildables/HBlock/T_UI_Buildable_HBlock.png",
-      "sha256": "ff83931be9cb454ba4289cc1719ad12dd8a7857efd8335b86ba890a0a81e84e6",
-      "bytes": 32637
+      "sha256": "0e853789a8af6755e2b0d1550980a16595df23da0045ef19dbc3e20bd6306d4e",
+      "bytes": 45434
     },
     {
       "path": "Buildables/Data/Buildables/HBlock_Gate_6x2/t_ui_icon_hesco_gate.png",
-      "sha256": "5f773cf28ba08fb7850c31573dea5d9d9793ff2a491630b476cc594da05e8a7f",
-      "bytes": 64997
+      "sha256": "7803bb736127d1103918dd2d41d99e7db46e1ac6218ceea10cb32ac8f7f84598",
+      "bytes": 85274
     },
     {
       "path": "Buildables/Data/Buildables/HBlock_QuadWall/t_ui_icon_hesco_quad.png",
-      "sha256": "bce10a71314f750ea70612e7029ccd6bb9e74be6c63362984daa6df252382908",
-      "bytes": 41864
+      "sha256": "4f8733be6dd051cb5a1b7d8d8beafcf180626f8fd1a7ba090622baaff697171a",
+      "bytes": 54208
     },
     {
       "path": "Buildables/Data/Buildables/SandbagWall/T_UI_Buildable_SandbagWall.png",
-      "sha256": "4be4ed06f4f1f15a3c918c80e70f9130f73adfe1bfb20f925840a7bc851d19b7",
-      "bytes": 134911
+      "sha256": "837e34eeeeeace05e7eaeb6ce69050fe1c6c7fbaacce74b7f2671345c61a286a",
+      "bytes": 176806
     },
     {
       "path": "Buildables/Data/Buildables/TallHBlock/T_UI_Buildable_TallHBlock.png",
-      "sha256": "2dc49b0f6d3cd0f3e3a395cfe66b75f9ffc923aa9333ef7e1b0c1f42d5dc0625",
-      "bytes": 32850
+      "sha256": "f97ac5b49ca59a5233711a4c5c37ffe59870faa797d1257903b8d36124e1a149",
+      "bytes": 37984
     },
     {
       "path": "Buildables/Data/Buildables/TankTrap/T_UI_Buildable_TankTrap.png",
-      "sha256": "14133341369a7a4ceae6bbb359e10f829ddf7c87841b8f07a661e74500f0c3a1",
-      "bytes": 60820
+      "sha256": "1daeadeff6b55ca8d6b245aa28cc1c07a2d5ff4aee85be3e2912fe252e69a435",
+      "bytes": 81836
     },
     {
       "path": "Flares/Textures/T_UI_Vehicle_Flares.png",
-      "sha256": "83010aa22c7ea182d52632fbb641243bc4aa5f469c2e66ae29e802cdb6bb63e1",
-      "bytes": 1461
+      "sha256": "31853241d3a16f7c445bf2b2c14dec61c72f0a38d1ff4221e762282dc31002b5",
+      "bytes": 1626
     },
     {
       "path": "SupplyCrates/UI/Textures/ID_Item_VehicleSupplyCrate_Large.png",
-      "sha256": "4315d9093f157bbadce0d197ab8d8af3c9d7ea3670dfe391647b11ff5968fc63",
-      "bytes": 64257
+      "sha256": "825404b167b474b54e4acdfcf245050c1cc216e87423e2560dc2d87b8a529d25",
+      "bytes": 85845
     },
     {
       "path": "SupplyCrates/UI/Textures/ID_Item_VehicleSupplyCrate_Large_Armoured.png",
-      "sha256": "a279b72fe4d4ffc9dbd4d516ae11c3a4b06533a3c241ea0f188d6ba89374f6eb",
-      "bytes": 69077
+      "sha256": "e4710200755f7b53be7a0b40bf9cc49f3ee121f9f2799ddf61e5af73375068ee",
+      "bytes": 90393
     },
     {
       "path": "SupplyCrates/UI/Textures/ID_Item_VehicleSupplyCrate_Small.png",
-      "sha256": "f4ae7cd41a96cab9e830d8ddbf99fbc8697dcee4b53ad9b8144122b8a0428c17",
-      "bytes": 49735
+      "sha256": "5e60c2a5684c87de67eab867aff16f41a5a0529c8c950da1f36fa3aeaba6f1cf",
+      "bytes": 78300
     },
     {
       "path": "SupplyCrates/UI/Textures/ID_Item_VehicleSupplyCrate_Small_Armoured.png",
-      "sha256": "d0160e905f0e68fac39214751156d323fd0d5ea814c263bb04fb0ef402dcf14c",
-      "bytes": 58032
+      "sha256": "fa0e5f9207e9d98707c3da9e67f2ae8ff05ac3ccb38c900479f4328c7c2a4270",
+      "bytes": 89735
     },
     {
       "path": "UI/Features/HUD/EquippedItem/Textures/T_UI_ChamberedRound_Bullet.png",
-      "sha256": "5acdf23311a48595cbce0b30c9a85ab8e99fcf57af01c53a7df8f06514848d4f",
-      "bytes": 770
+      "sha256": "307640b478a6763d770e519c44a531ce78c9836433a1fa4485b62d83692462d0",
+      "bytes": 953
     },
     {
       "path": "UI/Features/HUD/EquippedItem/Textures/T_UI_ChamberedRound_Drone.png",
-      "sha256": "532631c61b1884dce5eacf2578e9ea759de96602d25bec44de4effb14930288d",
-      "bytes": 902
+      "sha256": "f09203a3ebf443cc98ec758553ad4163fb7d4724fec0b393c5b3bab54c767a4f",
+      "bytes": 1202
     },
     {
       "path": "UI/Features/HUD/EquippedItem/Textures/T_UI_ChamberedRound_FinnedShell.png",
-      "sha256": "fca2a300539a19752a66eee364ae1c10f6f6ac306899a083b51d807ff7c9a84b",
-      "bytes": 1002
+      "sha256": "62cf8a86ed84a6865049173166af47de22f2b2d9d491a6f0db9a4cd1863ddb8b",
+      "bytes": 1123
+    },
+    {
+      "path": "UI/Features/HUD/Vehicles/Vehicle_HUD_Materials/Textures/T_UI_Icon_DeploySmoke.png",
+      "sha256": "cb707a177cd1509b4b04eb450bb5ec4014f17ca1297f7dd106c7e60c808af594",
+      "bytes": 2179
     },
     {
       "path": "UI/Features/HUD/Vehicles/Vehicle_HUD_Materials/Textures/T_UI_MainGun_Active.png",
-      "sha256": "b5fbc7c6d68aabb63528d5f41e8954be0fbe7196b8980fcc88ba1819cd59353c",
-      "bytes": 3284
+      "sha256": "e50aa17c0f85e0f044a8d55480ae4508150af140a4741385b4b08f0c741d480b",
+      "bytes": 7741
     },
     {
       "path": "UI/Features/Inventory_2_0/Textures/T_Icon_PistolMag.png",
-      "sha256": "04a1e7aed8b7d938c98023e25cc9882106b06654cb014f1f06163510763f3ab5",
-      "bytes": 2264
+      "sha256": "9cf2d5c0d53b3f2a5ce6e053baaa20c08a80296d5e0055db19636c5505d5ce1e",
+      "bytes": 4540
     },
     {
       "path": "UI/Features/Inventory_2_0/Textures/T_Icon_SmgMag.png",
-      "sha256": "fecdb714ce389d8308d29ad819e583a64252445ec767e908cd3c86dd8dae4b26",
-      "bytes": 2271
+      "sha256": "cbbde16aa714a30843fa8fd8753fa76a652493a0ee5ce2425514e1456b134249",
+      "bytes": 5607
     },
     {
       "path": "UI/Features/Vendor/Widgets/ItemCard/Textures/T_UI_Icon_Vendor_PurchaseTag_Icon.png",
-      "sha256": "77dec0f7920e4c9128946274ec17b11329e227990e1e5e564b02b1823bbbba4c",
-      "bytes": 6724
+      "sha256": "b704257b4d0b1296d702096e04671bf6004a08d231e5a0102ee64f481ca8b134",
+      "bytes": 9653
     },
     {
       "path": "UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_10x_Optic_Textured_512x512.png",
-      "sha256": "79ddfa86b1ac92d34d9f8bf45d43f63b08fc6fc8eb3800489623cea52126713a",
-      "bytes": 13325
+      "sha256": "f173904da1b452188f9745a3959b8ac9cd905d3ef2a582ea5e8ee55e181e4505",
+      "bytes": 14446
     },
     {
       "path": "UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_40mm_Round_Textured_512x512.png",
-      "sha256": "e9d689d42c694eaa4edf2fafb0faa981cff477b7b3b8ac4b7b2423a1ee10c628",
-      "bytes": 30139
+      "sha256": "17493c8e8ca999716ec6c4a92c9c5c33427406b446a750fe043c7e009bc5a3a4",
+      "bytes": 42076
     },
     {
       "path": "UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_4x_Optic_Textured_512x512.png",
-      "sha256": "594b601ec2ce04b0308da7507eb396e72a1c74521b94d75cbe817c95a2ab2a1a",
-      "bytes": 73972
+      "sha256": "b8a04359a47112a00fa86abd192ca60cc6708938a5f16d925fec4f88652cd983",
+      "bytes": 103073
     },
     {
       "path": "UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_84Heat_Round_Textured_512x512.png",
-      "sha256": "6d709dbfe0994da11d682438d98eaf7e503c949c800e1ecf0d379bb533f8c67b",
-      "bytes": 37706
+      "sha256": "5576b838d75b7ae4c797865de501ab336697f287b52c612053c8f3e0aed54a4a",
+      "bytes": 53955
     },
     {
       "path": "UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_93mm_Round_Textured_512x512.png",
-      "sha256": "5c725ee5fa72d31e997d3666acb2afb1a80a94aefc377b0aed3bf19465728c53",
-      "bytes": 42861
+      "sha256": "d16cde58f911abe27ad9382337eb374ab8797938caa7948e652665f4008b57b1",
+      "bytes": 51271
     },
     {
       "path": "UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_Cheap_Magazine_556_Textured_512x512.png",
-      "sha256": "1c01bea2865592ed7918480efde8c69ff1dd8ec5c704df98b0cc5387e84cf1a3",
-      "bytes": 96140
+      "sha256": "efcbeed6598974bf11d03c2b673a38c190feb4b818cf14b925487a9580c9ed50",
+      "bytes": 136898
     },
     {
       "path": "UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_Cheap_Magazine_9mm_Textured_512x512.png",
-      "sha256": "5d71637a4aef915c5662b87f007e94b10fe1a96f079f9d717ba39a5b02b4bcc6",
-      "bytes": 74411
+      "sha256": "aa29fd03b397b1b26f4dc0b19695df2ec41a2e7923a6a9376eba7337d7bb8d19",
+      "bytes": 101464
     },
     {
       "path": "UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_Cheap_Magazine_Judge_Textured_512x512.png",
-      "sha256": "8deedafe8cc4e7e68c4b4fd6dcb7a598a199575f07146b631b7a1b208d2e9c72",
-      "bytes": 87838
+      "sha256": "03a60e575eb46cf7cb8bcf3e6246cf62b59398d5586f96ac0c55f6fb40c7e305",
+      "bytes": 138334
     },
     {
       "path": "UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_Cheap_Magazine_SV98_Textured_512x512.png",
-      "sha256": "1136d922c6752d83becaf7fc87bf0dc64d68bea4dc44fd4a058c321e6384510a",
-      "bytes": 108753
+      "sha256": "cad406c88cf6018e40fa06aa6970b87296a163e287c2afd1e9abff80e351f999",
+      "bytes": 152350
     },
     {
       "path": "UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_MZL_04_Textured_512x512.png",
-      "sha256": "a0bdc79f0ceccdac4963d30d2b1d42b4dd24ac140b07c8baf36bd9ac58b51ecb",
-      "bytes": 31330
+      "sha256": "fa480f802028425c4652f23ea6fec4cbf82bd718172e4c18858e04426a96d357",
+      "bytes": 50830
     },
     {
       "path": "UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_RK_Grip_Textured_512x512.png",
-      "sha256": "7773d5ddffd53a8d31b5d0ffc60914fdcaa95b2c18005060aa592f8af8069cd6",
-      "bytes": 79444
+      "sha256": "f39173eab7416c8188f8a1bf190984eed588419bcf9942dbdc61aba2cc3afa5f",
+      "bytes": 112389
     },
     {
       "path": "UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_RedDot_Textured_512x512.png",
-      "sha256": "63dd8c5b2d78f1792ab42589c3077f734163948c625b56d82c2d32a92114dafa",
-      "bytes": 112685
+      "sha256": "a202c3a9673566dbd053cdeef8d903f183adc658e4bbfe9b81af8375328157c9",
+      "bytes": 156012
     },
     {
       "path": "UI/Shared/Icons/Attachments/3D/T_UI_MAGZ_012.png",
@@ -190,633 +195,643 @@
     },
     {
       "path": "UI/Shared/Icons/Attachments/3D/T_UI_Magazine_Bow_BC.png",
-      "sha256": "f952f77900a69cd7abd8851fb22606ba05b0dfea96182899776d2c72761e6ffd",
-      "bytes": 32461
+      "sha256": "abb20e0a2d1d52f4c87f35f9ed56daede83490cc8bc297890ebc88a93b8e1880",
+      "bytes": 38769
     },
     {
       "path": "UI/Shared/Icons/Attachments/T_UI_Icon_Attachment_AK_Magazine_Bullets_Textured_512x512.png",
-      "sha256": "b198567dee888b6344995de8484f4894c58c03e28a791d500a1b32cb62a4b80e",
-      "bytes": 57621
+      "sha256": "1728db0053dbc239f8d734545a965423f432beb4b09fef612c52ff8afb78fa89",
+      "bytes": 93939
     },
     {
       "path": "UI/Shared/Icons/Attachments/T_UI_Icon_Attachment_SKS_Mag_Extended_Textured_512x512.png",
-      "sha256": "850395e5eb3fac9144e6d7374b7ffbe6f6fedf2f65f19fc757682cd76416c947",
-      "bytes": 79307
+      "sha256": "cbd76263ae07a94db48bb07afd1ddaef1bfe57423dd637dac18d24db4de54554",
+      "bytes": 133327
     },
     {
       "path": "UI/Shared/Icons/Attachments/T_UI_Icon_Attachment_SKS_Magazine_bullet_Textured_512x512.png",
-      "sha256": "d4d2eff466a8b95360d417575180c7e1081b2dc1b82c53a7397e3dc8235e104f",
-      "bytes": 43079
+      "sha256": "d9a28a24c39bcfa74d859eaeb529fe14b018750b5b32cd67b1a403ee907113cf",
+      "bytes": 76695
     },
     {
       "path": "UI/Shared/Icons/Buildables/T_UI_Buidable_Bremerwall.png",
-      "sha256": "2e08a1ac25feda351351e8ca3202e706bba8f3f0f21fcc1b00199c8571580bfb",
-      "bytes": 149800
+      "sha256": "a8f25617d3abf45ae1adc2bbf117abae26721f164884548faf8dec639db0fb07",
+      "bytes": 245398
     },
     {
       "path": "UI/Shared/Icons/Buildables/T_UI_Buidable_Mistral.png",
-      "sha256": "5836183ae6c4f39efba072e5d9c1840546ac17e830e54a6ca4bd1ba5098d14ca",
-      "bytes": 179378
+      "sha256": "5f7a011af24f8a0060a7121e41a0eb781a659413e53f184d8815c10f71f979e1",
+      "bytes": 281764
     },
     {
       "path": "UI/Shared/Icons/Buildables/T_UI_Buidable_Mortor.png",
-      "sha256": "97997806871e715d1de0a117796926d8bfee899067c1ca0d28aa31eedcf8b872",
-      "bytes": 286983
+      "sha256": "b6a3350c5489fe44009be7fe23ef504f892bda656aaeeb80498d151b58db40e7",
+      "bytes": 453110
     },
     {
       "path": "UI/Shared/Icons/Buildables/T_UI_Buidable_Phalanx.png",
-      "sha256": "da7b1e5231cfb28e364a2b9a98e1a0a2f5c1b53e503877938166475da13da82a",
-      "bytes": 191039
+      "sha256": "85959c090e3b6230013128448a2e471e69659599d799d2e377952e17ef25d2bc",
+      "bytes": 314625
     },
     {
       "path": "UI/Shared/Icons/Buildables/T_UI_Buidable_Radio.png",
-      "sha256": "e0fbcdb5d3478fb9d3b4d3674bade2a8427f767e9bdc119ad038b987e6387bca",
-      "bytes": 253620
+      "sha256": "78e46402bc174cc9bcd2734a0fd3ad6010dec79c767d08d4ea4dd5dae09bd24e",
+      "bytes": 421981
     },
     {
       "path": "UI/Shared/Icons/Buildables/T_UI_Buidable_Speaker.png",
-      "sha256": "c07bae51bf1592fd7bcb8639c257fd627efeb4bcc50805fa8af7ca18309533b1",
-      "bytes": 150321
+      "sha256": "5dc098d7a0ca77107fd639b3719f8b67f3ecac106dba95ceefc3c58cb3b6352e",
+      "bytes": 239676
     },
     {
       "path": "UI/Shared/Icons/Components/AK74/T_UI_Barrel_Placeholder.png",
-      "sha256": "42b3341152d3c4863bced204e9a7b0bdf3010a48f111b7843f505aef3b60a29b",
-      "bytes": 47950
+      "sha256": "d6561b4b8793ca1b22c1f00682e29d866fa5c7738eff9f1b1648e9183e29311a",
+      "bytes": 77963
     },
     {
       "path": "UI/Shared/Icons/Components/AK74/T_UI_Dustcover_Placeholder.png",
-      "sha256": "10046a9b78bddef5dfc30302bdf81e0e74ca2903433e65ab69612ed746fd8adc",
-      "bytes": 66182
+      "sha256": "5202534c2bdc35fad143f76baebde87b63d946500c94829194e83c5c8ef1f1c0",
+      "bytes": 118632
     },
     {
       "path": "UI/Shared/Icons/Components/AK74/T_UI_Grip_Placeholder.png",
-      "sha256": "5e209bb523a6231756a7a999a261d5c7fc844b1e34174c4cc6e6f3fa75bed2c2",
-      "bytes": 96524
+      "sha256": "9d742055901bd04b48849298fdabf004b9bb91a17f35928c3bf05f567fc26c25",
+      "bytes": 155510
     },
     {
       "path": "UI/Shared/Icons/Components/AK74/T_UI_Handguard_Placeholder.png",
-      "sha256": "3e9ed6062170972fa4d1bb138235aa9c895401bf03d29b9aa2529546743c4457",
-      "bytes": 115153
+      "sha256": "411f467170655b707673afc92ab9aec0225883dd1c8e51b84a198fd1a1be3d7e",
+      "bytes": 193851
     },
     {
       "path": "UI/Shared/Icons/Components/AK74/T_UI_Stock_Placeholder.png",
-      "sha256": "e3244e7e9ec5bf8f777e8907d3c94d478b8023c84bf6b0d93b80300764c7dae4",
-      "bytes": 90907
+      "sha256": "fabc8dfd27e5c57b28e930f535ceeef4724b0603b0fe2eae30206d270c150543",
+      "bytes": 157725
     },
     {
       "path": "UI/Shared/Icons/Components/AK74/T_UI_Trigger_Placeholder.png",
-      "sha256": "9e7581aa3666a3d8b868512eb9b086ac9bfe3897bfa991bbf5e886cd6a52f8f6",
-      "bytes": 96464
+      "sha256": "7fe4cd502edcfa567c3d1fc487431a025da1ce6f4ab35660bd46abd4f519e42d",
+      "bytes": 142521
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_12g_slug_FMJ.png",
-      "sha256": "eb54669c17af242c11d9c0b62904a8105196eb6a278bc8db6368fbe5cb91a174",
-      "bytes": 64382
+      "sha256": "62ad745178b1d07fb795101e253726ffd0c1e5c7d43f276a0580fc4531b4f243",
+      "bytes": 92517
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_12g_slug_green.png",
-      "sha256": "4beb0d2b88b40a4fab040f2e97c7ccff091cc0c04e43b41578b9f55baeb70a71",
-      "bytes": 64823
+      "sha256": "a765f35896799dcbb5a02f73793a0ee1e1cbc879c0296197b62faede88abc5ac",
+      "bytes": 97002
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_45-ACP_AP.png",
-      "sha256": "fdc5c884822936d59dfb8bf169e7566efbe72017bf2884756bd9f48e1b89e05d",
-      "bytes": 68379
+      "sha256": "6e0de3b2ed2a52188d22a1b46c4543bcadac6ddf8d012d6c4d5edc4e69667e60",
+      "bytes": 100130
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_45-ACP_FMJ.png",
-      "sha256": "2068077dac8aa9e77de864f8cc86ae6c49d7fe82d819c657e37da9cb35776c1c",
-      "bytes": 67474
+      "sha256": "63d953ce3f0913fb09f0e57a20088f46151abc9532e0b1f669f7c68dedc105b0",
+      "bytes": 97675
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_45-ACP_HP.png",
-      "sha256": "6b65c72e27b4f459462f1f7afe944095d508362d9f76c7422ea3fa203aad350c",
-      "bytes": 68531
+      "sha256": "07c6429779683310aeafded4e19c4a25cb3a0a3894e13bfeae3b245e982340a2",
+      "bytes": 100583
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_45-COLT_AP.png",
-      "sha256": "cc40228107781df41d6625af9d3e19272b3ad0c00d402e2f3679d2d2aab5c99c",
-      "bytes": 69346
+      "sha256": "6bba1d28370103bf8ef1a8f15b3f6a4f08890e882aec60da83bba5beff5acdcb",
+      "bytes": 98240
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_45-COLT_FMJ.png",
-      "sha256": "010d0b94fe3fd105b43eb68646ac93239df82e79d7ba7f81ada7d834c144b3df",
-      "bytes": 68090
+      "sha256": "f64c7be1caa9d37ee803cbcedcc74452897713e1c3c5f1bf62d5809d673365f9",
+      "bytes": 95000
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_45-COLT_HP.png",
-      "sha256": "b98e520e8fa1de4a4b1ee37d8b10dbce15cafefb8432aaf7b675a3a230f67bd5",
-      "bytes": 70086
+      "sha256": "f20927399fda06783bc64313dbda00da1fffd2c03c19e04632cb4a4c9c1933ca",
+      "bytes": 98773
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_5_45x39_AP.png",
-      "sha256": "43999b5377faccf850ca1c3f40f96376a978126721d92f42e3f502b650a83642",
-      "bytes": 68664
+      "sha256": "725d18d8291cd3927d754bf3db86752ceb7c0e82d3e0d8d86a788e9a2bbea062",
+      "bytes": 97956
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_5_45x39_FMJ.png",
-      "sha256": "804e6fe363cd4bc18a5e34f9c319287bb9cfb3c58ff8b1958a2ffc11de3ec3b5",
-      "bytes": 68175
+      "sha256": "ca79f63ee4c3be79775b2b27ecdf5da5b042615d1c403da41fbab59032e1d122",
+      "bytes": 96146
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_5_45x39_HP.png",
-      "sha256": "2ef224862cdd26782452fd4e5bc09557dabf641a569a3c0df49cd037e37c9a8e",
-      "bytes": 69760
+      "sha256": "364437e1c94599b1ccdb76fbeda5b5ddde3f682481cb201e1d390ee4267bda1b",
+      "bytes": 98896
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_5_56x45mm_AP.png",
-      "sha256": "1e4604d080021cd7983c34fb88c92f9aaaf86246959886aad710c28b57e9423a",
-      "bytes": 69515
+      "sha256": "c0b27bedb219d90d417cc778fc3d25cf441e8966039d8811f8dbbf14864f37eb",
+      "bytes": 99329
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_5_56x45mm_FMJ.png",
-      "sha256": "4a9226b04c395bc61e52f38f4e0a9c6670939754ce0083c9c5286f4748d524f0",
-      "bytes": 68388
+      "sha256": "db6a17489e3e78aaca5b1f571dcaeee5154b00ea4eb2cefa5f236fa39b2d3908",
+      "bytes": 96866
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_5_56x45mm_HP.png",
-      "sha256": "f012dc3d8c933296a47244d50e719b5e63800e53f59eac1680f71e9b638601f1",
-      "bytes": 69743
+      "sha256": "b0aeb928a4b2b5c56a6d4a7cbf531f2788a500543c7e8260ee6e60a8e6d2bbe6",
+      "bytes": 99309
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_7_62x39mm_AP.png",
-      "sha256": "db4cd61fe0a65d3def03e13287b3846e74df449d6c0e2acd6c3b617908671338",
-      "bytes": 70626
+      "sha256": "158fc97da435201b944e8528691b8864f287e4eb889745a003766798f91af257",
+      "bytes": 99923
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_7_62x39mm_FMJ.png",
-      "sha256": "d02f1fadfe82a93b59c4790a09ad1152b1a342484d0f644bc5857f2f89e12a42",
-      "bytes": 69454
+      "sha256": "676966e15d4532aaf8553a704c0645ca1640090cd9af0c5ce7306b8c208a314f",
+      "bytes": 97260
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_7_62x39mm_HP.png",
-      "sha256": "24d7c576bc40a0dc974caf36c921c3541d281c6ccd6e215b06f708dd65580537",
-      "bytes": 71207
+      "sha256": "e500697eb8995ad9ef8eb3c22f173db9a6475cda476a5bd03ef43babd532f70b",
+      "bytes": 100744
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_7_62x54R_AP.png",
-      "sha256": "2efb9a3ddc9f4a967d9b60d9a37ae8c7354477cc703ad40003ae0f58031e70b6",
-      "bytes": 72065
+      "sha256": "441664b1f231ff7b4a514027b23807ac395a26a400e1ff51322d01756d97dd86",
+      "bytes": 105015
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_7_62x54R_FMJ.png",
-      "sha256": "211ffe4b48aad23339b11f70b76de9b8435987581dea4fa6371dc6486c58ddfe",
-      "bytes": 71626
+      "sha256": "248be7dfc15fd3376a7c4b31113cfb1a4605f3cc6c05786b972c47a0fdc67fb8",
+      "bytes": 103087
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_7_62x54R_HP.png",
-      "sha256": "12067f3dbb5a7e0216083b255878f94c60b5f5980abac5dcf5b30539b8a1f582",
-      "bytes": 72823
+      "sha256": "f8ffaac0d03e7ce127ecebdb76db53ec9cdbe4d5dffd8bd7cb49e92e13834fc1",
+      "bytes": 105557
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_9x19mm_AP.png",
-      "sha256": "2d3916f8c12e9d9cdffab90fa82084b65b5630e7b83f717d43b3a0fa5937763f",
-      "bytes": 70026
+      "sha256": "f619f0ace9c1f3ba259789be9056e2bd96ee1126527bd76306241e1f97b6613a",
+      "bytes": 103811
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_9x19mm_FMJ.png",
-      "sha256": "7995b9d1583825be7a4978a12308ca60866917bd9b15d5c572da4f10472ea983",
-      "bytes": 69486
+      "sha256": "355227fe5445b095c0c2855621cc64d31c6b7c78d1c6f3e3426234ede49d5cb1",
+      "bytes": 101516
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_9x19mm_HP.png",
-      "sha256": "be6889f8fed904b6dbd0523b2988891ad8fac2e04e6c07c5e293d1e284192069",
-      "bytes": 70798
+      "sha256": "97e4460d14d6fdca749076bdcb10a3865a51582947f72eecec554687e87fa933",
+      "bytes": 103821
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox__308_AP.png",
-      "sha256": "82bcdedda1c6e0d98aa37c305b9162bbad5bbac3343d9d24c729130426346a42",
-      "bytes": 61157
+      "sha256": "498066992750a2002f40e42576de328fc3f10e6459ad4321df3ff744f98baac6",
+      "bytes": 86462
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox__308_FMJ.png",
-      "sha256": "9ebef905e990007ce9ed75b11448fa28dca7f98fc12b39ed3ef7896b38dffd7c",
-      "bytes": 58804
+      "sha256": "d5d84b3517c420e0fcd3d62d98208ec8e200a041019e89ab960c5e9752c2aa03",
+      "bytes": 81245
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox__308_HP.png",
-      "sha256": "e3eb5d1204f74d417261d16d37bb06e8d1e7e9c51ff275dcb3f1d78abc0138da",
-      "bytes": 61948
+      "sha256": "70fc088560b872327a26153b9db4939dd71347b48c432f2ee5ba03a6f6398580",
+      "bytes": 86771
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox__338_AP.png",
-      "sha256": "a5825f8033ab95782f20b777e9fbfd914560e7d7a42966bee8618d77ef6d3d15",
-      "bytes": 62247
+      "sha256": "aed6465f5d3bb613d5746422e0e3ff2b9cf62e857b5fc4be27fa30820ee1d258",
+      "bytes": 88408
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox__338_FMJ.png",
-      "sha256": "f91a693b9c8ce715cdbce19a1509f184ed9e00db08f759850f2975a0951a3da4",
-      "bytes": 60364
+      "sha256": "b94a88c8cdf1038eb1cd5df175c109b11ca5a53b8054d61b622ca399df66e30e",
+      "bytes": 83777
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox__338_HP.png",
-      "sha256": "c8a135d74c15bf017923bab913af4b8465fa2ce19b049deecc87478c9bdf2f55",
-      "bytes": 63079
+      "sha256": "171cb664d328b7f4fa5cd62db87f21dcdbf469b9df5730a1c3bcab7317315fea",
+      "bytes": 88795
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox__50-AE_AP.png",
-      "sha256": "cbc31b1f1ab766abcd75b110544aca69f64ea04963bcfd9cae32aa4d91dcb63c",
-      "bytes": 70344
+      "sha256": "2216a6d29e81e0197edf09a28641250e29e17c8f96d5169f762d216db328b53b",
+      "bytes": 102357
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox__50-AE_FMJ.png",
-      "sha256": "cbb4f76cd6c2be529c2a253214aab671f35d06b7db5adb0e16b972fb602166da",
-      "bytes": 69251
+      "sha256": "dae7f6e7171afecdb10caeaa52768dd578fcfe6ccd8f8162cd651c3123d44683",
+      "bytes": 99708
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox__50-AE_HP.png",
-      "sha256": "332c23e6a0595c6b5153c22baf956684ec206de5a4125667caaf1089ec2c17c3",
-      "bytes": 70227
+      "sha256": "f41d787550f3e3e3771ccd608493017c922a4a2282100ab286bcc90584e81600",
+      "bytes": 102633
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_45ACP_AP.png",
-      "sha256": "12fc3688cbad405b15328726f18e9b436f12c0ab36c3265389cd61f7580f14fe",
-      "bytes": 71577
+      "sha256": "719594bf10910baf59c54ddaf82fef08bf0858708ca6327999931c83499be2e0",
+      "bytes": 102830
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_45ACP_HP.png",
-      "sha256": "35c407c0f49ac1816cf891940c9fbdb41451c0cbb94e17c1a43c82abd26946e5",
-      "bytes": 72205
+      "sha256": "0d87f349df211c3941927c84540720e3235f82c3f180f6f8721f69920210f067",
+      "bytes": 103634
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_45COLT_AP.png",
-      "sha256": "f279abc36b24c656065b75c1e31c59a2ffd8eeaad1f06fc94533bc5a61599cef",
-      "bytes": 71951
+      "sha256": "aeff241918d7f5d5a72f8df0a2f167c0eb6a601e02d5fc8c40d5d69d61b91d9b",
+      "bytes": 100279
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_45COLT_FMJ.png",
-      "sha256": "b2015bb9e4aeb767173c58fb84202155e42f3ebe818bd2a1308d7c91c5926694",
-      "bytes": 70290
+      "sha256": "057420e379374be0a6b08f89f1617f7530c366b678d183772bc11d00e2550b48",
+      "bytes": 96928
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_45COLT_HP.png",
-      "sha256": "f682c01474badd84c7c20c539951946b30467050c410a6299bee72372efb3f96",
-      "bytes": 72890
+      "sha256": "0ec82b4e59c683259632d5604810b6e380fcf4677af624dd4eaae0237c68e85c",
+      "bytes": 101056
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_50CAL_FMJ.png",
-      "sha256": "36809e702adb62be5dd4090302c6a920cd49306284e9aa404c79f3bec452c675",
-      "bytes": 66332
+      "sha256": "55aae311f3f54b02de01b418c729b0701e7a5cce05618fe2b86e48c488699f15",
+      "bytes": 89783
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_5_45x39_Ap.png",
-      "sha256": "593d512d1ec366528c977411a06159e6807175db959f923ca9e07d2d82b2c893",
-      "bytes": 72536
+      "sha256": "5e657811846039e52c9b9787a99c21d4a7ed41b86c0655d55915ed4748c24877",
+      "bytes": 101135
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_5_45x39_FMJ.png",
-      "sha256": "75faed45e03a4b8016c472ac5645afa2eceab69169f9cada40253fbe89838eae",
-      "bytes": 71739
+      "sha256": "1eae0a425fdb8c0967cf87033b60c83dee1f813e1afe108c6211f2cd61ccabfa",
+      "bytes": 98915
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_5_45x39_HP.png",
-      "sha256": "25417e3bf64441b80118940ffb4df2d49d7843a2c8a44aa2e6531d2c0591cc9e",
-      "bytes": 74031
+      "sha256": "80dc96fbf91e508ae63608d343a893a0b37746094800b0d6afb4bdc6da9ccbd4",
+      "bytes": 102393
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_5_56x45mm_AP.png",
-      "sha256": "0cce25ff19d6bc6ac761550aa73da94858419af869741b38fe1d54a4d13d8eab",
-      "bytes": 73893
+      "sha256": "d9c3ef4e3bbc06673950c587a3b6bafe77916044e25f9dccf6ecdb82cd8671a4",
+      "bytes": 103165
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_5_56x45mm_FMJ.png",
-      "sha256": "9e81adf226a8cbbae855300b30f6a24fe9ed935dbb58219ebc9c2d50b4cf3085",
-      "bytes": 72378
+      "sha256": "c694be4aad0ce61ee78779a7b997435bcda4abae38e4229519edb2346adb3e71",
+      "bytes": 100545
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_5_56x45mm_HP.png",
-      "sha256": "d8e3fec907bc55ed7974cb1e9493d971ad437d500a30155692a6f79dc1d09dc8",
-      "bytes": 74598
+      "sha256": "7a94b58b0c0e786b10925bf2dead13f36e3790a3d8c79b302d1a7b637dd0a915",
+      "bytes": 103741
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_7_62x39mm_AP.png",
-      "sha256": "e8583347cbb5fecd422d03f0a61de61f536ff77d97f64b978f5abc39e83b7e6b",
-      "bytes": 74424
+      "sha256": "adbfc06b1ef38b3e13ce08773cb7ab1f52b76f8b1dc8b310c8df0d35d1c64ec1",
+      "bytes": 102774
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_7_62x39mm_FMJ.png",
-      "sha256": "a1174b8c30fcae4b45e22256b0b93fe29649a1c3c0fff11a7ad210c5bbdf6425",
-      "bytes": 72848
+      "sha256": "2d39bf4917d13913dade4247c7be47dc5b12426716fc98276a938a0a39f99dea",
+      "bytes": 99681
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_7_62x39mm_HP.png",
-      "sha256": "655ac073fb62839788e07d77b6e123ac2147087359d3b09979a6d466ea1a5ad7",
-      "bytes": 75455
+      "sha256": "00805c2deaf893fb05f1dbe54a513bbd8c97090027cf3ffbb9d20522b3a9b3dc",
+      "bytes": 103704
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_7_62x54R_AP.png",
-      "sha256": "dce2d4442f0eae1fad4d04a69694e79e6b54e58f8f306ba1ff7f0d1f7187fd59",
-      "bytes": 75194
+      "sha256": "318cf05b98bc538e539834bdea41e3cb279b74876c37145f3a92244f646cdef9",
+      "bytes": 106812
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_7_62x54R_FMJ.png",
-      "sha256": "b836091000f708a881ff3f0e0d1b0e35be9fcdeb515154d2282a1a5243780a52",
-      "bytes": 73245
+      "sha256": "647d8c9b52809cd78ab329fbbe34213092e6ff5f54195e6e84338dde401d3285",
+      "bytes": 104927
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_7_62x54R_HP.png",
-      "sha256": "242fd62fe4ebab4247c067ce059e1f05a6bd7aab31241e99cb6a2f6a723cbea4",
-      "bytes": 76005
+      "sha256": "a2d441722d575f04b93f8222ec72441f7ec77879617747c562b440983a5106fe",
+      "bytes": 107456
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_9x19mm_AP.png",
-      "sha256": "c032727d3805bcb1dc4abf8d52e042146331aa71d8bdb8c1e945296b5b918c05",
-      "bytes": 73655
+      "sha256": "d2ca0719eb683bac8aa0cea764fd984343287b2fa09712ef3edb6837abef6837",
+      "bytes": 104953
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_9x19mm_FMJ.png",
-      "sha256": "c4d4ff27431d402142d2a031aeba37722f1acaecba10c7296d69689641a17329",
-      "bytes": 72628
+      "sha256": "c7b2c9b0ceaf52d563506ca1c98ffa330fa1983a86010b0f801bf6cde168a558",
+      "bytes": 102250
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_9x19mm_HP.png",
-      "sha256": "7afb0ba93f54e186c13fb15cf4e972357258addf013bc9a867814b8efb1ae5e9",
-      "bytes": 74739
+      "sha256": "91c848a755898d5137a7e366f26cfcb1a594eea5412cb33060faf3ef6cd8d3ac",
+      "bytes": 105510
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox__308_AP.png",
-      "sha256": "f1cbcda48ba7a45422ec994a46f644a401719dfb2d6815beea3afbc5519c1120",
-      "bytes": 66358
+      "sha256": "dd032adb02d3cdb79c5ef4c6f71c536891bc384a29be5b08daf416f35ec6bbd5",
+      "bytes": 90337
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox__308_FMJ.png",
-      "sha256": "9f80acf744cc17e9c537a62add8625a5ed6ed647a670b344118e45b94e871e7f",
-      "bytes": 63475
+      "sha256": "743cb35f492368671f3bb493d740bd779d9dfedb60508641e3001056301864eb",
+      "bytes": 85058
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox__308_HP.png",
-      "sha256": "80eddb70b0ddc2bfb019a3486da84eb4e79858e296ff8b32be02a43f4ca282e6",
-      "bytes": 67408
+      "sha256": "f06020e07c70612bfdf195be1c4004f7f4331069d97fb2d17031bdb751e684ac",
+      "bytes": 91040
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox__338_AP.png",
-      "sha256": "6a3ccb5be9837350330e8c4ee808821e4e5bb07420bd7a5b0784e3de665f0dcd",
-      "bytes": 66258
+      "sha256": "c979bdf4f70ddddf941af7dd059c04ff66b2b325169720738aa241c611531c1d",
+      "bytes": 91477
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox__338_FMJ.png",
-      "sha256": "6dc4dd0cb5d3f2d5c30cba2d36ef9fb79f18e678ede1945b90843307651aeba7",
-      "bytes": 63706
+      "sha256": "d0cb959d9d4449ce1e4a3f4c9db98035d2f68a2ac9a50451f7d616c5c85c4a56",
+      "bytes": 86654
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox__338_HP.png",
-      "sha256": "ac59015a26d2eab507c48a4dddb5a84a638a552a9240a21ad5738514e73aad31",
-      "bytes": 67243
+      "sha256": "51a899d6abddfba0b18e2aa30d30a317ac528be322c7a447e96b7219a9e8f2e8",
+      "bytes": 92235
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox__50AE_AP.png",
-      "sha256": "73767f0d9fa65c3e4ff606f7dc12af50c86247d887582691813b0c1c83e56ded",
-      "bytes": 74288
+      "sha256": "16c4f6a18b91979f4de74ea6a792c1bcd4aaf23a4177cb7a2f0a570c4d7a8421",
+      "bytes": 105275
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox__50AE_FMJ.png",
-      "sha256": "153e30e1c2aba12e3424d0ccec125238b32318877dbffb7e82deb2217f56c516",
-      "bytes": 72767
+      "sha256": "ae117fd941c7affeb4736528af588af17c6971251ed14b3f2376e9736c8145c6",
+      "bytes": 101964
     },
     {
       "path": "UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox__50AE_HP.png",
-      "sha256": "ebf9369fa62ba317263f593f457d4946e0029906fc99683f6583846f27b78f01",
-      "bytes": 74617
+      "sha256": "33c3fbfb9a081196209dd16255a8b7e64afc668b57a37ffd6d64c02dbe86b9ae",
+      "bytes": 105711
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_Temp_MediumSlingBackpack_Icon.png",
-      "sha256": "990f497cbf5523068ff199cc0fa701fb410173ca98f147487e123cc3c7f1e0a2",
-      "bytes": 695861
+      "sha256": "732ed634ee514232027e136d895f7ee88f58097b9e7f3692e24b5bfa0db6b626",
+      "bytes": 1059786
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Ammo_120mm.png",
-      "sha256": "27a091638da5a866dfcf9f71f563b1ca5c0afd68dcfd1c18d7caea708c5f350b",
-      "bytes": 28491
+      "sha256": "117d35d98ed5498eccdd32f6027703c3e441a2d373862ecb8a5b206d2cb96c12",
+      "bytes": 48900
+    },
+    {
+      "path": "UI/Shared/Icons/Utility/3D/T_UI_Ammo_125mm.png",
+      "sha256": "cd9febda7574f4dfcfd05a58821bce6ff421b73a2f6822b479280cb1d6d2f043",
+      "bytes": 59647
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Ammo_155mm.png",
-      "sha256": "f369a86a4d10f7003d3bbc469a85581f472c683fcce1b54f06bdfd0e1db95313",
-      "bytes": 36305
+      "sha256": "b06c962f2f74960a09edb90119d6dc0353713b031144c2842b8f7ddda0200e67",
+      "bytes": 59487
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Ammo_228mm.png",
-      "sha256": "5bdd83a7adb7b6dcc2dadc060a3a838f671aa0a77ef20efa073af1d11f44aab5",
-      "bytes": 74089
+      "sha256": "c4e73565e012279601ee2b9bd08f3261d5d2f6551211917039469c411d4dc00e",
+      "bytes": 108958
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Ghillie_Body_BC.png",
-      "sha256": "6f7bf5004cfcf926965ea97efba6d12d6766c0211a26279a566ff393ee217729",
-      "bytes": 28119
+      "sha256": "bf294904f624c4d5034692e4c178c9b283cf6369d947058fa6c6842d5e5cab9d",
+      "bytes": 31700
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Ghillie_Helmet_BC.png",
-      "sha256": "084fb59923a3c80a50bb056f6d11fec733cb5ecd199575a61cf33e46e94240cb",
-      "bytes": 38654
+      "sha256": "05b42da9584d5d57a38180f1f97e1d15a27a97f32af9ea78ca0b259960f75ad0",
+      "bytes": 45350
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_LargeBackpack.png",
-      "sha256": "57738bb6b1e1f6b4a6ff52d6f3c7429ad6b4689b248d11cca500ef97eea20a6d",
-      "bytes": 19141
+      "sha256": "6acd0f5189234d8aa10d1e805c1883a056d0ef1c4db4cd6ef35b7e05b923b497",
+      "bytes": 23807
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_MediumBackpack.png",
-      "sha256": "cfea5eaa8d543a416cc689385015a6d6cac479129c3d4e2a95356756f6a100a7",
-      "bytes": 21492
+      "sha256": "fde7aab1cecda4fcbccb4df7c74061ff04bb029d03881abc0603941440a2ad5b",
+      "bytes": 26331
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Parachute_Basic.png",
-      "sha256": "dfb048109be9dc41629cf9704b138b7c17530f94676e5b48af529b1394c9b7e5",
-      "bytes": 50236
+      "sha256": "fe2e2a41393adee0250839b1525280fa470f67e4804e3dfe9748080c62684e54",
+      "bytes": 59219
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Parachute_Sport.png",
-      "sha256": "2cb0b07c2fe4dcf0e74306f4e0724c55c01eccf40b8346d918261946bc16068c",
-      "bytes": 47248
+      "sha256": "568945a60a18f37171539c4abc8bd4e5a25bdf4fb36603d552da69b47cbef034",
+      "bytes": 58051
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_SmallBackpack.png",
-      "sha256": "b8eb42981755c54a316af9ef1669495e6a32873e29c9875115f95543a2908799",
-      "bytes": 18421
+      "sha256": "d0863cf2f99b44cdf02ff124a2f27aa92e4b39e2340114940246ba8508336bc3",
+      "bytes": 22167
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_BuildTool_Supplies_Textured_512x512.png",
-      "sha256": "108532aa6ec821f73eb7d3ccb87a60ec8bfb34dfbbe637db972f59ce5b909b0a",
-      "bytes": 28376
+      "sha256": "dfc846ddb95807557ec2ae63c6156bc5e616048c4fc647e0e66a6bfd342d57a6",
+      "bytes": 32900
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_Defib_512x512.png",
-      "sha256": "801f2df2156c3536ea27ef2ffce49074171f9f8ab6971cf6f0259b950d22d3a2",
-      "bytes": 24935
+      "sha256": "80e53d395b1b40452954eb83242e6091360651e9bf9f856edf2f17f5c30e2436",
+      "bytes": 31393
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_FOB_Textured_512x512_TEMP.png",
-      "sha256": "5eaaaa6d2b3f21c02227041e1b06db25972e1ccb882841655a1d4420dc8f0722",
-      "bytes": 101779
+      "sha256": "c998f5f61e1768ff3b41d274a6c667355d157eb0480a72f5f84641f7edac1331",
+      "bytes": 139786
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_FuelCan_Textured_512x512.png",
-      "sha256": "371a90d2b8c055273f91ced3b2c4f4d44f9d40014509bc03794115c89fbfe9be",
-      "bytes": 31176
+      "sha256": "4c5570bb630559de2a2f44d880d79dacd4fcbcd3785572226b0c8c84d24af1b0",
+      "bytes": 43773
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_Fuel_Supplies_Textured_512x512.png",
-      "sha256": "f9726289604ac7fda66eeb1cab291d609c93d088e5e13f9498dab0ee030d0bd2",
-      "bytes": 24226
+      "sha256": "eabacb146bfa8e9ec5f15fdb8a626ff0254dd52b02b9962ed43300ce23084261",
+      "bytes": 29297
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_Grenade_Textured_512x512.png",
-      "sha256": "a8f4244bc935001c0189ce112c9a183cb86aecc94bd8285dd847f40bbe84bfe0",
-      "bytes": 22704
+      "sha256": "88e599f57de15edf640f9857704764e3427973a6360aee99e4c53fb42ec031d5",
+      "bytes": 27585
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_LargeBackpack_Textured_512x512.png",
-      "sha256": "6ed4e4e1a9d31b541bfd3ef85557948cb314ded201a6370be59996489b526b57",
-      "bytes": 177756
+      "sha256": "73d2b68b2084d8f1084daf0f0de24c7c3d6d2ffb8757751b2536a2bcc11df374",
+      "bytes": 230930
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_LargeWebbing_Textured_512x512.png",
-      "sha256": "cd6a3d9a9f905487a1589156c69ed706f412780d42da7d67e7056d144fc75831",
-      "bytes": 14779
+      "sha256": "0605bafd6e70eae1bd96d8b5f7b42548a86caee7a9b3b34e5fab85d25b5ca8f2",
+      "bytes": 18970
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_MediumWebbing_Textured_512x512.png",
-      "sha256": "072cd6649a1d2a5a5c6d72a17af5d98e55f23edb28044fe0aeaf3cd1296e6db7",
-      "bytes": 15519
+      "sha256": "c3227d1426bea85211b46798b6312999c530a6efb9d6b8a9490ebc9584d42f93",
+      "bytes": 18231
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_Munition_Supplies_Textured_512x512.png",
-      "sha256": "f121abb949493ae3d348cb68d23d584133ae81bd661558cfeefd2b05e3f64d79",
-      "bytes": 19854
+      "sha256": "56f6c1d84f9c9747a7f1e31be257e7d788de9caacf23b062cd9c88b1f6493be8",
+      "bytes": 31108
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_RangeFinder_Textured_512x512.png",
-      "sha256": "581734fdf435a031fef3202577fce4ef522b0988157b1bb80be6975f54e9ae10",
-      "bytes": 26946
+      "sha256": "f7bce4c48e7d5ae2fbc0f3a97b7e4bafbf806e9a9d576f465243e8a35aacdf60",
+      "bytes": 33583
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_SmallWebbing_Textured_512x512.png",
-      "sha256": "c93ffd4a8d11afea2bb33ad9f8c8e5413ca91c45cb4282ef145991782b9abb42",
-      "bytes": 15913
+      "sha256": "cf99f65e206705298a5abd52839f0b60166b4989148c6121313a3cac01d19719",
+      "bytes": 17906
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_Smoke_Textured_512x512_TEMP.png",
-      "sha256": "5a5d52ff5cd9493c5bb4525492d668e10adffdb2c65880a7fa6c6b07c8acb1b6",
-      "bytes": 117978
+      "sha256": "7356368aa41161e3f1b5a8c709c580030b3e75ace0fcf8ffa4a39662f33ee9c7",
+      "bytes": 155198
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_Smoke_Textured_Black_512x512.png",
-      "sha256": "e4e3cf057290a23d86423fe0bf2a3b6c8bb72a52ef5643f1a7ea4b74ccf269de",
-      "bytes": 112521
+      "sha256": "43e1954f26ffb7468c6945db5aa91d28f2b2d36f69544ceddb75ddb1b43b44b5",
+      "bytes": 142137
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_Smoke_Textured_Blue_512x512.png",
-      "sha256": "2366aa287a8bea9108dbe5c878a3c71d2c290d35656e0883d9bdff13a4dfabbd",
-      "bytes": 111707
+      "sha256": "a9c87655bb9da3128bed7b2bde8e81af824d6eec678c2c97f99382f2a5230114",
+      "bytes": 141298
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_Smoke_Textured_Green_512x512.png",
-      "sha256": "f26f85afe7804ba4bb0992ed304db945cab350af6e7b8e8c470a8f27a1a5b79d",
-      "bytes": 112779
+      "sha256": "076357e2ae1de1ca0de454f7ee96d36c85e48d9378022264eb27452296c12fd8",
+      "bytes": 142706
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_Smoke_Textured_Orange_512x512.png",
-      "sha256": "4b3e5db331f5d34f8c1969c0a42b8f0f822dafba4ddf20682794a7a73f1a42a7",
-      "bytes": 111978
+      "sha256": "876639c1276811dca5e666b35d0002fe8aabd8f5c158bbfa6894cd540c69e46d",
+      "bytes": 141505
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_Smoke_Textured_POurple_512x512.png",
-      "sha256": "4f0665e5f420d25b351827480ef949ee1a4932c3b953703fe63afeabd713db78",
-      "bytes": 113347
+      "sha256": "4e2ecb3e2865ed8ad0d6d499e8ba5aa0122e6c6b0c73c969f7624591435734dc",
+      "bytes": 142628
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_Smoke_Textured_Red_512x512.png",
-      "sha256": "f597d3ff46e818990dc09ee64841730bce9fe6811ccb6219d820b9cfb4e49d80",
-      "bytes": 112266
+      "sha256": "ea9fadf8c1c91fe6465e321dcf00c46996dce042cfeb713a5618b00c82dac7b1",
+      "bytes": 141721
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_Smoke_Textured_Yellow_512x512.png",
-      "sha256": "d9fef6a42b500b187a015a2dbbe241940a62fdf7603cb7ef13207722748f0369",
-      "bytes": 115639
+      "sha256": "da7b8abf956bb7397eae3ab6a1d27e76648c22aceab6c46405dda60ee8b32ee6",
+      "bytes": 144398
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_SpareParts_Supplies_Textured_512x512.png",
-      "sha256": "43c96e102d70016a0bebb7dcb1a5592489de25d6368088f3fb84292aeae6222c",
-      "bytes": 28162
+      "sha256": "2d993125a6884079a3f59401e24870fa6c9dbee065ad3941428d4264b5491904",
+      "bytes": 33406
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_SuperBandage_Textured_128x128.png",
-      "sha256": "d4114f645b1a6f54056cad7df293f80fc63e7b4ee5d5bda4411be647414a88ed",
-      "bytes": 22106
+      "sha256": "9570778906eee10e73ad22dad1c418b9ae26a7fc67a6c3ce470932e00738db0b",
+      "bytes": 26456
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Item_84MM_BC.png",
-      "sha256": "6e1b1441e824d1a30875daea1be70aef361223c0f197050bfd2950b9d23d4707",
-      "bytes": 53617
+      "sha256": "2e39f3ab1ebbd3e391baec07bfbf5d22bc2a0f585117e9b02289d6eea9c38985",
+      "bytes": 93344
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Item_Backpack_Pouch_BC.png",
-      "sha256": "89eef3c08ee66868451230b7d6730108b6474564e1d742bb30ac0656fa8128d6",
-      "bytes": 12813
+      "sha256": "e263429d4bd6cdf31657dc61281ee8f48cafb6367e859f0eee908af561d5ea9e",
+      "bytes": 17782
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Item_Repair_1_BC.png",
-      "sha256": "95c45c0f0fbd8184f6affe1549c254ab97fa8be845a08b9dab103a70655b2dd9",
-      "bytes": 16542
+      "sha256": "74365cb2ee44898ffb4c5ef9fd818e3fe4c514fa101ba2f0a7de29bcd5543820",
+      "bytes": 17924
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Item_Stim_BC.png",
-      "sha256": "280d05d05dda9b9152af4c265631936e618de788a6ea62d3e72811a045cffcc6",
-      "bytes": 7112
+      "sha256": "db1388d34c04104f6fa913933d8ddce350bdf705691e5c9995afaeeb5247cf61",
+      "bytes": 11270
+    },
+    {
+      "path": "UI/Shared/Icons/Utility/3D/T_UI_Utility_Molotov.png",
+      "sha256": "604c5420c4ff3a62e7043285d71a69a15a6a71998a5c2a835ced7f8d6287e0a2",
+      "bytes": 49349
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Vendor_ATMine2.png",
-      "sha256": "4fe6e5a4287e92861531b203c25ad5f1b2811f69d03ebf0782e176794b08bf0a",
-      "bytes": 57067
+      "sha256": "8dd5af436d447b7238295dde02f8296b7f5ea3495eafd9a54df81e868887a9d4",
+      "bytes": 82317
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Vendor_Backpack_005.png",
-      "sha256": "6ee7c71315230d0c719fd2ad46c8bf33f4377e44a98c565b854ece59773fe92d",
-      "bytes": 20288
+      "sha256": "9db0c3f16dddf1d22c7725ff2bc2594db0e13cea2f24ef3cab30b0a6c17e35f8",
+      "bytes": 26894
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Vendor_Backpack_006.png",
-      "sha256": "1fa26b4da4c7db1c8f2849845228c0f60a4a5427d6a6e7e52fd37705301c880b",
-      "bytes": 17665
+      "sha256": "ee1bdecee880d1e5ba271cbd2b6cd9cfbd210b06b2cf22a9de75c16b2cf37a26",
+      "bytes": 21358
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Vendor_Backpack_007.png",
-      "sha256": "561614e9b18b5ad0ec178fa721038fc2ac2ee94f5b894c7ee7e54f0f83319e37",
-      "bytes": 17698
+      "sha256": "ac170cfa6ca5afbcd2f1a62453e6604c48ce66d94451708ea7a079c254d69be3",
+      "bytes": 22419
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Vendor_Bandage.png",
-      "sha256": "5a3a36851e4a57480400c2310049f3e97eb8e45bd6efac9a2b70ed169a678b77",
-      "bytes": 32668
+      "sha256": "c20310bb25366e14f44f35f69d2ae0c1c35dbcf0475b0f23479de9ae8acd23c2",
+      "bytes": 44845
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Vendor_Build1a.png",
-      "sha256": "a77ff77297da3f56df4e5120c4fdb235f92d9ec358713dc0849fc7a2fcc85d94",
-      "bytes": 45264
+      "sha256": "3e15a8655cb002d0d6ab21bbb5b972ea2c5828a98fee32f2bfae7032b31832eb",
+      "bytes": 59172
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Vendor_Build2a.png",
-      "sha256": "1aad3f348ce00a516d7741d5281a5f6b843d04d033189d0d200ff091a9fe8b86",
-      "bytes": 30180
+      "sha256": "89c229e6209fc8de2554702942b8b6d16118df9c7e737965c2748675441e2124",
+      "bytes": 41249
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Vendor_Build3.png",
-      "sha256": "ce281197731168ca3ef7862293aa03d5496584c569ded0d03d67fb52ce103aa1",
-      "bytes": 63703
+      "sha256": "2bce0f3986bf914cfc13212ff6f1e58acf839e549182fd1cff04990766f014ab",
+      "bytes": 91751
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Vendor_C42.png",
-      "sha256": "24fa61b75fefce5dee12d89c4bf5fc2f16bce29291b4d7d0436e6a8cd80a01e6",
-      "bytes": 49061
+      "sha256": "641aebf90d0d760b849eb9fa3eeea57471aaee3c494544b7dbd011f38aea7c49",
+      "bytes": 76328
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Vendor_Claymore2.png",
-      "sha256": "51cc9d7759f1b868db92e8af8bc0cda9ba5d8228daae3cff80f8e98df700a863",
-      "bytes": 77842
+      "sha256": "04f92b882e015a2b21175654fe92d4268f0f778de6acfd16e075370f5060c074",
+      "bytes": 116509
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Vendor_Crowbar.png",
-      "sha256": "478630c95cf36977a34417ae7eb3af6a866696f6ecba8692b39885a17d329b5f",
-      "bytes": 43610
+      "sha256": "3592482c9ff9be9b7e129190c14ad602f12c660536fe4015d63e9f150a22ef9f",
+      "bytes": 68503
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Vendor_IED2.png",
@@ -825,1073 +840,1208 @@
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/T_UI_Vendor_Monocle_Temp.png",
-      "sha256": "f2f168ab97b8204491f08f8632f7e56d94c5f675d85a0c12e121156475483fb0",
-      "bytes": 24211
+      "sha256": "3cd49f424b176adc2badecb5373c825ea3fb4db66c4c0c93129221ba9ef70c9d",
+      "bytes": 34816
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/t_ui_icon_c4_trigger.png",
-      "sha256": "9db82502f033b872a32a58860ef5e8e159d61c77923f0c8714add6b188455802",
-      "bytes": 11425
+      "sha256": "ef5f95d4f92f3fca7989899142296e29ffc1c26da516c0fa8ae727a53d61f6ff",
+      "bytes": 14076
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/t_ui_icon_drill_battery.png",
-      "sha256": "ba66632fba57edace521c4cbbf00ae0acfe87cb9471c4d84e64dd6356b55402c",
-      "bytes": 19684
+      "sha256": "fae071b76ff56087a6f603bcc960e2756e2094c4457651a7952e1f43d962d1c8",
+      "bytes": 26140
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/t_ui_icon_drill_batteryLarge.png",
-      "sha256": "2098109646e07bbb4c16fa1a917dfa2a042b3133314c49754537829879dd2054",
-      "bytes": 21750
+      "sha256": "ce108f1b8bf724ce52d1f776ee978269563487a716eeeb286d1f704f8492a979",
+      "bytes": 27865
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/t_ui_icon_drill_heavy.png",
-      "sha256": "526d59f88a53c5e155247483e9459f2d4d50c62b9f725ec5fca273e8121c3cde",
-      "bytes": 43370
+      "sha256": "aea3efdef07c9965223a32a92489974139f273ae3509627304e7973656bbdf5d",
+      "bytes": 49504
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/t_ui_icon_drill_medium.png",
-      "sha256": "d6e2190411233ac2447b9347feb003f89c1662e4b797f6f6b06a97cb928a41e1",
-      "bytes": 23328
+      "sha256": "52ee65ae9bde6afaf31fd6cdbdedbedba60bc5cc3bafea379f5cccde07672c65",
+      "bytes": 32507
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/t_ui_icon_enox_512x512.png",
-      "sha256": "892bb559f14a09b303d9514d1ef5b803364a96e16e855f13873555e5a6989927",
-      "bytes": 17781
+      "sha256": "c0747fd836501b63de99276899c69884b4b69a1f68a0705efe300bf5f8739709",
+      "bytes": 22326
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/t_ui_icon_gold_grenade.png",
-      "sha256": "3ca3259300d6eef081b73b2e019ffc889b6f0afd80520e0e9bedf13af670858c",
-      "bytes": 90419
+      "sha256": "9ed38ed13b29f68423a20b562d7bfec374f9d4bd4efb65f7f7bdb770c1b3ccef",
+      "bytes": 136756
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/t_ui_icon_medkit_128x128.png",
-      "sha256": "6af5bf5172d36c81add810c0f8f63dd878444eb517a08b0bac612b475ff83329",
-      "bytes": 27945
+      "sha256": "6eb62d8e3d2236794f1a6e3333b4325e73e93e0dd90a70a4bdb9ef3195da3196",
+      "bytes": 34912
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/t_ui_icon_rangefinderIR.png",
-      "sha256": "2acf4df86dfb7eaa01653d0ab044632027fd9454addf04516c3bea6cb5042d71",
-      "bytes": 16260
+      "sha256": "82007b9ecd2934680427eca08fd5561d51cf860c2c1263aa1cb3ab0c9088c0ec",
+      "bytes": 17995
     },
     {
       "path": "UI/Shared/Icons/Utility/3D/t_ui_icon_rangefinder_1.png",
-      "sha256": "d3814ac523ac897dc1c123b10e364745e248c4accecd8d866a8d78b274ef928f",
-      "bytes": 25272
+      "sha256": "a4b852e5fb4789462b68faeee7954873ea7a2d1660e601fdb8799865390a8b4a",
+      "bytes": 33171
     },
     {
       "path": "UI/Shared/Icons/Utility/T_UI_Icon_Utility_AmmoCrate_1_Textured_512x512.png",
-      "sha256": "9101474134af18d4a551fb8bc703a0a79ef9228ddf405e740ef000db5f37f900",
-      "bytes": 61778
+      "sha256": "a9116aaf0f6b774cec9dc0627aad668eca4fe7ceddec39bc1ce2f119b4e89779",
+      "bytes": 116821
     },
     {
       "path": "UI/Shared/Icons/Vehicles/3D/T_UI_Icon_Vehicle_HVY_Tank_Textured.png",
-      "sha256": "d2edbea4527a89ba52ab67feeb3b9686b9ef4784772785b187168c408d7d4e5b",
-      "bytes": 167026
+      "sha256": "b5fd8340c47dde8e13f50cb23f031e8908cdc09e543b7a842237d2e092499139",
+      "bytes": 226879
     },
     {
       "path": "UI/Shared/Icons/Vehicles/3D/T_UI_Icon_Vehicle_Humvee_Gun.png",
-      "sha256": "270734d44a831ee01b1b975d0ec7909297c96bf12e7e3242033bbcac4765a814",
-      "bytes": 118072
+      "sha256": "a7cf6cc33403c2717216dd491d942b3c32da392fcda3ca95945683512f629f75",
+      "bytes": 177207
     },
     {
       "path": "UI/Shared/Icons/Vehicles/3D/T_UI_Icon_Vehicle_WHL_01_Bobcat_Textured_512x512.png",
-      "sha256": "d165acaaeda9ed425d4c9f90a28e710b43c7578e5f0606dcc048a58ec76e19a7",
-      "bytes": 105996
+      "sha256": "08392bea80ba0140a0b82e1f90bc0a06531ac74a4f31db35bfb6efe610805efd",
+      "bytes": 151165
     },
     {
       "path": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_Kodiak_Default.png",
-      "sha256": "7be3205b4f1cfe2a483abf2cb5cbb6b1c56e7cd99ebcdc1cd6933fbd84d2ef5b",
-      "bytes": 105672
+      "sha256": "384b0c3e268feebe3f50b266155e9116b37375feae1b3de1bfed48da1ec6c104",
+      "bytes": 152010
     },
     {
       "path": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_Kodiak_MachineGun.png",
-      "sha256": "44151523cfe86eebd058ccea759affe0bc026c11a502df8ddfcf5759a50dbdec",
-      "bytes": 121763
+      "sha256": "4a908597095dc11268f4c84e7fc1547d9225039ff99d220ec0d97192a22f35af",
+      "bytes": 160712
     },
     {
       "path": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_Kodiak_Pickup.png",
-      "sha256": "e5d7df452f904fa0644453e9230031060bba4fd4b59331978f0cd71a6ee4722a",
-      "bytes": 119799
+      "sha256": "581b640ef44d6993110cf642f48aa0f620ebb51a5126b602c0527d3472354685",
+      "bytes": 160010
     },
     {
       "path": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_LittleBird_GUNS_BC.png",
-      "sha256": "0bf723065f00420e0517535e279bf88911629262e4b0ae4a976b32f6b4e4d991",
-      "bytes": 185258
+      "sha256": "8c5744da517951ad07af7290c88ab5b3a3f282db95be39c24246f51f250e9ec2",
+      "bytes": 240535
     },
     {
       "path": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_PVTank_Temp_512x512.png",
-      "sha256": "b852ba177b092973a078c4c821e56b3722f272dcb1d03711ad145abc93a87c2b",
-      "bytes": 181154
+      "sha256": "1117183ca13f339050a148dd801d3ee6270d674ca47926655ebefd3a27fb76dc",
+      "bytes": 241108
     },
     {
       "path": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_ROT_03_Temp_512x512.png",
-      "sha256": "c067c31179b3a9840fa1a4930e8f858853e1884d8e1c9e1754358df07c8285b0",
-      "bytes": 177779
+      "sha256": "5bd70dbcf5e994a2e49ff51c27624ef0e5119e5bccef924102730de049dde81a",
+      "bytes": 229604
     },
     {
       "path": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_URAL.png",
-      "sha256": "89ceff21af740e4864e8d88e368dbff8034baea779c0ae237eb6a8d4eb0292bc",
-      "bytes": 113820
+      "sha256": "d8a15283964db01aa45ddb3608722aca0dfb7ea4dad67dd5e8bc0c621ac75864",
+      "bytes": 159324
     },
     {
       "path": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_WPN_ArtTurret.png",
-      "sha256": "2ba0b5ec4a07d3af71edae19acf061ef0463e19aab9601032338612090bb2f3b",
-      "bytes": 19245
+      "sha256": "db242885b1aeb175404afe8e4e89746aa7ada3a7a16a95206bf23408b0fcd512",
+      "bytes": 30841
     },
     {
       "path": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_WPN_AutoCannon.png",
-      "sha256": "2388517001039643bd5b9c5dedca057a491cca0bcd4176ab98774505818fc189",
-      "bytes": 91044
+      "sha256": "99edc6b5382bc599f72d8c6b76fd8d4120bf7991a784b60306bd952b359e245c",
+      "bytes": 125386
     },
     {
       "path": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_WPN_MachineGun.png",
-      "sha256": "1975e91b1aae794cac9d5251fa29bdb7ee7d4080f324656b47e34f85f88f1c99",
-      "bytes": 53138
+      "sha256": "121564ace55c3330e5c089c2f72322b0df6667cad76cae254bbb709557a7d7b9",
+      "bytes": 78863
     },
     {
       "path": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_WPN_MiniGun.png",
-      "sha256": "ed74d26f3998005bb187fd7fc150e4ab19bcbc713cdd357026c4fde35c5fc2e3",
-      "bytes": 64182
+      "sha256": "46481729a045fd48c95e0936a1943cb125b9b03012a75be70d145987606b7b46",
+      "bytes": 105638
     },
     {
       "path": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_WPN_RocketPod.png",
-      "sha256": "a7c85d34a9bbcd3300a69a2c644cb0585bf1edab250229b688cb7cd16bff7cdf",
-      "bytes": 108921
+      "sha256": "62afa6883fbc602870390cfa3a23a4472bc26a628a1709a5dbfaa1cbc869e362",
+      "bytes": 157971
     },
     {
       "path": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_WPN_TankTurret.png",
-      "sha256": "d1dba7cd230d810e0535dc05b3f1c419b5e12bc9682fe663f98a018e3eb59aca",
-      "bytes": 20200
+      "sha256": "8c80515e585fee0c24ca49321e965bffe694b312b6ff8fe5ae0e60d34c6b835c",
+      "bytes": 32645
     },
     {
       "path": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_transport_Humvee_Temp_512x512.png",
-      "sha256": "460fafde61e66231f8a9eb92c9d3d0517431530b0fe0ce441c1dd6b8edbaf99a",
-      "bytes": 119692
+      "sha256": "a1c3bb5517c47bd5ce32a4ecf6c5f1730aaa82de8d9b2310b1c1c47f7749df87",
+      "bytes": 165247
     },
     {
       "path": "UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_Gepard.png",
-      "sha256": "491fbfaa9e0a1de9d709a1fd39430196dec9a36413a50b9357cb8dd12dc3e1e3",
-      "bytes": 268522
+      "sha256": "42ac5f6f0d99fbabbf728cc01c670f93c97638b25fbdc066fb98ac68fc82f2ab",
+      "bytes": 430011
     },
     {
       "path": "UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_Havoc.png",
-      "sha256": "127f87dbbcb04e989ceb1edf54fdbf867f5b82f1342273d7a3de3b4787320e6c",
-      "bytes": 129678
+      "sha256": "14b8b10734d1a70a307d26630bb7a56b9373c5e5fb2f02b5475b396098c85160",
+      "bytes": 182389
     },
     {
       "path": "UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_Littlebird_3.png",
-      "sha256": "a4632a06b415b07d10a00fc963deae4bb26cb3c2252c3875b91cd636ba654836",
-      "bytes": 188451
+      "sha256": "9deb9ade6d2ee57c92af9c01cbac6f864f401e2ba6c8d274a0b8262301467881",
+      "bytes": 247402
+    },
+    {
+      "path": "UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_TNK_04.png",
+      "sha256": "3f6f729e7ca8ae415328b2fdf4f60b68d5fa94354be1513db8d6ed93aa14b3e9",
+      "bytes": 504568
     },
     {
       "path": "UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_URAL_2.png",
-      "sha256": "998ffa039e295105dc08787e7a022461bf85c2cef21103e58428b42f5c85add6",
-      "bytes": 117302
+      "sha256": "6e6a51197c0b770750a5c2ee3d57eed14d52f532e95ff8a074378fea9a3fc624",
+      "bytes": 165071
     },
     {
       "path": "UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_URAL_3.png",
-      "sha256": "28e607dad34f3e56815776b0fb544079a066d063c503e94a915d1ada40ea29c4",
-      "bytes": 119227
+      "sha256": "f82d597595e61817a6f53543be66a779f022f1b834e568597037174e4675995d",
+      "bytes": 168714
+    },
+    {
+      "path": "UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_WHL_08.png",
+      "sha256": "a732f80268cdea92272d49c806634b068ea2fdbb67bc633fba70938396abda5a",
+      "bytes": 193863
+    },
+    {
+      "path": "UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_WHL_08_Gun.png",
+      "sha256": "bf614ccb508628b6cd851b34a58811b70fd59ddb2f044c76cd3409c51efa2b3f",
+      "bytes": 210471
     },
     {
       "path": "UI/Shared/Icons/Vehicles/GarageVendor/T_UI_Supply_Ammo_Palette.png",
-      "sha256": "3924333dbb63fc2fc1c3a462d1be6faf94838d9e1f3189c901f5ecae6302f4c0",
-      "bytes": 67235
+      "sha256": "ae6cb72de2c62e20521e13ad8b49ce61b36df472977ae2bc90d4066b767ca1be",
+      "bytes": 93887
     },
     {
       "path": "UI/Shared/Icons/Vehicles/GarageVendor/T_UI_Supply_Build_Palette.png",
-      "sha256": "cb936c1d749e2b325568c1067138a58d9a6e7794f83e18bb3214fcda7b10f844",
-      "bytes": 63154
+      "sha256": "a0560968e2563b3eccdc4c91372e949ab309ff4d1cd1e0eba4d8661cf39f3c36",
+      "bytes": 92380
     },
     {
       "path": "UI/Shared/Icons/Vehicles/GarageVendor/T_UI_Supply_Fuel_Palette.png",
-      "sha256": "171a6e8673b354a2b4357c46e509d5f81f40e3fd80e52627eee8e2e8b05fd5f8",
-      "bytes": 68026
+      "sha256": "a45e97036d25394345b9082bbb7df80ea4a0a1fe970bdb2e991db57de376b4aa",
+      "bytes": 92848
     },
     {
       "path": "UI/Shared/Icons/Vehicles/GarageVendor/T_UI_Supply_Mech_Palette.png",
-      "sha256": "0064f06513e5d57202eae5d4f521e2928273c66b9d28decac01ade3cea19bcbe",
-      "bytes": 73298
+      "sha256": "5c02f5e2c2b33014b3f267324c3b0c05d782e0a511091bbc327924b4b13454a8",
+      "bytes": 103920
     },
     {
       "path": "UI/Shared/Icons/Vehicles/T_UI_Icon_Vehicle_DuneBuggy_512x512.png",
-      "sha256": "df7ce6cf7a69e21008d46ad88d892c5f681e68d1fc635cec103b540e1f9001c8",
-      "bytes": 107394
+      "sha256": "546858b289caa5c672b350e263840fbf3281f14d62f7353e819d5d116d1b9e03",
+      "bytes": 131660
     },
     {
       "path": "UI/Shared/Icons/Vehicles/T_UI_VendorIcon_ROT_4.png",
-      "sha256": "ad75ee503a9603e21532bd7a92be90d79858ebe372a9bf834c0dbf1bed5b69ac",
-      "bytes": 67797
+      "sha256": "5d16db43eac115921c04e4e5bd79d3d2682f37c37225470f3731e5c244987d0b",
+      "bytes": 88690
     },
     {
       "path": "UI/Shared/Icons/Vehicles/T_UI_VendorIcon_ROT_4_MiniGun.png",
-      "sha256": "7cb651c2bd0c7e5b850439d9cac6523b3e80914a0139ce1276fa971705811fd1",
-      "bytes": 120011
+      "sha256": "52ed3f1f76a95f8babb04d04e07562a277e7a5ba8dcdbdc44bc66acc35c45d48",
+      "bytes": 162668
+    },
+    {
+      "path": "UI/Shared/Icons/Vendor/Gear/T_UI_Gear_PilotHelmet.png",
+      "sha256": "b9d7dc44d042a78d1cb48b74ca6080458a7028cdb40073f83e8a547d0dd187ff",
+      "bytes": 26156
+    },
+    {
+      "path": "UI/Shared/Icons/Vendor/Gear/T_UI_Gear_TankHelmet.png",
+      "sha256": "c37417d9521ff31988050619e3b46c52fd611410d0a5154d8520df9a7a264ca7",
+      "bytes": 26330
     },
     {
       "path": "UI/Shared/Icons/Vendor/Gear/T_UI_Vendor_Armor_001.png",
-      "sha256": "84df11ae7582ee8737bfdcb9fab639cdef67edd71617c69e9458ed661f6d9983",
-      "bytes": 49588
+      "sha256": "7951d449b570f12789e9e3a709175924f08843268c27d566caaf3db549a75dc4",
+      "bytes": 75184
     },
     {
       "path": "UI/Shared/Icons/Vendor/Gear/T_UI_Vendor_Armor_002.png",
-      "sha256": "446c8940a092042d6a78cff5ce02c308632873154608458cf820539e06a90ed4",
-      "bytes": 41470
+      "sha256": "c0ae34a6d8b2759db68052a0ae085eb4336dd128a6b048b0b5d2cf9d9309612b",
+      "bytes": 55130
     },
     {
       "path": "UI/Shared/Icons/Vendor/Gear/T_UI_Vendor_Armor_003.png",
-      "sha256": "ccacc84b4477a8ff7ff861221b77dbf5c0adbb0f8b5026a506f7f9c783a3cf64",
-      "bytes": 33229
+      "sha256": "267ee7ca2b64b3c741e9608bff9ba65d8f9f2a3274ea6c5455dc1942cf44f2e2",
+      "bytes": 44188
     },
     {
       "path": "UI/Shared/Icons/Vendor/Gear/T_UI_Vendor_Armor_004.png",
-      "sha256": "5a067263996b2cffdac01eb1f56c12985f09e8225d0e239fa339954123846159",
-      "bytes": 35042
+      "sha256": "f242c4f17d6d20f5f273cc3928faad02c57234a17b87cef211becea20d4a9130",
+      "bytes": 48959
     },
     {
       "path": "UI/Shared/Icons/Vendor/Gear/T_UI_Vendor_Backpack_008.png",
-      "sha256": "2fefd4605423ae0ba7a78f85f579dc7c3b195261a832daf55db03de35c571eb5",
-      "bytes": 21677
+      "sha256": "d2f51448c7a5440312bd0cd4ea8bac490a340f5a69e8ee5b4452f478009353b7",
+      "bytes": 27178
     },
     {
       "path": "UI/Shared/Icons/Vendor/Gear/T_UI_Vendor_GhillieBody__Dead.png",
-      "sha256": "792c0ba6bc94b398600fe4bcabe63ed5d9ca221ff480184676eb440f8f1a2b4f",
-      "bytes": 29539
+      "sha256": "7795d5d1118fa115e799d866a8365bbc47bf37f1e3a164a751bf304b29425b96",
+      "bytes": 32538
     },
     {
       "path": "UI/Shared/Icons/Vendor/Gear/T_UI_Vendor_Ghillie_Dead.png",
-      "sha256": "eea1f5bbf9896a545e146111a2a4db2ede52d5c23346b7cba83782780da635eb",
-      "bytes": 42269
+      "sha256": "ba0e0843d434327b02667c450f0ddc3099b9398d47a9c1931fba3e32492cde0a",
+      "bytes": 45767
     },
     {
       "path": "UI/Shared/Icons/Vendor/Gear/T_UI_Vendor_Helmet_001.png",
-      "sha256": "b6236cc0f76e6d76e2cdffb6c737f0eafcf84346abadf0b1c2065520c7c636cb",
-      "bytes": 17031
+      "sha256": "3f0f1628a38699e5895114a27403f9227b137d513b3ebad3198522a1cb4d7166",
+      "bytes": 22312
     },
     {
       "path": "UI/Shared/Icons/Vendor/Gear/T_UI_Vendor_Helmet_002.png",
-      "sha256": "a8b880d2a763adf501cbf02cc3e5c2546cb0d0c9347920fa2d0cc8ee52d5dc07",
-      "bytes": 19066
+      "sha256": "5d9a1d5ba4ed3ffb6e41cf4d7e4da89f89699e541c7f894389a4c2b505ca4ed9",
+      "bytes": 25256
     },
     {
       "path": "UI/Shared/Icons/Vendor/Gear/T_UI_Vendor_Helmet_003.png",
-      "sha256": "2d558f5f49ce338f5db3e438a991faf791bc885681f20824c70e2de8944e0aaa",
-      "bytes": 20601
+      "sha256": "6bdb4dc69b311de8ea30292a852fc5e99917db3d121f17f12d9c5401b40c0cd4",
+      "bytes": 27510
     },
     {
       "path": "UI/Shared/Icons/Vendor/Gear/T_UI_Vendor_Helmet_004.png",
-      "sha256": "9535074c9bfe9a71fe96ad800e31ab3bed2f25bf9f603d86e5a6991a11fdcee4",
-      "bytes": 19627
+      "sha256": "6f91c981ce9e506791e6233e67a3b47abc2adba11e112013aff825b26cf3a869",
+      "bytes": 31977
     },
     {
       "path": "UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FGRP_001.png",
-      "sha256": "57b579b1476735bdba6f78af516a19ef5c56b2ebdda68cfd654784d1c92fbeb2",
-      "bytes": 17498
+      "sha256": "b1b46462b876572a72e968b040e33c5a37c30ef6d0d7f1db47a7d84b68925a5f",
+      "bytes": 22739
     },
     {
       "path": "UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FGRP_002.png",
-      "sha256": "e35690117c94bf7a3e9153770e12d674dba0a9dfdcfd6733bf862511c8a9659a",
-      "bytes": 11596
+      "sha256": "d6ccfbc3b5c3cb93f745dceff86fabe3b8a091e921ce834da6563b0043695400",
+      "bytes": 15137
     },
     {
       "path": "UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FGRP_003.png",
-      "sha256": "cb160d9a06bcee04d4aa9736dfc1e18ab7711a55a59cb998f9098f61a44f8447",
-      "bytes": 14038
+      "sha256": "47d7a370cb5ddc775ab1876bbabf558d0a6b98f5b3d539cd2b825ff3138192c7",
+      "bytes": 16327
     },
     {
       "path": "UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FGRP_004.png",
-      "sha256": "81fffaa261b8cb6bcc806a8e58597a9dd5eb722210dc6890bb331d31dd94aae2",
-      "bytes": 9793
+      "sha256": "d544ebd77de4e0f6f8e12d33bafc787c4535d93132362f50b9937ba92753c6f4",
+      "bytes": 10492
     },
     {
       "path": "UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FGRP_006.png",
-      "sha256": "7bdf9d6c3a59a0729ded8ffbd02fb35614f8540b33193590deeddb044ccfb56a",
-      "bytes": 13116
+      "sha256": "db8be33a7f3e76f4cfeb87c36faa1fe5f8c0b868187dc53dc12e95d387ce9f2d",
+      "bytes": 19041
     },
     {
       "path": "UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FGRP_007.png",
-      "sha256": "b9cf909a9ff1847389c84f266ae94a0def2f6e41d99eaea99dff18ccd56ade9e",
-      "bytes": 16999
+      "sha256": "c9cc4f67f4b356c4ae7b3fa12230ed44845c2e906dab31c0f0041ba9cee928a4",
+      "bytes": 19414
     },
     {
       "path": "UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FGRP_008.png",
-      "sha256": "a8122a700a604ad460a6b3bd78bd681ca06651ba3955f3c8df42c8caa6d11dae",
-      "bytes": 11012
+      "sha256": "27ed67dcc29463b27f6b79f09ed0eb4cac73a8995f1509a0ba49a51fb9ee3319",
+      "bytes": 11321
     },
     {
       "path": "UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FGRP_009.png",
-      "sha256": "d6e04cfe7f7e0377f8cebc027ac6e8bb227e03b9e1948a83810b8159802b72be",
-      "bytes": 16587
+      "sha256": "c25f29206a3c1bbc591f02e529b0abecafa1552f8e37355e7f1d9f747fd89a2b",
+      "bytes": 19101
     },
     {
       "path": "UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FGRP_014.png",
-      "sha256": "13560ca8a4216c6d92ea5804d51675b9cc94d8e603d476c385537dab2ad68a20",
-      "bytes": 21502
+      "sha256": "1b6497e1d9bc88d0126e0366beae6d6107ebe6d516e262d89051f2d3a19e5718",
+      "bytes": 25473
     },
     {
       "path": "UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FGRP_015.png",
-      "sha256": "ef3c4d0c2ad020f7c245d0d7c346733818ef59c4644a5d643f1d7e107f7fcd7f",
-      "bytes": 11503
+      "sha256": "0e92177e18fc537e8eb669d2d42e385d5932d56c6b7bf93aa4f7d5def30f9b1d",
+      "bytes": 15509
     },
     {
       "path": "UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FGRP_016.png",
-      "sha256": "0ea17e699b3fae5fdc5d30546e188744c59f3d460df8424c91fd3fe160c5fff7",
-      "bytes": 15599
+      "sha256": "4bccd538df5ecb3ad9f218c62fe44446cd0aa980547e8bbbd0e383f6d6df2564",
+      "bytes": 19272
     },
     {
       "path": "UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FGRP_018.png",
-      "sha256": "50574543c5e48cd02b18b194f7f5fb4ef9a51fab83a17362a4039b258ccba2e5",
-      "bytes": 18885
+      "sha256": "979c0999634c8f1b61b386a8e50a2b78bf874004efc0e4d0e3b0078006d29612",
+      "bytes": 22959
+    },
+    {
+      "path": "UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FRGP_020.png",
+      "sha256": "b37e577750194cb49ae42114af5fe8d76a4fed4923160a05cf79467396c48615",
+      "bytes": 8597
+    },
+    {
+      "path": "UI/Shared/Icons/Vendor/Grips/T_UI_Weapons_FGRP_019.png",
+      "sha256": "75ad02011fa9c8706e7873c2007f34b7928d11e50b05157c0688a3c99c69bc59",
+      "bytes": 9969
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_001.png",
-      "sha256": "273460c3b513b30481d40e5166686195655cacfdcbdd4129fd04368b7b5c1c0d",
-      "bytes": 46517
+      "sha256": "104e21a9aed30d12f9ec3ba425f4489b3f3cc8f314d74ca14ec64c9b3a4f89b3",
+      "bytes": 65248
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_002.png",
-      "sha256": "a792856bb6532a64796d0381f333573afa0b30c8ea7e037647959f97d8f231ad",
-      "bytes": 43946
+      "sha256": "8ee1ed3e4c2e7e99b6651a4c8ff8d8f2a3ca1af82c00f7c8752ff36ab83ca2bd",
+      "bytes": 57743
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_003.png",
-      "sha256": "5acd3c37551be000e1acd96a91f68d1ad7e96c66f9186596a7483d3e0ff949bf",
-      "bytes": 54413
+      "sha256": "17c602976e7552b10e666c225e1968971600b604072098658562c974d462cb16",
+      "bytes": 83848
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_004.png",
-      "sha256": "16b8a069bdae35ce87073fa3d5857d66f29f2ea9eea3928046c56aa047b445b5",
-      "bytes": 37929
+      "sha256": "3cd54ba88a7059b715bae62f7615efa869ba9109074ab60471aab586bb3b4b38",
+      "bytes": 51991
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_005.png",
-      "sha256": "c9dc5bed44bb5bdd7dcfa86da405c1af11cbb2b42822c53e9719daf3800651a9",
-      "bytes": 46926
+      "sha256": "715d098f888aff1259786361f59f5c7d46327489165fad79a334c82208997764",
+      "bytes": 64669
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_006.png",
-      "sha256": "e4049022e03b27e29a17338ed8e5b929bdbdcce01d7b53e73c540e2f4b06f216",
-      "bytes": 60143
+      "sha256": "f8d06a73c67db0ae41c451209e6fc74fc33c83281acfa32e5fcbe02038cb19cc",
+      "bytes": 90086
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_008.png",
-      "sha256": "c7a74f8870397464a942b66cf918b84863dcfa4b0243d4c4dfaeddb5a55a21bf",
-      "bytes": 30630
+      "sha256": "a7160d3094e13ae1b15621fdf58596f2b985824a4b0dacb773d5448292e13199",
+      "bytes": 47081
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_010.png",
-      "sha256": "7971bb3ef9efe0587b07d0325c6eee7117bf1e2f8585cb7742f999f3a005ce6c",
-      "bytes": 25270
+      "sha256": "6099ac1accac919d1ee17a6ad8dff0776460255904bbd78a53484cf1e8e4f443",
+      "bytes": 38222
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_011.png",
-      "sha256": "d14e06884b81792c4309e3cb1184be713365909c82b9c083e988ae2612232294",
-      "bytes": 33426
+      "sha256": "a6489c40b701205574b8cde4d2559918c258f68fdfdd96a2fedf9a14ccf2a87a",
+      "bytes": 47213
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_015.png",
-      "sha256": "c1fa652053c6a306761adb291d3e0f438f2e7cc2c013f20ba67d444c81830dbd",
-      "bytes": 103131
+      "sha256": "f05a894795be60bcb7dff898936ce432d9902e5790fad169c7c20f50f9ec6fe4",
+      "bytes": 137422
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_016.png",
-      "sha256": "9f1185a0bcf8ee61491599a0c549cc691e0c49c51062121bdbcb3211fdf70fa4",
-      "bytes": 40942
+      "sha256": "46e80d140b29dd553a89e330f19fb6c7c7f9138f315081db2f6bbd2df74ccca3",
+      "bytes": 63343
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_024.png",
-      "sha256": "bc0654a61737dc238e738625d722f8f2bb739d1325dc0a4975a8ca0e77382c32",
-      "bytes": 82725
+      "sha256": "adc2bbd0cfc6e7d34293c0d3c033c172f41f00badc93a9eaa966a85d154a6ff3",
+      "bytes": 117430
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_026.png",
-      "sha256": "fcebb70d9920e805d5726bca6c08bfec5dbb948688b9b1a8979317f621d19b15",
-      "bytes": 56201
+      "sha256": "4dfd4d3e070892aa4643186f46cf8731a352170aeb2062463c8f7c0303333d39",
+      "bytes": 78880
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_034.png",
-      "sha256": "4977eee8742926492f6b4d545180b381709f9cb17d20bdd72854d92d98c37d88",
-      "bytes": 19880
+      "sha256": "45c89078fdf47748b0f7a9d0ebf26941eb6de091fdb9318c8940a65e91a83c91",
+      "bytes": 28776
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_038.png",
-      "sha256": "4b4c0bb2a15f26f1006b84ccc8d483ef2d9b7feceaf054dfd88b643e49d1c9fb",
-      "bytes": 98098
+      "sha256": "20f1fe7f1df30c22eec16af19baa6b2769704893f9291f784f12d91cc5abcbc3",
+      "bytes": 148094
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_043.png",
-      "sha256": "82fdf2b7287ec04572ed8bc6434f9e061fe73af7eed26f80a0063f001c67edd0",
-      "bytes": 75492
+      "sha256": "4783ccd1b551c624a464797b6ab028338b41e4e7eef3ba9e598b002d2c1bffb7",
+      "bytes": 122721
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_046.png",
-      "sha256": "daf28860c4f656f5cb26f8a350d5f4583bbf7077c9c9c6d83ad99f25f7fb0e96",
-      "bytes": 46350
+      "sha256": "7f938c25a1597e4592de1e10df292a55dcc60b60074a18e679d5429edd811bdf",
+      "bytes": 62970
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_052.png",
-      "sha256": "cd0638d1e22f5b09009f8b53f5552fdcda6ba48be69235d572cb33f5ef201dd9",
-      "bytes": 62385
+      "sha256": "32b62b99e54b26d35e551c140fbf089726bc7ece69e9b661378d7c33b91fbfab",
+      "bytes": 113100
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_053.png",
-      "sha256": "feb1be9f1ee1680ee75231f96e1de414ef4089c4409950d6f0b458390cd0d211",
-      "bytes": 55933
+      "sha256": "856515c6dc257fdb34b4f762af4cbd90f4bff37964438177d3392e62158267bb",
+      "bytes": 84289
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_054.png",
-      "sha256": "ebf700351d4c44b21169645976f33a578247e3d451fe4955ab538f7c3886c9bb",
-      "bytes": 43123
+      "sha256": "d43b59606063a96489bda31508ff471a4e3461db1fc1079933e8b2947060f39c",
+      "bytes": 68217
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_055.png",
-      "sha256": "0c7877947da8e92082fc83f91b622438eb343dfe0f36f35e0d9cadbabb47acc7",
-      "bytes": 35803
+      "sha256": "3bc9ef00d15e76ca7251548607b69f571d618d6d5b4d9b119d21b1c002ed867f",
+      "bytes": 52186
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_056.png",
-      "sha256": "ad0ea6dad4cd9ee07b923d03f8f4b30bad7e101de231e37a587f27e8c0ba1eb8",
-      "bytes": 54233
+      "sha256": "30c61e7836483f3963ca5f90b291b873b71571e74fc618e538f3cce705b6e761",
+      "bytes": 84024
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_057.png",
-      "sha256": "832eccb91264b552cab8dfafaf6ce24c07d6a3e6e3c6da8d651adab5f54f5789",
-      "bytes": 74247
+      "sha256": "64a17fec41f2b18ba41feed782913ee0380c23cc785f7d58ebe65574e6c4d5d6",
+      "bytes": 122122
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_059.png",
-      "sha256": "e88741aa36c83fb0c4b7d15d6cf21cf717f7e7ef31f0ecce4212a9ad4ff4188a",
-      "bytes": 57614
+      "sha256": "84c15e475f2e6afa9e3b5f058e9c63968ad19eb9f144c6d0f3af5bf965af9420",
+      "bytes": 82109
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_060.png",
-      "sha256": "74b0192af617760a65b4d0f930635f34a414710fd32cac3a713f5e3a1f024256",
-      "bytes": 49961
+      "sha256": "170d951c7806347c53a55c7c4a07791967d9d6148ed35997980cdb7d8242463a",
+      "bytes": 74098
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_061.png",
-      "sha256": "c21188fd58929257df525a3520467606b6f29448fe500f04ada51709772e8e68",
-      "bytes": 76679
+      "sha256": "11b0ce57d647b915a3be5adf1c62a0d534406d07e34f18a0fe711a9db5b09d68",
+      "bytes": 134711
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_062.png",
-      "sha256": "b4d96ca155fdda500c8a32afc80943d612d0507e2ae9a343df538a174857ac48",
-      "bytes": 135952
+      "sha256": "1c1ce969facd277925299122fad89e569da7fa1fc6c61e75db23c4c1e7dabf8c",
+      "bytes": 180095
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_063.png",
-      "sha256": "3a5e77672fe8196a16d726f4dbf48794debd3f18901d8dea60d862155957759b",
-      "bytes": 44919
+      "sha256": "612ccc2ce017c134406c105a0707be34037541fdc9d8dab39f58e66ebae80683",
+      "bytes": 59345
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_064.png",
-      "sha256": "8a608db7e852969431886185993b0555aea912d4789d3c6eb20e1c86716813af",
-      "bytes": 37180
+      "sha256": "eb383b7a5abe7602d2d55ae743a6d5be6541d48a069f4563b0f873b060778755",
+      "bytes": 57517
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_066.png",
-      "sha256": "54eb33f6036a86f7612ae6ad1550754f87ebbbbbaa260205a9e05c90d91a11f0",
-      "bytes": 42828
+      "sha256": "5939f855fd81cb9582c5a94994a482917704e673a889a01c214a6713b0c10432",
+      "bytes": 62207
+    },
+    {
+      "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_070.png",
+      "sha256": "a7b33aa80dafcc36d1a01df837c477050d284a305eef41f58842a88e033195c6",
+      "bytes": 87112
+    },
+    {
+      "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_071.png",
+      "sha256": "1efe143db7afef9107c744f8dfc5f651575eff117525de092e2a742b66dd1fe9",
+      "bytes": 71788
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_LMG.png",
-      "sha256": "3d66bbc911891aa1acd509e8a9f8c9b89d3b284abe1cdcc6d9952692c60d937d",
-      "bytes": 103984
+      "sha256": "6ca4f219f14d7705c995738bf8b83745bf72b4a0f6cdb2be843a638286898575",
+      "bytes": 157670
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_MK22.png",
-      "sha256": "598a2e07897b49e4e01214ddaab85eceeedd04fd95ccfd93daea456d044979a8",
-      "bytes": 34835
+      "sha256": "6a5e0eaf514b6d50cbe2e7de8ef7a74c6d6ecf10f4c630633e1bd81ebb36f272",
+      "bytes": 45844
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_PP19.png",
-      "sha256": "234ab55e5982ecd024fa31946be4e24669351bb8a7fbfb0378b0f25ef378d7f6",
-      "bytes": 47701
+      "sha256": "d2ed0718a2808214cf16e4576026c31f78ccafca9bc3a482db09be582d14b637",
+      "bytes": 73065
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_RFB.png",
-      "sha256": "0b0082476f02ff3c0e9d9f0ecafd8b1918f770b2d1a34b32615107d955df7ab4",
-      "bytes": 61468
+      "sha256": "e9dd0d077fe333ed26c9056f69df43269a9ebc7aaceaff142d9c54a8ba090c84",
+      "bytes": 110533
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_SR04.png",
-      "sha256": "fb62d5102b7a3d3bb13b7dd0b376f0920d5e49202997e5542f6f5cc4f5aaef25",
-      "bytes": 32107
+      "sha256": "40ffe7cb4aabe0197a136b6125d2792d5b102df3cf4b449cce72f566f6c8c761",
+      "bytes": 44022
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_SVDM.png",
-      "sha256": "5660c67fe5c70e4bc5b4cb66f09b99c17d43a9d03dd64da760fd1a1716bfe0db",
-      "bytes": 51935
+      "sha256": "92ff162ecfa51bf4106fc045ffc1f3b7735b2d98aa3ff34ab85f1856ca17c65e",
+      "bytes": 69960
     },
     {
       "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_Stanag.png",
-      "sha256": "ccf5a531e39241c60f16f7548f223cfc96e970269895fa1229e93a1e6944b1ee",
-      "bytes": 62457
+      "sha256": "835b0b8e469590545721c5811a57ec599d084506e79bf7792b09f6302ce17084",
+      "bytes": 86685
+    },
+    {
+      "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Weapons_MAGZ_051.png",
+      "sha256": "95717c50b5d81fb17b3c561bc4d6c1a6e950729aac7af3bbaef1216acf15886f",
+      "bytes": 50522
+    },
+    {
+      "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Weapons_MAGZ_067.png",
+      "sha256": "beb074cba20466909beba12cc5a4861a2910c925bfc987d8ed0a26d33cd19ea8",
+      "bytes": 165066
+    },
+    {
+      "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Weapons_MAGZ_068.png",
+      "sha256": "3d93c9944cc0fee4259834718474e02d464f0e0f106fef3742f0ff3a4be2dddb",
+      "bytes": 114247
+    },
+    {
+      "path": "UI/Shared/Icons/Vendor/Magazines/T_UI_Weapons_MAGZ_069.png",
+      "sha256": "32e8bcfb983342d03900ce3d7f53334fdbab56cb60abb67eb1bf08fabd134bde",
+      "bytes": 62795
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_004.png",
-      "sha256": "4c324dcde1a5e48bc687cbcd425e6b40db03f13bf3265cf757f07d1bd041bf4a",
-      "bytes": 11095
+      "sha256": "496869622cff0a070002c9d06ddff8a00685950486511447a97789e6e55da74c",
+      "bytes": 14671
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_005.png",
-      "sha256": "32ca865628b5caf067e89562a2b16296ae74ee3d5a0dd7a0f768a369d430375f",
-      "bytes": 15829
+      "sha256": "ef4cae54a5fe23999c879f00a69eb27ca5c98dae8071a04ae6db213261b02735",
+      "bytes": 22944
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_006.png",
-      "sha256": "a33c84b0a7230cc8fe5663471f71d648bb8c62e9e8cd976f9ce8e42f13756f12",
-      "bytes": 15281
+      "sha256": "1df41ae68725fba5a81a62d9e5ac2fd671a9b1da117cf19159389b85add0609a",
+      "bytes": 20906
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_007.png",
-      "sha256": "7ba67c549e8d5a02ff71b5e4a8856e82642f4fc3e4d72a83a71393deef240fbb",
-      "bytes": 11365
+      "sha256": "44fcec28ac58369dafb6700077ec4f4b00f85945ddc37705b96553ec28121367",
+      "bytes": 14931
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_008.png",
-      "sha256": "08f280d906667836ca9fd2501f0b41849c2f8443e6167a64fa84ea874a798775",
-      "bytes": 11077
+      "sha256": "c130e313fb86b41ee3f9d288716023c144491dc9caf46b48c104815f8b957517",
+      "bytes": 14733
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_009.png",
-      "sha256": "a5992bd709a846892cfa68386794296859fe7332e230e475d29e006542526786",
-      "bytes": 11128
+      "sha256": "34d71e4f6f197292b763fe3d00a31d04d34c3b3173b1af9140ba557b3a0cfed0",
+      "bytes": 15224
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_010.png",
-      "sha256": "382396fa405b796dc3758818eae60c1d7f25e3e2ddc9a522a9b62d0c0b1fad00",
-      "bytes": 14476
+      "sha256": "0851964cecbf049f6882350edf02b323384f918218b1a6324db85e2000672289",
+      "bytes": 18584
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_014.png",
-      "sha256": "2941d8c8a71aae77262d9fed8ef15adbfa2e0080f8be176479f02b2af0ae5266",
-      "bytes": 16830
+      "sha256": "2339694f10ac222da04c9a275f5ec46e788c4c7b4b586b86f149bd3b6127c5e3",
+      "bytes": 21025
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_015.png",
-      "sha256": "1f39d7892faad81ea485fc00448ebac94f550ff40bcc9e4522ce50db1709f7a6",
-      "bytes": 17918
+      "sha256": "730de11696066fa123c205c501f86cf03699a004af8c0f0d93a552578341d6f8",
+      "bytes": 22570
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_019.png",
-      "sha256": "9eec7efa30f530c9bb25605214c8a906acf2a290dd5cb965ebca68c97ddba985",
-      "bytes": 18560
+      "sha256": "3abbc09a1757c59003a2f5fbcedce1a9152f582ea89b033bf0d5adb588f1b9eb",
+      "bytes": 21848
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_020.png",
-      "sha256": "7c793c79c21ed282c3e920dbadada20bca6e0ef1bdb3a78e02882faab0aa0427",
-      "bytes": 16193
+      "sha256": "089c31c9d6d8f81de658fb2de335db0bb40438dac03868f65cf7de8539e571c1",
+      "bytes": 21963
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_022.png",
-      "sha256": "5cb4503609f1d8d2266be95affcc41ed656cf740a00a07eb55e2e43c4ac71090",
-      "bytes": 17145
+      "sha256": "d6a38a1c5c7af0d4e5a2c24c88e6a06629a1c0cb8f76c3539a3390b2dc646db7",
+      "bytes": 22216
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_023.png",
-      "sha256": "8e5bf35514e7f11f024066eb1179bee39fbb1be30af703ee403f8105b35a7fae",
-      "bytes": 19323
+      "sha256": "d766fe99911f9075fc1f19480c97da84bc2a47d6d175109b1a9e29ab57293f8a",
+      "bytes": 23969
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_024.png",
-      "sha256": "0ed25218c8e1893d008b0913c062e48b8839c7dc2da8537bdbd1403ae11aa272",
-      "bytes": 17072
+      "sha256": "cb775b1eb36a27332b60363e5ea51668b2f60a4af311ceb3cdfb49cddc68ab35",
+      "bytes": 20627
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_025.png",
-      "sha256": "0289325618dda782f0356bf57829518e57a3e036b39bb7023437a4bee4b25aef",
-      "bytes": 16474
+      "sha256": "0fec18a6a6cb787a719eef62a40d43e76c2dd2bd9f6042979ded08633a02f4bb",
+      "bytes": 19280
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_027.png",
-      "sha256": "3b3f8ed5e8b5b9d6449242a9aea8debac13ce204175bdfdb2d04f8f82668c0fb",
-      "bytes": 17605
+      "sha256": "e00d20da6e438cfe0a4ec96c4ce357bad4a50ee26085c2f73122fa316782fdc2",
+      "bytes": 26188
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_028.png",
-      "sha256": "2da20600a503daf38dbd1a3532799eddb8191e5bc8b3990762d9059b5631c30e",
-      "bytes": 14382
+      "sha256": "4e3e011ca744a9733dc52de81eef4c632e7b1830fe7350fec1c12dbda07a57a3",
+      "bytes": 17690
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_029.png",
-      "sha256": "4dd87a88f00f494c226696e5f1ac4d0483dbe65ab095cb9aa34493569c032804",
-      "bytes": 16592
+      "sha256": "f449b8c77c75c7033e8eebcb7aff5dccdb3adfe9fff01961b9e89636bf01ed97",
+      "bytes": 19870
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_030.png",
-      "sha256": "45e0c662ea9315b5eef1f7d37b0fd5217135e9bd4beb56d8fece8b8bf91dafea",
-      "bytes": 16476
+      "sha256": "8e81fb6b607b0910550b0ba07260966dc535400c8b2546827a2303a6cd2925ef",
+      "bytes": 21029
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_031.png",
-      "sha256": "58a7b1e55a90592edd18d6cc5e283e221157919a1284506e9cc87e2a8b7766e0",
-      "bytes": 16714
+      "sha256": "9189f6766b41ba1a379802af7395adc4d26d54a7026e8402e6611ec28fe497b3",
+      "bytes": 21270
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_032.png",
-      "sha256": "f873fb83525c76923fe59b2495b8ed09175c73cfeacc19294974e31064db1b12",
-      "bytes": 15574
+      "sha256": "12adaa58816fda85347b311497870baf73bf7b96b1cc18289ea4fccde983fcb5",
+      "bytes": 19722
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_037.png",
-      "sha256": "943cf194190ccad94d5fe943c17b9c1a471d6c91a594324c021f84243fbfcfde",
-      "bytes": 14531
+      "sha256": "7da35d98ff0c8699a57806b9c4110635fb91eb24bdf73be9ece66b91a4ceb124",
+      "bytes": 18486
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_038.png",
-      "sha256": "ce5cea95faee224198965ac0e842c902791cc225af5a7ffffe0ccc1a6c4a875a",
-      "bytes": 13819
+      "sha256": "bd8951f5d2ff6f32a6edc0b2ae0cff0accbd90fb40534f5e539f49103c9e57bf",
+      "bytes": 17824
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_039.png",
-      "sha256": "cb5ceb11dadd3f6b0d7c7a44b79b9e10db0f2e264c27c5a9c62b647cda588d35",
-      "bytes": 16097
+      "sha256": "6a2b90afe95d5eb15899e667f26e0ee1c9a6914fc7820c995ad14a437bd5fa48",
+      "bytes": 18843
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_040.png",
-      "sha256": "9653c89a3fcef6dae9be2403661c083e3df9d0e2fde6ffbc75b236714b0e51f1",
-      "bytes": 23795
+      "sha256": "26eb13acdbb3a122bb9ae5e732d76870b19ea1cd5381d38bbbaaf7a734fbfb89",
+      "bytes": 28956
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_041.png",
-      "sha256": "c90c217913bbdf899bc8c1f2edd764143ca3cc3bb0f10f12671cb848b19381e4",
-      "bytes": 13843
+      "sha256": "2b8e2757b3c84cf33cdd82248cd65f8b1be7f60d0f0bde2d16bd5b606adfb916",
+      "bytes": 17807
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_044.png",
-      "sha256": "bafc977a790267cc1421eb2fbfe2f51946afbcc14bf0b40cfd6994735c8f7028",
-      "bytes": 10243
+      "sha256": "7e40d31c5adc4b9549be18f4b825c607bdf9e997c8a0916aff639a87306bb9c3",
+      "bytes": 12204
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_045.png",
-      "sha256": "84cd3a16c19d3954cad1d40afca304ff5115e5440c1f06b145bc56294f16599e",
-      "bytes": 10289
+      "sha256": "d66f831f843d5aa10e872056ca401748b5e5ba815efaeb7b9be1428883c66c79",
+      "bytes": 11922
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_046.png",
-      "sha256": "1ac016dc2b5d2721ce058e338c7341c594bcf934027bec46bc8e64172ac4683b",
-      "bytes": 19334
+      "sha256": "747779c1be086c1517ac5045eba94df90153109d853b8790cab901de85d284b2",
+      "bytes": 24839
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_047.png",
-      "sha256": "3e2eca1c5711dbc67e54e31ad8649aca7c92fd504288996abae1ba761093377d",
-      "bytes": 20171
+      "sha256": "c5d36db768068b01184365bbda422de3929819adbd665ebaf45701795c087156",
+      "bytes": 23605
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_048.png",
-      "sha256": "f61b27a1ce72255fcfdb2d565a773d107976d9f5cfaa0d939423fcafac4b05c2",
-      "bytes": 18963
+      "sha256": "b567310889970a4f71dc642f33ea74763dfa97b929f184639435278574d8b346",
+      "bytes": 24455
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_049.png",
-      "sha256": "b04a8e27784990ca0e939a96440ae511c658298a907b703d226755b0c038eb34",
-      "bytes": 11631
+      "sha256": "6b32220b20bcbc144c2f15ba2381973ee16026056e73617bf74fd2d65fdec071",
+      "bytes": 15590
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_050.png",
-      "sha256": "46431ba687337c4e001cc047b778232c23a71babffbbc3e37466e011622f76a7",
-      "bytes": 22428
+      "sha256": "a38c015c4887fb7c8244233ffc25357d9b528b8822e311b61ee2253286be5315",
+      "bytes": 27033
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_051.png",
-      "sha256": "3feb63b7fb7dbab8b5992e0b0613ab34b8cd28968a9410ee093fb66e85038263",
-      "bytes": 11840
+      "sha256": "875b0b320871c6697f730247cc97d4cec1a558781962dc5db0a025838dd87541",
+      "bytes": 15340
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_052.png",
-      "sha256": "0e64a3095a43d3a0fa579ea91b7dc093237508dd54ceaed46fa2d88fec0c4c58",
-      "bytes": 16993
+      "sha256": "657b32ebab1c5fccc8ab83e3e1d8f493ebd38afa5082fa755a457b0c81fbf045",
+      "bytes": 21923
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_053.png",
-      "sha256": "4bf10b64d470d67bbd1920da6f54cd87ba8bbe3fcfc3dddd53821d27a3197362",
-      "bytes": 11883
+      "sha256": "b9ab0f50c3059420f0beb6aaa40ee10606890ce422580a836af1e8466148eac6",
+      "bytes": 15305
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_054.png",
-      "sha256": "caf95087565580c20b4ae946f890f967065e0d56a122813d7dca2510c24701be",
-      "bytes": 16565
+      "sha256": "f885faa17b84eb0aefc6439860bdd703e07ef183befd791fc3a561477d344241",
+      "bytes": 21686
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_055.png",
-      "sha256": "3be420a46b56e6f05e3b2bfd8f41a0cf32d44a522ac7739c3f6f8fc1b95d7985",
-      "bytes": 16719
+      "sha256": "fbc0b9d7a768161fe984431023cedadfde588a3b45f2e8dc44fba6a84748ed55",
+      "bytes": 22003
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_056.png",
-      "sha256": "4e3f9a6998246940ca646e74f796a10a19fca8df21b8cc66f94d9d65db89cf88",
-      "bytes": 13709
+      "sha256": "89c59232ac163ea55cb275811d1998dfbd8f195f55de4b37ec733c040b3f351e",
+      "bytes": 17292
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_057.png",
-      "sha256": "a3f325ac91b0de4f52d431cd424caae5df17b480ebef8334d6bc655fa59abac1",
-      "bytes": 14834
+      "sha256": "e273b9814641b6c7ced40244425407069c32a2d38d6e34e2876f5226a5ec9d09",
+      "bytes": 19060
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_058.png",
-      "sha256": "1526ac37c16d202dcde406b598202a237eba119b0b5c65d024fa5378c7fa091e",
-      "bytes": 11142
+      "sha256": "15ca5f0342b4e260dbe852d8b6040b3d237e8d75af682746d01d2578155efb13",
+      "bytes": 14566
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_062.png",
-      "sha256": "6cf67cc60879b6a9eb65b2a919cb61bc45aea447de41661aa8ad991f192c5f34",
-      "bytes": 10137
+      "sha256": "82d91c57526032793788a46451c9f849e3ab4e7fabf0c0fccc2d08aa37c29782",
+      "bytes": 12808
+    },
+    {
+      "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_071.png",
+      "sha256": "3a51364cea8ea541e2d8cc7c71ea418b640d65df6e7ad3bcf3958041cc4b4c54",
+      "bytes": 13839
+    },
+    {
+      "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_072.png",
+      "sha256": "cc6323d1e5b33449f69d98b8531353c54a7b0e87adea8453f245f1994c791fa7",
+      "bytes": 17468
     },
     {
       "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MZL_013.png",
-      "sha256": "98460a1498c452d5da47cf9228a6c01bea72c1c44c7af734d74b2ce775f20537",
-      "bytes": 15632
+      "sha256": "8e2d69dc4cf324ad957bfc2494801ed0baeb3e5c0c8c76fa11a3a8c4aa3fa3b6",
+      "bytes": 18027
+    },
+    {
+      "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Weapons_MUZL_067.png",
+      "sha256": "f26a0f4ef76b230109d2450fabc3ce58c3c162096f76576c8dfaca228dc8cf93",
+      "bytes": 23756
+    },
+    {
+      "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Weapons_MUZL_068.png",
+      "sha256": "17a9d8be110673afbd1eb76346cec9eec6ce665c29a6c473d2197b0a72b59203",
+      "bytes": 21677
+    },
+    {
+      "path": "UI/Shared/Icons/Vendor/Muzzles/T_UI_Weapons_MUZL_069.png",
+      "sha256": "566fde502243d621cc285ee49212e602a70eb1623de5208f331c47ee6b674181",
+      "bytes": 17284
     },
     {
       "path": "UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_001.png",
-      "sha256": "546c6514439f29a49b7365137b38d4ce152f7e47a7344837b9f00ca005c11354",
-      "bytes": 21504
+      "sha256": "26b696712b4ac3813c11c1f56c2a115c2d437fa9306a86bd64ec1eda0093fa8a",
+      "bytes": 27774
     },
     {
       "path": "UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_005.png",
-      "sha256": "cbe8ce5cf65c5a6e24236311264b16ca87dd48d509f3f428bba64fc3e632186b",
-      "bytes": 18839
+      "sha256": "5406db2b6cdb4122358ef002909dda24b74dddb23f07458172cca60ac86a900c",
+      "bytes": 25757
     },
     {
       "path": "UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_008.png",
-      "sha256": "4952e8323de7fc3b1a3b340a3f79ec27a38cf8b59d39c683d5c04f5e8db788f0",
-      "bytes": 21537
+      "sha256": "ae9a12351e248eddd07ded69ae89e72dea16f86ab15fb56c3d83a45986f1cd0b",
+      "bytes": 26451
     },
     {
       "path": "UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_009.png",
-      "sha256": "c33ac56055b7e408e7545ff27ecc798d5ff1e91d0f6b2d315621ca560649e856",
-      "bytes": 21296
+      "sha256": "a6a18c9c76e23142eb228d516369f9ed323962241e68b3b604087fdef65114e5",
+      "bytes": 25571
     },
     {
       "path": "UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_011.png",
-      "sha256": "fef36b7fd8f2787210e710516c782c89f2017fbc476299905c91f05739b268b6",
-      "bytes": 29570
+      "sha256": "934e3d42db347c28b2e2faf50e50984de19e6eb2a2098d14d61c5b5b1ecc049c",
+      "bytes": 33866
     },
     {
       "path": "UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_013.png",
-      "sha256": "edeb3794e5de4c4d8277372c6c91f0958059811ad6236dda264d0c30a061abf3",
-      "bytes": 24052
+      "sha256": "de12d367de2c3c50de883ce97b6c65ed976861fdf93adb71e8725410908026df",
+      "bytes": 28155
     },
     {
       "path": "UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_016.png",
-      "sha256": "a02ede117c9f57ee875124cdc85a9ed899f2ac08a734c25e2c0633e6df7eeaa0",
-      "bytes": 21324
+      "sha256": "e89349a431b31e820640cfdfbae8cf7885f5878998af9e8b55b60c4b82ddea67",
+      "bytes": 25286
     },
     {
       "path": "UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_023.png",
-      "sha256": "a9442050d3ec9fbcc12cde45affa17daf2a06fcb5e8ad0bb4a5180a770f4f98c",
-      "bytes": 24304
+      "sha256": "7d55abbab9aec5b8f27975ba0dd366b39658ee264ac277cdb2fce98cf309f237",
+      "bytes": 28091
     },
     {
       "path": "UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_024.png",
-      "sha256": "ff0cdb1a7f0b5a5ecb3ee8ebf46a3f50329e7cd8291a2fb6922dcee8c55cf949",
-      "bytes": 23023
+      "sha256": "1cf54f88396138b0e05b911ce6f83185543952ed73b1beaa4f51b98f17491f17",
+      "bytes": 28411
     },
     {
       "path": "UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_025.png",
-      "sha256": "12da9dae22035cc9e967ec8908c3e0a3f494fb57806c3803acc1acf1deeb01a5",
-      "bytes": 18435
+      "sha256": "6477e2f890fae75912950579eac69cb165ccb0b53ea50ac266c6b04549ef8104",
+      "bytes": 22340
     },
     {
       "path": "UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_026.png",
-      "sha256": "73a4d4308d1b03322d37f96a1c746c5b36a72f00fc0f452f5fd2fb1509a8573f",
-      "bytes": 21451
+      "sha256": "aa7725b156122134eba1fa7494b3368f58fd39586ed74ca4a18af1cc1a3e77c3",
+      "bytes": 28234
     },
     {
       "path": "UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_027.png",
-      "sha256": "b48423c3b0fa12b66e7736f6f8eff0e4e93a3b0b0ac4bbcfa1854c58f6f225a9",
-      "bytes": 18085
+      "sha256": "28e85c38677d504310eb43b890ca350bfefdc0cc332634e89112b6a2556ccd9e",
+      "bytes": 23461
     },
     {
       "path": "UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_028.png",
-      "sha256": "fb3d527c4a19b4a74385e30ccdedf89fa9857379fad9ba5fd00ba47e887c74df",
-      "bytes": 28444
+      "sha256": "fe58fcf998b3a671b149fa65248b40a630b388283695d8615effe79d7b7bba37",
+      "bytes": 35067
     },
     {
       "path": "UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_029.png",
-      "sha256": "369de14ef7ac3f7fa310aca9e1f8186e84b05e0142a2235aeae6cda2d72b6747",
-      "bytes": 24284
+      "sha256": "97aea8b8f69e13a56b89719e8123d58f846cb2d94e339f6ffb973b352b77c8b6",
+      "bytes": 32768
     },
     {
       "path": "UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_030.png",
-      "sha256": "c292efd7fcef431ceee87e3f309654d1ff9743a142d247f1401fe40f5c9391d6",
-      "bytes": 28654
+      "sha256": "9f042bd814b29e4c335cd20598e9100b41e927ac0b232db41d6ccd9cc48c50b5",
+      "bytes": 36785
     },
     {
       "path": "UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_031.png",
-      "sha256": "f9e3be2185d4b974a0fbddce13e6e13a3a7a322fdb6076b4382c1b9cbebc528e",
-      "bytes": 22522
+      "sha256": "d01759cb01d63de3a32fcf4cf0fccb96f0943bbb49eac395ee11750ca8a79bd0",
+      "bytes": 28246
     },
     {
       "path": "UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_032.png",
-      "sha256": "9ff797be4e77da5e5fe2aec32d352cfc05fa0c99e63e7c8cd0aae53d3f2b9d2a",
-      "bytes": 22091
+      "sha256": "d8a5921f4ded29c09c875965192212810eb9040afee8c3d665aaa34a3390e0f2",
+      "bytes": 28758
     },
     {
       "path": "UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_033.png",
-      "sha256": "a3fe8eeb1e563292000482527d214fdba082fee2da3727612b979bce08a5e31a",
-      "bytes": 25304
+      "sha256": "8d386eea1a38f59f13d9b049dbacf2fd4efbaad4985ef36551b78b4469ef2d24",
+      "bytes": 33005
     },
     {
       "path": "UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_034.png",
-      "sha256": "ed18c7ab1b67798b64c906494f38553b4eaadc4a3fc65e979bcbdba01c1e6fd4",
-      "bytes": 17696
+      "sha256": "316770b4de0a501650ade3a381ec2df2c4ed4c4a52c2ca7ba166b6bfe72c33c2",
+      "bytes": 21938
     },
     {
       "path": "UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_036.png",
-      "sha256": "5dd7decc9a78ff2aad7f426b835442e4960aa8fa3b8e3fba382ed9ba811ee664",
-      "bytes": 22460
+      "sha256": "4a4e78fd820e779be90c26dfc4e7e8f0f27cceba20ce04a4967f72986e1e6f75",
+      "bytes": 27736
     },
     {
       "path": "UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_037.png",
-      "sha256": "e42976bdbd5d65e9ab4b8821dea225a36e676db37c54653247709d202c5f2194",
-      "bytes": 23214
+      "sha256": "dadfae4d79b5ea8de4ca5ee047c5a7fc33e88fd38f9bc35f9b9d94e640562353",
+      "bytes": 32194
+    },
+    {
+      "path": "UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_039.png",
+      "sha256": "39af7a1d012bde862d7cfdbaf9c417d5d0ad4f0b132a2c61440e42fd6aef3217",
+      "bytes": 28957
+    },
+    {
+      "path": "UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_040.png",
+      "sha256": "6cc34ddc1b9a5190686e66269563e6798d1555b85413799887b5473823668b9c",
+      "bytes": 23184
+    },
+    {
+      "path": "UI/Shared/Icons/Vendor/Optics/T_UI_Weapons_SGHT_038.png",
+      "sha256": "ead376d4fc10133cbdf99354dfe13409d46f2a28430cf85e6de89c11c7974f0e",
+      "bytes": 29421
     },
     {
       "path": "UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_01.png",
-      "sha256": "36b63e25ac23e7b5e3981027b8587b85f7cb7a68b407f24ed575d1d625f562f1",
-      "bytes": 64213
+      "sha256": "7bcc4561a44a35cae1dad09e002d893f0a11e677a16a0fea7d1a765e9dcfc2a6",
+      "bytes": 84599
     },
     {
       "path": "UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_02.png",
-      "sha256": "bd95a3a9cdb5cea6380d56897a86c79b7136834dab5b41df067528bc3ee2b605",
-      "bytes": 67536
+      "sha256": "af826cb0876e92e742debc9bc6e559123a17c16aea02bdbb25b054260d855c13",
+      "bytes": 87769
     },
     {
       "path": "UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_03.png",
-      "sha256": "c1a5f5784fa3bb42efdc18c5d2412fbdc69e537436b5620fd7dd5e69c8b0ac35",
-      "bytes": 71864
+      "sha256": "ba58049921fa148f78e030ff240448d307bc2f3821038f4c8a8c6f2e1dca803d",
+      "bytes": 94725
     },
     {
       "path": "UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_04.png",
-      "sha256": "9215a34748367d1ede3fca524a888572437392f4255444c38b53f2da824e8ac8",
-      "bytes": 74036
+      "sha256": "5cc67c2bd30e96a15edda28e64c08a457d716e1657c79754e7159ed06cf2b990",
+      "bytes": 98260
+    },
+    {
+      "path": "UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_05.png",
+      "sha256": "6242c315bf7a55adbf03f7a8917ae828986a96ffb0080cffc361ba32ba3a8bc9",
+      "bytes": 87621
     },
     {
       "path": "UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_06.png",
-      "sha256": "cf163692c5db0320de1b147624bda018e9a6ac98fbbcea179e506dff40fd7aa5",
-      "bytes": 65422
+      "sha256": "5f0352fb7ca3651af44bc9e1b76e271c298c2fc6f39283236626ca8093ebd057",
+      "bytes": 85357
     },
     {
       "path": "UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_07.png",
-      "sha256": "e8bf2919aee563e9e1d00a4b9308167a1c6c4f21ced0cca9ef779714ae137569",
-      "bytes": 70368
+      "sha256": "ab474eba6358ee54b42cead6f568adf657b1f30a2f2841ac5be799d45b45a8e1",
+      "bytes": 92580
     },
     {
       "path": "UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_08.png",
-      "sha256": "78887f4cd34f6b4a78ea0458c888572f329d78bc2072f82b605a8069c3913f14",
-      "bytes": 65104
+      "sha256": "03e844f20672ad196573c4ef8072750246dfbb562d92830440e2e95b710440ec",
+      "bytes": 85114
     },
     {
       "path": "UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_09.png",
-      "sha256": "aed27e9b5b377ae9e11a3346a4470b7b4dc909f5e8cae96f4e333edab99dcb75",
-      "bytes": 75296
+      "sha256": "9c9005c0197a20b2ba2172073fceda9aaabc2a3f26cd6d82caece2606e665139",
+      "bytes": 102739
+    },
+    {
+      "path": "UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_11.png",
+      "sha256": "4bb2def1125101f0b9f77130e01582acd0d9f34efffc312cfbb1ac2712360129",
+      "bytes": 98112
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_001v2.png",
-      "sha256": "3a3946ce5ef4fa97a8dc7fc73b3707058fd513a955cfa157e99e50b579d1c0cb",
-      "bytes": 47922
+      "sha256": "276d6bb8648cb3871d18968eb3b8a533a05d392700859d0377ba1891fe4944a5",
+      "bytes": 70956
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_002.png",
-      "sha256": "f1319bf543302d307afff4f2c3fe875b197e4961b1a2f79514bb42b65f46a3b2",
-      "bytes": 41807
+      "sha256": "a36b01704217eb002a6ca188920458c335ed387460375167ee9c0eb3e15711a1",
+      "bytes": 59302
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_003.png",
-      "sha256": "74d93d94aeb566a4ac6b0b7e299ecb61a5ed63cb71899d640452c49048e25220",
-      "bytes": 54989
+      "sha256": "d90a6dfc8f236b33efa5f2aea73da263e76588f4f58dedec7e9d1e0d5d491296",
+      "bytes": 82914
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_004.png",
-      "sha256": "c92c02a7f7a9607587ca537920aaff9a61e32f9a2b5f796ab4136532891dc480",
-      "bytes": 46108
+      "sha256": "cef43c8e01648b8ab5b625878492c2c5e37825ad127c2302cdc60c9186f56de8",
+      "bytes": 68210
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_005.png",
-      "sha256": "42add6e11d00e61ec8760bb4dcc7e5261a5a0962b5b5d11f93ab368e56f9d689",
-      "bytes": 55156
+      "sha256": "d3b4118514e2d86ca6161eb925378cc4e250cc796a3e385d365bf39c346bb2e6",
+      "bytes": 79369
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_006.png",
-      "sha256": "fa1c8b2151774b15f54c999a09cf68477406e47d50484a345a1881400cf24d75",
-      "bytes": 35004
+      "sha256": "79094d65b8a052fd4a4ee45be184152bc543a8804c01f900ebf72cfed0818d09",
+      "bytes": 45979
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_007.png",
-      "sha256": "e77e03c833a59c477a2e58d41622ccf2f6f1acbf47ee52bc3cf8145add21d201",
-      "bytes": 90355
+      "sha256": "15e99b05cd6d6683cb70ecfeeb8aaa50844571aef01997ae2bf7798845ae6944",
+      "bytes": 136530
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_008.png",
-      "sha256": "ab3bfe6f0ede5bf5b0cf2c8a48ac2f041d1632acd9a1808e181d3b217a323eb6",
-      "bytes": 26807
+      "sha256": "6a5e06bea480f6950f7eda9f997b4c1ab2a7ec008105d499d8699970df9c04e8",
+      "bytes": 37394
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_009.png",
-      "sha256": "5a232ea2c16b017fa07b46a0cf65173ec2dd965bb4bdb042f5477462f8c00158",
-      "bytes": 55972
+      "sha256": "9a2b6e1793d0c2b41c969e54afc1b75157d1317d6fb9fd6faf15db0e4d571816",
+      "bytes": 74438
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_010.png",
-      "sha256": "687a1f5d76e4b606c4955dbdad476973ac93456f6ca579719271536813e3c904",
-      "bytes": 20749
+      "sha256": "c78273996bc562ded0a93b142af08cd1ef35f438ae69fafbbb10425789400b56",
+      "bytes": 30521
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_011.png",
-      "sha256": "036361d41c4896d173de7ed692d277e46eeaf01898a44a8687abd130e10db660",
-      "bytes": 20081
+      "sha256": "c9d2d9dd1b3ae05aee95f446656b170376097bea0f3b82eee2e126373b37f938",
+      "bytes": 29361
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_012.png",
-      "sha256": "033f4776d29b4d773e4133e1bca44627b95591ce8a7abd7692a91d930855e12c",
-      "bytes": 65106
+      "sha256": "a157b5b90efc3989fbc7c413f075fac931125363671eb53f58ac70c398bf50fa",
+      "bytes": 86326
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_013.png",
-      "sha256": "52cf9862b34bd737bd998ca5ec6337482eff49c365db7bccc5d3e2bf0d991e9b",
-      "bytes": 70915
+      "sha256": "6366092e75d28d5eddf67f146ab7962fdb2c031f7a2faf550eb1378cb7337f38",
+      "bytes": 105476
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_014.png",
-      "sha256": "5c298db4409165bbed1b013b0a5a28e433422989ee95c58761c3cea5e42ab11e",
-      "bytes": 22723
+      "sha256": "fd3b83fe8f49f6d9aa49dd2c957ad3430eacd511f128c254e0aaf8c71120a832",
+      "bytes": 31797
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_015.png",
-      "sha256": "656e049a18c20d75240ac80653eb77e6ff7db8fdf4a29edc1bd17fa7eed5f2ca",
-      "bytes": 30965
+      "sha256": "2f64e85e0116d01d1dcff43eccc56c87794d09ea60e2779a94a6eae04322996c",
+      "bytes": 41772
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_017.png",
-      "sha256": "58c7fb88836dff963062445fbfa6f048d7ff243f35b0af3e2fb6befb6307ee61",
-      "bytes": 25661
+      "sha256": "ebd085b909dffea86b9ffca65f9c08daba2e908e3dd333320e5077b6f388e042",
+      "bytes": 36866
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_018.png",
-      "sha256": "f7c3c87121acde655e3cf779f5fe6838c6579abff1ad9d317a0f63ceb5f46798",
-      "bytes": 21691
+      "sha256": "b00d8ee226c661758a63ac9a675ed5c31f6a032113409849aacd1cf1f280112c",
+      "bytes": 25853
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_019.png",
-      "sha256": "6137db83ee77861d973d19c740da3e6985df1e7d9ddbf641ec18ddbafb3c8717",
-      "bytes": 49986
+      "sha256": "54518fa10357a061e10c1d97e32f8db815e253f8dc652a976edb04588a44674f",
+      "bytes": 68347
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_021.png",
-      "sha256": "d9b39f1ddee12b0c390358feca0e8b8eebc75ed5c594d0d03e969b02c1cf1c4f",
-      "bytes": 19914
+      "sha256": "332d3280c19d69caeb8313b9d2f690d03a33edfa7e1849e66906cf36c5a6b988",
+      "bytes": 30947
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_022.png",
-      "sha256": "5a351ffc71446fef6fbde3085aebb2a39aaf97b58fb04bc89fe206943ce8a61d",
-      "bytes": 48187
+      "sha256": "9f99fb1792f4b0a27e7f357863b0ee19bc2dfcfa94cb1b7e4c4caf0e530c23c9",
+      "bytes": 67883
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_023.png",
-      "sha256": "5dc1b1e33ce821847bb702f3c84bb80cb45210c42a5905608ef89263cb5b3d28",
-      "bytes": 33900
+      "sha256": "e8096e0c5424bcec4007e44ae4216897a229f65294839b6b84b79e604957a018",
+      "bytes": 47276
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_024.png",
-      "sha256": "0ab53464acb25b7cd9d1e967f4b07320c57b8530d57ad06af44d270ed0f3eaa2",
-      "bytes": 34311
+      "sha256": "84235e03ffd3e201ca8daa6798d292a4e2acb4916f9e1f0752d651c77a90ca8b",
+      "bytes": 45799
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_025.png",
-      "sha256": "50fbe567275d14ae462778ef5ab9bd4d7179fc597761fa86166e01d6ffdfb9e0",
-      "bytes": 117213
+      "sha256": "6cdf54b99c3c6d9b0b8d1bb5bf5e0702623a355ca4e1fed6a564f5f141c97a69",
+      "bytes": 181589
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_026.png",
-      "sha256": "2f90db4cb1f8a46a524714e9e937bf893c5a3dfbb7b4845f17a1c89a809be26a",
-      "bytes": 35032
+      "sha256": "4496ade56715a1d834401d0d2dc67ca28f3fcf9da167ee173008407a5e4578bf",
+      "bytes": 43588
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_027.png",
-      "sha256": "ddaa9fe272bf9626f9b5ae9a4fa1c20e3dbda3e8a3718747ac18ab0e28f53f0f",
-      "bytes": 32593
+      "sha256": "5d86a287edd5dcbc9268ee3224fef88f982be82ce7b31ca16e94d53ab02ad30a",
+      "bytes": 45902
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_028.png",
-      "sha256": "24fcb49deb26272fee06478900fcbf5455f0899d25e8ce689a1b2436e3756ed2",
-      "bytes": 34643
+      "sha256": "1e3658105770a73399cd8dd380d2055a2e628c25609130331f6dcaff0161b94a",
+      "bytes": 44220
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_029.png",
-      "sha256": "7b61439691f28be446f07b6f8a3e9e903766fac417575774e01167cf0fe330c8",
-      "bytes": 42524
+      "sha256": "8c359ab95b2c50c21d3ef2afa02f9f556210d50d83732402fed2472f3a4e3bfe",
+      "bytes": 58402
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_030.png",
-      "sha256": "aea0e7d34ce6f1a334817ac7057fb120f7c240dd9e6d0945f3b04589ad115348",
-      "bytes": 55208
+      "sha256": "4807f8cf7c310abf90d87985d0371e9ff51d73bb935bcdd82670d2886101a953",
+      "bytes": 90505
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_032.png",
-      "sha256": "2f600fb299e654f9ef605bce77f6a154f0a3a02a80b3e2a9abc695781fb98efe",
-      "bytes": 26627
+      "sha256": "2f9c2da0d7057160a5cc3414a8b5ec48da57746649e6b4627b689cd7bd157e61",
+      "bytes": 37724
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_033.png",
-      "sha256": "0588ff48217f54b60ed3e1ff12e4dec5816a765e183023a3c39a43518effba0d",
-      "bytes": 49112
+      "sha256": "193d11b3888dc2a9a55ddaa4bec3639640a6259385762a8d21fc06db7e7b8681",
+      "bytes": 73731
     },
     {
       "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_WEPN_035.png",
-      "sha256": "a1c00c69440b4770c92f16f1394bbd88832a70553c442889a66ed1ad011524d6",
-      "bytes": 20622
+      "sha256": "1e0781395ee2e0e88ccf5bf4446da1a2ee1b13ad83ed4215f55c6f284b1daf81",
+      "bytes": 30002
+    },
+    {
+      "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Weapons_WEPN_034.png",
+      "sha256": "df8bb7be06e5f34202a9bc183d14b1a4a652e01f94014a330f51875b44f078df",
+      "bytes": 42736
+    },
+    {
+      "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Weapons_WEPN_036.png",
+      "sha256": "6681181da788524e2b23134d9546fa891450bda2d1a5f4a6cdb78d257c55b898",
+      "bytes": 79760
+    },
+    {
+      "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Weapons_WEPN_037.png",
+      "sha256": "206f6aecf1a4850cbb8312519379016e8d03935380c801df06c20d053b4f3a2f",
+      "bytes": 58093
+    },
+    {
+      "path": "UI/Shared/Icons/Vendor/Weapons/T_UI_Weapons_WEPN_31.png",
+      "sha256": "342bce19d670fa965fcd94756b350aa094075d9a974ddaca57845145b7c2543e",
+      "bytes": 74535
     },
     {
       "path": "UI/Shared/Icons/Weapons/3D/Inventory/T_UI_Icon_Weapon_CGM4_Textured_512x512.png",
-      "sha256": "2bcefbe302ff49d5ee149de4471cd15b8b27f420c70677ce7d7db9602380c3fc",
-      "bytes": 88838
+      "sha256": "9ded9451e33b62f868b1182d67cef4255013ccca9eca7d6bff723a9179dcddad",
+      "bytes": 126204
     },
     {
       "path": "UI/Shared/Icons/Weapons/3D/Inventory/T_UI_Icon_Weapon_judge_Textured_512x256_inv.png",
-      "sha256": "525e4773886e103fbb09d201d46b9f71b93813c1e887fb501abf61b33e16dce8",
-      "bytes": 113557
+      "sha256": "96558107dd0e7d074834bfcf63befad032df8264b1cb3af0d1417433b809b678",
+      "bytes": 151455
     },
     {
       "path": "UI/Shared/Icons/Weapons/3D/Session/T_UI_Weapon_Bow_BC.png",
-      "sha256": "efb503ddbe4b1c8e05d3426c2a3f061e16b78db95c655ced2fba322adf4af278",
-      "bytes": 139159
+      "sha256": "1a80c6aed5f64838ff55976011d3ea57bbb8e2e189b1267baf34e1f4a0c41e67",
+      "bytes": 175592
     },
     {
       "path": "UI/Shared/Icons/Weapons/3D/Session/T_UI_Weapon_RFB_BC.png",
-      "sha256": "cdef9f4d23657b118a442b280d6feddcec7353eca53ae7297e2836768aafe699",
-      "bytes": 148680
+      "sha256": "ba6c8d12f229a6a38aef24aa43a35d07efe07cbee5b9c4d3e058bbfad6cb115f",
+      "bytes": 210699
     },
     {
       "path": "UI/Shared/Icons/Weapons/Components/AK74M/T_UI_Icon_COM_AK_Barrel_01_Textured_512x512.png",
-      "sha256": "56d57013760d8888d48280cfab2c5e68d89fbe954d6020da03e057aaa111df85",
-      "bytes": 33596
+      "sha256": "8de8c1de46e437facd1f19ed832b04000f4afc77b36b31767118d10bb6607d64",
+      "bytes": 50652
     },
     {
       "path": "UI/Shared/Icons/Weapons/Components/AK74M/T_UI_Icon_COM_AK_Handguard_02_Textured_512x512.png",
-      "sha256": "97c6fcd3c81d3bc5469ee5e9bb78dbe351637e47be0c11ecbd793a734e06414f",
-      "bytes": 97200
+      "sha256": "382bed9c654cd6c92728bd18f5139d41385e6fa0e3fa9ce738f70127322270cb",
+      "bytes": 131427
     },
     {
       "path": "UI/Shared/Icons/Weapons/Components/AK74M/T_UI_Icon_COM_AK_Pistol_Grip_01_Textured_512x512.png",
-      "sha256": "def90a31a2487ecb32cd385c854e1b1c31b1df45be7ceb20fb1c6a82c719da77",
-      "bytes": 59567
+      "sha256": "3575c30bd12822e7d1deb6a7718bd26a4e19259fd2f6d2b958063c593b8d63c3",
+      "bytes": 85136
     },
     {
       "path": "UI/Shared/Icons/Weapons/Components/AK74M/T_UI_Icon_COM_AK_Stock_01_Textured_512x512.png",
-      "sha256": "e357c09f240ea069a50bb281565aae9d13469644c530977e3775884ad7179bfb",
-      "bytes": 63384
+      "sha256": "865a8c93bfc40d2e0f2789e98937a5da4420dae8acfa0f6a1c1871ec831677bd",
+      "bytes": 89657
     },
     {
       "path": "UI/Shared/Icons/Weapons/Components/AK74M/T_UI_Icon_COM_AK_Stock_02_Textured_512x512.png",
-      "sha256": "5a74776b20e8be9be2a1f790a9cfaac24d1ab35001aab75729cf85a739f670b2",
-      "bytes": 56790
+      "sha256": "7ae630e1ae25064743048805c84817812623293552d797f96a5bc75084a414e0",
+      "bytes": 87165
     },
     {
       "path": "UI/Shared/Icons/Weapons/Killfeed/T_UI_Icon_Killfeed_MeleeFist.png",
-      "sha256": "2b499775d3614d071370bd011be3f364e4c9ea82dfc7ec816616b143bb42983b",
-      "bytes": 821
+      "sha256": "bab65f483a0f7218766679aee1e8b15863cad52c2967807f7cacaef7292b01c3",
+      "bytes": 928
     }
   ]
 }

@@ -18,7 +18,7 @@ describe("normalizeAesKey", () => {
 
 describe("parseUsmapHeader", () => {
   it("reads version and compression", () => {
-    expect(parseUsmapHeader(Uint8Array.from([0xc4, 0x30, 4, 0, 0, 0]))).toEqual({ version: 4, compression: 0 });
+    expect(parseUsmapHeader(Uint8Array.from([0xc4, 0x30, 4, 0, 0, 0, 0, 0]))).toEqual({ version: 4, compression: 0 });
   });
   it("rejects other files", () => {
     expect(() => parseUsmapHeader(Uint8Array.from([0x50, 0x4b, 3, 4]))).toThrow(/usmap/);

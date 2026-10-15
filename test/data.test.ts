@@ -60,7 +60,7 @@ describe("data/items.json: unlocks", () => {
 describe("data/items.json: ids that differ only in case", () => {
   // The game's tags ignore case: the unlock tree and the vendor tables spell `Id.Item.X` for the definition `ID.Item.X`.
   it("canaries: the medical bag unlock and the white smoke grenade price are joined", () => {
-    expect(get("ID.Item.MedKit.Standard").unlock).toEqual({ role: "Medic", level: 24, cost: 75000 });
+    expect(get("ID.Item.MedKit.Standard").unlock).toEqual({ role: "Medic", level: 14, cost: 50000 });
     expect(get("ID.Item.SmokeGrenade.White").vendor.length).toBeGreaterThan(0);
   });
 });
@@ -114,8 +114,9 @@ describe("data/items.json: icons", () => {
     expect(file.items.filter((i) => i.kind === "vehicle" && i.icon === undefined).map((i) => i.id)).toEqual([]);
     expect(file.items.filter((i) => i.icon !== undefined).length).toBeGreaterThanOrEqual(400);
     // Priced items are what players see in shops, so they should all have a picture. The one exception is ammo
-    // for the sandbox game mode, which has no UI entry in the game.
-    expect(file.items.filter((i) => i.vendor.length > 0 && i.icon === undefined).map((i) => i.id)).toEqual(["ID.Item.155mm.Sandbox"]);
+    // for the sandbox game mode, which has no UI entry in the game, and a vendor row keyed with the bare tag `Id.Item`
+    // (priced 0, selling `Id.Item.WEPN_017`), which the game's table has so.
+    expect(file.items.filter((i) => i.vendor.length > 0 && i.icon === undefined).map((i) => i.id)).toEqual(["Id.Item", "ID.Item.155mm.Sandbox"]);
   });
 
   it("canaries: the inventory icon is chosen, not the killfeed one", () => {
@@ -130,8 +131,8 @@ describe("data/items.json: icons", () => {
     expect(tapes.filter((i) => i.icon === undefined).map((i) => i.id)).toEqual([]);
     expect(get("Id.Item.MusicTape.01").icon).toBe("UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_01.png");
     expect(get("Id.Item.MusicTape.01").subtitle).toBe("Music Tape");
-    // The game's own table for tape 05 points at tape 06's picture.
-    expect(get("Id.Item.MusicTape.05").icon).toBe("UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_06.png");
+    // The game's own table for tape 05 used to point at tape 06's picture; since build 25937608 it names its own.
+    expect(get("Id.Item.MusicTape.05").icon).toBe("UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_05.png");
   });
 
   it("keeps tracer and standard ammo boxes apart", () => {
@@ -146,7 +147,7 @@ describe("data/items.json: coverage floors", () => {
     const priced = file.items.filter((i) => i.vendor.length > 0);
     expect(file.items.length).toBeGreaterThanOrEqual(500);
     expect(priced.length).toBeGreaterThanOrEqual(250);
-    expect(file.items.filter((i) => i.kind === "vehicle")).toHaveLength(20);
+    expect(file.items.filter((i) => i.kind === "vehicle")).toHaveLength(23);
     expect(file.items.filter((i) => i.unlock !== null).length).toBeGreaterThanOrEqual(200);
   });
 
@@ -195,23 +196,24 @@ describe("data/items.json: canaries", () => {
     expect(ammo.vendor[0]).toMatchObject({ price: 600, amount: 10 });
   });
 
-  it("muzzle brake: 1x1 for 1600", () => {
+  it("muzzle brake: 1x1 for 1380", () => {
     const brake = get("Id.Item.MUZL_048");
     expect(brake.grid).toEqual([1, 1]);
-    expect(brake.vendor[0]?.price).toBe(1600);
+    expect(brake.vendor[0]?.price).toBe(1380);
   });
 
   it("unlocks: role, minimum level and cash cost", () => {
-    expect(get("Id.Item.AK74M").unlock).toEqual({ role: "Infantry", level: 3, cost: 10000 });
-    expect(get("Id.Item.MUZL_024").unlock).toEqual({ role: "Infantry", level: 2, cost: 5000 });
-    expect(get("Id.Item.Glock17").unlock).toEqual({ role: "Wardog", level: 1, cost: 5000 });
-    expect(get("Vehicle.Variant.Air.Rotary.Havoc.Default").unlock).toEqual({ role: "Pilot", level: 35, cost: 500000 });
+    // The AK74M is no longer in the unlock tree (it used to cost 10000 at Infantry level 3).
+    expect(get("Id.Item.AK74M").unlock).toBeNull();
+    expect(get("Id.Item.MUZL_024").unlock).toEqual({ role: "Infantry", level: 5, cost: 12500 });
+    expect(get("Id.Item.Glock17").unlock).toEqual({ role: "Wardog", level: 18, cost: 15000 });
+    expect(get("Vehicle.Variant.Air.Rotary.Havoc.Default").unlock).toEqual({ role: "Pilot", level: 35, cost: 650000 });
   });
 
-  it("ranking: first aid kit ties the best single-cell attachment", () => {
+  it("ranking: the super bandage tops the best single-cell attachment", () => {
     const top = valuePerSlot(file.items);
     const perSlot = (id: string) => top.find((r) => r.id === id)?.perSlot;
     expect(perSlot("Id.Item.SuperBandage")).toBe(1600);
-    expect(perSlot("Id.Item.MUZL_048")).toBe(1600);
+    expect(perSlot("Id.Item.MUZL_048")).toBe(1380);
   });
 });

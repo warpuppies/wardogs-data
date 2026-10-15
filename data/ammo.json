@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "gameBuild": "25677108",
+  "gameBuild": "25937608",
   "units": "meters",
   "projectiles": [
     {
@@ -28,7 +28,7 @@
         "minimumDamage": 30,
         "bluntDamage": 150
       },
-      "suppression": 1,
+      "suppression": 0.9,
       "propulsion": {
         "thrustSpeed": 220
       },
@@ -61,7 +61,7 @@
         "minimumDamage": 15,
         "bluntDamage": 120
       },
-      "suppression": 0.8,
+      "suppression": 0.9,
       "propulsion": {
         "thrustSpeed": 220
       },
@@ -95,7 +95,7 @@
         "minimumDamage": 10,
         "bluntDamage": 50
       },
-      "suppression": 0.6,
+      "suppression": 0.9,
       "propulsion": {
         "thrustSpeed": 200
       },
@@ -127,11 +127,44 @@
         "effectiveRadius": 6,
         "falloff": 0.6
       },
-      "suppression": 1,
+      "suppression": 0.9,
       "propulsion": {
         "thrustSpeed": 200
       },
       "items": []
+    },
+    {
+      "id": "Item.Caliber.125x570mm",
+      "asset": "Content/GameMechanics/Inventory/Equipment/Caliber/125x570mm/DA_125x570mm_ProjectileData",
+      "damage": 150,
+      "damageType": "Meta.Damage.Explosive.Rocket.125mm",
+      "damageContext": [],
+      "massKg": 23,
+      "diameterMm": 125,
+      "lengthMm": 650,
+      "drag": {
+        "coefficient": 10,
+        "model": "GC (Cylinder)"
+      },
+      "typicalSpeed": 224,
+      "penetration": {
+        "penetrates": false,
+        "ricochetMinAngle": 91
+      },
+      "explosive": {
+        "radius": 7.5,
+        "effectiveRadius": 4.2,
+        "falloff": 0.3,
+        "minimumDamage": 30,
+        "bluntDamage": 150
+      },
+      "suppression": 1,
+      "propulsion": {
+        "thrustSpeed": 220
+      },
+      "items": [
+        "ID.Item.125x570mm"
+      ]
     },
     {
       "id": "Item.Caliber.12g.RifledSlug",
@@ -151,7 +184,7 @@
       "penetration": {
         "exitSpeedMultiplier": 0.12
       },
-      "suppression": 0.5,
+      "suppression": 0.45,
       "items": [
         "Id.Item.12g.RifledSlug"
       ]
@@ -304,7 +337,7 @@
         "effectiveRadius": 3.75,
         "falloff": 0.7
       },
-      "suppression": 0.55,
+      "suppression": 0.6,
       "propulsion": {
         "thrustSpeed": 220
       },
@@ -315,7 +348,7 @@
     {
       "id": "Item.Caliber.308Win",
       "asset": "Content/GameMechanics/Inventory/Equipment/Caliber/308Winchester/DA_308Winchester_ProjectileData",
-      "damage": 60,
+      "damage": 45,
       "damageType": "Meta.Damage.Bullet.308Win",
       "damageContext": [
         "Meta.Damage.Arms.High"
@@ -331,7 +364,7 @@
       "penetration": {
         "exitSpeedMultiplier": 0.13
       },
-      "suppression": 0.9,
+      "suppression": 0.65,
       "items": [
         "Id.Item.308Win",
         "Id.Item.308Win.ArmorPiercing",
@@ -367,7 +400,7 @@
         "falloff": 1,
         "minimumDamage": 20
       },
-      "suppression": 0.55,
+      "suppression": 0.75,
       "propulsion": {
         "thrustSpeed": 200
       },
@@ -406,11 +439,11 @@
       "damage": 60,
       "damageType": "Meta.Damage.Cannon.35x228mm",
       "damageContext": [],
-      "massKg": 0.15,
+      "massKg": 0.375,
       "diameterMm": 35,
       "lengthMm": 140,
       "drag": {
-        "coefficient": 2.5,
+        "coefficient": 0.5,
         "model": "G7 (Boat Tail)"
       },
       "typicalSpeed": 792,
@@ -422,7 +455,7 @@
         "effectiveRadius": 3.75,
         "falloff": 0.7
       },
-      "suppression": 0.55,
+      "suppression": 0.8,
       "propulsion": {
         "thrustSpeed": 220
       },
@@ -455,7 +488,6 @@
         "falloff": 1,
         "bluntDamage": 80
       },
-      "suppression": 0.55,
       "propulsion": {
         "thrustSpeed": 200
       },
@@ -482,7 +514,7 @@
       "penetration": {
         "exitSpeedMultiplier": 0.32
       },
-      "suppression": 0.075,
+      "suppression": 0.15,
       "items": [
         "Id.Item.45ACP",
         "Id.Item.45ACP.ArmorPiercing",
@@ -510,7 +542,7 @@
       "penetration": {
         "exitSpeedMultiplier": 0.3
       },
-      "suppression": 0.25,
+      "suppression": 0.22,
       "items": [
         "Id.Item.45Colt",
         "Id.Item.45Colt.ArmorPiercing",
@@ -538,7 +570,7 @@
       "penetration": {
         "exitSpeedMultiplier": 0.08
       },
-      "suppression": 0.5,
+      "suppression": 0.32,
       "items": [
         "Id.Item.50AE",
         "Id.Item.50AE.ArmorPiercing",
@@ -551,7 +583,7 @@
     {
       "id": "Item.Caliber.50Cal",
       "asset": "Content/GameMechanics/Inventory/Equipment/Caliber/50Cal/DA_50Cal_ProjectileData",
-      "damage": 107,
+      "damage": 90,
       "damageType": "Meta.Damage.Bullet.50Cal",
       "damageContext": [
         "Meta.Damage.Arms.Special"
@@ -567,7 +599,7 @@
         "exitSpeedMultiplier": 0.05,
         "effectivenessMultiplier": 3.5
       },
-      "suppression": 1,
+      "suppression": 0.75,
       "items": [
         "Id.Item.50Cal",
         "Id.Item.50Cal.ArmorPiercing",
@@ -593,7 +625,7 @@
         "model": "G7 (Boat Tail)"
       },
       "typicalSpeed": 300,
-      "suppression": 0.15,
+      "suppression": 0.3,
       "items": [
         "Id.Item.545mm",
         "Id.Item.545mm.ArmorPiercing",
@@ -622,7 +654,7 @@
       "penetration": {
         "exitSpeedMultiplier": 0.18
       },
-      "suppression": 0.12,
+      "suppression": 0.3,
       "items": [
         "Id.Item.556mm",
         "Id.Item.556mm.ArmorPiercing",
@@ -654,6 +686,7 @@
         "effectiveRadius": 4,
         "falloff": 0.5
       },
+      "suppression": 0.7,
       "propulsion": {
         "thrustSpeed": 220,
         "guided": true
@@ -686,7 +719,7 @@
         "falloff": 0.8,
         "bluntDamage": 120
       },
-      "suppression": 1,
+      "suppression": 0.85,
       "propulsion": {
         "thrustSpeed": 175,
         "fuel": 180,
@@ -699,7 +732,7 @@
     {
       "id": "Item.Caliber.762mm",
       "asset": "Content/GameMechanics/Inventory/Equipment/Caliber/762mm/DA_762mm_ProjectileData",
-      "damage": 42,
+      "damage": 34,
       "damageType": "Meta.Damage.Bullet.762mm",
       "damageContext": [
         "Meta.Damage.Arms.High"
@@ -715,7 +748,6 @@
       "penetration": {
         "exitSpeedMultiplier": 0.15
       },
-      "suppression": 0.35,
       "items": [
         "Id.Item.762mm",
         "Id.Item.762mm.ArmorPiercing",
@@ -753,7 +785,7 @@
     {
       "id": "Item.Caliber.762x54mm",
       "asset": "Content/GameMechanics/Inventory/Equipment/Caliber/762x54mm/DA_762x54mm_ProjectileData",
-      "damage": 55,
+      "damage": 44,
       "damageType": "Meta.Damage.Bullet.762x54mm",
       "damageContext": [
         "Meta.Damage.Arms.High"
@@ -769,7 +801,7 @@
       "penetration": {
         "exitSpeedMultiplier": 0.14
       },
-      "suppression": 0.9,
+      "suppression": 0.65,
       "items": [
         "Id.Item.762x54mm",
         "Id.Item.762x54mm.ArmorPiercing",
@@ -798,7 +830,7 @@
       "penetration": {
         "exitSpeedMultiplier": 0.28
       },
-      "suppression": 0.13,
+      "suppression": 0.2,
       "items": [
         "Id.Item.12g",
         "Id.Item.12g.7mmBuck"
@@ -828,7 +860,7 @@
         "falloff": 1,
         "bluntDamage": 120
       },
-      "suppression": 0.8,
+      "suppression": 0.85,
       "propulsion": {
         "thrustSpeed": 220
       },
@@ -914,7 +946,7 @@
         "falloff": 0.9,
         "bluntDamage": 120
       },
-      "suppression": 1,
+      "suppression": 0.9,
       "propulsion": {
         "thrustSpeed": 170,
         "fuel": 100
@@ -942,7 +974,7 @@
       "penetration": {
         "exitSpeedMultiplier": 0.35
       },
-      "suppression": 0.1,
+      "suppression": 0.2,
       "items": [
         "Id.Item.9mm",
         "Id.Item.9mm.ArmorPiercing",
@@ -960,21 +992,24 @@
       "damageContext": [
         "Meta.Damage.Arms.High"
       ],
-      "massKg": 0.025,
-      "diameterMm": 4,
-      "lengthMm": 800,
+      "massKg": 0.029,
+      "diameterMm": 6.5,
+      "lengthMm": 750,
       "drag": {
-        "coefficient": 1.8,
-        "model": "G7 (Boat Tail)"
+        "coefficient": 2.5
       },
-      "typicalSpeed": 642,
+      "typicalSpeed": 152,
       "penetration": {
         "penetratesThinSurfaces": true,
         "exitSpeedMultiplier": 0.55,
-        "effectivenessMultiplier": 0.03,
+        "effectivenessMultiplier": 0.5,
         "ricochetMinAngle": 30
       },
-      "suppression": 0.6,
+      "suppression": 0.2,
+      "propulsion": {
+        "thrustSpeed": 0.01,
+        "fuel": 1
+      },
       "items": [
         "Id.Item.Arrow"
       ]

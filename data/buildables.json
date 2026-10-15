@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "gameBuild": "25677108",
+  "gameBuild": "25937608",
   "units": "meters",
   "buildables": [
     {
       "id": "Id.Buildable.AirRaidShelter",
       "name": "Indirect Fire Shelter",
       "icon": "Buildables/Data/Buildables/AirRaidShelter/T_UI_Buildable_AirRaidShelter_BC.png",
-      "cost": 100,
+      "cost": 200,
       "maxHealth": 5000,
       "repairSpeedMultiplier": 6.67,
       "maxStack": 1,
@@ -36,9 +36,9 @@
       "maxStack": 1,
       "damageEntity": "Buildable.AirRaidShelter",
       "size": [
-        7.11,
+        7.08,
         7.23,
-        3.16
+        3.08
       ],
       "tools": [],
       "placementRules": [
@@ -95,8 +95,9 @@
       "id": "Id.Buildable.BremmerWall",
       "name": "Bremer Wall",
       "icon": "UI/Shared/Icons/Buildables/T_UI_Buidable_Bremerwall.png",
-      "cost": 15,
+      "cost": 32,
       "maxHealth": 6500,
+      "repairSpeedMultiplier": 1.47,
       "maxStack": 1,
       "damageEntity": "Buildable.BremmerWall",
       "size": [
@@ -117,7 +118,7 @@
       "id": "Id.Buildable.Bunker",
       "name": "Bunker",
       "icon": "Buildables/Data/Buildables/SandbagWall/T_UI_Buildable_SandbagWall.png",
-      "cost": 100,
+      "cost": 200,
       "maxHealth": 5000,
       "repairSpeedMultiplier": 6.67,
       "damageEntity": "Buildable.Bunker",
@@ -163,9 +164,9 @@
       "repairSpeedMultiplier": 0.67,
       "damageEntity": "Buildable.Bunker",
       "size": [
+        11.58,
         7.5,
-        7.34,
-        3.26
+        3.35
       ],
       "tools": [],
       "placementRules": [
@@ -202,7 +203,7 @@
       "id": "Id.Buildable.CrowsNest",
       "name": "Recon Tower",
       "icon": "Buildables/Data/Buildables/CrowsNest/T_UI_Buidable_Crowsnest_BC.png",
-      "cost": 100,
+      "cost": 200,
       "maxHealth": 5000,
       "repairSpeedMultiplier": 6.67,
       "damageEntity": "Buildable.CrowsNest",
@@ -222,7 +223,6 @@
     },
     {
       "id": "Id.Buildable.CrowsNest.BaseFloor",
-      "name": "CrowsNest",
       "cost": 10,
       "maxHealth": 2250,
       "repairSpeedMultiplier": 0.67,
@@ -240,7 +240,6 @@
     },
     {
       "id": "Id.Buildable.CrowsNest.FirstFloor",
-      "name": "CrowsNest",
       "cost": 10,
       "maxHealth": 2250,
       "repairSpeedMultiplier": 0.67,
@@ -258,7 +257,6 @@
     },
     {
       "id": "Id.Buildable.CrowsNest.Roof",
-      "name": "CrowsNest",
       "cost": 10,
       "maxHealth": 2250,
       "repairSpeedMultiplier": 0.67,
@@ -426,7 +424,7 @@
       "id": "Id.Buildable.Loudspeaker",
       "name": "Loudspeaker",
       "icon": "UI/Shared/Icons/Buildables/T_UI_Buidable_Speaker.png",
-      "cost": 100,
+      "cost": 200,
       "maxHealth": 1000,
       "repairSpeedMultiplier": 6.67,
       "size": [
@@ -442,10 +440,28 @@
       ]
     },
     {
+      "id": "Id.Buildable.MGNest",
+      "name": "MG Nest",
+      "cost": 650,
+      "maxHealth": 3000,
+      "maxStack": 5,
+      "size": [
+        1.83,
+        1.83,
+        2.08
+      ],
+      "tools": [],
+      "placementRules": [
+        "WithinFobBounds",
+        "WithinLadderBounds",
+        "SafeZone"
+      ]
+    },
+    {
       "id": "Id.Buildable.MistralAA",
       "name": "Talon 9K-SAM",
       "icon": "UI/Shared/Icons/Buildables/T_UI_Buidable_Mistral.png",
-      "cost": 1000,
+      "cost": 650,
       "maxHealth": 3000,
       "repairSpeedMultiplier": 66.67,
       "maxStack": 6,
@@ -465,7 +481,7 @@
       "id": "Id.Buildable.Mortar",
       "name": "L81 Mortar",
       "icon": "UI/Shared/Icons/Buildables/T_UI_Buidable_Mortor.png",
-      "cost": 150,
+      "cost": 600,
       "maxHealth": 3000,
       "repairSpeedMultiplier": 10,
       "maxStack": 6,
@@ -486,7 +502,7 @@
       "id": "Id.Buildable.Phalanx",
       "name": "Vanguard CIWS",
       "icon": "UI/Shared/Icons/Buildables/T_UI_Buidable_Phalanx.png",
-      "cost": 1500,
+      "cost": 1200,
       "maxHealth": 5000,
       "repairSpeedMultiplier": 100,
       "maxStack": 6,
@@ -601,7 +617,7 @@
     {
       "id": "Id.Buildable.STN_05",
       "name": "Stingray",
-      "cost": 150,
+      "cost": 650,
       "maxHealth": 3000,
       "repairSpeedMultiplier": 10,
       "maxStack": 6,
@@ -612,6 +628,27 @@
         1.51
       ],
       "tools": [],
+      "placementRules": [
+        "WithinFobBounds",
+        "WithinLadderBounds",
+        "SafeZone"
+      ]
+    },
+    {
+      "id": "Id.Buildable.SV_Shelter",
+      "cost": 250,
+      "maxHealth": 2250,
+      "maxStack": 1,
+      "damageEntity": "Buildable.SV_Shelter",
+      "size": [
+        9.13,
+        9.12,
+        4.59
+      ],
+      "tools": [
+        "LargeHammer",
+        "MediumHammer"
+      ],
       "placementRules": [
         "WithinFobBounds",
         "WithinLadderBounds",
@@ -664,6 +701,28 @@
         "SafeZone",
         "WithinLadderBounds",
         "NotInsideEnemyFobBounds"
+      ]
+    },
+    {
+      "id": "Id.Buildable.WoodBase",
+      "cost": 15,
+      "maxHealth": 735,
+      "maxStack": 4,
+      "damageEntity": "Buildable.WoodBase",
+      "size": [
+        1.51,
+        1.51,
+        0.38
+      ],
+      "tools": [
+        "LargeHammer",
+        "MediumHammer",
+        "SmallHammer"
+      ],
+      "placementRules": [
+        "WithinFobBounds",
+        "WithinLadderBounds",
+        "SafeZone"
       ]
     }
   ]

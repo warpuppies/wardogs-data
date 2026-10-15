@@ -9,11 +9,11 @@ const EXCLUDE = String.raw`/(Animation|Audio|VFX|Megascans|Environment|Maps|Movi
 
 export const itemsDataset: Dataset = {
   id: "items",
-  extract(config) {
+  async extract(config) {
     const itemsDir = join(config.rawDir, "items");
-    exportJson(config, INCLUDE, EXCLUDE, itemsDir);
+    await exportJson(config, INCLUDE, EXCLUDE, itemsDir);
     // The icons to export are named by the tables just decoded, so this has to come second.
-    exportTextures(config, itemIconTextures(itemsDir), join(config.rawDir, "icons.list.json"), join(config.rawDir, ICONS_DIR));
+    await exportTextures(config, itemIconTextures(itemsDir), join(config.rawDir, "icons.list.json"), join(config.rawDir, ICONS_DIR));
   },
   async build(rawDir, meta) {
     const { content, summary } = buildItemsData(join(rawDir, "items"), meta.gameBuild, join(rawDir, ICONS_DIR));

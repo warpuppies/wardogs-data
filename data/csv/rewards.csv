@@ -123,6 +123,7 @@ VehicleDestroyed,Vehicle.Variant.Land.Tracked.TNK_01.Heavy,Cash,5000,Destoryed H
 VehicleDestroyed,Vehicle.Variant.Land.Tracked.TNK_01.Artillery,Cash,6000,Destoryed Artillery reward for all Artillery varients
 VehicleDestroyed,Vehicle.Variant.Land.Wheeled.Humvee,Cash,500,Destroyed Humvee reward for all Humvee varients
 VehicleDestroyed,Vehicle.Variant.Land.Wheeled.DuneBuggy,Cash,300,Destroyed Dune Buggy reward for all Dune Buggy varients
+VehicleDestroyed,Vehicle.Variant.Land.Tracked.TNK_04.Default,Cash,5000,Destroyed TNK_04 reward
 VehicleTransport,DefaultReward,Cash,20,
 VehicleTransport,Vehicle.SpawnedOn,Cash,100,
 VehicleTransport,Vehicle.Transported,Cash,250,

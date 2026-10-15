@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "gameBuild": "25677108",
+  "gameBuild": "25937608",
   "units": "meters",
   "weapons": [
     {
@@ -256,6 +256,7 @@
         "max": 1000
       },
       "meleeDamage": 35,
+      "suppressionMultiplier": 1.05,
       "recoil": {
         "pattern": [
           {
@@ -632,7 +633,8 @@
       "calibers": [
         "Arrow"
       ],
-      "muzzleVelocity": 650,
+      "muzzleVelocity": 160,
+      "effectiveRange": 60,
       "damageFalloff": [
         {
           "distance": 0,
@@ -644,8 +646,12 @@
           "interpolation": "Cubic"
         },
         {
+          "distance": 500,
+          "multiplier": 0
+        },
+        {
           "distance": 1200,
-          "multiplier": 0.2
+          "multiplier": 0
         }
       ],
       "accuracy": 0,
@@ -1266,7 +1272,7 @@
         "max": 1000
       },
       "meleeDamage": 40,
-      "suppressionMultiplier": 0.45,
+      "suppressionMultiplier": 0.9,
       "recoil": {
         "pattern": [
           {
@@ -1532,6 +1538,7 @@
         "max": 1000
       },
       "meleeDamage": 40,
+      "suppressionMultiplier": 1.25,
       "recoil": {
         "pattern": [
           {
@@ -1597,7 +1604,8 @@
           "filter": "BlockPriority",
           "blockedItems": [
             "Id.Item.SGHT_023",
-            "Id.Item.SGHT_027"
+            "Id.Item.SGHT_027",
+            "Id.Item.SGHT_038"
           ],
           "blockedContexts": [],
           "hidden": false
@@ -1616,7 +1624,9 @@
             "Id.Item.FGRP_008",
             "Id.Item.FGRP_010",
             "Id.Item.FGRP_011",
-            "Id.Item.FGRP_013"
+            "Id.Item.FGRP_013",
+            "Id.Item.FGRP_019",
+            "Id.Item.FGRP_020"
           ],
           "blockedContexts": [],
           "hidden": false
@@ -1706,6 +1716,7 @@
         "max": 500
       },
       "meleeDamage": 35,
+      "suppressionMultiplier": 0.95,
       "recoil": {
         "pattern": [
           {
@@ -2125,6 +2136,7 @@
         "max": 300
       },
       "meleeDamage": 40,
+      "suppressionMultiplier": 1.6,
       "slots": [
         {
           "slot": "Chamber",
@@ -2220,7 +2232,7 @@
       "calibers": [
         "40mm"
       ],
-      "muzzleVelocity": 100,
+      "muzzleVelocity": 75,
       "effectiveRange": 400,
       "accuracy": 20,
       "zeroing": {
@@ -2322,7 +2334,7 @@
     {
       "id": "Id.Item.Mosin",
       "name": "Mosin Nagant",
-      "asset": "Plugins/GameFeatures/Weapons/Sniper/Mosin/Content/Data/DA_Mosin_Stats",
+      "asset": "Plugins/GameFeatures/Weapons/Platforms/WEPN_017/Content/Data/DA_WEPN_017_Stats",
       "fireModes": [
         "SemiAutomatic"
       ],
@@ -2353,6 +2365,7 @@
         "max": 800
       },
       "meleeDamage": 40,
+      "suppressionMultiplier": 1.5,
       "slots": [
         {
           "slot": "Chamber",
@@ -2367,10 +2380,10 @@
         },
         {
           "slot": "Sight",
-          "items": [],
-          "contexts": [
-            "Item.Attachment.Sight"
+          "items": [
+            "Id.Item.SGHT_040"
           ],
+          "contexts": [],
           "filter": "AllowList",
           "blockedItems": [
             "Id.Item.BasicRedDot",
@@ -2835,88 +2848,87 @@
       "recoil": {
         "pattern": [
           {
-            "x": -0.163,
-            "y": 1.08
+            "x": 0.15,
+            "y": 2.34
           },
           {
-            "x": 0.195,
-            "y": 1.31
+            "x": 0.35,
+            "y": 2.79
           },
           {
-            "x": 0.158,
-            "y": 1.245
+            "x": 0.55,
+            "y": 3.06
           },
           {
-            "x": 0.216,
-            "y": 1.47
+            "x": 0.7,
+            "y": 3.105
           },
           {
-            "x": 0.235,
-            "y": 1.375
+            "x": 0.4,
+            "y": 3.06
           },
           {
-            "x": 0.224,
-            "y": 1.545
+            "x": -0.45,
+            "y": 2.61
           },
           {
-            "x": 0.166,
-            "y": 1.44
+            "x": -0.6,
+            "y": 2.52
           },
           {
-            "x": 0.078,
-            "y": 1.615
+            "x": 0.3,
+            "y": 2.835
           },
           {
-            "x": 0.001,
-            "y": 1.48
+            "x": 0.65,
+            "y": 2.79
           },
           {
-            "x": -0.046,
-            "y": 1.63
+            "x": 0.8,
+            "y": 2.745
           },
           {
-            "x": -0.054,
-            "y": 1.495
+            "x": 0.55,
+            "y": 2.7
           },
           {
-            "x": -0.001,
-            "y": 1.64
+            "x": 0.2,
+            "y": 2.655
           },
           {
-            "x": 0.075,
-            "y": 1.485
+            "x": -0.5,
+            "y": 2.34
           },
           {
-            "x": 0.144,
-            "y": 1.61
+            "x": -0.35,
+            "y": 2.43
           },
           {
-            "x": 0.183,
-            "y": 1.45
+            "x": 0.25,
+            "y": 2.565
           },
           {
-            "x": 0.184,
-            "y": 1.555
+            "x": 0.6,
+            "y": 2.52
           },
           {
-            "x": 0.134,
-            "y": 1.38
+            "x": 0.7,
+            "y": 2.475
           },
           {
-            "x": 0.055,
-            "y": 1.465
+            "x": 0.45,
+            "y": 2.43
           },
           {
-            "x": -0.039,
-            "y": 1.205
+            "x": 0.1,
+            "y": 2.385
           },
           {
-            "x": -0.119,
-            "y": 1.18
+            "x": -0.2,
+            "y": 2.25
           }
         ],
         "patternResetTime": 1,
-        "viewKickMultiplier": 1.15,
         "afterPatternPitch": [
           0.74,
           0.98
@@ -2995,7 +3007,9 @@
             "Id.Item.FGRP_010",
             "Id.Item.FGRP_011",
             "Id.Item.FGRP_012",
-            "Id.Item.FGRP_014"
+            "Id.Item.FGRP_014",
+            "Id.Item.FGRP_019",
+            "Id.Item.FGRP_020"
           ],
           "blockedContexts": [],
           "hidden": false
@@ -3085,91 +3099,91 @@
         "max": 1000
       },
       "meleeDamage": 35,
+      "suppressionMultiplier": 1.1,
       "recoil": {
         "pattern": [
           {
-            "x": -0.055,
-            "y": 0.95
+            "x": -0.025538,
+            "y": 2.375
           },
           {
-            "x": 0.103,
-            "y": 1.28
+            "x": -0.034409,
+            "y": 3.2
           },
           {
-            "x": 0.118,
-            "y": 1.42
+            "x": -0.437593,
+            "y": 3.55
           },
           {
-            "x": 0.136,
-            "y": 1.45
+            "x": -1.287133,
+            "y": 3.625
           },
           {
-            "x": 0.122,
-            "y": 1.44
+            "x": -0.377998,
+            "y": 3.6
           },
           {
-            "x": 0.078,
-            "y": 1.42
+            "x": -1.197064,
+            "y": 3.55
           },
           {
-            "x": 0.03,
-            "y": 1.4
+            "x": -2.398731,
+            "y": 3.5
           },
           {
-            "x": -0.003,
-            "y": 1.38
+            "x": -1.426486,
+            "y": 3.45
           },
           {
-            "x": -0.017,
-            "y": 1.36
+            "x": 0.613115,
+            "y": 3.4
           },
           {
-            "x": 0,
-            "y": 1.345
+            "x": -0.809759,
+            "y": 3.3625
           },
           {
-            "x": 0.032,
-            "y": 1.33
+            "x": -1.497126,
+            "y": 3.325
           },
           {
-            "x": 0.078,
-            "y": 1.32
+            "x": -0.918821,
+            "y": 3.3
           },
           {
-            "x": 0.1,
-            "y": 1.32
+            "x": -0.407489,
+            "y": 3.3
           },
           {
-            "x": 0.091,
-            "y": 1.3
+            "x": -0.689072,
+            "y": 3.25
           },
           {
-            "x": 0.063,
-            "y": 1.28
+            "x": -0.382609,
+            "y": 3.2
           },
           {
-            "x": 0.015,
-            "y": 1.26
+            "x": -0.786865,
+            "y": 3.15
           },
           {
-            "x": -0.029,
-            "y": 1.24
+            "x": -0.203181,
+            "y": 3.1
           },
           {
-            "x": -0.047,
-            "y": 1.2
+            "x": 0.010702,
+            "y": 3
           },
           {
-            "x": -0.031,
-            "y": 1.16
+            "x": -0.564315,
+            "y": 2.9
           },
           {
-            "x": 0.081,
-            "y": 1.05
+            "x": -0.495283,
+            "y": 2.625
           }
         ],
         "patternResetTime": 0.95,
-        "viewKickMultiplier": 1.1,
         "afterPatternPitch": [
           0.55,
           0.85
@@ -3563,6 +3577,7 @@
         "max": 300
       },
       "meleeDamage": 40,
+      "suppressionMultiplier": 2,
       "slots": [
         {
           "slot": "Chamber",
@@ -3677,6 +3692,7 @@
       "accuracy": 0.56,
       "randomDeviation": 4,
       "meleeDamage": 40,
+      "suppressionMultiplier": 1.5,
       "slots": [
         {
           "slot": "Chamber",
@@ -3783,48 +3799,47 @@
         "max": 1000
       },
       "meleeDamage": 35,
-      "suppressionMultiplier": 0.4,
+      "suppressionMultiplier": 0.8,
       "recoil": {
         "pattern": [
           {
-            "x": -0.09,
-            "y": 2.062
+            "x": -0.283,
+            "y": 3.683
           },
           {
-            "x": -0.151,
-            "y": 2.567
+            "x": 0.63,
+            "y": 3.643
           },
           {
-            "x": 0.428,
-            "y": 1.837
+            "x": 0.126,
+            "y": 2.538
           },
           {
-            "x": 0.227,
-            "y": 1.888
-          },
-          {
-            "x": -1.284,
-            "y": 2.492
+            "x": -1.385,
+            "y": 3.601
           },
           {
             "x": -0.378,
-            "y": 2.164
+            "y": 2.864
           },
           {
             "x": -1.259,
-            "y": 1.309
+            "y": 1.76
           },
           {
-            "x": 0.856,
-            "y": 1.787
+            "x": 0.944,
+            "y": 2.374
           },
           {
-            "x": -1.561,
-            "y": 2.844
+            "x": -0.913,
+            "y": 2.005
+          },
+          {
+            "x": -0.976,
+            "y": 2.168
           }
         ],
         "patternResetTime": 1.1,
-        "viewKickMultiplier": 0.7,
         "afterPatternPitch": [
           0.65,
           1.1
@@ -4198,13 +4213,19 @@
         },
         {
           "distance": 50,
-          "multiplier": 1,
-          "interpolation": "Cubic"
+          "multiplier": 1
         },
         {
           "distance": 70,
-          "multiplier": 0.6,
-          "interpolation": "Cubic"
+          "multiplier": 0.6
+        },
+        {
+          "distance": 100,
+          "multiplier": 0.4
+        },
+        {
+          "distance": 150,
+          "multiplier": 0.3
         },
         {
           "distance": 1200,
@@ -4218,6 +4239,7 @@
         "step": 50
       },
       "meleeDamage": 20,
+      "suppressionMultiplier": 0.8,
       "recoil": {
         "pattern": [
           {
@@ -4878,127 +4900,127 @@
       "recoil": {
         "pattern": [
           {
-            "x": 0.0132,
+            "x": -0.088829,
             "y": 0.7161
           },
           {
-            "x": 0.0308,
+            "x": -0.205342,
             "y": 0.8778
           },
           {
-            "x": 0.0495,
+            "x": -0.283395,
             "y": 0.924
           },
           {
-            "x": 0.0638,
+            "x": 0.156968,
             "y": 0.924
           },
           {
-            "x": 0.0715,
+            "x": 0.049187,
             "y": 0.92169
           },
           {
-            "x": 0.0682,
+            "x": -0.596899,
             "y": 0.91476
           },
           {
-            "x": -0.0495,
+            "x": -0.612739,
             "y": 0.89859
           },
           {
-            "x": -0.1265,
+            "x": -0.331502,
             "y": 0.88011
           },
           {
-            "x": -0.1925,
+            "x": -0.079796,
             "y": 0.860475
           },
           {
-            "x": -0.2398,
+            "x": -0.531679,
             "y": 0.84084
           },
           {
-            "x": -0.2695,
+            "x": 0.419242,
             "y": 0.825825
           },
           {
-            "x": -0.2805,
+            "x": -0.386867,
             "y": 0.814275
           },
           {
-            "x": -0.2695,
+            "x": -0.040806,
             "y": 0.80388
           },
           {
-            "x": -0.2398,
+            "x": 0.096261,
             "y": 0.79464
           },
           {
-            "x": -0.1925,
+            "x": 0.295631,
             "y": 0.78771
           },
           {
-            "x": -0.1298,
+            "x": 0.289858,
             "y": 0.78309
           },
           {
-            "x": 0.0088,
+            "x": -0.327794,
             "y": 0.77616
           },
           {
-            "x": 0.1078,
+            "x": -0.285228,
             "y": 0.77154
           },
           {
-            "x": 0.1925,
+            "x": -0.650047,
             "y": 0.768075
           },
           {
-            "x": 0.2552,
+            "x": 0.322267,
             "y": 0.76461
           },
           {
-            "x": 0.2838,
+            "x": -0.564585,
             "y": 0.7623
           },
           {
-            "x": 0.2805,
+            "x": -0.395291,
             "y": 0.75999
           },
           {
-            "x": 0.2552,
+            "x": -0.682746,
             "y": 0.75768
           },
           {
-            "x": 0.2145,
+            "x": 0.203505,
             "y": 0.75537
           },
           {
-            "x": 0.1782,
+            "x": 0.290153,
             "y": 0.74844
           },
           {
-            "x": 0.1628,
+            "x": 0.015301,
             "y": 0.73689
           },
           {
-            "x": 0.1628,
+            "x": -0.171771,
             "y": 0.721875
           },
           {
-            "x": 0.1562,
+            "x": -0.263335,
             "y": 0.70686
           },
           {
-            "x": 0.1408,
+            "x": -0.151014,
             "y": 0.69069
           },
           {
-            "x": 0.1155,
+            "x": -0.064259,
             "y": 0.6699
           }
         ],
-        "viewKickMultiplier": 1.1,
+        "viewKickMultiplier": 1.15,
         "afterPatternPitch": [
           0.35,
           0.58
@@ -5560,6 +5582,266 @@
             "Item.Attachment.Bipod.Attached"
           ],
           "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "Id.Item.WEPN_031",
+      "name": "PP-19 Bizon",
+      "asset": "Plugins/GameFeatures/Weapons/Platforms/WEPN_031/Content/Data/DA_WEPN_031_Stats",
+      "fireModes": [
+        "Automatic",
+        "SemiAutomatic"
+      ],
+      "rpm": 700,
+      "calibers": [
+        "9mm"
+      ],
+      "muzzleVelocity": 380,
+      "effectiveRange": 200,
+      "damageFalloff": [
+        {
+          "distance": 0,
+          "multiplier": 1
+        },
+        {
+          "distance": 200,
+          "multiplier": 1,
+          "interpolation": "Cubic"
+        },
+        {
+          "distance": 300,
+          "multiplier": 0.6,
+          "interpolation": "Cubic"
+        },
+        {
+          "distance": 1200,
+          "multiplier": 0.1
+        }
+      ],
+      "accuracy": 1.3,
+      "randomDeviation": 17,
+      "zeroing": {
+        "max": 200,
+        "step": 50
+      },
+      "meleeDamage": 20,
+      "recoil": {
+        "pattern": [
+          {
+            "x": 0.0345,
+            "y": 1.139487
+          },
+          {
+            "x": 0.0805,
+            "y": 1.243075
+          },
+          {
+            "x": 0.1035,
+            "y": 1.30523
+          },
+          {
+            "x": 0.12075,
+            "y": 1.346666
+          },
+          {
+            "x": 0.115,
+            "y": 1.336307
+          },
+          {
+            "x": 0.09775,
+            "y": 1.325948
+          },
+          {
+            "x": 0.069,
+            "y": 1.31041
+          },
+          {
+            "x": 0.0345,
+            "y": 1.294871
+          },
+          {
+            "x": -0.06325,
+            "y": 1.284512
+          },
+          {
+            "x": -0.1265,
+            "y": 1.268974
+          },
+          {
+            "x": -0.1725,
+            "y": 1.253436
+          },
+          {
+            "x": -0.18975,
+            "y": 1.237897
+          },
+          {
+            "x": -0.17825,
+            "y": 1.22236
+          },
+          {
+            "x": -0.14375,
+            "y": 1.206821
+          },
+          {
+            "x": -0.09775,
+            "y": 1.191284
+          },
+          {
+            "x": -0.0345,
+            "y": 1.175745
+          },
+          {
+            "x": 0.0667,
+            "y": 1.160205
+          },
+          {
+            "x": 0.1265,
+            "y": 1.144666
+          },
+          {
+            "x": 0.161,
+            "y": 1.129127
+          },
+          {
+            "x": 0.16675,
+            "y": 1.113589
+          },
+          {
+            "x": 0.1518,
+            "y": 1.09805
+          },
+          {
+            "x": 0.115,
+            "y": 1.082511
+          },
+          {
+            "x": 0.0667,
+            "y": 1.066972
+          },
+          {
+            "x": 0.01725,
+            "y": 1.051436
+          },
+          {
+            "x": -0.0483,
+            "y": 1.033825
+          },
+          {
+            "x": -0.0897,
+            "y": 1.01518
+          },
+          {
+            "x": -0.1012,
+            "y": 0.992389
+          },
+          {
+            "x": -0.0713,
+            "y": 0.968563
+          },
+          {
+            "x": -0.02875,
+            "y": 0.937487
+          },
+          {
+            "x": 0.0345,
+            "y": 0.90182
+          }
+        ],
+        "patternResetTime": 0.6,
+        "afterPatternPitch": [
+          0.4,
+          0.62
+        ],
+        "afterPatternYaw": [
+          -0.2,
+          0.2
+        ]
+      },
+      "slots": [
+        {
+          "slot": "Chamber",
+          "items": [],
+          "contexts": [
+            "Item.Caliber.9mm"
+          ],
+          "filter": "AllowList",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": true
+        },
+        {
+          "slot": "Sight",
+          "items": [],
+          "contexts": [
+            "Item.Attachment.Sight.Short"
+          ],
+          "filter": "BlockPriority",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": false
+        },
+        {
+          "slot": "Handguard",
+          "items": [],
+          "contexts": [
+            "Item.Attachment.Handguard.WEPN_031"
+          ],
+          "filter": "AllowList",
+          "blockedItems": [
+            "Id.Item.FGRP_014"
+          ],
+          "blockedContexts": [
+            "Item.Attachment.Bipod.Attached"
+          ],
+          "hidden": true
+        },
+        {
+          "slot": "Magazine",
+          "items": [
+            "Id.Item.MAGZ_051"
+          ],
+          "contexts": [],
+          "filter": "AllowList",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": false
+        },
+        {
+          "slot": "Grip",
+          "items": [
+            "Id.Item.SMG_03PistolGrip"
+          ],
+          "contexts": [],
+          "filter": "AllowList",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": true
+        },
+        {
+          "slot": "Stock",
+          "items": [
+            "Id.Item.SMG_03Stock"
+          ],
+          "contexts": [],
+          "filter": "AllowList",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": true
+        },
+        {
+          "slot": "Barrel",
+          "items": [
+            "Id.Item.BARL_049"
+          ],
+          "contexts": [
+            "Item.Attachment.Barrel.WEPN_031"
+          ],
+          "filter": "AllowList",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": true
         }
       ]
     },
@@ -6131,6 +6413,279 @@
       ]
     },
     {
+      "id": "Id.Item.WEPN_034",
+      "name": "M14",
+      "asset": "Plugins/GameFeatures/Weapons/Platforms/WEPN_034/Content/Data/DA_WEPN_034_Stats",
+      "fireModes": [
+        "SemiAutomatic",
+        "Automatic"
+      ],
+      "rpm": 700,
+      "roundsPerBurst": 1,
+      "calibers": [
+        "308Win"
+      ],
+      "muzzleVelocity": 853,
+      "effectiveRange": 500,
+      "damageFalloff": [
+        {
+          "distance": 0,
+          "multiplier": 1
+        },
+        {
+          "distance": 500,
+          "multiplier": 1
+        },
+        {
+          "distance": 1200,
+          "multiplier": 0.2
+        }
+      ],
+      "accuracy": 0.73,
+      "randomDeviation": 10,
+      "zeroing": {
+        "max": 500
+      },
+      "meleeDamage": 35,
+      "suppressionMultiplier": 0.5,
+      "recoil": {
+        "pattern": [
+          {
+            "x": 0,
+            "y": 3.06
+          },
+          {
+            "x": 0.18,
+            "y": 3.06
+          },
+          {
+            "x": 0.27,
+            "y": 3.06
+          },
+          {
+            "x": 0.36,
+            "y": 3.06
+          },
+          {
+            "x": 0.45,
+            "y": 3.06
+          },
+          {
+            "x": 0.36,
+            "y": 3.06
+          },
+          {
+            "x": 0.54,
+            "y": 3.24
+          },
+          {
+            "x": 0.45,
+            "y": 3.24
+          },
+          {
+            "x": 0.27,
+            "y": 3.24
+          },
+          {
+            "x": 0.09,
+            "y": 3.24
+          },
+          {
+            "x": -0.09,
+            "y": 3.24
+          },
+          {
+            "x": -0.18,
+            "y": 3.24
+          },
+          {
+            "x": 0,
+            "y": 3.42
+          },
+          {
+            "x": -0.27,
+            "y": 3.42
+          },
+          {
+            "x": -0.36,
+            "y": 3.42
+          },
+          {
+            "x": -0.45,
+            "y": 3.42
+          },
+          {
+            "x": -0.36,
+            "y": 3.42
+          },
+          {
+            "x": -0.54,
+            "y": 3.42
+          },
+          {
+            "x": -0.63,
+            "y": 3.6
+          },
+          {
+            "x": -0.45,
+            "y": 3.6
+          },
+          {
+            "x": -0.54,
+            "y": 3.6
+          },
+          {
+            "x": -0.36,
+            "y": 3.6
+          },
+          {
+            "x": -0.18,
+            "y": 3.6
+          },
+          {
+            "x": 0.09,
+            "y": 3.6
+          },
+          {
+            "x": 0.27,
+            "y": 3.78
+          },
+          {
+            "x": 0.36,
+            "y": 3.78
+          },
+          {
+            "x": 0.45,
+            "y": 3.78
+          },
+          {
+            "x": 0.27,
+            "y": 3.78
+          },
+          {
+            "x": 0.36,
+            "y": 3.78
+          },
+          {
+            "x": 0.18,
+            "y": 3.96
+          },
+          {
+            "x": 0.27,
+            "y": 3.96
+          },
+          {
+            "x": 0.09,
+            "y": 3.96
+          }
+        ],
+        "patternResetTime": 1.1,
+        "afterPatternPitch": [
+          0.65,
+          1.1
+        ],
+        "afterPatternYaw": [
+          0.05,
+          0.32
+        ]
+      },
+      "shotgun": {
+        "chokeFactor": 0,
+        "outerConeHalfAngle": 0,
+        "innerConeMultiplier": 0
+      },
+      "slots": [
+        {
+          "slot": "Chamber",
+          "items": [],
+          "contexts": [
+            "Item.Caliber.308Win"
+          ],
+          "filter": "AllowList",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": true
+        },
+        {
+          "slot": "Sight",
+          "items": [
+            "Id.Item.SGHT_039"
+          ],
+          "contexts": [
+            "Item.Attachment.Sight"
+          ],
+          "filter": "AllowList",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": false
+        },
+        {
+          "slot": "Magazine",
+          "items": [
+            "Id.Item.MAGZ_068",
+            "Id.Item.MAGZ_070",
+            "Id.Item.MAGZ_071"
+          ],
+          "contexts": [],
+          "filter": "AllowList",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": false
+        },
+        {
+          "slot": "Handguard",
+          "items": [],
+          "contexts": [],
+          "filter": "AllowList",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": true
+        },
+        {
+          "slot": "Grip",
+          "items": [],
+          "contexts": [],
+          "filter": "BlockPriority",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": true
+        },
+        {
+          "slot": "Stock",
+          "items": [],
+          "contexts": [
+            "Item.Attachment.Stock.WEPN_034"
+          ],
+          "filter": "AllowList",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": true
+        },
+        {
+          "slot": "Barrel",
+          "items": [],
+          "contexts": [
+            "Item.Attachment.Barrel.WEPN_034"
+          ],
+          "filter": "AllowList",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": true
+        },
+        {
+          "slot": "Underbarrel",
+          "items": [
+            "Id.Item.FGRP_020"
+          ],
+          "contexts": [],
+          "filter": "AllowList",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": false
+        }
+      ]
+    },
+    {
       "id": "Id.Item.WEPN_035",
       "name": "Scout Rifle TD",
       "asset": "Plugins/GameFeatures/Weapons/Platforms/WEPN_035/Content/Data/DA_WEPN_035_Stats",
@@ -6160,6 +6715,7 @@
       "accuracy": 1.5,
       "randomDeviation": 4,
       "meleeDamage": 40,
+      "suppressionMultiplier": 1.5,
       "slots": [
         {
           "slot": "Chamber",
@@ -6226,6 +6782,596 @@
           "blockedItems": [],
           "blockedContexts": [],
           "hidden": true
+        }
+      ]
+    },
+    {
+      "id": "Id.Item.WEPN_036",
+      "name": "Evo-3 Ultra",
+      "asset": "Plugins/GameFeatures/Weapons/Platforms/WEPN_036/Content/Data/DA_WEPN_036_Stats",
+      "fireModes": [
+        "Automatic",
+        "SemiAutomatic"
+      ],
+      "rpm": 700,
+      "calibers": [
+        "308Win"
+      ],
+      "muzzleVelocity": 790,
+      "effectiveRange": 1000,
+      "damageFalloff": [
+        {
+          "distance": 0,
+          "multiplier": 1
+        },
+        {
+          "distance": 1000,
+          "multiplier": 1
+        },
+        {
+          "distance": 1500,
+          "multiplier": 0.2
+        }
+      ],
+      "accuracy": 0.73,
+      "randomDeviation": 15,
+      "zeroing": {
+        "max": 1000
+      },
+      "meleeDamage": 40,
+      "suppressionMultiplier": 0.6,
+      "recoil": {
+        "pattern": [
+          {
+            "x": 0,
+            "y": 2.530596
+          },
+          {
+            "x": 0.098389,
+            "y": 2.939938
+          },
+          {
+            "x": 0.224784,
+            "y": 3.178398
+          },
+          {
+            "x": 0.235984,
+            "y": 3.59678
+          },
+          {
+            "x": 0.146393,
+            "y": 3.524154
+          },
+          {
+            "x": 0.013606,
+            "y": 3.52999
+          },
+          {
+            "x": -0.075985,
+            "y": 2.746738
+          },
+          {
+            "x": -0.064782,
+            "y": 2.782587
+          },
+          {
+            "x": 0.061612,
+            "y": 2.724724
+          },
+          {
+            "x": 0.259999,
+            "y": 3.43004
+          },
+          {
+            "x": 0.458389,
+            "y": 3.348056
+          },
+          {
+            "x": 0.584783,
+            "y": 3.354807
+          },
+          {
+            "x": 0.493652,
+            "y": 2.614651
+          },
+          {
+            "x": 0.301727,
+            "y": 2.64605
+          },
+          {
+            "x": 0.066606,
+            "y": 2.59361
+          },
+          {
+            "x": -0.125318,
+            "y": 3.286172
+          },
+          {
+            "x": -0.21645,
+            "y": 3.204533
+          },
+          {
+            "x": -0.192389,
+            "y": 3.211475
+          },
+          {
+            "x": -0.096333,
+            "y": 2.481958
+          },
+          {
+            "x": -0.000278,
+            "y": 2.516476
+          },
+          {
+            "x": 0.023783,
+            "y": 2.460805
+          },
+          {
+            "x": -0.067348,
+            "y": 3.138246
+          },
+          {
+            "x": -0.259273,
+            "y": 3.059352
+          },
+          {
+            "x": -0.494394,
+            "y": 3.070248
+          },
+          {
+            "x": -0.545885,
+            "y": 2.352131
+          },
+          {
+            "x": -0.496583,
+            "y": 2.390479
+          },
+          {
+            "x": -0.332089,
+            "y": 2.336334
+          },
+          {
+            "x": -0.0956,
+            "y": 3.000389
+          },
+          {
+            "x": 0.140889,
+            "y": 2.922469
+          },
+          {
+            "x": 0.305383,
+            "y": 2.928926
+          },
+          {
+            "x": 0.354685,
+            "y": 2.22971
+          },
+          {
+            "x": 0.303194,
+            "y": 2.263327
+          },
+          {
+            "x": 0.208506,
+            "y": 2.210151
+          },
+          {
+            "x": 0.157015,
+            "y": 2.864363
+          },
+          {
+            "x": 0.082384,
+            "y": 2.784257
+          },
+          {
+            "x": 0.122944,
+            "y": 2.795471
+          },
+          {
+            "x": 0.2355,
+            "y": 2.110706
+          },
+          {
+            "x": 0.348056,
+            "y": 2.139558
+          },
+          {
+            "x": 0.388616,
+            "y": 2.068922
+          },
+          {
+            "x": 0.313985,
+            "y": 2.66662
+          }
+        ],
+        "patternResetTime": 0.75,
+        "afterPatternPitch": [
+          1.35,
+          1.7
+        ],
+        "afterPatternYaw": [
+          -0.22,
+          0.22
+        ]
+      },
+      "slots": [
+        {
+          "slot": "Chamber",
+          "items": [],
+          "contexts": [
+            "Item.Caliber.308Win"
+          ],
+          "filter": "AllowList",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": true
+        },
+        {
+          "slot": "Sight",
+          "items": [],
+          "contexts": [
+            "Item.Attachment.Sight.Medium",
+            "Item.Attachment.Sight.Short"
+          ],
+          "filter": "BlockPriority",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": false
+        },
+        {
+          "slot": "Magazine",
+          "items": [
+            "Id.Item.MAGZ_067"
+          ],
+          "contexts": [
+            "Item.Attachment.Magazine.WEPN_036"
+          ],
+          "filter": "AllowList",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": false
+        },
+        {
+          "slot": "Handguard",
+          "items": [],
+          "contexts": [
+            "Item.Attachment.Handguard.WEPN_036"
+          ],
+          "filter": "BlockPriority",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": true
+        },
+        {
+          "slot": "Grip",
+          "items": [],
+          "contexts": [
+            "Item.Attachment.Grip.WEPN_036"
+          ],
+          "filter": "AllowList",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": true
+        },
+        {
+          "slot": "Stock",
+          "items": [],
+          "contexts": [
+            "Item.Attachment.Stock.WEPN_036"
+          ],
+          "filter": "AllowList",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": true
+        },
+        {
+          "slot": "Barrel",
+          "items": [],
+          "contexts": [
+            "Item.Attachment.Barrel.WEPN_036"
+          ],
+          "filter": "AllowList",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": true
+        },
+        {
+          "slot": "Underbarrel",
+          "items": [
+            "Id.Item.FGP_02",
+            "Id.Item.FGP_03",
+            "Id.Item.FGRP_014",
+            "Id.Item.FGRP_015",
+            "Id.Item.FGRP_017",
+            "Id.Item.FGRP_016",
+            "Id.Item.FGRP_018",
+            "Id.Item.FGRP_006",
+            "Id.Item.FGRP_007",
+            "Id.Item.RK6ForeGrip",
+            "Id.Item.FGP_04",
+            "Id.Item.FGRP_019"
+          ],
+          "contexts": [],
+          "filter": "AllowList",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "id": "Id.Item.WEPN_037",
+      "name": "TCX-SPR",
+      "asset": "Plugins/GameFeatures/Weapons/Platforms/WEPN_037/Content/Data/DA_WEPN_037_Stats",
+      "fireModes": [
+        "Automatic",
+        "SemiAutomatic"
+      ],
+      "rpm": 800,
+      "roundsPerBurst": 1,
+      "calibers": [
+        "762mm"
+      ],
+      "muzzleVelocity": 700,
+      "effectiveRange": 400,
+      "damageFalloff": [
+        {
+          "distance": 0,
+          "multiplier": 1
+        },
+        {
+          "distance": 400,
+          "multiplier": 1
+        },
+        {
+          "distance": 1200,
+          "multiplier": 0.2
+        }
+      ],
+      "accuracy": 0.58,
+      "randomDeviation": 14,
+      "zeroing": {
+        "max": 200
+      },
+      "meleeDamage": 35,
+      "suppressionMultiplier": 0.4,
+      "recoil": {
+        "pattern": [
+          {
+            "x": 0.0154,
+            "y": 1.074843
+          },
+          {
+            "x": -0.0231,
+            "y": 1.402874
+          },
+          {
+            "x": 0.0308,
+            "y": 1.606517
+          },
+          {
+            "x": 0.0616,
+            "y": 1.719652
+          },
+          {
+            "x": 0.08855,
+            "y": 1.753532
+          },
+          {
+            "x": 0.1078,
+            "y": 1.731026
+          },
+          {
+            "x": 0.1232,
+            "y": 1.697025
+          },
+          {
+            "x": 0.11935,
+            "y": 1.663145
+          },
+          {
+            "x": 0.11165,
+            "y": 1.640518
+          },
+          {
+            "x": 0.1001,
+            "y": 1.617891
+          },
+          {
+            "x": 0.08085,
+            "y": 1.595143
+          },
+          {
+            "x": 0.0539,
+            "y": 1.58389
+          },
+          {
+            "x": 0.01925,
+            "y": 1.561263
+          },
+          {
+            "x": -0.0231,
+            "y": 1.55001
+          },
+          {
+            "x": -0.0616,
+            "y": 1.538636
+          },
+          {
+            "x": -0.0924,
+            "y": 1.527383
+          },
+          {
+            "x": -0.11935,
+            "y": 1.516009
+          },
+          {
+            "x": -0.13475,
+            "y": 1.504756
+          },
+          {
+            "x": -0.1463,
+            "y": 1.493382
+          },
+          {
+            "x": -0.14245,
+            "y": 1.482008
+          },
+          {
+            "x": -0.12705,
+            "y": 1.482008
+          },
+          {
+            "x": -0.1001,
+            "y": 1.470755
+          },
+          {
+            "x": -0.06545,
+            "y": 1.470755
+          },
+          {
+            "x": -0.0231,
+            "y": 1.459502
+          },
+          {
+            "x": 0.0154,
+            "y": 1.459502
+          },
+          {
+            "x": 0.0462,
+            "y": 1.448128
+          },
+          {
+            "x": 0.0693,
+            "y": 1.436754
+          },
+          {
+            "x": 0.077,
+            "y": 1.436754
+          },
+          {
+            "x": 0.06545,
+            "y": 1.425501
+          },
+          {
+            "x": 0.0462,
+            "y": 1.414248
+          }
+        ],
+        "viewKickMultiplier": 0.9,
+        "afterPatternPitch": [
+          0.62,
+          0.95
+        ],
+        "afterPatternYaw": [
+          -0.34,
+          0.34
+        ]
+      },
+      "shotgun": {
+        "chokeFactor": 0,
+        "outerConeHalfAngle": 0,
+        "innerConeMultiplier": 0
+      },
+      "slots": [
+        {
+          "slot": "Chamber",
+          "items": [],
+          "contexts": [
+            "Item.Caliber.762mm"
+          ],
+          "filter": "AllowList",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": true
+        },
+        {
+          "slot": "Sight",
+          "items": [],
+          "contexts": [
+            "Item.Attachment.Sight.Medium",
+            "Item.Attachment.Sight.Short"
+          ],
+          "filter": "AllowList",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": false
+        },
+        {
+          "slot": "Magazine",
+          "items": [
+            "Id.Item.MAGZ_069"
+          ],
+          "contexts": [
+            "Item.Attachment.Magazine.WEPN_037"
+          ],
+          "filter": "AllowList",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": false
+        },
+        {
+          "slot": "Handguard",
+          "items": [],
+          "contexts": [
+            "Item.Attachment.Handguard.WEPN_037"
+          ],
+          "filter": "AllowList",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": true
+        },
+        {
+          "slot": "Grip",
+          "items": [],
+          "contexts": [
+            "Item.Attachment.Grip.WEPN_037"
+          ],
+          "filter": "AllowList",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": true
+        },
+        {
+          "slot": "Stock",
+          "items": [],
+          "contexts": [
+            "Item.Attachment.Stock.WEPN_037"
+          ],
+          "filter": "AllowList",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": true
+        },
+        {
+          "slot": "Barrel",
+          "items": [],
+          "contexts": [
+            "Item.Attachment.Barrel.WEPN_037"
+          ],
+          "filter": "AllowList",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": true
+        },
+        {
+          "slot": "Underbarrel",
+          "items": [
+            "Id.Item.FGP_02",
+            "Id.Item.FGP_03",
+            "Id.Item.FGP_04",
+            "Id.Item.FGRP_006",
+            "Id.Item.FGRP_007",
+            "Id.Item.FGRP_015",
+            "Id.Item.FGRP_016",
+            "Id.Item.FGRP_017",
+            "Id.Item.FGRP_018",
+            "Id.Item.RK6ForeGrip"
+          ],
+          "contexts": [],
+          "filter": "AllowList",
+          "blockedItems": [],
+          "blockedContexts": [],
+          "hidden": false
         }
       ]
     }

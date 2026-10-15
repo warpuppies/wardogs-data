@@ -73,11 +73,21 @@ function parseResource(rewardId: string, resource: Props): RewardResource {
   const expression = value.DefaultExpression as Props;
   if (expression.ExpressionTableRow?.DataTable || expression.bSourceExpressionExternally) throw new Error(`Reward ${rewardId} reads its formula from a table, which is not supported`);
   if ((value.ConditionalExpressions ?? []).length) throw new Error(`Reward ${rewardId} has conditional formulas, which are not supported`);
-  const variables = ((value.Variables ?? []) as Props[]).map(parseVariable);
+  // The game matches these names without regard to case (a reward can write `FlatReward` in its formula and `flatReward` in
+  // its variables, or `ExplosiveKill` in an input and `explosiveKill` in its variables), so each name is written as the
+  // formula spells it, else as the variable is declared: the files then match names exactly.
+  const declared = ((value.Variables ?? []) as Props[]).map(parseVariable);
+  const spelling = new Map<string, string>();
+  for (const name of [...((expression.CompiledExpression?.Variables ?? []) as string[]), ...declared.map((v) => v.name)]) {
+    if (!spelling.has(name.toLowerCase())) spelling.set(name.toLowerCase(), name);
+  }
+  if (new Set(declared.map((v) => v.name.toLowerCase())).size < declared.length) throw new Error(`Reward ${rewardId} has variables whose names differ only in case`);
+  const spell = (name: string): string => spelling.get(name.toLowerCase()) ?? name;
+  const variables = declared.map((v) => ({ ...v, name: spell(v.name) }));
   const inputs: RewardInput[] = ((value.Selectors ?? []) as Props[]).map((s) => ({
-    name: String(s.Key),
-    default: String(s.Value.DefaultOption),
-    options: ((s.Value.Options ?? []) as Props[]).map((o) => ({ when: decodeTagQuery(o.Condition), use: String(o.Variable) })),
+    name: spell(String(s.Key)),
+    default: spell(String(s.Value.DefaultOption)),
+    options: ((s.Value.Options ?? []) as Props[]).map((o) => ({ when: decodeTagQuery(o.Condition), use: spell(String(o.Variable)) })),
   }));
 
   // Every name the formula uses must resolve to an input or a variable, and every input must lead to a variable.

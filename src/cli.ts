@@ -1,10 +1,11 @@
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { spawnSync } from "node:child_process";
 import { join } from "node:path";
 import { loadConfig } from "./config.js";
 import { EXTRACTOR_DLL } from "./extract/run.js";
 import { readGameBuild } from "./extract/steam.js";
 import { parseUsmapHeader } from "./extract/usmap.js";
+import { restoreUsmap, scrambledShare } from "./extract/usmapNames.js";
 import { summarizeKeyReports, verifyKeyAgainstInstall } from "./extract/verifyKey.js";
 import { diffAgainstHead } from "./diffCommand.js";
 import { formatPlan, hasChanges } from "./generated.js";
@@ -20,6 +21,8 @@ import { ICONS_DIR } from "./transform/build.js";
 const HELP = `Usage: pnpm cli <command>
 
   doctor [--quiet]      Check install, AES key, mappings file and extractor
+  restore-names <new.usmap> <old.usmap> <out.usmap>
+                        Write a copy of a mappings file whose property names are scrambled, with the real names taken from an older one
   extract [dataset]     Decode game data into the cache (.cache/raw)
   plan [--check]        Show what apply would change, writing nothing (--check exits 1 if anything would change)
   apply                 Write every generated file and data/MANIFEST.json
@@ -49,8 +52,12 @@ async function doctor(): Promise<boolean> {
 
   console.log(`     game build: ${readGameBuild(config.installDir)}`);
   try {
-    const info = parseUsmapHeader(readFileSync(config.usmapPath));
-    healthy = log(true, `mappings file: version ${info.version}, compression ${info.compression}`) && healthy;
+    const bytes = readFileSync(config.usmapPath);
+    const info = parseUsmapHeader(bytes);
+    const { scrambled, properties } = scrambledShare(bytes);
+    const readable = scrambled <= properties * 0.05;
+    healthy = log(readable, `mappings file: version ${info.version}, compression ${info.compression}, ${scrambled} of ${properties} property names scrambled`) && healthy;
+    if (!readable) console.log("     The property names are scrambled, so nothing reads them by name. Run `pnpm restore-names <this file> <an older file with the real names> <output>` and point WARDOGS_USMAP at the output.");
   } catch (e) {
     healthy = log(false, `mappings file: ${(e as Error).message}`) && false;
   }
@@ -105,8 +112,20 @@ async function main(): Promise<void> {
     case "doctor":
       process.exitCode = (await doctor()) ? 0 : 1;
       return;
+    case "restore-names": {
+      const [scrambled, reference, out] = process.argv.slice(3);
+      if (!scrambled || !reference || !out) throw new Error("Usage: restore-names <new.usmap> <old.usmap> <out.usmap>");
+      const hintsFile = join(root, "name-hints.json");
+      const hints = existsSync(hintsFile) ? (JSON.parse(readFileSync(hintsFile, "utf8")) as { names?: Record<string, string> }).names ?? {} : {};
+      const { file, report } = restoreUsmap(readFileSync(scrambled), readFileSync(reference), hints);
+      writeFileSync(out, file, { mode: 0o600 });
+      console.log(`${report.restored} of ${report.scrambled} scrambled names got their real name back (${report.conflicting} had two answers and were left alone); ${report.recased} names got the capitals the old file spells them with; ${report.guessed} were named by their place in a struct that grew at the end; ${report.hinted} came from name-hints.json.`);
+      console.log(`${report.stillScrambled} of ${report.properties} properties are still scrambled: properties the old file does not have.`);
+      console.log(`${report.typesRestored} types the file left unsaid were taken from the old file; ${report.stillUnknown} properties still have one. Written to ${out}.`);
+      return;
+    }
     case "extract":
-      extractAll(loadConfig(), arg);
+      await extractAll(loadConfig(), arg);
       return;
     case "plan": {
       const { entries, built } = await plan(root, join(root, ".cache", "raw"));
@@ -171,7 +190,7 @@ async function main(): Promise<void> {
       if (!(await doctor())) throw new Error("doctor failed; fix the problems above before updating.");
       const config = loadConfig();
       diff();
-      extractAll(config);
+      await extractAll(config);
       const { entries, built } = await apply(root, config.rawDir);
       for (const n of built.notes) console.log(n);
       console.log(formatPlan(entries));

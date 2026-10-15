@@ -8,14 +8,17 @@ Vehicle.Variant.Air.Rotary.ROT_04.MountedMachineGuns,Z20 Lakota [Miniguns],445,1
 Vehicle.Variant.Land.Tracked.TNK_01.AntiAir,Flakpanzer Gepard,65,110,10,0.1,800,80,15,Vehicle.Land.Tracked.TNK_01.AntiAir,12,6,,,,1800,1.5;1.2;0;1.2;1.2;1.1;0.8,5,2,Duel 35mm Oerlikon GDF Cannons,Smoke
 Vehicle.Variant.Land.Tracked.TNK_01.Artillery,SPH-2,65,105,8,0.125,650,65,15,Vehicle.Land.Tracked.TNK_01.Artillery,12,6,,,,1800,1.8;2.16;4.35;0;3.485;2.787;2.2;1.978;1.55;1.25,6,3,L52 Cannon;M249 Machine Gun,
 Vehicle.Variant.Land.Tracked.TNK_01.Heavy,L2A6,65,110,8,0.125,800,80,15,Vehicle.Land.Tracked.TNK_01.Heavy,12,6,,,,1800,1.8;2.16;4.35;0;3.485;2.787;2.2;1.978;1.55;1.25,6,3,M249 Machine Gun;L55A1 Cannon;MG3A1 Coaxial Gun,Smoke
+Vehicle.Variant.Land.Tracked.TNK_04.Default,T-72B3,60,110,8.5,0.14375,800,80,15,Vehicle.Land.Tracked.TNK_04.Default,12,6,,,,1800,1.8;2.16;4.35;0;3.485;2.787;2.2;1.978;1.55;1.25,6,3,2A46M-5 Cannon;PKTM Coaxial Gun;M2 Browning Machine Gun,Smoke
 Vehicle.Variant.Land.Wheeled.Bobcat.Default,Bobcat,75,18,2.2,0.45,200,20,15,Vehicle.Land.Wheeled.Bobcat,,,250,1200,7000,33,4.2;2.8;1.9;1.5;1.3;6,9.5,2,,
 Vehicle.Variant.Land.Wheeled.DuneBuggy.Default,Dune Buggy,130,68,5,0.2,400,40,15,Vehicle.Land.Wheeled.DuneBuggy,8,4,550,800,,480,4.8;3.6;2.7;2.15;1.98;6,4.3,3,,
-Vehicle.Variant.Land.Wheeled.Humvee.Default,Humvee,113.2291,65,3.3,0.3,500,50,15,Vehicle.Land.Wheeled.Humvee.Default,10,5,7250,700,4000,1500,3.6;2.4;1.7;1.35;1.12;3.6,6.54,4,,
-Vehicle.Variant.Land.Wheeled.Humvee.MachineGun,Humvee [M249],113.2291,65,3.3,0.3,500,50,15,Vehicle.Land.Wheeled.Humvee.MachineGun,10,5,7250,700,4000,1500,3.6;2.4;1.7;1.35;1.12;3.6,6.54,5,M249 Machine Gun,
-Vehicle.Variant.Land.Wheeled.Humvee.Minigun,Humvee [Minigun],113.2291,65,3.3,0.3,500,50,15,Vehicle.Land.Wheeled.Humvee.Minigun,10,5,7250,700,4000,1500,3.6;2.4;1.7;1.35;1.12;3.6,6.54,5,M134D Minigun,
+Vehicle.Variant.Land.Wheeled.Humvee.Default,Humvee,113.2291,65,3.3,0.3,500,50,15,Vehicle.Land.Wheeled.Humvee.Default,10,5,7250,700,4000,1450,3.6;2.4;1.7;1.35;1.12;3.6,6.54,4,,
+Vehicle.Variant.Land.Wheeled.Humvee.MachineGun,Humvee [M249],113.2291,65,3.3,0.3,500,50,15,Vehicle.Land.Wheeled.Humvee.MachineGun,10,5,7250,700,4000,1450,3.6;2.4;1.7;1.35;1.12;3.6,6.54,5,M249 Machine Gun,
+Vehicle.Variant.Land.Wheeled.Humvee.Minigun,Humvee [Minigun],113.2291,65,3.3,0.3,500,50,15,Vehicle.Land.Wheeled.Humvee.Minigun,10,5,7250,700,4000,1450,3.6;2.4;1.7;1.35;1.12;3.6,6.54,5,M134D Minigun,
 Vehicle.Variant.Land.Wheeled.Kodiak.Default,Kodiak,154,50,2.9,0.35,400,40,15,Vehicle.Land.Wheeled.Patriot.Kodiak,10,5,2750,,,475,6;3.1;2.45;1.7;1.3;6,5.5,4,,
 Vehicle.Variant.Land.Wheeled.Kodiak.MachineGun,Kodiak [M249],154,50,2.9,0.35,400,40,15,Vehicle.Land.Wheeled.Patriot.Kodiak,10,5,2750,,,475,6;3.1;2.45;1.7;1.3;6,5.5,5,M249 Machine Gun,
 Vehicle.Variant.Land.Wheeled.Kodiak.Pickup,Kodiak [Pickup],154,50,2.9,0.35,400,40,15,Vehicle.Land.Wheeled.Patriot.Kodiak,10,5,2750,,,475,6;3.1;2.45;1.7;1.3;6,5.5,6,,
 Vehicle.Variant.Land.Wheeled.Ural.Attack,Ural Defender [M249],79,85,4,0.25,700,70,15,Vehicle.Land.Wheeled.Ural,12.5,6.25,10000,650,2600,900,5.62;2.89;1.64;1.25;1.1;3.25,7.32,3,,
 Vehicle.Variant.Land.Wheeled.Ural.Battle,Ural Defender,79,85,4,0.25,700,70,15,Vehicle.Land.Wheeled.Ural,12.5,6.25,10000,650,2600,900,5.62;2.89;1.64;1.25;1.1;3.25,7.32,3,,
 Vehicle.Variant.Land.Wheeled.Ural.Default,Ural,79,85,4,0.25,700,70,15,Vehicle.Land.Wheeled.Ural,12.5,6.25,10000,650,2600,900,5.62;2.89;1.64;1.25;1.1;3.25,7.32,3,,
+Vehicle.Variant.Land.Wheeled.WHL_08.Default,Wolf-110,129,60,4,0.25,500,50,15,Vehicle.Land.Wheeled.WHL_08.Default,10,5,3200,700,4000,1500,3.7;2.15;1.4;1;0.75;3.55,6.54,4,,
+Vehicle.Variant.Land.Wheeled.WHL_08.MachineGun,Wolf-110 [M2 Browning],129,60,4,0.25,500,50,15,Vehicle.Land.Wheeled.WHL_08.Default,10,5,3200,700,4000,1500,3.7;2.15;1.4;1;0.75;3.55,6.54,5,M2 Browning Machine Gun,

@@ -1,37 +1,41 @@
 id,name,fire_modes,rpm,rounds_per_burst,calibers,muzzle_velocity_mps,effective_range_m,accuracy,random_deviation_deg,ads_time_s,zeroing_min_m,zeroing_max_m,zeroing_step_m,melee_damage,suppression_multiplier,windup_time_s,recoil_pattern_length
 Id.Item.A91,A-91,SemiAutomatic;Burst,700,,556mm,715,300,1.5,15,,,,,35,1.3,,30
-Id.Item.AK74M,AK74,Automatic;SemiAutomatic,650,,545mm,880,500,0.825,13,0.8,,1000,,35,,,30
+Id.Item.AK74M,AK74,Automatic;SemiAutomatic,650,,545mm,880,500,0.825,13,0.8,,1000,,35,1.05,,30
 Id.Item.ArtilleryBarrelTest,Artillery Barrel Test,SemiAutomatic,150,1,155mm,464,10000,,,12,,1000,,0,,,
 Id.Item.CGM4,MAAWS,SemiAutomatic,100,,84mm,230,400,2.5,,50000,,,,40,,,
-Id.Item.CombatBow,Compound Bow,SemiAutomatic,90,1,Arrow,650,,0,4,,,,10,35,,,
+Id.Item.CombatBow,Compound Bow,SemiAutomatic,90,1,Arrow,160,60,0,4,,,,10,35,,,
 Id.Item.Glock17,GGX 17,SemiAutomatic,,,9mm,375,50,3.49,10,0.08,50,50,50,20,,,
 Id.Item.Judge,Judge,SemiAutomatic,200,,45Colt,335,50,3.49,10,,25,25,25,20,,,1
 Id.Item.KH2002,KH-2002,SemiAutomatic;Burst,700,,556mm,715,300,1.5,15,,,,,35,1.3,,30
 Id.Item.Launcher_04,9K333 Verba,SemiAutomatic,100,,72mm,20,1000,,,50000,,1000,,40,,,
 Id.Item.LeapordBarrel,Tank Barrel Test,SemiAutomatic,100,,120x570mm,550,3500,70,,50000,,1000,,,,,
-Id.Item.LMG_02,PKM,Automatic;SemiAutomatic,,,762x54mm,825,1000,2.5,20,,,1000,,40,0.45,,30
-Id.Item.M249,M249 SAW,Automatic;SemiAutomatic,850,,556mm,915,700,4.3,20,5,200,1000,,40,,,7
-Id.Item.M4,M4,Automatic;SemiAutomatic,800,,556mm,910,500,0.84,10,,,500,,35,,,30
+Id.Item.LMG_02,PKM,Automatic;SemiAutomatic,,,762x54mm,825,1000,2.5,20,,,1000,,40,0.9,,30
+Id.Item.M249,M249 SAW,Automatic;SemiAutomatic,850,,556mm,915,700,4.3,20,5,200,1000,,40,1.25,,7
+Id.Item.M4,M4,Automatic;SemiAutomatic,800,,556mm,910,500,0.84,10,,,500,,35,0.95,,30
 Id.Item.M500,M500,SemiAutomatic,120,,12g;7mmBuck,480,70,1.5,24,,,,,35,,,7
-Id.Item.MK22,MK22,SemiAutomatic,46,,308Win,894,1000,0.16,4,,,300,,40,,,
-Id.Item.MMGL,MGL-40,SemiAutomatic,75,,40mm,100,400,20,,,50,400,50,40,,,
-Id.Item.Mosin,Mosin Nagant,SemiAutomatic,46,,762x54mm,865,500,0.78,4,,200,800,,40,,,
+Id.Item.MK22,MK22,SemiAutomatic,46,,308Win,894,1000,0.16,4,,,300,,40,1.6,,
+Id.Item.MMGL,MGL-40,SemiAutomatic,75,,40mm,75,400,20,,,50,400,50,40,,,
+Id.Item.Mosin,Mosin Nagant,SemiAutomatic,46,,762x54mm,865,500,0.78,4,,200,800,,40,1.5,,
 Id.Item.MP43,MP43,SemiAutomatic,900,,7mmBuck;12g,391,,3.08,28,,70,70,70,35,,,2
 Id.Item.MP9,AMP-9,Automatic;SemiAutomatic,900,,9mm,400,,2.1,15,,50,,50,20,,,30
 Id.Item.RFB,BMR-308,SemiAutomatic,450,1,308Win,880,500,0.69,10,,,300,,35,0.6,,20
 Id.Item.RPG7,RPG-7,SemiAutomatic,100,,93mm,100,300,3,,50000,,500,,40,,,
-Id.Item.SKS,SKS,SemiAutomatic,420,,762mm,735,400,0.73,5.5,,,1000,,35,,,20
+Id.Item.SKS,SKS,SemiAutomatic,420,,762mm,735,400,0.73,5.5,,,1000,,35,1.1,,20
 Id.Item.SMG_03,PP-19 Vityaz,Automatic;SemiAutomatic,800,,9mm,380,200,1.3,17,,,200,50,20,,,30
-Id.Item.SR_04,AMR 50,SemiAutomatic,41.5,,50Cal,900,2000,0.11,4,,,300,,40,,,
-Id.Item.SV98,SV98,SemiAutomatic,46,,762x54mm,830,1000,0.56,4,,,,,40,,,
-Id.Item.SVDM,SVD,SemiAutomatic,480,,762x54mm,800,800,0.45,10,,,1000,,35,0.4,,9
+Id.Item.SR_04,AMR 50,SemiAutomatic,41.5,,50Cal,900,2000,0.11,4,,,300,,40,2,,
+Id.Item.SV98,SV98,SemiAutomatic,46,,762x54mm,830,1000,0.56,4,,,,,40,1.5,,
+Id.Item.SVDM,SVD,SemiAutomatic,480,,762x54mm,800,800,0.45,10,,,1000,,35,0.8,,9
 Id.Item.TAR21,T-21,Automatic;SemiAutomatic,750,,556mm,910,550,0.87,15,,,300,,35,,,30
-Id.Item.Vector,Super-45,Automatic;SemiAutomatic,1200,,45ACP,375,50,2,35,,50,,50,20,,,55
+Id.Item.Vector,Super-45,Automatic;SemiAutomatic,1200,,45ACP,375,50,2,35,,50,,50,20,0.8,,55
 Id.Item.WEPN_026,M1911,SemiAutomatic,430,,45ACP,253,50,2,10,,25,25,25,20,,,
 Id.Item.WEPN_027,Deagle,SemiAutomatic,267,,50AE,470,,0.84,,,50,50,50,20,,,15
 Id.Item.WEPN_028,MP5,Automatic;SemiAutomatic,800,,9mm,400,200,1.16,20,,25,,25,20,,,30
 Id.Item.WEPN_029,Galil,Automatic;SemiAutomatic,650,,556mm,950,400,0.73,12,0.8,,400,,35,,,30
 Id.Item.WEPN_030,FAL,Automatic;SemiAutomatic,650,,308Win,840,800,0.58,16,,,600,,35,0.25,,20
+Id.Item.WEPN_031,PP-19 Bizon,Automatic;SemiAutomatic,700,,9mm,380,200,1.3,17,,,200,50,20,,,30
 Id.Item.WEPN_032,GGX 18,Automatic;SemiAutomatic,1200,,9mm,375,50,2,10,0.08,50,50,50,20,,,50
 Id.Item.WEPN_033,Bushmaster M17S,SemiAutomatic;Burst,700,,556mm,715,300,1.5,15,,,,,35,1.3,,30
-Id.Item.WEPN_035,Scout Rifle TD,SemiAutomatic,46,,556mm,975,300,1.5,4,,,,,40,,,
+Id.Item.WEPN_034,M14,SemiAutomatic;Automatic,700,1,308Win,853,500,0.73,10,,,500,,35,0.5,,32
+Id.Item.WEPN_035,Scout Rifle TD,SemiAutomatic,46,,556mm,975,300,1.5,4,,,,,40,1.5,,
+Id.Item.WEPN_036,Evo-3 Ultra,Automatic;SemiAutomatic,700,,308Win,790,1000,0.73,15,,,1000,,40,0.6,,40
+Id.Item.WEPN_037,TCX-SPR,Automatic;SemiAutomatic,800,1,762mm,700,400,0.58,14,,,200,,35,0.4,,30

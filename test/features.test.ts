@@ -162,8 +162,8 @@ describe("buildables and loot: committed data", () => {
   it("only spawns items that exist in items.json", () => {
     const ids = new Set(items.map((i) => i.id.toLowerCase()));
     const missing = tables.flatMap((t) => t.items.flatMap((i) => [i.item, ...i.subItems.map((s) => s.item)])).filter((id) => !ids.has(id.toLowerCase()));
-    // Items the game's loot tables name that have no definition in the game files (the "cheap" defibrillator was dropped).
-    expect([...new Set(missing)].sort()).toEqual(["Id.Item.Defibrillator.Cheap"]);
+    // Items the game's loot tables name that have no definition in the game files (the "cheap" defibrillator was dropped, and so was `WEPN_023`).
+    expect([...new Set(missing)].sort()).toEqual(["Id.Item.Defibrillator.Cheap", "Id.Item.WEPN_023"]);
   });
 
   it("gives most buildables an icon that is listed in the icon manifest", () => {
@@ -173,11 +173,11 @@ describe("buildables and loot: committed data", () => {
     expect(buildables.find((b) => b.id === "Id.Buildable.SandbagWall")?.icon).toBe("Buildables/Data/Buildables/SandbagWall/T_UI_Buildable_SandbagWall.png");
   });
 
-  it("canaries: a sandbag wall costs 15 and has 735 health; a bunker costs 100 and has 5000", () => {
+  it("canaries: a sandbag wall costs 15 and has 735 health; a bunker costs 200 and has 5000", () => {
     const get = (id: string) => buildables.find((b) => b.id === id)!;
     expect(get("Id.Buildable.SandbagWall")).toMatchObject({ name: "Sandbag Wall", cost: 15, maxHealth: 735, maxStack: 100, damageEntity: "Buildable.SandbagWall" });
-    expect(get("Id.Buildable.Bunker")).toMatchObject({ cost: 100, maxHealth: 5000, tools: ["LargeHammer"] });
-    expect(get("Id.Buildable.Phalanx").cost).toBe(1500);
+    expect(get("Id.Buildable.Bunker")).toMatchObject({ cost: 200, maxHealth: 5000, tools: ["LargeHammer"] });
+    expect(get("Id.Buildable.Phalanx").cost).toBe(1200);
   });
 
   it("canaries: towers hold more loot than a single armor drop, and sniper-only tables respawn", () => {

@@ -6,16 +6,18 @@ Id.Item.10xScopeMoa,item,6-10x Scope MOA,Optic,"Specification:
 - Zeroing range (100m-1000m)
 
 Cons:
-- Strong ADS speed penalty",UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_10x_Optic_Textured_512x512.png,,3,1,1,0.98,,Recon,26,45000,Item.Context.Equippable;Item.Attachment.Sight.Long
+- Strong ADS speed penalty",UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_10x_Optic_Textured_512x512.png,,3,1,1,0.98,,Recon,19,45000,Item.Context.Equippable;Item.Attachment.Sight.Long
 ID.Item.120x570mm,item,120x570mm,Ammunition,"- Multi-purpose Shell
 - Effective against all targets",UI/Shared/Icons/Utility/3D/T_UI_Ammo_120mm.png,,3,2,5,24,,,,,Item.Ammo;Item.Caliber.120x570mm;Item.Context.ForceToStorage
 Id.Item.120x800mm,item,120x800mm,Ammunition,Ammo for buildable mortar,UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_84Heat_Round_Textured_512x512.png,,3,2,10,,,,,,Item.Ammo;Item.Caliber.120x800mm;Item.Context.ForceToStorage
 Id.Item.122mm,item,122mm,Ammunition,"- High-explosive unguided rocket
 - large area of effect",UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_84Heat_Round_Textured_512x512.png,,6,2,3,,,,,,Item.Ammo;Item.Caliber.122mm;Item.Context.ForceToStorage
+ID.Item.125x570mm,item,125x570mm,Ammunition,"- Multi-purpose Shell
+- Effective against all targets",UI/Shared/Icons/Utility/3D/T_UI_Ammo_125mm.png,,3,2,5,24,,,,,Item.Ammo;Item.Caliber.125x570mm;Item.Context.ForceToStorage
 Id.Item.12g,item,12g,Ammunition,"- Standard ammunition
 - Deals even damage to all target types",UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_12g_slug_green.png,,2,1,24,,,,,,Item.Ammo;Item.Caliber.12g;Item.Ammo.Type.FMJ.Tracer;Item.Context.ForceToStorage
 Id.Item.12g.7mmBuck,item,7mm Buckshot,Ammunition,8 Pellets,UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_12g_slug_FMJ.png,,2,1,24,,,,,,Item.Caliber.12g;Item.Ammo.Type.Buckshot;Item.Ammo;Item.Context.ForceToStorage
-Id.Item.12g.RifledSlug,item,Rifled Slug,Ammunition,8 Pellets,UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_12g_slug_green.png,,2,1,24,,,Wardog,41,5000,Item.Caliber.12g;Item.Ammo.Type.Slug;Item.Ammo;Item.Context.ForceToStorage
+Id.Item.12g.RifledSlug,item,Rifled Slug,Ammunition,8 Pellets,UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_12g_slug_green.png,,2,1,24,,,Wardog,36,5000,Item.Caliber.12g;Item.Ammo.Type.Slug;Item.Ammo;Item.Context.ForceToStorage
 ID.Item.155mm,item,155mm,Ammunition,"- High-explosive Shell
 - Very large area of effect",UI/Shared/Icons/Utility/3D/T_UI_Ammo_155mm.png,,3,2,2,,,,,,Item.Ammo;Item.Caliber.155mm;Item.Context.ForceToStorage
 ID.Item.155mm.Expensive,item,155mm,Ammunition,"- High-explosive Shell
@@ -37,11 +39,11 @@ Id.Item.308Win.ArmorPiercing.Tracer,item,.308 AP (T),Ammunition,"- Increased dam
 Id.Item.308Win.HollowPoint,item,.308 HollowPoint,Ammunition,"- Increased damage against flesh.
 - Decreased damage against armored targets",UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox__308_HP.png,,2,1,40,,,,,,Item.Ammo;Item.Caliber.308Win;Item.Ammo.Type.HollowPoint;Item.Context.ForceToStorage
 Id.Item.308Win.HollowPoint.Tracer,item,.308 HollowPoint (T),Ammunition,"- Increased damage against flesh.
-- Decreased damage against armored targets",UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox__308_HP.png,,2,1,40,,,Wardog,65,5000,Item.Ammo;Item.Caliber.308Win;Item.Ammo.Type.HollowPoint.Tracer;Item.Context.ForceToStorage
+- Decreased damage against armored targets",UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox__308_HP.png,,2,1,40,,,Wardog,63,5000,Item.Ammo;Item.Caliber.308Win;Item.Ammo.Type.HollowPoint.Tracer;Item.Context.ForceToStorage
 Id.Item.308Win.Tracer,item,.308 (T),Ammunition,"- Standard ammunition
 - Deals even damage to all target types",UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox__308_FMJ.png,,2,1,40,,,,,,Item.Ammo;Item.Caliber.308Win;Item.Ammo.Type.FMJ.Tracer;Item.Context.ForceToStorage
 Id.Item.30mm,item,30mm,Ammunition,"- High-explosive cannon rounds
-- Small area of effect",UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_Cheap_Magazine_Judge_Textured_512x512.png,,1,1,200,,,,,,Item.Ammo;Item.Caliber.30mm;Item.Ammo.Type.FMJ.Tracer;Item.Context.ForceToStorage
+- Small area of effect",UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_Cheap_Magazine_Judge_Textured_512x512.png,,2,2,50,,,,,,Item.Ammo;Item.Caliber.30mm;Item.Ammo.Type.FMJ.Tracer;Item.Context.ForceToStorage
 Id.Item.338Nor,item,.338 Winchester,,,UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox__338_FMJ.png,,2,1,30,,,,,,Item.Ammo;Item.Caliber.338Nor;Item.Ammo.Type.FMJ.Tracer;Item.Context.ForceToStorage
 Id.Item.338Nor.ArmourPiercing,item,.338 AP,,,UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox__338_AP.png,,2,1,30,,,,,,Item.Ammo;Item.Caliber.338Nor;Item.Ammo.Type.FMJ.Tracer;Item.Context.ForceToStorage
 Id.Item.338Nor.ArmourPiercing.Tracer,item,338 AP (T),,,UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox__338_AP.png,,2,1,30,,,,,,Item.Ammo;Item.Caliber.338Nor;Item.Context.ForceToStorage
@@ -51,14 +53,14 @@ Id.Item.338Nor.HollowPoint.Tracer,item,.338 HP (T),Ammunition,"- Increased damag
 - Decreased damage against armored targets",UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox__338_HP.png,,2,1,30,,,,,,Item.Ammo;Item.Caliber.338Nor;Item.Ammo.Type.HollowPoint.Tracer;Item.Context.ForceToStorage
 Id.Item.338Nor.Tracer,item,.338 (T),,,UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox__338_FMJ.png,,2,1,30,,,,,,Item.Ammo;Item.Caliber.338Nor;Item.Ammo.Type.FMJ.Tracer;Item.Context.ForceToStorage
 ID.Item.35x228mm,item,35x228mm,Ammunition,"- High-velocity ballistic rounds
-- Optimised for aerial target engagement",UI/Shared/Icons/Utility/3D/T_UI_Ammo_228mm.png,,2,2,75,1.56,,,,,Item.Ammo;Item.Caliber.35x228mm;Item.Ammo.Type.FMJ.Tracer;Item.Context.ForceToStorage
+- Optimized for aerial target engagement",UI/Shared/Icons/Utility/3D/T_UI_Ammo_228mm.png,,2,2,75,1.56,,,,,Item.Ammo;Item.Caliber.35x228mm;Item.Ammo.Type.FMJ.Tracer;Item.Context.ForceToStorage
 Id.Item.3xScope,item,Spitfire 3X,Optic,"Specification:
 - 3x magnification
 - Mid range combat
 - Zeroing range (100m-300m)
 
 Cons:
-- Moderate ADS speed penalty",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_024.png,,2,1,1,0.26,,Infantry,26,25000,Item.Context.Equippable;Item.Attachment.Sight.Medium
+- Moderate ADS speed penalty",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_024.png,,2,1,1,0.26,,Wardog,31,25000,Item.Context.Equippable;Item.Attachment.Sight.Medium
 Id.Item.40mm,item,40mm,Ammunition,"- Un-guided grenade rounds
 - 16M minimum arming distance",UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_40mm_Round_Textured_512x512.png,,2,1,1,0.28,,Support,35,0,Item.Ammo;Item.Caliber.40mm;Item.Context.ForceToStorage
 Id.Item.45ACP,item,.45 ACP,Ammunition,"- Standard ammunition
@@ -90,7 +92,7 @@ Id.Item.4xElcanSpectr,item,4x Elcan Spectr,Optic,"Specification:
 - Zeroing range (100m-400m)
 
 Cons:
-- Moderate ADS speed penalty",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_001.png,,2,1,1,0.66,,Support,21,15000,Item.Context.Equippable;Item.Attachment.Sight.Medium
+- Moderate ADS speed penalty",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_001.png,,2,1,1,0.66,,Infantry,43,15000,Item.Context.Equippable;Item.Attachment.Sight.Medium
 Id.Item.50AE,item,.50 AE,Ammunition,"- Standard ammunition
 - Deals even damage to all target types",UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox__50-AE_FMJ.png,,2,1,30,,,,,,Item.Ammo;Item.Caliber.50AE;Item.Ammo.Type.FMJ.Tracer;Item.Context.ForceToStorage
 Id.Item.50AE.ArmorPiercing,item,.50 AE AP,Ammunition,"- Increased damage to body armor and vehicles
@@ -116,11 +118,11 @@ Id.Item.545mm,item,5.45mm,Ammunition,"- Standard ammunition
 Id.Item.545mm.ArmorPiercing,item,5.45mm AP,Ammunition,"- Increased damage to body armor and vehicles
 - Decreased damage to unarmored body parts",UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_5_45x39_AP.png,,2,1,80,,,,,,Item.Caliber.545mm;Item.Ammo.Type.ArmorPiercing;Item.Ammo;Item.Context.ForceToStorage
 Id.Item.545mm.ArmorPiercing.Tracer,item,5.45mm AP (T),Ammunition,"- Increased damage to body armor and vehicles
-- Decreased damage to unarmored body parts",UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_5_45x39_Ap.png,,2,1,80,,,Wardog,93,75000,Item.Caliber.545mm;Item.Ammo.Type.ArmorPiercing.Tracer;Item.Ammo;Item.Context.ForceToStorage
+- Decreased damage to unarmored body parts",UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_5_45x39_Ap.png,,2,1,80,,,Wardog,90,75000,Item.Caliber.545mm;Item.Ammo.Type.ArmorPiercing.Tracer;Item.Ammo;Item.Context.ForceToStorage
 Id.Item.545mm.HollowPoint,item,5.45mm HP,Ammunition,"- Increased damage against flesh.
 - Decreased damage against armored targets",UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_5_45x39_HP.png,,2,1,80,,,,,,Item.Caliber.545mm;Item.Ammo.Type.HollowPoint;Item.Ammo;Item.Context.ForceToStorage
 Id.Item.545mm.HollowPoint.Tracer,item,5.45mm HP (T),Ammunition,"- Increased damage against flesh.
-- Decreased damage against armored targets",UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_5_45x39_HP.png,,2,1,80,,,Wardog,16,5000,Item.Caliber.545mm;Item.Ammo.Type.HollowPoint.Tracer;Item.Ammo;Item.Context.ForceToStorage
+- Decreased damage against armored targets",UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_5_45x39_HP.png,,2,1,80,,,Wardog,6,5000,Item.Caliber.545mm;Item.Ammo.Type.HollowPoint.Tracer;Item.Ammo;Item.Context.ForceToStorage
 Id.Item.545mm.Tracer,item,5.45mm (T),Ammunition,"- Standard ammunition
 - Deals even damage to all target types",UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_5_45x39_FMJ.png,,2,1,80,,,,,,Item.Caliber.545mm;Item.Ammo.Type.FMJ.Tracer;Item.Ammo.Type;Item.Context.ForceToStorage
 Id.Item.556mm,item,5.56mm,Ammunition,"- Standard ammunition
@@ -128,11 +130,11 @@ Id.Item.556mm,item,5.56mm,Ammunition,"- Standard ammunition
 Id.Item.556mm.ArmorPiercing,item,5.56mm AP,Ammunition,"- Increased damage to body armor and vehicles
 - Decreased damage to unarmored body parts",UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_5_56x45mm_AP.png,,2,1,80,,,,,,Item.Caliber.556mm;Item.Ammo;Item.Ammo.Type.ArmorPiercing;Item.Context.ForceToStorage
 Id.Item.556mm.ArmorPiercing.Tracer,item,5.56mm AP (T),Ammunition,"- Increased damage to body armor and vehicles
-- Decreased damage to unarmored body parts",UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_5_56x45mm_AP.png,,2,1,80,,,Wardog,83,75000,Item.Caliber.556mm;Item.Ammo;Item.Ammo.Type.ArmorPiercing.Tracer;Item.Context.ForceToStorage
+- Decreased damage to unarmored body parts",UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_5_56x45mm_AP.png,,2,1,80,,,Wardog,84,75000,Item.Caliber.556mm;Item.Ammo;Item.Ammo.Type.ArmorPiercing.Tracer;Item.Context.ForceToStorage
 Id.Item.556mm.HollowPoint,item,5.56mm HP,Ammunition,"- Increased damage against flesh.
 - Decreased damage against armored targets",UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_5_56x45mm_HP.png,,2,1,80,,,,,,Item.Caliber.556mm;Item.Ammo;Item.Ammo.Type.HollowPoint;Item.Context.ForceToStorage
 Id.Item.556mm.HollowPoint.Tracer,item,5.56mm HP (T),Ammunition,"- Increased damage against flesh.
-- Decreased damage against armored targets",UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_5_56x45mm_HP.png,,2,1,80,,,Wardog,10,5000,Item.Caliber.556mm;Item.Ammo;Item.Ammo.Type.HollowPoint.Tracer;Item.Context.ForceToStorage
+- Decreased damage against armored targets",UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_5_56x45mm_HP.png,,2,1,80,,,Wardog,13,5000,Item.Caliber.556mm;Item.Ammo;Item.Ammo.Type.HollowPoint.Tracer;Item.Context.ForceToStorage
 Id.Item.556mm.Tracer,item,5.56mm (T),Ammunition,"- Standard ammunition
 - Deals even damage to all target types",UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_5_56x45mm_FMJ.png,,2,1,80,,,,,,Item.Caliber.556mm;Item.Ammo;Item.Ammo.Type.FMJ.Tracer;Item.Context.ForceToStorage
 Id.Item.6xScope,item,3-6x Scope,,,,,2,1,1,,,,,,Item.Context.Equippable;Item.Attachment.Sight.Long
@@ -143,7 +145,7 @@ Id.Item.762mm,item,7.62mm,Ammunition,"- Standard ammunition
 Id.Item.762mm.ArmorPiercing,item,7.62mm AP,Ammunition,"- Increased damage to body armor and vehicles
 - Decreased damage to unarmored body parts",UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_7_62x39mm_AP.png,,2,1,60,,,,,,Item.Ammo;Item.Caliber.762mm;Item.Ammo.Type.ArmorPiercing;Item.Context.ForceToStorage
 Id.Item.762mm.ArmorPiercing.Tracer,item,7.62mm AP (T),Ammunition,"- Increased damage to body armor and vehicles
-- Decreased damage to unarmored body parts",UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_7_62x39mm_AP.png,,2,1,60,,,Wardog,63,50000,Item.Ammo;Item.Caliber.762mm;Item.Ammo.Type.ArmorPiercing.Tracer;Item.Context.ForceToStorage
+- Decreased damage to unarmored body parts",UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_7_62x39mm_AP.png,,2,1,60,,,Wardog,60,50000,Item.Ammo;Item.Caliber.762mm;Item.Ammo.Type.ArmorPiercing.Tracer;Item.Context.ForceToStorage
 Id.Item.762mm.HollowPoint,item,7.62mm HP,Ammunition,"- Increased damage against flesh.
 - Decreased damage against armored targets",UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_7_62x39mm_HP.png,,2,1,60,,,,,,Item.Ammo;Item.Caliber.762mm;Item.Ammo.Type.HollowPoint;Item.Context.ForceToStorage
 Id.Item.762mm.HollowPoint.Tracer,item,7.62mm HP (T),Ammunition,"- Increased damage against flesh.
@@ -169,9 +171,9 @@ Id.Item.762x54mm.HollowPoint.Tracer,item,7.62x54mm HP (T),Ammunition,"- Increase
 Id.Item.762x54mm.Tracer,item,7.62x54mm (T),Ammunition,"- Standard ammunition
 - Deals even damage to all target types",UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_7_62x54R_FMJ.png,,2,1,40,,,,,,Item.Ammo;Item.Caliber.762x54mm;Item.Ammo.Type.FMJ.Tracer;Item.Context.ForceToStorage
 Id.Item.84mm,item,84mm,Ammunition,"- Anti-tank Shell
-- 25M minimum arming distance",UI/Shared/Icons/Utility/3D/T_UI_Item_84MM_BC.png,,2,1,1,3.5,,,,,Item.Ammo;Item.Caliber.84mm;Item.Context.ForceToStorage
+- 25M minimum arming distance",UI/Shared/Icons/Utility/3D/T_UI_Item_84MM_BC.png,,2,1,1,3.5,,,,,Item.Ammo;Item.Caliber.84mm
 Id.Item.93mm,item,93mm,Ammunition,"- Un-guided self-propelled rocket
-- 16M minimum arming distance",UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_93mm_Round_Textured_512x512.png,,3,1,1,2.6,,Support,5,0,Item.Ammo;Item.Caliber.93mm;Item.Context.ForceToStorage
+- 16M minimum arming distance",UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_93mm_Round_Textured_512x512.png,,3,1,1,2.6,,Support,6,0,Item.Ammo;Item.Caliber.93mm
 Id.Item.9mm,item,9mm,Ammunition,"- Standard ammunition
 - Deals even damage to all target types",UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_9x19mm_FMJ.png,,2,1,80,,,,,,Item.Ammo;Item.Caliber.9mm;Item.Ammo.Type.FMJ.Tracer;Item.Context.ForceToStorage
 Id.Item.9mm.ArmorPiercing,item,9mm AP,Ammunition,"- Increased damage to body armor and vehicles
@@ -181,7 +183,7 @@ Id.Item.9mm.ArmorPiercing.Tracer,item,9mm AP (T),Ammunition,"- Increased damage 
 Id.Item.9mm.HollowPoint,item,9mm HP,Ammunition,"- Increased damage against flesh.
 - Decreased damage against armored targets",UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_9x19mm_HP.png,,2,1,100,,,,,,Item.Ammo;Item.Caliber.9mm;Item.Ammo.Type.HollowPoint;Item.Context.ForceToStorage
 Id.Item.9mm.HollowPoint.Tracer,item,9mm HP (T),Ammunition,"- Increased damage against flesh.
-- Decreased damage against armored targets",UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_9x19mm_HP.png,,2,1,100,,,Wardog,6,5000,Item.Ammo;Item.Caliber.9mm;Item.Ammo.Type.HollowPoint.Tracer;Item.Context.ForceToStorage
+- Decreased damage against armored targets",UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_9x19mm_HP.png,,2,1,100,,,Wardog,10,5000,Item.Ammo;Item.Caliber.9mm;Item.Ammo.Type.HollowPoint.Tracer;Item.Context.ForceToStorage
 Id.Item.9mm.Tracer,item,9mm (T),Ammunition,"- Standard ammunition
 - Deals even damage to all target types",UI/Shared/Icons/Equipment/AmmoBoxes/Tracer/T_UI_Icon_ammobox_9x19mm_FMJ.png,,2,1,100,,,,,,Item.Ammo;Item.Caliber.9mm;Item.Ammo.Type.FMJ.Tracer;Item.Context.ForceToStorage
 Id.Item.A91,item,A-91,Assault Rifle,"- Semi / Burst Fire
@@ -191,7 +193,7 @@ ID.Item.A91Barrel,item,A91 Barrel,,Barrel Component,UI/Shared/Icons/Components/A
 ID.Item.A91Mag,item,A91 Standard Mag,Magazine,"- 30 Rounds
 - 5.56x45mm ammo",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_Stanag.png,,1,2,1,,,,,,Item.Attachment.Magazine;Item.Resource.Magazine.Standard
 Id.Item.AK74M,item,AK74,Assault Rifle,"- Semi / Full Auto
-- 5.45x39mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_001v2.png,,5,2,1,3,,Infantry,3,10000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.AR;Item.Weapon.AK74M;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle
+- 5.45x39mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_001v2.png,,5,2,1,3,,,,,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.AR;Item.Weapon.AK74M;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle
 Id.Item.AK74MBarrel,item,AK74 Barrel,,Barrel Component,UI/Shared/Icons/Weapons/Components/AK74M/T_UI_Icon_COM_AK_Barrel_01_Textured_512x512.png,,1,1,1,,,,,,Item.Attachment.Barrel.AK74M
 Id.Item.AK74MExtendedMagazine,item,AK74 60 RND Magazine,Magazine,"- 60 Rounds
 - 5.45x39mm ammo
@@ -200,10 +202,10 @@ Id.Item.AK74MGrip,item,AK74M Grip,,Grip Component,UI/Shared/Icons/Weapons/Compon
 ID.Item.AK74MIMIEGGrip,item,AK74 Grip,,Grip Component,UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_RK_Grip_Textured_512x512.png,,1,1,1,,,,,,Item.Attachment.Grip.AK74M
 Id.Item.AK74MMagazine,item,AK74 30 RND Magazine,Magazine,"- 30 Rounds
 - 5.45x39mm ammo
-- AK74 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_001.png,,1,2,1,0.55,,Infantry,3,0,Item.Attachment.Magazine;Item.Resource.Magazine.Standard
+- AK74 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_001.png,,1,2,1,0.55,,,,,Item.Attachment.Magazine;Item.Resource.Magazine.Standard
 Id.Item.AK74MMagazine75rnd,item,AK74 75 RND Drum Magazine,Magazine,"- 75 Rounds 
 - 5.45x39mm ammo
-- AK74 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_015.png,,2,2,1,2.08,,Infantry,40,75000,Item.Attachment.Magazine;Item.Resource.Magazine.Drum
+- AK74 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_015.png,,2,2,1,2.08,,Infantry,36,75000,Item.Attachment.Magazine;Item.Resource.Magazine.Drum
 Id.Item.AK74MMagazinePlum130rnd,item,AK74-M Extended Mag,,,,,1,2,1,,,,,,Item.Attachment.Magazine
 Id.Item.AK74MStock,item,AK74M Stock,,Stock Component,UI/Shared/Icons/Weapons/Components/AK74M/T_UI_Icon_COM_AK_Stock_01_Textured_512x512.png,,1,1,1,,,,,,Item.Attachment.Stock.AK74M
 Id.Item.AmmoCrate,item,Ammo Crate,,,UI/Shared/Icons/Utility/T_UI_Icon_Utility_AmmoCrate_1_Textured_512x512.png,,2,2,1,,,,,,Item.Context.QuickSlot;Item.Context.Animation.Type.Unarmed
@@ -214,7 +216,7 @@ ID.Item.AR_02_HGD_04,item,LVOA Handguard,,,,,1,1,1,,,,,,Item.Attachment.Handguar
 ID.Item.AR_02_STK_04,item,ID.Item.AR_02_STK_04,,,,,1,1,1,,,,,,Item.Attachment.Stock.M4
 Id.Item.ARExtendedMagazine545mm,item,AR Extended Mag,,,,,1,2,1,,,,,,Item.Attachment.Magazine.AR
 Id.Item.Arrow,item,Arrow,Ammunition,"- Metal broadhead arrow
-- Effective against unarmored targets",UI/Shared/Icons/Attachments/3D/T_UI_Magazine_Bow_BC.png,,1,3,10,0.01,,Recon,17,0,Item.Ammo;Item.Caliber.Arrow
+- Effective against unarmored targets",UI/Shared/Icons/Attachments/3D/T_UI_Magazine_Bow_BC.png,,1,3,10,0.01,,Recon,16,0,Item.Ammo;Item.Caliber.Arrow
 Id.Item.Arrow.Explosive,item,Combat Arrow,Ammunition,Explosive arrow head for the compond bow,UI/Shared/Icons/Attachments/3D/T_UI_Magazine_Bow_BC.png,,3,1,3,,,,,,Item.Ammo;Item.Caliber.Arrow.Explosive
 Id.Item.ArtilleryBarrelTest,item,Artillery Barrel Test,,,,true,1,1,1,50,,,,,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.Launcher;Item.Weapon;Item.Context.Equippable;Item.Context.Animation.Type.Rifle
 ID.Item.ATMine,item,AT Mine,Lethal // Quick Slot,"- Placeable Anti-Vehicle Mines
@@ -229,13 +231,17 @@ Id.Item.BARL_007,item,Id.Item.BARL_007,,,,,1,1,1,,,,,,Item.Attachment.Barrel
 ID.Item.BARL_011,item,RPK74 Barrel + Gas Block,,,UI/Shared/Icons/Components/AK74/T_UI_Barrel_Placeholder.png,,1,1,1,,,,,,Item.Attachment.Barrel
 Id.Item.BARL_044,item,Id.Item.BARL_044,,,,,1,1,1,,,,,,Item.Attachment.Barrel.WEPN_033
 Id.Item.BARL_045,item,Scout Rifle Standard Barrel,,,,,1,1,1,,,,,,Item.Attachment.Barrel.WEPN_035
+Id.Item.BARL_046,item,WEPN_036 Evoly Standard Barrel,,,,,1,1,1,,,,,,Item.Attachment.Barrel.WEPN_036
+Id.Item.BARL_047,item,WEPN_034 M14 Standard Barrel,,,,,1,1,1,,,,,,Item.Attachment.Barrel.WEPN_034
+Id.Item.BARL_048,item,Sig Spear (WEPN_037) Standard Barrel,,,,,1,1,1,,,,,,Item.Attachment.Barrel.WEPN_037
+Id.Item.BARL_049,item,WEPN_031 Bizon Standard Barrel,,,,,1,1,1,,,,,,Item.Attachment.Barrel.WEPN_031
 Id.Item.BasicRedDot,item,Compact T-2 Red Dot,Optic,"Specification:
 - 1.2x magnification
 - Close range combat
 - Fixed zeroing
 
 Pros:
-- Minor ADS speed improvements",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_013.png,,1,1,1,0.13,,Wardog,4,5000,Item.Context.Equippable;Item.Attachment.Sight.Short
+- Minor ADS speed improvements",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_013.png,,1,1,1,0.13,,Wardog,17,5000,Item.Context.Equippable;Item.Attachment.Sight.Short
 Id.Item.Battery,item,Battery,Resource,"- Used to Recharge Drills & Defibrillators
 - Medium Capacity
 - 20V-5AH",UI/Shared/Icons/Utility/3D/t_ui_icon_drill_battery.png,,1,1,1,0.63,,,,,Item.Attachment.Magazine.Battery;Item.Resource.Magazine.Battery
@@ -260,26 +266,26 @@ ID.Item.BuildTool.Hammer.Small,item,Small Hammer,Build Tool // Quick Slot,"- Use
 Id.Item.BuildToolSupply,item,Build Supplies,Logistics // Resource,"- Resource Required to Build all Buildables.
 - Requires any Hammer to Build.",UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_BuildTool_Supplies_Textured_512x512.png,,1,1,50,0.02,,,,,Item.BuildToolSupplies
 Id.Item.C4Explosive,item,C4 Charge,Lethal // Resource,"- Remotely Detonated Explosive
-- Requires Remote Detonator",UI/Shared/Icons/Utility/3D/T_UI_Vendor_C42.png,,1,2,3,0.57,,Support,2,0,Item.Resource.HiddenConsumable;Item.Archetype.Grenade;Item.Context.UtilityItem;Item.Context.Animation.Type.Unarmed;Item.Context.Animation.Archetype.EquipRightHand;Item.Ammo;Item.Caliber.C4Charge
+- Requires Remote Detonator",UI/Shared/Icons/Utility/3D/T_UI_Vendor_C42.png,,1,2,3,0.57,,Infantry,4,0,Item.Resource.HiddenConsumable;Item.Archetype.Grenade;Item.Context.UtilityItem;Item.Context.Animation.Type.Unarmed;Item.Context.Animation.Archetype.EquipRightHand;Item.Ammo;Item.Caliber.C4Charge
 Id.Item.C4Trigger,item,Remote Detonator,Equipment // Quick Slot,"- Detonates placed C4 Charges
-- Requires C4 Charges",UI/Shared/Icons/Utility/3D/t_ui_icon_c4_trigger.png,,1,1,1,0.02,,Support,2,15000,Item.Resource.HiddenConsumable;Item.Ammo;Item.Resource.Ammo;Item.Context.UtilityItem;Item.Context.QuickSlot;Item.Context.Animation.Type.Unarmed;Item.Context.Animation.Archetype.EquipRightHand;Inventory.Slot.Specialist;Item.Context.Equippable
+- Requires C4 Charges",UI/Shared/Icons/Utility/3D/t_ui_icon_c4_trigger.png,,1,1,1,0.02,,Infantry,4,15000,Item.Resource.HiddenConsumable;Item.Ammo;Item.Resource.Ammo;Item.Context.UtilityItem;Item.Context.QuickSlot;Item.Context.Animation.Type.Unarmed;Item.Context.Animation.Archetype.EquipRightHand;Inventory.Slot.Specialist;Item.Context.Equippable
 Id.Item.CantedIrons,item,CantedIrons,,,UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_RedDot_Textured_512x512.png,,1,1,1,,,,,,Item.Attachment.CantedSight
 Id.Item.CGM4,item,MAAWS,Launcher,"- 84mm Anti-Tank Shell
-- Reusable launch tube",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_013.png,,6,2,1,7,,Support,20,125000,Item.Archetype.Launcher;Item.Weapon;Inventory.Slot.Specialist;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Launcher
+- Reusable launch tube",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_013.png,,6,2,1,7,,Support,18,100000,Item.Archetype.Launcher;Item.Weapon;Inventory.Slot.Specialist;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Launcher;Item.Context.LooseAmmoReload
 Id.Item.Claymore,item,Claymore,Lethal // Quick Slot,"- Placeable Anti-Infantry Claymore
-- Motion Triggered by Infantry & Vehicles",UI/Shared/Icons/Utility/3D/T_UI_Vendor_Claymore2.png,,2,1,1,1.6,,Recon,22,50000,Item.Context.UtilityItem;Item.Context.QuickSlot;Item.Context.Animation.Archetype.EquipRightHand;Item.Context.Animation.Type.Claymore
+- Motion Triggered by Infantry & Vehicles",UI/Shared/Icons/Utility/3D/T_UI_Vendor_Claymore2.png,,2,1,1,1.6,,Recon,23,90000,Item.Context.UtilityItem;Item.Context.QuickSlot;Item.Context.Animation.Archetype.EquipRightHand;Item.Context.Animation.Type.Claymore
 Id.Item.CombatBow,item,Compound Bow,Equipment,"- Pull & Release
-- Standard Arrows",UI/Shared/Icons/Weapons/3D/Session/T_UI_Weapon_Bow_BC.png,,6,2,1,1.3,,Recon,17,125000,Item.Context.Equippable;Inventory.Slot.Primary;Item.Weapon;Item.Context.Animation.Archetype.Bow;Item.Archetype.Bow;Item.Context.Animation.Type.Bow
+- Standard Arrows",UI/Shared/Icons/Weapons/3D/Session/T_UI_Weapon_Bow_BC.png,,6,2,1,1.3,,Recon,16,150000,Item.Context.Equippable;Inventory.Slot.Primary;Item.Weapon;Item.Context.Animation.Archetype.Bow;Item.Archetype.Bow;Item.Context.Animation.Type.Bow
 Id.Item.CombatBowMagazine,item,Combat Bow Standard Mag,,,,,1,1,1,,,,,,Item.Attachment.Magazine
 Id.Item.Crowbar,item,Halligan Bar,Equipment // Quick Slot,"- Used to Pry Open Doors
 - Ineffective Against Gates
-- Limited Durability",UI/Shared/Icons/Utility/3D/T_UI_Vendor_Crowbar.png,,3,1,1,2.8,5000,,,,Item.Context.Animation.Archetype.EquipTwoHandsHeavy;Inventory.Slot.Specialist;Item.Context.Equippable;Inventory.Slot.Secondary;Item.Context.UtilityItem;Item.Context.Animation.Type.LargeHammer;Item.Context.QuickSlot
+- Limited Durability",UI/Shared/Icons/Utility/3D/T_UI_Vendor_Crowbar.png,,3,1,1,2.8,7000,,,,Item.Context.Animation.Archetype.EquipTwoHandsHeavy;Inventory.Slot.Specialist;Item.Context.Equippable;Inventory.Slot.Secondary;Item.Context.UtilityItem;Item.Context.Animation.Type.LargeHammer;Item.Context.QuickSlot
 Id.Item.DCVR_001,item,AK74u Dust Cover,,,UI/Shared/Icons/Components/AK74/T_UI_Dustcover_Placeholder.png,,1,1,1,,,,,,Item.Attachment.DustCover
 Id.Item.DCVR_002,item,AK74 Railed Dust Cover,,,UI/Shared/Icons/Components/AK74/T_UI_Dustcover_Placeholder.png,,1,1,1,,,,,,Item.Attachment.DustCover
 Id.Item.DCVR_003,item,RPK74 Dust Cover,,,UI/Shared/Icons/Components/AK74/T_UI_Dustcover_Placeholder.png,,1,1,1,,,,,,Item.Attachment.DustCover
 Id.Item.DebugHomingRocketAmmo,item,RocketTesting 84mm,,,,true,1,1,99,,,,,,Item.Ammo;Item.Caliber.84mm;Item.Ammo.Type.FMJ.Tracer
 Id.Item.Defibrillator.Standard,item,Defibrillator,Medical // Quick Slot,"- Used to Revive Teammates Instantly
-- Requires Battery to Charge & Use",UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_Defib_512x512.png,,2,2,1,2.6,,Medic,11,50000,Item.Context.Medical;Item.Context.Animation.Archetype.EquipRightHand;Item.Context.Animation.Type.Defib;Inventory.Slot.Specialist;Inventory.Slot.Secondary;Item.Context.Equippable;Item.Context.UtilityItem;Item.Context.QuickSlot
+- Requires Battery to Charge & Use",UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_Defib_512x512.png,,2,2,1,2.6,,Medic,22,110000,Item.Context.Medical;Item.Context.Animation.Archetype.EquipRightHand;Item.Context.Animation.Type.Defib;Inventory.Slot.Specialist;Inventory.Slot.Secondary;Item.Context.Equippable;Item.Context.UtilityItem;Item.Context.QuickSlot;Item.Weapon
 Id.Item.DroneProjectile,item,Drone Projectile,,,UI/Features/HUD/EquippedItem/Textures/T_UI_ChamberedRound_Drone.png,,3,2,1,,,,,,Item.Ammo;Item.Context.ForceToStorage;Item.Caliber.DroneProjectile
 ID.Item.Enox.Standard,item,Enox,Equipment,A consumable item that grants decaying health,UI/Shared/Icons/Utility/3D/t_ui_icon_enox_512x512.png,,1,1,1,,,,,,Item.Context.UtilityItem;Item.Context.QuickSlot;Item.Context.Animation.Type.Unarmed;Item.Context.Animation.Archetype.EquipRightHand
 Id.Item.EotechHoloSight,item,Holographic Sight,Optic,"Specification:
@@ -288,7 +294,7 @@ Id.Item.EotechHoloSight,item,Holographic Sight,Optic,"Specification:
 - Fixed zeroing
 
 Pros:
-- Minor ADS speed improvements",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_005.png,,1,1,1,0.25,,Infantry,22,20000,Item.Context.Equippable;Item.Attachment.Sight.Short
+- Minor ADS speed improvements",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_005.png,,1,1,1,0.25,,Medic,6,20000,Item.Context.Equippable;Item.Attachment.Sight.Short
 Id.Item.ExtraLargeSlingBackpack,item,Large Backpack + 2 Slings,Backpack,"- Grid: 6x4 Item Storage Slots
 - Number of Slots: 24
  -2 Sling Slots for additional Equipment Storage",UI/Shared/Icons/Utility/3D/T_UI_Vendor_Backpack_007.png,,5,6,1,1.5,,Wardog,150,175000,Inventory.Slot.Backpack;Item.Context.Equippable
@@ -305,7 +311,7 @@ Id.Item.FGP_03,item,AFG Angled Foregrip,Foregrip,"Pros:
 - Strong horizontal recoil reduction
 - Strong spread reduction
 - Moderate ADS speed improvements
-- Moderate equip speed improvements",UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FGRP_003.png,,1,1,1,0.08,,Infantry,14,10000,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Context.Animation.Archetype.Foregrip.Angled
+- Moderate equip speed improvements",UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FGRP_003.png,,1,1,1,0.08,,Medic,11,10000,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Context.Animation.Archetype.Foregrip.Angled
 Id.Item.FGP_04,item,Grip Pod,Bipod,"Stowed:
 - Moderate recoil reduction
 - Minor ADS speed penalty
@@ -323,7 +329,7 @@ Id.Item.FGRP_006,item,RVG Vertical Foregrip,Foregrip,"Pros:
 - Minor horizontal control
 
 Cons:
-- Minor horizontal sway control penalty",UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FGRP_006.png,,1,1,1,0.12,,Medic,16,10000,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Context.Animation.Archetype.Foregrip.Vertical
+- Minor horizontal sway control penalty",UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FGRP_006.png,,1,1,1,0.12,,Infantry,38,25000,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Context.Animation.Archetype.Foregrip.Vertical
 Id.Item.FGRP_007,item,Shift Foregrip,Foregrip,"Pros:
 - Strong horizontal recoil reduction
 - Strong spread reduction
@@ -336,7 +342,7 @@ Id.Item.FGRP_008,item,PKM Bipod,Bipod,"Pros:
 - Strong sway reduction
 
 Cons:
-- Reduced mobility",UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FGRP_008.png,,1,3,1,0.7,,Support,33,35000,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Attachment.Bipod.Attached
+- Reduced mobility",UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FGRP_008.png,,1,3,1,0.7,,Support,17,25000,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Attachment.Bipod.Attached
 Id.Item.FGRP_009,item,SV98 Bipod,Bipod,"Pros:
 - Strong ADS speed increase
 - Strong spread reduction
@@ -344,7 +350,7 @@ Id.Item.FGRP_009,item,SV98 Bipod,Bipod,"Pros:
 - Strong sway reduction
 
 Cons:
-- Reduced mobility",UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FGRP_009.png,,1,3,1,0.472,,Recon,21,30000,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Attachment.Bipod.Attached
+- Reduced mobility",UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FGRP_009.png,,1,3,1,0.472,,Recon,21,17500,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Attachment.Bipod.Attached
 Id.Item.FGRP_010,item,SKS Bipod,Bipod,"Pros:
 - Strong ADS speed increase
 - Strong spread reduction
@@ -368,7 +374,7 @@ Id.Item.FGRP_012,item,M249 Bipod,Bipod,"Pros:
 - Strong sway reduction
 
 Cons:
-- Reduced mobility",UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FGRP_008.png,,1,3,1,0.7,,Support,18,15000,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Attachment.Bipod.Attached
+- Reduced mobility",UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FGRP_008.png,,1,3,1,0.7,,Support,24,50000,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Attachment.Bipod.Attached
 Id.Item.FGRP_013,item,Pro Tilt Bipod,Bipod,"Pros:
 - Strong ADS speed increase
 - Strong spread reduction
@@ -385,7 +391,7 @@ Id.Item.FGRP_014,item,CQR Tactical Front Rail Grip,Foregrip,"Pros:
 
 Cons:
 - Moderate ADS speed penalty
-- Minor horizontal sway penalty",UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FGRP_014.png,,1,1,1,0.15,,Infantry,38,25000,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Context.Animation.Archetype.Foregrip.HERA
+- Minor horizontal sway penalty",UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FGRP_014.png,,1,1,1,0.15,,Infantry,14,10000,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Context.Animation.Archetype.Foregrip.HERA
 Id.Item.FGRP_015,item,Rubberized Ergonomic Foregrip,Foregrip,"Pros:
 - Strong ADS stabilization handling
 - Strong vertical sway reduction
@@ -416,6 +422,22 @@ Id.Item.FGRP_018,item,Mini Angled Foregrip,Foregrip,"Pros:
 - Moderate spread reduction
 - Moderate ADS speed improvements
 - Moderate equip speed improvements",UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FGRP_018.png,,1,1,1,0.08,,Wardog,38,12500,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Context.Animation.Archetype.Foregrip.BumpStop
+Id.Item.FGRP_019,item,Evo-3 Ultra Bipod,Bipod,"Pros:
+- Strong ADS speed increase
+- Strong spread reduction
+- Strong recoil reduction
+- Strong sway reduction
+
+Cons:
+- Reduced mobility",UI/Shared/Icons/Vendor/Grips/T_UI_Weapons_FGRP_019.png,,1,3,1,0.7,,Support,33,75000,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Attachment.Bipod.Attached
+Id.Item.FGRP_020,item,M14 Bipod,Bipod,"Pros:
+- Strong ADS speed increase
+- Strong spread reduction
+- Moderate recoil reduction
+- Moderate sway reduction
+
+Cons:
+- Reduced mobility",UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FRGP_020.png,,1,3,1,0.794,,Recon,29,25000,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Attachment.Bipod.Attached
 Id.Item.Fists,item,Fists,,Fists used in short range engagements,UI/Shared/Icons/Weapons/Killfeed/T_UI_Icon_Killfeed_MeleeFist.png,,1,1,1,,,,,,Inventory.Slot.Hands;Item.Context.Animation.Archetype.Unarmed;Item.Context.Animation.Type.Fists
 Id.Item.Flares,item,Flares,Countermeasure,"- Anti-air countermeasure
 - Deploys 3x bursts of flares",Flares/Textures/T_UI_Vehicle_Flares.png,,2,2,1,,,,,,Item.Resource.Ammo
@@ -427,29 +449,30 @@ Id.Item.FuelSupplies,item,Ammo Supplies,Logistics // Resource,"- Resource Requir
 - Requires FOB Radius to Use.",UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_Fuel_Supplies_Textured_512x512.png,,1,1,50,0.03,,,,,Item.FuelSupplies
 Id.Item.GhillieArmor,item,Ghillie Suit,Armor,"- Must be used with the Ghillie Headwear
 - Removes death cam after killing an enemy
-- Hides the Player from Infrared Range Finders",UI/Shared/Icons/Utility/3D/T_UI_Icon_Ghillie_Body_BC.png,,5,4,1,1.5,,Recon,24,80000,Inventory.Slot.Armor;Item.Context.Equippable
+- Hides the Player from Infrared Range Finders",UI/Shared/Icons/Utility/3D/T_UI_Icon_Ghillie_Body_BC.png,,5,4,1,1.5,,Recon,26,80000,Inventory.Slot.Armor;Item.Context.Equippable
 Id.Item.GhillieArmor.Dead,item,Ghillie Suit (Dead),Armor,"- Must be used with the Ghillie Headwear
 - Removes death cam after killing an enemy
-- Hides the Player from Infrared Range Finders",UI/Shared/Icons/Vendor/Gear/T_UI_Vendor_GhillieBody__Dead.png,,5,4,1,1.5,,Recon,27,100000,Inventory.Slot.Armor;Item.Context.Equippable
+- Hides the Player from Infrared Range Finders",UI/Shared/Icons/Vendor/Gear/T_UI_Vendor_GhillieBody__Dead.png,,5,4,1,1.5,,Recon,41,100000,Inventory.Slot.Armor;Item.Context.Equippable
 Id.Item.GhillieHelmet,item,Ghillie Headwear,Armor,"- Must be used with the Ghillie Body Suit
 - Removes death cam after killing an enemy
-- Hides the Player from Infrared Range Finders",UI/Shared/Icons/Utility/3D/T_UI_Icon_Ghillie_Helmet_BC.png,,2,2,1,,,Recon,24,60000,Inventory.Slot.Helmet;Item.Context.Equippable
+- Hides the Player from Infrared Range Finders",UI/Shared/Icons/Utility/3D/T_UI_Icon_Ghillie_Helmet_BC.png,,2,2,1,,,Recon,26,60000,Inventory.Slot.Helmet;Item.Context.Equippable
 Id.Item.GhillieHelmet.Dead,item,Ghillie Headwear (Dead),Armor,"- Must be used with the Ghillie Body Suit
 - Removes death cam after killing an enemy
-- Hides the Player from Infrared Range Finders",UI/Shared/Icons/Vendor/Gear/T_UI_Vendor_Ghillie_Dead.png,,2,2,1,,,Recon,27,80000,Inventory.Slot.Helmet;Item.Context.Equippable
+- Hides the Player from Infrared Range Finders",UI/Shared/Icons/Vendor/Gear/T_UI_Vendor_Ghillie_Dead.png,,2,2,1,,,Recon,41,80000,Inventory.Slot.Helmet;Item.Context.Equippable
 Id.Item.Glock17,item,GGX 17,Pistol,"- Semi automatic
-- 9x19mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_010.png,,2,2,1,0.63,,Wardog,1,5000,Item.Archetype.Pistol;Inventory.Slot.Sidearm;Item.Context.Equippable;Item.Context.Animation.Type.Pistol;Item.Context.Animation.Archetype.Pistol;Item.Weapon
+- 9x19mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_010.png,,2,2,1,0.63,,Wardog,18,15000,Item.Archetype.Pistol;Inventory.Slot.Sidearm;Item.Context.Equippable;Item.Context.Animation.Type.Pistol;Item.Context.Animation.Archetype.Pistol;Item.Weapon
 Id.Item.Glock17Barrel,item,Id.Item.Glock17Barrel,,,,,1,1,1,,,,,,Item.Attachment.Barrel.Glock
 Id.Item.Glock17ExtendedMagazine,item,Glock 17 Extended Mag,Magazine,,UI/Features/Inventory_2_0/Textures/T_Icon_PistolMag.png,,2,1,1,,,,,,Item.Attachment.Magazine
 Id.Item.Glock17Magazine,item,GGX 17 RND Magazine,Magazine,"- 17 Rounds
 - 9x19mm ammo
-- GGX 17 and GGX 18 only",UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_Cheap_Magazine_9mm_Textured_512x512.png,,1,1,1,0.28,,Wardog,1,0,Item.Attachment.Magazine;Item.Resource.Magazine.Standard
+- GGX 17 and GGX 18 only",UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_Cheap_Magazine_9mm_Textured_512x512.png,,1,1,1,0.28,,Wardog,18,0,Item.Attachment.Magazine;Item.Resource.Magazine.Standard
 Id.Item.GoldM67Grenade,item,Golden Grenade,Throwable,You must be a very rich Wardog...,UI/Shared/Icons/Utility/3D/t_ui_icon_gold_grenade.png,,1,1,1,,,,,,Item.Archetype.Grenade;Item.Context.UtilityItem;Item.Context.QuickSlot;Item.Context.Animation.Type.Unarmed;Item.Context.Animation.Archetype.EquipRightHand
 Id.Item.HeavyArmor,item,Level 3 Armor,Armor,"- High Damage Reduction
-- Protects the Upper and Lower Torso",UI/Shared/Icons/Vendor/Gear/T_UI_Vendor_Armor_003.png,,4,5,1,10.5,,Wardog,60,100000,Inventory.Slot.Armor;Item.Context.Equippable
+- Protects the Upper and Lower Torso",UI/Shared/Icons/Vendor/Gear/T_UI_Vendor_Armor_003.png,,4,5,1,10.5,,Wardog,70,100000,Inventory.Slot.Armor;Item.Context.Equippable
 Id.Item.HeavyHelmet,item,Level 3 Helmet,Armor,"- High Damage Reduction
-- Protects the Head and Neck",UI/Shared/Icons/Vendor/Gear/T_UI_Vendor_Helmet_003.png,,2,2,1,3,,Wardog,60,75000,Inventory.Slot.Helmet;Item.Context.Equippable
-ID.Item.HeavyTankMountedMachineGun,item,Machine Gun,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.TNK_01.MountedMachineGun
+- Protects the Head and Neck
+- Low Suppression Reduction",UI/Shared/Icons/Vendor/Gear/T_UI_Vendor_Helmet_003.png,,2,2,1,3,,Wardog,70,75000,Inventory.Slot.Helmet;Item.Context.Equippable
+ID.Item.HeavyTankMountedMachineGun,item,Machine Gun,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.TNK_01.MountedMachineGun;Item.Context.MovementBlocked
 Id.Item.HNDG_003,item,MP5 Handguard,,,,,1,1,1,,,,,,Item.Attachment.Handguard.WEPN_028
 Id.Item.HNDG_005,item,AK74 Polymer Handguard,,,UI/Shared/Icons/Components/AK74/T_UI_Handguard_Placeholder.png,,1,1,1,,,,,,Item.Attachment.Handguard
 Id.Item.HNDG_006,item,AK74 Wooden Dong Grip,,,UI/Shared/Icons/Components/AK74/T_UI_Handguard_Placeholder.png,,1,1,1,,,,,,Item.Attachment.Handguard
@@ -463,16 +486,22 @@ Id.Item.HNDG_013,item,AK74 M-LOK Dong Grip,,,UI/Shared/Icons/Components/AK74/T_U
 Id.Item.HNDG_014,item,AK74 MI Universal Handguard,,,UI/Shared/Icons/Components/AK74/T_UI_Handguard_Placeholder.png,,1,1,1,,,,,,Item.Attachment.Handguard
 Id.Item.HNDG_015,item,AK74 TI Battlerail,,,UI/Shared/Icons/Components/AK74/T_UI_Handguard_Placeholder.png,,1,1,1,,,,,,Item.Attachment.Handguard
 Id.Item.HNDG_016,item,AK74 ZenitCo B-13 Side Mount,,,UI/Shared/Icons/Components/AK74/T_UI_Handguard_Placeholder.png,,1,1,1,,,,,,Item.Attachment.Handguard
-Id.Item.HumveeVehicleRingTurret,item,Machine Gun,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.WHL_05.MountedMachineGun
+Id.Item.HNDG_053,item,Id.Item.HNDG_053,,,,,1,1,1,,,,,,Item.Attachment.Stock.WEPN_034
+Id.Item.HNDG_054,item,Id.Item.HNDG_054,,,,,1,1,1,,,,,,Item.Attachment.Handguard.WEPN_037
+Id.Item.HNDG_055,item,Id.Item.HNDG_055,,,,,1,1,1,,,,,,Item.Attachment.Handguard.WEPN_031
+Id.Item.HotPotato.Alpha,item,Id.Item.HotPotato.Alpha,,,UI/Shared/Icons/Utility/3D/t_ui_icon_gold_grenade.png,,1,1,1,1000,,,,,Item.Context.Animation.Type.Unarmed;Inventory.Slot.Specialist;Item.Context.Equippable;Item.Context.QuickSlot;Item.Context.UtilityItem;Item.Archetype.Grenade;Item.Context.Animation.Archetype.EquipRightHand
+Id.Item.HotPotato.Bravo,item,Id.Item.HotPotato.Bravo,,,,,1,1,1,1000,,,,,Item.Context.Animation.Type.Unarmed;Inventory.Slot.Specialist;Item.Context.Equippable;Item.Context.QuickSlot;Item.Context.UtilityItem;Item.Archetype.Grenade;Item.Context.Animation.Archetype.EquipRightHand
+Id.Item.HotPotato.Charlie,item,Id.Item.HotPotato.Charlie,,,,,1,1,1,1000,,,,,Item.Context.Animation.Type.Unarmed;Inventory.Slot.Specialist;Item.Context.Equippable;Item.Context.QuickSlot;Item.Context.UtilityItem;Item.Archetype.Grenade;Item.Context.Animation.Archetype.EquipRightHand
+Id.Item.HumveeVehicleRingTurret,item,Machine Gun,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.WHL_05.MountedMachineGun;Item.Context.MovementBlocked
 Id.Item.HybridScope4x,item,4x Hybrid,Optic,4x Zoom / CQC sight.,UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_4x_Optic_Textured_512x512.png,,2,1,1,,,,,,Item.Attachment.Sight;Item.Context.Equippable
 Id.Item.IED.Explosive,item,Improvised Explosive Device,,,UI/Shared/Icons/Utility/3D/T_UI_Vendor_C42.png,,1,1,1,1.5,,,,,Item.Resource.HiddenConsumable;Item.Context.UtilityItem;Item.Context.Animation.Type.Unarmed;Item.Context.Animation.Archetype.EquipRightHand;Item.Ammo;Item.Caliber.IEDCharge
 Id.Item.IED.Trigger,item,Improvised Explosive Device,Equipment // Quick Slot,"- Remotely Detonated Explosive
-- Can Only Be Used Once",UI/Shared/Icons/Utility/3D/T_UI_Vendor_IED2.png,,1,2,1,1.5,,,,,Item.Resource.HiddenConsumable;Item.Ammo;Item.Resource.Ammo;Item.Context.UtilityItem;Item.Context.QuickSlot;Item.Context.Animation.Type.Unarmed;Item.Context.Animation.Archetype.EquipRightHand;Inventory.Slot.Specialist
+- Can Only Be Used Once",UI/Shared/Icons/Utility/3D/T_UI_Vendor_IED2.png,,1,2,1,1.5,,,,,Item.Resource.HiddenConsumable;Item.Ammo;Item.Resource.Ammo;Item.Context.UtilityItem;Item.Context.Animation.Type.Unarmed;Item.Context.Animation.Archetype.EquipRightHand;Inventory.Slot.Specialist;Item.Context.FillOwnedOnPickUp;Item.Context.Equippable;Item.Context.QuickSlot
 ID.Item.InfraredRangeFinder,item,Infrared Range Finder,Recon // Spec. Item,"- Spot enemy Infantry & Vehicles
 - INFRA-RED Variable Magnification
-- Accurate Distance Indicator",UI/Shared/Icons/Utility/3D/t_ui_icon_rangefinderIR.png,,2,2,1,0.43,,Recon,32,50000,Item.Archetype.Spotting;Inventory.Slot.Specialist;Item.Context.Equippable;Item.Context.Animation.Type.RangeFinderIR;Item.Context.QuickSlot;Item.Context.UtilityItem;Item.Context.Animation.Archetype.Binoculars
+- Accurate Distance Indicator",UI/Shared/Icons/Utility/3D/t_ui_icon_rangefinderIR.png,,2,2,1,0.43,,Recon,32,50000,Item.Archetype.Spotting;Inventory.Slot.Specialist;Item.Context.Equippable;Item.Context.Animation.Type.RangeFinderIR;Item.Context.QuickSlot;Item.Context.UtilityItem;Item.Context.Animation.Archetype.Binoculars;Item.Weapon
 Id.Item.Judge,item,Judge,Weapon,"- Double-action
-- .45 Colt",UI/Shared/Icons/Weapons/3D/Inventory/T_UI_Icon_Weapon_judge_Textured_512x256_inv.png,,2,2,1,0.82,,Wardog,18,15000,Item.Archetype.Pistol;Inventory.Slot.Sidearm;Item.Weapon.Judge;Item.Context.Equippable;Item.Context.Animation.Type.Pistol;Item.Context.Animation.Archetype.Pistol
+- .45 Colt",UI/Shared/Icons/Weapons/3D/Inventory/T_UI_Icon_Weapon_judge_Textured_512x256_inv.png,,2,2,1,0.82,,Wardog,1,5000,Item.Archetype.Pistol;Inventory.Slot.Sidearm;Item.Weapon.Judge;Item.Context.Equippable;Item.Context.Animation.Type.Pistol;Item.Context.Animation.Archetype.Pistol
 Id.Item.JudgeBarrel,item,Id.Item.JudgeBarrel,,,,,1,1,1,,,,,,Item.Attachment.Barrel.Judge
 Id.Item.JudgeMagazine,item,Judge Bullet Cylinder,Ammunition,,UI/Shared/Icons/Equipment/AmmoBoxes/T_UI_Icon_ammobox_45-COLT_FMJ.png,,1,1,1,,,,,,Item.Attachment.Magazine
 Id.Item.JudgePistolgrip,item,Id.Item.JudgePistolgrip,,,,,1,1,1,,,,,,Item.Attachment.Grip.Judge
@@ -493,7 +522,7 @@ Id.Item.LargeBackpack,item,Large Backpack,Backpack,"- Grid: 6x4 Item Storage Slo
 - Number of Slots: 24",UI/Shared/Icons/Utility/3D/T_UI_Icon_LargeBackpack.png,,4,6,1,1.5,,Wardog,55,100000,Inventory.Slot.Backpack;Item.Context.Equippable
 Id.Item.LargeBattery,item,High Capacity Battery,Resource,"- Used to Recharge Drills & Defibrillators
 - Large Capacity
-- 20V-15AH",UI/Shared/Icons/Utility/3D/t_ui_icon_drill_batteryLarge.png,,1,2,1,2,,Wardog,45,50000,Item.Attachment.Magazine.Battery;Item.Resource.Magazine.Battery
+- 20V-15AH",UI/Shared/Icons/Utility/3D/t_ui_icon_drill_batteryLarge.png,,1,2,1,2,,Wardog,46,50000,Item.Attachment.Magazine.Battery;Item.Resource.Magazine.Battery
 Id.Item.LargeSlingBackpack,item,Large Backpack + Sling,Backpack,"- Grid: 6x4 Item Storage Slots
 - Number of Slots: 24
 - 1 Sling Slot for additional Equipment Storage",UI/Shared/Icons/Utility/3D/T_UI_Vendor_Backpack_006.png,,4,6,1,1.5,,Wardog,73,125000,Inventory.Slot.Backpack;Item.Context.Equippable
@@ -503,7 +532,7 @@ Id.Item.LargeTacVest,item,Large Tac Vest,Vest,"- Unlocks All Quickslots
 - Does not give extra item storage",UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_LargeWebbing_Textured_512x512.png,,4,3,1,3.6,,Wardog,50,25000,Inventory.Slot.Vest;Item.Context.Equippable
 Id.Item.Launcher_04,item,9K333 Verba,Launcher,"- 72mm Anti-Air Missile
 - Requires Lock On
-- Single Use",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_025.png,,7,2,1,17.25,,Support,16,50000,Item.Archetype.Launcher;Item.Weapon;Inventory.Slot.Specialist;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Launcher;Item.Context.SingleUse
+- Single Use",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_025.png,,7,2,1,17.25,,Support,14,50000,Item.Archetype.Launcher;Item.Weapon;Inventory.Slot.Specialist;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Launcher;Item.Context.SingleUse
 Id.Item.Launcher_04Magazine,item,Launcher_04 Standard Mag,,,,,1,2,1,,,,,,Item.Attachment.Magazine
 Id.Item.LeapordBarrel,item,Tank Barrel Test,,WIP Item - may not work as expected!,UI/Shared/Icons/Weapons/3D/Inventory/T_UI_Icon_Weapon_CGM4_Textured_512x512.png,,1,1,1,50,,,,,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.Launcher;Item.Weapon;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Launcher
 Id.Item.LightArmor,item,Level 1 Armor,Armor,"- Low Damage Reduction
@@ -512,22 +541,22 @@ Id.Item.LightHelmet,item,Level 1 Helmet,Armor,"- Low Damage Reduction
 - Protects the Head",UI/Shared/Icons/Vendor/Gear/T_UI_Vendor_Helmet_001.png,,2,2,1,,,Wardog,3,7500,Inventory.Slot.Helmet;Item.Context.Equippable
 ID.Item.LMG_01_BRL_06,item,ID.Item.LMG_01_BRL_06,,,,,1,1,1,,,,,,Item.Attachment.Barrel.M249
 Id.Item.LMG_02,item,PKM,Light Machine Gun,"- Semi / Full Auto
-- 7.62x54mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_019.png,,6,2,1,7.5,,Support,30,150000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.LMG;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle;Item.Weapon
+- 7.62x54mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_019.png,,6,2,1,7.5,,Support,15,100000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.LMG;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle;Item.Weapon
 Id.Item.LMG_02Barrel,item,Id.Item.LMG_02Barrel,,,,,1,1,1,,,,,,Item.Attachment.Barrel
 Id.Item.LMG_02Magazine,item,PKM 100 RND Box,Ammunition,"- 100 Rounds
 - 7.62x54R ammo
-- PKM only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_LMG.png,,2,2,1,3.9,,Support,30,0,Item.Attachment.Magazine;Item.Resource.Magazine.Belt
+- PKM only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_LMG.png,,2,2,1,3.9,,Support,15,0,Item.Attachment.Magazine;Item.Resource.Magazine.Belt
 Id.Item.LMG_02PistolGrip,item,Id.Item.LMG_02PistolGrip,,,,,1,1,1,,,,,,Item.Attachment.Grip
 Id.Item.LMG_02Stock,item,Id.Item.LMG_02Stock,,,,,1,1,1,,,,,,Item.Attachment.Stock
 Id.Item.M249,item,M249 SAW,Light Machine Gun,"- Semi / Full Auto
-- 5.56x45mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_009.png,,6,2,1,7.5,,Support,15,100000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Weapon.M249;Item.Archetype.LMG;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle
+- 5.56x45mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_009.png,,6,2,1,7.5,,Support,20,150000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Weapon.M249;Item.Archetype.LMG;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle
 Id.Item.M249Barrel,item,Id.Item.M249Barrel,,,,,1,1,1,,,,,,Item.Attachment.Barrel.M249
 Id.Item.M249Magazine,item,M249 200 RND Box,Magazine,"- 200 Rounds
 - 5.56x45mm ammo
-- M249 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_038.png,,2,3,1,3.14,,Support,23,35000,Item.Attachment.Magazine;Item.Resource.Magazine.Belt
+- M249 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_038.png,,2,3,1,3.14,,Support,26,35000,Item.Attachment.Magazine;Item.Resource.Magazine.Belt
 Id.Item.M249Stock,item,Id.Item.M249Stock,,,,,1,1,1,,,,,,Item.Attachment.Stock.M249
 Id.Item.M4,item,M4,Assault Rifle,"- Semi / Full Auto
-- 5.56x45mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_002.png,,5,2,1,2.92,,Infantry,20,100000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.AR;Item.Weapon.M4;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle
+- 5.56x45mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_002.png,,5,2,1,2.92,,Infantry,28,150000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.AR;Item.Weapon.M4;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle
 Id.Item.M4Barrel,item,M4 Barrel,,Barrel Component,UI/Shared/Icons/Components/AK74/T_UI_Barrel_Placeholder.png,,1,1,1,,,,,,Item.Attachment.Barrel.M4
 Id.Item.M4ExtendedMagazine,item,M4 Extended Mag,Magazine,,UI/Shared/Icons/Attachments/T_UI_Icon_Attachment_AK_Magazine_Bullets_Textured_512x512.png,,1,2,1,,,,,,Item.Attachment.Magazine
 Id.Item.M4Handguard,item,M4 Handguard,,Handguard Component,UI/Shared/Icons/Components/AK74/T_UI_Handguard_Placeholder.png,,1,1,1,,,,,,Item.Attachment.Handguard.M4
@@ -543,13 +572,13 @@ Id.Item.M500Stock,item,Id.Item.M500Stock,,,,,1,1,1,,,,,,Item.Attachment.Stock.M5
 Id.Item.M67Grenade,item,M67 Frag Grenade,Lethal // Quick Slot,- Detonates a short time after being thrown.,UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_Grenade_Textured_512x512.png,,1,1,2,0.4,,,,,Item.Archetype.Grenade;Item.Context.UtilityItem;Item.Context.QuickSlot;Item.Context.Animation.Type.Unarmed;Item.Context.Animation.Archetype.EquipRightHand
 Id.Item.MAGZ_002,item,M1911 7 RND Magazine,Magazine,"- 7 Rounds
 - .45 APC ammo
-- M1911 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_002.png,,1,1,1,0.22,,Wardog,40,0,Item.Attachment.Magazine;Item.Resource.Magazine.Standard
+- M1911 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_002.png,,1,1,1,0.22,,Wardog,41,0,Item.Attachment.Magazine;Item.Resource.Magazine.Standard
 ID.Item.MAGZ_003,item,Deagle 7 RND Magazine,Magazine,"- 7 Rounds
 - .50 AE ammo
-- Deagle only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_003.png,,1,1,1,0.43,,Wardog,85,0,Item.Attachment.Magazine;Item.Resource.Magazine.Standard
+- Deagle only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_003.png,,1,1,1,0.43,,Wardog,65,0,Item.Attachment.Magazine;Item.Resource.Magazine.Standard
 Id.Item.MAGZ_004,item,MP5 30 RND Magazine,Magazine,"- 30 Rounds
 - 9x19mm ammo
-- MP5 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_004.png,,1,2,1,0.51,,Medic,25,25000,Item.Attachment.Magazine;Item.Resource.Magazine.Extended
+- MP5 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_004.png,,1,2,1,0.51,,Medic,8,10000,Item.Attachment.Magazine;Item.Resource.Magazine.Extended
 Id.Item.MAGZ_005,item,Galil 35 RND Magazine,Magazine,"- 35 Rounds
 - 5.56x45mm ammo 
 - Galil only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_005.png,,1,2,1,0.71,,Infantry,10,0,Item.Attachment.Magazine;Item.Resource.Magazine.Extended
@@ -570,46 +599,64 @@ Id.Item.MAGZ_026,item,AMR 50 10 RND Magazine,Magazine,"- 10 Rounds
 - AMR 50 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_026.png,,1,3,1,2.2,,Recon,50,50000,Item.Attachment.Magazine;Item.Resource.Magazine.Small
 Id.Item.MAGZ_034,item,MK22 5 RND Magazine,Magazine,"- 5 Rounds
 - .308 Win ammo
-- MK22 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_034.png,,1,1,1,0.38,,Recon,25,0,Item.Attachment.Magazine;Item.Resource.Magazine.Small
+- MK22 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_034.png,,1,1,1,0.38,,Recon,30,0,Item.Attachment.Magazine;Item.Resource.Magazine.Small
 Id.Item.MAGZ_046,item,PP-19 50 RND Vityaz Drum Magazine,Magazine,"- 50 Rounds
 - 9x19mm ammo
-- PP-19 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_046.png,,1,3,1,1.3,,Medic,29,50000,Item.Attachment.Magazine;Item.Resource.Magazine.Drum
+- PP-19 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_046.png,,1,3,1,1.3,,Medic,21,15000,Item.Attachment.Magazine;Item.Resource.Magazine.Drum
+Id.Item.MAGZ_051,item,PP-19 Bizon 53 RND Magazine,Magazine,"- 53 Rounds
+- 9x19mm ammo
+- PP-19 Bizon",UI/Shared/Icons/Vendor/Magazines/T_UI_Weapons_MAGZ_051.png,,1,3,1,1.24,,,,,Item.Resource.Magazine.Extended;Item.Attachment.Magazine
 Id.Item.MAGZ_052,item,AMP-9 20 RND Magazine,Magazine,"- 20 Rounds
 - 9x19mm ammo
-- AMP-9 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_052.png,,1,1,1,,,,,,Item.Attachment.Magazine;Item.Resource.Magazine.Extended
+- AMP-9 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_052.png,,1,1,1,,,Medic,25,12500,Item.Attachment.Magazine;Item.Resource.Magazine.Extended
 Id.Item.MAGZ_055,item,Super-45 40 RND Drum Magazine,Magazine,"- 40 Rounds 
 - .45 APC ammo
 - Super-45 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_055.png,,1,3,1,1.59,,Medic,50,50000,Item.Attachment.Magazine;Item.Resource.Magazine.Drum
 Id.Item.MAGZ_056,item,MP5 50 RND Drum Magazine,Magazine,"- 50 Rounds
 - 9x19mm ammo
-- MP5 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_056.png,,1,3,1,1.49,,Medic,45,75000,Item.Attachment.Magazine;Item.Resource.Magazine.Drum
+- MP5 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_056.png,,1,3,1,1.49,,Medic,29,50000,Item.Attachment.Magazine;Item.Resource.Magazine.Drum
 Id.Item.MAGZ_057,item,Super-45 13 RND Magazine,Magazine,"- 13 Rounds 
 - .45 APC ammo
 - Super-45 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_057.png,,1,1,1,0.23,,Medic,35,0,Item.Attachment.Magazine;Item.Resource.Magazine.Standard
 Id.Item.MAGZ_059,item,PP-19 Vityaz 10 RND Magazine,Magazine,"- 10 Rounds
 - 9x19mm ammo
-- PP-19 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_059.png,,1,1,1,0.2,,Medic,7,7500,Item.Attachment.Magazine;Item.Resource.Magazine.Standard
+- PP-19 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_059.png,,1,1,1,0.2,,Medic,17,10000,Item.Attachment.Magazine;Item.Resource.Magazine.Standard
 Id.Item.MAGZ_060,item,Galil 50 RND Magazine,Magazine,"- 50 Rounds
 - 5.56x45mm ammo
 - Galil only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_060.png,,1,3,1,1.16,,Infantry,15,25000,Item.Attachment.Magazine;Item.Resource.Magazine.Extended
 Id.Item.MAGZ_061,item,AMP-9 15 RND Magazine,Magazine,"- 15 Rounds
 - 9x19mm ammo
-- AMP-9 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_061.png,,1,1,1,0.25,,Medic,3,7500,Item.Attachment.Magazine;Item.Resource.Magazine.Standard
+- AMP-9 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_061.png,,1,1,1,0.25,,Medic,20,0,Item.Attachment.Magazine;Item.Resource.Magazine.Standard
 Id.Item.MAGZ_062,item,M249 100 RND Fabric Magazine,Magazine,"- 100 Rounds 
 - 5.56x45mm ammo
-- M249 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_062.png,,2,2,1,1.62,,Support,15,0,Item.Attachment.Magazine;Item.Resource.Magazine.Belt
+- M249 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_062.png,,2,2,1,1.62,,Support,20,0,Item.Attachment.Magazine;Item.Resource.Magazine.Belt
 Id.Item.MAGZ_063,item,M1911 10 RND Magazine,Magazine,"- 10 Rounds
 - .45 APC ammo
 - M1911 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_063.png,,1,1,1,0.38,,Wardog,53,10000,Item.Attachment.Magazine;Item.Resource.Magazine.Standard
 Id.Item.MAGZ_064,item,MP5 20 RND Magazine,Magazine,"- 20 Rounds
 - 9x19mm ammo
-- MP5 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_064.png,,1,1,1,0.35,,Medic,15,0,Item.Attachment.Magazine;Item.Resource.Magazine.Standard
+- MP5 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_064.png,,1,1,1,0.35,,Medic,4,0,Item.Attachment.Magazine;Item.Resource.Magazine.Standard
 Id.Item.MAGZ_065,item,SVD 5 RND Magazine,Magazine,"- 5 Rounds
 - 7.62x54R ammo
 - SVD only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_SVDM.png,,1,1,1,0.23,,Recon,12,0,Item.Attachment.Magazine;Item.Resource.Magazine.Small
 Id.Item.MAGZ_066,item,AMP-9 50 RND Drum Magazine,Magazine,"- 50 Rounds
 - 9x19mm ammo
-- AMP-9 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_066.png,,1,2,1,1.46,,Medic,20,15000,Item.Attachment.Magazine
+- AMP-9 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_066.png,,1,2,1,1.46,,Medic,45,75000,Item.Attachment.Magazine
+Id.Item.MAGZ_067,item,Evo-3 Ultra 50 RND Box,Magazine,"- 50 Rounds
+- .308 Win ammo
+- Evo-3 Ultra Only",UI/Shared/Icons/Vendor/Magazines/T_UI_Weapons_MAGZ_067.png,,2,2,1,1.65,,Support,30,0,Item.Attachment.Magazine.WEPN_036;Item.Resource.Magazine.Belt
+Id.Item.MAGZ_068,item,M14 10 RND Magazine,Magazine,"- 10 Rounds
+- .308 Win
+- M14 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Weapons_MAGZ_068.png,,1,1,1,0.4,,Recon,25,0,Item.Attachment.Magazine.WEPN_034
+Id.Item.MAGZ_069,item,SIG Spear (WEPN_037) Standard Mag,Magazine,"- 28 Rounds
+- 7.62x39mm
+- TCX-SPR only",UI/Shared/Icons/Vendor/Magazines/T_UI_Weapons_MAGZ_069.png,,1,2,1,0.84,,Infantry,20,0,Item.Attachment.Magazine;Item.Resource.Magazine.Standard
+Id.Item.MAGZ_070,item,M14 30 RND Magazine,Magazine,"- 30 Rounds
+- .308 Win
+- M14 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_070.png,,1,3,1,1.04,,Recon,36,50000,Item.Attachment.Magazine.WEPN_034
+Id.Item.MAGZ_071,item,M14 20 RND Magazine,Magazine,"- 20 Rounds
+- .308 Win
+- M14 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_071.png,,1,2,1,0.73,,Recon,31,27500,Item.Attachment.Magazine.WEPN_034
 Id.Item.MediumArmor,item,Level 2 Armor,Armor,"- Medium Damage Reduction
 - Protects the Upper and Lower Torso",UI/Shared/Icons/Vendor/Gear/T_UI_Vendor_Armor_002.png,,3,4,1,4.5,,Wardog,30,50000,Inventory.Slot.Armor;Item.Context.Equippable
 Id.Item.MediumBackpack,item,Medium Backpack,Backpack,"- Grid: 5x3 Item Storage Slots
@@ -623,10 +670,10 @@ Id.Item.MediumTacVest,item,Medium Tac Vest,Vest,"- Unlocks Quickslots 5 to 8
 - Does not give extra item storage",UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_MediumWebbing_Textured_512x512.png,,4,3,1,1.65,,Wardog,14,10000,Inventory.Slot.Vest;Item.Context.Equippable
 ID.Item.MedKit.Standard,item,Medical Bag,Medical // Spec. Item,"- Heal Self/Teammates Over Time
 - Costs More If Used On Self
-- Revive Teammates Faster",UI/Shared/Icons/Utility/3D/t_ui_icon_medkit_128x128.png,,2,2,1,3.45,,Medic,24,75000,Inventory.Slot.Secondary;Item.Context.UtilityItem;Inventory.Slot.Specialist;Item.Context.Equippable;Item.Context.Medical;Item.Context.Animation.Type.Unarmed;Item.Context.Animation.Archetype.EquipRightHand
+- Revive Teammates Faster",UI/Shared/Icons/Utility/3D/t_ui_icon_medkit_128x128.png,,2,2,1,3.45,150,Medic,14,50000,Inventory.Slot.Secondary;Item.Context.UtilityItem;Inventory.Slot.Specialist;Item.Context.Equippable;Item.Context.Medical;Item.Context.Animation.Type.Unarmed;Item.Context.Animation.Archetype.EquipRightHand
 Id.Item.MistralAA,item,Machine Gun,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.STN_01.MistralAA
 Id.Item.MK22,item,MK22,Sniper Rifle,"- Bolt-action / Magazine fed
-- .308 Win",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_018.png,,6,2,1,6.3,,Recon,25,150000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.Sniper;Item.Weapon.MRAD;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle
+- .308 Win",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_018.png,,6,2,1,6.3,,Recon,30,150000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.Sniper;Item.Weapon.MRAD;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle
 Id.Item.MK22Barrel,item,Id.Item.MK22Barrel,,,,,1,1,1,,,,,,Item.Attachment.Barrel.MK22
 Id.Item.MK22Grip,item,Id.Item.MK22Grip,,,,,1,1,1,,,,,,Item.Attachment.Grip.MK22
 Id.Item.MK22Mag,item,MK22 Standard Mag,Ammunition,"- 10 Rounds 
@@ -634,12 +681,13 @@ Id.Item.MK22Mag,item,MK22 Standard Mag,Ammunition,"- 10 Rounds
 - MK22 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_MK22.png,,1,2,1,0.45,,Recon,39,35000,Item.Attachment.Magazine;Item.Resource.Magazine.Small
 Id.Item.MK22Stock,item,Id.Item.MK22Stock,,,,,1,1,1,,,,,,Item.Attachment.Stock
 Id.Item.MMGL,item,MGL-40,Launcher,"- 40mm Grenade Shells
-- 6-shot launch tube",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_012.png,,3,2,1,5.3,,Support,35,200000,Item.Archetype.Launcher;Item.Weapon;Inventory.Slot.Specialist;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle
+- 6-shot launch tube",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_012.png,,3,2,1,5.3,,Support,35,250000,Item.Archetype.Launcher;Item.Weapon;Inventory.Slot.Specialist;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle
 Id.Item.MMGLBarrel,item,MMGL Barrel,,Barrel Component,UI/Shared/Icons/Components/AK74/T_UI_Barrel_Placeholder.png,,1,1,1,,,,,,Item.Attachment.Barrel
 Id.Item.MMGLHandguard,item,MMGL Handguard,,Handguard Component,UI/Shared/Icons/Components/AK74/T_UI_Handguard_Placeholder.png,,1,1,1,,,,,,Item.Attachment.Handguard
 Id.Item.MMGLMagazine,item,MMGL Internal Mag,Magazine,,UI/Shared/Icons/Attachments/T_UI_Icon_Attachment_SKS_Magazine_bullet_Textured_512x512.png,,1,1,1,,,,,,Item.Attachment.Magazine
 Id.Item.MMGLPistolGrip,item,MMGL Pistol Grip,,,UI/Shared/Icons/Components/AK74/T_UI_Grip_Placeholder.png,,1,1,1,,,,,,Item.Attachment.Grip
 Id.Item.MMGLStock,item,MMGL Stock,Ammunition,,UI/Shared/Icons/Components/AK74/T_UI_Stock_Placeholder.png,,1,1,1,,,,,,Item.Attachment.Stock
+Id.Item.Molotov,item,Id.Item.Molotov,Lethal // Quick Slot,,UI/Shared/Icons/Utility/3D/T_UI_Utility_Molotov.png,,1,2,2,0.99,,Infantry,13,25000,Item.Context.UtilityItem;Item.Context.QuickSlot;Item.Context.Animation.Type.Unarmed;Item.Context.Animation.Archetype.EquipRightHand
 ID.Item.Monocular,item,Monocular,Recon // Spec. Item,"- Spot enemy Infantry & Vehicles
 - Medium Level Variable Magnification",UI/Shared/Icons/Utility/3D/T_UI_Vendor_Monocle_Temp.png,,1,2,1,0.28,,Recon,2,7500,Item.Archetype.Spotting;Item.Context.Animation.Type.Unarmed;Inventory.Slot.Specialist;Item.Context.Equippable;Item.Context.QuickSlot;Item.Context.UtilityItem;Item.Context.Animation.Archetype.Binoculars
 Id.Item.Mosin,item,Mosin Nagant,Sniper Rifle,"- Bolt-action
@@ -649,6 +697,7 @@ Id.Item.MosinMagazine,item,Mosin Standard Mag,,,UI/Shared/Icons/Attachments/3D/T
 Id.Item.MosinMagazineExtended10rd,item,SV98 Extended Mag,,,,,1,2,1,,,,,,Item.Attachment.Magazine
 Id.Item.MosinMagazineExtended20rd,item,SV98 Extended Mag,,,,,1,2,1,,,,,,Item.Attachment.Magazine
 Id.Item.MosinStock,item,Id.Item.MosinStock,,,,,1,1,1,,,,,,Item.Attachment.Stock
+ID.Item.MountedMachineGun_TNK_04,item,Machine Gun,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.TNK_04.MountedMachineGun;Item.Context.MovementBlocked
 Id.Item.MP43,item,MP43,Shotgun,"- Break-action
 - 12 Gauge",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_021.png,,4,2,1,3.2,,,,,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.Shotgun;Item.Weapon.MP43;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle;Item.Context.LooseAmmoReload
 Id.Item.MP43Barrel,item,Id.Item.MP43Barrel,,,,,1,1,1,,,,,,Item.Attachment.Barrel
@@ -656,74 +705,75 @@ Id.Item.MP43Handguard,item,Id.Item.MP43Handguard,,,,,1,1,1,,,,,,Item.Attachment.
 Id.Item.MP43Magazine,item,MP43 Internal Mag,,,,,1,1,1,,,,,,Item.Attachment.Magazine
 Id.Item.MP43Stock,item,Id.Item.MP43Stock,,,,,1,1,1,,,,,,Item.Attachment.Stock
 Id.Item.MP9,item,AMP-9,Submachine Gun,"- Semi / Full Auto
-- 9x19mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_014.png,,3,2,1,1.4,,,,,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.SMG;Item.Weapon.MP9;Item.Context.Equippable;Item.Context.Animation.Archetype.Rifle;Item.Context.Animation.Type.Rifle
+- 9x19mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_014.png,,3,2,1,1.4,,Medic,20,75000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.SMG;Item.Weapon.MP9;Item.Context.Equippable;Item.Context.Animation.Archetype.Rifle;Item.Context.Animation.Type.Rifle
 Id.Item.MP9Barrel,item,Id.Item.MP9Barrel,,,,,1,1,1,,,,,,Item.Attachment.Barrel
 Id.Item.MP9ExtendedMagazine,item,MP9 Extended Mag,Magazine,,UI/Features/Inventory_2_0/Textures/T_Icon_SmgMag.png,,1,2,1,,,,,,Item.Attachment.Magazine
 Id.Item.MP9Magazine,item,AMP-9 30 RND Magazine,Magazine,"- 30 Rounds
 - 9x19mm ammo
-- AMP-9 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_043.png,,1,2,1,0.48,,Medic,10,10000,Item.Attachment.Magazine;Item.Resource.Magazine.Extended
+- AMP-9 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_043.png,,1,2,1,0.48,,Medic,30,50000,Item.Attachment.Magazine;Item.Resource.Magazine.Extended
 Id.Item.MP9Stock,item,Id.Item.MP9Stock,,,,,1,1,1,,,,,,Item.Attachment.Stock
 Id.Item.MunitionsSupplies,item,Ammo Supplies,Logistics // Resource,"- Resource Required to Reload Buildable Weapons
 - Requires FOB Radius to Use",UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_Munition_Supplies_Textured_512x512.png,,1,1,50,0.03,,,,,Item.MunitionsSupplies
-Id.Item.MusicTape.01,item,H4ZARD - Gigilow,Music Tape,Playable music tape in vehicles.,UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_01.png,,1,1,1,0.01,,Driver,5,750,Item.Context.VehicleHifiItem
-Id.Item.MusicTape.02,item,You Are Not Invited - MokuMoku,Music Tape,Playable music tape in vehicles.,UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_02.png,,1,1,1,0.01,,Pilot,5,750,Item.Context.VehicleHifiItem
-Id.Item.MusicTape.03,item,Giants (Remix) - The Quemists,Music Tape,Playable music tape in vehicles.,UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_03.png,,1,1,1,0.01,,Driver,13,1500,Item.Context.VehicleHifiItem
-Id.Item.MusicTape.04,item,Ride of the Valkyries - Richard Wagner,Music Tape,Playable music tape in vehicles.,UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_04.png,,1,1,1,0.01,,Pilot,13,1500,Item.Context.VehicleHifiItem
-Id.Item.MusicTape.05,item,Ride of the Valkyries - Richard Wagner,Music Tape,Playable music tape in vehicles.,UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_06.png,,1,1,1,0.01,,,,,Item.Context.VehicleHifiItem
-Id.Item.MusicTape.06,item,Tianqi Xu - Vodka Bomb,Music Tape,Playable music tape in vehicles.,UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_06.png,,1,1,1,0.01,,Pilot,23,2500,Item.Context.VehicleHifiItem
-Id.Item.MusicTape.07,item,Luili-Luili - Masha Kondratenko,Music Tape,Playable music tape in vehicles.,UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_07.png,,1,1,1,0.01,,Driver,28,5000,Item.Context.VehicleHifiItem
-Id.Item.MusicTape.08,item,HORA - Irina Rimes & Jerry Heil,Music Tape,Playable music tape in vehicles.,UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_08.png,,1,1,1,0.01,,Driver,23,2500,Item.Context.VehicleHifiItem
-Id.Item.MusicTape.09,item,Helikopter - Fazlija,Music Tape,Playable music tape in vehicles.,UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_09.png,,1,1,1,0.01,,Pilot,30,10000,Item.Context.VehicleHifiItem
+Id.Item.MusicTape.01,item,H4ZARD - Gigilow,Music Tape,Playable music tape in vehicles.,UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_01.png,,1,1,1,0.01,,Pilot,13,2500,Item.Context.VehicleHifiItem
+Id.Item.MusicTape.02,item,You Are Not Invited - MokuMoku,Music Tape,Playable music tape in vehicles.,UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_02.png,,1,1,1,0.01,,Driver,23,5000,Item.Context.VehicleHifiItem
+Id.Item.MusicTape.03,item,Giants (Remix) - The Qemists,Music Tape,Playable music tape in vehicles.,UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_03.png,,1,1,1,0.01,,Driver,28,10000,Item.Context.VehicleHifiItem
+Id.Item.MusicTape.04,item,Ride of the Valkyries - Richard Wagner,Music Tape,Playable music tape in vehicles.,UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_04.png,,1,1,1,0.01,,Pilot,30,25000,Item.Context.VehicleHifiItem
+Id.Item.MusicTape.05,item,Dyshat' - Baryber,Music Tape,Playable music tape in vehicles.,UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_05.png,,1,1,1,0.01,,Driver,33,25000,Item.Context.VehicleHifiItem
+Id.Item.MusicTape.06,item,Tianqi Xu - Vodka Bomb,Music Tape,Playable music tape in vehicles.,UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_06.png,,1,1,1,0.01,,Driver,5,750,Item.Context.VehicleHifiItem
+Id.Item.MusicTape.07,item,Liuli-Liuli - Masha Kondratenko,Music Tape,Playable music tape in vehicles.,UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_07.png,,1,1,1,0.01,,Driver,13,2500,Item.Context.VehicleHifiItem
+Id.Item.MusicTape.08,item,HORA - Irina Rimes & Jerry Heil,Music Tape,Playable music tape in vehicles.,UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_08.png,,1,1,1,0.01,,Pilot,5,750,Item.Context.VehicleHifiItem
+Id.Item.MusicTape.09,item,Helikopter - Fazlija,Music Tape,Playable music tape in vehicles.,UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_09.png,,1,1,1,0.01,,Pilot,23,10000,Item.Context.VehicleHifiItem
+Id.Item.MusicTape.11,item,Blue (Da Ba Dee) - Eiffel 65,Music Tape,Playable music tape in vehicles.,UI/Shared/Icons/Vendor/Tapes/T_UI_MusicTape_11.png,,1,1,1,0.01,,Wardog,29,25000,Item.Context.VehicleHifiItem
 Id.Item.MUZL_013,item,3 Prong Flash Hider,Muzzle,"Pros:
 - Moderate flash reduction
-- Minor ADS speed improvements",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MZL_013.png,,1,1,1,0.09,,Infantry,24,20000,Item.Context.Equippable;Item.Attachment.Muzzle.M4;Item.Attachment.Muzzle.M249;Item.Attachment.Muzzle.556
+- Minor ADS speed improvements",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MZL_013.png,,1,1,1,0.09,,Infantry,8,7500,Item.Context.Equippable;Item.Attachment.Muzzle.M4;Item.Attachment.Muzzle.M249;Item.Attachment.Muzzle.556
 Id.Item.MUZL_014,item,TopComp Brake,Muzzle,"Pros:
 - Moderate vertical recoil reduction
 - Minor horizontal recoil reduction
 - Minor spread reduction
 
 Cons:
-- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_014.png,,1,1,1,0.1,,Infantry,5,7500,Item.Context.Equippable;Item.Attachment.Muzzle.556
+- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_014.png,,1,1,1,0.1,,Infantry,21,20000,Item.Context.Equippable;Item.Attachment.Muzzle.556
 Id.Item.MUZL_019,item,Dual Port Brake,Muzzle,"Pros:
 - Moderate vertical recoil reduction
 - Minor horizontal recoil reduction
 - Minor spread reduction
 
 Cons:
-- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_019.png,,1,1,1,0.1,,Medic,1,7500,Item.Context.Equippable;Item.Attachment.Muzzle.9mm
+- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_019.png,,1,1,1,0.1,,Medic,28,22500,Item.Context.Equippable;Item.Attachment.Muzzle.9mm
 Id.Item.MUZL_020,item,Ballista Brake,Muzzle,"Pros:
 - Moderate horizontal recoil reduction
 - Minor spread reduction
 
 Cons:
 - Minor vertical recoil penalty
-- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_020.png,,1,1,1,0.09,,Medic,13,15000,Item.Context.Equippable;Item.Attachment.Muzzle.556;Item.Attachment.Muzzle.9mm;Item.Attachment.Muzzle.545
+- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_020.png,,1,1,1,0.09,,Medic,12,15000,Item.Context.Equippable;Item.Attachment.Muzzle.556;Item.Attachment.Muzzle.9mm;Item.Attachment.Muzzle.545
 Id.Item.MUZL_022,item,Constrictor Brake,Muzzle,"Pros:
 - Strong horizontal recoil reduction
 - Minor spread reduction
 
 Cons:
-- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_022.png,,1,1,1,0.14,,Recon,23,20000,Item.Context.Equippable;Item.Attachment.Muzzle.308;Item.Attachment.Muzzle.762x54mm;Item.Attachment.Muzzle.SKS
+- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_022.png,,1,1,1,0.14,,Recon,34,20000,Item.Context.Equippable;Item.Attachment.Muzzle.308;Item.Attachment.Muzzle.762x54mm;Item.Attachment.Muzzle.SKS
 Id.Item.MUZL_023,item,Tread Brake,Muzzle,"Pros:
 - Moderate vertical recoil reduction
 - Minor horizontal recoil reduction
 - Minor spread reduction
 
 Cons:
-- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_023.png,,1,1,1,0.1,,Support,17,10000,Item.Context.Equippable;Item.Attachment.Muzzle.556
+- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_023.png,,1,1,1,0.1,,Support,27,10000,Item.Context.Equippable;Item.Attachment.Muzzle.556
 Id.Item.MUZL_024,item,Hexagon Brake,Muzzle,"Pros:
 - Strong horizontal recoil reduction
 - Minor spread reduction
 
 Cons:
-- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_024.png,,1,1,1,0.15,,Infantry,2,5000,Item.Context.Equippable;Item.Attachment.Muzzle.556
+- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_024.png,,1,1,1,0.15,,Infantry,5,12500,Item.Context.Equippable;Item.Attachment.Muzzle.556
 Id.Item.MUZL_025,item,Slicktap Brake,Muzzle,"Pros:
 - Moderate vertical recoil reduction
 - Minor spread reduction
 
 Cons:
 - Minor horizontal recoil penalty
-- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_025.png,,1,1,1,0.14,,Recon,28,22500,Item.Context.Equippable;Item.Attachment.Muzzle.650;Item.Attachment.Muzzle.762x39mm
+- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_025.png,,1,1,1,0.14,,Recon,44,22500,Item.Context.Equippable;Item.Attachment.Muzzle.650;Item.Attachment.Muzzle.762x39mm
 Id.Item.MUZL_027,item,3-Chamber Brake,Muzzle,"Pros:
 - Strong vertical recoil reduction
 - Minor horizontal recoil reduction
@@ -737,7 +787,7 @@ Id.Item.MUZL_028,item,DTK-1 Brake,Muzzle,"Pros:
 - Minor spread reduction
 
 Cons:
-- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_028.png,,1,1,1,0.18,,Recon,6,7500,Item.Context.Equippable;Item.Attachment.Muzzle.SKS
+- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_028.png,,1,1,1,0.18,,Recon,9,7500,Item.Context.Equippable;Item.Attachment.Muzzle.SKS
 Id.Item.MUZL_029,item,Orpheus Max Brake,Muzzle,"Pros:
 - Strong vertical recoil reduction
 - Moderate horizontal recoil reduction
@@ -751,7 +801,7 @@ Id.Item.MUZL_030,item,Three Port Brake,Muzzle,"Pros:
 - Minor spread reduction
 
 Cons:
-- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_030.png,,1,1,1,0.12,,Recon,36,25000,Item.Context.Equippable;Item.Attachment.Muzzle.308
+- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_030.png,,1,1,1,0.12,,Recon,49,25000,Item.Context.Equippable;Item.Attachment.Muzzle.308
 Id.Item.MUZL_031,item,M500 Sabre Brake,Muzzle,"Pros:
 - Moderate vertical recoil reduction
 - Minor spread reduction
@@ -767,16 +817,16 @@ Id.Item.MUZL_032,item,RC-556 Suppressor,Suppressor,"Pros:
 - Minor horizontal recoil reduction
 
 Cons:
-- Moderate ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_032.png,,1,2,1,0.5,,Infantry,29,30000,Item.Context.Equippable;Item.Attachment.Muzzle.556
+- Moderate ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_032.png,,1,2,1,0.5,,Infantry,24,30000,Item.Context.Equippable;Item.Attachment.Muzzle.556
 Id.Item.MUZL_037,item,Eclipse Flash Hider,Muzzle,"Pros:
 - Moderate flash reduction
-- Minor ADS speed improvements",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_037.png,,1,1,1,0.12,,Medic,26,22500,Item.Context.Equippable;Item.Attachment.Muzzle.9mm
+- Minor ADS speed improvements",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_037.png,,1,1,1,0.12,,Medic,1,7500,Item.Context.Equippable;Item.Attachment.Muzzle.9mm
 Id.Item.MUZL_038,item,Slotted Flash Hider,Muzzle,"Pros:
 - Moderate flash reduction
-- Minor ADS speed improvements",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_038.png,,1,1,1,0.1,,Support,26,20000,Item.Context.Equippable;Item.Attachment.Muzzle.LMG_02
+- Minor ADS speed improvements",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_038.png,,1,1,1,0.1,,Support,19,20000,Item.Context.Equippable;Item.Attachment.Muzzle.LMG_02
 Id.Item.MUZL_039,item,Birdcage Flash Hider,Muzzle,"Pros:
 - Minor flash reduction
-- Minor ADS speed improvements",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_039.png,,1,1,1,0.09,,Infantry,16,15000,Item.Context.Equippable;Item.Attachment.Muzzle.545
+- Minor ADS speed improvements",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_039.png,,1,1,1,0.09,,Infantry,2,5000,Item.Context.Equippable;Item.Attachment.Muzzle.545
 Id.Item.MUZL_040,item,SVD 7.62x54R Brake,Muzzle,"Pros:
 - Moderate vertical recoil reduction
 - Minor horizontal recoil reduction
@@ -790,16 +840,16 @@ Id.Item.MUZL_041,item,SRVV Brake,Muzzle,"Pros:
 - Minor spread reduction
 
 Cons:
-- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_041.png,,1,1,1,0.49,,Recon,20,17500,Item.Context.Equippable;Item.Attachment.Muzzle.762x54mm
+- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_041.png,,1,1,1,0.49,,Recon,22,17500,Item.Context.Equippable;Item.Attachment.Muzzle.762x54mm
 Id.Item.MUZL_042,item,Deadeye Flash Hider,Muzzle,"Pros:
 - Minor flash reduction
-- Minor ADS speed improvements",UI/Shared/Icons/Attachments/3D/T_UI_MUZL_037.png,,1,1,1,0.12,,Recon,9,12500,Item.Context.Equippable;Item.Attachment.Muzzle.308;Item.Attachment.Muzzle.762x54mm;Item.Attachment.Muzzle.762x39mm
+- Minor ADS speed improvements",UI/Shared/Icons/Attachments/3D/T_UI_MUZL_037.png,,1,1,1,0.12,,Recon,6,12500,Item.Context.Equippable;Item.Attachment.Muzzle.308;Item.Attachment.Muzzle.762x54mm;Item.Attachment.Muzzle.762x39mm
 Id.Item.MUZL_044,item,Improved Cylinder Choke,Muzzle,"Pros:
 - Tight pellet spread (higher pellet density)
 - Better hit consistency on moving targets
 
 Cons:
-- Less pellet density at mid–long range",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_044.png,,1,1,1,,,Support,14,7500,Item.Context.Equippable;Item.Attachment.Muzzle.M500
+- Less pellet density at mid–long range",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_044.png,,1,1,1,,,Support,13,7500,Item.Context.Equippable;Item.Attachment.Muzzle.M500
 Id.Item.MUZL_045,item,Full Choke,Muzzle,"Pros:
 - Tight pellet spread (higher pellet density)
 - Improved consistency at mid–long range
@@ -807,24 +857,24 @@ Id.Item.MUZL_045,item,Full Choke,Muzzle,"Pros:
 
 Cons:
 - Less forgiving up close (easier to miss)
-- Requires more precise aim and tracking",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_045.png,,1,1,1,,,Support,19,30000,Item.Context.Equippable;Item.Attachment.Muzzle.M500
+- Requires more precise aim and tracking",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_045.png,,1,1,1,,,Support,16,30000,Item.Context.Equippable;Item.Attachment.Muzzle.M500
 Id.Item.MUZL_046,item,Super-45 Flash Hider,Muzzle,"Pros:
 - Moderate muzzle flash reduction
 - Minor ADS speed improvement
-- Minor spread reduction",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_046.png,,1,1,1,0.06,,Medic,40,40000,Item.Context.Equippable;Item.Attachment.Muzzle.Vector
+- Minor spread reduction",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_046.png,,1,1,1,0.06,,Medic,36,40000,Item.Context.Equippable;Item.Attachment.Muzzle.Vector
 Id.Item.MUZL_047,item,Ghost LITE Muzzle Brake,Muzzle,"Pros:
 - Strong vertical recoil reduction
 - Moderate horizontal recoil reduction
 - Minor spread reduction
 
 Cons:
-- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_047.png,,1,1,1,0.12,,Medic,36,30000,Item.Context.Equippable;Item.Attachment.Muzzle.Vector
+- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_047.png,,1,1,1,0.12,,Medic,40,30000,Item.Context.Equippable;Item.Attachment.Muzzle.Vector
 Id.Item.MUZL_048,item,AMR 50 Cal Muzzle Brake,Muzzle,"Pros:
 - Moderate vertical recoil reduction
 - Minor horizontal recoil reduction
 
 Cons:
-- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_048.png,,1,1,1,0.45,,Recon,48,35000,Item.Context.Equippable;Item.Attachment.Muzzle.SR_04
+- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_048.png,,1,1,1,0.45,,Recon,38,35000,Item.Context.Equippable;Item.Attachment.Muzzle.SR_04
 Id.Item.MUZL_049,item,.50 Cal Heavy Suppressor,Muzzle,"Pros:
 - Reduced sound profile
 - Strong flash reduction
@@ -833,7 +883,7 @@ Id.Item.MUZL_049,item,.50 Cal Heavy Suppressor,Muzzle,"Pros:
 - Minor horizontal recoil reduction
 
 Cons:
-- Moderate ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_049.png,,1,2,1,1.2,,Recon,37,27500,Item.Context.Equippable;Item.Attachment.Muzzle.SR_04
+- Moderate ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_049.png,,1,2,1,1.2,,Recon,48,27500,Item.Context.Equippable;Item.Attachment.Muzzle.SR_04
 Id.Item.MUZL_050,item,.45 ACP Pistol Compensator,Muzzle,"Pros:
 - Moderate vertical recoil reduction
 - Minor horizontal recoil reduction
@@ -849,10 +899,10 @@ Id.Item.MUZL_051,item,AMP-9 9x19 Suppressor,Muzzle,"Pros:
 - Minor spread reduction
 
 Cons:
-- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_051.png,,1,2,1,0.4,,Medic,30,25000,Item.Context.Equippable;Item.Attachment.Muzzle.MP9
+- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_051.png,,1,2,1,0.4,,Medic,27,25000,Item.Context.Equippable;Item.Attachment.Muzzle.MP9
 Id.Item.MUZL_052,item,AMP-9 Tactical Flash Hider,Muzzle,"Pros:
 - Moderate flash reduction
-- Minor ADS speed improvements",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_052.png,,1,1,1,0.1,,Medic,12,10000,Item.Context.Equippable;Item.Attachment.Muzzle.MP9
+- Minor ADS speed improvements",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_052.png,,1,1,1,0.1,,Medic,26,45000,Item.Context.Equippable;Item.Attachment.Muzzle.MP9
 Id.Item.MUZL_053,item,PP-19-01 Vityaz 9x19 Suppressor,Muzzle,"Pros:
 - Reduced sound profile
 - Strong flash reduction
@@ -861,13 +911,13 @@ Id.Item.MUZL_053,item,PP-19-01 Vityaz 9x19 Suppressor,Muzzle,"Pros:
 - Minor spread reduction
 
 Cons:
-- Moderate ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_053.png,,1,2,1,0.5,,Medic,43,45000,Item.Context.Equippable;Item.Attachment.Muzzle.SMG_03
+- Moderate ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_053.png,,1,2,1,0.5,,Medic,24,20000,Item.Context.Equippable;Item.Attachment.Muzzle.SMG_03
 Id.Item.MUZL_054,item,PP-19 Vityaz Flash Hider,Muzzle,"Pros:
 - Moderate flash reduction
-- Minor ADS speed improvements",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_054.png,,1,1,1,0.08,,Medic,22,20000,Item.Context.Equippable;Item.Attachment.Muzzle.SMG_03
+- Minor ADS speed improvements",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_054.png,,1,1,1,0.08,,Medic,18,17500,Item.Context.Equippable;Item.Attachment.Muzzle.SMG_03
 Id.Item.MUZL_055,item,BMR-308 Flash Hider,Muzzle,"Pros:
 - Strong flash reduction
-- Minor ADS speed improvements",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_055.png,,1,1,1,0.12,,Recon,31,25000,Item.Context.Equippable;Item.Attachment.Muzzle.RFB
+- Minor ADS speed improvements",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_055.png,,1,1,1,0.12,,Recon,24,50000,Item.Context.Equippable;Item.Attachment.Muzzle.RFB
 Id.Item.MUZL_056,item,BMR-308 Suppressor,Muzzle,"Pros:
 - Reduced sound profile
 - Strong flash reduction
@@ -876,7 +926,7 @@ Id.Item.MUZL_056,item,BMR-308 Suppressor,Muzzle,"Pros:
 - Minor spread reduction
 
 Cons:
-- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_056.png,,1,2,1,0.65,,Recon,33,27500,Item.Context.Equippable;Item.Attachment.Muzzle.RFB
+- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_056.png,,1,2,1,0.65,,Recon,33,25000,Item.Context.Equippable;Item.Attachment.Muzzle.RFB
 Id.Item.MUZL_057,item,Flow-Through .308 Suppressor,Muzzle,"Pros:
 - Reduced sound profile
 - Strong flash reduction
@@ -894,7 +944,7 @@ Id.Item.MUZL_058,item,QD-5 Suppressor,Muzzle,"Pros:
 - Minor horizontal recoil reduction
 
 Cons:
-- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_058.png,,1,2,1,0.38,,Medic,18,17500,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_028
+- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_058.png,,1,2,1,0.38,,Medic,13,12500,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_028
 Id.Item.MUZL_059,item,MP5 Flash Hider,Muzzle,"Pros:
 - Strong flash reduction
 - Minor spread reduction
@@ -920,7 +970,53 @@ Id.Item.MUZL_062,item,STRELIX Suppressor,Muzzle,"Pros:
 - Minor spread reduction
 
 Cons:
-- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_062.png,,1,2,1,0.59,,Recon,3,7500,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_035
+- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_062.png,,1,2,1,0.59,,Recon,3,5000,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_035
+Id.Item.MUZL_064,item,WEPN_033 (M14) standard muzzle,,,,,1,2,1,0.38,,,,,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_034
+Id.Item.MUZL_065,item,QD-5 Suppressor,,,,,1,2,1,0.38,,,,,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_036
+Id.Item.MUZL_066,item,Sig Default,,,,,1,2,1,0.38,,,,,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_037
+Id.Item.MUZL_067,item,Cross Rifle Muzzle Brake,Muzzle,"Pros:
+- Minor vertical recoil reduction
+- Minor horizontal recoil reduction
+- Minor spread reduction
+
+Cons:
+- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Weapons_MUZL_067.png,,1,1,1,0.045,,Infantry,32,35000,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_037
+Id.Item.MUZL_068,item,Clutch Lok Muzzle Brake,Muzzle,"Pros:
+- Moderate spread reduction
+- Moderate vertical recoil reduction
+
+Cons:
+- Minor ADS speed penalty
+- Minor horizontal recoil punishment",UI/Shared/Icons/Vendor/Muzzles/T_UI_Weapons_MUZL_068.png,,1,1,1,0.094,,Infantry,37,37500,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_037
+Id.Item.MUZL_069,item,SRD762TI-QD,Muzzle,"Pros:
+- Reduced sound profile
+- Strong flash reduction
+- Moderate spread reduction
+- Minor vertical recoil reduction
+- Minor horizontal recoil reduction
+
+Cons:
+- Moderate ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Weapons_MUZL_069.png,,1,2,1,0.38,,Infantry,40,40000,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_037
+Id.Item.MUZL_070,item,SL7i-BL Suppressor,Suppressor,"Pros:
+- Reduced sound profile
+- Moderate flash reduction
+- Moderate spread reduction
+- Minor vertical recoil reduction
+- Minor horizontal recoil reduction
+
+Cons:
+- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_058.png,,1,2,1,0.53,,Support,40,35000,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_036
+Id.Item.MUZL_071,item,.30 Cal SS Phosphate Muzzle Brake,Muzzle,"Pros:
+- Moderate spread reduction
+- Moderate vertical recoil reduction
+
+Cons:
+- Moderate ADS speed penalty
+- Minor horizontal recoil punishment",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_071.png,,1,1,1,0.123,,Recon,37,22500,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_034
+Id.Item.MUZL_072,item,.30 Cal Steel Black Flash Hider,Muzzle,"Pros:
+- Moderate flash reduction
+- Minor ADS speed improvements",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_072.png,,1,1,1,0.068,,Recon,42,27500,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_034
+Id.Item.MWSY_001.MountedMachineGun,item,Machine Gun,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.MWSY_001.MountedMachineGun
 Id.Item.MZL_04,item,GOL Multi-Caliber Suppressor,Suppressor,"Pros:
 - Reduced sound profile
 - Strong flash reduction
@@ -944,7 +1040,7 @@ Id.Item.MZL_06,item,12 Gauge Suppressor,Suppressor,"Pros:
 - Moderate spread reduction
 
 Cons:
-- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_006.png,,1,2,1,0.8,,Support,40,25000,Item.Context.Equippable;Item.Attachment.Muzzle.Suppressor
+- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_006.png,,1,2,1,0.8,,Support,32,25000,Item.Context.Equippable;Item.Attachment.Muzzle.Suppressor
 Id.Item.MZL_07,item,AR Multi-Caliber Suppressor,Suppressor,"Pros:
 - Reduces sound profile
 - Moderate muzzle flash reduction
@@ -953,7 +1049,7 @@ Id.Item.MZL_07,item,AR Multi-Caliber Suppressor,Suppressor,"Pros:
 - Minor horizontal recoil reduction
 
 Cons:
-- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_007.png,,1,2,1,0.72,,Infantry,21,20000,Item.Context.Equippable;Item.Attachment.Muzzle.Suppressor
+- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_007.png,,1,2,1,0.72,,Infantry,29,22500,Item.Context.Equippable;Item.Attachment.Muzzle.Suppressor
 Id.Item.MZL_08,item,Hexagon 762 Suppressor,Suppressor,"Pros:
 - Reduced sound profile
 - Strong flash reduction
@@ -971,7 +1067,7 @@ Id.Item.MZL_09,item,PBS-4 Suppressor,Suppressor,"Pros:
 - Minor horizontal recoil reduction
 
 Cons:
-- Moderate ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_009.png,,1,2,1,0.8,,Infantry,27,25000,Item.Context.Equippable;Item.Attachment.Muzzle.AK74M;Item.Attachment.Muzzle.Suppressor
+- Moderate ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_009.png,,1,2,1,0.8,,Infantry,19,25000,Item.Context.Equippable;Item.Attachment.Muzzle.AK74M;Item.Attachment.Muzzle.Suppressor
 Id.Item.MZL_10,item,TGP-A Suppressor 5.45,Suppressor,"Pros:
 - Reduced sound profile
 - Strong flash reduction
@@ -980,20 +1076,20 @@ Id.Item.MZL_10,item,TGP-A Suppressor 5.45,Suppressor,"Pros:
 - Minor spread reduction
 
 Cons:
-- Moderate ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_010.png,,1,2,1,0.7,,Infantry,19,17500,Item.Context.Equippable;Item.Attachment.Muzzle.AK74M;Item.Attachment.Muzzle.Suppressor
+- Moderate ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_010.png,,1,2,1,0.7,,Infantry,27,17500,Item.Context.Equippable;Item.Attachment.Muzzle.AK74M;Item.Attachment.Muzzle.Suppressor
 Id.Item.OPT_08,item,2.5x Combat Optic,Optic,"Specification:
 - 2.5x magnification
 - Close/mid range combat
 - Zeroing range (100m-300m)
 
 Cons:
-- Moderate ADS speed penalty",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_008.png,,2,1,1,0.4,,Wardog,26,10000,Item.Context.Equippable;Item.Attachment.Sight.Short
+- Moderate ADS speed penalty",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_008.png,,2,1,1,0.4,,Infantry,17,10000,Item.Context.Equippable;Item.Attachment.Sight.Short
 Id.Item.Parachute.Basic,item,Parachute,Traversal,"- Single Use
 - Must be manually Deployed
 - Cannot be Controlled",UI/Shared/Icons/Utility/3D/T_UI_Icon_Parachute_Basic.png,,3,2,1,2.5,,,,,Inventory.Slot.Traversal;Item.Parachute;Item.Context.Equippable;Item.Archetype.Parachute
 Id.Item.Parachute.Sport,item,Parachute,Traversal,"- Single Use
 - Must be manually Deployed
-- Can be Controlled",UI/Shared/Icons/Utility/3D/T_UI_Icon_Parachute_Sport.png,,3,2,1,9,,Wardog,35,25000,Inventory.Slot.Traversal;Item.Parachute;Item.Context.Equippable;Item.Archetype.Parachute
+- Can be Controlled",UI/Shared/Icons/Utility/3D/T_UI_Icon_Parachute_Sport.png,,3,2,1,9,,Wardog,34,25000,Inventory.Slot.Traversal;Item.Parachute;Item.Context.Equippable;Item.Archetype.Parachute
 Id.Item.PGRP_003,item,FAL Pistol Grip,,,,,1,1,1,,,,,,Item.Attachment.Grip.WEPN_030
 Id.Item.PGRP_004,item,AK74 Wooden Pistol Grip,,,UI/Shared/Icons/Components/AK74/T_UI_Grip_Placeholder.png,,1,1,1,,,,,,Item.Attachment.Pistolgrip
 Id.Item.PGRP_005,item,AK74 Polymer Pistol Grip,,,UI/Shared/Icons/Components/AK74/T_UI_Grip_Placeholder.png,,1,1,1,,,,,,Item.Attachment.Pistolgrip
@@ -1003,6 +1099,13 @@ Id.Item.PGRP_008,item,AK74 KGB MG47 Grip,,,UI/Shared/Icons/Components/AK74/T_UI_
 Id.Item.PGRP_009,item,AK74 AGS-74 PRO Sniper Pistol Grip,,,UI/Shared/Icons/Components/AK74/T_UI_Grip_Placeholder.png,,1,1,1,,,,,,Item.Attachment.Grip
 Id.Item.PGRP_010,item,Galil Pistol Grip,,,,,1,1,1,,,,,,Item.Attachment.Grip.WEPN_029
 Id.Item.PGRP_041,item,Id.Item.PGRP_041,,,,,1,1,1,,,,,,Item.Attachment.Grip.WEPN_035
+Id.Item.PGRP_042,item,WEPN_36 Evoly Grip,,,,,1,1,1,,,,,,Item.Attachment.Grip.WEPN_036
+Id.Item.PGRP_043,item,Sig Spear (WEPN_037) Standard Pistol Grip,,,,,1,1,1,,,,,,Item.Attachment.Grip.WEPN_037
+Id.Item.PGRP_044,item,Kungfu,,,,,1,1,1,,,,,,Item.Attachment.Grip.WEPN_037
+Id.Item.PilotHelmet,item,Pilot Helmet,Armor,"- Low Damage Reduction
+- Protects the Head
+- Muffles Vehicle Audio
+- Highlights Target Vehicles",UI/Shared/Icons/Vendor/Gear/T_UI_Gear_PilotHelmet.png,,2,2,1,,,,,,Inventory.Slot.Helmet;Item.Context.Equippable
 ID.Item.Pistol_01_BRL_07,item,ID.Item.Pistol_01_BRL_07,,,,,1,1,1,,,,,,Item.Attachment.Barrel.Glock
 ID.Item.Pistol_01_GRP_01,item,ID.Item.Pistol_01_GRP_01,,,,,1,1,1,,,,,,Item.Attachment.Pistolgrip.Glock
 ID.Item.Pistol_01_HGD_02,item,ID.Item.Pistol_01_HGD_02,,,,,1,1,1,,,,,,Item.Attachment.Handguard.Glock
@@ -1016,16 +1119,16 @@ ID.Item.PWSCQB74Muzzle,item,CQB 74 Brake,Muzzle,"Pros:
 - Minor spread reduction
 
 Cons:
-- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_015.png,,1,1,1,0.22,,Infantry,8,12500,Item.Context.Equippable;Item.Attachment.Muzzle.AK74M
+- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Muzzles/T_UI_Vendor_MUZL_015.png,,1,1,1,0.22,,Infantry,16,15000,Item.Context.Equippable;Item.Attachment.Muzzle.AK74M
 ID.Item.RangeFinder,item,Range Finder,Recon // Spec. Item,"- Spot enemy Infantry & Vehicles
 - High Level Variable Magnification
-- Accurate Distance Indicator",UI/Shared/Icons/Utility/3D/t_ui_icon_rangefinder_1.png,,1,2,1,0.23,,Recon,8,15000,Item.Archetype.Spotting;Item.Context.Animation.Type.Unarmed;Inventory.Slot.Specialist;Item.Context.Equippable;Item.Context.QuickSlot;Item.Context.UtilityItem;Item.Context.Animation.Archetype.Binoculars
+- Accurate Distance Indicator",UI/Shared/Icons/Utility/3D/t_ui_icon_rangefinder_1.png,,1,2,1,0.23,,Recon,8,25000,Item.Archetype.Spotting;Item.Context.Animation.Type.Unarmed;Inventory.Slot.Specialist;Item.Context.Equippable;Item.Context.QuickSlot;Item.Context.UtilityItem;Item.Context.Animation.Archetype.Binoculars
 ID.Item.RepairTool.Drill.Heavy,item,Heavy Drill,Repair Tool // Spec. Item,"- Used to Manually Repair Vehicles
 - Fastest Repair Speed
-- Requires Batteries to Use",UI/Shared/Icons/Utility/3D/t_ui_icon_drill_heavy.png,,3,2,1,6.9,,Support,28,25000,Inventory.Slot.Secondary;Inventory.Slot.Specialist;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle;Item.Weapon
+- Requires Batteries to Use",UI/Shared/Icons/Utility/3D/t_ui_icon_drill_heavy.png,,3,2,1,6.9,,Support,28,50000,Inventory.Slot.Secondary;Inventory.Slot.Specialist;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle;Item.Weapon
 ID.Item.RepairTool.Drill.Light,item,Light Drill,Repair Tool // Spec. Item,"- Used to Manually Repair Vehicles
 - Moderate Repair Speed
-- Requires Batteries to Use",UI/Shared/Icons/Utility/3D/t_ui_icon_drill_medium.png,,2,2,1,1.5,,Support,1,10000,Inventory.Slot.Secondary;Inventory.Slot.Specialist;Item.Context.Equippable;Item.Context.Animation.Archetype.EquipRightHand;Item.Context.Animation.Type.Unarmed
+- Requires Batteries to Use",UI/Shared/Icons/Utility/3D/t_ui_icon_drill_medium.png,,2,2,1,1.5,,Support,1,10000,Inventory.Slot.Secondary;Inventory.Slot.Specialist;Item.Context.Equippable;Item.Context.Animation.Archetype.EquipRightHand;Item.Context.Animation.Type.Unarmed;Item.Weapon
 ID.Item.RepairTool.Wrench.Standard,item,Wrench,Repair Tool // Quick Slot,"- Used to Manually Repair ALL Vehicles
 - Slow Repair Speed",UI/Shared/Icons/Utility/3D/T_UI_Item_Repair_1_BC.png,,1,1,1,,600,,,,Item.Context.UtilityItem;Item.Context.QuickSlot;Item.Context.Animation.Type.Unarmed;Item.Context.Animation.Archetype.EquipRightHand;Inventory.Slot.Secondary;Inventory.Slot.Specialist;Item.Context.Equippable
 Id.Item.Resuscitator.Cheap,item,Emergency Resuscitator,Medical // Quick Slot,"- 1 Per Life Emergency Revive Item
@@ -1035,11 +1138,11 @@ Id.Item.Resuscitator.Standard,item,Field Resuscitator,Medical // Quick Slot,"- F
 - Revives Teammates Faster
 - Single-Use Item",UI/Shared/Icons/Utility/3D/t_ui_icon_enox_512x512.png,,1,2,1,0.39,,Medic,2,10000,Item.Context.UtilityItem;Item.Context.QuickSlot;Item.Context.Animation.Type.Unarmed;Item.Context.Animation.Archetype.EquipRightHand;Item.Context.Medical
 Id.Item.RFB,item,BMR-308,Marksman Rifle,"- Semi automatic
-- .308 Win",UI/Shared/Icons/Weapons/3D/Session/T_UI_Weapon_RFB_BC.png,,6,2,1,3.9,,Recon,30,125000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.DMR;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle;Item.Weapon
+- .308 Win",UI/Shared/Icons/Weapons/3D/Session/T_UI_Weapon_RFB_BC.png,,6,2,1,3.9,,Recon,20,125000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.DMR;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle;Item.Weapon
 Id.Item.RFBBarrel,item,Id.Item.RFBBarrel,,,,,1,1,1,,,,,,Item.Attachment.Barrel
 Id.Item.RFBMagazine,item,FAL 10 RND Magazine,Magazine,"- 10 Rounds
 - .308 Win ammo 
-- FAL & BMR-308 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_RFB.png,,1,1,1,0.53,,Recon,30,0,Item.Attachment.Magazine;Item.Resource.Magazine.Standard
+- FAL & BMR-308 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_RFB.png,,1,1,1,0.53,,Recon,20,0,Item.Attachment.Magazine;Item.Resource.Magazine.Standard
 Id.Item.RK6ForeGrip,item,RK6 Tactical Foregrip,Foregrip,"Pros:
 - Moderate vertical recoil reduction
 - Moderate spread reduction
@@ -1049,14 +1152,14 @@ Id.Item.RK6ForeGrip,item,RK6 Tactical Foregrip,Foregrip,"Pros:
 Cons:
 - Moderate ADS speed penalty",UI/Shared/Icons/Vendor/Grips/T_UI_Vendor_FGRP_001.png,,1,1,1,1.05,,Wardog,15,7500,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Context.Animation.Archetype.Foregrip.BumpStop
 Id.Item.RPG7,item,RPG-7,Launcher,"- 93mm Self-Propelled Rocket
-- Reusable launch tube",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_022.png,,6,2,1,6.3,,Support,5,30000,Item.Archetype.Launcher;Item.Weapon;Inventory.Slot.Specialist;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Launcher;Item.Context.LooseAmmoReload
+- Reusable launch tube",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_022.png,,6,2,1,6.3,,Support,6,30000,Item.Archetype.Launcher;Item.Weapon;Inventory.Slot.Specialist;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Launcher;Item.Context.LooseAmmoReload
 Id.Item.SGHT_009,item,Kobra Reflex,Optic,"Specification:
 - 1.2x magnification
 - Close range combat
 - Fixed zeroing
 
 Pros:
-- Moderate ADS speed improvements",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_009.png,,1,1,1,0.41,,Wardog,21,7500,Item.Context.Equippable;Item.Attachment.Sight.Short
+- Moderate ADS speed improvements",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_009.png,,1,1,1,0.41,,Wardog,4,7500,Item.Context.Equippable;Item.Attachment.Sight.Short
 Id.Item.SGHT_011,item,1x-6x LPVO Short Dot,Optic,"Specification:
 - 3-6x magnification
 - Mid/long range combat
@@ -1070,14 +1173,14 @@ Id.Item.SGHT_016,item,Four Reticle Reflex,Optic,"Specification:
 - Fixed zeroing
 
 Pros:
-- Moderate ADS speed improvements",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_016.png,,1,1,1,0.12,,Medic,6,10000,Item.Context.Equippable;Item.Attachment.Sight.Short
+- Moderate ADS speed improvements",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_016.png,,1,1,1,0.12,,Infantry,22,10000,Item.Context.Equippable;Item.Attachment.Sight.Short
 Id.Item.SGHT_023,item,OKP 7 Reflex,Optic,"Specification:
 - 1.2x magnification
 - Close range combat
 - Fixed zeroing
 
 Pros:
-- Moderate ADS speed improvements",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_023.png,,1,1,1,0.48,,Infantry,33,30000,Item.Context.Equippable;Item.Attachment.Sight.Short
+- Moderate ADS speed improvements",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_023.png,,1,1,1,0.48,,Infantry,26,30000,Item.Context.Equippable;Item.Attachment.Sight.Short
 Id.Item.SGHT_025,item,Mini Reflex Sight,Optic,"Specification:
 - 1.2x magnification
 - Close range combat
@@ -1090,22 +1193,22 @@ Id.Item.SGHT_026,item,Tricon 1.5x Compact Prism Scope,Optic,"Specification:
 - Zeroing range (100m-200m)
 
 Cons:
-- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_026.png,,2,1,1,0.2,,Infantry,12,10000,Item.Context.Equippable;Item.Attachment.Sight.Short
-Id.Item.SGHT_027,item,Vektor Frenix-X Micro Reflex Sight,Optic,Optic,UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_027.png,,1,1,1,0.03,,Medic,28,15000,Item.Context.Equippable;Item.Attachment.Sight.Short
+- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_026.png,,2,1,1,0.2,,Wardog,26,10000,Item.Context.Equippable;Item.Attachment.Sight.Short
+Id.Item.SGHT_027,item,Vektor Frenix-X Micro Reflex Sight,Optic,Optic,UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_027.png,,1,1,1,0.03,,Medic,19,15000,Item.Context.Equippable;Item.Attachment.Sight.Short
 Id.Item.SGHT_028,item,CQ-2x Prism Combat Scope,Optic,"Specification:
 - 2x magnification
 - Close/mid range combat
 - Zeroing range (100m-300m)
 
 Pros:
-- Minor ADS speed improvements",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_028.png,,2,1,1,0.31,,Infantry,17,15000,Item.Context.Equippable;Item.Attachment.Sight.Short
+- Minor ADS speed improvements",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_028.png,,2,1,1,0.31,,Infantry,12,15000,Item.Context.Equippable;Item.Attachment.Sight.Short
 Id.Item.SGHT_029,item,3x Tactical Prism Scope,Optic,"Specification:
 - 3x magnification
 - Mid range combat
 - Zeroing range (100m-300m)
 
 Cons:
-- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_029.png,,2,1,1,0.43,,Wardog,31,15000,Item.Context.Equippable;Item.Attachment.Sight.Medium
+- Minor ADS speed penalty",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_029.png,,2,1,1,0.43,,Infantry,33,15000,Item.Context.Equippable;Item.Attachment.Sight.Medium
 Id.Item.SGHT_030,item,4x Combat Prism Scope with Reflex,Optic,"Specification:
 - 4x magnification
 - 1.2x top reflex toggle
@@ -1113,7 +1216,7 @@ Id.Item.SGHT_030,item,4x Combat Prism Scope with Reflex,Optic,"Specification:
 - Zeroing range (100m-400m)
 
 Cons:
-- Moderate ADS speed penalty",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_030.png,,2,1,1,0.42,,Infantry,43,35000,Item.Context.Equippable;Item.Attachment.Sight.Medium
+- Moderate ADS speed penalty",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_030.png,,2,1,1,0.42,,Support,21,35000,Item.Context.Equippable;Item.Attachment.Sight.Medium
 Id.Item.SGHT_031,item,6x Precision Rifle Scope,Optic,"Specification:
 - 6x magnification
 - Long range combat
@@ -1127,7 +1230,7 @@ Id.Item.SGHT_032,item,Frontier 2.5x-10x Precision Scope,Optic,"Specification:
 - Zeroing range (100m-1000m)
 
 Cons:
-- Strong ADS speed penalty",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_032.png,,3,1,1,0.66,,Recon,43,95000,Item.Context.Equippable;Item.Attachment.Sight.Long
+- Strong ADS speed penalty",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_032.png,,3,1,1,0.66,,Recon,47,95000,Item.Context.Equippable;Item.Attachment.Sight.Long
 Id.Item.SGHT_033,item,CGM4 Scope,Optic,Stuff,UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_033.png,,1,1,1,0.06,,,,,Item.Context.Equippable;Item.Attachment.Sight.Short
 Id.Item.SGHT_034,item,PGO-7,Optic,"Specification:
 - 2.8x magnification
@@ -1141,8 +1244,29 @@ Id.Item.SGHT_036,item,6x Marksman Scope + Reflex,Optic,"Specification:
 - Zeroing range (100m-600m)
 
 Cons:
-- Moderate ADS speed penalty",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_036.png,,2,1,1,0.73,,Recon,34,35000,Item.Attachment.Sight;Item.Context.Equippable
+- Moderate ADS speed penalty",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_036.png,,2,1,1,0.73,,Recon,43,75000,Item.Attachment.Sight;Item.Context.Equippable
 Id.Item.SGHT_037,item,MMGL Sight,Optic,Optic,UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_037.png,,1,1,1,0.13,,,,,Item.Context.Equippable;Item.Attachment.Sight.Short
+Id.Item.SGHT_038,item,Compact P-1 Red Dot,Optic,"Specification:
+- 1.2x magnification
+- Close range combat
+- Fixed Zeroing
+
+Pros:
+- Moderate ADS speed improvements",UI/Shared/Icons/Vendor/Optics/T_UI_Weapons_SGHT_038.png,,1,1,1,0.13,,Wardog,21,12500,Item.Context.Equippable;Item.Attachment.Sight.Short
+Id.Item.SGHT_039,item,Leatherwood ART II,Optic,"Specification:
+- 3-9x magnification
+- Long range combat
+- Zeroing range (100m-800m)
+
+Cons:
+- Moderate ADS speed penalty",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_039.png,,3,1,1,1.1,,Recon,27,35000,Item.Context.Equippable
+Id.Item.SGHT_040,item,PU 91/30 Scope,Optic,"Specification:
+- 3.5x magnification
+- Long range combat
+- Zeroing range (100m-800m) 
+
+Cons: 
+- Moderate ADS speed penalty",UI/Shared/Icons/Vendor/Optics/T_UI_Vendor_SGHT_040.png,,3,1,1,0.27,,Recon,10,12500,Item.Context.Equippable
 Id.Item.SKS,item,SKS,Marksman Rifle,"- Semi automatic
 - 7.62x39mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_007.png,,6,2,1,3.85,,Recon,5,25000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Weapon.SKS;Item.Archetype.DMR;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle
 ID.Item.SKSBarrel,item,ID.Item.SKSBarrel,,,,,1,1,1,,,,,,Item.Attachment.Barrel
@@ -1159,14 +1283,14 @@ ID.Item.SMG_01_BRL_03,item,ID.Item.SMG_01_BRL_03,,,,,1,1,1,,,,,,Item.Attachment.
 ID.Item.SMG_01_HGD_01,item,ID.Item.SMG_01_HGD_01,,,,,1,1,1,,,,,,Item.Attachment.Handguard.Vector
 ID.Item.SMG_01_STK_05,item,RS2 Slim,,,,,1,1,1,,,,,,Item.Attachment.Stock.Vector
 Id.Item.SMG_03,item,PP-19 Vityaz,Submachine Gun,"- Semi / Full Auto
-- 9x19mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_023.png,,3,2,1,2.9,,Medic,4,25000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.SMG;Item.Weapon.SMG_03;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle
+- 9x19mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_023.png,,3,2,1,2.9,,Medic,15,50000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.SMG;Item.Weapon.SMG_03;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle
 Id.Item.SMG_03Barrel,item,Id.Item.SMG_03Barrel,,,,,1,1,1,,,,,,Item.Attachment.Barrel
 Id.Item.SMG_03Magazine,item,PP-19 Vityaz 30 RND Magazine,Ammunition,"- 30 Rounds
 - 9x19mm ammo
-- PP-19 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_PP19.png,,1,2,1,,,Medic,4,0,Item.Attachment.Magazine;Item.Resource.Magazine.Extended
+- PP-19 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_PP19.png,,1,2,1,,,Medic,15,0,Item.Attachment.Magazine;Item.Resource.Magazine.Extended
 Id.Item.SMG_03PistolGrip,item,Id.Item.SMG_03PistolGrip,,,,,1,1,1,,,,,,Item.Attachment.Grip
 Id.Item.SMG_03Stock,item,Id.Item.SMG_03Stock,,,,,1,1,1,,,,,,Item.Attachment.Stock
-ID.Item.SmokeGrenade.Black,item,M18 Smoke Grenade: Black,Tactical // Quick Slot,- Emits a cloud of Black Smoke,UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_Smoke_Textured_Black_512x512.png,,1,1,2,0.54,,Medic,21,15000,Item.Context.UtilityItem;Item.Context.QuickSlot;Item.Context.Animation.Type.Unarmed;Item.Context.Animation.Archetype.EquipRightHand
+ID.Item.SmokeGrenade.Black,item,M18 Smoke Grenade: Black,Tactical // Quick Slot,- Emits a cloud of Black Smoke,UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_Smoke_Textured_Black_512x512.png,,1,1,2,0.54,,Medic,23,15000,Item.Context.UtilityItem;Item.Context.QuickSlot;Item.Context.Animation.Type.Unarmed;Item.Context.Animation.Archetype.EquipRightHand
 ID.Item.SmokeGrenade.Blue,item,M18  Signal Grenade: Friendly,Tactical // Quick Slot,"- Emits a Column of Blue Smoke
 - Adds a Friendly Marker to the Map",UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_Smoke_Textured_Blue_512x512.png,,1,1,2,0.54,,,,,Item.Context.UtilityItem;Item.Context.QuickSlot;Item.Context.Animation.Type.Unarmed;Item.Context.Animation.Archetype.EquipRightHand
 ID.Item.SmokeGrenade.Green,item,M18  Signal Grenade: Supply Request,Logistics // Quick Slot,"- Emits a Column of Green Smoke
@@ -1186,11 +1310,11 @@ Id.Item.SniperScope10x,item,6-10x Scope MRAD,Optic,"Specification:
 - Zeroing range (100m-1000m)
 
 Cons:
-- Strong ADS speed penalty",UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_10x_Optic_Textured_512x512.png,,3,1,1,0.98,,Recon,18,40000,Item.Context.Equippable;Item.Attachment.Sight.Long
+- Strong ADS speed penalty",UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_10x_Optic_Textured_512x512.png,,3,1,1,0.98,,Recon,28,40000,Item.Context.Equippable;Item.Attachment.Sight.Long
 Id.Item.SparePartsSupplies,item,Spare Parts,Logistics // Resource,"- Resource Required to Repair Vehicles
 - Requires FOB Radius to Use.",UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_SpareParts_Supplies_Textured_512x512.png,,1,1,50,0.03,,,,,Item.SparePartsSupplies
-Id.Item.SpawnVehicleAccessibleStorage,item,Spawn Vehicle Accessible Vehicle Storage,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Storage
-ID.Item.SpawnVehicleStorage,item,Spawn Vehicle Vehicle Storage,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Storage
+Id.Item.SpawnVehicleAccessibleStorage,item,Spawn Vehicle Accessible Vehicle Storage,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Storage;Item.Context.MovementBlocked
+ID.Item.SpawnVehicleStorage,item,Spawn Vehicle Vehicle Storage,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Storage;Item.Context.MovementBlocked
 ID.Item.SR_02_BRL_04,item,ID.Item.SR_02_BRL_04,,,,,1,1,1,,,,,,
 ID.Item.SR_02_GRP_02,item,ID.Item.SR_02_GRP_02,,,,,1,1,1,,,,,,Item.Attachment.Grip.Mosin
 ID.Item.SR_02_STK_01,item,ID.Item.SR_02_STK_01,,,,,1,1,1,,,,,,Item.Attachment.Stock.Mosin
@@ -1208,12 +1332,12 @@ Id.Item.STANAGDrumMagazine90rd,item,M4 Extended Mag,,,,,1,2,1,,,,,,Item.Attachme
 Id.Item.STANAGExtendedMagazine,item,STANAG 60 RND Magazine,Magazine,"- 60 Rounds
 - 5.56x45mm ammo",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_054.png,,1,3,1,1.01,,Infantry,30,25000,Item.Attachment.Magazine.AR;Item.Resource.Magazine.Extended
 Id.Item.STANAGMagazine,item,STANAG 30 RND Magazine,Magazine,"- 30 Rounds
-- 5.56x45mm ammo",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_Stanag.png,,1,2,1,0.53,,Infantry,6,10000,Item.Attachment.Magazine.AR;Item.Resource.Magazine.Standard
+- 5.56x45mm ammo",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_Stanag.png,,1,2,1,0.53,,Infantry,3,0,Item.Attachment.Magazine.AR;Item.Resource.Magazine.Standard
 Id.Item.STANAGMagazine20rd,item,STANAG 20 RND Magazine,Magazine,"- 20 Rounds
 - 5.56x45mm ammo",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_053.png,,1,2,1,0.31,,,,,Item.Attachment.Magazine.AR;Item.Resource.Magazine.Standard
 Id.Item.StimPen,item,Stim Pen,Medical // Quick Slot,"- Unlimited Tactical Sprint for Short Time
 - Reduces Equipment Weight Class
-- Single-Use item",UI/Shared/Icons/Utility/3D/T_UI_Item_Stim_BC.png,,1,1,3,0.06,,Medic,14,25000,Item.Context.UtilityItem;Item.Context.QuickSlot;Item.Context.Animation.Type.Unarmed;Item.Context.Animation.Archetype.EquipRightHand;Item.Context.Medical
+- Single-Use item",UI/Shared/Icons/Utility/3D/T_UI_Item_Stim_BC.png,,1,1,3,0.06,,Medic,16,25000,Item.Context.UtilityItem;Item.Context.QuickSlot;Item.Context.Animation.Type.Unarmed;Item.Context.Animation.Archetype.EquipRightHand;Item.Context.Medical
 Id.Item.STN_02.MainCannon,item,Machine Gun,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.STN_02.MainCannon
 Id.Item.STN_03.MainBarrel,item,Mortar Barrel,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.STN_03.MainBarrel
 Id.Item.STN_05.MainBarrel,item,Stingray,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.STN_05.MainBarrel
@@ -1228,19 +1352,24 @@ Id.Item.STOK_011,item,AK74 Archangel OPFOR Stock,,,UI/Shared/Icons/Components/AK
 Id.Item.STOK_012,item,AK-47 HERA CQR Stock,,,UI/Shared/Icons/Components/AK74/T_UI_Stock_Placeholder.png,,1,1,1,,,,,,Item.Attachment.Stock
 Id.Item.STOK_013,item,Galil Stock,,,,,1,1,1,,,,,,Item.Attachment.Stock.WEPN_029
 Id.Item.STOK_057,item,Scout Rifle Stock,,,,,1,1,1,,,,,,Item.Attachment.Stock.WEPN_035
+Id.Item.STOK_058,item,Evoly stock,,,,,1,1,1,,,,,,Item.Attachment.Stock.WEPN_036
+Id.Item.STOK_059,item,M14 Stock,,,,,1,1,1,,,,,,Item.Attachment.Stock.WEPN_034
+Id.Item.STOK_060,item,Sig Spear Standard Stock,,,,,1,1,1,,,,,,Item.Attachment.Stock.WEPN_037
 Id.Item.SuperBandage,item,Individual First Aid Kit,Medical // Quick Slot,"- Used to heal Self/Teammates
-- Heals Back to Full Health.",UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_SuperBandage_Textured_128x128.png,,1,1,2,0.16,,Medic,9,25000,Item.Context.QuickSlot;Item.Context.Medical;Item.Context.Animation.Type.Unarmed;Item.Context.Animation.Archetype.EquipRightHand
+- Heals Back to Full Health.",UI/Shared/Icons/Utility/3D/T_UI_Icon_Utility_SuperBandage_Textured_128x128.png,,1,1,2,0.16,,Medic,10,25000,Item.Context.QuickSlot;Item.Context.Medical;Item.Context.Animation.Type.Unarmed;Item.Context.Animation.Archetype.EquipRightHand
 Id.Item.SuperHeavyArmor,item,Level 4 Armor,Armor,"- Very High Damage Reduction
 - Protects the Upper and Lower Torso, Upper Arms and Pelvis",UI/Shared/Icons/Vendor/Gear/T_UI_Vendor_Armor_004.png,,4,5,1,18,,Wardog,100,200000,Inventory.Slot.Armor;Item.Context.Equippable
 Id.Item.SuperHeavyHelmet,item,Level 4 Helmet,Armor,"- Very High Damage Reduction
-- Protects the Head and Neck",UI/Shared/Icons/Vendor/Gear/T_UI_Vendor_Helmet_004.png,,2,2,1,4.5,,Wardog,100,150000,Inventory.Slot.Helmet;Item.Context.Equippable
+- Protects the Head and Neck
+- High Suppression Reduction
+- Strongly muffles the sounds around you",UI/Shared/Icons/Vendor/Gear/T_UI_Vendor_Helmet_004.png,,2,2,1,4.5,,Wardog,100,150000,Inventory.Slot.Helmet;Item.Context.Equippable
 Id.Item.SV98,item,SV98,Sniper Rifle,"- Bolt-action / Magazine fed
-- 7.62x54mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_008.png,,6,2,1,5.8,,Recon,19,100000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Weapon.SV98;Item.Archetype.Sniper;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle
+- 7.62x54mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_008.png,,6,2,1,5.8,,Recon,18,100000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Weapon.SV98;Item.Archetype.Sniper;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle
 Id.Item.SV98Barrel,item,Id.Item.SV98Barrel,,,,,1,1,1,,,,,,Item.Attachment.Barrel
 Id.Item.SV98ExtendedMagazine,item,SV98 Extended Mag,Magazine,,UI/Shared/Icons/Attachments/T_UI_Icon_Attachment_SKS_Mag_Extended_Textured_512x512.png,,1,2,1,,,,,,Item.Attachment.Magazine
 Id.Item.SV98Magazine,item,SV98 10 RND Magazine,Ammunition,"- 10 Rounds 
 - 7.62x54R ammo 
-- SV98 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_010.png,,1,2,1,0.34,,Recon,19,0,Item.Attachment.Magazine;Item.Resource.Magazine.Small
+- SV98 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_010.png,,1,2,1,0.34,,Recon,18,0,Item.Attachment.Magazine;Item.Resource.Magazine.Small
 Id.Item.SV98Stock,item,SV98 Stock,Ammunition,,UI/Shared/Icons/Components/AK74/T_UI_Stock_Placeholder.png,,1,1,1,,,,,,Item.Attachment.Stock
 Id.Item.SVDM,item,SVD,Marksman Rifle,"- Semi automatic
 - 7.62x54mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_015.png,,6,2,1,5.3,,Recon,12,50000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.DMR;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle;Item.Weapon
@@ -1248,37 +1377,43 @@ Id.Item.SVDMBarrel,item,SVDM Barrel,,Barrel Component,UI/Shared/Icons/Components
 Id.Item.SVDMHandguard,item,SVDM Handguard,,Handguard Component,UI/Shared/Icons/Components/AK74/T_UI_Handguard_Placeholder.png,,1,1,1,,,,,,Item.Attachment.Handguard
 Id.Item.SVDMMagazine,item,SVDM Standard Magazine,Ammunition,"- 10 Rounds
 - 7.62x54R ammo
-- SVD only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_SVDM.png,,1,2,1,0.34,,Recon,16,25000,Item.Attachment.Magazine;Item.Resource.Magazine.Small
+- SVD only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_SVDM.png,,1,2,1,0.34,,Recon,17,25000,Item.Attachment.Magazine;Item.Resource.Magazine.Small
 Id.Item.SVDMStock,item,SVDM Stock,Ammunition,,UI/Shared/Icons/Components/AK74/T_UI_Stock_Placeholder.png,,1,1,1,,,,,,Item.Attachment.Stock
+Id.Item.TankHelmet,item,Tank Helmet,Armor,"- High Damage Reduction
+- Protects the Head and Neck
+- Muffles Vehicle and Infantry Audio
+- Remove Suppression and Tinnitus",UI/Shared/Icons/Vendor/Gear/T_UI_Gear_TankHelmet.png,,2,2,1,,,,,,Inventory.Slot.Helmet;Item.Context.Equippable
 Id.Item.TAR21,item,T-21,Assault Rifle,"- Semi / Full Auto
-- 5.56x45mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_005.png,,5,2,1,3.27,,,,,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.AR;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle;Item.Weapon.TAR21
+- 5.56x45mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_005.png,,5,2,1,3.27,,Infantry,3,10000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.AR;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle;Item.Weapon.TAR21
 ID.Item.TAR21Barrel,item,ID.Item.TAR21Barrel,,,,,1,1,1,,,,,,Item.Attachment.Barrel.TAR21
 ID.Item.TAR21Mag,item,TAR21 Standard Mag,Magazine,"- 30 Rounds
 - 5.56x45mm ammo",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_Stanag.png,,1,2,1,,,,,,Item.Attachment.Magazine;Item.Resource.Magazine.Standard
 Id.Item.TRGR_001,item,RAK-1 Enhanced Trigger,,,UI/Shared/Icons/Components/AK74/T_UI_Trigger_Placeholder.png,,1,1,1,,,,,,Item.Attachment.Trigger
 Id.Item.TRGR_002,item,AK74 Timney Drop-in Trigger,,,UI/Shared/Icons/Components/AK74/T_UI_Trigger_Placeholder.png,,1,1,1,,,,,,Item.Attachment.Trigger
 Id.Item.TRGR_003,item,AK74 CMC Flat Trigger,,,UI/Shared/Icons/Components/AK74/T_UI_Trigger_Placeholder.png,,1,1,1,,,,,,Item.Attachment.Trigger
-Id.Item.UralVehicleMachineGun,item,Machine Gun,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.WHL_07.MountedMachineGun
+Id.Item.UralVehicleMachineGun,item,Machine Gun,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.WHL_07.MountedMachineGun;Item.Context.MovementBlocked
 Id.Item.Vector,item,Super-45,Submachine Gun,"- Semi / Full Auto
-- .45 ACP",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_006.png,,3,2,1,3,,Medic,35,150000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.SMG;Item.Weapon.Vector;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle
+- .45 ACP",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_006.png,,3,2,1,3,,Medic,35,200000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.SMG;Item.Weapon.Vector;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle
 ID.Item.VectorBarrel,item,ID.Item.VectorBarrel,,,,,1,1,1,,,,,,Item.Attachment.Barrel
 ID.Item.VectorMagazine,item,Super-45 30 RND Magazine,Magazine,"- 30 Rounds
 - .45 APC ammo 
-- Super-45 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_008.png,,1,2,1,0.89,,Medic,38,25000,Item.Attachment.Magazine;Item.Resource.Magazine.Extended
+- Super-45 only",UI/Shared/Icons/Vendor/Magazines/T_UI_Vendor_MAGZ_008.png,,1,2,1,0.89,,Medic,43,25000,Item.Attachment.Magazine;Item.Resource.Magazine.Extended
 ID.Item.VectorStock,item,ID.Item.VectorStock,,,,,1,1,1,,,,,,Item.Attachment.Stock
-ID.Item.VehicleHelicopterCannon,item,Machine Gun,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.ROT_02.Turret
-ID.Item.VehicleHelicopterRockets,item,Rockets,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.ROT_02.MissilePods
-ID.Item.VehicleHelicopterRockets_ROT_03,item,Rockets,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.ROT_03.RocketPods
-ID.Item.VehicleRingTurret,item,Machine Gun,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.WHL_02.MountedMachineGun
-ID.Item.VehicleStorageIntermediate,item,Intermediate Vehicle Storage,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Storage
-ID.Item.VehicleStorageLarge,item,Large Vehicle Storage,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Storage
-ID.Item.VehicleStorageMedium,item,Medium Vehicle Storage,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Storage
-ID.Item.VehicleStorageSmall,item,Small Vehicle Storage,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Storage
+ID.Item.VehicleHelicopterCannon,item,Machine Gun,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.ROT_02.Turret;Item.Context.MovementBlocked
+ID.Item.VehicleHelicopterRockets,item,Rockets,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.ROT_02.MissilePods;Item.Context.MovementBlocked
+ID.Item.VehicleHelicopterRockets_ROT_03,item,Rockets,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.ROT_03.RocketPods;Item.Context.MovementBlocked
+ID.Item.VehicleRingTurret,item,Machine Gun,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.WHL_02.MountedMachineGun;Item.Context.MovementBlocked
+Id.Item.VehicleSmoke,item,VehicleSmoke,Countermeasure,"- Sustained discharge trails around the vehicle
+- Settles into a large, lingering screen temporarily providing Infantry cover",UI/Features/HUD/Vehicles/Vehicle_HUD_Materials/Textures/T_UI_Icon_DeploySmoke.png,,1,1,1,,,,,,Item.Resource.Ammo
+ID.Item.VehicleStorageIntermediate,item,Intermediate Vehicle Storage,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Storage;Item.Context.MovementBlocked
+ID.Item.VehicleStorageLarge,item,Large Vehicle Storage,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Storage;Item.Context.MovementBlocked
+ID.Item.VehicleStorageMedium,item,Medium Vehicle Storage,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Storage;Item.Context.MovementBlocked
+ID.Item.VehicleStorageSmall,item,Small Vehicle Storage,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Storage;Item.Context.MovementBlocked
 ID.Item.VehicleSupplyCrate.Container.Free,item,Free Supply Crate Container,,,,,1,1,1,,,,,,
 ID.Item.VehicleSupplyCrate.Free,item,Free Supply Crate,,,,,1,1,1,,,,,,
 ID.Item.VehicleSupplyCrate.Large,item,Large Supply Crate,,"- Unarmored resupply crate
 - 35 Slots available
-- Will be destroyed by high-speed impacts (approx. 60m free-fall max.)",SupplyCrates/UI/Textures/ID_Item_VehicleSupplyCrate_Large.png,,1,4,1,,,Driver,16,20000,Inventory.Type.Storage;Inventory.Slot.SupplyContainer
+- Will be destroyed by high-speed impacts (approx. 60m free-fall max.)",SupplyCrates/UI/Textures/ID_Item_VehicleSupplyCrate_Large.png,,1,4,1,,,Driver,17,20000,Inventory.Type.Storage;Inventory.Slot.SupplyContainer
 ID.Item.VehicleSupplyCrate.Large.Armoured,item,Large Armoured Supply Crate,,"- Armored resupply crate
 - Resistant to Bullets and Explosions
 - 35 Slots available
@@ -1288,13 +1423,13 @@ ID.Item.VehicleSupplyCrate.Pallet.BuildSupply,item,Build Supply Pallet,,"- Build
 - Will be destroyed by high-speed impacts (approx. 90m free-fall max.)",UI/Shared/Icons/Vehicles/GarageVendor/T_UI_Supply_Build_Palette.png,,4,2,1,,,,,,Inventory.Type.Storage;Inventory.Slot.SupplyContainer
 ID.Item.VehicleSupplyCrate.Pallet.FuelSupply,item,Fuel Supply Pallet,,"- Fuel resource pallet
 - Delivery to FOB is recommended
-- Will be destroyed by high-speed impacts (approx. 90m free-fall max.)",UI/Shared/Icons/Vehicles/GarageVendor/T_UI_Supply_Fuel_Palette.png,,4,2,1,,,,,,Inventory.Type.Storage;Inventory.Slot.SupplyContainer
+- Will be destroyed by high-speed impacts (approx. 90m free-fall max.)",UI/Shared/Icons/Vehicles/GarageVendor/T_UI_Supply_Fuel_Palette.png,,4,2,1,,,Wardog,16,50000,Inventory.Type.Storage;Inventory.Slot.SupplyContainer
 ID.Item.VehicleSupplyCrate.Pallet.MunitionsSupply,item,Munitions Supply Pallet,,"- Ammo resource pallet
 - Delivery to FOB is recommended
-- Will be destroyed by high-speed impacts (approx. 90m free-fall max.)",UI/Shared/Icons/Vehicles/GarageVendor/T_UI_Supply_Ammo_Palette.png,,4,2,1,,,,,,Inventory.Type.Storage;Inventory.Slot.SupplyContainer
+- Will be destroyed by high-speed impacts (approx. 90m free-fall max.)",UI/Shared/Icons/Vehicles/GarageVendor/T_UI_Supply_Ammo_Palette.png,,4,2,1,,,Wardog,9,25000,Inventory.Type.Storage;Inventory.Slot.SupplyContainer
 ID.Item.VehicleSupplyCrate.Pallet.SparePartsSupply,item,Mechanical Supply Pallet,,"- Mechanical resource pallet
 - Delivery to FOB is recommended
-- Will be destroyed by high-speed impacts (approx. 90m free-fall max.)",UI/Shared/Icons/Vehicles/GarageVendor/T_UI_Supply_Mech_Palette.png,,4,2,1,,,,,,Inventory.Type.Storage;Inventory.Slot.SupplyContainer
+- Will be destroyed by high-speed impacts (approx. 90m free-fall max.)",UI/Shared/Icons/Vehicles/GarageVendor/T_UI_Supply_Mech_Palette.png,,4,2,1,,,Wardog,5,10000,Inventory.Type.Storage;Inventory.Slot.SupplyContainer
 ID.Item.VehicleSupplyCrate.Small,item,Small Supply Crate,,"- Unarmored resupply crate
 - 24 Slots available
 - Will be destroyed by high-speed impacts (approx. 60m free-fall max.)",SupplyCrates/UI/Textures/ID_Item_VehicleSupplyCrate_Small.png,,1,3,1,,,,,,Inventory.Type.Storage;Inventory.Slot.SupplyContainer
@@ -1302,47 +1437,61 @@ ID.Item.VehicleSupplyCrate.Small.Armoured,item,Small Armoured Supply Crate,,"- A
 - Resistant to Bullets and Explosions
 - 24 Slots available
 - Will be destroyed by high-speed impacts (approx. 80m free-fall max.)",SupplyCrates/UI/Textures/ID_Item_VehicleSupplyCrate_Small_Armoured.png,,1,3,1,,,Pilot,2,10000,Inventory.Type.Storage;Inventory.Slot.SupplyContainer
-ID.Item.VehicleTurretAntiAir,item,Anti-Air Turret,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.TNK_03.Turret
-ID.Item.VehicleTurretArtillery,item,Artillery Turret,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.TNK_02.Turret
-ID.Item.VehicleTurretArtillery.Sandbox,item,Artillery Turret,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.TNK_02.Turret
-ID.Item.VehicleTurretHeavy,item,Heavy Turret,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.TNK_01.Turret
-ID.Item.VehicleTurretMachineGun,item,Machine Gun,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.TNK_01.TurretMachineGun
+ID.Item.VehicleTurret_TNK_04,item,Heavy Turret,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.TNK_04.Turret;Item.Context.MovementBlocked
+ID.Item.VehicleTurretAntiAir,item,Anti-Air Turret,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.TNK_03.Turret;Item.Context.MovementBlocked
+ID.Item.VehicleTurretArtillery,item,Artillery Turret,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.TNK_02.Turret;Item.Context.MovementBlocked
+ID.Item.VehicleTurretArtillery.Sandbox,item,Artillery Turret,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.TNK_02.Turret;Item.Context.MovementBlocked
+ID.Item.VehicleTurretHeavy,item,Heavy Turret,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.TNK_01.Turret;Item.Context.MovementBlocked
+ID.Item.VehicleTurretMachineGun,item,Machine Gun,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.TNK_01.TurretMachineGun;Item.Context.MovementBlocked
+ID.Item.VehicleTurretMachineGun_TNK_04,item,Machine Gun,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.TNK_04.TurretMachineGun;Item.Context.MovementBlocked
 Id.Item.WEPN_026,item,M1911,Pistol,"- Semi automatic
 - .45 ACP",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_026.png,,2,2,1,1.1,,Wardog,40,25000,Item.Context.Equippable;Item.Archetype.Pistol;Inventory.Slot.Sidearm;Item.Context.Animation.Type.Pistol;Item.Context.Animation.Archetype.Pistol;Item.Weapon
 Id.Item.WEPN_027,item,Deagle,Pistol,"- Semi automatic
-- .50AE",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_027.png,,3,2,1,2,,Wardog,85,75000,Item.Archetype.Pistol;Inventory.Slot.Sidearm;Item.Context.Equippable;Item.Context.Animation.Type.Pistol;Item.Context.Animation.Archetype.Pistol;Item.Weapon
+- .50AE",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_027.png,,3,2,1,2,,Wardog,65,75000,Item.Archetype.Pistol;Inventory.Slot.Sidearm;Item.Context.Equippable;Item.Context.Animation.Type.Pistol;Item.Context.Animation.Archetype.Pistol;Item.Weapon
 Id.Item.WEPN_028,item,MP5,Submachine Gun,"- Semi / Full Auto
-- 9x19mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_028.png,,3,2,1,2.54,,Medic,15,75000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.SMG;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle;Item.Weapon
+- 9x19mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_028.png,,3,2,1,2.54,,Medic,4,25000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.SMG;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle;Item.Weapon
 Id.Item.WEPN_029,item,Galil,Assault Rifle,"- Semi / Full Auto
 - 5.56x45mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_029.png,,5,2,1,3.95,,Infantry,10,35000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.AR;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle;Item.Weapon
 Id.Item.WEPN_030,item,FAL,Assault Rifle,"- Semi / Full Auto
-- .308 Win",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_030.png,,6,2,1,4.25,,Infantry,35,200000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle;Item.Archetype.AR;Item.Weapon
+- .308 Win",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_030.png,,6,2,1,4.25,,Infantry,35,250000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle;Item.Archetype.AR;Item.Weapon
+Id.Item.WEPN_031,item,PP-19 Bizon,Submachine Gun,"- Semi / Full Auto
+- 9x19mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Weapons_WEPN_31.png,,3,2,1,2.1,,,,,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.SMG;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle;Item.Weapon.WEPN_031
 Id.Item.WEPN_032,item,GGX 18,Pistol,"- Semi automatic
-- 9x19mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_032.png,,2,2,1,0.63,,Wardog,70,50000,Item.Archetype.Pistol;Inventory.Slot.Sidearm;Item.Context.Equippable;Item.Context.Animation.Type.Pistol;Item.Context.Animation.Archetype.Pistol;Item.Weapon
+- 9x19mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_032.png,,2,2,1,0.63,,Wardog,85,125000,Item.Archetype.Pistol;Inventory.Slot.Sidearm;Item.Context.Equippable;Item.Context.Animation.Type.Pistol;Item.Context.Animation.Archetype.Pistol;Item.Weapon
 Id.Item.WEPN_033,item,Bushmaster M17S,Assault Rifle,"- Semi / Burst Fire
 - 5.56x45mm
 - Unable to equip attachments.",UI/Shared/Icons/Vendor/Weapons/T_UI_Vendor_WEPN_033.png,,5,2,1,3.17,,,,,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.AR;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle;Item.Weapon
+Id.Item.WEPN_034,item,M14,Marksman Rifle,"- Semi / Full Auto
+- .308 Win",UI/Shared/Icons/Vendor/Weapons/T_UI_Weapons_WEPN_034.png,,6,2,1,4.2,,Recon,25,100000,Inventory.Slot.Primary;Item.Archetype.DMR;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle;Item.Weapon.WEPN_034
 Id.Item.WEPN_035,item,Scout Rifle TD,Sniper Rifle,"- Break-action
 - 5.56x45mm",UI/Shared/Icons/Vendor/Weapons/T_UI_WEPN_035.png,,5,2,1,2.95,,,,,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle;Item.Archetype.Sniper;Item.Weapon.WEPN_035;Item.Context.LooseAmmoReload
+Id.Item.WEPN_036,item,Evo-3 Ultra,Light Machine Gun,"- Semi / Full Auto
+- .308 Win",UI/Shared/Icons/Vendor/Weapons/T_UI_Weapons_WEPN_036.png,,6,2,1,6.3,,Support,30,200000,Inventory.Slot.Primary;Inventory.Slot.Secondary;Item.Archetype.LMG;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle;Item.Weapon.WEPN_036
+Id.Item.WEPN_037,item,TCX-SPR,Assault Rifle,"- Semi / Full Auto
+- 7.62x39mm",UI/Shared/Icons/Vendor/Weapons/T_UI_Weapons_WEPN_037.png,,6,2,1,3.5,,Infantry,20,100000,Inventory.Slot.Primary;Item.Archetype.DMR;Item.Context.Equippable;Item.Context.Animation.Type.Rifle;Item.Context.Animation.Archetype.Rifle;Item.Weapon.WEPN_037
+Id.Item.WHL_08_VehicleRingTurret,item,Machine Gun,,,,,1,1,1,,,,,,Inventory.Slot.Vehicle.Weapon.WHL_08.MountedMachineGun;Item.Context.MovementBlocked
 Id.Item.ZenitHandguard,item,Zenit Handguard,,Handguard Component,UI/Shared/Icons/Weapons/Components/AK74M/T_UI_Icon_COM_AK_Handguard_02_Textured_512x512.png,,1,1,1,,,,,,Item.Attachment.Handguard.AK74M
 Id.Item.ZenitStock,item,Zenit Stock,,Stock Component,UI/Shared/Icons/Weapons/Components/AK74M/T_UI_Icon_COM_AK_Stock_02_Textured_512x512.png,,1,1,1,,,,,,Item.Attachment.Stock.AK74M
-Vehicle.Variant.Air.Rotary.Havoc.Default,vehicle,Havoc,Combat Helicopter,2 Seat. Attack Helicopter,UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_Havoc.png,,4,4,1,,,Pilot,35,500000,
+Vehicle.Variant.Air.Rotary.Havoc.Default,vehicle,Havoc,Combat Helicopter,2 Seat. Attack Helicopter,UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_Havoc.png,,5,4,1,,,Pilot,35,650000,
 Vehicle.Variant.Air.Rotary.Littlebird.Default,vehicle,MH-6,Helicopter,6 seats. Small Transport Helicopter,UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_ROT_03_Temp_512x512.png,,4,4,1,,,,,,
-Vehicle.Variant.Air.Rotary.Littlebird.MountedMachineGuns,vehicle,AH-6M [Miniguns],Combat Helicopter,Small Attack Helicopter with 2 Miniguns,UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_LittleBird_GUNS_BC.png,,4,4,1,,,Pilot,4,50000,
+Vehicle.Variant.Air.Rotary.Littlebird.MountedMachineGuns,vehicle,AH-6M [Miniguns],Combat Helicopter,Small Attack Helicopter with 2 Miniguns,UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_LittleBird_GUNS_BC.png,,4,4,1,,,Pilot,8,125000,
 Vehicle.Variant.Air.Rotary.Littlebird.RocketPods,vehicle,AH-6R [Rockets],Combat Helicopter,Small Attack Helicopter with 2 Rocket Pods,UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_Littlebird_3.png,,4,4,1,,,Pilot,20,250000,
-Vehicle.Variant.Air.Rotary.ROT_04.Default,vehicle,Z20 Lakota,Helicopter,Large 13 Seated Transport Helicopter,UI/Shared/Icons/Vehicles/T_UI_VendorIcon_ROT_4.png,,4,4,1,,,Pilot,10,35000,
-Vehicle.Variant.Air.Rotary.ROT_04.MountedMachineGuns,vehicle,Z20 Lakota [Miniguns],Helicopter,Large 11 Passenger Helicopter with 2 Miniguns,UI/Shared/Icons/Vehicles/T_UI_VendorIcon_ROT_4_MiniGun.png,,4,4,1,,,Pilot,25,75000,
-Vehicle.Variant.Land.Tracked.TNK_01.AntiAir,vehicle,Flakpanzer Gepard,Heavy Armored Vehicle,2 Seat. Anti-Air Armored Vehicle,UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_Gepard.png,,4,4,1,,,,,,
-Vehicle.Variant.Land.Tracked.TNK_01.Artillery,vehicle,SPH-2,Artillery Armored Vehicle,3 Seat. Artillery Armored Vehicle,UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_PVTank_Temp_512x512.png,,4,4,1,,,Wardog,90,500000,
-Vehicle.Variant.Land.Tracked.TNK_01.Heavy,vehicle,L2A6,Heavy Armored Vehicle,3 Seat. Heavy Armored Vehicle,UI/Shared/Icons/Vehicles/3D/T_UI_Icon_Vehicle_HVY_Tank_Textured.png,,4,4,1,,,Driver,35,500000,
-Vehicle.Variant.Land.Wheeled.Bobcat.Default,vehicle,Bobcat,Quad Bike,2 Seat Cheap Transport Vehicle,UI/Shared/Icons/Vehicles/3D/T_UI_Icon_Vehicle_WHL_01_Bobcat_Textured_512x512.png,,4,4,1,,,,,,
-Vehicle.Variant.Land.Wheeled.DuneBuggy.Default,vehicle,Dune Buggy,ATV,3 Seat Rapid Wheeled Vehicle,UI/Shared/Icons/Vehicles/T_UI_Icon_Vehicle_DuneBuggy_512x512.png,,4,4,1,,,Driver,8,25000,
-Vehicle.Variant.Land.Wheeled.Humvee.Default,vehicle,Humvee,SUV,4 Seat Light-Armored Wheeled Vehicle. Best Suited For Off Road Travel,UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_transport_Humvee_Temp_512x512.png,,4,4,1,,,Driver,15,25000,
-Vehicle.Variant.Land.Wheeled.Humvee.MachineGun,vehicle,Humvee [M249],SUV,5 Seat Light-Armored Wheeled Vehicle With A Machine Gun Attachment,UI/Shared/Icons/Vehicles/3D/T_UI_Icon_Vehicle_Humvee_Gun.png,,4,4,1,,,Driver,20,125000,
-Vehicle.Variant.Land.Wheeled.Humvee.Minigun,vehicle,Humvee [Minigun],SUV,5 Seat Light-Armored Wheeled Vehicle With A Minigun Attachment,UI/Shared/Icons/Vehicles/3D/T_UI_Icon_Vehicle_Humvee_Gun.png,,4,4,1,,,Driver,30,150000,
-Vehicle.Variant.Land.Wheeled.Kodiak.Default,vehicle,Kodiak,SUV,4 Seat Wheeled Vehicle,UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_Kodiak_Default.png,,4,4,1,,,,,,
-Vehicle.Variant.Land.Wheeled.Kodiak.MachineGun,vehicle,Kodiak [M249],SUV,5 Seat Wheeled Vehicle With A Machine Gun Attachment,UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_Kodiak_MachineGun.png,,4,4,1,,,Driver,6,50000,
-Vehicle.Variant.Land.Wheeled.Kodiak.Pickup,vehicle,Kodiak [Pickup],SUV,6 Seat Wheeled Vehicle,UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_Kodiak_Pickup.png,,4,4,1,,,Driver,10,35000,
-Vehicle.Variant.Land.Wheeled.Ural.Attack,vehicle,Ural Defender [M249],Heavy Truck,Large Multi-Capacity Wheeled Attack Vehicle,UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_URAL_3.png,,4,4,1,,,Driver,25,125000,
-Vehicle.Variant.Land.Wheeled.Ural.Battle,vehicle,Ural Defender,Heavy Truck,Large Passenger Protected Multi-Capacity Wheeled Vehicle,UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_URAL_2.png,,4,4,1,,,Driver,18,75000,
-Vehicle.Variant.Land.Wheeled.Ural.Default,vehicle,Ural,Truck,Large Multi-Capacity Wheeled Transport Vehicle,UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_URAL.png,,4,4,1,,,Driver,3,35000,
+Vehicle.Variant.Air.Rotary.ROT_04.Default,vehicle,Z20 Lakota,Helicopter,Large 13 Seated Transport Helicopter,UI/Shared/Icons/Vehicles/T_UI_VendorIcon_ROT_4.png,,5,4,1,,,Pilot,10,35000,
+Vehicle.Variant.Air.Rotary.ROT_04.MountedMachineGuns,vehicle,Z20 Lakota [Miniguns],Helicopter,Large 11 Passenger Helicopter with 2 Miniguns,UI/Shared/Icons/Vehicles/T_UI_VendorIcon_ROT_4_MiniGun.png,,5,4,1,,,Pilot,25,85000,
+Vehicle.Variant.Land.Tracked.TNK_01.AntiAir,vehicle,Flakpanzer Gepard,Heavy Armored Vehicle,2 Seat. Anti-Air Armored Vehicle,UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_Gepard.png,,6,4,1,,,Driver,25,300000,
+Vehicle.Variant.Land.Tracked.TNK_01.Artillery,vehicle,SPH-2,Artillery Armored Vehicle,3 Seat. Artillery Armored Vehicle,UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_PVTank_Temp_512x512.png,,6,4,1,,,Driver,31,350000,
+Vehicle.Variant.Land.Tracked.TNK_01.Heavy,vehicle,L2A6,Heavy Armored Vehicle,3 Seat. Heavy Armored Vehicle,UI/Shared/Icons/Vehicles/3D/T_UI_Icon_Vehicle_HVY_Tank_Textured.png,,6,4,1,,,Driver,35,500000,
+Vehicle.Variant.Land.Tracked.TNK_04.Default,vehicle,T-72B3,Heavy Armored Vehicle,3 Seat. Heavy Armored Vehicle,UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_TNK_04.png,,6,4,1,,,Driver,20,250000,
+Vehicle.Variant.Land.Wheeled.Bobcat.Default,vehicle,Bobcat,Quad Bike,2 Seat Cheap Transport Vehicle,UI/Shared/Icons/Vehicles/3D/T_UI_Icon_Vehicle_WHL_01_Bobcat_Textured_512x512.png,,3,2,1,,,,,,
+Vehicle.Variant.Land.Wheeled.DuneBuggy.Default,vehicle,Dune Buggy,ATV,3 Seat Rapid Wheeled Vehicle,UI/Shared/Icons/Vehicles/T_UI_Icon_Vehicle_DuneBuggy_512x512.png,,4,3,1,,,Driver,9,25000,
+Vehicle.Variant.Land.Wheeled.Humvee.Default,vehicle,Humvee,SUV,4 Seat Light-Armored Wheeled Vehicle. Best Suited For Off Road Travel,UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_transport_Humvee_Temp_512x512.png,,4,3,1,,,Driver,14,75000,
+Vehicle.Variant.Land.Wheeled.Humvee.MachineGun,vehicle,Humvee [M249],SUV,5 Seat Light-Armored Wheeled Vehicle With A Machine Gun Attachment,UI/Shared/Icons/Vehicles/3D/T_UI_Icon_Vehicle_Humvee_Gun.png,,4,3,1,,,Driver,24,125000,
+Vehicle.Variant.Land.Wheeled.Humvee.Minigun,vehicle,Humvee [Minigun],SUV,5 Seat Light-Armored Wheeled Vehicle With A Minigun Attachment,UI/Shared/Icons/Vehicles/3D/T_UI_Icon_Vehicle_Humvee_Gun.png,,4,3,1,,,Driver,30,150000,
+Vehicle.Variant.Land.Wheeled.Kodiak.Default,vehicle,Kodiak,SUV,4 Seat Wheeled Vehicle,UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_Kodiak_Default.png,,4,3,1,,,,,,
+Vehicle.Variant.Land.Wheeled.Kodiak.MachineGun,vehicle,Kodiak [M249],SUV,5 Seat Wheeled Vehicle With A Machine Gun Attachment,UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_Kodiak_MachineGun.png,,4,3,1,,,Driver,6,50000,
+Vehicle.Variant.Land.Wheeled.Kodiak.Pickup,vehicle,Kodiak [Pickup],SUV,6 Seat Wheeled Vehicle,UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_Kodiak_Pickup.png,,4,3,1,,,Driver,10,35000,
+Vehicle.Variant.Land.Wheeled.Ural.Attack,vehicle,Ural Defender [M249],Heavy Truck,Large Multi-Capacity Wheeled Attack Vehicle,UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_URAL_3.png,,5,4,1,,,Driver,22,100000,
+Vehicle.Variant.Land.Wheeled.Ural.Battle,vehicle,Ural Defender,Heavy Truck,Large Passenger Protected Multi-Capacity Wheeled Vehicle,UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_URAL_2.png,,5,4,1,,,Driver,15,75000,
+Vehicle.Variant.Land.Wheeled.Ural.Default,vehicle,Ural,Truck,Large Multi-Capacity Wheeled Transport Vehicle,UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_URAL.png,,5,4,1,,,Driver,3,35000,
+Vehicle.Variant.Land.Wheeled.WHL_08.Default,vehicle,Wolf-110,SUV,4 Seat Wheeled Vehicle,UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_WHL_08.png,,4,3,1,,,Driver,8,50000,
+Vehicle.Variant.Land.Wheeled.WHL_08.MachineGun,vehicle,Wolf-110 [M2 Browning],SUV,5 Seat Wheeled Vehicle With A Machine Gun Attachment,UI/Shared/Icons/Vehicles/3D/T_UI_Vendor_WHL_08_Gun.png,,4,3,1,,,Driver,16,125000,

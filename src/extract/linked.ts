@@ -28,7 +28,7 @@ const MAX_ROUNDS = 8;
  * mappings, audio data, flight curves, camera shakes...), then the packages those link to, until nothing new is found.
  * Packages that are not in the game files stay unresolved. Returns the packages added.
  */
-export function extractLinkedPackages(config: Config, gameplayDir: string, itemsDir: string, log: (line: string) => void = console.log): string[] {
+export async function extractLinkedPackages(config: Config, gameplayDir: string, itemsDir: string, log: (line: string) => void = console.log): Promise<string[]> {
   const tried = new Set<string>();
   for (let round = 1; round <= MAX_ROUNDS; round++) {
     const index = new PackageIndex([gameplayDir, ...(existsSync(itemsDir) ? [itemsDir] : [])]);
@@ -37,7 +37,7 @@ export function extractLinkedPackages(config: Config, gameplayDir: string, items
     if (!wanted.length) return [...tried];
     for (const p of wanted) tried.add(p.toLowerCase());
     log(`linked packages, round ${round}: ${wanted.length} to extract`);
-    exportJson(config, packagesPattern(wanted), EXCLUDE_NOTHING, gameplayDir, true);
+    await exportJson(config, packagesPattern(wanted), EXCLUDE_NOTHING, gameplayDir, true);
   }
   throw new Error(`The vehicle configs still link to new packages after ${MAX_ROUNDS} rounds: raise MAX_ROUNDS in src/extract/linked.ts.`);
 }

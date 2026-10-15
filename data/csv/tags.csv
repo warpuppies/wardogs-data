@@ -26,10 +26,14 @@ Id.Vehicle.WeaponExtension.TNK_01.Artillery.Sandbox,Artillery,Categories
 Id.Vehicle.WeaponExtension.TNK_01.Heavy,Heavy,Categories
 Id.Vehicle.WeaponExtension.TNK_01.MachineGun,Coaxial Gun,Categories
 Id.Vehicle.WeaponExtension.TNK_01.MountedMachineGun,Machine Gun,Categories
+Id.Vehicle.WeaponExtension.TNK_04.Default,Heavy,Categories
+Id.Vehicle.WeaponExtension.TNK_04.MachineGun,Coaxial Gun,Categories
+Id.Vehicle.WeaponExtension.TNK_04.MountedMachineGun,Machine Gun,Categories
 Id.Vehicle.WeaponExtension.WHL_02.SUV.RingTurret,Machine Gun,Categories
 Id.Vehicle.WeaponExtension.WHL_05.RingMinigun,Minigun,Categories
 Id.Vehicle.WeaponExtension.WHL_05.RingTurret,Machine Gun,Categories
 Id.Vehicle.WeaponExtension.WHL_07.MachineGun,Machine Gun,Categories
+Id.Vehicle.WeaponExtension.WHL_08.RingTurret,Machine Gun,Categories
 Input.NamedActions.ItemSmith.CollapseStats,Collapse Stats,Itemsmith
 Input.NamedActions.ItemSmith.ExpandStats,Expand Stats,Itemsmith
 Inventory.Slot.Armor,Armor,InventorySlots
@@ -99,6 +103,9 @@ Item.Attachment.Trigger,TRIGGER,Components
 Item.Attachment.Underbarrel,Underbarrel,InventorySlots
 Item.Caliber.115mm,115mm,Calibers
 Item.Caliber.120x570mm,120mm HEAT-MP Shell,Calibers
+Item.Caliber.122mm,122mm,Calibers
+Item.Caliber.122mm.Havoc,122mm,Calibers
+Item.Caliber.125x570mm,125mm HEAT-MP Shell,Calibers
 Item.Caliber.12g,12g,Calibers
 Item.Caliber.12g.RifledSlug,12g Rifled Slug,Calibers
 Item.Caliber.155mm,155mm HE Shell,Calibers
@@ -159,6 +166,7 @@ Server.Descriptor.DownedStateDisabled,No Downed State,ServerTags
 Server.Descriptor.GiveUpDisabled,No Give Up,ServerTags
 Server.Descriptor.Hardcore,Hardcore,ServerTags
 Server.Descriptor.InfantryOnly,Infantry Only,ServerTags
+Server.Descriptor.MaxAllowedPing,Max Allowed Ping {Value} ms,ServerTags
 Server.Descriptor.MaxPlayerCash,Max {Value},ServerTags
 Server.Descriptor.MaxPlayerLevel,Max Lvl {Value},ServerTags
 Server.Descriptor.MinPlayerCash,Min {Value},ServerTags
@@ -224,6 +232,8 @@ UI.Scene.Match.VehicleSupplyCrate,Supply Crate,SceneNames
 UI.Scene.Match.Vendor.Equipment,Equipment Vendor,SceneNames
 UI.Scene.Match.Vendor.Garage,Garage Vendor,SceneNames
 UI.Scene.Match.Vendor.Vehicles,Vehicle Vendor,SceneNames
+UI.Scene.Match.Vendor.Wagers,Wager Vendor,SceneNames
+UI.Scene.Match.WagerStatus,Wager,SceneNames
 UI.Scene.Shared.Settings,Settings,SceneNames
 UI.Tooltip.Layout.ItemDescription.Entry.Warning.Container.Empty,(Empty),Tooltips
 UI.Tooltip.Layout.ItemDescription.Entry.Warning.Container.Full,(Full),Tooltips
@@ -269,6 +279,7 @@ Vendor.Category.Gear.Camouflage,Camouflage,Categories
 Vendor.Category.Gear.Headgear,Headgear,Categories
 Vendor.Category.Gear.Helmet,Helmet,Categories
 Vendor.Category.Gear.Traversal,Traversal,Categories
+Vendor.Category.Gear.VehicleUse,Vehicle Use,Categories
 Vendor.Category.Gear.Vest,Vest,Categories
 Vendor.Category.Magazine.Size,Magazine Size,Categories
 Vendor.Category.Magazine.Size.Extended,Extended,Categories
@@ -296,6 +307,7 @@ Vendor.Category.Vehicle.Ammo,Vehicle Ammo,Categories
 Vendor.Category.Vehicle.AmmoType,Ammo Type,Categories
 Vendor.Category.Vehicle.CounterMeasures,Counter Measures,Categories
 Vendor.Category.Vehicle.CounterMeasures.Flares,Flares,Categories
+Vendor.Category.Vehicle.CounterMeasures.Smoke,Smokes,Categories
 Vendor.Category.Vehicle.Garage,Garage,Categories
 Vendor.Category.Vehicle.Land,Land,Categories
 Vendor.Category.Vehicle.Music,Music Tapes,Categories

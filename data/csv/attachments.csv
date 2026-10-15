@@ -26,6 +26,10 @@ Id.Item.BARL_007,Id.Item.BARL_007,Barrel,Item.Attachment.Barrel,,
 ID.Item.BARL_011,RPK74 Barrel + Gas Block,Barrel,Item.Attachment.Barrel,,
 Id.Item.BARL_044,Id.Item.BARL_044,Barrel,Item.Attachment.Barrel.WEPN_033,,
 Id.Item.BARL_045,Scout Rifle Standard Barrel,Barrel,Item.Attachment.Barrel.WEPN_035,,
+Id.Item.BARL_046,WEPN_036 Evoly Standard Barrel,Barrel,Item.Attachment.Barrel.WEPN_036,,
+Id.Item.BARL_047,WEPN_034 M14 Standard Barrel,Barrel,Item.Attachment.Barrel.WEPN_034,,
+Id.Item.BARL_048,Sig Spear (WEPN_037) Standard Barrel,Barrel,Item.Attachment.Barrel.WEPN_037,,
+Id.Item.BARL_049,WEPN_031 Bizon Standard Barrel,Barrel,Item.Attachment.Barrel.WEPN_031,,
 Id.Item.BasicRedDot,Compact T-2 Red Dot,Sight,Item.Context.Equippable;Item.Attachment.Sight.Short,,
 Id.Item.Battery,Battery,Magazine,Item.Attachment.Magazine.Battery;Item.Resource.Magazine.Battery,100,BatteryCharge
 Id.Item.C4Explosive,C4 Charge,Magazine,Item.Resource.HiddenConsumable;Item.Archetype.Grenade;Item.Context.UtilityItem;Item.Context.Animation.Type.Unarmed;Item.Context.Animation.Archetype.EquipRightHand;Item.Ammo;Item.Caliber.C4Charge,,
@@ -48,6 +52,8 @@ Id.Item.FGRP_015,Rubberized Ergonomic Foregrip,Grip,Item.Attachment.Underbarrel;
 Id.Item.FGRP_016,45° Angled Foregrip,Grip,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Context.Animation.Archetype.Foregrip.Angled,,
 Id.Item.FGRP_017,Angled Tactical Foregrip,Grip,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Context.Animation.Archetype.Foregrip.BumpStop,,
 Id.Item.FGRP_018,Mini Angled Foregrip,Grip,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Context.Animation.Archetype.Foregrip.BumpStop,,
+Id.Item.FGRP_019,Evo-3 Ultra Bipod,Bipod,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Attachment.Bipod.Attached,,
+Id.Item.FGRP_020,M14 Bipod,Bipod,Item.Attachment.Underbarrel;Item.Context.Equippable;Item.Attachment.Bipod.Attached,,
 Id.Item.Glock17Barrel,Id.Item.Glock17Barrel,Barrel,Item.Attachment.Barrel.Glock,,
 Id.Item.Glock17ExtendedMagazine,Glock 17 Extended Mag,Magazine,Item.Attachment.Magazine,30,9mm
 Id.Item.Glock17Magazine,GGX 17 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Standard,17,9mm
@@ -64,6 +70,9 @@ Id.Item.HNDG_013,AK74 M-LOK Dong Grip,Handguard,Item.Attachment.Handguard,,
 Id.Item.HNDG_014,AK74 MI Universal Handguard,Handguard,Item.Attachment.Handguard,,
 Id.Item.HNDG_015,AK74 TI Battlerail,Handguard,Item.Attachment.Handguard,,
 Id.Item.HNDG_016,AK74 ZenitCo B-13 Side Mount,Handguard,Item.Attachment.Handguard,,
+Id.Item.HNDG_053,Id.Item.HNDG_053,Stock,Item.Attachment.Stock.WEPN_034,,
+Id.Item.HNDG_054,Id.Item.HNDG_054,Stock,Item.Attachment.Handguard.WEPN_037,,
+Id.Item.HNDG_055,Id.Item.HNDG_055,Stock,Item.Attachment.Handguard.WEPN_031,,
 Id.Item.HybridScope4x,4x Hybrid,Sight,Item.Attachment.Sight;Item.Context.Equippable,,
 Id.Item.IED.Explosive,Improvised Explosive Device,Magazine,Item.Resource.HiddenConsumable;Item.Context.UtilityItem;Item.Context.Animation.Type.Unarmed;Item.Context.Animation.Archetype.EquipRightHand;Item.Ammo;Item.Caliber.IEDCharge,,
 Id.Item.JudgeBarrel,Id.Item.JudgeBarrel,Barrel,Item.Attachment.Barrel.Judge,,
@@ -102,6 +111,7 @@ Id.Item.MAGZ_024,FAL 30 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Reso
 Id.Item.MAGZ_026,AMR 50 10 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Small,10,50Cal
 Id.Item.MAGZ_034,MK22 5 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Small,5,308Win
 Id.Item.MAGZ_046,PP-19 50 RND Vityaz Drum Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Drum,50,9mm
+Id.Item.MAGZ_051,PP-19 Bizon 53 RND Magazine,Magazine,Item.Resource.Magazine.Extended;Item.Attachment.Magazine,53,9mm
 Id.Item.MAGZ_052,AMP-9 20 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Extended,20,9mm
 Id.Item.MAGZ_055,Super-45 40 RND Drum Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Drum,40,45ACP
 Id.Item.MAGZ_056,MP5 50 RND Drum Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Drum,50,9mm
@@ -114,6 +124,11 @@ Id.Item.MAGZ_063,M1911 10 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Re
 Id.Item.MAGZ_064,MP5 20 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Standard,20,9mm
 Id.Item.MAGZ_065,SVD 5 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Small,5,762x54mm
 Id.Item.MAGZ_066,AMP-9 50 RND Drum Magazine,Magazine,Item.Attachment.Magazine,50,9mm
+Id.Item.MAGZ_067,Evo-3 Ultra 50 RND Box,Magazine,Item.Attachment.Magazine.WEPN_036;Item.Resource.Magazine.Belt,50,308Win
+Id.Item.MAGZ_068,M14 10 RND Magazine,Magazine,Item.Attachment.Magazine.WEPN_034,10,308Win
+Id.Item.MAGZ_069,SIG Spear (WEPN_037) Standard Mag,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Standard,28,762mm
+Id.Item.MAGZ_070,M14 30 RND Magazine,Magazine,Item.Attachment.Magazine.WEPN_034,30,308Win
+Id.Item.MAGZ_071,M14 20 RND Magazine,Magazine,Item.Attachment.Magazine.WEPN_034,20,308Win
 Id.Item.MK22Barrel,Id.Item.MK22Barrel,Barrel,Item.Attachment.Barrel.MK22,,
 Id.Item.MK22Grip,Id.Item.MK22Grip,Grip,Item.Attachment.Grip.MK22,,
 Id.Item.MK22Mag,MK22 Standard Mag,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Small,10,308Win
@@ -173,6 +188,15 @@ Id.Item.MUZL_059,MP5 Flash Hider,Muzzle,Item.Context.Equippable;Item.Attachment.
 Id.Item.MUZL_060,Suppressor T8L1 Scout,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_030,,
 Id.Item.MUZL_061,FAL Flash Hider,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_030,,
 Id.Item.MUZL_062,STRELIX Suppressor,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_035,,
+Id.Item.MUZL_064,WEPN_033 (M14) standard muzzle,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_034,,
+Id.Item.MUZL_065,QD-5 Suppressor,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_036,,
+Id.Item.MUZL_066,Sig Default,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_037,,
+Id.Item.MUZL_067,Cross Rifle Muzzle Brake,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_037,,
+Id.Item.MUZL_068,Clutch Lok Muzzle Brake,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_037,,
+Id.Item.MUZL_069,SRD762TI-QD,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_037,,
+Id.Item.MUZL_070,SL7i-BL Suppressor,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_036,,
+Id.Item.MUZL_071,.30 Cal SS Phosphate Muzzle Brake,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_034,,
+Id.Item.MUZL_072,.30 Cal Steel Black Flash Hider,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.WEPN_034,,
 Id.Item.MZL_04,GOL Multi-Caliber Suppressor,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.Suppressor,,
 Id.Item.MZL_05,SG Multi-Caliber Suppressor,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.Suppressor,,
 Id.Item.MZL_06,12 Gauge Suppressor,Muzzle,Item.Context.Equippable;Item.Attachment.Muzzle.Suppressor,,
@@ -188,6 +212,9 @@ Id.Item.PGRP_008,AK74 KGB MG47 Grip,Grip,Item.Attachment.Grip,,
 Id.Item.PGRP_009,AK74 AGS-74 PRO Sniper Pistol Grip,Grip,Item.Attachment.Grip,,
 Id.Item.PGRP_010,Galil Pistol Grip,Grip,Item.Attachment.Grip.WEPN_029,,
 Id.Item.PGRP_041,Id.Item.PGRP_041,Grip,Item.Attachment.Grip.WEPN_035,,
+Id.Item.PGRP_042,WEPN_36 Evoly Grip,Grip,Item.Attachment.Grip.WEPN_036,,
+Id.Item.PGRP_043,Sig Spear (WEPN_037) Standard Pistol Grip,Grip,Item.Attachment.Grip.WEPN_037,,
+Id.Item.PGRP_044,Kungfu,Grip,Item.Attachment.Grip.WEPN_037,,
 ID.Item.Pistol_01_BRL_07,ID.Item.Pistol_01_BRL_07,Barrel,Item.Attachment.Barrel.Glock,,
 ID.Item.Pistol_01_GRP_01,ID.Item.Pistol_01_GRP_01,Grip,Item.Attachment.Pistolgrip.Glock,,
 ID.Item.Pistol_01_HGD_02,ID.Item.Pistol_01_HGD_02,Handguard,Item.Attachment.Handguard.Glock,,
@@ -212,6 +239,9 @@ Id.Item.SGHT_033,CGM4 Scope,Sight,Item.Context.Equippable;Item.Attachment.Sight.
 Id.Item.SGHT_034,PGO-7,Sight,Item.Context.Equippable,,
 Id.Item.SGHT_036,6x Marksman Scope + Reflex,Sight,Item.Attachment.Sight;Item.Context.Equippable,,
 Id.Item.SGHT_037,MMGL Sight,Sight,Item.Context.Equippable;Item.Attachment.Sight.Short,,
+Id.Item.SGHT_038,Compact P-1 Red Dot,Sight,Item.Context.Equippable;Item.Attachment.Sight.Short,,
+Id.Item.SGHT_039,Leatherwood ART II,Sight,Item.Context.Equippable,,
+Id.Item.SGHT_040,PU 91/30 Scope,Sight,Item.Context.Equippable,,
 ID.Item.SKSBarrel,ID.Item.SKSBarrel,Barrel,Item.Attachment.Barrel,,
 Id.Item.SKSExtendedMag,SKS Extended Mag,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Extended,20,762mm
 Id.Item.SKSHandguard,Id.Item.SKSHandguard,Handguard,Item.Attachment.Handguard,,
@@ -247,6 +277,9 @@ Id.Item.STOK_011,AK74 Archangel OPFOR Stock,Stock,Item.Attachment.Stock,,
 Id.Item.STOK_012,AK-47 HERA CQR Stock,Stock,Item.Attachment.Stock,,
 Id.Item.STOK_013,Galil Stock,Stock,Item.Attachment.Stock.WEPN_029,,
 Id.Item.STOK_057,Scout Rifle Stock,Stock,Item.Attachment.Stock.WEPN_035,,
+Id.Item.STOK_058,Evoly stock,Stock,Item.Attachment.Stock.WEPN_036,,
+Id.Item.STOK_059,M14 Stock,Stock,Item.Attachment.Stock.WEPN_034,,
+Id.Item.STOK_060,Sig Spear Standard Stock,Stock,Item.Attachment.Stock.WEPN_037,,
 Id.Item.SV98Barrel,Id.Item.SV98Barrel,Barrel,Item.Attachment.Barrel,,
 Id.Item.SV98ExtendedMagazine,SV98 Extended Mag,Magazine,Item.Attachment.Magazine,20,762x54mm
 Id.Item.SV98Magazine,SV98 10 RND Magazine,Magazine,Item.Attachment.Magazine;Item.Resource.Magazine.Small,10,762x54mm

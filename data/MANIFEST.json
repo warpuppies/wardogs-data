@@ -3,34 +3,34 @@
   "generatedBy": "pnpm apply",
   "doNotEdit": true,
   "provenance": {
-    "gameBuild": "25677108",
+    "gameBuild": "25937608",
     "cue4parse": "2c4dca1d466b59aa36dd7ba235d10478a78074cc"
   },
   "files": [
     {
       "path": "data/ammo.json",
-      "sha256": "a6468eb37f40101e7df62cdc6757e9c5ca34b38b79d2f31da3d9db6f9e0cf61f",
-      "bytes": 28104
+      "sha256": "d7813253dc286afa52697c18b6aab99b9b0162b1df18faa776c9bbf3f7eb6208",
+      "bytes": 28966
     },
     {
       "path": "data/attachments.json",
-      "sha256": "fc8aa3a43d0021f99fe1360ea530ebd6a735c556216c8aeb24e87a17a3619d31",
-      "bytes": 137135
+      "sha256": "d998eca121c3c57c108283d3ea36286be5429dafc8f10d5ba15836d0067f6f12",
+      "bytes": 153328
     },
     {
       "path": "data/buildables.json",
-      "sha256": "297bf27bd99dfdacaa02e49439647f1ef5e2fea4ddd93081d4c733c4d1997e54",
-      "bytes": 15333
+      "sha256": "6c162be04aee666992ee754c6507bf6bb315223e94040db1048396f096fb7424",
+      "bytes": 16461
     },
     {
       "path": "data/challenge-rewards.json",
-      "sha256": "b3bab83cf8c74adb051e05a4c532078fece862cae0e8d01eece5650d5f2ff7f2",
-      "bytes": 1374710
+      "sha256": "9a41a825fef35516eef60d466fe614b2fbf0ec03368d23d5224a330dee7d362c",
+      "bytes": 3083212
     },
     {
       "path": "data/cosmetics.json",
-      "sha256": "41fa3ae68f06bad015934b5c634a2aca4a53366c8b7c86ef43e702c8afbd2529",
-      "bytes": 5511
+      "sha256": "9070033313902fc06cdc82b2b6546c663cfd33e7706487963e6c9050dea543e8",
+      "bytes": 7097
     },
     {
       "path": "data/csv/achievements.csv",
@@ -39,118 +39,118 @@
     },
     {
       "path": "data/csv/ammo.csv",
-      "sha256": "e28a5b0aa64d6ee92983c66146d16bae088dd26894e13ff144bf01138b7e36a8",
-      "bytes": 10589
+      "sha256": "8770ca4d1bc1fcdb1dbf8572fd67ef78c3ebd50833da615893cb8bc81790a4b1",
+      "bytes": 10813
     },
     {
       "path": "data/csv/armor.csv",
-      "sha256": "e782c6628b5ddd2d11b179406e0bfe02391ee53a0fa2d1065abb1ce8ce866efd",
-      "bytes": 1179
+      "sha256": "6ce44451dc3662bf51446d56a6d1b229be3297432dea48cb901a632554ccdf8d",
+      "bytes": 1330
     },
     {
       "path": "data/csv/attachment-modifiers.csv",
-      "sha256": "c387bd3d00d9526e681c14109ef402a68210913c97c4a3b41674e40147615bc6",
-      "bytes": 44542
+      "sha256": "eb617c152f85035feb61023fee33ed586229ee4adcca4201b60737a2a225fdae",
+      "bytes": 49526
     },
     {
       "path": "data/csv/attachments.csv",
-      "sha256": "f3c92ec7a5333817346bf3359058eab6d4a60044d508ee67733c2a0d8d99cea7",
-      "bytes": 25387
+      "sha256": "4d05a303a27d15ce85d5ec60564a85f2368e1c2ee2a827af196404a4443fc11a",
+      "bytes": 28470
     },
     {
       "path": "data/csv/buildables.csv",
-      "sha256": "50d7de08aa626a001b5c582c13543d63be280dc7f3f24d65b5d1c3b7e63f60e0",
-      "bytes": 4504
+      "sha256": "783c269a1f11e8eb5671722de948ff65557b395008142737df77b7bc19c77f14",
+      "bytes": 4872
     },
     {
       "path": "data/csv/buildings-europe.csv",
-      "sha256": "1db946c13df5880d9603e28edba87180eb8b541f9930f5c5b0d5df15cc340ab7",
-      "bytes": 33335
+      "sha256": "4565900211adffb5d59e323fc0a9c22ce40cad19423ea0414c63ec1db80e495d",
+      "bytes": 33333
     },
     {
       "path": "data/csv/buildings-kavkazi.csv",
-      "sha256": "998b77f5182b38267112c95d19df7460e92df4ab94de850bc5aa9fa78b4e799d",
-      "bytes": 41120
+      "sha256": "b10cf958234df73dcdc52dc6cebcfec8e6d994facd3fe3d0b64233c32923a58d",
+      "bytes": 44514
     },
     {
       "path": "data/csv/buildings-north-america.csv",
-      "sha256": "bc90bbd7db54078d4b084805d50055b777ed95193376934610648b5acca23350",
-      "bytes": 20026
+      "sha256": "1c52103653c16ff9180a5eca93a610ee19a2c819d8ad6e2d7e849956ddea4c2f",
+      "bytes": 20032
     },
     {
       "path": "data/csv/challenge-reward-events.csv",
-      "sha256": "babb7e689327aaf3faf2dc4bbff5e81d17548a4c25087c53ccd8b43a6c68ccc8",
-      "bytes": 7430
+      "sha256": "48ff34e6bdb05ed534c5eebfab0016cf8ae44a2cd5c6492be9a74d1d952cc06d",
+      "bytes": 7655
     },
     {
       "path": "data/csv/challenge-reward-variables.csv",
-      "sha256": "b7cb27208e84075ea38b06ebfaceb012598e41dfa65370e9fc346078688090f2",
-      "bytes": 221658
+      "sha256": "d092efadada2941558e51e0b7f87b6c3d21febb781c0b83ebaaf1031db7e62d3",
+      "bytes": 539350
     },
     {
       "path": "data/csv/challenge-rewards.csv",
-      "sha256": "d7af7e98d522a82ec1a194721df5ec2789120e971f53692520ba47eb694f8986",
-      "bytes": 83869
+      "sha256": "e260ef8ea0d1b0a4787938d2654be45b9899506c3794c8d7e2a8997664383eb9",
+      "bytes": 192028
     },
     {
       "path": "data/csv/control-zones.csv",
-      "sha256": "4e934ffc5d38256e062d4b33261060a4e7aba0015be59429d0d684a8e58b1d66",
-      "bytes": 2079
+      "sha256": "d9ebec2af2a6cf1ae16b5afa008e3a34d3cd65269293bc6c4542e4fe2498e709",
+      "bytes": 2214
     },
     {
       "path": "data/csv/cosmetics.csv",
-      "sha256": "9480b7b90d47c4a07addcf9bbec8707b5fbddeb512e68d5295fa1542ead6b3b0",
-      "bytes": 2374
+      "sha256": "e0ebd099451ba89747431004965c89d42dc60b283bfc31c42897a5f41dbedd74",
+      "bytes": 3211
     },
     {
       "path": "data/csv/damage-rules.csv",
-      "sha256": "3f1f177d7340ca3aef5f72ae1a776e13fd745114619456cab2807e298ff5a81e",
-      "bytes": 76134
+      "sha256": "f99d5df25b8939088ad59e3808011aa1e30b4eba33e7b9d04102afcdfc1149c1",
+      "bytes": 95617
     },
     {
       "path": "data/csv/equipment-modifiers.csv",
-      "sha256": "688bf6c483443fa8c66912d9a8e0c4de68561fce79e844388cd79e1dd14f036a",
-      "bytes": 3929
+      "sha256": "378b6308fe71fd8503fb740289e2f7f4aac1a0397a26940f2e26225325898202",
+      "bytes": 4154
     },
     {
       "path": "data/csv/gold-market.csv",
-      "sha256": "08c338907f1983286f2fea13728f6fd73e52d2610d2b80d74b0b9bdff924bf8c",
-      "bytes": 1848
+      "sha256": "6c446857e909ea7e807ba33c515d478bd89dcf2da6d8c2f436f4f4a9419163cf",
+      "bytes": 2504
     },
     {
       "path": "data/csv/hit-location-multipliers.csv",
-      "sha256": "d12d52a4f797cd373ad074c7886f795077cc14b913a71e3c01c61b3c003097b9",
-      "bytes": 7116
+      "sha256": "4f4eb1112ed0194d11b826d77353e43b30134994934de9e1ba214d59d5236ce1",
+      "bytes": 8074
     },
     {
       "path": "data/csv/items.csv",
-      "sha256": "f63536963dc1311616b6503e519baf7292f9740a07601495ff35457787ee9a3d",
-      "bytes": 130855
+      "sha256": "58702c589ac7f06d18c37ad299e270afc037b9694d1ec482e862615d4b787b0a",
+      "bytes": 143123
     },
     {
       "path": "data/csv/loot-items.csv",
-      "sha256": "5b3060bf89bce705c07bce3db90b6fa1f55cd200e32facc05b1be5417557bc65",
-      "bytes": 5068
+      "sha256": "362f302ec75158d790e8ea140ac5f8efb60579e3e56283ab6de62283238b1808",
+      "bytes": 6482
     },
     {
       "path": "data/csv/loot-tables.csv",
-      "sha256": "b65d7969028fafde396793e37b6090fd08f83b2f53b8f04e2d95ce1b9484bfe1",
-      "bytes": 718
+      "sha256": "753e0c41d9466134b7a6de823db635286370745f846b512ac6d8e8015999f93a",
+      "bytes": 2304
     },
     {
       "path": "data/csv/objects-europe.csv",
-      "sha256": "2b65a2d8d9d8f108fb8519fc1c52777c10bd126ced5a0bddd3b4269f68ea4555",
-      "bytes": 20494
+      "sha256": "80bd1830abc136e869f853f309ea798699746d1164dad531555d44c5be90b758",
+      "bytes": 20369
     },
     {
       "path": "data/csv/objects-kavkazi.csv",
-      "sha256": "ff18187638f6cd70fc2581bc0cc08d05ec606659fa9cd42a0aa00fe563c33ede",
-      "bytes": 9250
+      "sha256": "259813e28ae4688d29f139fef5d20432918d1cb3d0bdf47b3fd29f2462b2f46a",
+      "bytes": 18474
     },
     {
       "path": "data/csv/objects-north-america.csv",
-      "sha256": "744be9a53b57e5d7296fc3c89ffd4abd6b2511ff5f2a123dccc102ef58fc7b33",
-      "bytes": 8924
+      "sha256": "09bdf4b0411acbbf3b9b9ad09be197d3dd799a9a22a011d6838fbae10e88d486",
+      "bytes": 8779
     },
     {
       "path": "data/csv/passive-missions.csv",
@@ -159,28 +159,28 @@
     },
     {
       "path": "data/csv/prices.csv",
-      "sha256": "ff8388589a326a5d879eaf9d00bbd33614855f0478aa2aa02babafc9cadc46fa",
-      "bytes": 60600
+      "sha256": "ca1810a6c3f420c9751433a88602992460ab61b506154d2f17b532624fb7036b",
+      "bytes": 67239
     },
     {
       "path": "data/csv/reward-curve-points.csv",
-      "sha256": "06517f293036c2ff48a7824cffbe25456de847501f673c8ed39f397607ac4c6b",
-      "bytes": 6990
+      "sha256": "d9acc019a826c8eaae628640799b6009901df4093c2c09d23091ea9675c053d0",
+      "bytes": 7817
     },
     {
       "path": "data/csv/reward-modifiers.csv",
-      "sha256": "be93493ebc639337a32d9b471170a8a460a2af55741d76b83c882d429266756d",
-      "bytes": 103056
+      "sha256": "7a996596bf501414411762a38aae4913adfcf981a12d222b1006f370b67db109",
+      "bytes": 104058
     },
     {
       "path": "data/csv/rewards.csv",
-      "sha256": "a44af1b52bb1010b2f1c55f280145512d7324479e0f8d23b120fd09e288515fc",
-      "bytes": 10798
+      "sha256": "cc06299c55c6d65f05f3bf6eb9a3dfa67a96eaf55d8ecf563aa708e3b73306c6",
+      "bytes": 10893
     },
     {
       "path": "data/csv/role-levels.csv",
-      "sha256": "46eb4cf78d174e7edb82a221c1d4fc8b652abcf16a3e7caaf55693660736414d",
-      "bytes": 14113
+      "sha256": "c1919d4b29d49d6c92c6b4ff1db233bde29f01cba1b5082ac917e5e204e04dcc",
+      "bytes": 13981
     },
     {
       "path": "data/csv/skill-levels.csv",
@@ -194,33 +194,33 @@
     },
     {
       "path": "data/csv/tags.csv",
-      "sha256": "3daf6ff949eb172ccfd3546f7006a415fae315422929c445647788aa3659cd62",
-      "bytes": 16122
+      "sha256": "8a306a4a99f49c9a177911cb2f866cebb20d8f35c11d6fface173ae4281701cf",
+      "bytes": 16806
     },
     {
       "path": "data/csv/vehicles.csv",
-      "sha256": "5892c94409fd20e60954d4524178e7d39b3169de9ef4a5c824f397bf6cb963e8",
-      "bytes": 3770
+      "sha256": "26f2eb456301195716864fd25aa746bd229739c37c59e34ad26de839562544cc",
+      "bytes": 4395
     },
     {
       "path": "data/csv/weapon-compatibility.csv",
-      "sha256": "fcb7e12c3f6a5dade0835519fa7e5f80e8a2efabce1e62c1f8f1001a123696e2",
-      "bytes": 59788
+      "sha256": "69daceb19021cf0525e867004aa48c3a557ba4579bcb79ad0db33dea24474698",
+      "bytes": 70488
     },
     {
       "path": "data/csv/weapon-damage.csv",
-      "sha256": "cd0adabd976e072f0aef5a4e2c96211786b2d7d4fd7b3be5895ab281c8f742bc",
-      "bytes": 7665
+      "sha256": "b122f46ac1b83b88a88833f6aab0e00bc6aa32bcb0cc2fb767c1dd5744fee09a",
+      "bytes": 8581
     },
     {
       "path": "data/csv/weapon-slots.csv",
-      "sha256": "4a9b70fd3efc9ef883fd47b22a7952fab0a4cdefab20ea1d355242fc2b8018de",
-      "bytes": 20206
+      "sha256": "d06204864e1ea0ca67c48c80397e6f5b7dcb21da0ade019207113a5e5364acc1",
+      "bytes": 23280
     },
     {
       "path": "data/csv/weapons.csv",
-      "sha256": "252490d544cfc260327e814656862b08ef17ffbd9af6754594eb8f1ff51f1ddb",
-      "bytes": 3215
+      "sha256": "e6add76566d5f2ddf64fa5ac869c926fc0c9ee4712549f0d264d0a142995bc2d",
+      "bytes": 3628
     },
     {
       "path": "data/csv/weight-classes.csv",
@@ -229,138 +229,138 @@
     },
     {
       "path": "data/damage.json",
-      "sha256": "c351fcd2f3cc9723efa7dd88d11155b5f80f36d85b4c96818b24e839b277c6a6",
-      "bytes": 256160
+      "sha256": "f9fd20929d81e527d4501db097028d121d8e73cde2a85dbc44939723b02fff78",
+      "bytes": 318760
     },
     {
       "path": "data/equipment.json",
-      "sha256": "da911712ba2a13ccb29ca5b47d23d7cbdb352ec079ac3e675ce844d03e8befd3",
-      "bytes": 14973
+      "sha256": "24eff582262a15084324115f272373b32a3746744784e35253df57c96bea61a6",
+      "bytes": 16793
     },
     {
       "path": "data/items.json",
-      "sha256": "a36b7141ca0b39e171741b247fffc214b6aa1a4d78de875f5f054edeb5df5cfe",
-      "bytes": 453201
+      "sha256": "c66c368b47b9ee0b90df489459050c4568a5f920f54c0ed4e0be482eaea4b2f8",
+      "bytes": 498857
     },
     {
       "path": "data/loot.json",
-      "sha256": "6f27375f72c9a4a4e39da623694d26448003df93ebc8944c12690081cc773071",
-      "bytes": 23418
+      "sha256": "85da9f2cac8d7c8f92ef62f1712aaeb322126e5cfd97035eb078ca39470ae181",
+      "bytes": 42403
     },
     {
       "path": "data/maps/europe/buildings.geojson",
-      "sha256": "d3c82535311e61804e5cc773973d4dd44d7f9857e8d6927d5b800b5f222d2687",
-      "bytes": 251883
+      "sha256": "82f00a0ede00593d53b0d1e40763e1f3c29c64a06034f46351a31f7f36da2eb9",
+      "bytes": 251881
     },
     {
       "path": "data/maps/europe/buildings.json",
-      "sha256": "6d496df2c68ef79eca0f39cefbbc86d38abc6c91a330b680b9b78592c455ccfc",
-      "bytes": 92368
+      "sha256": "3b9e751c6515ea655991c0dd1d122b3db835d7c9526732deba943a8cb46fab73",
+      "bytes": 92366
     },
     {
       "path": "data/maps/europe/map.json",
-      "sha256": "d119dcd2de378ddddbe61b34d211b71567ac18ea2fb5a1af10b4031973b3f64c",
+      "sha256": "b888e2629389e9d8a91e2c45eb96ca57c515dae1435832a5dca453e08ca02603",
       "bytes": 519
     },
     {
       "path": "data/maps/europe/objectives.json",
-      "sha256": "8a1cea9d071e16ae65e877c08477594d59e2d77e962a14055d3738624cee883b",
+      "sha256": "0aab12338089f3706e0a4cddeee1648e0341daad7258825db54f4026158493cd",
       "bytes": 3079
     },
     {
       "path": "data/maps/europe/objects.json",
-      "sha256": "71638dfa414147b2870c13a6a76dc8a73796e673c44548a4ac04b31ff6959817",
-      "bytes": 42807
+      "sha256": "0c199c581c745ea129e39eb252f1ff69a8ca12d78a5bdb9ed20a3c81543b7158",
+      "bytes": 42671
     },
     {
       "path": "data/maps/europe/terrain.json",
-      "sha256": "4521a7eab593ad2e87a6246612967ed8b6d3a6d63f27337455ccbc859f3df1b3",
+      "sha256": "f4e12cbf49154656755f8db5600fe21b306a1cf3e0d5f37c1b9dec5aa33a1019",
       "bytes": 675
     },
     {
       "path": "data/maps/kavkazi/buildings.geojson",
-      "sha256": "cfb388949bf34cdf6ea6bcc860dec3f3588fb34090417c02ff01cb44944731be",
-      "bytes": 305608
+      "sha256": "f6736c408bcf3e5a2005b841058f6f4c210fa5a2415eed9dc28a9f7bee294a1a",
+      "bytes": 330817
     },
     {
       "path": "data/maps/kavkazi/buildings.json",
-      "sha256": "9948a72b15494085bb18ae0b0f334e5254ee4558194d8fdc95fdd53de2f98243",
-      "bytes": 112258
+      "sha256": "f3bc8225da1ad891c7bab7d325356f26db5d2ba1e9756a5436ebb9bb37e88c71",
+      "bytes": 121526
     },
     {
       "path": "data/maps/kavkazi/map.json",
-      "sha256": "4038f35284b8705f31081615174170bfbb89a1f53621b368831192c252821acc",
+      "sha256": "88a31c26cc513780ae3ff13609456d7bd878cc0b37f1b0d9ea7125fd04a19f4b",
       "bytes": 524
     },
     {
       "path": "data/maps/kavkazi/objectives.json",
-      "sha256": "b80632afc64decde2bc9a86beb9bdec67d3f7d7acc09c20e7e0238800b081a13",
+      "sha256": "d2037ed405280ccede8223747f2d5f92a1617dd8d4a16b99f6536f846aad4add",
       "bytes": 3334
     },
     {
       "path": "data/maps/kavkazi/objects.json",
-      "sha256": "489db5880bd9c2fce99bedb3d1d9954956579783877b73dc6ae8349d991414c2",
-      "bytes": 20613
+      "sha256": "bf693f3ae549ffe6afff5a55e5b28ea9896789ebdcfe0a730cd16c633f80b383",
+      "bytes": 39213
     },
     {
       "path": "data/maps/kavkazi/terrain.json",
-      "sha256": "a676622a05ce9f59717a8cf6cd5b462edcbb3d19d8ae99a39572158b81ee7cd5",
+      "sha256": "541db68014730d7ff55e2e7c67d2e51a0d13e38442fa93254c71bb2b2682711f",
       "bytes": 669
     },
     {
       "path": "data/maps/north-america/buildings.geojson",
-      "sha256": "bbeaf700675fffe71098ab5b51ed4023c70cddf081342daa707573a1d844265c",
-      "bytes": 159908
+      "sha256": "f20fc9458532a1d2feb9383a9dcc820eb8e76145be292e1c7937513e6d83a64b",
+      "bytes": 159930
     },
     {
       "path": "data/maps/north-america/buildings.json",
-      "sha256": "f3c886436a9e172c6e678890a9272628721fa5dfeb319c60061d16db1f414110",
-      "bytes": 58061
+      "sha256": "2006bf6e503fe8ad412406e6d4a4d9165403ae66674beca77c88d1065b3d6686",
+      "bytes": 58067
     },
     {
       "path": "data/maps/north-america/map.json",
-      "sha256": "45e74408a3ee9e9d7186236bcef5c7d80660db68cda3e986d72f61371882bb40",
+      "sha256": "09c34b02de009bba421224da7baa35aee1ba65cf4ea110b48095589469d946b9",
       "bytes": 534
     },
     {
       "path": "data/maps/north-america/objectives.json",
-      "sha256": "ee61aa153b6b11ace80e9a98e977561171b1932e97f98243cc8eab387857ed62",
-      "bytes": 3041
+      "sha256": "51c516a45309e2f3ae03086b8b13c2a0ebc78438ca93884030a4aad579042158",
+      "bytes": 3850
     },
     {
       "path": "data/maps/north-america/objects.json",
-      "sha256": "d9400c22836d88a81b52a89cf054621e6fc3330faa47e99a8b2f3d8e73b77fa5",
-      "bytes": 17922
+      "sha256": "02b3612a5ef2c9679b86e14abd67cb3b9edc7cfb6fd4a8b416bcb22989ba717b",
+      "bytes": 17755
     },
     {
       "path": "data/maps/north-america/terrain.json",
-      "sha256": "de58a041e84c2b1e8ad4d49d0b6d88c37bee0d644b68622f877e8b772b03c36c",
+      "sha256": "e2321a33b7bba6aefa53aa38696ea61ff410941e9437ab2cf32a2cda825e2cc2",
       "bytes": 674
     },
     {
       "path": "data/meta.json",
-      "sha256": "1a762ebf11db3a20801ab2b783b89e0b452753c92c4fb868bec553c4af1c363b",
-      "bytes": 11331
+      "sha256": "08684abf269ed2c4d3879759bf2bd2b763242502c228867c9fd055d9a7463e7a",
+      "bytes": 13002
     },
     {
       "path": "data/movement.json",
-      "sha256": "d96fd906223821fe19befd5d4674c74464e726f1a1747941c1f0593261554b72",
+      "sha256": "f4972fe6dd3fa0aa3b421817116afd2d3d7dae94ef412fe2ce794f00cd6542d1",
       "bytes": 3025
     },
     {
       "path": "data/README.md",
-      "sha256": "3bb01d17d503b01173d6b887f53503acb1f608744df58b4e150a3b8850303c2a",
+      "sha256": "5c089eaf2f0017a9cf99135a665a1aa6ab3f53c009fee5f7cbdc5b31ca7167cd",
       "bytes": 105770
     },
     {
       "path": "data/rewards.json",
-      "sha256": "757caa9e7533d2aaece42384047506c73d18aa4094e0cbd443ffa7eb0ebbba87",
-      "bytes": 77812
+      "sha256": "38a36dca78136bb62b0dc0aadf92753cb35b77e7964ccba994643caf3e40367a",
+      "bytes": 78461
     },
     {
       "path": "data/roles.json",
-      "sha256": "6d965b71f4f90ec341f39905169410d93d3417aefbf996db55ef7fbb8c66b2ac",
-      "bytes": 41403
+      "sha256": "9c5d4ee303bd5420b5273ed2a3e7fa992887c0ed5acc96ab671aa478eaf83b73",
+      "bytes": 41337
     },
     {
       "path": "data/schema/ammo.schema.json",
@@ -479,28 +479,28 @@
     },
     {
       "path": "data/skills.json",
-      "sha256": "b775f92887c7555cc4c1813f5ed89a5c8efe2bbd669bb08960575be17da781f4",
+      "sha256": "c9c464f879afa8cf99274fa33559412baceadb3f169d98305c9ca6adc1506afc",
       "bytes": 83832
     },
     {
       "path": "data/tags.json",
-      "sha256": "4bae64cdfbab997e3e39acf79f0ace99b0fa940d73c26fa7f25773a72c260065",
-      "bytes": 36270
+      "sha256": "e74f04f0ae52b4555452f0a0ae9fa1cfa91000a241c8094a395acab0566e7fa5",
+      "bytes": 37722
     },
     {
       "path": "data/vehicle-configs.json",
-      "sha256": "33c8e4a8afe92b640f3f27930bb0969154de6b9cdb9d1f38a06d304074323403",
-      "bytes": 3328859
+      "sha256": "e123778f5cadf774fbfb61b684a443f431f4fdeaba2e42ed7f10ca14a02712a6",
+      "bytes": 3819374
     },
     {
       "path": "data/vehicles.json",
-      "sha256": "bfd29dcd8c780875e95f900587756c293894baaebb9c98504d6e5baf4696e084",
-      "bytes": 29195
+      "sha256": "aeaeb7d8d1787064b6283e0fa48e01ae7b9373049c1c8a4fac1b729b0bce4609",
+      "bytes": 34555
     },
     {
       "path": "data/weapons.json",
-      "sha256": "a7c5cb0649bc7f4b6d04d1c5db3f7df831311e3d6e48fc05e5ef032300818f67",
-      "bytes": 134788
+      "sha256": "dadab40f9de8e9bed0e247097c4d00d9958bc19b5f26f0b2ccb855507cbdc4f2",
+      "bytes": 159410
     }
   ]
 }

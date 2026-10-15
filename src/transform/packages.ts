@@ -1,4 +1,4 @@
-import { readdirSync, readFileSync, statSync } from "node:fs";
+import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import type { RawExport } from "./items.js";
 
@@ -11,6 +11,8 @@ import type { RawExport } from "./items.js";
 export class PackageIndex {
   private readonly files = new Map<string, { file: string; asset: string }>();
   private readonly cache = new Map<string, RawExport[]>();
+  /** The export types each file mentions (see `exportTypes`). */
+  private types: Map<string, Set<string>> | undefined;
 
   /** Indexes every `.json` package below the given cache folders. */
   constructor(roots: string[]) {
@@ -18,9 +20,10 @@ export class PackageIndex {
   }
 
   private add(root: string, dir: string): void {
-    for (const name of readdirSync(dir)) {
+    for (const entry of readdirSync(dir, { withFileTypes: true })) {
+      const name = entry.name;
       const full = join(dir, name);
-      if (statSync(full).isDirectory()) this.add(root, full);
+      if (entry.isDirectory()) this.add(root, full);
       else if (name.endsWith(".json") && !name.startsWith("_")) {
         const key = packageKey(full.slice(root.length).replaceAll("\\", "/"));
         if (key) this.files.set(key.toLowerCase(), { file: full, asset: assetPath(full.slice(root.length).replaceAll("\\", "/")) });
@@ -52,12 +55,25 @@ export class PackageIndex {
    * are read one at a time and not kept in memory.
    */
   *findAll(type: string | RegExp, namePrefix = ""): Generator<{ asset: string; export: RawExport }> {
+    const wanted = (types: Set<string>): boolean => (typeof type === "string" ? types.has(type) : [...types].some((t) => type.test(t)));
+    const types = this.exportTypes();
     for (const key of [...this.files.keys()].sort()) {
       const entry = this.files.get(key)!;
-      if (!entry.file.split(/[\\/]/).pop()!.startsWith(namePrefix)) continue;
+      if (!entry.file.split(/[\\/]/).pop()!.startsWith(namePrefix) || !wanted(types.get(entry.file)!)) continue;
       const exports = JSON.parse(readFileSync(entry.file, "utf8")) as RawExport[];
       for (const exp of exports) if (typeof type === "string" ? exp.Type === type : type.test(exp.Type)) yield { asset: entry.asset, export: exp };
     }
+  }
+
+  /** The types each file mentions: every `"Type": "..."` in its text, a superset of its exports' types, which is all the filter needs. Scanned once, on first use. */
+  private exportTypes(): Map<string, Set<string>> {
+    if (!this.types) {
+      this.types = new Map();
+      for (const { file } of this.files.values()) {
+        this.types.set(file, new Set([...readFileSync(file, "utf8").matchAll(/"Type"\s*:\s*"([^"]*)"/g)].map((m) => m[1]!)));
+      }
+    }
+    return this.types;
   }
 
   /** The first export of a given type in the package an object path points into. */

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "world": "NorthAmerica",
-  "gameBuild": "25677108",
+  "gameBuild": "25937608",
   "units": "meters",
   "configs": [
     {
@@ -140,6 +140,47 @@
           1.5,
           1.75,
           2
+        ]
+      }
+    },
+    {
+      "config": "DA_ControlZoneConfig_SniperShowdown_NorthAmerica",
+      "mode": "SniperShowdown",
+      "zone": {
+        "center": [
+          -614.7751,
+          -2458.5694,
+          36.4091
+        ],
+        "extents": [
+          350,
+          350,
+          170
+        ],
+        "shape": "Cylinder",
+        "hotZone": {
+          "extents": [
+            75,
+            75,
+            170
+          ],
+          "shape": "Cylinder"
+        }
+      },
+      "alternatives": [],
+      "hotZoneMovement": {
+        "firstMoveDelay": 0,
+        "moveDelay": 0,
+        "innerRadiusFraction": 0.95,
+        "defaultSpeed": 1.5,
+        "dynamicSpeeds": true,
+        "speeds": [
+          1.25,
+          1.5,
+          2,
+          2.25,
+          2.75,
+          3
         ]
       }
     }

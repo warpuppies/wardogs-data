@@ -28,6 +28,17 @@ Challenges.Rewards.PlayerCountXPScalar,50,0.9,constant
 Challenges.Rewards.PlayerCountXPScalar,60,1,constant
 LiveCurves.Challenges.SessionEvents.BuildableDestroyedAssist.DamageFraction,0,0,linear
 LiveCurves.Challenges.SessionEvents.BuildableDestroyedAssist.DamageFraction,1,1,linear
+LiveCurves.Challenges.SessionEvents.DeploySupplyCrate.XP,0,0,constant
+LiveCurves.Challenges.SessionEvents.DeploySupplyCrate.XP,500,0.1,constant
+LiveCurves.Challenges.SessionEvents.DeploySupplyCrate.XP,1000,0.25,constant
+LiveCurves.Challenges.SessionEvents.DeploySupplyCrate.XP,2000,0.5,constant
+LiveCurves.Challenges.SessionEvents.DeploySupplyCrate.XP,2500,1,constant
+LiveCurves.Challenges.SessionEvents.DestroySupplyCrate.Cash,0,1,constant
+LiveCurves.Challenges.SessionEvents.DestroySupplyCrate.Cash,500,1.1,constant
+LiveCurves.Challenges.SessionEvents.DestroySupplyCrate.Cash,1000,1.25,constant
+LiveCurves.Challenges.SessionEvents.DestroySupplyCrate.Cash,2000,1.5,constant
+LiveCurves.Challenges.SessionEvents.DestroySupplyCrate.Cash,2500,2,constant
+LiveCurves.Challenges.SessionEvents.DestroySupplyCrate.Cash,5000,3,constant
 LiveCurves.Challenges.SessionEvents.DestroyVehicle.FactionScoreDifference,-50,2,constant
 LiveCurves.Challenges.SessionEvents.DestroyVehicle.FactionScoreDifference,-50,1.75,constant
 LiveCurves.Challenges.SessionEvents.DestroyVehicle.FactionScoreDifference,-20,1.5,constant
@@ -85,7 +96,7 @@ LiveCurves.Challenges.SessionEvents.PlayerKill.KillAssist,1,0,linear
 LiveCurves.Challenges.SessionEvents.PlayerKill.KillAssist,2,1,linear
 LiveCurves.Challenges.SessionEvents.PurchaseFromSupplyCrate.XP,0,0,constant
 LiveCurves.Challenges.SessionEvents.PurchaseFromSupplyCrate.XP,1,1,constant
-LiveCurves.Challenges.SessionEvents.PurchaseFromSupplyCrate.XP,75,5,constant
+LiveCurves.Challenges.SessionEvents.PurchaseFromSupplyCrate.XP,10,5,constant
 LiveCurves.Challenges.SessionEvents.PurchaseFromSupplyCrate.XP,250,25,constant
 LiveCurves.Challenges.SessionEvents.PurchaseFromSupplyCrate.XP,500,50,constant
 LiveCurves.Challenges.SessionEvents.PurchaseFromSupplyCrate.XP,750,100,constant

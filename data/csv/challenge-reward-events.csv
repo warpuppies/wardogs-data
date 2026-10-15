@@ -6,9 +6,11 @@ Buildables.BuildableFinished,Buildable Finished,Reward for finishing constructio
 Buildables.Building,Buildable Building,Reward for contributing to construction of a buildable.
 Buildables.BuildSuppliesConsumed,Build Supplies Consumed,Reward/Cost for using build supplies in the fob.
 Buildables.BuildSuppliesDeposited,Build Supplies Deposited,Reward for placing build supplies in the fob.
+Buildables.FOBDoorClosed,Door Closed,Reward for successfully closing a friendly door.
 Buildables.FOBHacked,FOB Hacked,Reward for successfully hacking an enemy FOB.
 Buildables.FOBOwnerPayed,FOB Resources Used,Reward/Cost for another player using the supplies in your FOB.
 Buildables.SchematicPlaced,Schematic Placed,Reward for placing a building schematic.
+Crowbar.DoorForcedOpen,Door Forced Open,Reward for breaching doors
 DeployOnVehicle,Deploy On Vehicle,Award resources when a player is deployed on a vehicle
 DeploySupplyCrate,Deploy a Supply Crate,Award resources when a player deploys a supply crate
 DestroySupplyCrate,Destroy a Supply Crate,Award resources when a player destroys a supply crate.
@@ -69,6 +71,8 @@ SafeZoneEntered,Safe Zone Entered after succesful logistics run,
 Spotting.Added,Target Spotted,Award resources to the player successfully spotting a target.
 Spotting.Removed,Spotted Target Destroyed,Award resources to the players who spotted a destroyed target.
 SupplyPalletDropped,Supply Pallet Dropped,Award resources when a player deploys a supply pallet
+TeamOffencePunish,Team Offence Punish,
+TeamOffenceVoter,Teamkill Voter,
 Test,Test Reward,
 Tip,Send & Receive Tip,Remove resources from one player and give it to another when they tip.
 VehicleAirborne,Vehicle Air Time Bonus,Award resources to the vehicle driver after a long duration of air time.

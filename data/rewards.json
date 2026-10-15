@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "gameBuild": "25677108",
+  "gameBuild": "25937608",
   "rewards": [
     {
       "action": "BuildableBuilt",
@@ -2543,6 +2543,27 @@
         "TargetLocationRatioModifier": 0.5,
         "AssistBaseModifier": 0.1,
         "AssistScalingModifier": 0.9,
+        "CrewAssistModifier": 1,
+        "LogisticAssistModifier": 0.25
+      }
+    },
+    {
+      "action": "VehicleDestroyed",
+      "context": "Vehicle.Variant.Land.Tracked.TNK_04.Default",
+      "description": "Destroyed TNK_04 reward",
+      "resource": "Cash",
+      "base": 5000,
+      "modifiers": {
+        "FriendlyModifier": -0.75,
+        "NeutralModifier": 0.25,
+        "OwnerModifier": 0,
+        "ModifierCZ": 1.5,
+        "ModifierHZ": 2,
+        "ModifierHZM": 2,
+        "InstigatorLocationRatioModifier": 0.5,
+        "TargetLocationRatioModifier": 0.5,
+        "AssistBaseModifier": 0.01,
+        "AssistScalingModifier": 0.99,
         "CrewAssistModifier": 1,
         "LogisticAssistModifier": 0.25
       }

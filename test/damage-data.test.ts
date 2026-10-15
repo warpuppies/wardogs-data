@@ -41,10 +41,10 @@ describe("data/damage.json: structure and floors", () => {
 
 /** Values checked by hand against the game's own tables. */
 describe("data/damage.json: canaries", () => {
-  it("assault rifles do 2.35x to the head and 0.9x to the limbs; snipers 3.2x to the head", () => {
+  it("assault rifles do 2.35x to the head and 0.9x to the limbs; snipers 4.2667x to the head", () => {
     const get = (c: string) => damage.hitLocationMultipliers.find((x) => x.weaponClass === c)!.multipliers;
-    expect(get("Weapon.AR")).toMatchObject({ Head: 2.35, Neck: 2.35, "Torso.Upper": 1, "Arm.Hand": 0.9, "Leg.Foot": 0.9 });
-    expect(get("Weapon.Sniper").Head).toBe(3.2);
+    expect(get("Weapon.AR")).toMatchObject({ Head: 2.35, Neck: 2.35, "Torso.Upper": 0.885, "Arm.Hand": 0.9, "Leg.Foot": 0.9 });
+    expect(get("Weapon.Sniper").Head).toBe(4.2667);
     expect(get("Universal")).toMatchObject({ Head: 1, Neck: 0.75, "Torso.Upper": 1.1 });
   });
 

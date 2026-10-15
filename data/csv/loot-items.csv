@@ -1,12 +1,50 @@
 table,item,item_name,amount,weight,sub_items
+A91,Id.Item.A91,A-91,1,1,
 AbandonedTower,Id.Item.Bandage,Bandage,3,1,Id.Item.M67Grenade*2@100%;Id.Item.BasicRedDot*1@100%
 AbandonedTower,Id.Item.3xScope,Spitfire 3X,1,1,Id.Item.RK6ForeGrip*1@100%
 AbandonedTower,Id.Item.SuperBandage,Individual First Aid Kit,2,1,Id.Item.StimPen*3@100%;Id.Item.SGHT_009*1@100%
 AbandonedTower,Id.Item.Bandage,Bandage,5,1,Id.Item.Resuscitator.Standard*2@100%;ID.Item.SmokeGrenade.White*2@100%
+AK74,Id.Item.AK74M,AK74,1,1,
+AR15,Id.Item.M4,M4,1,1,
 Armor,Id.Item.LightArmor,Level 1 Armor,1,1,
+AX50,Id.Item.SR_04,AMR 50,1,1,
+Bag,Id.Item.BPAK_007,Halftrack Backpack,1,1,
 Bandage,Id.Item.Bandage,Bandage,1,1,
+Bow,Id.Item.CombatBow,Compound Bow,1,1,Id.Item.Arrow*10@100%
+Bushmaster,Id.Item.WEPN_033,Bushmaster M17S,1,1,
+CGM4,Id.Item.CGM4,MAAWS,1,1,
+Deagle,Id.Item.WEPN_027,Deagle,1,1,
 Defib.Cheap,Id.Item.Defibrillator.Cheap,,1,1,
+Evolys,Id.Item.WEPN_036,Evo-3 Ultra,1,1,
+FAL,Id.Item.WEPN_030,FAL,1,1,
+Galil,Id.Item.WEPN_029,Galil,1,1,
+Glock17,Id.Item.Glock17,GGX 17,1,1,
+Glock18,Id.Item.WEPN_032,GGX 18,1,1,
 Helmet,Id.Item.LightHelmet,Level 1 Helmet,1,1,
+Judge,Id.Item.Judge,Judge,1,1,
+KH2002,Id.Item.KH2002,KH-2002,1,1,
+M14,Id.Item.WEPN_034,M14,1,1,
+M1911,Id.Item.WEPN_026,M1911,1,1,
+M249,Id.Item.M249,M249 SAW,1,1,
+M4,Id.Item.M4,M4,1,1,
+M500,Id.Item.M500,M500,1,1,
+MK22,Id.Item.MK22,MK22,1,1,
+MMGL,Id.Item.MMGL,MGL-40,1,1,
+Mosin,Id.Item.Mosin,Mosin Nagant,1,1,
+MP43,Id.Item.MP43,MP43,1,1,
+MP5,Id.Item.WEPN_028,MP5,1,1,
+MP9,Id.Item.MP9,AMP-9,1,1,
+PKM,ID.Item.LMG_01_BRL_06,ID.Item.LMG_01_BRL_06,1,1,
+PP19,Id.Item.WEPN_023,,1,1,
+PreLobby,Id.Item.Glock17,GGX 17,1,1,
+PreLobby,Id.Item.Judge,Judge,1,0.8,
+PreLobby,Id.Item.WEPN_026,M1911,1,0.8,
+PreLobby,Id.Item.WEPN_032,GGX 18,1,0.5,
+RFB,Id.Item.RFB,BMR-308,1,1,
+RPG,Id.Item.RPG7,RPG-7,1,1,
+Scout,Id.Item.WEPN_035,Scout Rifle TD,1,1,
+SigSpear,Id.Item.WEPN_037,TCX-SPR,1,1,
+SKS,Id.Item.SKS,SKS,1,1,
 Sniper,Id.Item.Mosin,Mosin Nagant,1,1,ID.Item.RangeFinder*1@100%
 SniperOnly.HighValue,Id.Item.Mosin,Mosin Nagant,1,1,Id.Item.4xElcanSpectr*1@100%;Id.Item.762x54mm.Tracer*10@100%;Id.Item.762x54mm.Tracer*10@100%
 SniperOnly.HighValue,Id.Item.SV98,SV98,1,1,Id.Item.SGHT_030*1@100%;Id.Item.SV98Magazine*1@100%;Id.Item.SV98Magazine*1@100%;Id.Item.Bandage*1@25%
@@ -35,11 +73,15 @@ SniperOnly.MiddleValue,Id.Item.SGHT_031,6x Precision Rifle Scope,1,1,Id.Item.Mos
 SniperOnly.MiddleValue,Id.Item.SGHT_031,6x Precision Rifle Scope,1,1,Id.Item.MUZL_025*1@50%;Id.Item.FGRP_009*1@25%;Id.Item.Mosin*1@25%
 SniperOnly.MiddleValue,Id.Item.SGHT_011,1x-6x LPVO Short Dot,1,1,Id.Item.MUZL_022*1@50%;Id.Item.FGRP_013*1@25%;ID.Item.RangeFinder*1@50%
 SniperOnly.MiddleValue,Id.Item.SGHT_032,Frontier 2.5x-10x Precision Scope,1,1,Id.Item.FGRP_013*1@25%;Id.Item.SuperBandage*1@100%
+SV98,Id.Item.SV98,SV98,1,1,
+SVDM,Id.Item.SVDM,SVD,1,1,
+TAR21,Id.Item.TAR21,T-21,1,1,
 Test,Id.Item.SV98,SV98,1,0.8,Id.Item.SniperScope10x*1@100%;Id.Item.SV98Magazine*1@100%;Id.Item.SV98Magazine*1@100%
-Tower,Id.Item.FOB,Forward Operating Base,1,0.5,
 Tower,Id.Item.SV98,SV98,1,0.8,Id.Item.SniperScope10x*1@100%;Id.Item.SV98Magazine*1@100%;Id.Item.SV98Magazine*1@100%
 Tower,Id.Item.M249,M249 SAW,1,1,Id.Item.MAGZ_062*1@100%;Id.Item.FGRP_012*1@100%;Id.Item.EotechHoloSight*1@100%
 Tower,Id.Item.MedKit.Standard,Medical Bag,1,0.8,Id.Item.Defibrillator.Standard*1@100%;Id.Item.Battery*1@100%;Id.Item.Battery*1@100%;Id.Item.StimPen*3@100%;ID.Item.SmokeGrenade.White*1@100%
 Tower,Id.Item.M500,M500,1,1,Id.Item.12g.RifledSlug*30@100%;Id.Item.C4Explosive*3@100%;Id.Item.C4Trigger*1@100%;Id.Item.M67Grenade*2@100%;Id.Item.Claymore*1@100%
 Tower,ID.Item.RepairTool.Drill.Heavy,Heavy Drill,1,0.5,Id.Item.LargeBattery*1@100%;Id.Item.FuelCan*1@100%;Id.Item.WEPN_028*1@100%;Id.Item.MAGZ_004*1@100%;Id.Item.MAGZ_004*1@100%
+Vector,Id.Item.Vector,Super-45,1,1,
+Verba,Id.Item.Launcher_04,9K333 Verba,1,1,
 Weapon,Id.Item.AK74M,AK74,1,1,

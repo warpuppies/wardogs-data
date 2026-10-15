@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "gameBuild": "25677108",
+  "gameBuild": "25937608",
   "vehicles": [
     {
       "id": "Vehicle.Variant.Air.Rotary.Havoc.Default",
@@ -382,6 +382,78 @@
       }
     },
     {
+      "id": "Vehicle.Variant.Land.Tracked.TNK_04.Default",
+      "name": "T-72B3",
+      "asset": "Plugins/GameFeatures/Vehicles/TNK_04/Content/Data/DA_TNK_04_Stats",
+      "maxSpeed": 60,
+      "maxFuel": 110,
+      "fuelEconomy": 8.5,
+      "seats": 3,
+      "weapons": [
+        "2A46M-5 Cannon",
+        "PKTM Coaxial Gun",
+        "M2 Browning Machine Gun"
+      ],
+      "weaponIcons": {
+        "2A46M-5 Cannon": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_WPN_TankTurret.png",
+        "PKTM Coaxial Gun": "UI/Features/HUD/Vehicles/Vehicle_HUD_Materials/Textures/T_UI_MainGun_Active.png",
+        "M2 Browning Machine Gun": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_WPN_MachineGun.png"
+      },
+      "counterMeasures": [
+        "Smoke"
+      ],
+      "damageEntity": "Vehicle.Land.Tracked.TNK_04.Default",
+      "health": {
+        "initial": 800,
+        "criticalThreshold": 80,
+        "bleedOutTime": 15
+      },
+      "kmPerLiter": 0.14375,
+      "destroyedExplosion": {
+        "radius": 12,
+        "effectiveRadius": 6,
+        "falloff": 0.6
+      },
+      "engine": {
+        "torqueCurve": [
+          {
+            "rpm": 1400,
+            "torque": 1800
+          },
+          {
+            "rpm": 2000,
+            "torque": 1650
+          },
+          {
+            "rpm": 3000,
+            "torque": 1200
+          },
+          {
+            "rpm": 3100,
+            "torque": 0
+          }
+        ],
+        "boostScale": 2,
+        "extraPowerRatio": 7.5
+      },
+      "transmission": {
+        "gearRatios": [
+          1.8,
+          2.16,
+          4.35,
+          0,
+          3.485,
+          2.787,
+          2.2,
+          1.978,
+          1.55,
+          1.25
+        ],
+        "finalGearRatio": 6,
+        "changeTime": 1000
+      }
+    },
+    {
       "id": "Vehicle.Variant.Land.Wheeled.Bobcat.Default",
       "name": "Bobcat",
       "asset": "Plugins/GameFeatures/Vehicles/WHL_01/Content/Data/DA_WHL_01_Stats",
@@ -554,11 +626,11 @@
         "torqueCurve": [
           {
             "rpm": 800,
-            "torque": 850
+            "torque": 1200
           },
           {
             "rpm": 1200,
-            "torque": 1000
+            "torque": 1200
           },
           {
             "rpm": 1600,
@@ -573,16 +645,12 @@
             "torque": 1450
           },
           {
-            "rpm": 3000,
-            "torque": 1500
+            "rpm": 3100,
+            "torque": 1000
           },
           {
-            "rpm": 3550,
-            "torque": 1335
-          },
-          {
-            "rpm": 4000,
-            "torque": 650
+            "rpm": 3750,
+            "torque": 399.99997
           }
         ],
         "frictionTorque": 75,
@@ -638,11 +706,11 @@
         "torqueCurve": [
           {
             "rpm": 800,
-            "torque": 850
+            "torque": 1200
           },
           {
             "rpm": 1200,
-            "torque": 1000
+            "torque": 1200
           },
           {
             "rpm": 1600,
@@ -657,16 +725,12 @@
             "torque": 1450
           },
           {
-            "rpm": 3000,
-            "torque": 1500
+            "rpm": 3100,
+            "torque": 1000
           },
           {
-            "rpm": 3550,
-            "torque": 1335
-          },
-          {
-            "rpm": 4000,
-            "torque": 650
+            "rpm": 3750,
+            "torque": 399.99997
           }
         ],
         "frictionTorque": 75,
@@ -722,11 +786,11 @@
         "torqueCurve": [
           {
             "rpm": 800,
-            "torque": 850
+            "torque": 1200
           },
           {
             "rpm": 1200,
-            "torque": 1000
+            "torque": 1200
           },
           {
             "rpm": 1600,
@@ -741,16 +805,12 @@
             "torque": 1450
           },
           {
-            "rpm": 3000,
-            "torque": 1500
+            "rpm": 3100,
+            "torque": 1000
           },
           {
-            "rpm": 3550,
-            "torque": 1335
-          },
-          {
-            "rpm": 4000,
-            "torque": 650
+            "rpm": 3750,
+            "torque": 399.99997
           }
         ],
         "frictionTorque": 75,
@@ -1260,6 +1320,173 @@
         "changeTime": 40,
         "gearUpRatio": 85,
         "gearDownRatio": 70
+      }
+    },
+    {
+      "id": "Vehicle.Variant.Land.Wheeled.WHL_08.Default",
+      "name": "Wolf-110",
+      "asset": "Plugins/GameFeatures/Vehicles/WHL_08/Content/Data/DA_WHL_08_Stats",
+      "maxSpeed": 129,
+      "maxFuel": 60,
+      "fuelEconomy": 4,
+      "seats": 4,
+      "weapons": [],
+      "counterMeasures": [],
+      "damageEntity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "health": {
+        "initial": 500,
+        "criticalThreshold": 50,
+        "bleedOutTime": 15
+      },
+      "kmPerLiter": 0.25,
+      "destroyedExplosion": {
+        "radius": 10,
+        "effectiveRadius": 5,
+        "falloff": 0.6
+      },
+      "mass": 3200,
+      "engine": {
+        "torqueCurve": [
+          {
+            "rpm": 800,
+            "torque": 1000
+          },
+          {
+            "rpm": 1200,
+            "torque": 1250
+          },
+          {
+            "rpm": 1650,
+            "torque": 1500
+          },
+          {
+            "rpm": 2000,
+            "torque": 1400
+          },
+          {
+            "rpm": 2250,
+            "torque": 1050
+          },
+          {
+            "rpm": 2600,
+            "torque": 850
+          },
+          {
+            "rpm": 3350,
+            "torque": 750
+          },
+          {
+            "rpm": 4000,
+            "torque": 700
+          }
+        ],
+        "torqueScale": 0.5,
+        "frictionTorque": 75,
+        "idleRpm": 700,
+        "limitRpm": 4000,
+        "inertia": 1.8,
+        "boostScale": 1.03
+      },
+      "transmission": {
+        "gearRatios": [
+          3.7,
+          2.15,
+          1.4,
+          1,
+          0.75,
+          3.55
+        ],
+        "finalGearRatio": 6.54,
+        "changeTime": 75,
+        "clutchTime": 200,
+        "gearUpRatio": 85,
+        "gearDownRatio": 65
+      }
+    },
+    {
+      "id": "Vehicle.Variant.Land.Wheeled.WHL_08.MachineGun",
+      "name": "Wolf-110 [M2 Browning]",
+      "asset": "Plugins/GameFeatures/Vehicles/WHL_08_RingTurret/Content/Data/RingTurretDefender/DA_WHL_08_RingTurretStats",
+      "maxSpeed": 129,
+      "maxFuel": 60,
+      "fuelEconomy": 4,
+      "seats": 5,
+      "weapons": [
+        "M2 Browning Machine Gun"
+      ],
+      "weaponIcons": {
+        "M2 Browning Machine Gun": "UI/Shared/Icons/Vehicles/3D/T_UI_Vehicle_WPN_MachineGun.png"
+      },
+      "counterMeasures": [],
+      "damageEntity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "health": {
+        "initial": 500,
+        "criticalThreshold": 50,
+        "bleedOutTime": 15
+      },
+      "kmPerLiter": 0.25,
+      "destroyedExplosion": {
+        "radius": 10,
+        "effectiveRadius": 5,
+        "falloff": 0.6
+      },
+      "mass": 3200,
+      "engine": {
+        "torqueCurve": [
+          {
+            "rpm": 800,
+            "torque": 1000
+          },
+          {
+            "rpm": 1200,
+            "torque": 1250
+          },
+          {
+            "rpm": 1650,
+            "torque": 1500
+          },
+          {
+            "rpm": 2000,
+            "torque": 1400
+          },
+          {
+            "rpm": 2250,
+            "torque": 1050
+          },
+          {
+            "rpm": 2600,
+            "torque": 850
+          },
+          {
+            "rpm": 3350,
+            "torque": 750
+          },
+          {
+            "rpm": 4000,
+            "torque": 700
+          }
+        ],
+        "torqueScale": 0.5,
+        "frictionTorque": 75,
+        "idleRpm": 700,
+        "limitRpm": 4000,
+        "inertia": 1.8,
+        "boostScale": 1.03
+      },
+      "transmission": {
+        "gearRatios": [
+          3.7,
+          2.15,
+          1.4,
+          1,
+          0.75,
+          3.55
+        ],
+        "finalGearRatio": 6.54,
+        "changeTime": 75,
+        "clutchTime": 200,
+        "gearUpRatio": 85,
+        "gearDownRatio": 65
       }
     }
   ]

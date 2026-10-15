@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "gameBuild": "25677108",
+  "gameBuild": "25937608",
   "rules": [
     {
       "entity": "Armor.Ghillie",
@@ -183,6 +183,20 @@
     {
       "entity": "Armor",
       "source": [
+        "Bullet",
+        "Arms.High",
+        "Weapon.Sniper"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Armor",
+      "operation": "Percentage_Ongoing",
+      "amount": 28
+    },
+    {
+      "entity": "Armor",
+      "source": [
         "Explosive"
       ],
       "target": [],
@@ -282,6 +296,20 @@
     {
       "entity": "Helmet",
       "source": [
+        "Bullet",
+        "Arms.High",
+        "Weapon.Sniper"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Armor",
+      "operation": "Percentage_Ongoing",
+      "amount": 28
+    },
+    {
+      "entity": "Helmet",
+      "source": [
         "Explosive"
       ],
       "target": [],
@@ -342,6 +370,21 @@
       "operation": "Percentage_Ongoing",
       "amount": -75,
       "custom": "B_BoneDamageModifiers_C"
+    },
+    {
+      "entity": "Infantry",
+      "source": [
+        "Bullet"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [
+        "Infantry"
+      ],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 0,
+      "custom": "B_ArchetypeCaliberModifiers_C"
     },
     {
       "entity": "Infantry",
@@ -514,13 +557,27 @@
         "Bullet.Arrow"
       ],
       "target": [
-        "Armor"
+        "Armor.Heavy"
       ],
       "instigator": [],
       "hitLocations": [],
       "category": "AmmoModifier",
       "operation": "Percentage_Ongoing",
-      "amount": 0
+      "amount": -10
+    },
+    {
+      "entity": "Infantry",
+      "source": [
+        "Bullet.Arrow"
+      ],
+      "target": [
+        "Armor.SuperHeavy"
+      ],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "AmmoModifier",
+      "operation": "Percentage_Ongoing",
+      "amount": -34
     },
     {
       "entity": "Infantry",
@@ -535,6 +592,48 @@
       "category": "AmmoModifier",
       "operation": "Percentage_Ongoing",
       "amount": 0
+    },
+    {
+      "entity": "Infantry",
+      "source": [
+        "Bullet.Arrow"
+      ],
+      "target": [
+        "Helmet.Light"
+      ],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "AmmoModifier",
+      "operation": "Percentage_Ongoing",
+      "amount": 0
+    },
+    {
+      "entity": "Infantry",
+      "source": [
+        "Bullet.Arrow"
+      ],
+      "target": [
+        "Helmet.Heavy"
+      ],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "AmmoModifier",
+      "operation": "Percentage_Ongoing",
+      "amount": -10
+    },
+    {
+      "entity": "Infantry",
+      "source": [
+        "Bullet.Arrow"
+      ],
+      "target": [
+        "Helmet.SuperHeavy"
+      ],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "AmmoModifier",
+      "operation": "Percentage_Ongoing",
+      "amount": -34
     },
     {
       "entity": "Infantry",
@@ -610,6 +709,22 @@
         "Infantry.Neck",
         "Infantry.Pelvis",
         "Infantry.Torso"
+      ],
+      "category": "Weapon",
+      "operation": "Percentage_Ongoing",
+      "amount": 0
+    },
+    {
+      "entity": "Infantry",
+      "source": [
+        "Bullet.556mm",
+        "Weapon.Sniper.WEPN_035"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [
+        "Infantry.Neck",
+        "Infantry.Head"
       ],
       "category": "Weapon",
       "operation": "Percentage_Ongoing",
@@ -928,7 +1043,7 @@
       ],
       "category": "AmmoModifier",
       "operation": "Percentage_Ongoing",
-      "amount": -13
+      "amount": -30
     },
     {
       "entity": "Infantry",
@@ -1033,6 +1148,20 @@
     {
       "entity": "Infantry",
       "source": [
+        "Explosive.Utility.Molotov"
+      ],
+      "target": [
+        "Armor.SuperHeavy"
+      ],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -30
+    },
+    {
+      "entity": "Infantry",
+      "source": [
         "Explosive.Rocket.155mm",
         "Explosive.Radius.Outer"
       ],
@@ -1047,7 +1176,7 @@
       "entity": "Infantry",
       "source": [
         "Explosive.Radius.Outer",
-        "Explosive.Rocket.120mm"
+        "Explosive.Rocket.125mm"
       ],
       "target": [],
       "instigator": [],
@@ -1067,6 +1196,32 @@
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
       "amount": -45
+    },
+    {
+      "entity": "Infantry",
+      "source": [
+        "Explosive.Radius.Outer",
+        "Explosive.Rocket.120mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -50
+    },
+    {
+      "entity": "Infantry",
+      "source": [
+        "Explosive.Radius.Outer",
+        "Explosive.Rocket.93mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -50
     },
     {
       "entity": "Infantry",
@@ -1097,8 +1252,8 @@
     {
       "entity": "Infantry",
       "source": [
-        "Explosive.Radius.Outer",
-        "Explosive.Rocket.93mm"
+        "Explosive.Grenade.40mm",
+        "Explosive.Radius.Outer"
       ],
       "target": [],
       "instigator": [],
@@ -1136,16 +1291,89 @@
     {
       "entity": "Infantry",
       "source": [
+        "Cannon.35x228mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [
+        "Infantry"
+      ],
+      "category": "AmmoModifier",
+      "operation": "Percentage_Ongoing",
+      "amount": -30
+    },
+    {
+      "entity": "Infantry",
+      "source": [
+        "Cannon.20x102mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [
+        "Infantry"
+      ],
+      "category": "AmmoModifier",
+      "operation": "Percentage_Ongoing",
+      "amount": -30
+    },
+    {
+      "entity": "Infantry",
+      "source": [
         "Bullet.50Cal"
       ],
-      "target": [
-        "Armor"
-      ],
+      "target": [],
       "instigator": [],
-      "hitLocations": [],
+      "hitLocations": [
+        "Infantry.Head",
+        "Infantry.Neck"
+      ],
       "category": "PenetrationEffectiveness",
       "operation": "Percentage_Ongoing",
-      "amount": 0
+      "amount": -15.6
+    },
+    {
+      "entity": "Infantry",
+      "source": [
+        "Bullet.50Cal"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [
+        "Infantry.Torso.Upper"
+      ],
+      "category": "PenetrationEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": -12.5
+    },
+    {
+      "entity": "Infantry",
+      "source": [
+        "Bullet.50Cal"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [
+        "Infantry.Torso.Middle",
+        "Infantry.Torso.Lower"
+      ],
+      "category": "PenetrationEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": -6
+    },
+    {
+      "entity": "Infantry",
+      "source": [
+        "Bullet.50Cal"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [
+        "Infantry.Torso.Middle",
+        "Infantry.Torso.Lower"
+      ],
+      "category": "PenetrationEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": -7.7
     },
     {
       "entity": "Infantry",
@@ -1153,18 +1381,46 @@
         "Bullet.50Cal"
       ],
       "target": [
-        "Helmet"
+        "Armor.Heavy"
       ],
       "instigator": [],
       "hitLocations": [],
       "category": "PenetrationEffectiveness",
       "operation": "Percentage_Ongoing",
-      "amount": 0
+      "amount": -10
     },
     {
       "entity": "Infantry",
       "source": [
-        "Arms.High"
+        "Bullet.50Cal"
+      ],
+      "target": [
+        "Armor.SuperHeavy"
+      ],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "PenetrationEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": -12.5
+    },
+    {
+      "entity": "Infantry",
+      "source": [
+        "Bullet.50Cal"
+      ],
+      "target": [
+        "Helmet.Heavy"
+      ],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "PenetrationEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": -10
+    },
+    {
+      "entity": "Infantry",
+      "source": [
+        "Bullet.50Cal"
       ],
       "target": [
         "Helmet.SuperHeavy"
@@ -1173,7 +1429,7 @@
       "hitLocations": [],
       "category": "PenetrationEffectiveness",
       "operation": "Percentage_Ongoing",
-      "amount": -25
+      "amount": -20
     },
     {
       "entity": "Infantry",
@@ -1204,6 +1460,22 @@
       "category": "PenetrationEffectiveness",
       "operation": "Percentage_Ongoing",
       "amount": -40
+    },
+    {
+      "entity": "Infantry",
+      "source": [
+        "Bullet",
+        "AmmoModifier.ArmorPiercing",
+        "Weapon.Sniper"
+      ],
+      "target": [
+        "Helmet.SuperHeavy"
+      ],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "PenetrationEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": -20
     },
     {
       "entity": "Infantry",
@@ -1506,6 +1778,18 @@
     {
       "entity": "Buildable.FOB",
       "source": [
+        "Cannon.20x102mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -20
+    },
+    {
+      "entity": "Buildable.FOB",
+      "source": [
         "Explosive.Utility"
       ],
       "target": [],
@@ -1588,6 +1872,18 @@
       "category": "AmmoModifier",
       "operation": "Percentage_Ongoing",
       "amount": -60
+    },
+    {
+      "entity": "Buildable.FOB",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 35
     },
     {
       "entity": "Buildable.Door",
@@ -1695,7 +1991,19 @@
       "hitLocations": [],
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
-      "amount": -80
+      "amount": -92
+    },
+    {
+      "entity": "Buildable.Door",
+      "source": [
+        "Cannon.20x102mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -92
     },
     {
       "entity": "Buildable.Door",
@@ -1794,6 +2102,18 @@
       "category": "Bone",
       "operation": "Add",
       "amount": 1000
+    },
+    {
+      "entity": "Buildable.Door",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": -50
     },
     {
       "entity": "Buildable.BarbedWire",
@@ -2002,6 +2322,18 @@
       "amount": 500
     },
     {
+      "entity": "Buildable.BarbedWire",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 0
+    },
+    {
       "entity": "Buildable.AirRaidShelter",
       "source": [
         "DamageType.Melee"
@@ -2160,6 +2492,18 @@
       "amount": -86
     },
     {
+      "entity": "Buildable.AirRaidShelter",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "AmmoModifier",
+      "operation": "Percentage_Ongoing",
+      "amount": -30
+    },
+    {
       "entity": "Buildable.Bunker",
       "source": [
         "DamageType.Melee"
@@ -2316,6 +2660,18 @@
       "category": "AmmoModifier",
       "operation": "Percentage_Ongoing",
       "amount": -86
+    },
+    {
+      "entity": "Buildable.Bunker",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "AmmoModifier",
+      "operation": "Percentage_Ongoing",
+      "amount": -30
     },
     {
       "entity": "Buildable.CamoTent",
@@ -2524,6 +2880,18 @@
       "amount": 500
     },
     {
+      "entity": "Buildable.CamoTent",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 0
+    },
+    {
       "entity": "Buildable.CrowsNest",
       "source": [
         "DamageType.Melee"
@@ -2680,6 +3048,18 @@
       "category": "AmmoModifier",
       "operation": "Percentage_Ongoing",
       "amount": -86
+    },
+    {
+      "entity": "Buildable.CrowsNest",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "AmmoModifier",
+      "operation": "Percentage_Ongoing",
+      "amount": -30
     },
     {
       "entity": "Buildable.SmallHesco",
@@ -2811,7 +3191,19 @@
       "hitLocations": [],
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
-      "amount": -75
+      "amount": -92
+    },
+    {
+      "entity": "Buildable.SmallHesco",
+      "source": [
+        "Cannon.20x102mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -92
     },
     {
       "entity": "Buildable.SmallHesco",
@@ -2898,6 +3290,18 @@
       "category": "AmmoModifier",
       "operation": "Percentage_Ongoing",
       "amount": -60
+    },
+    {
+      "entity": "Buildable.SmallHesco",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 25
     },
     {
       "entity": "Buildable.HescoGate",
@@ -2993,7 +3397,19 @@
       "hitLocations": [],
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
-      "amount": -40
+      "amount": -50
+    },
+    {
+      "entity": "Buildable.HescoGate",
+      "source": [
+        "Cannon.20x102mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -50
     },
     {
       "entity": "Buildable.HescoGate",
@@ -3092,6 +3508,18 @@
       "category": "Bone",
       "operation": "Add",
       "amount": 1000
+    },
+    {
+      "entity": "Buildable.HescoGate",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": -20
     },
     {
       "entity": "Buildable.QuadLargeHescoWall",
@@ -3252,6 +3680,18 @@
       "amount": -9
     },
     {
+      "entity": "Buildable.QuadLargeHescoWall",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": -50
+    },
+    {
       "entity": "Buildable.BuildableHotzoneMagnet",
       "source": [
         "DamageType.Melee"
@@ -3339,6 +3779,18 @@
       "entity": "Buildable.BuildableHotzoneMagnet",
       "source": [
         "Cannon.35x228mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -86.5
+    },
+    {
+      "entity": "Buildable.BuildableHotzoneMagnet",
+      "source": [
+        "Cannon.20x102mm"
       ],
       "target": [],
       "instigator": [],
@@ -3446,6 +3898,18 @@
       "amount": 1000
     },
     {
+      "entity": "Buildable.BuildableHotzoneMagnet",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": -20
+    },
+    {
       "entity": "Buildable.RepairStation",
       "source": [
         "DamageType.Melee"
@@ -3556,6 +4020,18 @@
     {
       "entity": "Buildable.RepairStation",
       "source": [
+        "Cannon.20x102mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -75
+    },
+    {
+      "entity": "Buildable.RepairStation",
+      "source": [
         "Explosive.Utility"
       ],
       "target": [],
@@ -3638,6 +4114,18 @@
       "category": "AmmoModifier",
       "operation": "Percentage_Ongoing",
       "amount": -60
+    },
+    {
+      "entity": "Buildable.RepairStation",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": -20
     },
     {
       "entity": "Buildable.RefuelStation",
@@ -3739,6 +4227,18 @@
       "entity": "Buildable.RefuelStation",
       "source": [
         "Cannon.35x228mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -75
+    },
+    {
+      "entity": "Buildable.RefuelStation",
+      "source": [
+        "Cannon.20x102mm"
       ],
       "target": [],
       "instigator": [],
@@ -3835,6 +4335,18 @@
       "amount": -60
     },
     {
+      "entity": "Buildable.RefuelStation",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": -20
+    },
+    {
       "entity": "Buildable.SandbagWall",
       "source": [
         "DamageType.Melee"
@@ -3922,6 +4434,18 @@
       "entity": "Buildable.SandbagWall",
       "source": [
         "Cannon.35x228mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -80
+    },
+    {
+      "entity": "Buildable.SandbagWall",
+      "source": [
+        "Cannon.20x102mm"
       ],
       "target": [],
       "instigator": [],
@@ -4027,6 +4551,18 @@
       "category": "Bone",
       "operation": "Add",
       "amount": 1000
+    },
+    {
+      "entity": "Buildable.SandbagWall",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": -50
     },
     {
       "entity": "Buildable.LargeHesco",
@@ -4158,7 +4694,19 @@
       "hitLocations": [],
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
-      "amount": -85
+      "amount": -92
+    },
+    {
+      "entity": "Buildable.LargeHesco",
+      "source": [
+        "Cannon.20x102mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -92
     },
     {
       "entity": "Buildable.LargeHesco",
@@ -4245,6 +4793,18 @@
       "category": "AmmoModifier",
       "operation": "Percentage_Ongoing",
       "amount": -60
+    },
+    {
+      "entity": "Buildable.LargeHesco",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 20
     },
     {
       "entity": "Buildable.TankTrap",
@@ -4441,6 +5001,18 @@
       "amount": -50
     },
     {
+      "entity": "Buildable.TankTrap",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "AmmoModifier",
+      "operation": "Percentage_Ongoing",
+      "amount": -30
+    },
+    {
       "entity": "Buildable.Radio",
       "source": [
         "DamageType.Melee"
@@ -4546,7 +5118,7 @@
       "hitLocations": [],
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
-      "amount": -75
+      "amount": -80
     },
     {
       "entity": "Buildable.Radio",
@@ -4645,6 +5217,18 @@
       "category": "Bone",
       "operation": "Add",
       "amount": 500
+    },
+    {
+      "entity": "Buildable.Radio",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 0
     },
     {
       "entity": "Buildable.BremmerWall",
@@ -4776,7 +5360,19 @@
       "hitLocations": [],
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
-      "amount": -70
+      "amount": -80
+    },
+    {
+      "entity": "Buildable.BremmerWall",
+      "source": [
+        "Cannon.20x102mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -80
     },
     {
       "entity": "Buildable.BremmerWall",
@@ -4863,6 +5459,478 @@
       "category": "AmmoModifier",
       "operation": "Percentage_Ongoing",
       "amount": -60
+    },
+    {
+      "entity": "Buildable.BremmerWall",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 15
+    },
+    {
+      "entity": "Buildable.WoodBase",
+      "source": [
+        "DamageType.Melee"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "None",
+      "operation": "Percentage_Ongoing",
+      "amount": -80
+    },
+    {
+      "entity": "Buildable.WoodBase",
+      "source": [
+        "Kinetic.Impact.Throwable"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Melee",
+      "operation": "Percentage_Ongoing",
+      "amount": -100
+    },
+    {
+      "entity": "Buildable.WoodBase",
+      "source": [
+        "Kinetic.Impact.ExplosiveBlunt"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Melee",
+      "operation": "Percentage_Ongoing",
+      "amount": -50
+    },
+    {
+      "entity": "Buildable.WoodBase",
+      "source": [
+        "Explosive.Rocket"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 650
+    },
+    {
+      "entity": "Buildable.WoodBase",
+      "source": [
+        "Cannon.30mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": -50
+    },
+    {
+      "entity": "Buildable.WoodBase",
+      "source": [
+        "Explosive.Rocket.120mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": -50
+    },
+    {
+      "entity": "Buildable.WoodBase",
+      "source": [
+        "Explosive.Rocket.155mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "AmmoModifier",
+      "operation": "Percentage_Ongoing",
+      "amount": -9
+    },
+    {
+      "entity": "Buildable.WoodBase",
+      "source": [
+        "Cannon.35x228mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -80
+    },
+    {
+      "entity": "Buildable.WoodBase",
+      "source": [
+        "Cannon.20x102mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -80
+    },
+    {
+      "entity": "Buildable.WoodBase",
+      "source": [
+        "Explosive.Utility"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 0
+    },
+    {
+      "entity": "Buildable.WoodBase",
+      "source": [
+        "Explosive.Utility.C4"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 200
+    },
+    {
+      "entity": "Buildable.WoodBase",
+      "source": [
+        "Explosive.Utility.IED"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 500
+    },
+    {
+      "entity": "Buildable.WoodBase",
+      "source": [
+        "Explosive.Grenade"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 0
+    },
+    {
+      "entity": "Buildable.WoodBase",
+      "source": [
+        "Bullet"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -85
+    },
+    {
+      "entity": "Buildable.WoodBase",
+      "source": [
+        "AmmoModifier.ArmorPiercing",
+        "Bullet"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "AmmoModifier",
+      "operation": "Percentage_Ongoing",
+      "amount": 100
+    },
+    {
+      "entity": "Buildable.WoodBase",
+      "source": [
+        "Bullet",
+        "AmmoModifier.HollowPoint"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "AmmoModifier",
+      "operation": "Percentage_Ongoing",
+      "amount": -50
+    },
+    {
+      "entity": "Buildable.WoodBase",
+      "source": [
+        "Vehicle.Land.Tracked"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Bone",
+      "operation": "Add",
+      "amount": 1000
+    },
+    {
+      "entity": "Buildable.WoodBase",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": -50
+    },
+    {
+      "entity": "Buildable.SV_Shelter",
+      "source": [
+        "DamageType.Melee"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Melee",
+      "operation": "Percentage_Ongoing",
+      "amount": -80
+    },
+    {
+      "entity": "Buildable.SV_Shelter",
+      "source": [
+        "Kinetic.Impact.Throwable"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Melee",
+      "operation": "Percentage_Ongoing",
+      "amount": -100
+    },
+    {
+      "entity": "Buildable.SV_Shelter",
+      "source": [
+        "Kinetic.Impact.ExplosiveBlunt"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Melee",
+      "operation": "Percentage_Ongoing",
+      "amount": -50
+    },
+    {
+      "entity": "Buildable.SV_Shelter",
+      "source": [
+        "Explosive.Rocket"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 80
+    },
+    {
+      "entity": "Buildable.SV_Shelter",
+      "source": [
+        "Explosive.Rocket.120mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 20
+    },
+    {
+      "entity": "Buildable.SV_Shelter",
+      "source": [
+        "Explosive.Rocket.155mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "AmmoModifier",
+      "operation": "Percentage_Ongoing",
+      "amount": -73.2
+    },
+    {
+      "entity": "Buildable.SV_Shelter",
+      "source": [
+        "Explosive.Rocket.84mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 80
+    },
+    {
+      "entity": "Buildable.SV_Shelter",
+      "source": [
+        "Explosive.Rocket.93mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 70
+    },
+    {
+      "entity": "Buildable.SV_Shelter",
+      "source": [
+        "Explosive.Rocket.120x800mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "AmmoModifier",
+      "operation": "Percentage_Ongoing",
+      "amount": -2.3
+    },
+    {
+      "entity": "Buildable.SV_Shelter",
+      "source": [
+        "Cannon.30mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": -50
+    },
+    {
+      "entity": "Buildable.SV_Shelter",
+      "source": [
+        "Cannon.35x228mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -92
+    },
+    {
+      "entity": "Buildable.SV_Shelter",
+      "source": [
+        "Cannon.20x102mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -92
+    },
+    {
+      "entity": "Buildable.SV_Shelter",
+      "source": [
+        "Explosive.Utility"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 0
+    },
+    {
+      "entity": "Buildable.SV_Shelter",
+      "source": [
+        "Explosive.Utility.C4"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 150
+    },
+    {
+      "entity": "Buildable.SV_Shelter",
+      "source": [
+        "Explosive.Utility.IED"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 300
+    },
+    {
+      "entity": "Buildable.SV_Shelter",
+      "source": [
+        "Explosive.Grenade"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 50
+    },
+    {
+      "entity": "Buildable.SV_Shelter",
+      "source": [
+        "Bullet"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -80
+    },
+    {
+      "entity": "Buildable.SV_Shelter",
+      "source": [
+        "AmmoModifier.ArmorPiercing",
+        "Bullet"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "AmmoModifier",
+      "operation": "Percentage_Ongoing",
+      "amount": 35
+    },
+    {
+      "entity": "Buildable.SV_Shelter",
+      "source": [
+        "Bullet",
+        "AmmoModifier.HollowPoint"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "AmmoModifier",
+      "operation": "Percentage_Ongoing",
+      "amount": -60
+    },
+    {
+      "entity": "Buildable.SV_Shelter",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 20
     },
     {
       "entity": "Vehicle.Air.Rotary.Havoc",
@@ -5008,7 +6076,7 @@
       "hitLocations": [],
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
-      "amount": 87.5
+      "amount": -46
     },
     {
       "entity": "Vehicle.Air.Rotary.Havoc",
@@ -5254,6 +6322,18 @@
       "amount": 450
     },
     {
+      "entity": "Vehicle.Air.Rotary.Havoc",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 150
+    },
+    {
       "entity": "Vehicle.Air.Rotary.LittleBird",
       "source": [
         "Bullet"
@@ -5439,7 +6519,7 @@
       "hitLocations": [],
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
-      "amount": -40
+      "amount": -69.5
     },
     {
       "entity": "Vehicle.Air.Rotary.LittleBird",
@@ -5621,6 +6701,18 @@
       "amount": 500
     },
     {
+      "entity": "Vehicle.Air.Rotary.LittleBird",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 100
+    },
+    {
       "entity": "Vehicle.Air.Rotary.ROT_04",
       "source": [
         "Bullet"
@@ -5764,7 +6856,7 @@
       "hitLocations": [],
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
-      "amount": -40
+      "amount": -57.25
     },
     {
       "entity": "Vehicle.Air.Rotary.ROT_04",
@@ -5970,6 +7062,18 @@
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
       "amount": 450
+    },
+    {
+      "entity": "Vehicle.Air.Rotary.ROT_04",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 150
     },
     {
       "entity": "Vehicle.Land.Tracked.Leopard.Spawn",
@@ -6236,7 +7340,7 @@
       "hitLocations": [],
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
-      "amount": -60
+      "amount": -84
     },
     {
       "entity": "Vehicle.Land.Tracked.Leopard.Spawn",
@@ -6299,6 +7403,18 @@
       "amount": 500
     },
     {
+      "entity": "Vehicle.Land.Tracked.Leopard.Spawn",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -10
+    },
+    {
       "entity": "Vehicle.Stationary.Mistral",
       "source": [
         "DamageType.Melee"
@@ -6350,6 +7466,18 @@
       "entity": "Vehicle.Stationary.Mistral",
       "source": [
         "Cannon.35x228mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -70
+    },
+    {
+      "entity": "Vehicle.Stationary.Mistral",
+      "source": [
+        "Cannon.20x102mm"
       ],
       "target": [],
       "instigator": [],
@@ -6541,6 +7669,18 @@
       "amount": 1000
     },
     {
+      "entity": "Vehicle.Stationary.Mistral",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 50
+    },
+    {
       "entity": "Vehicle.Stationary.Phalanx",
       "source": [
         "DamageType.Melee"
@@ -6592,6 +7732,18 @@
       "entity": "Vehicle.Stationary.Phalanx",
       "source": [
         "Cannon.35x228mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -70
+    },
+    {
+      "entity": "Vehicle.Stationary.Phalanx",
+      "source": [
+        "Cannon.20x102mm"
       ],
       "target": [],
       "instigator": [],
@@ -6783,6 +7935,18 @@
       "amount": 1000
     },
     {
+      "entity": "Vehicle.Stationary.Phalanx",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": -20
+    },
+    {
       "entity": "Vehicle.Stationary.Mortar",
       "source": [
         "DamageType.Melee"
@@ -6834,6 +7998,18 @@
       "entity": "Vehicle.Stationary.Mortar",
       "source": [
         "Cannon.35x228mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -70
+    },
+    {
+      "entity": "Vehicle.Stationary.Mortar",
+      "source": [
+        "Cannon.20x102mm"
       ],
       "target": [],
       "instigator": [],
@@ -6999,6 +8175,18 @@
       "category": "Bone",
       "operation": "Add",
       "amount": 1000
+    },
+    {
+      "entity": "Vehicle.Stationary.Mortar",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": -50
     },
     {
       "entity": "Vehicle.Stationary.RadioTower",
@@ -7271,6 +8459,18 @@
     {
       "entity": "Vehicle.Stationary.RadioTower",
       "source": [
+        "Cannon.20x102mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -70
+    },
+    {
+      "entity": "Vehicle.Stationary.RadioTower",
+      "source": [
         "Explosive.Rocket.122mm"
       ],
       "target": [],
@@ -7279,6 +8479,18 @@
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
       "amount": -40
+    },
+    {
+      "entity": "Vehicle.Stationary.RadioTower",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 250
     },
     {
       "entity": "Vehicle.Stationary.STN_05",
@@ -7332,6 +8544,18 @@
       "entity": "Vehicle.Stationary.STN_05",
       "source": [
         "Cannon.35x228mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -70
+    },
+    {
+      "entity": "Vehicle.Stationary.STN_05",
+      "source": [
+        "Cannon.20x102mm"
       ],
       "target": [],
       "instigator": [],
@@ -7497,6 +8721,260 @@
       "category": "Bone",
       "operation": "Add",
       "amount": 1000
+    },
+    {
+      "entity": "Vehicle.Stationary.STN_05",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": -50
+    },
+    {
+      "entity": "Vehicle.Stationary.STN_05",
+      "source": [
+        "DamageType.Melee"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "None",
+      "operation": "Percentage_Ongoing",
+      "amount": -80
+    },
+    {
+      "entity": "Vehicle.Stationary.STN_05",
+      "source": [
+        "Kinetic.Impact.Throwable"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Melee",
+      "operation": "Percentage_Ongoing",
+      "amount": -100
+    },
+    {
+      "entity": "Vehicle.Stationary.STN_05",
+      "source": [
+        "Kinetic.Impact.ExplosiveBlunt"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Melee",
+      "operation": "Percentage_Ongoing",
+      "amount": -50
+    },
+    {
+      "entity": "Vehicle.Stationary.STN_05",
+      "source": [
+        "Explosive.Rocket"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 650
+    },
+    {
+      "entity": "Vehicle.Stationary.STN_05",
+      "source": [
+        "Cannon.35x228mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -70
+    },
+    {
+      "entity": "Vehicle.Stationary.STN_05",
+      "source": [
+        "Cannon.20x102mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -70
+    },
+    {
+      "entity": "Vehicle.Stationary.STN_05",
+      "source": [
+        "Cannon.30mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": -50
+    },
+    {
+      "entity": "Vehicle.Stationary.STN_05",
+      "source": [
+        "Explosive.Rocket.120mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": -50
+    },
+    {
+      "entity": "Vehicle.Stationary.STN_05",
+      "source": [
+        "Explosive.Rocket.155mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "AmmoModifier",
+      "operation": "Percentage_Ongoing",
+      "amount": -80
+    },
+    {
+      "entity": "Vehicle.Stationary.STN_05",
+      "source": [
+        "Explosive.Rocket.120x800mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 80
+    },
+    {
+      "entity": "Vehicle.Stationary.STN_05",
+      "source": [
+        "Explosive.Rocket.122mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -65
+    },
+    {
+      "entity": "Vehicle.Stationary.STN_05",
+      "source": [
+        "Explosive.Utility"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 0
+    },
+    {
+      "entity": "Vehicle.Stationary.STN_05",
+      "source": [
+        "Explosive.Utility.C4"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 300
+    },
+    {
+      "entity": "Vehicle.Stationary.STN_05",
+      "source": [
+        "Explosive.Utility.IED"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 400
+    },
+    {
+      "entity": "Vehicle.Stationary.STN_05",
+      "source": [
+        "Explosive.Grenade"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": 0
+    },
+    {
+      "entity": "Vehicle.Stationary.STN_05",
+      "source": [
+        "Bullet"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -85
+    },
+    {
+      "entity": "Vehicle.Stationary.STN_05",
+      "source": [
+        "AmmoModifier.ArmorPiercing",
+        "Bullet"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "AmmoModifier",
+      "operation": "Percentage_Ongoing",
+      "amount": 100
+    },
+    {
+      "entity": "Vehicle.Stationary.STN_05",
+      "source": [
+        "Bullet",
+        "AmmoModifier.HollowPoint"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "AmmoModifier",
+      "operation": "Percentage_Ongoing",
+      "amount": -50
+    },
+    {
+      "entity": "Vehicle.Stationary.STN_05",
+      "source": [
+        "Vehicle.Land.Tracked"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Bone",
+      "operation": "Add",
+      "amount": 1000
+    },
+    {
+      "entity": "Vehicle.Stationary.STN_05",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "CaliberEffectiveness",
+      "operation": "Percentage_Ongoing",
+      "amount": -50
     },
     {
       "entity": "Vehicle.SupplyCrate",
@@ -7802,7 +9280,7 @@
       "hitLocations": [],
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
-      "amount": -75
+      "amount": -85
     },
     {
       "entity": "Vehicle.Land.Tracked.TNK_01.AntiAir",
@@ -7863,6 +9341,18 @@
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
       "amount": 450
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_01.AntiAir",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 40
     },
     {
       "entity": "Vehicle.Land.Tracked.TNK_01.Artillery",
@@ -8084,7 +9574,7 @@
       "hitLocations": [],
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
-      "amount": -75
+      "amount": -85
     },
     {
       "entity": "Vehicle.Land.Tracked.TNK_01.Artillery",
@@ -8145,6 +9635,18 @@
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
       "amount": 500
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_01.Artillery",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 15
     },
     {
       "entity": "Vehicle.Land.Tracked.TNK_01.Heavy",
@@ -8366,7 +9868,7 @@
       "hitLocations": [],
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
-      "amount": -75
+      "amount": -85
     },
     {
       "entity": "Vehicle.Land.Tracked.TNK_01.Heavy",
@@ -8427,6 +9929,326 @@
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
       "amount": 450
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_01.Heavy",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 31.5
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_04.Default",
+      "source": [
+        "Bullet"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Armor",
+      "operation": "Percentage_Ongoing",
+      "amount": -100
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_04.Default",
+      "source": [
+        "Cannon"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Armor",
+      "operation": "Percentage_Ongoing",
+      "amount": -70
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_04.Default",
+      "source": [
+        "Kinetic.Impact.Ricochet"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Ricochet",
+      "operation": "Percentage_Ongoing",
+      "amount": -95
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_04.Default",
+      "source": [
+        "Explosive.Rocket",
+        "Explosive.Radius.Inner"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 17.5
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_04.Default",
+      "source": [
+        "Explosive.Radius.Inner",
+        "Explosive.Grenade"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -60
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_04.Default",
+      "source": [
+        "Explosive.Utility.ATMine"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 145
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_04.Default",
+      "source": [
+        "Explosive.Utility.C4"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Armor",
+      "operation": "Percentage_Ongoing",
+      "amount": -25
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_04.Default",
+      "source": [
+        "Explosive.Utility.IED"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Armor",
+      "operation": "Percentage_Ongoing",
+      "amount": 30
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_04.Default",
+      "source": [
+        "Explosive.Utility.Claymore"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Armor",
+      "operation": "Percentage_Ongoing",
+      "amount": -95
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_04.Default",
+      "source": [
+        "Explosive.Rocket"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [
+        "Vehicle"
+      ],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 0
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_04.Default",
+      "source": [
+        "Bullet"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [
+        "Attribute.Gameplay.Health.FuelTank"
+      ],
+      "category": "Bone",
+      "operation": "Percentage_Ongoing",
+      "amount": 200
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_04.Default",
+      "source": [
+        "Explosive.Rocket.72mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 0
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_04.Default",
+      "source": [
+        "Cannon.35x228mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -84
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_04.Default",
+      "source": [
+        "Explosive.Rocket.120mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 47.5
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_04.Default",
+      "source": [
+        "Explosive.Rocket.122mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -25
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_04.Default",
+      "source": [
+        "Explosive.Rocket.155mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 80
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_04.Default",
+      "source": [
+        "Cannon.30mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -30
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_04.Default",
+      "source": [
+        "Cannon.20x102mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -75
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_04.Default",
+      "source": [
+        "Explosive.Grenade.40mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 20
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_04.Default",
+      "source": [
+        "Explosive.Grenade.40mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [
+        "Vehicle.Engine"
+      ],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -95
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_04.Default",
+      "source": [
+        "Explosive.Rocket.84mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 185
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_04.Default",
+      "source": [
+        "Explosive.Rocket.93mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 45.5
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_04.Default",
+      "source": [
+        "Explosive.Rocket.120x800mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -10
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_04.Default",
+      "source": [
+        "Explosive.Drone"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 450
+    },
+    {
+      "entity": "Vehicle.Land.Tracked.TNK_04.Default",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 47.5
     },
     {
       "entity": "Vehicle.Land.Wheeled.Bobcat",
@@ -8654,6 +10476,18 @@
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
       "amount": 500
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.Bobcat",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 250
     },
     {
       "entity": "Vehicle.Land.Wheeled.Patriot.Kodiak",
@@ -8979,6 +10813,18 @@
       "amount": 500
     },
     {
+      "entity": "Vehicle.Land.Wheeled.Patriot.Kodiak",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 250
+    },
+    {
       "entity": "Vehicle.Land.Wheeled.Humvee.Default",
       "source": [
         "Bullet"
@@ -9136,7 +10982,7 @@
       "hitLocations": [],
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
-      "amount": -67
+      "amount": -85
     },
     {
       "entity": "Vehicle.Land.Wheeled.Humvee.Default",
@@ -9327,6 +11173,18 @@
       "amount": 350
     },
     {
+      "entity": "Vehicle.Land.Wheeled.Humvee.Default",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 250
+    },
+    {
       "entity": "Vehicle.Land.Wheeled.Humvee.Minigun",
       "source": [
         "Bullet"
@@ -9484,7 +11342,7 @@
       "hitLocations": [],
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
-      "amount": -71
+      "amount": -88
     },
     {
       "entity": "Vehicle.Land.Wheeled.Humvee.Minigun",
@@ -9648,7 +11506,7 @@
       "hitLocations": [],
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
-      "amount": -90
+      "amount": -88
     },
     {
       "entity": "Vehicle.Land.Wheeled.Humvee.Minigun",
@@ -9673,6 +11531,18 @@
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
       "amount": 350
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.Humvee.Minigun",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 250
     },
     {
       "entity": "Vehicle.Land.Wheeled.Humvee.MachineGun",
@@ -9832,7 +11702,7 @@
       "hitLocations": [],
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
-      "amount": -69
+      "amount": -86.5
     },
     {
       "entity": "Vehicle.Land.Wheeled.Humvee.MachineGun",
@@ -9996,7 +11866,7 @@
       "hitLocations": [],
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
-      "amount": -87.5
+      "amount": -86.5
     },
     {
       "entity": "Vehicle.Land.Wheeled.Humvee.MachineGun",
@@ -10021,6 +11891,18 @@
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
       "amount": 350
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.Humvee.MachineGun",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 250
     },
     {
       "entity": "Vehicle.Land.Wheeled.DuneBuggy",
@@ -10359,6 +12241,18 @@
       "amount": 500
     },
     {
+      "entity": "Vehicle.Land.Wheeled.DuneBuggy",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 250
+    },
+    {
       "entity": "Vehicle.Land.Wheeled.Ural",
       "source": [
         "Bullet"
@@ -10516,7 +12410,7 @@
       "hitLocations": [],
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
-      "amount": -65
+      "amount": -87.5
     },
     {
       "entity": "Vehicle.Land.Wheeled.Ural",
@@ -10691,6 +12585,738 @@
       "category": "Calibre",
       "operation": "Percentage_Ongoing",
       "amount": 500
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.Ural",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 75
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Bullet"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Armor",
+      "operation": "Percentage_Ongoing",
+      "amount": -95
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Bullet",
+        "AmmoModifier.ArmorPiercing"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Armor",
+      "operation": "Percentage_Ongoing",
+      "amount": 19
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Bullet",
+        "AmmoModifier.HollowPoint"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Armor",
+      "operation": "Percentage_Ongoing",
+      "amount": -20
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Kinetic.Impact.Ricochet"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Ricochet",
+      "operation": "Percentage_Ongoing",
+      "amount": -85
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Bullet.308Win"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Armor",
+      "operation": "Percentage_Ongoing",
+      "amount": -50
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Explosive.Rocket",
+        "Explosive.Radius.Inner"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 300
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Explosive.Grenade",
+        "Explosive.Radius.Inner"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -26
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Explosive.Utility.ATMine"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 200
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Explosive.Utility.C4"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Armor",
+      "operation": "Percentage_Ongoing",
+      "amount": -10
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Explosive.Utility.IED"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Armor",
+      "operation": "Percentage_Ongoing",
+      "amount": 150
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Explosive.Utility.Claymore"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Armor",
+      "operation": "Percentage_Ongoing",
+      "amount": -62.5
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Cannon.30mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -60
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Cannon.35x228mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -68.5
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Explosive.Rocket.120mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 250
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Explosive.Rocket.155mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 250
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Explosive.Rocket"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [
+        "Vehicle.Wheel.Left.Front",
+        "Vehicle.Wheel.Right.Front"
+      ],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 14
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Explosive.Rocket"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [
+        "Vehicle.Wheel.Left.Rear",
+        "Vehicle.Wheel.Right.Rear"
+      ],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 22.5
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Bullet"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [
+        "Vehicle.FuelTank"
+      ],
+      "category": "Bone",
+      "operation": "Percentage_Ongoing",
+      "amount": 300
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Bullet"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [
+        "Vehicle.Wheel.Left.Front",
+        "Vehicle.Wheel.Left.Rear",
+        "Vehicle.Wheel.Right.Front",
+        "Vehicle.Wheel.Right.Rear"
+      ],
+      "category": "Bone",
+      "operation": "Percentage_Ongoing",
+      "amount": 600
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Bullet"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [
+        "Vehicle.MainBody"
+      ],
+      "category": "Bone",
+      "operation": "Percentage_Ongoing",
+      "amount": -50
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Explosive.Rocket.84mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 30
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Explosive.Rocket.93mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -35
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Explosive.Grenade.40mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [
+        "Vehicle.Wheel.Right.Front",
+        "Vehicle.Wheel.Right.Rear",
+        "Vehicle.Wheel.Left.Front",
+        "Vehicle.Wheel.Left.Rear"
+      ],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 187.5
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Explosive.Rocket.120x800mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -2.5
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Cannon.20x102mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -84
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Explosive.Rocket.122mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -55
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Explosive.Drone"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 425
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.Default",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 250
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Bullet"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Armor",
+      "operation": "Percentage_Ongoing",
+      "amount": -95.5
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Bullet",
+        "AmmoModifier.ArmorPiercing"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Armor",
+      "operation": "Percentage_Ongoing",
+      "amount": 19
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Bullet",
+        "AmmoModifier.HollowPoint"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Armor",
+      "operation": "Percentage_Ongoing",
+      "amount": -20
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Kinetic.Impact.Ricochet"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Ricochet",
+      "operation": "Percentage_Ongoing",
+      "amount": -85
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Bullet.308Win"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Armor",
+      "operation": "Percentage_Ongoing",
+      "amount": -50
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Explosive.Rocket",
+        "Explosive.Radius.Inner"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 300
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Explosive.Grenade",
+        "Explosive.Radius.Inner"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -29
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Explosive.Utility.ATMine"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 200
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Explosive.Utility.C4"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Armor",
+      "operation": "Percentage_Ongoing",
+      "amount": -17.5
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Explosive.Utility.IED"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Armor",
+      "operation": "Percentage_Ongoing",
+      "amount": 150
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Explosive.Utility.Claymore"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Armor",
+      "operation": "Percentage_Ongoing",
+      "amount": -62.5
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Cannon.30mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -64
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Cannon.35x228mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -69.5
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Explosive.Rocket.120mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 250
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Explosive.Rocket.155mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 250
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Explosive.Rocket"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [
+        "Vehicle.Wheel.Left.Front",
+        "Vehicle.Wheel.Right.Front"
+      ],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 14
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Explosive.Rocket"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [
+        "Vehicle.Wheel.Left.Rear",
+        "Vehicle.Wheel.Right.Rear"
+      ],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 22.5
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Bullet"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [
+        "Vehicle.FuelTank"
+      ],
+      "category": "Bone",
+      "operation": "Percentage_Ongoing",
+      "amount": 300
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Bullet"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [
+        "Vehicle.Wheel.Left.Front",
+        "Vehicle.Wheel.Left.Rear",
+        "Vehicle.Wheel.Right.Front",
+        "Vehicle.Wheel.Right.Rear"
+      ],
+      "category": "Bone",
+      "operation": "Percentage_Ongoing",
+      "amount": 600
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Bullet"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [
+        "Vehicle.MainBody"
+      ],
+      "category": "Bone",
+      "operation": "Percentage_Ongoing",
+      "amount": -50
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Explosive.Rocket.84mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 25
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Explosive.Rocket.93mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -55
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Explosive.Grenade.40mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [
+        "Vehicle.Wheel.Right.Front",
+        "Vehicle.Wheel.Right.Rear",
+        "Vehicle.Wheel.Left.Front",
+        "Vehicle.Wheel.Left.Rear"
+      ],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 187.5
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Explosive.Rocket.120x800mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -2.5
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Cannon.20x102mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -85
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Explosive.Rocket.122mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": -60
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Explosive.Drone"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 425
+    },
+    {
+      "entity": "Vehicle.Land.Wheeled.WHL_08.MachineGun",
+      "source": [
+        "Explosive.Rocket.125mm"
+      ],
+      "target": [],
+      "instigator": [],
+      "hitLocations": [],
+      "category": "Calibre",
+      "operation": "Percentage_Ongoing",
+      "amount": 250
     }
   ],
   "hitLocationMultipliers": [
@@ -10716,9 +13342,9 @@
       "multipliers": {
         "Head": 2.35,
         "Neck": 2.35,
-        "Torso.Upper": 1,
-        "Torso.Middle": 1,
-        "Torso.Lower": 1,
+        "Torso.Upper": 0.885,
+        "Torso.Middle": 0.97,
+        "Torso.Lower": 0.97,
         "Pelvis": 1,
         "Arm.Upper": 0.9,
         "Arm.Lower": 0.9,
@@ -10748,11 +13374,11 @@
     {
       "weaponClass": "Weapon.LMG",
       "multipliers": {
-        "Head": 2.3,
-        "Neck": 2.3,
-        "Torso.Upper": 1.05,
-        "Torso.Middle": 1.05,
-        "Torso.Lower": 1.05,
+        "Head": 2.35,
+        "Neck": 2.35,
+        "Torso.Upper": 0.885,
+        "Torso.Middle": 0.97,
+        "Torso.Lower": 0.97,
         "Pelvis": 1,
         "Arm.Upper": 0.9,
         "Arm.Lower": 0.9,
@@ -10782,35 +13408,35 @@
     {
       "weaponClass": "Weapon.DMR",
       "multipliers": {
-        "Head": 2.5,
-        "Neck": 2.5,
-        "Torso.Upper": 1.3,
-        "Torso.Middle": 1.3,
-        "Torso.Lower": 1.3,
-        "Pelvis": 1,
-        "Arm.Upper": 1,
-        "Arm.Lower": 1,
-        "Arm.Hand": 1,
-        "Leg.Thigh": 1,
-        "Leg.Calf": 1,
-        "Leg.Foot": 1
+        "Head": 2.45,
+        "Neck": 2.45,
+        "Torso.Upper": 1.07,
+        "Torso.Middle": 1.18,
+        "Torso.Lower": 1.24,
+        "Pelvis": 1.25,
+        "Arm.Upper": 1.25,
+        "Arm.Lower": 1.25,
+        "Arm.Hand": 1.25,
+        "Leg.Thigh": 1.25,
+        "Leg.Calf": 1.25,
+        "Leg.Foot": 1.25
       }
     },
     {
       "weaponClass": "Weapon.Sniper",
       "multipliers": {
-        "Head": 3.2,
-        "Neck": 3.2,
-        "Torso.Upper": 1.8,
-        "Torso.Middle": 1.45,
-        "Torso.Lower": 1.45,
-        "Pelvis": 1.3,
-        "Arm.Upper": 1.2,
-        "Arm.Lower": 1.2,
-        "Arm.Hand": 1.2,
-        "Leg.Thigh": 1.2,
-        "Leg.Calf": 1.2,
-        "Leg.Foot": 1.2
+        "Head": 4.2667,
+        "Neck": 4.2667,
+        "Torso.Upper": 2.4,
+        "Torso.Middle": 1.9333,
+        "Torso.Lower": 1.9333,
+        "Pelvis": 1.7333,
+        "Arm.Upper": 1.5,
+        "Arm.Lower": 1.5,
+        "Arm.Hand": 1.5,
+        "Leg.Thigh": 1.5,
+        "Leg.Calf": 1.5,
+        "Leg.Foot": 1.5
       }
     },
     {
@@ -10852,8 +13478,8 @@
       "multipliers": {
         "Head": 2.3,
         "Neck": 2.3,
-        "Torso.Upper": 1.9,
-        "Torso.Middle": 1.9,
+        "Torso.Upper": 2.07,
+        "Torso.Middle": 1.96,
         "Torso.Lower": 1.5,
         "Pelvis": 1,
         "Arm.Upper": 0.8,
@@ -10884,18 +13510,18 @@
     {
       "weaponClass": "Weapon.Vehicle.Turret.Minigun",
       "multipliers": {
-        "Head": 2.5,
-        "Neck": 2.5,
-        "Torso.Upper": 1.3,
-        "Torso.Middle": 1.3,
-        "Torso.Lower": 1.3,
-        "Pelvis": 1,
-        "Arm.Upper": 1,
-        "Arm.Lower": 1,
-        "Arm.Hand": 1,
-        "Leg.Thigh": 1,
-        "Leg.Calf": 1,
-        "Leg.Foot": 1
+        "Head": 1.25,
+        "Neck": 0.98,
+        "Torso.Upper": 0.57,
+        "Torso.Middle": 0.62,
+        "Torso.Lower": 0.65,
+        "Pelvis": 0.47,
+        "Arm.Upper": 0.47,
+        "Arm.Lower": 0.47,
+        "Arm.Hand": 0.47,
+        "Leg.Thigh": 0.47,
+        "Leg.Calf": 0.47,
+        "Leg.Foot": 0.47
       }
     },
     {
@@ -10935,35 +13561,35 @@
     {
       "weaponClass": "Weapon.Vehicle.Turret.Artillery",
       "multipliers": {
-        "Head": 3.2,
-        "Neck": 3.2,
-        "Torso.Upper": 1.8,
-        "Torso.Middle": 1.8,
-        "Torso.Lower": 1.8,
-        "Pelvis": 1.3,
-        "Arm.Upper": 1.2,
-        "Arm.Lower": 1.2,
-        "Arm.Hand": 1.2,
-        "Leg.Thigh": 1.2,
-        "Leg.Calf": 1.2,
-        "Leg.Foot": 1.2
+        "Head": 2.35,
+        "Neck": 2.35,
+        "Torso.Upper": 0.885,
+        "Torso.Middle": 0.97,
+        "Torso.Lower": 0.97,
+        "Pelvis": 1,
+        "Arm.Upper": 0.9,
+        "Arm.Lower": 0.9,
+        "Arm.Hand": 0.9,
+        "Leg.Thigh": 0.9,
+        "Leg.Calf": 0.9,
+        "Leg.Foot": 0.9
       }
     },
     {
       "weaponClass": "Weapon.Vehicle.Turret.Heavy",
       "multipliers": {
-        "Head": 3.2,
-        "Neck": 3.2,
-        "Torso.Upper": 1.8,
-        "Torso.Middle": 1.8,
-        "Torso.Lower": 1.8,
-        "Pelvis": 1.3,
-        "Arm.Upper": 1.2,
-        "Arm.Lower": 1.2,
-        "Arm.Hand": 1.2,
-        "Leg.Thigh": 1.2,
-        "Leg.Calf": 1.2,
-        "Leg.Foot": 1.2
+        "Head": 2.35,
+        "Neck": 2.35,
+        "Torso.Upper": 0.885,
+        "Torso.Middle": 0.97,
+        "Torso.Lower": 0.97,
+        "Pelvis": 1,
+        "Arm.Upper": 0.9,
+        "Arm.Lower": 0.9,
+        "Arm.Hand": 0.9,
+        "Leg.Thigh": 0.9,
+        "Leg.Calf": 0.9,
+        "Leg.Foot": 0.9
       }
     },
     {
@@ -10998,6 +13624,40 @@
         "Leg.Thigh": 0.8,
         "Leg.Calf": 0.8,
         "Leg.Foot": 0.8
+      }
+    },
+    {
+      "weaponClass": "Weapon.Vehicle.Turret.STN_06",
+      "multipliers": {
+        "Head": 2.2,
+        "Neck": 2.2,
+        "Torso.Upper": 1.2,
+        "Torso.Middle": 1,
+        "Torso.Lower": 1,
+        "Pelvis": 1,
+        "Arm.Upper": 1,
+        "Arm.Lower": 1,
+        "Arm.Hand": 1,
+        "Leg.Thigh": 1,
+        "Leg.Calf": 1,
+        "Leg.Foot": 1
+      }
+    },
+    {
+      "weaponClass": "Weapon.HMG.MWSY_001",
+      "multipliers": {
+        "Head": 2.2,
+        "Neck": 2.2,
+        "Torso.Upper": 1.2,
+        "Torso.Middle": 1,
+        "Torso.Lower": 1,
+        "Pelvis": 1,
+        "Arm.Upper": 1,
+        "Arm.Lower": 1,
+        "Arm.Hand": 1,
+        "Leg.Thigh": 1,
+        "Leg.Calf": 1,
+        "Leg.Foot": 1
       }
     }
   ],
@@ -11052,13 +13712,13 @@
             "Small",
             "Medium"
           ],
-          "reduction": -50
+          "reduction": -25
         },
         {
           "damageSources": [
             "High"
           ],
-          "reduction": -20
+          "reduction": -15
         }
       ]
     },
@@ -11070,13 +13730,13 @@
             "Small",
             "Medium"
           ],
-          "reduction": -50
+          "reduction": -25
         },
         {
           "damageSources": [
             "High"
           ],
-          "reduction": -20
+          "reduction": -15
         }
       ]
     },
@@ -11112,13 +13772,13 @@
             "Small",
             "Medium"
           ],
-          "reduction": -50
+          "reduction": -25
         },
         {
           "damageSources": [
             "High"
           ],
-          "reduction": -20
+          "reduction": -15
         }
       ]
     },
@@ -11130,13 +13790,13 @@
             "Small",
             "Medium"
           ],
-          "reduction": -50
+          "reduction": -25
         },
         {
           "damageSources": [
             "High"
           ],
-          "reduction": -20
+          "reduction": -15
         }
       ]
     },
@@ -11148,13 +13808,13 @@
             "Small",
             "Medium"
           ],
-          "reduction": -50
+          "reduction": -25
         },
         {
           "damageSources": [
             "High"
           ],
-          "reduction": -20
+          "reduction": -15
         }
       ]
     },
@@ -11209,6 +13869,42 @@
             "High"
           ],
           "reduction": -40
+        }
+      ]
+    },
+    {
+      "vehicle": "Vehicle.Variant.Air.Rotary.ROT_04.Default",
+      "rules": [
+        {
+          "damageSources": [
+            "Small",
+            "Medium"
+          ],
+          "reduction": -25
+        },
+        {
+          "damageSources": [
+            "High"
+          ],
+          "reduction": -15
+        }
+      ]
+    },
+    {
+      "vehicle": "Vehicle.Variant.Air.Rotary.ROT_04.MountedMachineGuns",
+      "rules": [
+        {
+          "damageSources": [
+            "Small",
+            "Medium"
+          ],
+          "reduction": -25
+        },
+        {
+          "damageSources": [
+            "High"
+          ],
+          "reduction": -15
         }
       ]
     }

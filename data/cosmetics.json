@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "gameBuild": "25677108",
+  "gameBuild": "25937608",
   "sets": [
     {
       "id": "Featured",
@@ -45,27 +45,33 @@
       "hidden": false
     },
     {
+      "id": "ChocolateChip",
+      "name": "Chocolate Chip",
+      "sortIndex": 7,
+      "hidden": false
+    },
+    {
       "id": "Emote",
       "name": "Emotes",
-      "sortIndex": 7,
+      "sortIndex": 8,
       "hidden": true
     },
     {
       "id": "Bobblehead",
       "name": "Bobbleheads",
-      "sortIndex": 8,
+      "sortIndex": 9,
       "hidden": false
     },
     {
       "id": "Taxi",
       "name": "Taxi",
-      "sortIndex": 9,
+      "sortIndex": 10,
       "hidden": false
     },
     {
       "id": "FactionLogo",
       "name": "Faction Logo",
-      "sortIndex": 10,
+      "sortIndex": 11,
       "hidden": false
     }
   ],
@@ -76,6 +82,34 @@
       "set": "BlackAndGold",
       "archetype": "AR",
       "source": "Season01_Skins"
+    },
+    {
+      "id": "BlackAndGold.Littlebird",
+      "item": "Vehicle.Variant.Air.Rotary.Littlebird.Default",
+      "set": "BlackAndGold",
+      "archetype": "Vehicle.Archetype.Air.Rotary",
+      "source": "Season02_Skins"
+    },
+    {
+      "id": "ChocolateChip.Evolys",
+      "item": "Id.Item.WEPN_036",
+      "set": "ChocolateChip",
+      "archetype": "LMG",
+      "source": "Season02_Skins"
+    },
+    {
+      "id": "ChocolateChip.M14",
+      "item": "Id.Item.WEPN_034",
+      "set": "ChocolateChip",
+      "archetype": "DMR",
+      "source": "Season02_Skins"
+    },
+    {
+      "id": "ChocolateChip.TCXSPR",
+      "item": "Id.Item.WEPN_037",
+      "set": "ChocolateChip",
+      "archetype": "AR",
+      "source": "Season02_Skins"
     },
     {
       "id": "DigitalWood.GGX17",
@@ -90,6 +124,13 @@
       "set": "DigitalWood",
       "archetype": "AR",
       "source": "Season01_Skins"
+    },
+    {
+      "id": "DigitalWood.M500",
+      "item": "Id.Item.M500",
+      "set": "DigitalWood",
+      "archetype": "Shotgun",
+      "source": "Season02_Skins"
     },
     {
       "id": "DigitalWood.SportsParachute",
@@ -187,6 +228,20 @@
       "source": "Season01_Skins"
     },
     {
+      "id": "TwoToneDesert.Galil",
+      "item": "Id.Item.WEPN_029",
+      "set": "TwoToneDesert",
+      "archetype": "AR",
+      "source": "Season02_Skins"
+    },
+    {
+      "id": "TwoToneDesert.Havoc",
+      "item": "Vehicle.Variant.Air.Rotary.Havoc.Default",
+      "set": "TwoToneDesert",
+      "archetype": "Vehicle.Archetype.Air.Rotary",
+      "source": "Season02_Skins"
+    },
+    {
       "id": "TwoToneDesert.Humvee",
       "item": "Vehicle.Variant.Land.Wheeled.Humvee.Default",
       "set": "TwoToneDesert",
@@ -227,6 +282,13 @@
       "set": "TwoToneDesert",
       "archetype": "Shotgun",
       "source": "Season01_Skins"
+    },
+    {
+      "id": "TwoToneDesert.Mosin",
+      "item": "Id.Item.Mosin",
+      "set": "TwoToneDesert",
+      "archetype": "Sniper",
+      "source": "Season02_Skins"
     },
     {
       "id": "TwoToneDesert.MP9",

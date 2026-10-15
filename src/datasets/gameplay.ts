@@ -13,11 +13,13 @@ const EXCLUDE = String.raw`/(Animation|Audio|VFX|Megascans|Environment|Movies)/`
 
 export const gameplayDataset: Dataset = {
   id: "gameplay",
-  extract(config) {
+  async extract(config, ctx) {
     const dir = join(config.rawDir, "gameplay");
-    exportJson(config, INCLUDE, EXCLUDE, dir);
-    // The vehicle configs link to assets the name patterns miss (input mappings, audio data, flight curves).
-    extractLinkedPackages(config, dir, join(config.rawDir, "items"));
+    await exportJson(config, INCLUDE, EXCLUDE, dir);
+    // The vehicle configs link to assets the name patterns miss (input mappings, audio data, flight curves). They are
+    // looked up among the items too, so the items have to be there.
+    await ctx.after("items");
+    await extractLinkedPackages(config, dir, join(config.rawDir, "items"));
   },
   async build(rawDir, meta) {
     const { files, notes } = buildGameplayData(rawDir, meta.gameBuild);

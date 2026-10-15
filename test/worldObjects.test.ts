@@ -110,12 +110,15 @@ describe.each(WORLDS)("data/maps/$id/objects.json", (w) => {
   });
 
   it("puts every object on the map", () => {
-    for (const o of objects.objects) {
+    // The game leaves one garage vendor in the Kavkazi level at the world origin (no rotation, no shops near it), just outside the map.
+    const strays = objects.objects.filter((o) => o.kind === "garage-vendor" && Math.hypot(o.position[0], o.position[1]) < 100);
+    for (const o of objects.objects.filter((o) => !strays.includes(o))) {
       expect(o.position[0], o.id).toBeGreaterThan(map.bounds.min[0]);
       expect(o.position[0], o.id).toBeLessThan(map.bounds.max[0]);
       expect(o.position[1], o.id).toBeGreaterThan(map.bounds.min[1]);
       expect(o.position[1], o.id).toBeLessThan(map.bounds.max[1]);
     }
+    expect(strays.length, w.id).toBe(w.id === "kavkazi" ? 1 : 0);
   });
 
   it("puts every object within the world's height range, with some slack for tall structures", () => {

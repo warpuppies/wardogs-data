@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "gameBuild": "25677108",
+  "gameBuild": "25937608",
   "currencies": [
     {
       "id": "Cash",
@@ -16,14 +16,41 @@
   "currentSeason": 1,
   "goldMarket": [
     {
-      "id": "BlackAndGold.AK74",
+      "id": "BlackAndGold.Littlebird",
       "category": "BlackAndGold",
-      "entity": "Id.Item.AK74M",
+      "entity": "Vehicle.Variant.Air.Rotary.Littlebird.Default",
       "goldBars": 30,
-      "gridIndex": 0,
+      "gridIndex": 1,
       "tile": "HERO_TILE",
       "expiration": "EXPIRATION_NO_END_TIME",
       "expirationTime": "2026-12-31T00:00:00.000Z"
+    },
+    {
+      "id": "ChocolateChip.Evolys",
+      "category": "ChocolateChip",
+      "entity": "Id.Item.WEPN_036",
+      "goldBars": 10,
+      "gridIndex": 1,
+      "tile": "SMALL_RECTANGLE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "ChocolateChip.M14",
+      "category": "ChocolateChip",
+      "entity": "Id.Item.WEPN_034",
+      "goldBars": 10,
+      "gridIndex": 2,
+      "tile": "SMALL_RECTANGLE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "ChocolateChip.TCXSPR",
+      "category": "ChocolateChip",
+      "entity": "Id.Item.WEPN_037",
+      "goldBars": 10,
+      "gridIndex": 0,
+      "tile": "LARGE_RECTANGLE",
+      "expiration": "NO_EXPIRATION"
     },
     {
       "id": "DigitalWood.GGX17",
@@ -41,6 +68,15 @@
       "goldBars": 10,
       "gridIndex": 3,
       "tile": "SMALL_RECTANGLE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "DigitalWood.M500",
+      "category": "DigitalWood",
+      "entity": "Id.Item.M500",
+      "goldBars": 10,
+      "gridIndex": 4,
+      "tile": "SMALL_SQUARE",
       "expiration": "NO_EXPIRATION"
     },
     {
@@ -134,6 +170,24 @@
       "expiration": "NO_EXPIRATION"
     },
     {
+      "id": "TwoToneDesert.Galil",
+      "category": "TwoToneDesert",
+      "entity": "Id.Item.WEPN_029",
+      "goldBars": 10,
+      "gridIndex": 14,
+      "tile": "SMALL_RECTANGLE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "TwoToneDesert.Havoc",
+      "category": "TwoToneDesert",
+      "entity": "Vehicle.Variant.Air.Rotary.Havoc.Default",
+      "goldBars": 15,
+      "gridIndex": 15,
+      "tile": "SMALL_RECTANGLE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
       "id": "TwoToneDesert.Humvee",
       "category": "TwoToneDesert",
       "entity": "Vehicle.Variant.Land.Wheeled.Humvee.Default",
@@ -184,6 +238,15 @@
       "entity": "Id.Item.M500",
       "goldBars": 10,
       "gridIndex": 12,
+      "tile": "SMALL_SQUARE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "TwoToneDesert.Mosin",
+      "category": "TwoToneDesert",
+      "entity": "Id.Item.Mosin",
+      "goldBars": 10,
+      "gridIndex": 13,
       "tile": "SMALL_SQUARE",
       "expiration": "NO_EXPIRATION"
     },

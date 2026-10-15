@@ -1,7 +1,27 @@
 {
   "schemaVersion": 1,
-  "gameBuild": "25677108",
+  "gameBuild": "25937608",
   "tables": [
+    {
+      "id": "A91",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.A91",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
     {
       "id": "AbandonedTower",
       "spawnChance": 50,
@@ -80,6 +100,46 @@
       ]
     },
     {
+      "id": "AK74",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.AK74M",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "AR15",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.M4",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
       "id": "Armor",
       "spawnChance": 100,
       "spawnByDefault": true,
@@ -93,6 +153,46 @@
       "items": [
         {
           "item": "Id.Item.LightArmor",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "AX50",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.SR_04",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "Bag",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": false,
+      "respawnTime": 0,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.BPAK_007",
           "amount": 1,
           "weight": 1,
           "subItems": []
@@ -120,6 +220,92 @@
       ]
     },
     {
+      "id": "Bow",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.CombatBow",
+          "amount": 1,
+          "weight": 1,
+          "subItems": [
+            {
+              "item": "Id.Item.Arrow",
+              "chance": 100,
+              "amount": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Bushmaster",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.WEPN_033",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "CGM4",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.CGM4",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "Deagle",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.WEPN_027",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
       "id": "Defib.Cheap",
       "spawnChance": 100,
       "spawnByDefault": true,
@@ -140,6 +326,106 @@
       ]
     },
     {
+      "id": "Evolys",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.WEPN_036",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "FAL",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.WEPN_030",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "Galil",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.WEPN_029",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "Glock17",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.Glock17",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "Glock18",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.WEPN_032",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
       "id": "Helmet",
       "spawnChance": 100,
       "spawnByDefault": true,
@@ -153,6 +439,444 @@
       "items": [
         {
           "item": "Id.Item.LightHelmet",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "Judge",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.Judge",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "KH2002",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.KH2002",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "M14",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.WEPN_034",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "M1911",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.WEPN_026",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "M249",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.M249",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "M4",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": false,
+      "respawnTime": 0,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.M4",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "M500",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.M500",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "MK22",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.MK22",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "MMGL",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.MMGL",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "Mosin",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.Mosin",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "MP43",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.MP43",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "MP5",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.WEPN_028",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "MP9",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.MP9",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "PKM",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "ID.Item.LMG_01_BRL_06",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "PP19",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.WEPN_023",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "PreLobby",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": true,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 15,
+      "canRespawn": true,
+      "respawnTime": 180,
+      "neverSelectPreviousItem": true,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.Glock17",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        },
+        {
+          "item": "Id.Item.Judge",
+          "amount": 1,
+          "weight": 0.8,
+          "subItems": []
+        },
+        {
+          "item": "Id.Item.WEPN_026",
+          "amount": 1,
+          "weight": 0.8,
+          "subItems": []
+        },
+        {
+          "item": "Id.Item.WEPN_032",
+          "amount": 1,
+          "weight": 0.5,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "RFB",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.RFB",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "RPG",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.RPG7",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "Scout",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.WEPN_035",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "SigSpear",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.WEPN_037",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "SKS",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.SKS",
           "amount": 1,
           "weight": 1,
           "subItems": []
@@ -767,6 +1491,66 @@
       ]
     },
     {
+      "id": "SV98",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.SV98",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "SVDM",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.SVDM",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "TAR21",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.TAR21",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
       "id": "Test",
       "spawnChance": 100,
       "spawnByDefault": true,
@@ -814,12 +1598,6 @@
       "neverSelectPreviousItem": true,
       "spawnInsideControlZoneOnly": true,
       "items": [
-        {
-          "item": "Id.Item.FOB",
-          "amount": 1,
-          "weight": 0.5,
-          "subItems": []
-        },
         {
           "item": "Id.Item.SV98",
           "amount": 1,
@@ -959,6 +1737,46 @@
               "amount": 1
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "Vector",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.Vector",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
+        }
+      ]
+    },
+    {
+      "id": "Verba",
+      "spawnChance": 100,
+      "spawnByDefault": true,
+      "spawnByPoints": false,
+      "initialSpawnTime": 0,
+      "initialSpawnPoints": 0,
+      "canRespawn": true,
+      "respawnTime": 1,
+      "neverSelectPreviousItem": false,
+      "spawnInsideControlZoneOnly": false,
+      "items": [
+        {
+          "item": "Id.Item.Launcher_04",
+          "amount": 1,
+          "weight": 1,
+          "subItems": []
         }
       ]
     },

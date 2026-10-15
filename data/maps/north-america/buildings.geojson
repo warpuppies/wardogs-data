@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "name": "NorthAmerica-buildings",
   "coordinateSystem": "world meters (X, Y); not geographic",
-  "gameBuild": "25677108",
+  "gameBuild": "25937608",
   "features": [
     {
       "type": "Feature",
@@ -868,10 +868,10 @@
       "properties": {
         "kind": "warehouse",
         "class": "BP_Warehouse_Small_03a_C",
-        "minZ": 74.78,
+        "minZ": 74.69,
         "maxZ": 80.94,
-        "baseZ": 74.78,
-        "height": 6.16
+        "baseZ": 74.69,
+        "height": 6.25
       },
       "geometry": {
         "type": "Polygon",
@@ -1063,10 +1063,10 @@
       "properties": {
         "kind": "warehouse",
         "class": "BP_Warehouse_Small_03a_C",
-        "minZ": 76.2,
+        "minZ": 76.11,
         "maxZ": 82.36,
-        "baseZ": 76.2,
-        "height": 6.16
+        "baseZ": 76.11,
+        "height": 6.25
       },
       "geometry": {
         "type": "Polygon",
@@ -1219,10 +1219,10 @@
       "properties": {
         "kind": "warehouse",
         "class": "BP_Warehouse_Small_03a_C",
-        "minZ": 76.98,
+        "minZ": 76.88,
         "maxZ": 83.14,
-        "baseZ": 76.98,
-        "height": 6.16
+        "baseZ": 76.88,
+        "height": 6.26
       },
       "geometry": {
         "type": "Polygon",
@@ -2740,10 +2740,10 @@
       "properties": {
         "kind": "warehouse",
         "class": "BP_Warehouse_Scrapyard_01a_C",
-        "minZ": 81.56,
+        "minZ": 81.42,
         "maxZ": 91.17,
-        "baseZ": 81.56,
-        "height": 9.61
+        "baseZ": 81.42,
+        "height": 9.75
       },
       "geometry": {
         "type": "Polygon",
@@ -3013,10 +3013,10 @@
       "properties": {
         "kind": "warehouse",
         "class": "BP_Warehouse_Scrapyard_01a_C",
-        "minZ": 81.56,
+        "minZ": 81.42,
         "maxZ": 91.17,
-        "baseZ": 81.56,
-        "height": 9.61
+        "baseZ": 81.42,
+        "height": 9.75
       },
       "geometry": {
         "type": "Polygon",
@@ -3052,10 +3052,10 @@
       "properties": {
         "kind": "warehouse",
         "class": "BP_Warehouse_Small_03a_C",
-        "minZ": 82.4,
+        "minZ": 82.31,
         "maxZ": 88.56,
-        "baseZ": 82.4,
-        "height": 6.16
+        "baseZ": 82.31,
+        "height": 6.25
       },
       "geometry": {
         "type": "Polygon",
@@ -3482,9 +3482,9 @@
         "kind": "shop",
         "class": "B_Shop_02_C",
         "minZ": 63.83,
-        "maxZ": 72.83,
+        "maxZ": 72.87,
         "baseZ": 63.83,
-        "height": 9
+        "height": 9.04
       },
       "geometry": {
         "type": "Polygon",
@@ -3949,10 +3949,10 @@
       "properties": {
         "kind": "warehouse",
         "class": "BP_Warehouse_Small_02a_C",
-        "minZ": 79.47,
+        "minZ": 79.38,
         "maxZ": 85.7,
-        "baseZ": 79.47,
-        "height": 6.23
+        "baseZ": 79.38,
+        "height": 6.32
       },
       "geometry": {
         "type": "Polygon",
@@ -4027,10 +4027,10 @@
       "properties": {
         "kind": "warehouse",
         "class": "BP_Warehouse_Small_03a_C",
-        "minZ": 80.43,
+        "minZ": 80.33,
         "maxZ": 86.59,
-        "baseZ": 80.43,
-        "height": 6.16
+        "baseZ": 80.33,
+        "height": 6.26
       },
       "geometry": {
         "type": "Polygon",
@@ -4066,10 +4066,10 @@
       "properties": {
         "kind": "warehouse",
         "class": "BP_Warehouse_Small_03a_C",
-        "minZ": 83.61,
+        "minZ": 83.51,
         "maxZ": 89.77,
-        "baseZ": 83.61,
-        "height": 6.16
+        "baseZ": 83.51,
+        "height": 6.26
       },
       "geometry": {
         "type": "Polygon",
@@ -4144,10 +4144,10 @@
       "properties": {
         "kind": "warehouse",
         "class": "BP_Warehouse_Small_03a_C",
-        "minZ": 80.46,
+        "minZ": 80.36,
         "maxZ": 86.62,
-        "baseZ": 80.46,
-        "height": 6.16
+        "baseZ": 80.36,
+        "height": 6.26
       },
       "geometry": {
         "type": "Polygon",
@@ -4378,10 +4378,10 @@
       "properties": {
         "kind": "warehouse",
         "class": "BP_Warehouse_Small_Hut_01a_C",
-        "minZ": 79.54,
+        "minZ": 79.44,
         "maxZ": 85.7,
-        "baseZ": 79.54,
-        "height": 6.16
+        "baseZ": 79.44,
+        "height": 6.26
       },
       "geometry": {
         "type": "Polygon",
@@ -4456,10 +4456,10 @@
       "properties": {
         "kind": "warehouse",
         "class": "BP_Warehouse_Small_03a_C",
-        "minZ": 81.67,
+        "minZ": 81.57,
         "maxZ": 87.83,
-        "baseZ": 81.67,
-        "height": 6.16
+        "baseZ": 81.57,
+        "height": 6.26
       },
       "geometry": {
         "type": "Polygon",
@@ -4690,10 +4690,10 @@
       "properties": {
         "kind": "warehouse",
         "class": "BP_Warehouse_Small_03a_C",
-        "minZ": 83.24,
+        "minZ": 83.14,
         "maxZ": 89.4,
-        "baseZ": 83.24,
-        "height": 6.16
+        "baseZ": 83.14,
+        "height": 6.26
       },
       "geometry": {
         "type": "Polygon",
@@ -4768,10 +4768,10 @@
       "properties": {
         "kind": "warehouse",
         "class": "BP_Warehouse_Small_03a_C",
-        "minZ": 83.24,
+        "minZ": 83.14,
         "maxZ": 89.4,
-        "baseZ": 83.24,
-        "height": 6.16
+        "baseZ": 83.14,
+        "height": 6.26
       },
       "geometry": {
         "type": "Polygon",
@@ -4885,10 +4885,10 @@
       "properties": {
         "kind": "warehouse",
         "class": "BP_Warehouse_Small_02a_C",
-        "minZ": 78.08,
+        "minZ": 77.99,
         "maxZ": 84.3,
-        "baseZ": 78.08,
-        "height": 6.22
+        "baseZ": 77.99,
+        "height": 6.31
       },
       "geometry": {
         "type": "Polygon",
@@ -4963,10 +4963,10 @@
       "properties": {
         "kind": "warehouse",
         "class": "BP_Warehouse_Small_03a_C",
-        "minZ": 83.29,
+        "minZ": 83.19,
         "maxZ": 89.45,
-        "baseZ": 83.29,
-        "height": 6.16
+        "baseZ": 83.19,
+        "height": 6.26
       },
       "geometry": {
         "type": "Polygon",
@@ -5002,10 +5002,10 @@
       "properties": {
         "kind": "warehouse",
         "class": "BP_Warehouse_Small_03a_C",
-        "minZ": 81.71,
+        "minZ": 81.61,
         "maxZ": 87.87,
-        "baseZ": 81.71,
-        "height": 6.16
+        "baseZ": 81.61,
+        "height": 6.26
       },
       "geometry": {
         "type": "Polygon",
@@ -5080,10 +5080,10 @@
       "properties": {
         "kind": "warehouse",
         "class": "BP_Warehouse_Small_03a_C",
-        "minZ": 81.68,
+        "minZ": 81.59,
         "maxZ": 87.84,
-        "baseZ": 81.68,
-        "height": 6.16
+        "baseZ": 81.59,
+        "height": 6.25
       },
       "geometry": {
         "type": "Polygon",
@@ -5314,10 +5314,10 @@
       "properties": {
         "kind": "warehouse",
         "class": "BP_Warehouse_Small_03a_C",
-        "minZ": 81.26,
+        "minZ": 81.17,
         "maxZ": 87.42,
-        "baseZ": 81.26,
-        "height": 6.16
+        "baseZ": 81.17,
+        "height": 6.25
       },
       "geometry": {
         "type": "Polygon",
@@ -5353,10 +5353,10 @@
       "properties": {
         "kind": "warehouse",
         "class": "BP_Warehouse_Small_Hut_01a_C",
-        "minZ": 81.27,
+        "minZ": 81.18,
         "maxZ": 87.43,
-        "baseZ": 81.27,
-        "height": 6.16
+        "baseZ": 81.18,
+        "height": 6.25
       },
       "geometry": {
         "type": "Polygon",
@@ -5509,10 +5509,10 @@
       "properties": {
         "kind": "warehouse",
         "class": "BP_Warehouse_Small_03a_C",
-        "minZ": 82.3,
+        "minZ": 82.21,
         "maxZ": 88.46,
-        "baseZ": 82.3,
-        "height": 6.16
+        "baseZ": 82.21,
+        "height": 6.25
       },
       "geometry": {
         "type": "Polygon",
@@ -5587,10 +5587,10 @@
       "properties": {
         "kind": "warehouse",
         "class": "BP_Warehouse_Small_03a_C",
-        "minZ": 82.3,
+        "minZ": 82.21,
         "maxZ": 88.46,
-        "baseZ": 82.3,
-        "height": 6.16
+        "baseZ": 82.21,
+        "height": 6.25
       },
       "geometry": {
         "type": "Polygon",
@@ -6095,9 +6095,9 @@
         "kind": "shop",
         "class": "B_Shop_02_C",
         "minZ": 79.22,
-        "maxZ": 88.22,
+        "maxZ": 88.25,
         "baseZ": 79.22,
-        "height": 9
+        "height": 9.03
       },
       "geometry": {
         "type": "Polygon",
@@ -6328,10 +6328,10 @@
       "properties": {
         "kind": "warehouse",
         "class": "BP_Warehouse_Small_02a_C",
-        "minZ": 83.75,
+        "minZ": 83.65,
         "maxZ": 89.97,
-        "baseZ": 83.75,
-        "height": 6.22
+        "baseZ": 83.65,
+        "height": 6.32
       },
       "geometry": {
         "type": "Polygon",
@@ -6406,10 +6406,10 @@
       "properties": {
         "kind": "warehouse",
         "class": "BP_Warehouse_Scrapyard_01a_C",
-        "minZ": 83.8,
+        "minZ": 83.65,
         "maxZ": 93.4,
-        "baseZ": 83.8,
-        "height": 9.6
+        "baseZ": 83.65,
+        "height": 9.75
       },
       "geometry": {
         "type": "Polygon",
@@ -6484,10 +6484,10 @@
       "properties": {
         "kind": "warehouse",
         "class": "BP_Warehouse_Small_02a_C",
-        "minZ": 83.75,
+        "minZ": 83.65,
         "maxZ": 89.97,
-        "baseZ": 83.75,
-        "height": 6.22
+        "baseZ": 83.65,
+        "height": 6.32
       },
       "geometry": {
         "type": "Polygon",
@@ -6602,9 +6602,9 @@
         "kind": "shop",
         "class": "B_Shop_02_C",
         "minZ": 125.67,
-        "maxZ": 134.67,
+        "maxZ": 134.71,
         "baseZ": 125.67,
-        "height": 9
+        "height": 9.04
       },
       "geometry": {
         "type": "Polygon",
@@ -6992,9 +6992,9 @@
         "kind": "shop",
         "class": "B_Shop_02_C",
         "minZ": 125.63,
-        "maxZ": 134.64,
+        "maxZ": 134.67,
         "baseZ": 125.63,
-        "height": 9.01
+        "height": 9.04
       },
       "geometry": {
         "type": "Polygon",
@@ -7127,11 +7127,11 @@
             ],
             [
               -682.2,
-              -2781.4
+              -2781.36
             ],
             [
               -703.35,
-              -2781.4
+              -2781.36
             ],
             [
               -703.35,
@@ -7392,11 +7392,11 @@
           [
             [
               -428.32,
-              -2259.43
+              -2259.48
             ],
             [
               -406.56,
-              -2259.43
+              -2259.48
             ],
             [
               -406.56,
@@ -7408,7 +7408,7 @@
             ],
             [
               -428.32,
-              -2259.43
+              -2259.48
             ]
           ]
         ]
@@ -7508,7 +7508,7 @@
         "coordinates": [
           [
             [
-              -276.97,
+              -277.01,
               -2587.42
             ],
             [
@@ -7520,11 +7520,11 @@
               -2564.81
             ],
             [
-              -276.97,
+              -277.01,
               -2564.81
             ],
             [
-              -276.97,
+              -277.01,
               -2587.42
             ]
           ]
@@ -7665,11 +7665,11 @@
           [
             [
               414.54,
-              -2650.32
+              -2650.36
             ],
             [
               437.33,
-              -2650.32
+              -2650.36
             ],
             [
               437.33,
@@ -7681,7 +7681,7 @@
             ],
             [
               414.54,
-              -2650.32
+              -2650.36
             ]
           ]
         ]
@@ -7985,11 +7985,11 @@
             ],
             [
               1837.04,
-              -3201.43
+              -3201.38
             ],
             [
               1816.06,
-              -3201.43
+              -3201.38
             ],
             [
               1816.06,
