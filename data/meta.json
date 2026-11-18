@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "gameBuild": "25937608",
+  "gameBuild": "26615518",
   "currencies": [
     {
       "id": "Cash",
@@ -11,17 +11,31 @@
       "id": "GoldBars",
       "name": "Gold Bars",
       "initialBalance": 0
+    },
+    {
+      "id": "Movember",
+      "name": "Movember",
+      "initialBalance": 0
     }
   ],
   "currentSeason": 1,
   "goldMarket": [
     {
+      "id": "BlackAndGold.Defibrillator",
+      "category": "BlackAndGold",
+      "entity": "Id.Item.Defibrillator.Standard",
+      "goldBars": 30,
+      "gridIndex": 1,
+      "tile": "LARGE_SQUARE",
+      "expiration": "EXPIRATION_NO_END_TIME"
+    },
+    {
       "id": "BlackAndGold.Littlebird",
       "category": "BlackAndGold",
       "entity": "Vehicle.Variant.Air.Rotary.Littlebird.Default",
       "goldBars": 30,
-      "gridIndex": 1,
-      "tile": "HERO_TILE",
+      "gridIndex": 0,
+      "tile": "LARGE_RECTANGLE",
       "expiration": "EXPIRATION_NO_END_TIME",
       "expirationTime": "2026-12-31T00:00:00.000Z"
     },
@@ -30,8 +44,17 @@
       "category": "ChocolateChip",
       "entity": "Id.Item.WEPN_036",
       "goldBars": 10,
-      "gridIndex": 1,
+      "gridIndex": 2,
       "tile": "SMALL_RECTANGLE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "ChocolateChip.FAL",
+      "category": "ChocolateChip",
+      "entity": "Id.Item.WEPN_030",
+      "goldBars": 10,
+      "gridIndex": 0,
+      "tile": "LARGE_SQUARE",
       "expiration": "NO_EXPIRATION"
     },
     {
@@ -39,8 +62,17 @@
       "category": "ChocolateChip",
       "entity": "Id.Item.WEPN_034",
       "goldBars": 10,
-      "gridIndex": 2,
-      "tile": "SMALL_RECTANGLE",
+      "gridIndex": 4,
+      "tile": "SMALL_SQUARE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "ChocolateChip.M1911",
+      "category": "ChocolateChip",
+      "entity": "Id.Item.WEPN_026",
+      "goldBars": 5,
+      "gridIndex": 1,
+      "tile": "SMALL_SQUARE",
       "expiration": "NO_EXPIRATION"
     },
     {
@@ -48,8 +80,17 @@
       "category": "ChocolateChip",
       "entity": "Id.Item.WEPN_037",
       "goldBars": 10,
+      "gridIndex": 3,
+      "tile": "SMALL_RECTANGLE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "DigitalWood.CompoundBow",
+      "category": "DigitalWood",
+      "entity": "Id.Item.CombatBow",
+      "goldBars": 10,
       "gridIndex": 0,
-      "tile": "LARGE_RECTANGLE",
+      "tile": "SMALL_RECTANGLE",
       "expiration": "NO_EXPIRATION"
     },
     {
@@ -57,8 +98,8 @@
       "category": "DigitalWood",
       "entity": "Id.Item.Glock17",
       "goldBars": 5,
-      "gridIndex": 0,
-      "tile": "LARGE_SQUARE",
+      "gridIndex": 3,
+      "tile": "SMALL_SQUARE",
       "expiration": "NO_EXPIRATION"
     },
     {
@@ -66,7 +107,7 @@
       "category": "DigitalWood",
       "entity": "Id.Item.M4",
       "goldBars": 10,
-      "gridIndex": 3,
+      "gridIndex": 4,
       "tile": "SMALL_RECTANGLE",
       "expiration": "NO_EXPIRATION"
     },
@@ -75,8 +116,8 @@
       "category": "DigitalWood",
       "entity": "Id.Item.M500",
       "goldBars": 10,
-      "gridIndex": 4,
-      "tile": "SMALL_SQUARE",
+      "gridIndex": 5,
+      "tile": "SMALL_RECTANGLE",
       "expiration": "NO_EXPIRATION"
     },
     {
@@ -84,7 +125,7 @@
       "category": "DigitalWood",
       "entity": "Id.Item.Parachute.Sport",
       "goldBars": 15,
-      "gridIndex": 1,
+      "gridIndex": 2,
       "tile": "SMALL_SQUARE",
       "expiration": "NO_EXPIRATION"
     },
@@ -93,7 +134,7 @@
       "category": "DigitalWood",
       "entity": "Id.Item.SV98",
       "goldBars": 10,
-      "gridIndex": 2,
+      "gridIndex": 1,
       "tile": "SMALL_RECTANGLE",
       "expiration": "NO_EXPIRATION"
     },
@@ -129,7 +170,7 @@
       "category": "TwoToneDesert",
       "entity": "Id.Item.A91",
       "goldBars": 5,
-      "gridIndex": 5,
+      "gridIndex": 4,
       "tile": "SMALL_SQUARE",
       "expiration": "NO_EXPIRATION"
     },
@@ -138,7 +179,7 @@
       "category": "TwoToneDesert",
       "entity": "Id.Item.SR_04",
       "goldBars": 15,
-      "gridIndex": 10,
+      "gridIndex": 13,
       "tile": "SMALL_RECTANGLE",
       "expiration": "NO_EXPIRATION"
     },
@@ -147,7 +188,7 @@
       "category": "TwoToneDesert",
       "entity": "Vehicle.Variant.Land.Wheeled.Bobcat.Default",
       "goldBars": 5,
-      "gridIndex": 0,
+      "gridIndex": 2,
       "tile": "SMALL_SQUARE",
       "expiration": "NO_EXPIRATION"
     },
@@ -156,8 +197,17 @@
       "category": "TwoToneDesert",
       "entity": "Id.Item.WEPN_033",
       "goldBars": 5,
-      "gridIndex": 11,
+      "gridIndex": 6,
       "tile": "SMALL_SQUARE",
+      "expiration": "NO_EXPIRATION"
+    },
+    {
+      "id": "TwoToneDesert.CGM4",
+      "category": "TwoToneDesert",
+      "entity": "Id.Item.CGM4",
+      "goldBars": 15,
+      "gridIndex": 12,
+      "tile": "LARGE_SQUARE",
       "expiration": "NO_EXPIRATION"
     },
     {
@@ -165,7 +215,7 @@
       "category": "TwoToneDesert",
       "entity": "Vehicle.Variant.Land.Wheeled.DuneBuggy.Default",
       "goldBars": 10,
-      "gridIndex": 1,
+      "gridIndex": 5,
       "tile": "SMALL_RECTANGLE",
       "expiration": "NO_EXPIRATION"
     },
@@ -174,7 +224,7 @@
       "category": "TwoToneDesert",
       "entity": "Id.Item.WEPN_029",
       "goldBars": 10,
-      "gridIndex": 14,
+      "gridIndex": 7,
       "tile": "SMALL_RECTANGLE",
       "expiration": "NO_EXPIRATION"
     },
@@ -183,7 +233,7 @@
       "category": "TwoToneDesert",
       "entity": "Vehicle.Variant.Air.Rotary.Havoc.Default",
       "goldBars": 15,
-      "gridIndex": 15,
+      "gridIndex": 0,
       "tile": "SMALL_RECTANGLE",
       "expiration": "NO_EXPIRATION"
     },
@@ -192,7 +242,7 @@
       "category": "TwoToneDesert",
       "entity": "Vehicle.Variant.Land.Wheeled.Humvee.Default",
       "goldBars": 10,
-      "gridIndex": 2,
+      "gridIndex": 1,
       "tile": "LARGE_SQUARE",
       "expiration": "NO_EXPIRATION"
     },
@@ -201,7 +251,7 @@
       "category": "TwoToneDesert",
       "entity": "Id.Item.KH2002",
       "goldBars": 5,
-      "gridIndex": 6,
+      "gridIndex": 9,
       "tile": "SMALL_SQUARE",
       "expiration": "NO_EXPIRATION"
     },
@@ -219,7 +269,7 @@
       "category": "TwoToneDesert",
       "entity": "Id.Item.M249",
       "goldBars": 15,
-      "gridIndex": 9,
+      "gridIndex": 10,
       "tile": "SMALL_RECTANGLE",
       "expiration": "NO_EXPIRATION"
     },
@@ -237,7 +287,7 @@
       "category": "TwoToneDesert",
       "entity": "Id.Item.M500",
       "goldBars": 10,
-      "gridIndex": 12,
+      "gridIndex": 11,
       "tile": "SMALL_SQUARE",
       "expiration": "NO_EXPIRATION"
     },
@@ -246,7 +296,7 @@
       "category": "TwoToneDesert",
       "entity": "Id.Item.Mosin",
       "goldBars": 10,
-      "gridIndex": 13,
+      "gridIndex": 14,
       "tile": "SMALL_SQUARE",
       "expiration": "NO_EXPIRATION"
     },
@@ -255,11 +305,20 @@
       "category": "TwoToneDesert",
       "entity": "Id.Item.MP9",
       "goldBars": 10,
-      "gridIndex": 7,
+      "gridIndex": 15,
       "tile": "SMALL_RECTANGLE",
       "expiration": "NO_EXPIRATION"
     }
   ],
+  "goldExchange": {
+    "name": "Gold Exchange",
+    "description": "Unlocks the Gold Exchange in the frontend. Trade cash for gold bars which can be used to unlock cosmetics.",
+    "unlock": {
+      "role": "Wardog",
+      "level": 35,
+      "cost": 100000
+    }
+  },
   "passiveMissions": [
     {
       "id": "EarnAnyRoleXp",
@@ -453,6 +512,12 @@
       "description": "Kill an enemy with the defibrillator."
     },
     {
+      "id": "Combat.HesBehindYou",
+      "steamId": "ACH_COMBAT_HES_BEHIND_YOU",
+      "name": "He's behind you",
+      "description": "Kill an enemy with the backblast of an RPG or MAAWS while inside a Control Zone."
+    },
+    {
       "id": "Combat.LongShot",
       "steamId": "ACH_COMBAT_LONG_SHOT",
       "name": "Long Shot",
@@ -488,10 +553,27 @@
       "name": "Top Cash Earner"
     },
     {
+      "id": "HotZone.SlotMachine",
+      "steamId": "ACH_HOTZONE_SLOT_MACHINE",
+      "name": "Slot Machine",
+      "description": "On a map with 4 or more drill towers, call the Hot Zone after guessing at least 3 digits of the code."
+    },
+    {
+      "id": "Logistics.CarJacker",
+      "steamId": "ACH_LOGISTICS_CAR_JACKER",
+      "name": "Car Jacker",
+      "description": "Drop a stolen enemy supply pallet at a friendly FOB."
+    },
+    {
       "id": "Match.CleanSweep",
       "steamId": "ACH_MATCH_CLEAN_SWEEP",
       "name": "Clean Sweep",
       "description": "Win a KOTH match without the opposing faction scoring."
+    },
+    {
+      "id": "ShootingRange.SoundTheHorn",
+      "steamId": "ACH_SHOOTINGRANGE_SOUND_THE_HORN",
+      "name": "Sound The Horn"
     },
     {
       "id": "Survival.ControlZoneSurvivor",

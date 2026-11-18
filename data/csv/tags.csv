@@ -69,7 +69,6 @@ Item.Ammo.Type.HollowPoint,HP,Ammunition
 Item.Ammo.Type.HollowPoint.Tracer,HP,Ammunition
 Item.Ammo.Type.Slug,SLG,Ammunition
 Item.Archetype.AR,Assault Rifle,Archetypes
-Item.Archetype.Bobblehead,Bobblehead,Archetypes
 Item.Archetype.Bow,Bow,Archetypes
 Item.Archetype.DMR,DMR,Archetypes
 Item.Archetype.Grenade,Grenade,Archetypes
@@ -78,6 +77,9 @@ Item.Archetype.LMG,LMG,Archetypes
 Item.Archetype.Melee,Melee,Archetypes
 Item.Archetype.Parachute,Parachute,Archetypes
 Item.Archetype.Pistol,Pistol,Archetypes
+Item.Archetype.Player.Badge,Badges,Archetypes
+Item.Archetype.Player.Bobblehead,Bobblehead,Archetypes
+Item.Archetype.Player.Emote,Emotes,Archetypes
 Item.Archetype.Shotgun,Shotgun,Archetypes
 Item.Archetype.SMG,SMG,Archetypes
 Item.Archetype.Sniper,Sniper Rifle,Archetypes
@@ -122,6 +124,7 @@ Item.Caliber.50Cal,.50Cal,Calibers
 Item.Caliber.545mm,5.45x39mm,Calibers
 Item.Caliber.556mm,5.56x45mm,Calibers
 Item.Caliber.70mm,70mm,Calibers
+Item.Caliber.70x1060mm,Hydra 70mm,Calibers
 Item.Caliber.762mm,7.62x39mm,Calibers
 Item.Caliber.762x51mm,7.62x51mm,Calibers
 Item.Caliber.762x54mm,7.62x54mm,Calibers
@@ -166,6 +169,7 @@ Server.Descriptor.DownedStateDisabled,No Downed State,ServerTags
 Server.Descriptor.GiveUpDisabled,No Give Up,ServerTags
 Server.Descriptor.Hardcore,Hardcore,ServerTags
 Server.Descriptor.InfantryOnly,Infantry Only,ServerTags
+Server.Descriptor.LimitedGear,Limited Gear,ServerTags
 Server.Descriptor.MaxAllowedPing,Max Allowed Ping {Value} ms,ServerTags
 Server.Descriptor.MaxPlayerCash,Max {Value},ServerTags
 Server.Descriptor.MaxPlayerLevel,Max Lvl {Value},ServerTags
@@ -207,7 +211,7 @@ UI.Scene.Frontend.Blackmarket,Black Market,SceneNames
 UI.Scene.Frontend.Blackmarket.Investments,Investments,SceneNames
 UI.Scene.Frontend.Blackmarket.Missions,Missions,SceneNames
 UI.Scene.Frontend.Blackmarket.Unlocks,Unlocks,SceneNames
-UI.Scene.Frontend.Career,Unlock,SceneNames
+UI.Scene.Frontend.Career,Progression,SceneNames
 UI.Scene.Frontend.Collection,Collection,SceneNames
 UI.Scene.Frontend.Customize,Customize,SceneNames
 UI.Scene.Frontend.DeploymentSelect,Deploy,SceneNames

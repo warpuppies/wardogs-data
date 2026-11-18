@@ -27,9 +27,8 @@ describe("data/damage.json: structure and floors", () => {
 
   it("only protects vehicles that exist in items.json", () => {
     const ids = new Set(items.map((i) => i.id.toLowerCase()));
-    // The game lists a vehicle (ROT_01) that is not in the game files any more.
     const missing = damage.vehicleSeats.map((v) => v.vehicle).filter((v) => !ids.has(v.toLowerCase()));
-    expect(missing.sort()).toEqual(["Vehicle.Variant.Air.Rotary.ROT_01.Default", "Vehicle.Variant.Air.Rotary.ROT_01.MountedMachineGuns"]);
+    expect(missing.sort()).toEqual([]);
   });
 
   it("gives every weapon class a full set of body parts", () => {
@@ -43,7 +42,7 @@ describe("data/damage.json: structure and floors", () => {
 describe("data/damage.json: canaries", () => {
   it("assault rifles do 2.35x to the head and 0.9x to the limbs; snipers 4.2667x to the head", () => {
     const get = (c: string) => damage.hitLocationMultipliers.find((x) => x.weaponClass === c)!.multipliers;
-    expect(get("Weapon.AR")).toMatchObject({ Head: 2.35, Neck: 2.35, "Torso.Upper": 0.885, "Arm.Hand": 0.9, "Leg.Foot": 0.9 });
+    expect(get("Weapon.AR")).toMatchObject({ Head: 2.35, Neck: 2.35, "Torso.Upper": 1, "Arm.Hand": 0.9, "Leg.Foot": 0.9 });
     expect(get("Weapon.Sniper").Head).toBe(4.2667);
     expect(get("Universal")).toMatchObject({ Head: 1, Neck: 0.75, "Torso.Upper": 1.1 });
   });

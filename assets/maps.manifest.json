@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "generatedBy": "pnpm maps",
   "doNotEdit": true,
-  "gameBuild": "25937608",
+  "gameBuild": "26615518",
   "worlds": {
     "europe": {
       "sourceSha256": "5e0fa8f0bcbca6d9754ab5e479d929c6ed812733e3b382d24e5f2afd8d3a14c6",
@@ -27321,8 +27321,8 @@
       ],
       "heightmap": {
         "path": "heightmap.png",
-        "sha256": "6ba16f6ee226933fc6f45a1290a359fab8cc3ec534ced40673d12dd5c5ed41ec",
-        "bytes": 124194219
+        "sha256": "6844373355a8254b9981c039b2a65dc6a5c889ab84e760e72537f8865a7588db",
+        "bytes": 124194421
       }
     },
     "kavkazi": {

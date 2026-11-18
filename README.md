@@ -38,7 +38,8 @@ How much of the game each part of the data covers, and what is missing or uncert
 | Weapons, ammunition, attachments | Complete | `weapons.json`<br>`ammo.json`<br>`attachments.json` | As stored in the game files. |
 | Armor and equipment | Complete | `equipment.json` | - |
 | Damage model | Complete | `damage.json` | Hit locations, ammo types, armor and vehicle damage rules. |
-| Vehicles | Partial | `vehicles.json`<br>`vehicle-configs.json` | The hull mass of tracked vehicles is not in the game files, only the track and sprocket masses. |
+| Vehicles | Partial | `vehicles.json`<br>`vehicle-configs.json`<br>`vehicle-models.json` | The hull mass of tracked vehicles is not in the game files, only the track and sprocket masses. 3D models and collision shapes are published for the Little Bird only (no weapon variants), as geometry without textures. |
+| Options menu settings | Partial | `settings.json` | Ranges, starting values and choices. The names the menu shows live in string tables and are not included; a value an asset does not store is a built-in default that is not in the game files. |
 | Buildable structures | Complete | `buildables.json` | - |
 | Cosmetics | Complete | `cosmetics.json` | - |
 | Loot | Partial | `loot.json` | Loot tables are complete. Spawn positions are created at runtime and are not in the game files. |
@@ -66,10 +67,12 @@ The data is what the game's files hold for one build. The server can override so
 | Hit-location multipliers, ammo types, armor and vehicle damage rules | `data/damage.json`, `data/csv/damage-rules.csv`, `data/csv/hit-location-multipliers.csv` |
 | Vehicle speed, fuel, seats, health, mass, engine, gearbox | `data/vehicles.json`, `data/csv/vehicles.csv` |
 | Every stored vehicle property (physics, wheels, suspension, flight, tracks, input, systems, curves) | `data/vehicle-configs.json` |
+| The 3D shape of a vehicle (triangle meshes, where each part sits, and the collision shapes the physics engine simulates; only the Little Bird so far) | `data/vehicle-models.json` |
 | Buildable structures: cost, health, size, placement rules, icon | `data/buildables.json`, `data/csv/buildables.csv` |
 | Loot tables (what spawns in towers and other lootables) | `data/loot.json`, `data/csv/loot-tables.csv`, `data/csv/loot-items.csv` |
 | Display text for tags (archetypes, calibers, roles, damage types, slots) | `data/tags.json`, `data/csv/tags.csv` |
 | Player stances, jump, fall damage, ladders, strafing, stamina regeneration, swimming, vaulting, mantling, climbing, parachute | `data/movement.json` |
+| The options menu's settings: ranges and starting values (field of view, sensitivities, dead zones, helicopter mouse control) and the choices of each list | `data/settings.json` |
 | Cosmetic skins, emotes and sets | `data/cosmetics.json`, `data/csv/cosmetics.csv` |
 | Cash and role XP paid for every in-match event, as the game's formulas, with the numbers, conditions and curves behind them | `data/challenge-rewards.json`, `data/csv/challenge-reward-events.csv`, `data/csv/challenge-rewards.csv`, `data/csv/challenge-reward-variables.csv`, `data/csv/reward-curve-points.csv` |
 | XP needed for each role level (Infantry, Support, Medic, Recon, Pilot, Driver) | `data/roles.json`, `data/csv/role-levels.csv` |

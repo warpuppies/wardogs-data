@@ -1,11 +1,15 @@
 id,steam_id,name,description,thresholds
 Combat.DefibrillatorKill,ACH_COMBAT_DEFIBRILLATOR_KILL,Defibrillator Kill,Kill an enemy with the defibrillator.,
+Combat.HesBehindYou,ACH_COMBAT_HES_BEHIND_YOU,He's behind you,Kill an enemy with the backblast of an RPG or MAAWS while inside a Control Zone.,
 Combat.LongShot,ACH_COMBAT_LONG_SHOT,Long Shot,,DistanceThreshold=95000
 Combat.RicochetKill,ACH_COMBAT_RICOCHET_KILL,Ricochet Kill,Kill an enemy with a ricocheted projectile.,
 Economy.LoadoutSpend,ACH_ECONOMY_LOADOUT_SPEND,Loadout Spender,,CashThreshold=100000
 Economy.SingleLifeProfit,ACH_ECONOMY_SINGLE_LIFE_PROFIT,Single Life Profit,,CashThreshold=100000
 Economy.TopCashEarner,ACH_ECONOMY_TOP_CASH_EARNER,Top Cash Earner,,
+HotZone.SlotMachine,ACH_HOTZONE_SLOT_MACHINE,Slot Machine,"On a map with 4 or more drill towers, call the Hot Zone after guessing at least 3 digits of the code.",
+Logistics.CarJacker,ACH_LOGISTICS_CAR_JACKER,Car Jacker,Drop a stolen enemy supply pallet at a friendly FOB.,
 Match.CleanSweep,ACH_MATCH_CLEAN_SWEEP,Clean Sweep,Win a KOTH match without the opposing faction scoring.,
+ShootingRange.SoundTheHorn,ACH_SHOOTINGRANGE_SOUND_THE_HORN,Sound The Horn,,
 Survival.ControlZoneSurvivor,ACH_SURVIVAL_CONTROL_ZONE_SURVIVOR,Control Zone Survivor,,RequiredSeconds=3600
 Tutorial.Completed,ACH_TUTORIAL_COMPLETED,Complete The Tutorial,,
 Tutorial.PunchKristopher,ACH_TUTORIAL_PUNCH_KRISTOPHER,Punch Kristopher,,

@@ -10,7 +10,8 @@ import { gamePath } from "../src/maps/terrain.js";
 import { writePng16 } from "./png16.js";
 import { SERVER_BROWSER_TABLE, WORLDS, worldMapDataPath } from "../src/maps/worlds.js";
 import { apply, plan, verify } from "../src/pipeline.js";
-import { writeGameplayFixture, writeMetaFixture, writeMovementFixture } from "./gameplayFixture.js";
+import { writeGameplayFixture, writeMetaFixture, writeMovementFixture, writeSettingsFixture } from "./gameplayFixture.js";
+import { writeModelsFixture } from "./modelsFixture.js";
 
 function put(path: string, content: string | Buffer): void {
   mkdirSync(dirname(path), { recursive: true });
@@ -29,6 +30,8 @@ async function makeCache(): Promise<string> {
   writeGameplayFixture(raw);
   writeMovementFixture(raw);
   writeMetaFixture(raw);
+  writeSettingsFixture(raw);
+  writeModelsFixture(raw);
 
   const rows = Object.fromEntries(WORLDS.map((w) => [w.serverRow, { DisplayName: { CultureInvariantString: `Map ${w.id}` } }]));
   put(join(raw, "maps/json", `${SERVER_BROWSER_TABLE}.json`), JSON.stringify([{ Type: "DataTable", Rows: rows }]));
@@ -63,6 +66,7 @@ describe("pipeline as code", () => {
     const { entries } = await plan(newRoot(), await makeCache());
     const paths = entries.map((e) => e.path);
     expect(paths).toContain("data/items.json");
+    expect(paths).toContain("data/vehicle-models.json");
     expect(paths).toContain(MANIFEST_PATH);
     for (const w of WORLDS) {
       expect(paths).toContain(`data/maps/${w.id}/map.json`);

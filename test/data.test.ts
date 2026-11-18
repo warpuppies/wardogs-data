@@ -48,7 +48,7 @@ describe("data/items.json: unlocks", () => {
   });
 
   it("has levels in the game's range", () => {
-    for (const i of unlocked) expect(i.unlock?.level, i.id).toBeLessThanOrEqual(150);
+    for (const i of unlocked) expect(i.unlock?.level, i.id).toBeLessThanOrEqual(200);
   });
 
   it("is not just a 0/1 flag", () => {
@@ -205,9 +205,9 @@ describe("data/items.json: canaries", () => {
   it("unlocks: role, minimum level and cash cost", () => {
     // The AK74M is no longer in the unlock tree (it used to cost 10000 at Infantry level 3).
     expect(get("Id.Item.AK74M").unlock).toBeNull();
-    expect(get("Id.Item.MUZL_024").unlock).toEqual({ role: "Infantry", level: 5, cost: 12500 });
-    expect(get("Id.Item.Glock17").unlock).toEqual({ role: "Wardog", level: 18, cost: 15000 });
-    expect(get("Vehicle.Variant.Air.Rotary.Havoc.Default").unlock).toEqual({ role: "Pilot", level: 35, cost: 650000 });
+    expect(get("Id.Item.MUZL_024").unlock).toEqual({ role: "Infantry", level: 7, cost: 12500 });
+    expect(get("Id.Item.Glock17").unlock).toEqual({ role: "Wardog", level: 20, cost: 15000 });
+    expect(get("Vehicle.Variant.Air.Rotary.Havoc.Default").unlock).toEqual({ role: "Pilot", level: 35, cost: 750000 });
   });
 
   it("ranking: the super bandage tops the best single-cell attachment", () => {

@@ -15,6 +15,7 @@
 //   export-textures <packages.json> <outDir>              full-size PNG of every texture in a list, under its package path (icons)
 //   export-actors <worldFolder> <classPattern> <out.jsonl>  placed actors of a world whose class matches: class, name, transform, simple properties
 //   export-rvt-volumes <levelPackage> <out.json>          runtime virtual texture volumes of a level (texture refs and transforms)
+//   export-mesh <package> <out.json>                      geometry of a static or skeletal mesh (a package path like /ROT_03/Meshes/SM_X or /Game/X, with or without .Name): every level of detail (positions in centimeters, triangle indices, sections), and for a skeletal mesh its bones
 using System.Collections.Concurrent;
 using System.IO.Compression;
 using System.Text.RegularExpressions;
@@ -24,9 +25,14 @@ using CUE4Parse.MappingsProvider.Usmap;
 using CUE4Parse.UE4.Assets;
 using CUE4Parse.UE4.Assets.Exports;
 using CUE4Parse.UE4.IO.Objects;
+using CUE4Parse.UE4.Assets.Exports.SkeletalMesh;
+using CUE4Parse.UE4.Assets.Exports.StaticMesh;
 using CUE4Parse.UE4.Assets.Exports.Texture;
 using CUE4Parse.UE4.Objects.Core.Misc;
 using CUE4Parse.UE4.Versions;
+using CUE4Parse.UE4.Assets.Exports.Engine;
+using CUE4Parse_Conversion.Meshes;
+using CUE4Parse_Conversion.Dto;
 using CUE4Parse_Conversion.Textures;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -132,8 +138,11 @@ switch (args.FirstOrDefault())
     case "export-rvt-volumes" when args.Length == 3:
         return ExportRvtVolumes(args[1], args[2]);
 
+    case "export-mesh" when args.Length == 3:
+        return ExportMesh(args[1], args[2]);
+
     default:
-        Console.Error.WriteLine("Usage: Unpack list <pattern> | export-json <include> <exclude> <outDir> | export-building-parts <worldFolder> <out.jsonl> | export-texture <package> <out.png> | export-textures <packages.json> <outDir> | export-actors <worldFolder> <classPattern> <out.jsonl> | export-rvt-volumes <level> <out.json>");
+        Console.Error.WriteLine("Usage: Unpack list <pattern> | export-json <include> <exclude> <outDir> | export-building-parts <worldFolder> <out.jsonl> | export-texture <package> <out.png> | export-textures <packages.json> <outDir> | export-actors <worldFolder> <classPattern> <out.jsonl> | export-rvt-volumes <level> <out.json> | export-mesh <package> <out.json>");
         return 1;
 }
 
@@ -516,4 +525,71 @@ int ExportRvtVolumes(string levelPackage, string outPath)
     SaveClassCache();
     Console.Error.WriteLine($"{rows.Count} runtime virtual texture components");
     return rows.Count > 0 ? 0 : 7;
+}
+
+// The file of a package named the way the game names it: `/Game/X` is `Wardogs/Content/X.uasset` and `/Plugin/X` is
+// `Wardogs/Plugins/.../Plugin/Content/X.uasset`. A `.Name` suffix (an object path) is ignored.
+string ResolvePackage(string package)
+{
+    if (package.EndsWith(".uasset")) return package;
+    var name = Regex.Replace(package, @"\.[^./]*$", "");
+    var game = Regex.Match(name, @"^/Game/(.+)$");
+    var plugin = Regex.Match(name, @"^/([^/]+)/(.+)$");
+    var wanted = game.Success
+        ? new Regex($"^Wardogs/Content/{Regex.Escape(game.Groups[1].Value)}\\.uasset$", RegexOptions.IgnoreCase)
+        : plugin.Success
+            ? new Regex($"^Wardogs/Plugins/(?:[^/]+/)*{Regex.Escape(plugin.Groups[1].Value)}/Content/{Regex.Escape(plugin.Groups[2].Value)}\\.uasset$", RegexOptions.IgnoreCase)
+            : throw new ArgumentException($"Not a package path: {package}");
+    return provider.Files.Keys.FirstOrDefault(wanted.IsMatch) ?? throw new FileNotFoundException($"No package {package} in the game files");
+}
+
+// Writes the geometry of a static or skeletal mesh as JSON: for every level of detail the vertex positions (centimeters, the
+// game's axes), the triangle indices and the sections (material and index range); for a skeletal mesh also the bones and
+// the main bone of every vertex. Nothing about textures, materials or normals: the output is for drawing outlines.
+int ExportMesh(string package, string outPath)
+{
+    var packagePath = ResolvePackage(package);
+    var export = provider.LoadPackage(packagePath).GetExports().First(e => e is UStaticMesh or USkinnedAsset);
+    var lods = new List<object>();
+    object? bones = null;
+
+    object Lod<T>(MeshLodDto<T> lod, Func<T, int>? mainBone) where T : struct, IMeshVertex => new
+    {
+        sourceLod = lod.SourceLodIndex,
+        vertices = lod.Vertices.Length,
+        triangles = lod.Indices.Length / 3,
+        positions = lod.Vertices.SelectMany(v => new[] { Math.Round((double)v.Position.X, 2), Math.Round((double)v.Position.Y, 2), Math.Round((double)v.Position.Z, 2) }).ToArray(),
+        indices = lod.Indices,
+        sections = lod.Sections.Select(x => new { material = x.MaterialIndex, firstIndex = x.FirstIndex, triangles = x.NumFaces }).ToArray(),
+        mainBone = mainBone is null ? null : lod.Vertices.Select(mainBone).ToArray(),
+    };
+
+    string kind;
+    if (export is UStaticMesh staticMesh)
+    {
+        kind = "static";
+        if (!staticMesh.TryConvert(out var dto)) { Console.Error.WriteLine("could not convert the static mesh"); return 7; }
+        foreach (var lod in dto.LODs) lods.Add(Lod(lod, null));
+    }
+    else
+    {
+        kind = "skeletal";
+        if (!((USkinnedAsset)export).TryConvert(out var dto)) { Console.Error.WriteLine("could not convert the skeletal mesh"); return 7; }
+        bones = dto.Bones.Select(b => new
+        {
+            name = b.Name,
+            parent = b.ParentIndex,
+            translation = new[] { (double)b.Transform.Translation.X, b.Transform.Translation.Y, b.Transform.Translation.Z },
+            rotation = new[] { (double)b.Transform.Rotation.X, b.Transform.Rotation.Y, b.Transform.Rotation.Z, b.Transform.Rotation.W },
+            scale = new[] { (double)b.Transform.Scale3D.X, b.Transform.Scale3D.Y, b.Transform.Scale3D.Z },
+        }).ToArray();
+        // The bone that holds most of a vertex's weight.
+        foreach (var lod in dto.LODs)
+            lods.Add(Lod(lod, v => v.Influences.Length == 0 ? -1 : v.Influences.OrderByDescending(i => i.Weight).First().Bone));
+    }
+
+    Directory.CreateDirectory(Path.GetDirectoryName(Path.GetFullPath(outPath))!);
+    File.WriteAllText(outPath, JsonConvert.SerializeObject(new { package = packagePath, kind, bones, lods }, Formatting.None));
+    Console.Error.WriteLine($"{kind} mesh: {string.Join(", ", lods.Select(l => ((dynamic)l).triangles + " triangles"))}");
+    return 0;
 }

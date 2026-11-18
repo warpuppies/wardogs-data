@@ -1,0 +1,466 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Vehicle models",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1,
+      "description": "Version of this file's layout. It changes only when the layout does."
+    },
+    "gameBuild": {
+      "type": "string",
+      "description": "Steam build id the data was extracted from."
+    },
+    "units": {
+      "type": "string",
+      "const": "meters",
+      "description": "Unit of every distance in the file."
+    },
+    "models": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The vehicle platform's name in the game files, for example `ROT_03` for the Little Bird. It is also the folder name in the `asset` path of the variants in vehicles.json that use the model."
+          },
+          "platform": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Path of the platform asset that lists the parts, inside the game files."
+          },
+          "parts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Name of the part's mesh asset, for example `SM_ROT_03_MainRotorBlades`. Unique within the model."
+                },
+                "asset": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Path of the mesh's package inside the game files."
+                },
+                "kind": {
+                  "type": "string",
+                  "enum": [
+                    "chassis",
+                    "static",
+                    "destructible"
+                  ],
+                  "description": "`chassis` is the skeletal mesh the other parts attach to (the cabin and its interior). `static` is a fixed part (body shell, skids, doors). `destructible` is a part the game can break off, which is also how it places the rotors."
+                },
+                "tag": {
+                  "description": "The game's tag for a destructible part, for example `Vehicle.DestructibleMesh.Rotor.Main.Blades`. Parts with `Rotor` in the tag turn about their own local Z axis.",
+                  "type": "string"
+                },
+                "bone": {
+                  "description": "The chassis bone the part is attached to, as the game spells it (`body_J`), or null for the chassis itself.",
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "position": {
+                  "type": "array",
+                  "prefixItems": [
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "type": "number"
+                    }
+                  ],
+                  "items": false,
+                  "minItems": 3,
+                  "maxItems": 3,
+                  "description": "Where the part's origin is in the model's space, in meters: x forward, y right, z up. The bone's position combined with the part's own offset."
+                },
+                "rotation": {
+                  "type": "array",
+                  "prefixItems": [
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "type": "number"
+                    }
+                  ],
+                  "items": false,
+                  "minItems": 4,
+                  "maxItems": 4,
+                  "description": "Orientation of the part in the model's space as a quaternion [x, y, z, w]."
+                },
+                "scale": {
+                  "type": "array",
+                  "prefixItems": [
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "type": "number"
+                    }
+                  ],
+                  "items": false,
+                  "minItems": 3,
+                  "maxItems": 3,
+                  "description": "Scale of the part in the model's space."
+                },
+                "vertices": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "description": "Vertex positions in meters, in the part's own space (before `position`, `rotation` and `scale`), three numbers per vertex, rounded to a centimeter."
+                },
+                "triangles": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  },
+                  "description": "Vertex numbers of the triangles, three per triangle."
+                }
+              },
+              "required": [
+                "id",
+                "asset",
+                "kind",
+                "bone",
+                "position",
+                "rotation",
+                "scale",
+                "vertices",
+                "triangles"
+              ],
+              "additionalProperties": false,
+              "description": "One mesh of a vehicle model, with where it sits."
+            },
+            "description": "The parts of the default variant, with no weapons: the chassis first, then the parts in the order the game lists them."
+          },
+          "physics": {
+            "anyOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "asset": {
+                    "type": "string",
+                    "minLength": 1,
+                    "description": "Path of the physics asset inside the game files."
+                  },
+                  "bodies": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "bone": {
+                          "type": "string",
+                          "description": "The bone the body moves with, as the game spells it."
+                        },
+                        "maxAngularVelocityDegPerS": {
+                          "description": "The fastest the physics engine lets the body turn, in degrees per second, when the asset sets its own limit. Absent: the engine's default.",
+                          "type": "number"
+                        },
+                        "shapes": {
+                          "type": "array",
+                          "items": {
+                            "oneOf": [
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "kind": {
+                                    "type": "string",
+                                    "const": "sphere"
+                                  },
+                                  "name": {
+                                    "type": "string",
+                                    "description": "The shape's name in the game files, for example `Tail`. Several shapes can share a name."
+                                  },
+                                  "center": {
+                                    "type": "array",
+                                    "prefixItems": [
+                                      {
+                                        "type": "number"
+                                      },
+                                      {
+                                        "type": "number"
+                                      },
+                                      {
+                                        "type": "number"
+                                      }
+                                    ],
+                                    "items": false,
+                                    "minItems": 3,
+                                    "maxItems": 3,
+                                    "description": "Center of the shape in the model's space, in meters."
+                                  },
+                                  "rotation": {
+                                    "type": "array",
+                                    "prefixItems": [
+                                      {
+                                        "type": "number"
+                                      },
+                                      {
+                                        "type": "number"
+                                      },
+                                      {
+                                        "type": "number"
+                                      },
+                                      {
+                                        "type": "number"
+                                      }
+                                    ],
+                                    "items": false,
+                                    "minItems": 4,
+                                    "maxItems": 4,
+                                    "description": "Orientation of the shape in the model's space as a quaternion [x, y, z, w]."
+                                  },
+                                  "contributesToMass": {
+                                    "type": "boolean",
+                                    "description": "Whether the physics engine counts the shape when it works out the body's mass, balance point and inertia."
+                                  },
+                                  "radius": {
+                                    "type": "number",
+                                    "description": "Radius in meters."
+                                  }
+                                },
+                                "required": [
+                                  "kind",
+                                  "name",
+                                  "center",
+                                  "rotation",
+                                  "contributesToMass",
+                                  "radius"
+                                ],
+                                "additionalProperties": false,
+                                "description": "A ball."
+                              },
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "kind": {
+                                    "type": "string",
+                                    "const": "box"
+                                  },
+                                  "name": {
+                                    "type": "string",
+                                    "description": "The shape's name in the game files, for example `Tail`. Several shapes can share a name."
+                                  },
+                                  "center": {
+                                    "type": "array",
+                                    "prefixItems": [
+                                      {
+                                        "type": "number"
+                                      },
+                                      {
+                                        "type": "number"
+                                      },
+                                      {
+                                        "type": "number"
+                                      }
+                                    ],
+                                    "items": false,
+                                    "minItems": 3,
+                                    "maxItems": 3,
+                                    "description": "Center of the shape in the model's space, in meters."
+                                  },
+                                  "rotation": {
+                                    "type": "array",
+                                    "prefixItems": [
+                                      {
+                                        "type": "number"
+                                      },
+                                      {
+                                        "type": "number"
+                                      },
+                                      {
+                                        "type": "number"
+                                      },
+                                      {
+                                        "type": "number"
+                                      }
+                                    ],
+                                    "items": false,
+                                    "minItems": 4,
+                                    "maxItems": 4,
+                                    "description": "Orientation of the shape in the model's space as a quaternion [x, y, z, w]."
+                                  },
+                                  "contributesToMass": {
+                                    "type": "boolean",
+                                    "description": "Whether the physics engine counts the shape when it works out the body's mass, balance point and inertia."
+                                  },
+                                  "size": {
+                                    "type": "array",
+                                    "prefixItems": [
+                                      {
+                                        "type": "number"
+                                      },
+                                      {
+                                        "type": "number"
+                                      },
+                                      {
+                                        "type": "number"
+                                      }
+                                    ],
+                                    "items": false,
+                                    "minItems": 3,
+                                    "maxItems": 3,
+                                    "description": "Full size along the shape's own x, y and z axes, in meters (not half sizes)."
+                                  }
+                                },
+                                "required": [
+                                  "kind",
+                                  "name",
+                                  "center",
+                                  "rotation",
+                                  "contributesToMass",
+                                  "size"
+                                ],
+                                "additionalProperties": false,
+                                "description": "A box."
+                              },
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "kind": {
+                                    "type": "string",
+                                    "const": "capsule"
+                                  },
+                                  "name": {
+                                    "type": "string",
+                                    "description": "The shape's name in the game files, for example `Tail`. Several shapes can share a name."
+                                  },
+                                  "center": {
+                                    "type": "array",
+                                    "prefixItems": [
+                                      {
+                                        "type": "number"
+                                      },
+                                      {
+                                        "type": "number"
+                                      },
+                                      {
+                                        "type": "number"
+                                      }
+                                    ],
+                                    "items": false,
+                                    "minItems": 3,
+                                    "maxItems": 3,
+                                    "description": "Center of the shape in the model's space, in meters."
+                                  },
+                                  "rotation": {
+                                    "type": "array",
+                                    "prefixItems": [
+                                      {
+                                        "type": "number"
+                                      },
+                                      {
+                                        "type": "number"
+                                      },
+                                      {
+                                        "type": "number"
+                                      },
+                                      {
+                                        "type": "number"
+                                      }
+                                    ],
+                                    "items": false,
+                                    "minItems": 4,
+                                    "maxItems": 4,
+                                    "description": "Orientation of the shape in the model's space as a quaternion [x, y, z, w]."
+                                  },
+                                  "contributesToMass": {
+                                    "type": "boolean",
+                                    "description": "Whether the physics engine counts the shape when it works out the body's mass, balance point and inertia."
+                                  },
+                                  "radius": {
+                                    "type": "number",
+                                    "description": "Radius of the round ends and of the middle, in meters."
+                                  },
+                                  "length": {
+                                    "type": "number",
+                                    "description": "Length of the straight middle part along the shape's own z axis, in meters. The whole capsule is this plus twice the radius."
+                                  }
+                                },
+                                "required": [
+                                  "kind",
+                                  "name",
+                                  "center",
+                                  "rotation",
+                                  "contributesToMass",
+                                  "radius",
+                                  "length"
+                                ],
+                                "additionalProperties": false,
+                                "description": "A capsule: a cylinder with a half ball on each end."
+                              }
+                            ],
+                            "description": "One collision shape."
+                          },
+                          "description": "The body's collision shapes: spheres, then boxes, then capsules, each in the game's order."
+                        }
+                      },
+                      "required": [
+                        "bone",
+                        "shapes"
+                      ],
+                      "additionalProperties": false,
+                      "description": "One rigid body of a physics asset."
+                    },
+                    "description": "The asset's rigid bodies, in the game's order."
+                  }
+                },
+                "required": [
+                  "asset",
+                  "bodies"
+                ],
+                "additionalProperties": false,
+                "description": "The shapes the physics engine simulates for the vehicle. The engine works out the body's balance point and inertia from them, spread evenly by volume and scaled to the vehicle's mass (see `mass` in vehicles.json)."
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "The collision shapes of the chassis, from the physics asset the platform names. Null when the platform names none."
+          }
+        },
+        "required": [
+          "id",
+          "platform",
+          "parts",
+          "physics"
+        ],
+        "additionalProperties": false,
+        "description": "The 3D shape of one vehicle: its meshes and where each sits."
+      },
+      "description": "One entry per vehicle model, sorted by id. Only vehicles whose model has been extracted are listed."
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "gameBuild",
+    "units",
+    "models"
+  ],
+  "additionalProperties": false,
+  "description": "The geometry of vehicles: triangle meshes at their most detailed level, and where each part sits, in the game's axes (x forward, y right, z up). For drawing and measuring vehicles. Textures and materials are not included."
+}

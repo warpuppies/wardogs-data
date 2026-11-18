@@ -365,7 +365,7 @@ export type Role = z.infer<typeof Role>;
 
 export const RolesFile = z
   .object({ ...header, roles: z.array(Role).describe("Roles, sorted by id.") })
-  .describe("Role mastery: the XP needed for each level of each role. Items unlock at a role level (`unlock` in items.json), so this turns a level gate into an amount of XP. The overall Wardog (career) level, which gates some items up to level 150, has no table of its own: the game's text says all role levels combine into it, without giving the formula.");
+  .describe("Role mastery: the XP needed for each level of each role. Items unlock at a role level (`unlock` in items.json), so this turns a level gate into an amount of XP. The overall Wardog (career) level, which gates some items up to level 200, has no table of its own: the game's text says all role levels combine into it, without giving the formula.");
 export type RolesFile = z.infer<typeof RolesFile>;
 
 export const Reward = z
@@ -809,14 +809,152 @@ export const Achievement = z
   .describe("One achievement. The conditions themselves are in the game's logic; only the numbers they take are in the data.");
 export type Achievement = z.infer<typeof Achievement>;
 
+export const GoldExchange = z
+  .object({
+    name: z.string().min(1).describe("Name shown in the game."),
+    description: z.string().min(1).describe("What the feature does, in the game's words."),
+    unlock: z
+      .object({
+        role: z.string().min(1).describe("Progression tree the unlock is on: Infantry, Support, Medic, Recon, Pilot, Driver, or Wardog (the account-wide career level)."),
+        level: z.number().int().positive().describe("Minimum level in that tree."),
+        cost: z.number().nonnegative().describe("Cash cost to unlock."),
+      })
+      .describe("What it takes to unlock the feature, same shape as an item's unlock."),
+  })
+  .describe("The feature that trades cash for gold bars (which the gold market then spends): not an item, so it is not in items.json. The exchange rate varies over time and is not stated in the files.");
+export type GoldExchange = z.infer<typeof GoldExchange>;
+
 export const MetaFile = z
   .object({
     ...header,
     currencies: z.array(Currency).describe("Currencies, sorted by id."),
     currentSeason: z.number().int().nonnegative().describe("The season number the game files declare as current. The season definition list and the gold bar exchange rates are empty in the files."),
     goldMarket: z.array(GoldMarketOffer).describe("Cosmetics sold for gold bars, sorted by id."),
+    goldExchange: GoldExchange.describe("The feature that converts cash to gold bars."),
     passiveMissions: z.array(PassiveMission).describe("Passive missions, sorted by id."),
     achievements: z.array(Achievement).describe("Achievements, sorted by id."),
   })
-  .describe("The meta game around matches: currencies and starting balances, the gold bar market, passive missions and achievements.");
+  .describe("The meta game around matches: currencies and starting balances, the gold bar market, the gold exchange, passive missions and achievements.");
 export type MetaFile = z.infer<typeof MetaFile>;
+
+const SettingCommon = {
+  id: z.string().min(1).describe("The setting asset's name, for example `DA_Setting_General_FieldOfView_Vehicle`."),
+  asset: z.string().min(1).describe("Path of the setting asset inside the game files."),
+};
+
+export const UserSetting = z
+  .discriminatedUnion("kind", [
+    z
+      .object({
+        ...SettingCommon,
+        kind: z.literal("number"),
+        minimum: Num.optional().describe("Lowest value."),
+        maximum: Num.optional().describe("Highest value."),
+        default: Num.optional().describe("Value a new player starts with."),
+        increment: Num.optional().describe("Step between values."),
+        displayMinimum: Num.optional().describe("What the menu shows for the lowest value, when it differs from the value itself."),
+        displayMaximum: Num.optional().describe("What the menu shows for the highest value, when it differs from the value itself."),
+        fractionalDigits: Num.optional().describe("Digits after the decimal point the menu shows."),
+        percentage: z.literal(true).optional().describe("The menu shows the value as a percentage."),
+      })
+      .describe("A number in a range. A field that is absent is not stored in the asset; the game then uses a built-in default that the files do not hold."),
+    z
+      .object({
+        ...SettingCommon,
+        kind: z.literal("choice"),
+        choices: z
+          .array(z.object({ value: z.string().describe("The choice as the game stores it: an enum name without its type (`Roll`), a gameplay tag, or `True`/`False`."), label: z.string().optional().describe("The choice's English name, when the asset holds it.") }))
+          .describe("The choices, in the menu's order."),
+        defaultIndex: Num.optional().describe("Position (from 0) in `choices` of the choice a new player starts with. Absent: not stored in the asset; the game's built-in default, usually the first."),
+        dynamicDefault: z.literal(true).optional().describe("The game picks the starting choice at run time (for example from the hardware)."),
+      })
+      .describe("One choice from a list."),
+  ])
+  .describe("One user setting from the game's options menu.");
+export type UserSetting = z.infer<typeof UserSetting>;
+
+export const SettingsFile = z
+  .object({
+    ...header,
+    settings: z.array(UserSetting).describe("Every user setting asset that holds a number or a choice, sorted by id."),
+  })
+  .describe("The options menu's settings: the range and starting value of each number (field of view, sensitivities, dead zones) and the choices of each list. The names shown in the menu live in string tables and are not included.");
+export type SettingsFile = z.infer<typeof SettingsFile>;
+
+const Vec3 = z.tuple([Num, Num, Num]);
+const Quat = z.tuple([Num, Num, Num, Num]);
+
+export const ModelPart = z
+  .object({
+    id: z.string().min(1).describe("Name of the part's mesh asset, for example `SM_ROT_03_MainRotorBlades`. Unique within the model."),
+    asset: z.string().min(1).describe("Path of the mesh's package inside the game files."),
+    kind: z.enum(["chassis", "static", "destructible"]).describe("`chassis` is the skeletal mesh the other parts attach to (the cabin and its interior). `static` is a fixed part (body shell, skids, doors). `destructible` is a part the game can break off, which is also how it places the rotors."),
+    tag: z.string().optional().describe("The game's tag for a destructible part, for example `Vehicle.DestructibleMesh.Rotor.Main.Blades`. Parts with `Rotor` in the tag turn about their own local Z axis."),
+    bone: z.string().nullable().describe("The chassis bone the part is attached to, as the game spells it (`body_J`), or null for the chassis itself."),
+    position: Vec3.describe("Where the part's origin is in the model's space, in meters: x forward, y right, z up. The bone's position combined with the part's own offset."),
+    rotation: Quat.describe("Orientation of the part in the model's space as a quaternion [x, y, z, w]."),
+    scale: Vec3.describe("Scale of the part in the model's space."),
+    vertices: z.array(Num).describe("Vertex positions in meters, in the part's own space (before `position`, `rotation` and `scale`), three numbers per vertex, rounded to a centimeter."),
+    triangles: z.array(z.number().int().nonnegative()).describe("Vertex numbers of the triangles, three per triangle."),
+  })
+  .describe("One mesh of a vehicle model, with where it sits.");
+export type ModelPart = z.infer<typeof ModelPart>;
+
+const ShapeCommon = {
+  name: z.string().describe("The shape's name in the game files, for example `Tail`. Several shapes can share a name."),
+  center: Vec3.describe("Center of the shape in the model's space, in meters."),
+  rotation: Quat.describe("Orientation of the shape in the model's space as a quaternion [x, y, z, w]."),
+  contributesToMass: z.boolean().describe("Whether the physics engine counts the shape when it works out the body's mass, balance point and inertia."),
+};
+
+export const CollisionShape = z
+  .discriminatedUnion("kind", [
+    z.object({ kind: z.literal("sphere"), ...ShapeCommon, radius: Num.describe("Radius in meters.") }).describe("A ball."),
+    z.object({ kind: z.literal("box"), ...ShapeCommon, size: Vec3.describe("Full size along the shape's own x, y and z axes, in meters (not half sizes).") }).describe("A box."),
+    z
+      .object({
+        kind: z.literal("capsule"),
+        ...ShapeCommon,
+        radius: Num.describe("Radius of the round ends and of the middle, in meters."),
+        length: Num.describe("Length of the straight middle part along the shape's own z axis, in meters. The whole capsule is this plus twice the radius."),
+      })
+      .describe("A capsule: a cylinder with a half ball on each end."),
+  ])
+  .describe("One collision shape.");
+export type CollisionShape = z.infer<typeof CollisionShape>;
+
+export const PhysicsBody = z
+  .object({
+    bone: z.string().describe("The bone the body moves with, as the game spells it."),
+    maxAngularVelocityDegPerS: Num.optional().describe("The fastest the physics engine lets the body turn, in degrees per second, when the asset sets its own limit. Absent: the engine's default."),
+    shapes: z.array(CollisionShape).describe("The body's collision shapes: spheres, then boxes, then capsules, each in the game's order."),
+  })
+  .describe("One rigid body of a physics asset.");
+export type PhysicsBody = z.infer<typeof PhysicsBody>;
+
+export const VehiclePhysics = z
+  .object({
+    asset: z.string().min(1).describe("Path of the physics asset inside the game files."),
+    bodies: z.array(PhysicsBody).describe("The asset's rigid bodies, in the game's order."),
+  })
+  .describe("The shapes the physics engine simulates for the vehicle. The engine works out the body's balance point and inertia from them, spread evenly by volume and scaled to the vehicle's mass (see `mass` in vehicles.json).");
+export type VehiclePhysics = z.infer<typeof VehiclePhysics>;
+
+export const VehicleModel = z
+  .object({
+    id: z.string().min(1).describe("The vehicle platform's name in the game files, for example `ROT_03` for the Little Bird. It is also the folder name in the `asset` path of the variants in vehicles.json that use the model."),
+    platform: z.string().min(1).describe("Path of the platform asset that lists the parts, inside the game files."),
+    parts: z.array(ModelPart).describe("The parts of the default variant, with no weapons: the chassis first, then the parts in the order the game lists them."),
+    physics: VehiclePhysics.nullable().describe("The collision shapes of the chassis, from the physics asset the platform names. Null when the platform names none."),
+  })
+  .describe("The 3D shape of one vehicle: its meshes and where each sits.");
+export type VehicleModel = z.infer<typeof VehicleModel>;
+
+export const VehicleModelsFile = z
+  .object({
+    ...header,
+    units: z.literal("meters").describe("Unit of every distance in the file."),
+    models: z.array(VehicleModel).describe("One entry per vehicle model, sorted by id. Only vehicles whose model has been extracted are listed."),
+  })
+  .describe("The geometry of vehicles: triangle meshes at their most detailed level, and where each part sits, in the game's axes (x forward, y right, z up). For drawing and measuring vehicles. Textures and materials are not included.");
+export type VehicleModelsFile = z.infer<typeof VehicleModelsFile>;

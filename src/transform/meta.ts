@@ -1,8 +1,8 @@
 import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 import type { GeneratedFile } from "../generated.js";
-import { MetaFile, type Achievement, type Currency, type GoldMarketOffer, type PassiveChallenge, type PassiveMission } from "../schema.gameplay.js";
-import type { RawExport } from "./items.js";
+import { MetaFile, type Achievement, type Currency, type GoldExchange, type GoldMarketOffer, type PassiveChallenge, type PassiveMission } from "../schema.gameplay.js";
+import { parseUiTable, parseUnlockTree, type RawExport } from "./items.js";
 import { decodeNumberBag } from "./propertyBag.js";
 
 type Props = Record<string, any>; // decoded game properties: shapes are checked field by field below
@@ -135,6 +135,21 @@ export function parseAchievements(exports: RawExport[], challenges: ReturnType<t
   return out.sort((a, b) => a.id.localeCompare(b.id));
 }
 
+const GOLD_EXCHANGE_TAG = "Meta.Unlocks.GoldExchange";
+
+/**
+ * The Gold Exchange: a feature, not an item, so its unlock (`DT_MetaTree_Roles`, read the same way as an item's)
+ * and its name and description (`DT_EntityData_UI_GoldExchange`, a UI table the items pipeline also reads) are
+ * taken directly rather than through `buildItems`, which only keeps unlocks that match an item definition.
+ */
+export function parseGoldExchange(treeExports: RawExport[], uiExports: RawExport[]): GoldExchange {
+  const unlock = parseUnlockTree(treeExports).get(GOLD_EXCHANGE_TAG);
+  if (!unlock) throw new Error(`meta: ${GOLD_EXCHANGE_TAG} is not in the unlock tree`);
+  const ui = parseUiTable(uiExports).get(GOLD_EXCHANGE_TAG);
+  if (!ui?.name || !ui?.description) throw new Error(`meta: ${GOLD_EXCHANGE_TAG} has no name or description in its UI table`);
+  return { name: ui.name, description: ui.description, unlock };
+}
+
 /** The current season number from `WDMetaSeasonDefinitionTableRow`. */
 export function parseCurrentSeason(exports: RawExport[]): number | undefined {
   for (const { row } of tableRows(exports, "WDMetaSeasonDefinitionTableRow")) {
@@ -175,12 +190,13 @@ export function buildMetaData(rawDir: string, gameBuild: string): MetaBuild {
   const achievements = parseAchievements(table("DT_Achievements"), parseAchievementChallenges(table("DT_Challenges_SessionEvents_Shared")));
   const currentSeason = parseCurrentSeason(table("DT_SeasonDefinitions"));
   if (currentSeason === undefined) throw new Error("meta: DT_SeasonDefinitions has no current season number");
+  const goldExchange = parseGoldExchange(table("DT_MetaTree_Roles"), table("DT_EntityData_UI_GoldExchange"));
 
-  const file = MetaFile.parse({ schemaVersion: 1, gameBuild, currencies, currentSeason, goldMarket, passiveMissions, achievements });
+  const file = MetaFile.parse({ schemaVersion: 1, gameBuild, currencies, currentSeason, goldMarket, goldExchange, passiveMissions, achievements });
   return {
     files: [{ path: "data/meta.json", content: json(file) }],
     notes: [
-      `meta: ${currencies.length} currencies, ${goldMarket.length} gold market offers, ${passiveMissions.length} passive missions with ${passiveMissions.reduce((n, m) => n + m.challenges.length, 0)} tiers, ${achievements.length} achievements, season ${currentSeason}`,
+      `meta: ${currencies.length} currencies, ${goldMarket.length} gold market offers, gold exchange unlocks at ${goldExchange.unlock.role} ${goldExchange.unlock.level}, ${passiveMissions.length} passive missions with ${passiveMissions.reduce((n, m) => n + m.challenges.length, 0)} tiers, ${achievements.length} achievements, season ${currentSeason}`,
     ],
   };
 }

@@ -195,7 +195,7 @@ describe("gameplay data: canaries", () => {
     const humvee = vehicles.find((v) => v.id === "Vehicle.Variant.Land.Wheeled.Humvee.Default")!;
     expect(humvee.engine).toMatchObject({ idleRpm: 700, limitRpm: 4000 });
     expect(Math.max(...humvee.engine!.torqueCurve.map((k) => k.torque))).toBe(1450);
-    expect(humvee.transmission).toMatchObject({ gearRatios: [3.6, 2.4, 1.7, 1.35, 1.12, 3.6], finalGearRatio: 6.54 });
+    expect(humvee.transmission).toMatchObject({ gearRatios: [3.6, 2.4, 1.7, 1.35, 1.12, 2.22], finalGearRatio: 6.54 });
   });
 
   it("variants of one platform share their physics", () => {

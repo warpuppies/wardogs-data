@@ -109,6 +109,56 @@
       },
       "description": "Cosmetics sold for gold bars, sorted by id."
     },
+    "goldExchange": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Name shown in the game."
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1,
+          "description": "What the feature does, in the game's words."
+        },
+        "unlock": {
+          "type": "object",
+          "properties": {
+            "role": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Progression tree the unlock is on: Infantry, Support, Medic, Recon, Pilot, Driver, or Wardog (the account-wide career level)."
+            },
+            "level": {
+              "type": "integer",
+              "exclusiveMinimum": 0,
+              "maximum": 9007199254740991,
+              "description": "Minimum level in that tree."
+            },
+            "cost": {
+              "type": "number",
+              "minimum": 0,
+              "description": "Cash cost to unlock."
+            }
+          },
+          "required": [
+            "role",
+            "level",
+            "cost"
+          ],
+          "additionalProperties": false,
+          "description": "What it takes to unlock the feature, same shape as an item's unlock."
+        }
+      },
+      "required": [
+        "name",
+        "description",
+        "unlock"
+      ],
+      "additionalProperties": false,
+      "description": "The feature that converts cash to gold bars."
+    },
     "passiveMissions": {
       "type": "array",
       "items": {
@@ -249,9 +299,10 @@
     "currencies",
     "currentSeason",
     "goldMarket",
+    "goldExchange",
     "passiveMissions",
     "achievements"
   ],
   "additionalProperties": false,
-  "description": "The meta game around matches: currencies and starting balances, the gold bar market, passive missions and achievements."
+  "description": "The meta game around matches: currencies and starting balances, the gold bar market, the gold exchange, passive missions and achievements."
 }

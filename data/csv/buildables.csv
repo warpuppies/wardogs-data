@@ -20,7 +20,7 @@ Id.Buildable.Gate.Ramp,Gate,85,6500,5.67,,Buildable.HescoGate,1.58,9.08,3.77,,Wi
 Id.Buildable.HBlock,Hesco Block (Small),15,1600,,5,Buildable.SmallHesco,1.6,1.62,1.6,LargeHammer;MediumHammer;SmallHammer,WithinFobBounds;WithinLadderBounds;SafeZone
 Id.Buildable.HBlockQuadWall,Hesco Wall,75,4600,5,,Buildable.QuadLargeHescoWall,1.5,6,3.11,LargeHammer;MediumHammer,WithinFobBounds;WithinLadderBounds;SafeZone
 Id.Buildable.Loudspeaker,Loudspeaker,200,1000,6.67,,,3.15,3.33,8.13,,WithinFobBounds;WithinLadderBounds;SafeZone
-Id.Buildable.MGNest,MG Nest,650,3000,,5,,1.83,1.83,2.08,,WithinFobBounds;WithinLadderBounds;SafeZone
+Id.Buildable.MGNest,MG Nest,650,3000,10,5,,1.83,1.83,2.08,,WithinFobBounds;WithinLadderBounds;SafeZone
 Id.Buildable.MistralAA,Talon 9K-SAM,650,3000,66.67,6,,3.56,3.27,2.26,,WithinFobBounds;WithinLadderBounds;SafeZone
 Id.Buildable.Mortar,L81 Mortar,600,3000,10,6,Vehicle.Stationary.Mortar,4.82,4.55,1.51,,WithinFobBounds;WithinLadderBounds;SafeZone
 Id.Buildable.Phalanx,Vanguard CIWS,1200,5000,100,6,,6.48,6.68,6.71,,WithinFobBounds;WithinLadderBounds;SafeZone

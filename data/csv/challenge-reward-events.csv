@@ -9,6 +9,7 @@ Buildables.BuildSuppliesDeposited,Build Supplies Deposited,Reward for placing bu
 Buildables.FOBDoorClosed,Door Closed,Reward for successfully closing a friendly door.
 Buildables.FOBHacked,FOB Hacked,Reward for successfully hacking an enemy FOB.
 Buildables.FOBOwnerPayed,FOB Resources Used,Reward/Cost for another player using the supplies in your FOB.
+Buildables.ParachuteIntoEnemyFOB,Parachute Into Enemy FOB,Reward for successfully parachuting into an enemy FOB.
 Buildables.SchematicPlaced,Schematic Placed,Reward for placing a building schematic.
 Crowbar.DoorForcedOpen,Door Forced Open,Reward for breaching doors
 DeployOnVehicle,Deploy On Vehicle,Award resources when a player is deployed on a vehicle
@@ -37,10 +38,12 @@ DestroyVehicleSection.CrewAssist,Destroy Vehicle Section Crew Assist,Award resou
 DestroyVehicleSection.LogisticAssist,Destroy Vehicle Section Logistic Assist,
 DestroyVehicleSection.ReviveAssist,Destroy Vehicle Section Revive Assist,
 DestroyVehicleSection.SupplyCrateAssist,Destroy Vehicle Section Supply Crate Assist,Award resources to the player who sold the damage causer.
+Freefall,Freefall,
 HealPlayer,Heal Player,Award resources to a player when they heal another player.
 HealPlayer.LogisticAssist,Heal Player Logistic Assist,
 HealPlayer.ReviveAssist,Heal Player Revive Assist,
 HealPlayer.SupplyCrateAssist,Heal Player Supply Crate Assist,Award resources to the player who sold the heal causer.
+HotZoneMagnet.FOBSuppliedAssist,Hot Zone Magnet Activated FOB Supplied Assist,
 HotZoneMagnet.MagnetActivated,Magnet Activated,Award resources to all players in range of an activated Magnet of the same faction.
 HotZoneMagnet.MagnetDeactivated,Magnet Deactivated,Award resources to all players in range of a deactivated Magnet of the same faction.
 HotZoneMagnet.TowerCaptured,Tower Captured,Award resources to all players in range of a captured Tower of the same faction.

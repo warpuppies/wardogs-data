@@ -1,17 +1,21 @@
 id,item,item_name,set,set_name,archetype,source
 BlackAndGold.AK74,Id.Item.AK74M,AK74,BlackAndGold,Black & Gold,AR,Season01_Skins
+BlackAndGold.Defibrillator,Id.Item.Defibrillator.Standard,Defibrillator,BlackAndGold,Black & Gold,,Season03_Skins
 BlackAndGold.Littlebird,Vehicle.Variant.Air.Rotary.Littlebird.Default,MH-6,BlackAndGold,Black & Gold,Vehicle.Archetype.Air.Rotary,Season02_Skins
 ChocolateChip.Evolys,Id.Item.WEPN_036,Evo-3 Ultra,ChocolateChip,Chocolate Chip,LMG,Season02_Skins
+ChocolateChip.FAL,Id.Item.WEPN_030,FAL,ChocolateChip,Chocolate Chip,AR,Season03_Skins
 ChocolateChip.M14,Id.Item.WEPN_034,M14,ChocolateChip,Chocolate Chip,DMR,Season02_Skins
+ChocolateChip.M1911,Id.Item.WEPN_026,M1911,ChocolateChip,Chocolate Chip,Pistol,Season03_Skins
 ChocolateChip.TCXSPR,Id.Item.WEPN_037,TCX-SPR,ChocolateChip,Chocolate Chip,AR,Season02_Skins
+DigitalWood.CompoundBow,Id.Item.CombatBow,Compound Bow,DigitalWood,Digital Wood,Bow,Season03_Skins
 DigitalWood.GGX17,Id.Item.Glock17,GGX 17,DigitalWood,Digital Wood,Pistol,Season01_Skins
 DigitalWood.M4,Id.Item.M4,M4,DigitalWood,Digital Wood,AR,Season01_Skins
 DigitalWood.M500,Id.Item.M500,M500,DigitalWood,Digital Wood,Shotgun,Season02_Skins
 DigitalWood.SportsParachute,Id.Item.Parachute.Sport,Parachute,DigitalWood,Digital Wood,Parachute,Season01_Skins
 DigitalWood.SV98,Id.Item.SV98,SV98,DigitalWood,Digital Wood,Sniper,Season01_Skins
-Emote.Middle_Finger,Id.Emote.Middle_Finger,,Emote,Emotes,,Season01_Emotes
-Emote.RockPaperScissors,Id.Emote.RockPaperScissors,,Emote,Emotes,,Season01_Emotes
-Emote.Shh,Id.Emote.Shh,,Emote,Emotes,,Season01_Emotes
+Emote.Middle_Finger,Id.Emote.Middle_Finger,,Emote,Emotes,Player.Emote,Season01_Emotes
+Emote.RockPaperScissors,Id.Emote.RockPaperScissors,,Emote,Emotes,Player.Emote,Season01_Emotes
+Emote.Shh,Id.Emote.Shh,,Emote,Emotes,Player.Emote,Season01_Emotes
 FactionLogo.A91,Id.Item.A91,A-91,FactionLogo,Faction Logo,AR,FactionLogo
 FactionLogo.KH2002,Id.Item.KH2002,KH-2002,FactionLogo,Faction Logo,AR,FactionLogo
 FactionLogo.WEPN_033,Id.Item.WEPN_033,Bushmaster M17S,FactionLogo,Faction Logo,AR,FactionLogo
@@ -20,6 +24,7 @@ TwoToneDesert.A91,Id.Item.A91,A-91,TwoToneDesert,Two Tone Desert,AR,Season01_Ski
 TwoToneDesert.AX50,Id.Item.SR_04,AMR 50,TwoToneDesert,Two Tone Desert,Sniper,Season01_Skins
 TwoToneDesert.Bobcat,Vehicle.Variant.Land.Wheeled.Bobcat.Default,Bobcat,TwoToneDesert,Two Tone Desert,Vehicle.Archetype.Land.Wheeled,Season01_Skins
 TwoToneDesert.Bushmaster,Id.Item.WEPN_033,Bushmaster M17S,TwoToneDesert,Two Tone Desert,AR,Season01_Skins
+TwoToneDesert.CGM4,Id.Item.CGM4,MAAWS,TwoToneDesert,Two Tone Desert,Launcher,Season03_Skins
 TwoToneDesert.DuneBuggy,Vehicle.Variant.Land.Wheeled.DuneBuggy.Default,Dune Buggy,TwoToneDesert,Two Tone Desert,Vehicle.Archetype.Land.Wheeled,Season01_Skins
 TwoToneDesert.Galil,Id.Item.WEPN_029,Galil,TwoToneDesert,Two Tone Desert,AR,Season02_Skins
 TwoToneDesert.Havoc,Vehicle.Variant.Air.Rotary.Havoc.Default,Havoc,TwoToneDesert,Two Tone Desert,Vehicle.Archetype.Air.Rotary,Season02_Skins

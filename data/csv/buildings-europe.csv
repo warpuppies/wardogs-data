@@ -85,7 +85,7 @@ dfc671d35de3,garage,BP_Garage_Closed_03a_C,-6710.02,-6111.18,-933.71,-6704.82,-6
 d71506fc1d36,garage,BP_Garage_Closed_03a_C,-6709.38,-6138.8,-933.82,-6704.18,-6129.83,-929.67,2
 162c989af32e,garage,BP_Garage_Closed_03b_C,-6708.95,-6130.7,-933.82,-6703.75,-6121.74,-929.67,2
 000a4beb5d44,garage,BP_Garage_Closed_03a_C,-6707.14,-6079.8,-933.75,-6698.17,-6074.6,-929.6,2
-ecc26d3d8a0d,apartment,B_Apartment_Building_Ozeti_01_B_C,-6707.04,-6017.76,-936.75,-6660.14,-5981.12,-903.09,93
+ecc26d3d8a0d,apartment,B_Apartment_Building_Ozeti_01_B_C,-6707.04,-6017.76,-936.75,-6660.14,-5981.12,-903.09,92
 775921a6e5c6,garage,BP_Garage_Openable_03a_C,-6706.79,-6075.21,-933.75,-6697.83,-6070.01,-929.6,1
 784f4ccdccda,garage,BP_Garage_Closed_03a_C,-6705.72,-6056.84,-933.78,-6696.75,-6051.64,-929.63,2
 c783319e77b8,garage,BP_Garage_Closed_02a_C,-6702.26,-6061.82,-933.75,-6692.98,-6056.28,-930.15,2
@@ -116,7 +116,7 @@ a835f9804ab3,garage,BP_Garage_Closed_03a_C,-6675.1,-6067.69,-933.69,-6666.13,-60
 7b7058d8e139,garage,BP_Garage_Closed_03b_C,-6674.86,-6063.1,-933.74,-6665.89,-6057.88,-929.57,2
 ff8c83b431d7,garage,BP_Garage_Closed_03a_C,-6674.61,-6058.51,-933.73,-6665.65,-6053.29,-929.56,2
 20959e652d64,house,B_Residential_House_Madrid_04_C,-6636.99,-5835.21,-952.6,-6614.18,-5814.19,-939.34,70
-55438feb21cc,apartment,B_Apartment_Building_Ozeti_01_C_C,-6615.47,-6022.49,-936.75,-6570.71,-5985.85,-911.09,98
+55438feb21cc,apartment,B_Apartment_Building_Ozeti_01_C_C,-6615.47,-6022.49,-936.75,-6570.71,-5985.85,-911.09,97
 f5b4aff5cdd3,warehouse,BP_Warehouse_Small_02a_C,-6609.82,-6752.86,-915.65,-6596.38,-6739.46,-909.33,14
 dbb323297b57,warehouse,BP_Warehouse_Small_01a_C,-6572.87,-6442.98,-917.47,-6555.03,-6417.31,-909.21,12
 f118714058ff,house,B_Residential_House_Madrid_01_C,-6549.05,-6166.85,-928.18,-6525.62,-6147.53,-914.91,67
@@ -277,7 +277,7 @@ d2b3a1dddce6,bungalow,B_Residential_Bungalow_02_C,-5892.45,-5962.93,-941.54,-586
 ad850895f903,bungalow,B_Residential_Bungalow_03_C,-4914.75,-6275.31,-891.36,-4897.43,-6258.61,-882.54,38
 6bccd5337630,bungalow,B_Residential_Bungalow_01_C,-4910.49,-6334.61,-892.8,-4890.81,-6315.72,-883.03,48
 4fe39216a854,house,B_Residential_House_03_C,-4703.7,-6401.62,-895.61,-4677.82,-6378.13,-882.34,67
-e366e04c9d9e,house,B_Residential_House_Abandoned_01_C,-4633.19,-6687.83,-885.93,-4611.37,-6662.97,-872.66,70
+e366e04c9d9e,house,B_Residential_House_Abandoned_01_C,-4633.19,-6687.72,-885.93,-4611.37,-6662.97,-872.66,70
 16d65d45ffaf,garage,BP_Garage_Closed_02a_C,-4605.37,-6683.38,-885.81,-4595.06,-6673.63,-881.97,2
 2448500ac957,bungalow,B_Residential_Bungalow_01_C,-4592.7,-6349.69,-895.87,-4571.35,-6328.64,-886.1,48
 aca8fc3418fe,garage,BP_Garage_Closed_03b_C,-4592.03,-6732.33,-883.17,-4582.32,-6723.02,-879.02,2

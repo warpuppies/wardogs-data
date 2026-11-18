@@ -8,7 +8,9 @@ import { metaDataset } from "./meta.js";
 import { movementDataset } from "./movement.js";
 import { objectivesDataset } from "./objectives.js";
 import { progressionDataset } from "./progression.js";
+import { settingsDataset } from "./settings.js";
+import { vehicleModelsDataset } from "./vehicleModels.js";
 import { worldObjectsDataset } from "./worldObjects.js";
 
 /** Every dataset the pipeline owns. Adding one here, with tests, is how the repo grows. */
-export const DATASETS: readonly Dataset[] = [itemsDataset, gameplayDataset, damageDataset, progressionDataset, metaDataset, featuresDataset, movementDataset, mapsDataset, objectivesDataset, worldObjectsDataset];
+export const DATASETS: readonly Dataset[] = [itemsDataset, gameplayDataset, damageDataset, progressionDataset, metaDataset, featuresDataset, movementDataset, settingsDataset, mapsDataset, objectivesDataset, worldObjectsDataset, vehicleModelsDataset];

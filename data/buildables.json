@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "gameBuild": "25937608",
+  "gameBuild": "26615518",
   "units": "meters",
   "buildables": [
     {
@@ -444,6 +444,7 @@
       "name": "MG Nest",
       "cost": 650,
       "maxHealth": 3000,
+      "repairSpeedMultiplier": 10,
       "maxStack": 5,
       "size": [
         1.83,

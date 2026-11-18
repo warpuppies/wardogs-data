@@ -1,5 +1,5 @@
 import { z, type ZodType } from "zod";
-import { AmmoFile, AttachmentsFile, BuildablesFile, ChallengeRewardsFile, CosmeticsFile, DamageFile, EquipmentFile, LootFile, MetaFile, MovementFile, RewardsFile, RolesFile, SkillsFile, TagsFile, VehicleConfigsFile, VehiclesFile, WeaponsFile } from "../schema.gameplay.js";
+import { AmmoFile, AttachmentsFile, BuildablesFile, ChallengeRewardsFile, CosmeticsFile, DamageFile, EquipmentFile, LootFile, MetaFile, MovementFile, RewardsFile, RolesFile, SettingsFile, SkillsFile, TagsFile, VehicleConfigsFile, VehicleModelsFile, VehiclesFile, WeaponsFile } from "../schema.gameplay.js";
 import { BuildingsFile, ItemsFile, MapFile, ObjectivesFile, TerrainFile, WorldObjectsFile } from "../schema.js";
 
 /** A published JSON file type: where it lives, what shape it has, and how to describe it. */
@@ -24,6 +24,7 @@ export const PUBLISHED: readonly PublishedSchema[] = [
   { name: "cosmetics", title: "Cosmetics", match: /^data\/cosmetics\.json$/, schema: CosmeticsFile },
   { name: "loot", title: "Loot tables", match: /^data\/loot\.json$/, schema: LootFile },
   { name: "movement", title: "Player movement", match: /^data\/movement\.json$/, schema: MovementFile },
+  { name: "settings", title: "Options menu settings", match: /^data\/settings\.json$/, schema: SettingsFile },
   { name: "skills", title: "Role skills", match: /^data\/skills\.json$/, schema: SkillsFile },
   { name: "challenge-rewards", title: "Challenge rewards", match: /^data\/challenge-rewards\.json$/, schema: ChallengeRewardsFile },
   { name: "meta", title: "Meta game", match: /^data\/meta\.json$/, schema: MetaFile },
@@ -32,6 +33,7 @@ export const PUBLISHED: readonly PublishedSchema[] = [
   { name: "damage", title: "Damage model", match: /^data\/damage\.json$/, schema: DamageFile },
   { name: "vehicles", title: "Vehicle stats", match: /^data\/vehicles\.json$/, schema: VehiclesFile },
   { name: "vehicle-configs", title: "Vehicle configs", match: /^data\/vehicle-configs\.json$/, schema: VehicleConfigsFile },
+  { name: "vehicle-models", title: "Vehicle models", match: /^data\/vehicle-models\.json$/, schema: VehicleModelsFile },
   { name: "map", title: "Map metadata", match: /^data\/maps\/[^/]+\/map\.json$/, schema: MapFile },
   { name: "terrain", title: "Terrain heightmap metadata", match: /^data\/maps\/[^/]+\/terrain\.json$/, schema: TerrainFile },
   { name: "objectives", title: "Match objectives", match: /^data\/maps\/[^/]+\/objectives\.json$/, schema: ObjectivesFile },

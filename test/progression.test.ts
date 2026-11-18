@@ -250,7 +250,7 @@ describe("role levels data", () => {
   it("canaries: values read from the game's table", () => {
     const driver = roles.find((r) => r.id === "Driver")!;
     const xp = (level: number) => driver.levels.find((l) => l.level === level)!.xp;
-    expect([xp(1), xp(10), xp(26), xp(50), xp(100)]).toEqual([200, 25000, 225600, 1150000, 5132500]);
+    expect([xp(1), xp(10), xp(26), xp(50), xp(100)]).toEqual([200, 36750, 454750, 1950000, 6600000]);
     expect(driver.xpResource).toBe("XP.Role.Driver");
   });
 

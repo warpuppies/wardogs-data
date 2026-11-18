@@ -4,7 +4,7 @@ import { dirname, join } from "node:path";
 import { describe, expect, it } from "vitest";
 import { CosmeticsFile, MetaFile } from "../src/schema.gameplay.js";
 import type { RawExport } from "../src/transform/items.js";
-import { buildMetaData, parseAchievementChallenges, parseAchievements, parseCurrencies, parseCurrentSeason, parseGoldMarket, parsePassiveChallenges, parsePassiveMissions, ticksToIso } from "../src/transform/meta.js";
+import { buildMetaData, parseAchievementChallenges, parseAchievements, parseCurrencies, parseCurrentSeason, parseGoldExchange, parseGoldMarket, parsePassiveChallenges, parsePassiveMissions, ticksToIso } from "../src/transform/meta.js";
 
 const table = (struct: string, rows: Record<string, unknown>): RawExport[] => [
   { Type: "DataTable", Properties: { RowStruct: { ObjectName: `Class'${struct}'` } } as never, Rows: rows as never },
@@ -135,6 +135,36 @@ describe("parseAchievements and parseCurrentSeason", () => {
   });
 });
 
+describe("parseGoldExchange", () => {
+  const tree = table("WDMetaTreeDefinition", {
+    "Meta.Role.Wardog": {
+      Nodes: [
+        {
+          ID: tag("Meta.Unlocks.GoldExchange"),
+          LevelsData: [{ Prerequisites: { QueryDefinition: { SharedDefinition: { Conditions: { Structs: [{ MinLevel: 35 }] } } } }, Cost: [{ Key: tag("Attribute.Meta.Currency.Cash"), Value: 100000 }] }],
+        },
+      ],
+    },
+  });
+  const ui = table("BHEntityData_UI", { "Meta.Unlocks.GoldExchange": { FriendlyName: loc("Gold Exchange"), Description: loc("Trade cash for gold bars.") } });
+
+  it("joins the unlock tree node to its name and description", () => {
+    expect(parseGoldExchange(tree, ui)).toEqual({
+      name: "Gold Exchange",
+      description: "Trade cash for gold bars.",
+      unlock: { role: "Wardog", level: 35, cost: 100000 },
+    });
+  });
+
+  it("fails when the unlock tree has no Gold Exchange node", () => {
+    expect(() => parseGoldExchange(table("WDMetaTreeDefinition", {}), ui)).toThrow(/GoldExchange/);
+  });
+
+  it("fails when the UI table has no name or description", () => {
+    expect(() => parseGoldExchange(tree, table("BHEntityData_UI", {}))).toThrow(/GoldExchange/);
+  });
+});
+
 describe("buildMetaData", () => {
   const put = (raw: string, path: string, value: unknown) => {
     mkdirSync(dirname(join(raw, path)), { recursive: true });
@@ -150,14 +180,35 @@ describe("buildMetaData", () => {
     put(raw, `${base}/Missions/DT_PassiveMissions.json`, table("WDMissionDefinition", { "Mission.Passive.TimePlayed": { DifficultyWeight: 1, Challenges: [tag("Challenges.Challenge.Mission.Passive.TimePlayed.1")] } }));
     put(raw, `${base}/Challenges/DT_Challenges_SessionEvents_Shared.json`, table("WDChallengeDefinition", { "Achievement.Match.CleanSweep": { Description: loc("Win a KOTH match without the opposing faction scoring.") } }));
     put(raw, `${base}/Achievements/DT_Achievements.json`, table("WDAchievementDefinition", { "Achievement.Match.CleanSweep": { SteamAchievementID: "ACH_MATCH_CLEAN_SWEEP", DisplayName: loc("Clean Sweep") } }));
+    put(
+      raw,
+      `${base}/DT_MetaTree_Roles.json`,
+      table("WDMetaTreeDefinition", {
+        "Meta.Role.Wardog": {
+          Nodes: [
+            {
+              ID: tag("Meta.Unlocks.GoldExchange"),
+              LevelsData: [{ Prerequisites: { QueryDefinition: { SharedDefinition: { Conditions: { Structs: [{ MinLevel: 35 }] } } } }, Cost: [{ Key: tag("Attribute.Meta.Currency.Cash"), Value: 100000 }] }],
+            },
+          ],
+        },
+      }),
+    );
+    put(raw, `${base}/DT_EntityData_UI_GoldExchange.json`, table("BHEntityData_UI", { "Meta.Unlocks.GoldExchange": { FriendlyName: loc("Gold Exchange"), Description: loc("Trade cash for gold bars.") } }));
     expect(() => buildMetaData(raw, "7")).toThrow(/DT_SeasonDefinitions/);
     put(raw, `${base}/DT_SeasonDefinitions.json`, table("WDMetaSeasonDefinitionTableRow", { "Meta.Season.Definitions": { CurrentSeasonNumber: 1 } }));
     const { files, notes } = buildMetaData(raw, "7");
     expect(files.map((f) => f.path)).toEqual(["data/meta.json"]);
     const meta = MetaFile.parse(JSON.parse(files[0]!.content));
-    expect(meta).toMatchObject({ gameBuild: "7", currentSeason: 1, currencies: [{ id: "Cash", initialBalance: 10000 }], achievements: [{ id: "Match.CleanSweep", description: "Win a KOTH match without the opposing faction scoring." }] });
+    expect(meta).toMatchObject({
+      gameBuild: "7",
+      currentSeason: 1,
+      currencies: [{ id: "Cash", initialBalance: 10000 }],
+      achievements: [{ id: "Match.CleanSweep", description: "Win a KOTH match without the opposing faction scoring." }],
+      goldExchange: { name: "Gold Exchange", description: "Trade cash for gold bars.", unlock: { role: "Wardog", level: 35, cost: 100000 } },
+    });
     expect(meta.passiveMissions[0]!.challenges[0]).toMatchObject({ objective: "TimePlayed", target: 1800 });
-    expect(notes[0]).toContain("1 currencies, 0 gold market offers, 1 passive missions with 1 tiers, 1 achievements, season 1");
+    expect(notes[0]).toContain("1 currencies, 0 gold market offers, gold exchange unlocks at Wardog 35, 1 passive missions with 1 tiers, 1 achievements, season 1");
   });
 });
 
@@ -166,7 +217,7 @@ describe("meta data", () => {
   const cosmetics = CosmeticsFile.parse(JSON.parse(readFileSync("data/cosmetics.json", "utf8"))).cosmetics;
 
   it("canaries: a new profile starts with 10,000 cash and no gold bars", () => {
-    expect(meta.currencies.map((c) => [c.id, c.initialBalance])).toEqual([["Cash", 10000], ["GoldBars", 0]]);
+    expect(meta.currencies.map((c) => [c.id, c.initialBalance])).toEqual([["Cash", 10000], ["GoldBars", 0], ["Movember", 0]]);
   });
 
   it("canaries: the three passive missions have five tiers each paying 100 to 500 Intel", () => {
@@ -187,6 +238,10 @@ describe("meta data", () => {
     expect(threshold("Survival.ControlZoneSurvivor")).toEqual({ RequiredSeconds: 3600 });
     expect(threshold("Combat.LongShot")).toEqual({ DistanceThreshold: 95000 });
     expect(meta.achievements.filter((a) => a.thresholds).length).toBe(4);
+  });
+
+  it("canaries: the Gold Exchange unlocks at Wardog level 35 for 100,000 cash", () => {
+    expect(meta.goldExchange).toMatchObject({ name: "Gold Exchange", unlock: { role: "Wardog", level: 35, cost: 100000 } });
   });
 
   it("keeps the gold market and achievements populated", () => {

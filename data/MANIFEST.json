@@ -3,44 +3,44 @@
   "generatedBy": "pnpm apply",
   "doNotEdit": true,
   "provenance": {
-    "gameBuild": "25937608",
+    "gameBuild": "26615518",
     "cue4parse": "2c4dca1d466b59aa36dd7ba235d10478a78074cc"
   },
   "files": [
     {
       "path": "data/ammo.json",
-      "sha256": "d7813253dc286afa52697c18b6aab99b9b0162b1df18faa776c9bbf3f7eb6208",
-      "bytes": 28966
+      "sha256": "5d98947d35adaf3e5b5c533dce878b921d2984b2c37e989cd454234b2f76964f",
+      "bytes": 29847
     },
     {
       "path": "data/attachments.json",
-      "sha256": "d998eca121c3c57c108283d3ea36286be5429dafc8f10d5ba15836d0067f6f12",
+      "sha256": "830d11489ad2fb2b82871ae2189c7f1b660eabb0874fa5af5c1f94b725158e7b",
       "bytes": 153328
     },
     {
       "path": "data/buildables.json",
-      "sha256": "6c162be04aee666992ee754c6507bf6bb315223e94040db1048396f096fb7424",
-      "bytes": 16461
+      "sha256": "8d73f47f391177fd6b91cb47c2b97d78181380bcedd326f9aabf04cf3f47776d",
+      "bytes": 16496
     },
     {
       "path": "data/challenge-rewards.json",
-      "sha256": "9a41a825fef35516eef60d466fe614b2fbf0ec03368d23d5224a330dee7d362c",
-      "bytes": 3083212
+      "sha256": "ba425000e52b97b95ca3d30b2760954cd443dc702449688199f7eef3231c1a68",
+      "bytes": 3252902
     },
     {
       "path": "data/cosmetics.json",
-      "sha256": "9070033313902fc06cdc82b2b6546c663cfd33e7706487963e6c9050dea543e8",
-      "bytes": 7097
+      "sha256": "ecffdf950bcb3d066f444d071b119267a3867320d3f8fc764441d69c2a6b06cb",
+      "bytes": 8157
     },
     {
       "path": "data/csv/achievements.csv",
-      "sha256": "dca096806096cc041e58a512ab9e33193c14cc1c540ecd0bb3673d2cbefde130",
-      "bytes": 934
+      "sha256": "4ba229dc8bfae3251d2c828c83747ebe9647a4541ee4bee4906f2acd68420024",
+      "bytes": 1428
     },
     {
       "path": "data/csv/ammo.csv",
-      "sha256": "8770ca4d1bc1fcdb1dbf8572fd67ef78c3ebd50833da615893cb8bc81790a4b1",
-      "bytes": 10813
+      "sha256": "780b433b37ae254d836ad0ce9c8958bc644af06b3092093b8c817de210e8b468",
+      "bytes": 11046
     },
     {
       "path": "data/csv/armor.csv",
@@ -59,38 +59,38 @@
     },
     {
       "path": "data/csv/buildables.csv",
-      "sha256": "783c269a1f11e8eb5671722de948ff65557b395008142737df77b7bc19c77f14",
-      "bytes": 4872
+      "sha256": "21fd7261cec9a0200c6adc8b7cd46c574f09657107ce9981d9ad12e9112c30ba",
+      "bytes": 4874
     },
     {
       "path": "data/csv/buildings-europe.csv",
-      "sha256": "4565900211adffb5d59e323fc0a9c22ce40cad19423ea0414c63ec1db80e495d",
+      "sha256": "e3202f50eb6b4b538d57b8ce273921330bc04e005d5f94a7d05b65ac99870bb8",
       "bytes": 33333
     },
     {
       "path": "data/csv/buildings-kavkazi.csv",
-      "sha256": "b10cf958234df73dcdc52dc6cebcfec8e6d994facd3fe3d0b64233c32923a58d",
-      "bytes": 44514
+      "sha256": "bdd73756f48d8bc2959469103b45d7445c2a948ea5d98e39a0660ed7a749d5ef",
+      "bytes": 44513
     },
     {
       "path": "data/csv/buildings-north-america.csv",
-      "sha256": "1c52103653c16ff9180a5eca93a610ee19a2c819d8ad6e2d7e849956ddea4c2f",
-      "bytes": 20032
+      "sha256": "2dcba095a0150b5f45b47f067f84bc1e82d1b726c841ab278bb74490b1892ae0",
+      "bytes": 20031
     },
     {
       "path": "data/csv/challenge-reward-events.csv",
-      "sha256": "48ff34e6bdb05ed534c5eebfab0016cf8ae44a2cd5c6492be9a74d1d952cc06d",
-      "bytes": 7655
+      "sha256": "453cfc6761286118440068b773e1dd8bc31d7155d787f41bf827e06d7415d59c",
+      "bytes": 7866
     },
     {
       "path": "data/csv/challenge-reward-variables.csv",
-      "sha256": "d092efadada2941558e51e0b7f87b6c3d21febb781c0b83ebaaf1031db7e62d3",
-      "bytes": 539350
+      "sha256": "7942313db1af5b4a39493a7d72d90ac8e53db18878615a09982990ef6989dcc6",
+      "bytes": 579335
     },
     {
       "path": "data/csv/challenge-rewards.csv",
-      "sha256": "e260ef8ea0d1b0a4787938d2654be45b9899506c3794c8d7e2a8997664383eb9",
-      "bytes": 192028
+      "sha256": "22dc0218143c2ebd00a02c9d2a014c7f1df7ab5673d1659dec6342ab3b0ea680",
+      "bytes": 213796
     },
     {
       "path": "data/csv/control-zones.csv",
@@ -99,13 +99,13 @@
     },
     {
       "path": "data/csv/cosmetics.csv",
-      "sha256": "e0ebd099451ba89747431004965c89d42dc60b283bfc31c42897a5f41dbedd74",
-      "bytes": 3211
+      "sha256": "017c97a5847b7dc4bc3a25dd989aff25eb90c1a4ca46e14103174e57c066686c",
+      "bytes": 3732
     },
     {
       "path": "data/csv/damage-rules.csv",
-      "sha256": "f99d5df25b8939088ad59e3808011aa1e30b4eba33e7b9d04102afcdfc1149c1",
-      "bytes": 95617
+      "sha256": "33991f5c6ac7529b7febbef8e65cce8b8c6cea3a03fc5f98832401e91f685a72",
+      "bytes": 101311
     },
     {
       "path": "data/csv/equipment-modifiers.csv",
@@ -114,18 +114,18 @@
     },
     {
       "path": "data/csv/gold-market.csv",
-      "sha256": "6c446857e909ea7e807ba33c515d478bd89dcf2da6d8c2f436f4f4a9419163cf",
-      "bytes": 2504
+      "sha256": "e01567b95d335b736829d4db9d039d5de4aa7a86c2cbe3c4f995530af5e61eb2",
+      "bytes": 2957
     },
     {
       "path": "data/csv/hit-location-multipliers.csv",
-      "sha256": "4f4eb1112ed0194d11b826d77353e43b30134994934de9e1ba214d59d5236ce1",
-      "bytes": 8074
+      "sha256": "afc0da98f3b933b28a50d2e17e5e0fbe97a192b5b0fb51a871b262f523b70353",
+      "bytes": 8059
     },
     {
       "path": "data/csv/items.csv",
-      "sha256": "58702c589ac7f06d18c37ad299e270afc037b9694d1ec482e862615d4b787b0a",
-      "bytes": 143123
+      "sha256": "f6e1706ff96af1c4c015dd675a40e84f22d395b8887310bee17098758975fbf4",
+      "bytes": 143425
     },
     {
       "path": "data/csv/loot-items.csv",
@@ -159,13 +159,13 @@
     },
     {
       "path": "data/csv/prices.csv",
-      "sha256": "ca1810a6c3f420c9751433a88602992460ab61b506154d2f17b532624fb7036b",
-      "bytes": 67239
+      "sha256": "30622cd25da93079b7df24ccf9075cce26e6caa1366fae950d3b8d4beb855b20",
+      "bytes": 67329
     },
     {
       "path": "data/csv/reward-curve-points.csv",
-      "sha256": "d9acc019a826c8eaae628640799b6009901df4093c2c09d23091ea9675c053d0",
-      "bytes": 7817
+      "sha256": "d6a65c256f0aff585dc7a943107a08501a2ed8e03e6f432eefdfaecfba1c29ce",
+      "bytes": 7818
     },
     {
       "path": "data/csv/reward-modifiers.csv",
@@ -179,8 +179,8 @@
     },
     {
       "path": "data/csv/role-levels.csv",
-      "sha256": "c1919d4b29d49d6c92c6b4ff1db233bde29f01cba1b5082ac917e5e204e04dcc",
-      "bytes": 13981
+      "sha256": "69df446d1799794fbc09d7a54a84f9eac14eee55acf9f84c1e0d1446ff5676c9",
+      "bytes": 14161
     },
     {
       "path": "data/csv/skill-levels.csv",
@@ -194,13 +194,13 @@
     },
     {
       "path": "data/csv/tags.csv",
-      "sha256": "8a306a4a99f49c9a177911cb2f866cebb20d8f35c11d6fface173ae4281701cf",
-      "bytes": 16806
+      "sha256": "eeb2523771de2285bdf7fe32097e4e762bb5d881e566cd7a8ead849dd716f2a5",
+      "bytes": 17007
     },
     {
       "path": "data/csv/vehicles.csv",
-      "sha256": "26f2eb456301195716864fd25aa746bd229739c37c59e34ad26de839562544cc",
-      "bytes": 4395
+      "sha256": "6e8332e652798633d1ed2c24e838f1fb0265ef20971724033f2d2dc2b42d362a",
+      "bytes": 4410
     },
     {
       "path": "data/csv/weapon-compatibility.csv",
@@ -209,7 +209,7 @@
     },
     {
       "path": "data/csv/weapon-damage.csv",
-      "sha256": "b122f46ac1b83b88a88833f6aab0e00bc6aa32bcb0cc2fb767c1dd5744fee09a",
+      "sha256": "e4c39ead9d76930ea35357ba1200a331fe46e07dbdb4de41353b1e06ac76da2c",
       "bytes": 8581
     },
     {
@@ -219,7 +219,7 @@
     },
     {
       "path": "data/csv/weapons.csv",
-      "sha256": "e6add76566d5f2ddf64fa5ac869c926fc0c9ee4712549f0d264d0a142995bc2d",
+      "sha256": "ff3775dc1ccf1b897177453395c5144111e4bafd9b24316223877df27814cb8b",
       "bytes": 3628
     },
     {
@@ -229,138 +229,138 @@
     },
     {
       "path": "data/damage.json",
-      "sha256": "f9fd20929d81e527d4501db097028d121d8e73cde2a85dbc44939723b02fff78",
-      "bytes": 318760
+      "sha256": "30c7ceee9e8e582f43f46d3797f3a579d239d9c2f3f35af8a64b3d187a9715b1",
+      "bytes": 337317
     },
     {
       "path": "data/equipment.json",
-      "sha256": "24eff582262a15084324115f272373b32a3746744784e35253df57c96bea61a6",
+      "sha256": "18dd15a609f99dca105a6737a22278195ba095b3236c84191b183816cc61a7d0",
       "bytes": 16793
     },
     {
       "path": "data/items.json",
-      "sha256": "c66c368b47b9ee0b90df489459050c4568a5f920f54c0ed4e0be482eaea4b2f8",
-      "bytes": 498857
+      "sha256": "d3aa79174b74613166c53c8a7ba85632f3e410e6c12bf759988f3b66ee9b1934",
+      "bytes": 499537
     },
     {
       "path": "data/loot.json",
-      "sha256": "85da9f2cac8d7c8f92ef62f1712aaeb322126e5cfd97035eb078ca39470ae181",
+      "sha256": "8b374a183c2ee02216d7ed91b653310c630e9890f8908af6e22264d662cba0db",
       "bytes": 42403
     },
     {
       "path": "data/maps/europe/buildings.geojson",
-      "sha256": "82f00a0ede00593d53b0d1e40763e1f3c29c64a06034f46351a31f7f36da2eb9",
+      "sha256": "115c2cdeac8ee469975cf7f08d2758369875915121d9d30ff61018e26f6d1259",
       "bytes": 251881
     },
     {
       "path": "data/maps/europe/buildings.json",
-      "sha256": "3b9e751c6515ea655991c0dd1d122b3db835d7c9526732deba943a8cb46fab73",
+      "sha256": "9cff3c038581c648ee528984dc407108105c0a097a7c6bd13a6838a8b8a654af",
       "bytes": 92366
     },
     {
       "path": "data/maps/europe/map.json",
-      "sha256": "b888e2629389e9d8a91e2c45eb96ca57c515dae1435832a5dca453e08ca02603",
+      "sha256": "3054cddc391009a35f2a216c61922263a50c29e6b29a53f8abde6de399ea2572",
       "bytes": 519
     },
     {
       "path": "data/maps/europe/objectives.json",
-      "sha256": "0aab12338089f3706e0a4cddeee1648e0341daad7258825db54f4026158493cd",
+      "sha256": "82ce123834248b161ba281d9a4b2151c738e2513969fecf6ebbefa4418bb7703",
       "bytes": 3079
     },
     {
       "path": "data/maps/europe/objects.json",
-      "sha256": "0c199c581c745ea129e39eb252f1ff69a8ca12d78a5bdb9ed20a3c81543b7158",
+      "sha256": "c054a292ccbbf20c5008a0ba400fee844e332422f198ef2ac3c04164783e652f",
       "bytes": 42671
     },
     {
       "path": "data/maps/europe/terrain.json",
-      "sha256": "f4e12cbf49154656755f8db5600fe21b306a1cf3e0d5f37c1b9dec5aa33a1019",
+      "sha256": "1984dd897e2924775c4582b10562894f619992e44f4ac456862f5865966088bc",
       "bytes": 675
     },
     {
       "path": "data/maps/kavkazi/buildings.geojson",
-      "sha256": "f6736c408bcf3e5a2005b841058f6f4c210fa5a2415eed9dc28a9f7bee294a1a",
-      "bytes": 330817
+      "sha256": "fa384c43c7bff4a5a05ee5bdaa5dc9b5fdee4122879275e748e88239be435eda",
+      "bytes": 330815
     },
     {
       "path": "data/maps/kavkazi/buildings.json",
-      "sha256": "f3bc8225da1ad891c7bab7d325356f26db5d2ba1e9756a5436ebb9bb37e88c71",
-      "bytes": 121526
+      "sha256": "38c428ced7e8f061f4c9bf760f34fdfe3c43e4fd0dbdd813b722a140721e6d17",
+      "bytes": 121525
     },
     {
       "path": "data/maps/kavkazi/map.json",
-      "sha256": "88a31c26cc513780ae3ff13609456d7bd878cc0b37f1b0d9ea7125fd04a19f4b",
+      "sha256": "ec0431f273c71a8643cf653ec3d28106814313f2ceb3d9cbc60dc47631a93c48",
       "bytes": 524
     },
     {
       "path": "data/maps/kavkazi/objectives.json",
-      "sha256": "d2037ed405280ccede8223747f2d5f92a1617dd8d4a16b99f6536f846aad4add",
+      "sha256": "a469a2c8219b9bf1cb34bff38e93799009c072d46c22252450e93c60645eeead",
       "bytes": 3334
     },
     {
       "path": "data/maps/kavkazi/objects.json",
-      "sha256": "bf693f3ae549ffe6afff5a55e5b28ea9896789ebdcfe0a730cd16c633f80b383",
+      "sha256": "8069baa889eef7149afdfd4bc28fdbb9f9df666026e4ff03aeef962f8ac616c3",
       "bytes": 39213
     },
     {
       "path": "data/maps/kavkazi/terrain.json",
-      "sha256": "541db68014730d7ff55e2e7c67d2e51a0d13e38442fa93254c71bb2b2682711f",
+      "sha256": "276ff7ef6709dfbd09b7df5c3060be2020aece0d41e2625e28e4080f0e091ecb",
       "bytes": 669
     },
     {
       "path": "data/maps/north-america/buildings.geojson",
-      "sha256": "f20fc9458532a1d2feb9383a9dcc820eb8e76145be292e1c7937513e6d83a64b",
-      "bytes": 159930
+      "sha256": "291038e05ba4e983511572e2ed7012a2c689f137c5c73b307e9364cae1013865",
+      "bytes": 159927
     },
     {
       "path": "data/maps/north-america/buildings.json",
-      "sha256": "2006bf6e503fe8ad412406e6d4a4d9165403ae66674beca77c88d1065b3d6686",
-      "bytes": 58067
+      "sha256": "94a927cae82b60f277045adaed7691fec478d4ba16dcd577ab7abc25b9397074",
+      "bytes": 58066
     },
     {
       "path": "data/maps/north-america/map.json",
-      "sha256": "09c34b02de009bba421224da7baa35aee1ba65cf4ea110b48095589469d946b9",
+      "sha256": "fe4a7515b8252be7428aed978564124c7aba51e2b8c6d1d076dc01fd3710f9aa",
       "bytes": 534
     },
     {
       "path": "data/maps/north-america/objectives.json",
-      "sha256": "51c516a45309e2f3ae03086b8b13c2a0ebc78438ca93884030a4aad579042158",
+      "sha256": "b82c4a3ff29b4e553aa01b16b00936132d287c2cc416e52732ad9480e0f2cef7",
       "bytes": 3850
     },
     {
       "path": "data/maps/north-america/objects.json",
-      "sha256": "02b3612a5ef2c9679b86e14abd67cb3b9edc7cfb6fd4a8b416bcb22989ba717b",
+      "sha256": "4f3fe207f478e8f0ebbd6cb1e6cdafd9a69732efbef2a06ab744026cb18f64b2",
       "bytes": 17755
     },
     {
       "path": "data/maps/north-america/terrain.json",
-      "sha256": "e2321a33b7bba6aefa53aa38696ea61ff410941e9437ab2cf32a2cda825e2cc2",
+      "sha256": "763ee38578d56631e3394d0ff2b06e9b3a1e727076febe3dc65bf717fe780539",
       "bytes": 674
     },
     {
       "path": "data/meta.json",
-      "sha256": "08684abf269ed2c4d3879759bf2bd2b763242502c228867c9fd055d9a7463e7a",
-      "bytes": 13002
+      "sha256": "a44d7d5dbb53ddb7161751f61b7bec423e7179007f0a6ae2848479eeb534ed99",
+      "bytes": 15353
     },
     {
       "path": "data/movement.json",
-      "sha256": "f4972fe6dd3fa0aa3b421817116afd2d3d7dae94ef412fe2ce794f00cd6542d1",
+      "sha256": "cb841d1dee2237202d367436033bc3b945ba6b4e91f4b7fc07610a1d15193957",
       "bytes": 3025
     },
     {
       "path": "data/README.md",
-      "sha256": "5c089eaf2f0017a9cf99135a665a1aa6ab3f53c009fee5f7cbdc5b31ca7167cd",
-      "bytes": 105770
+      "sha256": "6340047361973259af78ad72f69353d11ea70ef9f76825d4b024d64b823f3ec0",
+      "bytes": 111425
     },
     {
       "path": "data/rewards.json",
-      "sha256": "38a36dca78136bb62b0dc0aadf92753cb35b77e7964ccba994643caf3e40367a",
+      "sha256": "d840422a581169bdeb7bf2df8e5ab92e2ffeac42fa9462eb8a152e9f3ca2d189",
       "bytes": 78461
     },
     {
       "path": "data/roles.json",
-      "sha256": "9c5d4ee303bd5420b5273ed2a3e7fa992887c0ed5acc96ab671aa478eaf83b73",
-      "bytes": 41337
+      "sha256": "627b0663672d62608a50c96784914f69541a0aa5e4d5f25b05dc3374bb0bf86a",
+      "bytes": 41439
     },
     {
       "path": "data/schema/ammo.schema.json",
@@ -419,8 +419,8 @@
     },
     {
       "path": "data/schema/meta.schema.json",
-      "sha256": "df649d380fc3cc2a364f1fbe5cd10af80e2a0d1d94990de947356e658b9d386b",
-      "bytes": 9243
+      "sha256": "0c6013e45143a202f67df6732ec14ee026db360f666c502779157c318521e816",
+      "bytes": 10796
     },
     {
       "path": "data/schema/movement.schema.json",
@@ -444,8 +444,13 @@
     },
     {
       "path": "data/schema/roles.schema.json",
-      "sha256": "d4a4264894ffe2e8636cf5ffa23d76860328815298f713404e87b6c0ecb326c6",
+      "sha256": "d70102a6bbae3314e16692407caf8255b297eba3d6089af8b81f6f6070eccc4f",
       "bytes": 2747
+    },
+    {
+      "path": "data/schema/settings.schema.json",
+      "sha256": "76adea26ba9c649663d461f1eda4c97ee625c92611c910a57553dcae0043e71c",
+      "bytes": 5423
     },
     {
       "path": "data/schema/skills.schema.json",
@@ -468,6 +473,11 @@
       "bytes": 7764
     },
     {
+      "path": "data/schema/vehicle-models.schema.json",
+      "sha256": "b6aeea80637e7054a1130c8c0e9426f16cdbd25a21fc75c1816fced8f19c7642",
+      "bytes": 21288
+    },
+    {
       "path": "data/schema/vehicles.schema.json",
       "sha256": "102fac56202d02b9e13fe598a9405a818cfc93cd34a23b52a1c07bcac46e236e",
       "bytes": 10430
@@ -478,29 +488,39 @@
       "bytes": 12177
     },
     {
+      "path": "data/settings.json",
+      "sha256": "80cd2cc7bace436865527a77dd0ec6738cc1beaa61ceea8f63e0201460543882",
+      "bytes": 31743
+    },
+    {
       "path": "data/skills.json",
-      "sha256": "c9c464f879afa8cf99274fa33559412baceadb3f169d98305c9ca6adc1506afc",
+      "sha256": "aaab24a1a09d011eb6e865780f27f741d4b3f44f6fc799ceb330a87319af74e8",
       "bytes": 83832
     },
     {
       "path": "data/tags.json",
-      "sha256": "e74f04f0ae52b4555452f0a0ae9fa1cfa91000a241c8094a395acab0566e7fa5",
-      "bytes": 37722
+      "sha256": "427edfd299747a9dc242403e208d78f036f347e49c4a734dd97e8784dd6ddd6c",
+      "bytes": 38179
     },
     {
       "path": "data/vehicle-configs.json",
-      "sha256": "e123778f5cadf774fbfb61b684a443f431f4fdeaba2e42ed7f10ca14a02712a6",
-      "bytes": 3819374
+      "sha256": "4d8f90dbdba76a8d3ccfb57d7259e6aca550b811b22619d4d0fe3019df98a4f8",
+      "bytes": 3841492
+    },
+    {
+      "path": "data/vehicle-models.json",
+      "sha256": "ea43180634098525bea042919233d6dfa5ae9b78c6e4f4424c9a23d9e79bf37f",
+      "bytes": 2718331
     },
     {
       "path": "data/vehicles.json",
-      "sha256": "aeaeb7d8d1787064b6283e0fa48e01ae7b9373049c1c8a4fac1b729b0bce4609",
-      "bytes": 34555
+      "sha256": "7d4b1c2165bbfa437fdf516b227be67339fa97d09a9c32d637a15a520c9882a9",
+      "bytes": 34570
     },
     {
       "path": "data/weapons.json",
-      "sha256": "dadab40f9de8e9bed0e247097c4d00d9958bc19b5f26f0b2ccb855507cbdc4f2",
-      "bytes": 159410
+      "sha256": "66dd3ba9d608e42345bbf274686abe5ebbc07f9df61a79416e708be6fdeceaca",
+      "bytes": 159417
     }
   ]
 }

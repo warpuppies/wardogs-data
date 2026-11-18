@@ -190,4 +190,41 @@ export function writeMetaFixture(raw: string): void {
   put(join(meta, "Challenges/DT_Challenges_SessionEvents_Shared.json"), table("WDChallengeDefinition", { "Achievement.Match.CleanSweep": { DisplayName: text("Clean Sweep") } }));
   put(join(meta, "Achievements/DT_Achievements.json"), table("WDAchievementDefinition", { "Achievement.Match.CleanSweep": { SteamAchievementID: "ACH_MATCH_CLEAN_SWEEP", DisplayName: text("Clean Sweep") } }));
   put(join(meta, "DT_SeasonDefinitions.json"), table("WDMetaSeasonDefinitionTableRow", { "Meta.Season.Definitions": { CurrentSeasonNumber: 1, SeasonDefinitions: [] } }));
+  put(join(meta, "DT_MetaTree_Roles.json"), table("WDMetaTreeDefinition", {
+    "Meta.Role.Wardog": {
+      Nodes: [
+        {
+          ID: { TagName: "Meta.Unlocks.GoldExchange" },
+          LevelsData: [{ Prerequisites: { QueryDefinition: { SharedDefinition: { Conditions: { Structs: [{ MinLevel: 35 }] } } } }, Cost: [{ Key: { TagName: "Attribute.Meta.Currency.Cash" }, Value: 100000 }] }],
+        },
+      ],
+    },
+  }));
+  put(join(meta, "DT_EntityData_UI_GoldExchange.json"), table("BHEntityData_UI", { "Meta.Unlocks.GoldExchange": { FriendlyName: text("Gold Exchange"), Description: text("Trade cash for gold bars.") } }));
+}
+
+export const settingsExports = {
+  fieldOfView: [
+    {
+      Type: "BHUserSettingNumericData",
+      Name: "DA_Setting_General_FieldOfView_Vehicle",
+      Package: "/BHFramework/Settings/General/DA_Setting_General_FieldOfView_Vehicle",
+      Properties: { Parameters: { Minimum: 60, Maximum: 110, Default: 85, Increment: 1, FractionalDigits: 0 } },
+    },
+  ],
+  rotaryMouse: [
+    { Type: "BHUserSettingBoolDiscreteValues", Name: "BHUserSettingBoolDiscreteValues_0", Properties: { Values: [{ Key: "True", Value: { TableId: "/T", Key: "On", SourceString: null } }, { Key: "False", Value: { TableId: "/T", Key: "Off", SourceString: null } }] } },
+    {
+      Type: "BHUserSettingDiscreteData",
+      Name: "DA_Setting_Controls_ActionBehaviour_RotaryMouse",
+      Package: "/BHFramework/Settings/Controls/DA_Setting_Controls_ActionBehaviour_RotaryMouse",
+      Properties: { Parameters: { DefaultIndex: 1, DefaultValues: { ObjectName: "BHUserSettingBoolDiscreteValues'DA_Setting_Controls_ActionBehaviour_RotaryMouse:BHUserSettingBoolDiscreteValues_0'", ObjectPath: "/BHFramework/Settings/Controls/DA_Setting_Controls_ActionBehaviour_RotaryMouse.0" } } },
+    },
+  ],
+};
+
+export function writeSettingsFixture(raw: string): void {
+  const settings = join(raw, "gameplay/Wardogs/Plugins/BHFramework/Content/Settings");
+  put(join(settings, "General/DA_Setting_General_FieldOfView_Vehicle.json"), settingsExports.fieldOfView);
+  put(join(settings, "Controls/DA_Setting_Controls_ActionBehaviour_RotaryMouse.json"), settingsExports.rotaryMouse);
 }

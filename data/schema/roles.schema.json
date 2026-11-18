@@ -71,5 +71,5 @@
     "roles"
   ],
   "additionalProperties": false,
-  "description": "Role mastery: the XP needed for each level of each role. Items unlock at a role level (`unlock` in items.json), so this turns a level gate into an amount of XP. The overall Wardog (career) level, which gates some items up to level 150, has no table of its own: the game's text says all role levels combine into it, without giving the formula."
+  "description": "Role mastery: the XP needed for each level of each role. Items unlock at a role level (`unlock` in items.json), so this turns a level gate into an amount of XP. The overall Wardog (career) level, which gates some items up to level 200, has no table of its own: the game's text says all role levels combine into it, without giving the formula."
 }

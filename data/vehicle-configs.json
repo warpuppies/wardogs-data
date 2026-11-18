@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "gameBuild": "25937608",
+  "gameBuild": "26615518",
   "configs": [
     {
       "package": "/Game/Vehicles/Pawns/Air/Airplane/FWG_01/Data/DA_FWG_01_Config",
@@ -933,6 +933,7 @@
         "/Game/Vehicles/Inputs/IMC_LandVehicles_Driver",
         "/Game/Vehicles/Shared/CRV_VehiclePlayerCollision",
         "/Game/Vehicles/Shared/DA_VehicleRotationDamageMultiplier",
+        "/Mechanized/Curves/CRV_TerminalVelocityByMass",
         "/WHL_01/Audio/DA/DA_Vehicle_BrakingSurface_WHL_01",
         "/WHL_01/Audio/DA/DA_Vehicle_Skidding_Fast_WHL_01",
         "/WHL_01/Audio/DA/DA_Vehicle_Skidding_Medium_WHL_01",
@@ -1029,6 +1030,7 @@
         "/Game/Vehicles/Inputs/IMC_LandVehicles_Driver",
         "/Game/Vehicles/Shared/CRV_VehiclePlayerCollision",
         "/Game/Vehicles/Shared/DA_VehicleRotationDamageMultiplier",
+        "/Mechanized/Curves/CRV_TerminalVelocityByMass",
         "/WHL_02/Audio/DA/DA_Vehicle_BrakingSurface_WHL_02",
         "/WHL_02/Audio/DA/DA_Vehicle_Skidding_Fast_WHL_02",
         "/WHL_02/Audio/DA/DA_Vehicle_Skidding_Medium_WHL_02",
@@ -1041,6 +1043,8 @@
         "/WHL_02/Audio/DA/DA_WHL_02_Audio",
         "/WHL_02/Curves/CRV_CollisionDamage_WHL_02",
         "/WHL_02/Curves/CRV_ForeignVehicleCollisionDamage_WHL_02",
+        "/WHL_02/Curves/CRV_FrontGripByReverseSpeed_WHL_02",
+        "/WHL_02/Curves/CRV_RearGripBySpeed_WHL_02",
         "/WHL_02/Curves/CRV_VehicleCollisionDamage_WHL_02",
         "/WHL_02/Curves/CRV_WHL_02_SpeedCurveFOV",
         "/WHL_02/Data/Curves/CRV_BrakeEngagement",
@@ -1125,6 +1129,7 @@
         "/Game/Vehicles/Inputs/IMC_LandVehicles_Driver",
         "/Game/Vehicles/Shared/CRV_VehiclePlayerCollision",
         "/Game/Vehicles/Shared/DA_VehicleRotationDamageMultiplier",
+        "/Mechanized/Curves/CRV_TerminalVelocityByMass",
         "/WHL_02/Audio/DA/DA_Vehicle_BrakingSurface_WHL_02",
         "/WHL_02/Audio/DA/DA_Vehicle_Skidding_Fast_WHL_02",
         "/WHL_02/Audio/DA/DA_Vehicle_Skidding_Medium_WHL_02",
@@ -1137,6 +1142,8 @@
         "/WHL_02/Audio/DA/DA_WHL_02_Audio",
         "/WHL_02/Curves/CRV_CollisionDamage_WHL_02",
         "/WHL_02/Curves/CRV_ForeignVehicleCollisionDamage_WHL_02",
+        "/WHL_02/Curves/CRV_FrontGripByReverseSpeed_WHL_02",
+        "/WHL_02/Curves/CRV_RearGripBySpeed_WHL_02",
         "/WHL_02/Curves/CRV_VehicleCollisionDamage_WHL_02",
         "/WHL_02/Curves/CRV_WHL_02_SpeedCurveFOV",
         "/WHL_02/Data/Curves/CRV_BrakeEngagement",
@@ -1219,6 +1226,7 @@
         "/Game/Vehicles/Inputs/IMC_LandVehicles_Driver",
         "/Game/Vehicles/Shared/CRV_VehiclePlayerCollision",
         "/Game/Vehicles/Shared/DA_VehicleRotationDamageMultiplier",
+        "/Mechanized/Curves/CRV_TerminalVelocityByMass",
         "/WHL_05/Audio/DA/DA_Vehicle_BrakingSurface_WHL_05_Humvee",
         "/WHL_05/Audio/DA/DA_Vehicle_Skidding_Fast_WHL_05_Humvee",
         "/WHL_05/Audio/DA/DA_Vehicle_Skidding_Medium_WHL_05_Humvee",
@@ -1233,6 +1241,8 @@
         "/WHL_05/Curves/CRV_CollisionDamage_WHL_05",
         "/WHL_05/Curves/CRV_ForeignVehicleCollisionDamage_WHL_05",
         "/WHL_05/Curves/CRV_FreeLookPitchRange_WHL_05",
+        "/WHL_05/Curves/CRV_FrontGripByReverseSpeed_WHL_05",
+        "/WHL_05/Curves/CRV_RearGripBySpeed_WHL_05",
         "/WHL_05/Curves/CRV_SteerLimitVariant_WHL_05",
         "/WHL_05/Curves/CRV_SteerSpeedVariant_WHL_05",
         "/WHL_05/Curves/CRV_ThrottleEngagement_WHL_05",
@@ -1313,6 +1323,7 @@
         "/Game/Vehicles/Inputs/IMC_LandVehicles_Driver",
         "/Game/Vehicles/Shared/CRV_VehiclePlayerCollision",
         "/Game/Vehicles/Shared/DA_VehicleRotationDamageMultiplier",
+        "/Mechanized/Curves/CRV_TerminalVelocityByMass",
         "/WHL_05/Audio/DA/DA_Vehicle_BrakingSurface_WHL_05_Humvee",
         "/WHL_05/Audio/DA/DA_Vehicle_Skidding_Fast_WHL_05_Humvee",
         "/WHL_05/Audio/DA/DA_Vehicle_Skidding_Medium_WHL_05_Humvee",
@@ -1327,6 +1338,8 @@
         "/WHL_05/Curves/CRV_CollisionDamage_WHL_05",
         "/WHL_05/Curves/CRV_ForeignVehicleCollisionDamage_WHL_05",
         "/WHL_05/Curves/CRV_FreeLookPitchRange_WHL_05",
+        "/WHL_05/Curves/CRV_FrontGripByReverseSpeed_WHL_05",
+        "/WHL_05/Curves/CRV_RearGripBySpeed_WHL_05",
         "/WHL_05/Curves/CRV_SteerLimitVariant_WHL_05",
         "/WHL_05/Curves/CRV_SteerSpeedVariant_WHL_05",
         "/WHL_05/Curves/CRV_ThrottleEngagement_WHL_05",
@@ -1407,6 +1420,7 @@
         "/Game/Vehicles/Inputs/IMC_LandVehicles_Driver",
         "/Game/Vehicles/Shared/CRV_VehiclePlayerCollision",
         "/Game/Vehicles/Shared/DA_VehicleRotationDamageMultiplier",
+        "/Mechanized/Curves/CRV_TerminalVelocityByMass",
         "/WHL_05/Audio/DA/DA_Vehicle_BrakingSurface_WHL_05_Humvee",
         "/WHL_05/Audio/DA/DA_Vehicle_Skidding_Fast_WHL_05_Humvee",
         "/WHL_05/Audio/DA/DA_Vehicle_Skidding_Medium_WHL_05_Humvee",
@@ -1421,6 +1435,8 @@
         "/WHL_05/Curves/CRV_CollisionDamage_WHL_05",
         "/WHL_05/Curves/CRV_ForeignVehicleCollisionDamage_WHL_05",
         "/WHL_05/Curves/CRV_FreeLookPitchRange_WHL_05",
+        "/WHL_05/Curves/CRV_FrontGripByReverseSpeed_WHL_05",
+        "/WHL_05/Curves/CRV_RearGripBySpeed_WHL_05",
         "/WHL_05/Curves/CRV_SteerLimitVariant_WHL_05",
         "/WHL_05/Curves/CRV_SteerSpeedVariant_WHL_05",
         "/WHL_05/Curves/CRV_ThrottleEngagement_WHL_05",
@@ -1494,6 +1510,7 @@
         "/Game/Vehicles/Inputs/IMC_LandVehicles_Driver",
         "/Game/Vehicles/Shared/CRV_VehiclePlayerCollision",
         "/Game/Vehicles/Shared/DA_VehicleRotationDamageMultiplier",
+        "/Mechanized/Curves/CRV_TerminalVelocityByMass",
         "/WHL_06/Audio/DA/DA_Vehicle_BrakingSurface_WHL_06",
         "/WHL_06/Audio/DA/DA_Vehicle_Skidding_Slow_WHL_06",
         "/WHL_06/Audio/DA/DA_Vehicle_Surface_Fast_WHL_06",
@@ -1505,6 +1522,8 @@
         "/WHL_06/Curves/CRV_CollisionDamage_WHL_06",
         "/WHL_06/Curves/CRV_ForeignVehicleCollisionDamage_WHL_06",
         "/WHL_06/Curves/CRV_FreeLookPitchRange_WHL_06",
+        "/WHL_06/Curves/CRV_FrontGripByReverseSpeed_WHL_06",
+        "/WHL_06/Curves/CRV_RearGripBySpeed_WHL_06",
         "/WHL_06/Curves/CRV_VehicleCollisionDamage_WHL_06_DuneBuggy",
         "/WHL_06/Data/Axles/DA_FrontAxle_WHL_06_DuneBuggy",
         "/WHL_06/Data/Axles/DA_FrontWheels_WHL_06_DuneBuggy",
@@ -1587,6 +1606,7 @@
         "/Game/Vehicles/Inputs/IA_Vehicle_UseHorn",
         "/Game/Vehicles/Inputs/IMC_LandVehicles_Driver",
         "/Game/Vehicles/Shared/DA_VehicleRotationDamageMultiplier",
+        "/Mechanized/Curves/CRV_TerminalVelocityByMass",
         "/WHL_07/Audio/DA/DA_Vehicle_BrakingSurface_WHL_07_Ural",
         "/WHL_07/Audio/DA/DA_Vehicle_Skidding_Fast_WHL_07_Ural",
         "/WHL_07/Audio/DA/DA_Vehicle_Skidding_Medium_WHL_07_Ural",
@@ -1601,6 +1621,8 @@
         "/WHL_07/Curves/CRV_CollisionDamage_WHL_07",
         "/WHL_07/Curves/CRV_ForeignVehicleCollisionDamage_WHL_07",
         "/WHL_07/Curves/CRV_FreeLookPitchRange_WHL_07",
+        "/WHL_07/Curves/CRV_FrontGripByReverseSpeed_WHL_07",
+        "/WHL_07/Curves/CRV_RearGripBySpeed_WHL_07",
         "/WHL_07/Curves/CRV_SteerLimitVariant_WHL_07",
         "/WHL_07/Curves/CRV_SteerSpeedVariant_WHL_07",
         "/WHL_07/Curves/CRV_ThrottleEngagement_WHL_07",
@@ -1669,6 +1691,7 @@
         "/Game/Vehicles/Inputs/IMC_LandVehicles_Driver",
         "/Game/Vehicles/Shared/CRV_VehiclePlayerCollision",
         "/Game/Vehicles/Shared/DA_VehicleRotationDamageMultiplier",
+        "/Mechanized/Curves/CRV_TerminalVelocityByMass",
         "/WHL_08/Audio/DA/DA_Vehicle_BrakingSurface_WHL_08",
         "/WHL_08/Audio/DA/DA_Vehicle_Skidding_Fast_WHL_08",
         "/WHL_08/Audio/DA/DA_Vehicle_Skidding_Medium_WHL_08",
@@ -1682,6 +1705,8 @@
         "/WHL_08/Curves/CRV_CollisionDamage_WHL_08",
         "/WHL_08/Curves/CRV_ForeignVehicleCollisionDamage_WHL_08",
         "/WHL_08/Curves/CRV_FreeLookPitchRange_WHL_08",
+        "/WHL_08/Curves/CRV_FrontGripByReverseSpeed_WHL_08",
+        "/WHL_08/Curves/CRV_RearGripBySpeed_WHL_08",
         "/WHL_08/Curves/CRV_SteerLimitVariant_WHL_08",
         "/WHL_08/Curves/CRV_SteerSpeedVariant_WHL_08",
         "/WHL_08/Curves/CRV_ThrottleEngagement_WHL_08",
@@ -7464,7 +7489,7 @@
                     "ref": "/Game/Vehicles/Inputs/IA_Vehicle_Handbrake"
                   },
                   "Key": {
-                    "KeyName": "Gamepad_FaceButton_Bottom"
+                    "KeyName": "Gamepad_FaceButton_Right"
                   },
                   "SettingBehavior": "EPlayerMappableKeySettingBehaviors::OverrideSettings",
                   "PlayerMappableKeySettings": {
@@ -8518,18 +8543,6 @@
                   }
                 },
                 {
-                  "Triggers": [],
-                  "Modifiers": [],
-                  "Action": {
-                    "ref": "/Game/Vehicles/Inputs/IA_Vehicle_Weapon_Use"
-                  },
-                  "Key": {
-                    "KeyName": "Gamepad_FaceButton_Bottom"
-                  },
-                  "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
-                  "PlayerMappableKeySettings": null
-                },
-                {
                   "Triggers": [
                     {
                       "ref": "/Game/Vehicles/Inputs/IMC_MountedGunnerInput",
@@ -9072,7 +9085,7 @@
                     "ref": "/Game/Vehicles/Inputs/IA_Vehicle_Weapon_Focus"
                   },
                   "Key": {
-                    "KeyName": "Gamepad_LeftTrigger"
+                    "KeyName": "Gamepad_LeftThumbstick"
                   },
                   "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
                   "PlayerMappableKeySettings": null
@@ -9183,7 +9196,8 @@
           "type": "InputTriggerHold",
           "outer": "IMC_MountedGunnerInput",
           "properties": {
-            "HoldTimeThreshold": 0.5
+            "HoldTimeThreshold": 0.5,
+            "bIsOneShot": true
           }
         },
         {
@@ -12238,7 +12252,7 @@
                     "ref": "/Game/Vehicles/Inputs/IA_Vehicle_Weapon_Use"
                   },
                   "Key": {
-                    "KeyName": "Gamepad_FaceButton_Bottom"
+                    "KeyName": "Gamepad_FaceButton_Right"
                   },
                   "SettingBehavior": "EPlayerMappableKeySettingBehaviors::IgnoreSettings",
                   "PlayerMappableKeySettings": {
@@ -14367,7 +14381,7 @@
                     "ref": "/Game/Vehicles/Inputs/IA_Vehicle_Handbrake"
                   },
                   "Key": {
-                    "KeyName": "Gamepad_FaceButton_Bottom"
+                    "KeyName": "Gamepad_FaceButton_Right"
                   },
                   "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
                   "PlayerMappableKeySettings": null
@@ -17755,6 +17769,88 @@
       ]
     },
     {
+      "package": "/Mechanized/Curves/CRV_TerminalVelocityByMass",
+      "asset": "Plugins/Mechanized/Content/Curves/CRV_TerminalVelocityByMass",
+      "exports": [
+        {
+          "name": "CRV_TerminalVelocityByMass",
+          "type": "CurveFloat",
+          "properties": {
+            "FloatCurve": {
+              "Keys": [
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 125,
+                  "Value": 40,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                },
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 250,
+                  "Value": 80,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                },
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 1000,
+                  "Value": 100,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                },
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 3500,
+                  "Value": 120,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                },
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 10000,
+                  "Value": 140,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                },
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 20000,
+                  "Value": 160,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
       "package": "/ROT_02/Camera/DA_ROT_02_CameraRotationCurve",
       "asset": "Plugins/GameFeatures/Vehicles/ROT_02/Content/Camera/DA_ROT_02_CameraRotationCurve",
       "exports": [
@@ -20441,12 +20537,12 @@
               }
             },
             "_aaabapaalbmcgefnkeden_$F00B1C2645DA434D$_$16$": {
-              "_aaaaiilbfgipjfmnodgoa": 150,
-              "_aaaanfbaabccmjoafaohg": 150,
+              "_aaaaijihnabjcmogijgma_$987D0192CE6896C0$_$8$": 150,
+              "_aaaanifblogallcdlegnp_$851BE60BB23B46DF$_$13$": 150,
               "RingCount": 1,
-              "_aaaalokhgkfoapmcocanl": 1400,
-              "_aaaandgghdpkjdhegibkb": 3,
-              "_aaaappffdfakbghkalhfi": {
+              "_aaaalclphndpoalllnhmp_$2BF7D3FE0BBBD7CF$_$11$": 1400,
+              "_aaaanlkiomeoonpeohkph_$BA8EC4EEDF4E7AF7$_$13$": 3,
+              "_aaaapjdhocgpbfakjfmmg_$937E26F150A95CC6$_$15$": {
                 "X": 0.72,
                 "Y": 0.65,
                 "Z": 0.65
@@ -24900,9 +24996,9 @@
             },
             "_aaabapaalbmcgefnkeden_$F00B1C2645DA434D$_$16$": {
               "RingCount": 1,
-              "_aaaalokhgkfoapmcocanl": 1000,
-              "_aaaandgghdpkjdhegibkb": 3,
-              "_aaaappffdfakbghkalhfi": {
+              "_aaaalclphndpoalllnhmp_$2BF7D3FE0BBBD7CF$_$11$": 1000,
+              "_aaaanlkiomeoonpeohkph_$BA8EC4EEDF4E7AF7$_$13$": 3,
+              "_aaaapjdhocgpbfakjfmmg_$937E26F150A95CC6$_$15$": {
                 "X": 0.72,
                 "Y": 0.65,
                 "Z": 1
@@ -27432,9 +27528,9 @@
             },
             "_aaabapaalbmcgefnkeden_$F00B1C2645DA434D$_$16$": {
               "RingCount": 1,
-              "_aaaalokhgkfoapmcocanl": 1000,
-              "_aaaandgghdpkjdhegibkb": 3,
-              "_aaaappffdfakbghkalhfi": {
+              "_aaaalclphndpoalllnhmp_$2BF7D3FE0BBBD7CF$_$11$": 1000,
+              "_aaaanlkiomeoonpeohkph_$BA8EC4EEDF4E7AF7$_$13$": 3,
+              "_aaaapjdhocgpbfakjfmmg_$937E26F150A95CC6$_$15$": {
                 "X": 0.72,
                 "Y": 0.65,
                 "Z": 1
@@ -27917,11 +28013,11 @@
               }
             },
             "_aaabapaalbmcgefnkeden_$F00B1C2645DA434D$_$16$": {
-              "_aaaanfbaabccmjoafaohg": 500,
+              "_aaaanifblogallcdlegnp_$851BE60BB23B46DF$_$13$": 500,
               "RingCount": 2,
-              "_aaaalokhgkfoapmcocanl": 1400,
-              "_aaaandgghdpkjdhegibkb": 3,
-              "_aaaappffdfakbghkalhfi": {
+              "_aaaalclphndpoalllnhmp_$2BF7D3FE0BBBD7CF$_$11$": 1400,
+              "_aaaanlkiomeoonpeohkph_$BA8EC4EEDF4E7AF7$_$13$": 3,
+              "_aaaapjdhocgpbfakjfmmg_$937E26F150A95CC6$_$15$": {
                 "X": 0.72,
                 "Y": 0.65,
                 "Z": 0.65
@@ -33179,7 +33275,7 @@
                 ]
               }
             },
-            "Gears": [
+            "gears": [
               {
                 "GearRatio": 5,
                 "DownRatio": 0.2,
@@ -33797,8 +33893,8 @@
             "MovingEffectAngularSpeedThreshold": 0.2,
             "_aaabapaalbmcgefnkeden_$F00B1C2645DA434D$_$16$": {
               "RingCount": 1,
-              "_aaaalokhgkfoapmcocanl": 800,
-              "_aaaandgghdpkjdhegibkb": 3,
+              "_aaaalclphndpoalllnhmp_$2BF7D3FE0BBBD7CF$_$11$": 800,
+              "_aaaanlkiomeoonpeohkph_$BA8EC4EEDF4E7AF7$_$13$": 3,
               "BoundsOffset": {
                 "X": 0,
                 "Y": 0,
@@ -37705,11 +37801,11 @@
             },
             "MovingEffectAngularSpeedThreshold": 0.2,
             "_aaabapaalbmcgefnkeden_$F00B1C2645DA434D$_$16$": {
-              "_aaaaiilbfgipjfmnodgoa": 150,
-              "_aaaanfbaabccmjoafaohg": 150,
+              "_aaaaijihnabjcmogijgma_$987D0192CE6896C0$_$8$": 150,
+              "_aaaanifblogallcdlegnp_$851BE60BB23B46DF$_$13$": 150,
               "RingCount": 1,
-              "_aaaalokhgkfoapmcocanl": 800,
-              "_aaaandgghdpkjdhegibkb": 3,
+              "_aaaalclphndpoalllnhmp_$2BF7D3FE0BBBD7CF$_$11$": 800,
+              "_aaaanlkiomeoonpeohkph_$BA8EC4EEDF4E7AF7$_$13$": 3,
               "BoundsOffset": {
                 "X": 0,
                 "Y": 0,
@@ -37917,11 +38013,11 @@
             },
             "MovingEffectAngularSpeedThreshold": 0.2,
             "_aaabapaalbmcgefnkeden_$F00B1C2645DA434D$_$16$": {
-              "_aaaaiilbfgipjfmnodgoa": 150,
-              "_aaaanfbaabccmjoafaohg": 150,
+              "_aaaaijihnabjcmogijgma_$987D0192CE6896C0$_$8$": 150,
+              "_aaaanifblogallcdlegnp_$851BE60BB23B46DF$_$13$": 150,
               "RingCount": 1,
-              "_aaaalokhgkfoapmcocanl": 800,
-              "_aaaandgghdpkjdhegibkb": 3,
+              "_aaaalclphndpoalllnhmp_$2BF7D3FE0BBBD7CF$_$11$": 800,
+              "_aaaanlkiomeoonpeohkph_$BA8EC4EEDF4E7AF7$_$13$": 3,
               "BoundsOffset": {
                 "X": 0,
                 "Y": 0,
@@ -40509,7 +40605,7 @@
                 ]
               }
             },
-            "Gears": [
+            "gears": [
               {
                 "GearRatio": 5,
                 "DownRatio": 0.2,
@@ -40861,11 +40957,11 @@
             },
             "MovingEffectAngularSpeedThreshold": 0.2,
             "_aaabapaalbmcgefnkeden_$F00B1C2645DA434D$_$16$": {
-              "_aaaaiilbfgipjfmnodgoa": 150,
-              "_aaaanfbaabccmjoafaohg": 150,
+              "_aaaaijihnabjcmogijgma_$987D0192CE6896C0$_$8$": 150,
+              "_aaaanifblogallcdlegnp_$851BE60BB23B46DF$_$13$": 150,
               "RingCount": 1,
-              "_aaaalokhgkfoapmcocanl": 800,
-              "_aaaandgghdpkjdhegibkb": 3,
+              "_aaaalclphndpoalllnhmp_$2BF7D3FE0BBBD7CF$_$11$": 800,
+              "_aaaanlkiomeoonpeohkph_$BA8EC4EEDF4E7AF7$_$13$": 3,
               "BoundsOffset": {
                 "X": 0,
                 "Y": 0,
@@ -43287,11 +43383,11 @@
             },
             "MovingEffectAngularSpeedThreshold": 0.2,
             "_aaabapaalbmcgefnkeden_$F00B1C2645DA434D$_$16$": {
-              "_aaaaiilbfgipjfmnodgoa": 150,
-              "_aaaanfbaabccmjoafaohg": 150,
+              "_aaaaijihnabjcmogijgma_$987D0192CE6896C0$_$8$": 150,
+              "_aaaanifblogallcdlegnp_$851BE60BB23B46DF$_$13$": 150,
               "RingCount": 1,
-              "_aaaalokhgkfoapmcocanl": 800,
-              "_aaaandgghdpkjdhegibkb": 3,
+              "_aaaalclphndpoalllnhmp_$2BF7D3FE0BBBD7CF$_$11$": 800,
+              "_aaaanlkiomeoonpeohkph_$BA8EC4EEDF4E7AF7$_$13$": 3,
               "BoundsOffset": {
                 "X": 0,
                 "Y": 0,
@@ -44497,7 +44593,7 @@
                 ]
               }
             },
-            "Gears": [
+            "gears": [
               {
                 "GearRatio": 5,
                 "DownRatio": 0.2,
@@ -45989,11 +46085,11 @@
               }
             },
             "_aaabapaalbmcgefnkeden_$F00B1C2645DA434D$_$16$": {
-              "_aaaaiilbfgipjfmnodgoa": 150,
-              "_aaaanfbaabccmjoafaohg": 150,
+              "_aaaaijihnabjcmogijgma_$987D0192CE6896C0$_$8$": 150,
+              "_aaaanifblogallcdlegnp_$851BE60BB23B46DF$_$13$": 150,
               "RingCount": 1,
-              "_aaaalokhgkfoapmcocanl": 500,
-              "_aaaandgghdpkjdhegibkb": 3,
+              "_aaaalclphndpoalllnhmp_$2BF7D3FE0BBBD7CF$_$11$": 500,
+              "_aaaanlkiomeoonpeohkph_$BA8EC4EEDF4E7AF7$_$13$": 3,
               "BoundsOffset": {
                 "X": 0,
                 "Y": 0,
@@ -46863,6 +46959,9 @@
           "type": "MWheeledVehicleCharacteristicsDataAsset",
           "properties": {
             "Mass": 250,
+            "_aaabfocjlhhckjbpebecm": {
+              "ref": "/Mechanized/Curves/CRV_TerminalVelocityByMass"
+            },
             "InertiaScale": {
               "X": 1,
               "Y": 1,
@@ -46927,7 +47026,7 @@
                 1.9,
                 1.5,
                 1.3,
-                6
+                3.89
               ],
               "FinalGearRatio": 9.5
             }
@@ -53931,6 +54030,82 @@
       ]
     },
     {
+      "package": "/WHL_02/Curves/CRV_FrontGripByReverseSpeed_WHL_02",
+      "asset": "Plugins/GameFeatures/Vehicles/WHL_02/Content/Curves/CRV_FrontGripByReverseSpeed_WHL_02",
+      "exports": [
+        {
+          "name": "CRV_FrontGripByReverseSpeed_WHL_02",
+          "type": "CurveFloat",
+          "properties": {
+            "FloatCurve": {
+              "Keys": [
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 155,
+                  "Value": 1,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                },
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 174,
+                  "Value": 0.6,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "package": "/WHL_02/Curves/CRV_RearGripBySpeed_WHL_02",
+      "asset": "Plugins/GameFeatures/Vehicles/WHL_02/Content/Curves/CRV_RearGripBySpeed_WHL_02",
+      "exports": [
+        {
+          "name": "CRV_RearGripBySpeed_WHL_02",
+          "type": "CurveFloat",
+          "properties": {
+            "FloatCurve": {
+              "Keys": [
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 155,
+                  "Value": 1,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                },
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 174,
+                  "Value": 0.6,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
       "package": "/WHL_02/Curves/CRV_VehicleCollisionDamage_WHL_02",
       "asset": "Plugins/GameFeatures/Vehicles/WHL_02/Content/Curves/CRV_VehicleCollisionDamage_WHL_02",
       "exports": [
@@ -54540,6 +54715,17 @@
           "type": "MWheeledVehicleCharacteristicsDataAsset",
           "properties": {
             "Mass": 2750,
+            "_aaabfocjlhhckjbpebecm": {
+              "ref": "/Mechanized/Curves/CRV_TerminalVelocityByMass"
+            },
+            "_aaabjmpiofbcngagodjpo": true,
+            "_aaabdhabjabkoffmgcpch": 174,
+            "_aaabegefgdibnpnonbpdg": {
+              "ref": "/WHL_02/Curves/CRV_RearGripBySpeed_WHL_02"
+            },
+            "_aaabmaimkbeojeieknefl": {
+              "ref": "/WHL_02/Curves/CRV_FrontGripByReverseSpeed_WHL_02"
+            },
             "InertiaScale": {
               "X": 1,
               "Y": 1,
@@ -54752,11 +54938,11 @@
               }
             },
             "_aaabapaalbmcgefnkeden_$F00B1C2645DA434D$_$16$": {
-              "_aaaaiilbfgipjfmnodgoa": 150,
-              "_aaaanfbaabccmjoafaohg": 150,
+              "_aaaaijihnabjcmogijgma_$987D0192CE6896C0$_$8$": 150,
+              "_aaaanifblogallcdlegnp_$851BE60BB23B46DF$_$13$": 150,
               "RingCount": 1,
-              "_aaaalokhgkfoapmcocanl": 800,
-              "_aaaandgghdpkjdhegibkb": 3,
+              "_aaaalclphndpoalllnhmp_$2BF7D3FE0BBBD7CF$_$11$": 800,
+              "_aaaanlkiomeoonpeohkph_$BA8EC4EEDF4E7AF7$_$13$": 3,
               "BoundsOffset": {
                 "X": 0,
                 "Y": 0,
@@ -54795,9 +54981,10 @@
                 2.45,
                 1.7,
                 1.3,
-                6
+                3.5
               ],
-              "FinalGearRatio": 5.5
+              "FinalGearRatio": 5.5,
+              "_aaabceogpiegghjhdmpno": 33
             }
           }
         }
@@ -60910,11 +61097,11 @@
               "Vehicle.PhysicsGroup.MainBody.Rear"
             ],
             "_aaabapaalbmcgefnkeden_$F00B1C2645DA434D$_$16$": {
-              "_aaaaiilbfgipjfmnodgoa": 150,
-              "_aaaanfbaabccmjoafaohg": 150,
+              "_aaaaijihnabjcmogijgma_$987D0192CE6896C0$_$8$": 150,
+              "_aaaanifblogallcdlegnp_$851BE60BB23B46DF$_$13$": 150,
               "RingCount": 1,
-              "_aaaalokhgkfoapmcocanl": 800,
-              "_aaaandgghdpkjdhegibkb": 3
+              "_aaaalclphndpoalllnhmp_$2BF7D3FE0BBBD7CF$_$11$": 800,
+              "_aaaanlkiomeoonpeohkph_$BA8EC4EEDF4E7AF7$_$13$": 3
             }
           }
         }
@@ -62349,6 +62536,82 @@
       ]
     },
     {
+      "package": "/WHL_05/Curves/CRV_FrontGripByReverseSpeed_WHL_05",
+      "asset": "Plugins/GameFeatures/Vehicles/WHL_05/Content/Curves/CRV_FrontGripByReverseSpeed_WHL_05",
+      "exports": [
+        {
+          "name": "CRV_FrontGripByReverseSpeed_WHL_05",
+          "type": "CurveFloat",
+          "properties": {
+            "FloatCurve": {
+              "Keys": [
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 114,
+                  "Value": 1,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                },
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 138,
+                  "Value": 0.6,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "package": "/WHL_05/Curves/CRV_RearGripBySpeed_WHL_05",
+      "asset": "Plugins/GameFeatures/Vehicles/WHL_05/Content/Curves/CRV_RearGripBySpeed_WHL_05",
+      "exports": [
+        {
+          "name": "CRV_RearGripBySpeed_WHL_05",
+          "type": "CurveFloat",
+          "properties": {
+            "FloatCurve": {
+              "Keys": [
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 114,
+                  "Value": 1,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                },
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 138,
+                  "Value": 0.6,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
       "package": "/WHL_05/Curves/CRV_SteerLimitVariant_WHL_05",
       "asset": "Plugins/GameFeatures/Vehicles/WHL_05/Content/Curves/CRV_SteerLimitVariant_WHL_05",
       "exports": [
@@ -62723,7 +62986,6 @@
             ],
             "DifferentialType": "EMDifferential::Open",
             "DiffStrength": 0.6,
-            "TorqueShare": 0.4,
             "MaxSteerAngle": 35
           }
         }
@@ -62859,7 +63121,6 @@
             ],
             "DifferentialType": "EMDifferential::Open",
             "DiffStrength": 0.6,
-            "TorqueShare": 0.6,
             "bHasHandbrake": true
           }
         }
@@ -62875,7 +63136,7 @@
           "properties": {
             "bPhysicsSurfaceUpdate": true,
             "LateralFriction": {
-              "Values": 1.03,
+              "Values": 1.05,
               "Values[1]": 0.9,
               "Values[2]": 0.25
             },
@@ -67545,6 +67806,17 @@
           "type": "MWheeledVehicleCharacteristicsDataAsset",
           "properties": {
             "Mass": 7250,
+            "_aaabfocjlhhckjbpebecm": {
+              "ref": "/Mechanized/Curves/CRV_TerminalVelocityByMass"
+            },
+            "_aaabjmpiofbcngagodjpo": true,
+            "_aaabdhabjabkoffmgcpch": 138,
+            "_aaabegefgdibnpnonbpdg": {
+              "ref": "/WHL_05/Curves/CRV_RearGripBySpeed_WHL_05"
+            },
+            "_aaabmaimkbeojeieknefl": {
+              "ref": "/WHL_05/Curves/CRV_FrontGripByReverseSpeed_WHL_05"
+            },
             "InertiaScale": {
               "X": 1,
               "Y": 1,
@@ -67750,11 +68022,11 @@
             },
             "MovingEffectSpeedThreshold": 80,
             "_aaabapaalbmcgefnkeden_$F00B1C2645DA434D$_$16$": {
-              "_aaaaiilbfgipjfmnodgoa": 150,
-              "_aaaanfbaabccmjoafaohg": 150,
+              "_aaaaijihnabjcmogijgma_$987D0192CE6896C0$_$8$": 150,
+              "_aaaanifblogallcdlegnp_$851BE60BB23B46DF$_$13$": 150,
               "RingCount": 1,
-              "_aaaalokhgkfoapmcocanl": 800,
-              "_aaaandgghdpkjdhegibkb": 3,
+              "_aaaalclphndpoalllnhmp_$2BF7D3FE0BBBD7CF$_$11$": 800,
+              "_aaaanlkiomeoonpeohkph_$BA8EC4EEDF4E7AF7$_$13$": 3,
               "BoundsOffset": {
                 "X": 0,
                 "Y": 0,
@@ -67793,7 +68065,7 @@
                 1.7,
                 1.35,
                 1.12,
-                3.6
+                2.22
               ],
               "FinalGearRatio": 6.54
             }
@@ -69529,11 +69801,11 @@
             },
             "MovingEffectSpeedThreshold": 80,
             "_aaabapaalbmcgefnkeden_$F00B1C2645DA434D$_$16$": {
-              "_aaaaiilbfgipjfmnodgoa": 150,
-              "_aaaanfbaabccmjoafaohg": 150,
+              "_aaaaijihnabjcmogijgma_$987D0192CE6896C0$_$8$": 150,
+              "_aaaanifblogallcdlegnp_$851BE60BB23B46DF$_$13$": 150,
               "RingCount": 1,
-              "_aaaalokhgkfoapmcocanl": 800,
-              "_aaaandgghdpkjdhegibkb": 3,
+              "_aaaalclphndpoalllnhmp_$2BF7D3FE0BBBD7CF$_$11$": 800,
+              "_aaaanlkiomeoonpeohkph_$BA8EC4EEDF4E7AF7$_$13$": 3,
               "BoundsOffset": {
                 "X": 0,
                 "Y": 0,
@@ -71179,11 +71451,11 @@
             },
             "MovingEffectSpeedThreshold": 80,
             "_aaabapaalbmcgefnkeden_$F00B1C2645DA434D$_$16$": {
-              "_aaaaiilbfgipjfmnodgoa": 150,
-              "_aaaanfbaabccmjoafaohg": 150,
+              "_aaaaijihnabjcmogijgma_$987D0192CE6896C0$_$8$": 150,
+              "_aaaanifblogallcdlegnp_$851BE60BB23B46DF$_$13$": 150,
               "RingCount": 1,
-              "_aaaalokhgkfoapmcocanl": 800,
-              "_aaaandgghdpkjdhegibkb": 3,
+              "_aaaalclphndpoalllnhmp_$2BF7D3FE0BBBD7CF$_$11$": 800,
+              "_aaaanlkiomeoonpeohkph_$BA8EC4EEDF4E7AF7$_$13$": 3,
               "BoundsOffset": {
                 "X": 0,
                 "Y": 0,
@@ -73801,6 +74073,82 @@
                   "ArriveTangent": -2.2709484,
                   "ArriveTangentWeight": 0,
                   "LeaveTangent": -2.2709484,
+                  "LeaveTangentWeight": 0
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "package": "/WHL_06/Curves/CRV_FrontGripByReverseSpeed_WHL_06",
+      "asset": "Plugins/GameFeatures/Vehicles/WHL_06/Content/Curves/CRV_FrontGripByReverseSpeed_WHL_06",
+      "exports": [
+        {
+          "name": "CRV_FrontGripByReverseSpeed_WHL_06",
+          "type": "CurveFloat",
+          "properties": {
+            "FloatCurve": {
+              "Keys": [
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 130,
+                  "Value": 1,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                },
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 141,
+                  "Value": 0.6,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "package": "/WHL_06/Curves/CRV_RearGripBySpeed_WHL_06",
+      "asset": "Plugins/GameFeatures/Vehicles/WHL_06/Content/Curves/CRV_RearGripBySpeed_WHL_06",
+      "exports": [
+        {
+          "name": "CRV_RearGripBySpeed_WHL_06",
+          "type": "CurveFloat",
+          "properties": {
+            "FloatCurve": {
+              "Keys": [
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 130,
+                  "Value": 1,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                },
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 141,
+                  "Value": 0.6,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
                   "LeaveTangentWeight": 0
                 }
               ]
@@ -79059,6 +79407,17 @@
           "type": "MWheeledVehicleCharacteristicsDataAsset",
           "properties": {
             "Mass": 550,
+            "_aaabfocjlhhckjbpebecm": {
+              "ref": "/Mechanized/Curves/CRV_TerminalVelocityByMass"
+            },
+            "_aaabjmpiofbcngagodjpo": true,
+            "_aaabdhabjabkoffmgcpch": 141,
+            "_aaabegefgdibnpnonbpdg": {
+              "ref": "/WHL_06/Curves/CRV_RearGripBySpeed_WHL_06"
+            },
+            "_aaabmaimkbeojeieknefl": {
+              "ref": "/WHL_06/Curves/CRV_FrontGripByReverseSpeed_WHL_06"
+            },
             "InertiaScale": {
               "X": 1.5,
               "Y": 1.5,
@@ -79268,11 +79627,11 @@
               }
             },
             "_aaabapaalbmcgefnkeden_$F00B1C2645DA434D$_$16$": {
-              "_aaaaiilbfgipjfmnodgoa": 150,
-              "_aaaanfbaabccmjoafaohg": 150,
+              "_aaaaijihnabjcmogijgma_$987D0192CE6896C0$_$8$": 150,
+              "_aaaanifblogallcdlegnp_$851BE60BB23B46DF$_$13$": 150,
               "RingCount": 1,
-              "_aaaalokhgkfoapmcocanl": 800,
-              "_aaaandgghdpkjdhegibkb": 3,
+              "_aaaalclphndpoalllnhmp_$2BF7D3FE0BBBD7CF$_$11$": 800,
+              "_aaaanlkiomeoonpeohkph_$BA8EC4EEDF4E7AF7$_$13$": 3,
               "BoundsOffset": {
                 "X": 0,
                 "Y": 0,
@@ -79312,7 +79671,7 @@
                 2.7,
                 2.15,
                 1.98,
-                6
+                5.13
               ],
               "FinalGearRatio": 4.3
             }
@@ -81719,6 +82078,104 @@
       ]
     },
     {
+      "package": "/WHL_07/Curves/CRV_FrontGripByReverseSpeed_WHL_07",
+      "asset": "Plugins/GameFeatures/Vehicles/WHL_07/Content/Curves/CRV_FrontGripByReverseSpeed_WHL_07",
+      "exports": [
+        {
+          "name": "CRV_FrontGripByReverseSpeed_WHL_07",
+          "type": "CurveFloat",
+          "properties": {
+            "FloatCurve": {
+              "Keys": [
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 80,
+                  "Value": 1,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                },
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 90,
+                  "Value": 0.55,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                },
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 105,
+                  "Value": 0.275,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "package": "/WHL_07/Curves/CRV_RearGripBySpeed_WHL_07",
+      "asset": "Plugins/GameFeatures/Vehicles/WHL_07/Content/Curves/CRV_RearGripBySpeed_WHL_07",
+      "exports": [
+        {
+          "name": "CRV_RearGripBySpeed_WHL_07",
+          "type": "CurveFloat",
+          "properties": {
+            "FloatCurve": {
+              "Keys": [
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 85,
+                  "Value": 1,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                },
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 95,
+                  "Value": 0.75,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                },
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 105,
+                  "Value": 0.35,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
       "package": "/WHL_07/Curves/CRV_SteerLimitVariant_WHL_07",
       "asset": "Plugins/GameFeatures/Vehicles/WHL_07/Content/Curves/CRV_SteerLimitVariant_WHL_07",
       "exports": [
@@ -81830,6 +82287,28 @@
                   "ArriveTangent": -0.000569207,
                   "ArriveTangentWeight": 0,
                   "LeaveTangent": -0.000569207,
+                  "LeaveTangentWeight": 0
+                },
+                {
+                  "InterpMode": "RCIM_Cubic",
+                  "TangentMode": "RCTM_User",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 95,
+                  "Value": 0.5,
+                  "ArriveTangent": 0.0004710732,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0.0004710732,
+                  "LeaveTangentWeight": 0
+                },
+                {
+                  "InterpMode": "RCIM_Cubic",
+                  "TangentMode": "RCTM_User",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 100,
+                  "Value": 3,
+                  "ArriveTangent": 0.08496196,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0.08496196,
                   "LeaveTangentWeight": 0
                 }
               ]
@@ -82312,6 +82791,16 @@
           "type": "MWheeledVehicleCharacteristicsDataAsset",
           "properties": {
             "Mass": 10000,
+            "_aaabfocjlhhckjbpebecm": {
+              "ref": "/Mechanized/Curves/CRV_TerminalVelocityByMass"
+            },
+            "_aaabdhabjabkoffmgcpch": 200,
+            "_aaabegefgdibnpnonbpdg": {
+              "ref": "/WHL_07/Curves/CRV_RearGripBySpeed_WHL_07"
+            },
+            "_aaabmaimkbeojeieknefl": {
+              "ref": "/WHL_07/Curves/CRV_FrontGripByReverseSpeed_WHL_07"
+            },
             "InertiaScale": {
               "X": 1,
               "Y": 1,
@@ -82527,12 +83016,12 @@
               "Vehicle.PhysicsGroup.MainBody.Rear"
             ],
             "_aaabapaalbmcgefnkeden_$F00B1C2645DA434D$_$16$": {
-              "_aaaaiilbfgipjfmnodgoa": 150,
-              "_aaaanfbaabccmjoafaohg": 150,
+              "_aaaaijihnabjcmogijgma_$987D0192CE6896C0$_$8$": 150,
+              "_aaaanifblogallcdlegnp_$851BE60BB23B46DF$_$13$": 150,
               "RingCount": 1,
-              "_aaaalokhgkfoapmcocanl": 800,
-              "_aaaandgghdpkjdhegibkb": 3,
-              "_aaaappffdfakbghkalhfi": {
+              "_aaaalclphndpoalllnhmp_$2BF7D3FE0BBBD7CF$_$11$": 800,
+              "_aaaanlkiomeoonpeohkph_$BA8EC4EEDF4E7AF7$_$13$": 3,
+              "_aaaapjdhocgpbfakjfmmg_$937E26F150A95CC6$_$15$": {
                 "X": 1,
                 "Y": 1,
                 "Z": 1.1
@@ -82574,7 +83063,8 @@
                 1.1,
                 3.25
               ],
-              "FinalGearRatio": 7.32
+              "FinalGearRatio": 7.32,
+              "_aaabceogpiegghjhdmpno": 5
             }
           }
         }
@@ -84263,7 +84753,7 @@
           "properties": {
             "bPhysicsSurfaceUpdate": true,
             "LateralFriction": {
-              "Values": 0.6,
+              "Values": 0.7,
               "Values[1]": 0.525,
               "Values[2]": 0.25
             },
@@ -90307,6 +90797,82 @@
       ]
     },
     {
+      "package": "/WHL_08/Curves/CRV_FrontGripByReverseSpeed_WHL_08",
+      "asset": "Plugins/GameFeatures/Vehicles/WHL_08/Content/Curves/CRV_FrontGripByReverseSpeed_WHL_08",
+      "exports": [
+        {
+          "name": "CRV_FrontGripByReverseSpeed_WHL_08",
+          "type": "CurveFloat",
+          "properties": {
+            "FloatCurve": {
+              "Keys": [
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 130,
+                  "Value": 1,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                },
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 147,
+                  "Value": 0.6,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "package": "/WHL_08/Curves/CRV_RearGripBySpeed_WHL_08",
+      "asset": "Plugins/GameFeatures/Vehicles/WHL_08/Content/Curves/CRV_RearGripBySpeed_WHL_08",
+      "exports": [
+        {
+          "name": "CRV_RearGripBySpeed_WHL_08",
+          "type": "CurveFloat",
+          "properties": {
+            "FloatCurve": {
+              "Keys": [
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 130,
+                  "Value": 1,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                },
+                {
+                  "InterpMode": "RCIM_Linear",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 147,
+                  "Value": 0.6,
+                  "ArriveTangent": 0,
+                  "ArriveTangentWeight": 0,
+                  "LeaveTangent": 0,
+                  "LeaveTangentWeight": 0
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
       "package": "/WHL_08/Curves/CRV_SteerLimitVariant_WHL_08",
       "asset": "Plugins/GameFeatures/Vehicles/WHL_08/Content/Curves/CRV_SteerLimitVariant_WHL_08",
       "exports": [
@@ -95408,6 +95974,17 @@
           "type": "MWheeledVehicleCharacteristicsDataAsset",
           "properties": {
             "Mass": 3200,
+            "_aaabfocjlhhckjbpebecm": {
+              "ref": "/Mechanized/Curves/CRV_TerminalVelocityByMass"
+            },
+            "_aaabjmpiofbcngagodjpo": true,
+            "_aaabdhabjabkoffmgcpch": 147,
+            "_aaabegefgdibnpnonbpdg": {
+              "ref": "/WHL_08/Curves/CRV_RearGripBySpeed_WHL_08"
+            },
+            "_aaabmaimkbeojeieknefl": {
+              "ref": "/WHL_08/Curves/CRV_FrontGripByReverseSpeed_WHL_08"
+            },
             "InertiaScale": {
               "X": 1,
               "Y": 1,
@@ -95647,7 +96224,7 @@
                 1.4,
                 1,
                 0.75,
-                3.55
+                2.15
               ],
               "FinalGearRatio": 6.54
             }

@@ -1,4 +1,5 @@
 import { PUBLISHED } from "./derived/schemas.js";
+import { geometryHash } from "./transform/vehicleModels.js";
 
 /** One published file that is a list of records, and how to tell records apart and name them. */
 export interface RecordSet {
@@ -34,11 +35,24 @@ export const RECORD_SETS: readonly RecordSet[] = [
     key: (r) => `${r.kind}|${r.package}`,
     label: (r) => `${r.kind} ${r.package}`,
   },
+  {
+    schema: "vehicle-models",
+    path: "data/vehicle-models.json",
+    // A part's geometry is compared by a fingerprint, so a report does not print tens of thousands of numbers.
+    records: (json) =>
+      ((json.models as Array<{ id: string; parts: Array<Record<string, any>>; physics?: Record<string, any> | null }>) ?? []).flatMap((m) => [
+        ...m.parts.map((p) => ({ model: m.id, ...p, vertices: undefined, triangles: undefined, vertexCount: p.vertices.length / 3, triangleCount: p.triangles.length / 3, geometry: geometryHash({ vertices: p.vertices, triangles: p.triangles }) })),
+        ...(m.physics ? [{ model: m.id, id: "physics", ...m.physics }] : []),
+      ]),
+    key: (r) => `${r.model}|${r.id}`,
+    label: (r) => `${r.model} ${r.id}`,
+  },
   { schema: "equipment", path: "data/equipment.json", records: list("armor"), key: (r) => r.id },
   { schema: "buildables", path: "data/buildables.json", records: list("buildables"), key: (r) => r.id, label: (r) => `${r.name ?? r.id} (${r.id})` },
   { schema: "loot", path: "data/loot.json", records: list("tables"), key: (r) => r.id },
   { schema: "tags", path: "data/tags.json", records: list("tags"), key: (r) => `${r.tag}|${r.source}`, label: (r) => `${r.tag} = ${r.text}` },
   { schema: "cosmetics", path: "data/cosmetics.json", records: list("cosmetics"), key: (r) => `${r.id}|${r.source}` },
+  { schema: "settings", path: "data/settings.json", records: (json) => (json.settings as Array<Record<string, any>>) ?? [], key: (r) => r.id, label: (r) => r.id },
   { schema: "movement", path: "data/movement.json", records: (json) => [Object.fromEntries(Object.entries(json).filter(([k]) => k !== "schemaVersion" && k !== "gameBuild"))], key: () => "movement", label: () => "movement" },
   { schema: "skills", path: "data/skills.json", records: list("skills"), key: (r) => r.id, label: (r) => `${r.name ?? r.id} (${r.id})` },
   {

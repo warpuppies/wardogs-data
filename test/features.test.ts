@@ -225,7 +225,8 @@ describe("cosmetics", () => {
     const named = new Set(sets.map((s) => s.id));
     // Taxi liveries and emotes are categories, not named sets.
     expect(cosmetics.filter((c) => !named.has(c.set) && !["Emote", "FactionLogo", "Taxi"].includes(c.set)).map((c) => c.id)).toEqual([]);
-    expect(cosmetics.filter((c) => c.archetype && !items.has(c.item.toLowerCase())).map((c) => c.id)).toEqual([]);
+    // Emotes carry the non-item archetype "Player.Emote"; their item points at an emote id, not data/items.json.
+    expect(cosmetics.filter((c) => c.archetype && c.archetype !== "Player.Emote" && !items.has(c.item.toLowerCase())).map((c) => c.id)).toEqual([]);
     expect(sets.find((s) => s.id === "BlackAndGold")?.name).toBe("Black & Gold");
     expect(cosmetics.find((c) => c.id === "BlackAndGold.AK74")).toMatchObject({ item: "Id.Item.AK74M", archetype: "AR" });
   });

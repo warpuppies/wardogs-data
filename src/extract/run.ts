@@ -120,3 +120,12 @@ export function exportActors(config: Config, worldFolder: string, classPattern: 
   mkdirSync(dirname(outFile), { recursive: true });
   return runDotnet(config, ["export-actors", worldFolder, classPattern, outFile]);
 }
+
+/**
+ * Writes the geometry of a static or skeletal mesh as JSON: every level of detail (positions in centimeters, triangle
+ * indices) and, for a skeletal mesh, its bones. `mesh` is the package or object path the game uses (`/ROT_03/Meshes/SM_X`).
+ */
+export function exportMesh(config: Config, mesh: string, outFile: string): Promise<void> {
+  mkdirSync(dirname(outFile), { recursive: true });
+  return runDotnet(config, ["export-mesh", mesh, outFile]);
+}

@@ -127,7 +127,8 @@ const TYPE_NAMES: Record<number, string> = {
   0: "Byte", 1: "Bool", 2: "Int", 3: "Float", 4: "Object", 5: "Name", 6: "Delegate", 7: "Double", 8: "Array", 9: "Struct",
   10: "Str", 11: "Text", 12: "Interface", 13: "MulticastDelegate", 14: "WeakObject", 15: "LazyObject", 16: "AssetObject",
   17: "SoftObject", 18: "UInt64", 19: "UInt32", 20: "UInt16", 21: "Int64", 22: "Int16", 23: "Int8", 24: "Map", 25: "Set",
-  26: "Enum", 27: "FieldPath", 28: "Optional", 29: "Utf8Str", 30: "AnsiStr", 255: "Unknown",
+  26: "Enum", 27: "FieldPath", 28: "Optional", 29: "Utf8Str", 30: "AnsiStr", 31: "Class", 32: "MulticastInlineDelegate",
+  33: "SoftClass", 34: "VerseString", 35: "VerseDynamic", 36: "VerseFunction", 255: "Unknown",
 };
 
 /** Reads the name table, enums and structs of a .usmap body. */
