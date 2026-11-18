@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "gameBuild": "25937608",
+  "gameBuild": "26615518",
   "sets": [
     {
       "id": "Featured",
@@ -12,6 +12,12 @@
       "id": "BlackAndGold",
       "name": "Black & Gold",
       "sortIndex": 1,
+      "hidden": false
+    },
+    {
+      "id": "Badge",
+      "name": "Badges",
+      "sortIndex": 2,
       "hidden": false
     },
     {
@@ -54,7 +60,7 @@
       "id": "Emote",
       "name": "Emotes",
       "sortIndex": 8,
-      "hidden": true
+      "hidden": false
     },
     {
       "id": "Bobblehead",
@@ -84,6 +90,12 @@
       "source": "Season01_Skins"
     },
     {
+      "id": "BlackAndGold.Defibrillator",
+      "item": "Id.Item.Defibrillator.Standard",
+      "set": "BlackAndGold",
+      "source": "Season03_Skins"
+    },
+    {
       "id": "BlackAndGold.Littlebird",
       "item": "Vehicle.Variant.Air.Rotary.Littlebird.Default",
       "set": "BlackAndGold",
@@ -98,6 +110,13 @@
       "source": "Season02_Skins"
     },
     {
+      "id": "ChocolateChip.FAL",
+      "item": "Id.Item.WEPN_030",
+      "set": "ChocolateChip",
+      "archetype": "AR",
+      "source": "Season03_Skins"
+    },
+    {
       "id": "ChocolateChip.M14",
       "item": "Id.Item.WEPN_034",
       "set": "ChocolateChip",
@@ -105,11 +124,25 @@
       "source": "Season02_Skins"
     },
     {
+      "id": "ChocolateChip.M1911",
+      "item": "Id.Item.WEPN_026",
+      "set": "ChocolateChip",
+      "archetype": "Pistol",
+      "source": "Season03_Skins"
+    },
+    {
       "id": "ChocolateChip.TCXSPR",
       "item": "Id.Item.WEPN_037",
       "set": "ChocolateChip",
       "archetype": "AR",
       "source": "Season02_Skins"
+    },
+    {
+      "id": "DigitalWood.CompoundBow",
+      "item": "Id.Item.CombatBow",
+      "set": "DigitalWood",
+      "archetype": "Bow",
+      "source": "Season03_Skins"
     },
     {
       "id": "DigitalWood.GGX17",
@@ -150,18 +183,21 @@
       "id": "Emote.Middle_Finger",
       "item": "Id.Emote.Middle_Finger",
       "set": "Emote",
+      "archetype": "Player.Emote",
       "source": "Season01_Emotes"
     },
     {
       "id": "Emote.RockPaperScissors",
       "item": "Id.Emote.RockPaperScissors",
       "set": "Emote",
+      "archetype": "Player.Emote",
       "source": "Season01_Emotes"
     },
     {
       "id": "Emote.Shh",
       "item": "Id.Emote.Shh",
       "set": "Emote",
+      "archetype": "Player.Emote",
       "source": "Season01_Emotes"
     },
     {
@@ -219,6 +255,13 @@
       "set": "TwoToneDesert",
       "archetype": "AR",
       "source": "Season01_Skins"
+    },
+    {
+      "id": "TwoToneDesert.CGM4",
+      "item": "Id.Item.CGM4",
+      "set": "TwoToneDesert",
+      "archetype": "Launcher",
+      "source": "Season03_Skins"
     },
     {
       "id": "TwoToneDesert.DuneBuggy",

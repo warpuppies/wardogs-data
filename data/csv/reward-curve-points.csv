@@ -29,10 +29,10 @@ Challenges.Rewards.PlayerCountXPScalar,60,1,constant
 LiveCurves.Challenges.SessionEvents.BuildableDestroyedAssist.DamageFraction,0,0,linear
 LiveCurves.Challenges.SessionEvents.BuildableDestroyedAssist.DamageFraction,1,1,linear
 LiveCurves.Challenges.SessionEvents.DeploySupplyCrate.XP,0,0,constant
-LiveCurves.Challenges.SessionEvents.DeploySupplyCrate.XP,500,0.1,constant
-LiveCurves.Challenges.SessionEvents.DeploySupplyCrate.XP,1000,0.25,constant
-LiveCurves.Challenges.SessionEvents.DeploySupplyCrate.XP,2000,0.5,constant
-LiveCurves.Challenges.SessionEvents.DeploySupplyCrate.XP,2500,1,constant
+LiveCurves.Challenges.SessionEvents.DeploySupplyCrate.XP,100,0.1,constant
+LiveCurves.Challenges.SessionEvents.DeploySupplyCrate.XP,1500,0.25,constant
+LiveCurves.Challenges.SessionEvents.DeploySupplyCrate.XP,5000,0.5,constant
+LiveCurves.Challenges.SessionEvents.DeploySupplyCrate.XP,10000,1,constant
 LiveCurves.Challenges.SessionEvents.DestroySupplyCrate.Cash,0,1,constant
 LiveCurves.Challenges.SessionEvents.DestroySupplyCrate.Cash,500,1.1,constant
 LiveCurves.Challenges.SessionEvents.DestroySupplyCrate.Cash,1000,1.25,constant

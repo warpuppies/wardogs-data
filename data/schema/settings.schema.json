@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Options menu settings",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1,
+      "description": "Version of this file's layout. It changes only when the layout does."
+    },
+    "gameBuild": {
+      "type": "string",
+      "description": "Steam build id the data was extracted from."
+    },
+    "settings": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "description": "The setting asset's name, for example `DA_Setting_General_FieldOfView_Vehicle`."
+              },
+              "asset": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Path of the setting asset inside the game files."
+              },
+              "kind": {
+                "type": "string",
+                "const": "number"
+              },
+              "minimum": {
+                "description": "Lowest value.",
+                "type": "number"
+              },
+              "maximum": {
+                "description": "Highest value.",
+                "type": "number"
+              },
+              "default": {
+                "description": "Value a new player starts with.",
+                "type": "number"
+              },
+              "increment": {
+                "description": "Step between values.",
+                "type": "number"
+              },
+              "displayMinimum": {
+                "description": "What the menu shows for the lowest value, when it differs from the value itself.",
+                "type": "number"
+              },
+              "displayMaximum": {
+                "description": "What the menu shows for the highest value, when it differs from the value itself.",
+                "type": "number"
+              },
+              "fractionalDigits": {
+                "description": "Digits after the decimal point the menu shows.",
+                "type": "number"
+              },
+              "percentage": {
+                "description": "The menu shows the value as a percentage.",
+                "type": "boolean",
+                "const": true
+              }
+            },
+            "required": [
+              "id",
+              "asset",
+              "kind"
+            ],
+            "additionalProperties": false,
+            "description": "A number in a range. A field that is absent is not stored in the asset; the game then uses a built-in default that the files do not hold."
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "description": "The setting asset's name, for example `DA_Setting_General_FieldOfView_Vehicle`."
+              },
+              "asset": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Path of the setting asset inside the game files."
+              },
+              "kind": {
+                "type": "string",
+                "const": "choice"
+              },
+              "choices": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "value": {
+                      "type": "string",
+                      "description": "The choice as the game stores it: an enum name without its type (`Roll`), a gameplay tag, or `True`/`False`."
+                    },
+                    "label": {
+                      "description": "The choice's English name, when the asset holds it.",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "value"
+                  ],
+                  "additionalProperties": false
+                },
+                "description": "The choices, in the menu's order."
+              },
+              "defaultIndex": {
+                "description": "Position (from 0) in `choices` of the choice a new player starts with. Absent: not stored in the asset; the game's built-in default, usually the first.",
+                "type": "number"
+              },
+              "dynamicDefault": {
+                "description": "The game picks the starting choice at run time (for example from the hardware).",
+                "type": "boolean",
+                "const": true
+              }
+            },
+            "required": [
+              "id",
+              "asset",
+              "kind",
+              "choices"
+            ],
+            "additionalProperties": false,
+            "description": "One choice from a list."
+          }
+        ],
+        "description": "One user setting from the game's options menu."
+      },
+      "description": "Every user setting asset that holds a number or a choice, sorted by id."
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "gameBuild",
+    "settings"
+  ],
+  "additionalProperties": false,
+  "description": "The options menu's settings: the range and starting value of each number (field of view, sensitivities, dead zones) and the choices of each list. The names shown in the menu live in string tables and are not included."
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "gameBuild": "25937608",
+  "gameBuild": "26615518",
   "tags": [
     {
       "tag": "Attribute.Meta.XP.Role.Driver",
@@ -353,11 +353,6 @@
       "source": "Archetypes"
     },
     {
-      "tag": "Item.Archetype.Bobblehead",
-      "text": "Bobblehead",
-      "source": "Archetypes"
-    },
-    {
       "tag": "Item.Archetype.Bow",
       "text": "Bow",
       "source": "Archetypes"
@@ -395,6 +390,21 @@
     {
       "tag": "Item.Archetype.Pistol",
       "text": "Pistol",
+      "source": "Archetypes"
+    },
+    {
+      "tag": "Item.Archetype.Player.Badge",
+      "text": "Badges",
+      "source": "Archetypes"
+    },
+    {
+      "tag": "Item.Archetype.Player.Bobblehead",
+      "text": "Bobblehead",
+      "source": "Archetypes"
+    },
+    {
+      "tag": "Item.Archetype.Player.Emote",
+      "text": "Emotes",
       "source": "Archetypes"
     },
     {
@@ -618,6 +628,11 @@
       "source": "Calibers"
     },
     {
+      "tag": "Item.Caliber.70x1060mm",
+      "text": "Hydra 70mm",
+      "source": "Calibers"
+    },
+    {
       "tag": "Item.Caliber.762mm",
       "text": "7.62x39mm",
       "source": "Calibers"
@@ -838,6 +853,11 @@
       "source": "ServerTags"
     },
     {
+      "tag": "Server.Descriptor.LimitedGear",
+      "text": "Limited Gear",
+      "source": "ServerTags"
+    },
+    {
       "tag": "Server.Descriptor.MaxAllowedPing",
       "text": "Max Allowed Ping {Value} ms",
       "source": "ServerTags"
@@ -1044,7 +1064,7 @@
     },
     {
       "tag": "UI.Scene.Frontend.Career",
-      "text": "Unlock",
+      "text": "Progression",
       "source": "SceneNames"
     },
     {

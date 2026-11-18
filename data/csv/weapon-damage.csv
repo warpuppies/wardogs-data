@@ -6,8 +6,8 @@ Id.Item.ArtilleryBarrelTest,Artillery Barrel Test,Item.Caliber.155mm.Expensive.S
 Id.Item.ArtilleryBarrelTest,Artillery Barrel Test,Item.Caliber.155mm.Standard,ID.Item.155mm;ID.Item.155mm.Standard,450,150,1125,464,10000,
 Id.Item.ArtilleryBarrelTest,Artillery Barrel Test,Item.Caliber.155mm.Standard.Sandbox,ID.Item.155mm.Sandbox;ID.Item.155mm.Standard.Sandbox,450,150,1125,464,10000,
 Id.Item.CGM4,MAAWS,Item.Caliber.84mm,Id.Item.84mm,100,100,166.67,230,400,
-Id.Item.CombatBow,Compound Bow,Item.Caliber.Arrow,Id.Item.Arrow,77,90,115.5,160,60,100
-Id.Item.CombatBow,Compound Bow,Item.Caliber.Arrow.Explosive,Id.Item.Arrow.Explosive,150,90,225,160,60,100
+Id.Item.CombatBow,Compound Bow,Item.Caliber.Arrow,Id.Item.Arrow,77,90,115.5,240,60,100
+Id.Item.CombatBow,Compound Bow,Item.Caliber.Arrow.Explosive,Id.Item.Arrow.Explosive,150,90,225,240,60,100
 Id.Item.Glock17,GGX 17,Item.Caliber.9mm,Id.Item.9mm;Id.Item.9mm.ArmorPiercing;Id.Item.9mm.ArmorPiercing.Tracer;Id.Item.9mm.HollowPoint;Id.Item.9mm.HollowPoint.Tracer;Id.Item.9mm.Tracer,22,,,375,50,50
 Id.Item.Judge,Judge,Item.Caliber.45Colt,Id.Item.45Colt;Id.Item.45Colt.ArmorPiercing;Id.Item.45Colt.ArmorPiercing.Tracer;Id.Item.45Colt.HollowPoint;Id.Item.45Colt.HollowPoint.Tracer;Id.Item.45Colt.Tracer,45,200,150,335,50,
 Id.Item.KH2002,KH-2002,Item.Caliber.556mm,Id.Item.556mm;Id.Item.556mm.ArmorPiercing;Id.Item.556mm.ArmorPiercing.Tracer;Id.Item.556mm.HollowPoint;Id.Item.556mm.HollowPoint.Tracer;Id.Item.556mm.Tracer,28,700,326.67,715,300,300

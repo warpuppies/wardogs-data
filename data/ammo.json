@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "gameBuild": "25937608",
+  "gameBuild": "26615518",
   "units": "meters",
   "projectiles": [
     {
@@ -693,6 +693,40 @@
       },
       "items": [
         "ID.Item.70mm"
+      ]
+    },
+    {
+      "id": "Item.Caliber.70x1060mm",
+      "asset": "Content/GameMechanics/Inventory/Equipment/Caliber/70x1060mm/DA_70x1060mm_ProjectileData",
+      "damage": 100,
+      "damageType": "Meta.Damage.Explosive.Rocket.70x1060mm",
+      "damageContext": [],
+      "massKg": 57,
+      "diameterMm": 122,
+      "lengthMm": 2540,
+      "drag": {
+        "model": "GC (Cylinder)"
+      },
+      "typicalSpeed": 1430,
+      "penetration": {
+        "penetrates": false,
+        "penetratesThinSurfaces": true,
+        "effectivenessMultiplier": 2,
+        "ricochetMinAngle": 91
+      },
+      "explosive": {
+        "radius": 6,
+        "effectiveRadius": 2,
+        "falloff": 1,
+        "minimumDamage": 10,
+        "bluntDamage": 50
+      },
+      "suppression": 0.9,
+      "propulsion": {
+        "fuel": 14.5
+      },
+      "items": [
+        "Id.Item.70x1060mm"
       ]
     },
     {

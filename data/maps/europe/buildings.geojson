@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "name": "Europe-buildings",
   "coordinateSystem": "world meters (X, Y); not geographic",
-  "gameBuild": "25937608",
+  "gameBuild": "26615518",
   "features": [
     {
       "type": "Feature",
@@ -10863,11 +10863,11 @@
           [
             [
               -4633.19,
-              -6687.83
+              -6687.72
             ],
             [
               -4611.37,
-              -6687.83
+              -6687.72
             ],
             [
               -4611.37,
@@ -10879,7 +10879,7 @@
             ],
             [
               -4633.19,
-              -6687.83
+              -6687.72
             ]
           ]
         ]

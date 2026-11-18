@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "world": "Europe",
-  "gameBuild": "25937608",
+  "gameBuild": "26615518",
   "units": "meters",
   "shape": "axis-aligned bounding box",
   "count": 331,
@@ -1396,7 +1396,7 @@
         -5981.12,
         -903.09
       ],
-      "parts": 93
+      "parts": 92
     },
     {
       "id": "775921a6e5c6",
@@ -1892,7 +1892,7 @@
         -5985.85,
         -911.09
       ],
-      "parts": 98
+      "parts": 97
     },
     {
       "id": "f5b4aff5cdd3",
@@ -4460,7 +4460,7 @@
       "class": "B_Residential_House_Abandoned_01_C",
       "min": [
         -4633.19,
-        -6687.83,
+        -6687.72,
         -885.93
       ],
       "max": [

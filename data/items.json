@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "gameBuild": "25937608",
+  "gameBuild": "26615518",
   "items": [
     {
       "id": "Id.Item",
@@ -281,8 +281,8 @@
       "maxStack": 24,
       "unlock": {
         "role": "Wardog",
-        "level": 36,
-        "cost": 5000
+        "level": 32,
+        "cost": 15000
       },
       "vendor": [
         {
@@ -624,7 +624,7 @@
       "maxStack": 40,
       "unlock": {
         "role": "Wardog",
-        "level": 140,
+        "level": 170,
         "cost": 75000
       },
       "vendor": []
@@ -672,8 +672,8 @@
       "maxStack": 40,
       "unlock": {
         "role": "Wardog",
-        "level": 63,
-        "cost": 5000
+        "level": 75,
+        "cost": 15000
       },
       "vendor": []
     },
@@ -1067,7 +1067,7 @@
       "maxStack": 60,
       "unlock": {
         "role": "Wardog",
-        "level": 120,
+        "level": 140,
         "cost": 75000
       },
       "vendor": []
@@ -1115,8 +1115,8 @@
       "maxStack": 60,
       "unlock": {
         "role": "Wardog",
-        "level": 48,
-        "cost": 5000
+        "level": 49,
+        "cost": 15000
       },
       "vendor": []
     },
@@ -1262,7 +1262,7 @@
       "maxStack": 30,
       "unlock": {
         "role": "Wardog",
-        "level": 110,
+        "level": 120,
         "cost": 75000
       },
       "vendor": []
@@ -1310,8 +1310,8 @@
       "maxStack": 30,
       "unlock": {
         "role": "Wardog",
-        "level": 25,
-        "cost": 5000
+        "level": 19,
+        "cost": 15000
       },
       "vendor": []
     },
@@ -1491,7 +1491,7 @@
       "maxStack": 30,
       "unlock": {
         "role": "Wardog",
-        "level": 130,
+        "level": 160,
         "cost": 75000
       },
       "vendor": []
@@ -1539,8 +1539,8 @@
       "maxStack": 30,
       "unlock": {
         "role": "Wardog",
-        "level": 95,
-        "cost": 5000
+        "level": 68,
+        "cost": 15000
       },
       "vendor": []
     },
@@ -1862,7 +1862,7 @@
       "maxStack": 80,
       "unlock": {
         "role": "Wardog",
-        "level": 90,
+        "level": 76,
         "cost": 75000
       },
       "vendor": []
@@ -1910,8 +1910,8 @@
       "maxStack": 80,
       "unlock": {
         "role": "Wardog",
-        "level": 6,
-        "cost": 5000
+        "level": 11,
+        "cost": 15000
       },
       "vendor": []
     },
@@ -2058,7 +2058,7 @@
       "maxStack": 80,
       "unlock": {
         "role": "Wardog",
-        "level": 84,
+        "level": 80,
         "cost": 75000
       },
       "vendor": []
@@ -2106,8 +2106,8 @@
       "maxStack": 80,
       "unlock": {
         "role": "Wardog",
-        "level": 13,
-        "cost": 5000
+        "level": 12,
+        "cost": 15000
       },
       "vendor": []
     },
@@ -2167,6 +2167,36 @@
       "maxStack": 2,
       "unlock": null,
       "vendor": []
+    },
+    {
+      "id": "Id.Item.70x1060mm",
+      "kind": "item",
+      "asset": "Content/Items/Resources/Ammo/70x1060mm/ID_70x1060mm",
+      "name": "Hydra 70mm",
+      "subtitle": "Ammunition",
+      "description": "- High-explosive unguided rocket\n- large area of effect",
+      "icon": "UI/Shared/Icons/Attachments/3D/T_UI_Icon_Attachment_84Heat_Round_Textured_512x512.png",
+      "tags": [
+        "Item.Ammo",
+        "Item.Caliber.70x1060mm",
+        "Item.Context.ForceToStorage"
+      ],
+      "grid": [
+        6,
+        2
+      ],
+      "maxStack": 3,
+      "unlock": null,
+      "vendor": [
+        {
+          "tag": "Id.Item.70x1060mm",
+          "price": 450,
+          "amount": 3,
+          "categories": [
+            "Vendor.Category.Vehicle.Ammo"
+          ]
+        }
+      ]
     },
     {
       "id": "Id.Item.72mm",
@@ -2318,8 +2348,8 @@
       "maxStack": 60,
       "unlock": {
         "role": "Wardog",
-        "level": 60,
-        "cost": 50000
+        "level": 100,
+        "cost": 75000
       },
       "vendor": []
     },
@@ -2366,8 +2396,8 @@
       "maxStack": 60,
       "unlock": {
         "role": "Wardog",
-        "level": 11,
-        "cost": 5000
+        "level": 14,
+        "cost": 15000
       },
       "vendor": []
     },
@@ -2671,7 +2701,7 @@
       "maxStack": 40,
       "unlock": {
         "role": "Wardog",
-        "level": 82,
+        "level": 130,
         "cost": 75000
       },
       "vendor": []
@@ -2719,8 +2749,8 @@
       "maxStack": 40,
       "unlock": {
         "role": "Wardog",
-        "level": 28,
-        "cost": 5000
+        "level": 39,
+        "cost": 15000
       },
       "vendor": []
     },
@@ -2795,11 +2825,7 @@
       ],
       "maxStack": 1,
       "weight": 2.6,
-      "unlock": {
-        "role": "Support",
-        "level": 6,
-        "cost": 0
-      },
+      "unlock": null,
       "vendor": [
         {
           "tag": "Id.Item.93mm",
@@ -2932,7 +2958,7 @@
       "maxStack": 100,
       "unlock": {
         "role": "Wardog",
-        "level": 75,
+        "level": 90,
         "cost": 75000
       },
       "vendor": []
@@ -2980,8 +3006,8 @@
       "maxStack": 100,
       "unlock": {
         "role": "Wardog",
-        "level": 10,
-        "cost": 5000
+        "level": 13,
+        "cost": 15000
       },
       "vendor": []
     },
@@ -3618,11 +3644,7 @@
       ],
       "maxStack": 10,
       "weight": 0.01,
-      "unlock": {
-        "role": "Recon",
-        "level": 16,
-        "cost": 0
-      },
+      "unlock": null,
       "vendor": [
         {
           "tag": "Id.Item.Arrow",
@@ -3969,7 +3991,7 @@
       "weight": 0.13,
       "unlock": {
         "role": "Wardog",
-        "level": 17,
+        "level": 18,
         "cost": 5000
       },
       "vendor": []
@@ -4079,7 +4101,7 @@
       "weight": 0.8,
       "unlock": {
         "role": "Wardog",
-        "level": 12,
+        "level": 10,
         "cost": 20000
       },
       "vendor": [
@@ -4113,7 +4135,7 @@
       "weight": 1.3,
       "unlock": {
         "role": "Wardog",
-        "level": 32,
+        "level": 37,
         "cost": 50000
       },
       "vendor": [
@@ -4183,7 +4205,7 @@
       "durability": 3000,
       "unlock": {
         "role": "Support",
-        "level": 8,
+        "level": 14,
         "cost": 75000
       },
       "vendor": [
@@ -4331,7 +4353,7 @@
       "weight": 0.57,
       "unlock": {
         "role": "Infantry",
-        "level": 4,
+        "level": 5,
         "cost": 0
       },
       "vendor": [
@@ -4373,7 +4395,7 @@
       "weight": 0.02,
       "unlock": {
         "role": "Infantry",
-        "level": 4,
+        "level": 5,
         "cost": 15000
       },
       "vendor": [
@@ -4495,7 +4517,7 @@
       "weight": 1.3,
       "unlock": {
         "role": "Recon",
-        "level": 16,
+        "level": 15,
         "cost": 150000
       },
       "vendor": [
@@ -4744,7 +4766,7 @@
       "weight": 0.25,
       "unlock": {
         "role": "Medic",
-        "level": 6,
+        "level": 7,
         "cost": 20000
       },
       "vendor": [
@@ -4778,7 +4800,7 @@
       "weight": 1.5,
       "unlock": {
         "role": "Wardog",
-        "level": 150,
+        "level": 190,
         "cost": 175000
       },
       "vendor": [
@@ -4813,7 +4835,7 @@
       "weight": 0.13,
       "unlock": {
         "role": "Wardog",
-        "level": 58,
+        "level": 60,
         "cost": 25000
       },
       "vendor": [
@@ -4953,7 +4975,7 @@
       "weight": 0.12,
       "unlock": {
         "role": "Infantry",
-        "level": 48,
+        "level": 46,
         "cost": 30000
       },
       "vendor": [
@@ -5128,7 +5150,7 @@
       "weight": 0.7,
       "unlock": {
         "role": "Support",
-        "level": 24,
+        "level": 23,
         "cost": 50000
       },
       "vendor": [
@@ -5198,7 +5220,7 @@
       "weight": 0.15,
       "unlock": {
         "role": "Infantry",
-        "level": 14,
+        "level": 13,
         "cost": 10000
       },
       "vendor": [
@@ -5233,7 +5255,7 @@
       "weight": 0.11,
       "unlock": {
         "role": "Infantry",
-        "level": 11,
+        "level": 12,
         "cost": 7500
       },
       "vendor": [
@@ -5268,7 +5290,7 @@
       "weight": 0.09,
       "unlock": {
         "role": "Wardog",
-        "level": 33,
+        "level": 34,
         "cost": 15000
       },
       "vendor": [
@@ -5334,7 +5356,7 @@
       "weight": 0.08,
       "unlock": {
         "role": "Wardog",
-        "level": 38,
+        "level": 36,
         "cost": 12500
       },
       "vendor": [
@@ -5616,7 +5638,7 @@
       "weight": 1.5,
       "unlock": {
         "role": "Recon",
-        "level": 41,
+        "level": 50,
         "cost": 100000
       },
       "vendor": [
@@ -5682,7 +5704,7 @@
       "maxStack": 1,
       "unlock": {
         "role": "Recon",
-        "level": 41,
+        "level": 50,
         "cost": 80000
       },
       "vendor": [
@@ -5720,7 +5742,7 @@
       "weight": 0.63,
       "unlock": {
         "role": "Wardog",
-        "level": 18,
+        "level": 20,
         "cost": 15000
       },
       "vendor": []
@@ -5779,7 +5801,7 @@
       "weight": 0.28,
       "unlock": {
         "role": "Wardog",
-        "level": 18,
+        "level": 20,
         "cost": 0
       },
       "vendor": [
@@ -5884,7 +5906,7 @@
       "weight": 10.5,
       "unlock": {
         "role": "Wardog",
-        "level": 70,
+        "level": 150,
         "cost": 100000
       },
       "vendor": [
@@ -5918,7 +5940,7 @@
       "weight": 3,
       "unlock": {
         "role": "Wardog",
-        "level": 70,
+        "level": 150,
         "cost": 75000
       },
       "vendor": [
@@ -6343,7 +6365,7 @@
         1
       ],
       "maxStack": 1,
-      "weight": 1.5,
+      "weight": 2.7,
       "unlock": null,
       "vendor": []
     },
@@ -6372,7 +6394,7 @@
         2
       ],
       "maxStack": 1,
-      "weight": 1.5,
+      "weight": 0.2,
       "unlock": null,
       "vendor": [
         {
@@ -6410,11 +6432,7 @@
       ],
       "maxStack": 1,
       "weight": 0.43,
-      "unlock": {
-        "role": "Recon",
-        "level": 32,
-        "cost": 50000
-      },
+      "unlock": null,
       "vendor": [
         {
           "tag": "ID.Item.InfraredRangeFinder",
@@ -6795,7 +6813,7 @@
       "weight": 1.5,
       "unlock": {
         "role": "Wardog",
-        "level": 73,
+        "level": 70,
         "cost": 125000
       },
       "vendor": [
@@ -6829,7 +6847,7 @@
       "weight": 3.6,
       "unlock": {
         "role": "Wardog",
-        "level": 50,
+        "level": 47,
         "cost": 25000
       },
       "vendor": [
@@ -6868,7 +6886,7 @@
       "weight": 17.25,
       "unlock": {
         "role": "Support",
-        "level": 14,
+        "level": 8,
         "cost": 50000
       },
       "vendor": [
@@ -6952,7 +6970,7 @@
       "weight": 3,
       "unlock": {
         "role": "Wardog",
-        "level": 3,
+        "level": 8,
         "cost": 10000
       },
       "vendor": [
@@ -6985,7 +7003,7 @@
       "maxStack": 1,
       "unlock": {
         "role": "Wardog",
-        "level": 3,
+        "level": 8,
         "cost": 7500
       },
       "vendor": [
@@ -7664,7 +7682,7 @@
       "weight": 0.22,
       "unlock": {
         "role": "Wardog",
-        "level": 41,
+        "level": 40,
         "cost": 0
       },
       "vendor": [
@@ -8075,7 +8093,7 @@
       "weight": 1.46,
       "unlock": {
         "role": "Wardog",
-        "level": 80,
+        "level": 85,
         "cost": 50000
       },
       "vendor": [
@@ -8158,7 +8176,7 @@
       "weight": 0.52,
       "unlock": {
         "role": "Wardog",
-        "level": 23,
+        "level": 22,
         "cost": 10000
       },
       "vendor": [
@@ -8322,7 +8340,7 @@
       "weight": 2.2,
       "unlock": {
         "role": "Recon",
-        "level": 50,
+        "level": 49,
         "cost": 50000
       },
       "vendor": [
@@ -8627,6 +8645,7 @@
         1
       ],
       "maxStack": 1,
+      "weight": 0.3,
       "unlock": {
         "role": "Medic",
         "level": 25,
@@ -9039,7 +9058,7 @@
       "weight": 1.16,
       "unlock": {
         "role": "Infantry",
-        "level": 15,
+        "level": 16,
         "cost": 25000
       },
       "vendor": [
@@ -9530,7 +9549,7 @@
       "weight": 1.46,
       "unlock": {
         "role": "Medic",
-        "level": 45,
+        "level": 44,
         "cost": 75000
       },
       "vendor": [
@@ -9856,7 +9875,7 @@
       "weight": 1.04,
       "unlock": {
         "role": "Recon",
-        "level": 36,
+        "level": 32,
         "cost": 50000
       },
       "vendor": [
@@ -10019,7 +10038,7 @@
       "weight": 4.5,
       "unlock": {
         "role": "Wardog",
-        "level": 30,
+        "level": 50,
         "cost": 50000
       },
       "vendor": [
@@ -10053,7 +10072,7 @@
       "weight": 0.88,
       "unlock": {
         "role": "Wardog",
-        "level": 20,
+        "level": 25,
         "cost": 25000
       },
       "vendor": [
@@ -10087,7 +10106,7 @@
       "weight": 1.6,
       "unlock": {
         "role": "Wardog",
-        "level": 30,
+        "level": 50,
         "cost": 37500
       },
       "vendor": [
@@ -10151,7 +10170,7 @@
       "weight": 1.65,
       "unlock": {
         "role": "Wardog",
-        "level": 14,
+        "level": 15,
         "cost": 10000
       },
       "vendor": [
@@ -10530,8 +10549,8 @@
       "weight": 0.99,
       "unlock": {
         "role": "Infantry",
-        "level": 13,
-        "cost": 25000
+        "level": 8,
+        "cost": 12500
       },
       "vendor": [
         {
@@ -11066,7 +11085,7 @@
       "unlock": {
         "role": "Driver",
         "level": 23,
-        "cost": 5000
+        "cost": 10000
       },
       "vendor": []
     },
@@ -11113,7 +11132,7 @@
       "weight": 0.01,
       "unlock": {
         "role": "Pilot",
-        "level": 30,
+        "level": 33,
         "cost": 25000
       },
       "vendor": []
@@ -11257,7 +11276,7 @@
       "weight": 0.01,
       "unlock": {
         "role": "Wardog",
-        "level": 29,
+        "level": 28,
         "cost": 25000
       },
       "vendor": []
@@ -11284,7 +11303,7 @@
       "weight": 0.09,
       "unlock": {
         "role": "Infantry",
-        "level": 8,
+        "level": 7,
         "cost": 7500
       },
       "vendor": [
@@ -11424,7 +11443,7 @@
       "weight": 0.14,
       "unlock": {
         "role": "Recon",
-        "level": 34,
+        "level": 33,
         "cost": 20000
       },
       "vendor": [
@@ -11492,7 +11511,7 @@
       "weight": 0.15,
       "unlock": {
         "role": "Infantry",
-        "level": 5,
+        "level": 7,
         "cost": 12500
       },
       "vendor": [
@@ -11527,7 +11546,7 @@
       "weight": 0.14,
       "unlock": {
         "role": "Recon",
-        "level": 44,
+        "level": 43,
         "cost": 22500
       },
       "vendor": [
@@ -11631,7 +11650,7 @@
       "weight": 0.16,
       "unlock": {
         "role": "Support",
-        "level": 45,
+        "level": 46,
         "cost": 40000
       },
       "vendor": [
@@ -11940,7 +11959,7 @@
       "weight": 0.12,
       "unlock": {
         "role": "Recon",
-        "level": 6,
+        "level": 8,
         "cost": 12500
       },
       "vendor": [
@@ -12006,7 +12025,7 @@
       "maxStack": 1,
       "unlock": {
         "role": "Support",
-        "level": 16,
+        "level": 17,
         "cost": 30000
       },
       "vendor": [
@@ -12040,7 +12059,7 @@
       "weight": 0.06,
       "unlock": {
         "role": "Medic",
-        "level": 36,
+        "level": 37,
         "cost": 40000
       },
       "vendor": [
@@ -12108,7 +12127,7 @@
       "weight": 0.45,
       "unlock": {
         "role": "Recon",
-        "level": 38,
+        "level": 42,
         "cost": 35000
       },
       "vendor": [
@@ -12660,7 +12679,7 @@
       "weight": 0.045,
       "unlock": {
         "role": "Infantry",
-        "level": 32,
+        "level": 31,
         "cost": 35000
       },
       "vendor": [
@@ -12694,7 +12713,7 @@
       "weight": 0.094,
       "unlock": {
         "role": "Infantry",
-        "level": 37,
+        "level": 22,
         "cost": 37500
       },
       "vendor": [
@@ -12728,7 +12747,7 @@
       "weight": 0.38,
       "unlock": {
         "role": "Infantry",
-        "level": 40,
+        "level": 42,
         "cost": 40000
       },
       "vendor": [
@@ -12762,7 +12781,7 @@
       "weight": 0.53,
       "unlock": {
         "role": "Support",
-        "level": 40,
+        "level": 43,
         "cost": 35000
       },
       "vendor": [
@@ -12880,7 +12899,7 @@
       "weight": 0.75,
       "unlock": {
         "role": "Recon",
-        "level": 45,
+        "level": 44,
         "cost": 32500
       },
       "vendor": [
@@ -12914,7 +12933,7 @@
       "weight": 0.6,
       "unlock": {
         "role": "Medic",
-        "level": 48,
+        "level": 46,
         "cost": 50000
       },
       "vendor": [
@@ -13018,7 +13037,7 @@
       "weight": 0.55,
       "unlock": {
         "role": "Recon",
-        "level": 15,
+        "level": 14,
         "cost": 15000
       },
       "vendor": [
@@ -13142,7 +13161,7 @@
       "asset": "Plugins/GameFeatures/Parachutes/Content/ID_Parachute_Basic",
       "name": "Parachute",
       "subtitle": "Traversal",
-      "description": "- Single Use\n- Must be manually Deployed\n- Cannot be Controlled",
+      "description": "- Single Use\n- Must be manually Deployed\n- Cannot be Controlled\n- Effective Above 100m",
       "icon": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Parachute_Basic.png",
       "tags": [
         "Inventory.Slot.Traversal",
@@ -13160,7 +13179,7 @@
       "vendor": [
         {
           "tag": "Id.Item.Parachute.Basic",
-          "price": 500,
+          "price": 1250,
           "amount": 1,
           "categories": [
             "Vendor.Category.Gear.Traversal"
@@ -13174,7 +13193,7 @@
       "asset": "Plugins/GameFeatures/Parachutes/Content/ID_Parachute_Sport",
       "name": "Parachute",
       "subtitle": "Traversal",
-      "description": "- Single Use\n- Must be manually Deployed\n- Can be Controlled",
+      "description": "- Single Use\n- Must be manually Deployed\n- Can be Controlled\n- Effective above 60m",
       "icon": "UI/Shared/Icons/Utility/3D/T_UI_Icon_Parachute_Sport.png",
       "tags": [
         "Inventory.Slot.Traversal",
@@ -13190,13 +13209,13 @@
       "weight": 9,
       "unlock": {
         "role": "Wardog",
-        "level": 34,
+        "level": 45,
         "cost": 25000
       },
       "vendor": [
         {
           "tag": "Id.Item.Parachute.Sport",
-          "price": 700,
+          "price": 2250,
           "amount": 1,
           "categories": [
             "Vendor.Category.Gear.Traversal"
@@ -13545,7 +13564,7 @@
       "weight": 0.22,
       "unlock": {
         "role": "Infantry",
-        "level": 16,
+        "level": 17,
         "cost": 15000
       },
       "vendor": [
@@ -13941,7 +13960,7 @@
       "weight": 1.05,
       "unlock": {
         "role": "Wardog",
-        "level": 15,
+        "level": 17,
         "cost": 7500
       },
       "vendor": [
@@ -13980,7 +13999,7 @@
       "weight": 6.3,
       "unlock": {
         "role": "Support",
-        "level": 6,
+        "level": 5,
         "cost": 30000
       },
       "vendor": [
@@ -14251,7 +14270,7 @@
       "weight": 0.42,
       "unlock": {
         "role": "Support",
-        "level": 21,
+        "level": 22,
         "cost": 35000
       },
       "vendor": []
@@ -15283,7 +15302,7 @@
       "weight": 12.5,
       "unlock": {
         "role": "Recon",
-        "level": 35,
+        "level": 41,
         "cost": 200000
       },
       "vendor": [
@@ -15381,7 +15400,7 @@
       "weight": 1.27,
       "unlock": {
         "role": "Recon",
-        "level": 35,
+        "level": 41,
         "cost": 0
       },
       "vendor": [
@@ -15676,7 +15695,7 @@
       "weight": 0.06,
       "unlock": {
         "role": "Medic",
-        "level": 16,
+        "level": 17,
         "cost": 25000
       },
       "vendor": [
@@ -16025,7 +16044,7 @@
       "weight": 18,
       "unlock": {
         "role": "Wardog",
-        "level": 100,
+        "level": 180,
         "cost": 200000
       },
       "vendor": [
@@ -16059,7 +16078,7 @@
       "weight": 4.5,
       "unlock": {
         "role": "Wardog",
-        "level": 100,
+        "level": 180,
         "cost": 150000
       },
       "vendor": [
@@ -16707,7 +16726,7 @@
       "weight": 0.89,
       "unlock": {
         "role": "Medic",
-        "level": 43,
+        "level": 42,
         "cost": 25000
       },
       "vendor": [
@@ -16982,7 +17001,7 @@
       "kind": "item",
       "asset": "Plugins/GameFeatures/Vehicles/SupplyCrates/Content/ItemID/ID_LargeSupplyCrate",
       "name": "Large Supply Crate",
-      "description": "- Unarmored resupply crate\n- 35 Slots available\n- Will be destroyed by high-speed impacts (approx. 60m free-fall max.)",
+      "description": "- Unarmored resupply crate\n- 35 Slots available\n- Will be destroyed by high-speed impacts (approx. 35m free-fall max.)",
       "icon": "SupplyCrates/UI/Textures/ID_Item_VehicleSupplyCrate_Large.png",
       "tags": [
         "Inventory.Type.Storage",
@@ -16994,8 +17013,8 @@
       ],
       "maxStack": 1,
       "unlock": {
-        "role": "Driver",
-        "level": 17,
+        "role": "Pilot",
+        "level": 18,
         "cost": 20000
       },
       "vendor": [
@@ -17014,7 +17033,7 @@
       "kind": "item",
       "asset": "Plugins/GameFeatures/Vehicles/SupplyCrates/Content/ItemID/ID_LargeSupplyCrate_Armoured",
       "name": "Large Armoured Supply Crate",
-      "description": "- Armored resupply crate\n- Resistant to Bullets and Explosions\n- 35 Slots available\n- Will be destroyed by high-speed impacts (approx. 80m free-fall max.)",
+      "description": "- Armored resupply crate\n- Resistant to Bullets and Explosions\n- 35 Slots available\n- Will be destroyed by high-speed impacts (approx. 35m free-fall max.)",
       "icon": "SupplyCrates/UI/Textures/ID_Item_VehicleSupplyCrate_Large_Armoured.png",
       "tags": [
         "Inventory.Type.Storage",
@@ -17027,8 +17046,8 @@
       "maxStack": 1,
       "unlock": {
         "role": "Pilot",
-        "level": 15,
-        "cost": 25000
+        "level": 30,
+        "cost": 50000
       },
       "vendor": [
         {
@@ -17046,7 +17065,7 @@
       "kind": "item",
       "asset": "Plugins/GameFeatures/Vehicles/SupplyCrates/Content/ItemID/Prefabs/ID_LargeSupplyPallet_BuildSupplies",
       "name": "Build Supply Pallet",
-      "description": "- Building resource pallet\n- Delivery to FOB is recommended\n- Will be destroyed by high-speed impacts (approx. 90m free-fall max.)",
+      "description": "- Building resource pallet\n- Delivery to FOB is recommended\n- Will be destroyed by high-speed impacts (approx. 40m free-fall max.)",
       "icon": "UI/Shared/Icons/Vehicles/GarageVendor/T_UI_Supply_Build_Palette.png",
       "tags": [
         "Inventory.Type.Storage",
@@ -17074,7 +17093,7 @@
       "kind": "item",
       "asset": "Plugins/GameFeatures/Vehicles/SupplyCrates/Content/ItemID/Prefabs/ID_LargeSupplyPallet_FuelSupplies",
       "name": "Fuel Supply Pallet",
-      "description": "- Fuel resource pallet\n- Delivery to FOB is recommended\n- Will be destroyed by high-speed impacts (approx. 90m free-fall max.)",
+      "description": "- Fuel resource pallet\n- Delivery to FOB is recommended\n- Will be destroyed by high-speed impacts (approx. 40m free-fall max.)",
       "icon": "UI/Shared/Icons/Vehicles/GarageVendor/T_UI_Supply_Fuel_Palette.png",
       "tags": [
         "Inventory.Type.Storage",
@@ -17087,7 +17106,7 @@
       "maxStack": 1,
       "unlock": {
         "role": "Wardog",
-        "level": 16,
+        "level": 30,
         "cost": 50000
       },
       "vendor": [
@@ -17106,7 +17125,7 @@
       "kind": "item",
       "asset": "Plugins/GameFeatures/Vehicles/SupplyCrates/Content/ItemID/Prefabs/ID_LargeSupplyPallet_MunitionsSupplies",
       "name": "Munitions Supply Pallet",
-      "description": "- Ammo resource pallet\n- Delivery to FOB is recommended\n- Will be destroyed by high-speed impacts (approx. 90m free-fall max.)",
+      "description": "- Ammo resource pallet\n- Delivery to FOB is recommended\n- Will be destroyed by high-speed impacts (approx. 40m free-fall max.)",
       "icon": "UI/Shared/Icons/Vehicles/GarageVendor/T_UI_Supply_Ammo_Palette.png",
       "tags": [
         "Inventory.Type.Storage",
@@ -17119,7 +17138,7 @@
       "maxStack": 1,
       "unlock": {
         "role": "Wardog",
-        "level": 9,
+        "level": 24,
         "cost": 25000
       },
       "vendor": [
@@ -17138,7 +17157,7 @@
       "kind": "item",
       "asset": "Plugins/GameFeatures/Vehicles/SupplyCrates/Content/ItemID/Prefabs/ID_LargeSupplyPallet_SparePartsSupplies",
       "name": "Mechanical Supply Pallet",
-      "description": "- Mechanical resource pallet\n- Delivery to FOB is recommended\n- Will be destroyed by high-speed impacts (approx. 90m free-fall max.)",
+      "description": "- Mechanical resource pallet\n- Delivery to FOB is recommended\n- Will be destroyed by high-speed impacts (approx. 40m free-fall max.)",
       "icon": "UI/Shared/Icons/Vehicles/GarageVendor/T_UI_Supply_Mech_Palette.png",
       "tags": [
         "Inventory.Type.Storage",
@@ -17151,7 +17170,7 @@
       "maxStack": 1,
       "unlock": {
         "role": "Wardog",
-        "level": 5,
+        "level": 16,
         "cost": 10000
       },
       "vendor": [
@@ -17170,7 +17189,7 @@
       "kind": "item",
       "asset": "Plugins/GameFeatures/Vehicles/SupplyCrates/Content/ItemID/ID_SmallSupplyCrate",
       "name": "Small Supply Crate",
-      "description": "- Unarmored resupply crate\n- 24 Slots available\n- Will be destroyed by high-speed impacts (approx. 60m free-fall max.)",
+      "description": "- Unarmored resupply crate\n- 24 Slots available\n- Will be destroyed by high-speed impacts (approx. 35m free-fall max.)",
       "icon": "SupplyCrates/UI/Textures/ID_Item_VehicleSupplyCrate_Small.png",
       "tags": [
         "Inventory.Type.Storage",
@@ -17198,7 +17217,7 @@
       "kind": "item",
       "asset": "Plugins/GameFeatures/Vehicles/SupplyCrates/Content/ItemID/ID_SmallSupplyCrate_Armoured",
       "name": "Small Armoured Supply Crate",
-      "description": "- Armored resupply crate\n- Resistant to Bullets and Explosions\n- 24 Slots available\n- Will be destroyed by high-speed impacts (approx. 80m free-fall max.)",
+      "description": "- Armored resupply crate\n- Resistant to Bullets and Explosions\n- 24 Slots available\n- Will be destroyed by high-speed impacts (approx. 35m free-fall max.)",
       "icon": "SupplyCrates/UI/Textures/ID_Item_VehicleSupplyCrate_Small_Armoured.png",
       "tags": [
         "Inventory.Type.Storage",
@@ -17596,7 +17615,7 @@
       "weight": 0.63,
       "unlock": {
         "role": "Wardog",
-        "level": 85,
+        "level": 110,
         "cost": 125000
       },
       "vendor": []
@@ -17750,7 +17769,7 @@
       "icon": "UI/Shared/Icons/Vendor/Weapons/T_UI_Weapons_WEPN_037.png",
       "tags": [
         "Inventory.Slot.Primary",
-        "Item.Archetype.DMR",
+        "Item.Archetype.AR",
         "Item.Context.Equippable",
         "Item.Context.Animation.Type.Rifle",
         "Item.Context.Animation.Archetype.Rifle",
@@ -17848,12 +17867,12 @@
       "unlock": {
         "role": "Pilot",
         "level": 35,
-        "cost": 650000
+        "cost": 750000
       },
       "vendor": [
         {
           "tag": "Vehicle.Variant.Air.Rotary.Havoc.Default",
-          "price": 28000,
+          "price": 26000,
           "amount": 1,
           "categories": [
             "Vendor.Category.Vehicle.Air",
@@ -17911,7 +17930,7 @@
       "vendor": [
         {
           "tag": "Vehicle.Variant.Air.Rotary.Littlebird.MountedMachineGuns",
-          "price": 12000,
+          "price": 10480,
           "amount": 1,
           "categories": [
             "Vendor.Category.Vehicle.Air",
@@ -18028,9 +18047,9 @@
       ],
       "maxStack": 1,
       "unlock": {
-        "role": "Driver",
-        "level": 25,
-        "cost": 300000
+        "role": "Wardog",
+        "level": 165,
+        "cost": 500000
       },
       "vendor": [
         {
@@ -18059,8 +18078,8 @@
       ],
       "maxStack": 1,
       "unlock": {
-        "role": "Driver",
-        "level": 31,
+        "role": "Wardog",
+        "level": 145,
         "cost": 350000
       },
       "vendor": [
@@ -18090,9 +18109,9 @@
       ],
       "maxStack": 1,
       "unlock": {
-        "role": "Driver",
-        "level": 35,
-        "cost": 500000
+        "role": "Wardog",
+        "level": 200,
+        "cost": 750000
       },
       "vendor": [
         {
@@ -18121,8 +18140,8 @@
       ],
       "maxStack": 1,
       "unlock": {
-        "role": "Driver",
-        "level": 20,
+        "role": "Wardog",
+        "level": 155,
         "cost": 250000
       },
       "vendor": [
@@ -18180,7 +18199,7 @@
       "maxStack": 1,
       "unlock": {
         "role": "Driver",
-        "level": 9,
+        "level": 12,
         "cost": 25000
       },
       "vendor": [
@@ -18211,7 +18230,7 @@
       "maxStack": 1,
       "unlock": {
         "role": "Driver",
-        "level": 14,
+        "level": 15,
         "cost": 75000
       },
       "vendor": [
@@ -18242,7 +18261,7 @@
       "maxStack": 1,
       "unlock": {
         "role": "Driver",
-        "level": 24,
+        "level": 25,
         "cost": 125000
       },
       "vendor": [
@@ -18337,7 +18356,7 @@
       "vendor": [
         {
           "tag": "Vehicle.Variant.Land.Wheeled.Kodiak.MachineGun",
-          "price": 6750,
+          "price": 6250,
           "amount": 1,
           "categories": [
             "Vendor.Category.Vehicle.Land",
@@ -18393,7 +18412,7 @@
       "maxStack": 1,
       "unlock": {
         "role": "Driver",
-        "level": 22,
+        "level": 20,
         "cost": 100000
       },
       "vendor": [
@@ -18424,7 +18443,7 @@
       "maxStack": 1,
       "unlock": {
         "role": "Driver",
-        "level": 15,
+        "level": 16,
         "cost": 75000
       },
       "vendor": [
@@ -18517,13 +18536,13 @@
       "maxStack": 1,
       "unlock": {
         "role": "Driver",
-        "level": 16,
+        "level": 17,
         "cost": 125000
       },
       "vendor": [
         {
           "tag": "Vehicle.Variant.Land.Wheeled.WHL_08.MachineGun",
-          "price": 7800,
+          "price": 6800,
           "amount": 1,
           "categories": [
             "Vendor.Category.Vehicle.Land",

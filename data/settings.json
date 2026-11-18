@@ -1,0 +1,1176 @@
+{
+  "schemaVersion": 1,
+  "gameBuild": "26615518",
+  "settings": [
+    {
+      "id": "DA_Setting_Accessibility_HUD_Visibility",
+      "asset": "Content/GameMechanics/Settings/Accessibility/DA_Setting_Accessibility_HUD_Visibility",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "On",
+          "label": "Always On"
+        },
+        {
+          "value": "Dynamic",
+          "label": "Dynamic"
+        },
+        {
+          "value": "Off",
+          "label": "Off"
+        }
+      ],
+      "defaultIndex": 1
+    },
+    {
+      "id": "DA_Setting_Accessibility_HUD_Visibility_Global",
+      "asset": "Content/GameMechanics/Settings/Accessibility/DA_Setting_Accessibility_HUD_Visibility_Global",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "On",
+          "label": "Always On"
+        },
+        {
+          "value": "Dynamic",
+          "label": "Dynamic"
+        },
+        {
+          "value": "Off",
+          "label": "Off"
+        },
+        {
+          "value": "Custom",
+          "label": "Custom"
+        }
+      ],
+      "defaultIndex": 1
+    },
+    {
+      "id": "DA_Setting_Accessibility_HUD_Visibility_NonDynamic",
+      "asset": "Content/GameMechanics/Settings/Accessibility/DA_Setting_Accessibility_HUD_Visibility_NonDynamic",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "On",
+          "label": "Always On"
+        },
+        {
+          "value": "Off",
+          "label": "Off"
+        }
+      ]
+    },
+    {
+      "id": "DA_Setting_Accessibility_Language",
+      "asset": "Content/GameMechanics/Settings/Accessibility/DA_Setting_Accessibility_Language",
+      "kind": "choice",
+      "choices": [],
+      "dynamicDefault": true
+    },
+    {
+      "id": "DA_Setting_Accessibility_NameplateBackgroundOpacity",
+      "asset": "Content/GameMechanics/Settings/Accessibility/DA_Setting_Accessibility_NameplateBackgroundOpacity",
+      "kind": "number",
+      "increment": 1,
+      "displayMaximum": 100,
+      "fractionalDigits": 0,
+      "percentage": true
+    },
+    {
+      "id": "DA_Setting_BackgroundFrameRateLimit",
+      "asset": "Content/GameMechanics/Settings/Video/DA_Setting_BackgroundFrameRateLimit",
+      "kind": "number",
+      "maximum": 360,
+      "default": 120,
+      "increment": 1,
+      "displayMaximum": 360,
+      "fractionalDigits": 0
+    },
+    {
+      "id": "DA_Setting_Controls_ActionBehavior_Default_Hold",
+      "asset": "Plugins/BHFramework/Content/Settings/Controls/DA_Setting_Controls_ActionBehavior_Default_Hold",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "Hold"
+        },
+        {
+          "value": "Toggle"
+        }
+      ]
+    },
+    {
+      "id": "DA_Setting_Controls_ActionBehavior_Default_Toggle",
+      "asset": "Plugins/BHFramework/Content/Settings/Controls/DA_Setting_Controls_ActionBehavior_Default_Toggle",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "Hold"
+        },
+        {
+          "value": "Toggle"
+        }
+      ],
+      "defaultIndex": 1
+    },
+    {
+      "id": "DA_Setting_Controls_ActionBehavior_Default_ToggleOnly",
+      "asset": "Plugins/BHFramework/Content/Settings/Controls/DA_Setting_Controls_ActionBehavior_Default_ToggleOnly",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "Toggle"
+        }
+      ]
+    },
+    {
+      "id": "DA_Setting_Controls_ActionBehaviour_RotaryMouse",
+      "asset": "Plugins/BHFramework/Content/Settings/Controls/DA_Setting_Controls_ActionBehaviour_RotaryMouse",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "True"
+        },
+        {
+          "value": "False"
+        }
+      ],
+      "defaultIndex": 1
+    },
+    {
+      "id": "DA_Setting_Controls_AimAssistSensitivityMultiplier",
+      "asset": "Plugins/BHFramework/Content/Settings/Controls/DA_Setting_Controls_AimAssistSensitivityMultiplier",
+      "kind": "number",
+      "default": 1,
+      "fractionalDigits": 1
+    },
+    {
+      "id": "DA_Setting_Controls_GamepadResponseCurveType",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_GamepadResponseCurveType",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "Linear",
+          "label": "Linear"
+        },
+        {
+          "value": "Standard",
+          "label": "Standard"
+        },
+        {
+          "value": "Classic",
+          "label": "Classic"
+        },
+        {
+          "value": "Dynamic",
+          "label": "Dynamic"
+        }
+      ],
+      "defaultIndex": 1
+    },
+    {
+      "id": "DA_Setting_Controls_Gamepad_ADSSensitivityMultiplier",
+      "asset": "Plugins/BHFramework/Content/Settings/Controls/DA_Setting_Controls_Gamepad_ADSSensitivityMultiplier",
+      "kind": "number",
+      "minimum": 0.01,
+      "maximum": 5,
+      "default": 0.5,
+      "increment": 0.01
+    },
+    {
+      "id": "DA_Setting_Controls_Gamepad_AxisConfig",
+      "asset": "Plugins/BHFramework/Content/Settings/Controls/DA_Setting_Controls_Gamepad_AxisConfig",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "Input.Gamepad.Config.Axis.Default",
+          "label": "Default"
+        }
+      ]
+    },
+    {
+      "id": "DA_Setting_Controls_Gamepad_ButtonConfig_GroundVehicle",
+      "asset": "Plugins/BHFramework/Content/Settings/Controls/DA_Setting_Controls_Gamepad_ButtonConfig_GroundVehicle",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "Input.Gamepad.Config.Button.Vehicle.Ground.Default",
+          "label": "Default"
+        }
+      ]
+    },
+    {
+      "id": "DA_Setting_Controls_Gamepad_ButtonConfig_Helicopter",
+      "asset": "Plugins/BHFramework/Content/Settings/Controls/DA_Setting_Controls_Gamepad_ButtonConfig_Helicopter",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "Input.Gamepad.Config.Button.Vehicle.Air.Helicopter.Default",
+          "label": "Default"
+        }
+      ]
+    },
+    {
+      "id": "DA_Setting_Controls_Gamepad_ButtonConfig_Infantry",
+      "asset": "Plugins/BHFramework/Content/Settings/Controls/DA_Setting_Controls_Gamepad_ButtonConfig_Infantry",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "Input.Gamepad.Config.Button.Infantry.Default",
+          "label": "Default"
+        }
+      ]
+    },
+    {
+      "id": "DA_Setting_Controls_Gamepad_DeadZonePreset_LookStick",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_Gamepad_DeadZonePreset_LookStick",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "None",
+          "label": "None"
+        },
+        {
+          "value": "Small",
+          "label": "Small"
+        },
+        {
+          "value": "Medium",
+          "label": "Medium"
+        },
+        {
+          "value": "Large",
+          "label": "Large"
+        },
+        {
+          "value": "Custom",
+          "label": "Custom"
+        }
+      ],
+      "defaultIndex": 2
+    },
+    {
+      "id": "DA_Setting_Controls_Gamepad_DeadZonePreset_MoveStick",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_Gamepad_DeadZonePreset_MoveStick",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "None",
+          "label": "None"
+        },
+        {
+          "value": "Small",
+          "label": "Small"
+        },
+        {
+          "value": "Medium",
+          "label": "Medium"
+        },
+        {
+          "value": "Large",
+          "label": "Large"
+        },
+        {
+          "value": "Custom",
+          "label": "Custom"
+        }
+      ],
+      "defaultIndex": 2
+    },
+    {
+      "id": "DA_Setting_Controls_Gamepad_DeadZonePreset_Triggers",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_Gamepad_DeadZonePreset_Triggers",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "None",
+          "label": "None"
+        },
+        {
+          "value": "Custom",
+          "label": "Custom"
+        }
+      ]
+    },
+    {
+      "id": "DA_Setting_Controls_Gamepad_Deadzone_LeftTriggerMax",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_Gamepad_Deadzone_LeftTriggerMax",
+      "kind": "number",
+      "minimum": 5,
+      "maximum": 100,
+      "default": 100,
+      "increment": 1,
+      "displayMinimum": 1,
+      "displayMaximum": 10,
+      "fractionalDigits": 0,
+      "percentage": true
+    },
+    {
+      "id": "DA_Setting_Controls_Gamepad_Deadzone_LeftTriggerMin",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_Gamepad_Deadzone_LeftTriggerMin",
+      "kind": "number",
+      "maximum": 95,
+      "increment": 1,
+      "displayMinimum": 1,
+      "displayMaximum": 10,
+      "fractionalDigits": 0,
+      "percentage": true
+    },
+    {
+      "id": "DA_Setting_Controls_Gamepad_Deadzone_LookStickAxial",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_Gamepad_Deadzone_LookStickAxial",
+      "kind": "number",
+      "maximum": 30,
+      "default": 15,
+      "increment": 1,
+      "displayMinimum": 1,
+      "displayMaximum": 10,
+      "fractionalDigits": 0,
+      "percentage": true
+    },
+    {
+      "id": "DA_Setting_Controls_Gamepad_Deadzone_LookStickCentre",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_Gamepad_Deadzone_LookStickCentre",
+      "kind": "number",
+      "maximum": 30,
+      "default": 15,
+      "increment": 1,
+      "displayMinimum": 1,
+      "displayMaximum": 10,
+      "fractionalDigits": 0,
+      "percentage": true
+    },
+    {
+      "id": "DA_Setting_Controls_Gamepad_Deadzone_LookStickMaxInput",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_Gamepad_Deadzone_LookStickMaxInput",
+      "kind": "number",
+      "maximum": 15,
+      "default": 15,
+      "increment": 1,
+      "displayMinimum": 1,
+      "displayMaximum": 10,
+      "fractionalDigits": 0,
+      "percentage": true
+    },
+    {
+      "id": "DA_Setting_Controls_Gamepad_Deadzone_MoveStickAxial",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_Gamepad_Deadzone_MoveStickAxial",
+      "kind": "number",
+      "maximum": 30,
+      "default": 15,
+      "increment": 1,
+      "displayMinimum": 1,
+      "displayMaximum": 10,
+      "fractionalDigits": 0,
+      "percentage": true
+    },
+    {
+      "id": "DA_Setting_Controls_Gamepad_Deadzone_MoveStickCentre",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_Gamepad_Deadzone_MoveStickCentre",
+      "kind": "number",
+      "maximum": 30,
+      "default": 15,
+      "increment": 1,
+      "displayMinimum": 1,
+      "displayMaximum": 10,
+      "fractionalDigits": 0,
+      "percentage": true
+    },
+    {
+      "id": "DA_Setting_Controls_Gamepad_Deadzone_MoveStickMaxInput",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_Gamepad_Deadzone_MoveStickMaxInput",
+      "kind": "number",
+      "maximum": 15,
+      "default": 15,
+      "increment": 1,
+      "displayMinimum": 1,
+      "displayMaximum": 10,
+      "fractionalDigits": 0,
+      "percentage": true
+    },
+    {
+      "id": "DA_Setting_Controls_Gamepad_Deadzone_RightTriggerMax",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_Gamepad_Deadzone_RightTriggerMax",
+      "kind": "number",
+      "minimum": 5,
+      "maximum": 100,
+      "default": 100,
+      "increment": 1,
+      "displayMinimum": 1,
+      "displayMaximum": 10,
+      "fractionalDigits": 0,
+      "percentage": true
+    },
+    {
+      "id": "DA_Setting_Controls_Gamepad_Deadzone_RightTriggerMin",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_Gamepad_Deadzone_RightTriggerMin",
+      "kind": "number",
+      "maximum": 95,
+      "increment": 1,
+      "displayMinimum": 1,
+      "displayMaximum": 10,
+      "fractionalDigits": 0,
+      "percentage": true
+    },
+    {
+      "id": "DA_Setting_Controls_Gamepad_HorizontalSensitivity",
+      "asset": "Plugins/BHFramework/Content/Settings/Controls/DA_Setting_Controls_Gamepad_HorizontalSensitivity",
+      "kind": "number",
+      "minimum": 1,
+      "maximum": 7,
+      "default": 4,
+      "displayMinimum": 1,
+      "displayMaximum": 10,
+      "fractionalDigits": 1
+    },
+    {
+      "id": "DA_Setting_Controls_Gamepad_VerticalSensitivity",
+      "asset": "Plugins/BHFramework/Content/Settings/Controls/DA_Setting_Controls_Gamepad_VerticalSensitivity",
+      "kind": "number",
+      "minimum": 1,
+      "maximum": 7,
+      "default": 3,
+      "displayMinimum": 1,
+      "displayMaximum": 10,
+      "fractionalDigits": 1
+    },
+    {
+      "id": "DA_Setting_Controls_LookAccelMagnitudeThreshold",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_LookAccelMagnitudeThreshold",
+      "kind": "number",
+      "minimum": 0.01,
+      "default": 0.9,
+      "increment": 0.01,
+      "displayMinimum": 0.01
+    },
+    {
+      "id": "DA_Setting_Controls_LookAccelMaxMultiplier",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_LookAccelMaxMultiplier",
+      "kind": "number",
+      "minimum": 1.2,
+      "maximum": 5,
+      "default": 1.5,
+      "displayMinimum": 1.2,
+      "displayMaximum": 5,
+      "fractionalDigits": 1
+    },
+    {
+      "id": "DA_Setting_Controls_LookAccelPitchWeight",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_LookAccelPitchWeight",
+      "kind": "number",
+      "default": 0.2,
+      "increment": 0.05
+    },
+    {
+      "id": "DA_Setting_Controls_LookAccelerationCurveType",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_LookAccelerationCurveType",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "Standard",
+          "label": "Standard"
+        },
+        {
+          "value": "Linear",
+          "label": "Linear"
+        },
+        {
+          "value": "Aggressive",
+          "label": "Aggressive"
+        }
+      ]
+    },
+    {
+      "id": "DA_Setting_Controls_MouseAcceleration",
+      "asset": "Plugins/BHFramework/Content/Settings/Controls/DA_Setting_Controls_MouseAcceleration",
+      "kind": "number",
+      "maximum": 0.05,
+      "increment": 0.01,
+      "displayMaximum": 5
+    },
+    {
+      "id": "DA_Setting_Controls_RotaryMouseAxisIsolation",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_RotaryMouseAxisIsolation",
+      "kind": "number",
+      "maximum": 100,
+      "increment": 5,
+      "displayMaximum": 100,
+      "fractionalDigits": 0,
+      "percentage": true
+    },
+    {
+      "id": "DA_Setting_Controls_RotaryMouseAxisX",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_RotaryMouseAxisX",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "Roll",
+          "label": "Roll"
+        },
+        {
+          "value": "Yaw",
+          "label": "Yaw"
+        },
+        {
+          "value": "Disabled",
+          "label": "Disabled"
+        }
+      ]
+    },
+    {
+      "id": "DA_Setting_Controls_RotaryMouseAxisY",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_RotaryMouseAxisY",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "Pitch",
+          "label": "Pitch"
+        },
+        {
+          "value": "Disabled",
+          "label": "Disabled"
+        }
+      ]
+    },
+    {
+      "id": "DA_Setting_Controls_RotaryMousePitchSensitivity",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_RotaryMousePitchSensitivity",
+      "kind": "number",
+      "minimum": 1,
+      "maximum": 100,
+      "default": 50,
+      "increment": 1,
+      "displayMinimum": 1,
+      "displayMaximum": 100,
+      "fractionalDigits": 0,
+      "percentage": true
+    },
+    {
+      "id": "DA_Setting_Controls_RotaryMouseRollSensitivity",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_RotaryMouseRollSensitivity",
+      "kind": "number",
+      "minimum": 1,
+      "maximum": 100,
+      "default": 50,
+      "increment": 1,
+      "displayMinimum": 1,
+      "displayMaximum": 100,
+      "fractionalDigits": 0,
+      "percentage": true
+    },
+    {
+      "id": "DA_Setting_Controls_RotaryMouseYawSensitivity",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_RotaryMouseYawSensitivity",
+      "kind": "number",
+      "minimum": 1,
+      "maximum": 100,
+      "default": 50,
+      "increment": 1,
+      "displayMinimum": 1,
+      "displayMaximum": 100,
+      "fractionalDigits": 0,
+      "percentage": true
+    },
+    {
+      "id": "DA_Setting_Controls_Sensitivity",
+      "asset": "Plugins/BHFramework/Content/Settings/Controls/DA_Setting_Controls_Sensitivity",
+      "kind": "number",
+      "minimum": 0.1,
+      "default": 0.4,
+      "increment": 0.01,
+      "displayMinimum": 0.1,
+      "displayMaximum": 2
+    },
+    {
+      "id": "DA_Setting_Controls_SensitivityFOVScalingMode",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_SensitivityFOVScalingMode",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "Relative",
+          "label": "Relative"
+        },
+        {
+          "value": "Legacy",
+          "label": "Legacy"
+        }
+      ]
+    },
+    {
+      "id": "DA_Setting_Controls_SensitivityFOVTransitionType",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_SensitivityFOVTransitionType",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "StartAiming",
+          "label": "While Transitioning"
+        },
+        {
+          "value": "AimingAlpha",
+          "label": "ADS Transition"
+        },
+        {
+          "value": "EndAiming",
+          "label": "Transition Finished"
+        },
+        {
+          "value": "IsAiming",
+          "label": "Instant"
+        }
+      ],
+      "defaultIndex": 1
+    },
+    {
+      "id": "DA_Setting_Controls_SensitivityMultiplier",
+      "asset": "Plugins/BHFramework/Content/Settings/Controls/DA_Setting_Controls_SensitivityMultiplier",
+      "kind": "number",
+      "minimum": 0.01,
+      "maximum": 5,
+      "default": 1,
+      "increment": 0.01
+    },
+    {
+      "id": "DA_Setting_Controls_SensitivityMultiplier_Vehicle_Weapons",
+      "asset": "Plugins/BHFramework/Content/Settings/Controls/DA_Setting_Controls_SensitivityMultiplier_Vehicle_Weapons",
+      "kind": "number",
+      "minimum": 0.01,
+      "default": 1,
+      "increment": 0.01
+    },
+    {
+      "id": "DA_Setting_Controls_SensitivityMultiplier_Vehicles",
+      "asset": "Plugins/BHFramework/Content/Settings/Controls/DA_Setting_Controls_SensitivityMultiplier_Vehicles",
+      "kind": "number",
+      "minimum": 0.01,
+      "maximum": 2,
+      "default": 0.5,
+      "increment": 0.01
+    },
+    {
+      "id": "DA_Setting_Controls_SensitivityRelativeCoefficient",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_Controls_SensitivityRelativeCoefficient",
+      "kind": "number",
+      "maximum": 100,
+      "default": 100,
+      "increment": 1,
+      "fractionalDigits": 0,
+      "percentage": true
+    },
+    {
+      "id": "DA_Setting_General_AimingFOVMode",
+      "asset": "Content/GameMechanics/Settings/General/DA_Setting_General_AimingFOVMode",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "Affected",
+          "label": "Affected"
+        },
+        {
+          "value": "Independent",
+          "label": "Independent"
+        }
+      ]
+    },
+    {
+      "id": "DA_Setting_General_BipodDeployMode",
+      "asset": "Content/GameMechanics/Settings/General/DA_Setting_General_BipodDeployMode",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "Automatic",
+          "label": "Automatic"
+        },
+        {
+          "value": "Manual",
+          "label": "Manual"
+        }
+      ]
+    },
+    {
+      "id": "DA_Setting_General_Controller_FreeCursorSensitivity",
+      "asset": "Plugins/BHFramework/Content/Settings/General/DA_Setting_General_Controller_FreeCursorSensitivity",
+      "kind": "number",
+      "minimum": 0.1,
+      "maximum": 2,
+      "default": 1,
+      "displayMinimum": 0.1,
+      "displayMaximum": 2,
+      "fractionalDigits": 1
+    },
+    {
+      "id": "DA_Setting_General_FieldOfView",
+      "asset": "Plugins/BHFramework/Content/Settings/General/DA_Setting_General_FieldOfView",
+      "kind": "number",
+      "minimum": 60,
+      "maximum": 120,
+      "default": 90,
+      "increment": 1,
+      "fractionalDigits": 0
+    },
+    {
+      "id": "DA_Setting_General_FieldOfView_FirstPersonMesh",
+      "asset": "Content/GameMechanics/Settings/General/DA_Setting_General_FieldOfView_FirstPersonMesh",
+      "kind": "number",
+      "default": 0.3333,
+      "increment": 1,
+      "displayMinimum": 1,
+      "displayMaximum": 10,
+      "fractionalDigits": 0
+    },
+    {
+      "id": "DA_Setting_General_FieldOfView_Vehicle",
+      "asset": "Plugins/BHFramework/Content/Settings/General/DA_Setting_General_FieldOfView_Vehicle",
+      "kind": "number",
+      "minimum": 60,
+      "maximum": 110,
+      "default": 85,
+      "increment": 1,
+      "fractionalDigits": 0
+    },
+    {
+      "id": "DA_Setting_General_KillfeedFilter",
+      "asset": "Content/GameMechanics/Settings/General/DA_Setting_General_KillfeedFilter",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "All",
+          "label": "Show All"
+        },
+        {
+          "value": "Squad",
+          "label": "Show Squad Only"
+        },
+        {
+          "value": "Self",
+          "label": "Show Self Only"
+        },
+        {
+          "value": "SquadAndProximity",
+          "label": "Show Squad + Proximity"
+        }
+      ]
+    },
+    {
+      "id": "DA_Setting_General_ScoreboardBadge",
+      "asset": "Content/GameMechanics/Settings/General/DA_Setting_General_ScoreboardBadge",
+      "kind": "choice",
+      "choices": [],
+      "dynamicDefault": true
+    },
+    {
+      "id": "DA_Setting_General__AdvancedVehicle_FirstPersonFreeCamSensitivity",
+      "asset": "Plugins/BHFramework/Content/Settings/General/DA_Setting_General__AdvancedVehicle_FirstPersonFreeCamSensitivity",
+      "kind": "number",
+      "maximum": 1.5,
+      "default": 1,
+      "increment": 1,
+      "displayMaximum": 150,
+      "fractionalDigits": 0
+    },
+    {
+      "id": "DA_Setting_General__AdvancedVehicle_ThirdPersonFreeCamSensitivity",
+      "asset": "Plugins/BHFramework/Content/Settings/General/DA_Setting_General__AdvancedVehicle_ThirdPersonFreeCamSensitivity",
+      "kind": "number",
+      "maximum": 1.5,
+      "default": 1,
+      "increment": 1,
+      "displayMaximum": 150,
+      "fractionalDigits": 0
+    },
+    {
+      "id": "DA_Setting_General__AdvancedVehicle_TransmissionType",
+      "asset": "Plugins/BHFramework/Content/Settings/General/DA_Setting_General__AdvancedVehicle_TransmissionType",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "AUTO",
+          "label": "Automatic"
+        },
+        {
+          "value": "SEQUENTIAL",
+          "label": "Sequential"
+        }
+      ]
+    },
+    {
+      "id": "DA_Setting_HOTASDeadzone",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_HOTASDeadzone",
+      "kind": "number",
+      "maximum": 0.5,
+      "default": 0.05,
+      "increment": 0.01,
+      "displayMaximum": 0.5
+    },
+    {
+      "id": "DA_Setting_HOTASSensitivity",
+      "asset": "Content/GameMechanics/Settings/Controls/DA_Setting_HOTASSensitivity",
+      "kind": "number",
+      "minimum": 0.1,
+      "maximum": 2,
+      "default": 1,
+      "increment": 0.05,
+      "displayMinimum": 0.1,
+      "displayMaximum": 2
+    },
+    {
+      "id": "DA_Setting_PresetQuality_Default_High_Restricted",
+      "asset": "Plugins/BHFramework/Content/Settings/Shared/DA_Setting_PresetQuality_Default_High_Restricted",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "Custom"
+        },
+        {
+          "value": "Low"
+        },
+        {
+          "value": "Medium"
+        },
+        {
+          "value": "High"
+        },
+        {
+          "value": "Overkill"
+        },
+        {
+          "value": "Potato"
+        }
+      ],
+      "defaultIndex": 3,
+      "dynamicDefault": true
+    },
+    {
+      "id": "DA_Setting_Quality_Default_High_Restricted",
+      "asset": "Plugins/BHFramework/Content/Settings/Shared/DA_Setting_Quality_Default_High_Restricted",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "Potato"
+        },
+        {
+          "value": "Low"
+        },
+        {
+          "value": "Medium"
+        },
+        {
+          "value": "High"
+        },
+        {
+          "value": "Overkill"
+        }
+      ],
+      "defaultIndex": 1
+    },
+    {
+      "id": "DA_Setting_Sharpness",
+      "asset": "Content/GameMechanics/Settings/Video/DA_Setting_Sharpness",
+      "kind": "number",
+      "maximum": 1.5,
+      "default": 1.2,
+      "increment": 0.01
+    },
+    {
+      "id": "DA_Setting_SlowWalkSpeed",
+      "asset": "Content/GameMechanics/Settings/General/DA_Setting_SlowWalkSpeed",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "Slow",
+          "label": "SLOW"
+        },
+        {
+          "value": "Moderate",
+          "label": "MODERATE"
+        },
+        {
+          "value": "Fast",
+          "label": "FAST"
+        }
+      ]
+    },
+    {
+      "id": "DA_Setting_Toggle_Default_No",
+      "asset": "Plugins/BHFramework/Content/Settings/Shared/DA_Setting_Toggle_Default_No",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "True"
+        },
+        {
+          "value": "False"
+        }
+      ],
+      "defaultIndex": 1
+    },
+    {
+      "id": "DA_Setting_Toggle_Default_Off",
+      "asset": "Plugins/BHFramework/Content/Settings/Shared/DA_Setting_Toggle_Default_Off",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "True"
+        },
+        {
+          "value": "False"
+        }
+      ],
+      "defaultIndex": 1
+    },
+    {
+      "id": "DA_Setting_Toggle_Default_On",
+      "asset": "Plugins/BHFramework/Content/Settings/Shared/DA_Setting_Toggle_Default_On",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "True"
+        },
+        {
+          "value": "False"
+        }
+      ]
+    },
+    {
+      "id": "DA_Setting_Toggle_Default_Yes",
+      "asset": "Plugins/BHFramework/Content/Settings/Shared/DA_Setting_Toggle_Default_Yes",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "True"
+        },
+        {
+          "value": "False"
+        }
+      ]
+    },
+    {
+      "id": "DA_Setting_Video_AllowOverkillPreset",
+      "asset": "Plugins/BHFramework/Content/Settings/Video/DA_Setting_Video_AllowOverkillPreset",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "True"
+        },
+        {
+          "value": "False"
+        }
+      ],
+      "defaultIndex": 1
+    },
+    {
+      "id": "DA_Setting_Video_Brightness",
+      "asset": "Plugins/BHFramework/Content/Settings/Video/DA_Setting_Video_Brightness",
+      "kind": "number",
+      "minimum": 1.7,
+      "maximum": 2.7,
+      "default": 2.2,
+      "increment": 1,
+      "displayMinimum": 50,
+      "displayMaximum": 150,
+      "fractionalDigits": 0,
+      "percentage": true
+    },
+    {
+      "id": "DA_Setting_Video_DisplayMode",
+      "asset": "Plugins/BHFramework/Content/Settings/Video/DA_Setting_Video_DisplayMode",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "Fullscreen",
+          "label": "Fullscreen"
+        },
+        {
+          "value": "WindowedFullscreen",
+          "label": "Windowed Fullscreen"
+        },
+        {
+          "value": "Windowed",
+          "label": "Windowed"
+        }
+      ],
+      "defaultIndex": 1
+    },
+    {
+      "id": "DA_Setting_Video_DisplayResolution",
+      "asset": "Plugins/BHFramework/Content/Settings/Video/DA_Setting_Video_DisplayResolution",
+      "kind": "choice",
+      "choices": [],
+      "dynamicDefault": true
+    },
+    {
+      "id": "DA_Setting_Video_FSR3",
+      "asset": "Plugins/BHFramework/Content/Settings/Video/DA_Setting_Video_FSR3",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "UltraPerformance"
+        },
+        {
+          "value": "Performance"
+        },
+        {
+          "value": "Balanced"
+        },
+        {
+          "value": "Quality"
+        },
+        {
+          "value": "NativeAA"
+        }
+      ],
+      "defaultIndex": 3
+    },
+    {
+      "id": "DA_Setting_Video_FrameRateLimit",
+      "asset": "Plugins/BHFramework/Content/Settings/Video/DA_Setting_Video_FrameRateLimit",
+      "kind": "number",
+      "maximum": 360,
+      "increment": 1,
+      "displayMaximum": 360,
+      "fractionalDigits": 0
+    },
+    {
+      "id": "DA_Setting_Video_NVIDIA_DLSS",
+      "asset": "Plugins/BHFramework/Content/Settings/Video/DA_Setting_Video_NVIDIA_DLSS",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "UDLSSMode::Auto"
+        },
+        {
+          "value": "UDLSSMode::UltraPerformance"
+        },
+        {
+          "value": "UDLSSMode::Performance"
+        },
+        {
+          "value": "UDLSSMode::Balanced"
+        },
+        {
+          "value": "UDLSSMode::Quality"
+        },
+        {
+          "value": "UDLSSMode::UltraQuality"
+        },
+        {
+          "value": "UDLSSMode::DLAA"
+        }
+      ]
+    },
+    {
+      "id": "DA_Setting_Video_NVIDIA_DLSSG",
+      "asset": "Plugins/BHFramework/Content/Settings/Video/DA_Setting_Video_NVIDIA_DLSSG",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "Off"
+        },
+        {
+          "value": "Auto"
+        },
+        {
+          "value": "OnDynamic"
+        },
+        {
+          "value": "On2X"
+        },
+        {
+          "value": "On3X"
+        },
+        {
+          "value": "On4X"
+        },
+        {
+          "value": "On5X"
+        },
+        {
+          "value": "On6X"
+        }
+      ]
+    },
+    {
+      "id": "DA_Setting_Video_NVIDIA_Reflex",
+      "asset": "Plugins/BHFramework/Content/Settings/Video/DA_Setting_Video_NVIDIA_Reflex",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "Disabled"
+        },
+        {
+          "value": "Enabled"
+        },
+        {
+          "value": "EnabledPlusBoost"
+        }
+      ]
+    },
+    {
+      "id": "DA_Setting_Video_ResolutionScale",
+      "asset": "Plugins/BHFramework/Content/Settings/Video/DA_Setting_Video_ResolutionScale",
+      "kind": "number",
+      "default": 0.87,
+      "increment": 0.01,
+      "displayMaximum": 100,
+      "fractionalDigits": 0,
+      "percentage": true
+    },
+    {
+      "id": "DA_Setting_Video_Upscaling",
+      "asset": "Plugins/BHFramework/Content/Settings/Video/DA_Setting_Video_Upscaling",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "NoAA"
+        },
+        {
+          "value": "FXAA"
+        },
+        {
+          "value": "TAA"
+        },
+        {
+          "value": "TSR"
+        },
+        {
+          "value": "DLSS"
+        },
+        {
+          "value": "FSR3"
+        },
+        {
+          "value": "XeSS"
+        }
+      ],
+      "dynamicDefault": true
+    },
+    {
+      "id": "DA_Setting_Video_XeSS",
+      "asset": "Plugins/BHFramework/Content/Settings/Video/DA_Setting_Video_XeSS",
+      "kind": "choice",
+      "choices": [
+        {
+          "value": "UltraPerformance"
+        },
+        {
+          "value": "Performance"
+        },
+        {
+          "value": "Balanced"
+        },
+        {
+          "value": "Quality"
+        },
+        {
+          "value": "UltraQuality"
+        },
+        {
+          "value": "UltraQualityPlus"
+        },
+        {
+          "value": "AntiAliasing"
+        }
+      ]
+    }
+  ]
+}
